@@ -173,3 +173,53 @@
 [2023-05-08 00:12:55] INFO root fetch - main [MainThread]: End processing [vocalpy]: success
 [2023-05-08 00:12:55] INFO root fetch - main [MainThread]: End processing [twitter-api-py]: success
 [2023-05-08 00:12:55] INFO root fetch - main [MainThread]: Store serial: [18010195]
+[2023-05-08 00:17:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18010195]
+[2023-05-08 00:18:03] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-08 00:18:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Vocabulary-Extension
+[2023-05-08 00:18:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: berserk
+[2023-05-08 00:18:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mongodbm
+[2023-05-08 00:18:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bonbast
+[2023-05-08 00:18:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: NikeCA
+[2023-05-08 00:18:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: granular-engine
+[2023-05-08 00:18:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: colititato
+[2023-05-08 00:18:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: substack-api
+[2023-05-08 00:18:03] INFO root fetch - processPackages [Vocabulary-Extension]: New version: [0.2.1] Old Version: [0.1.0]
+[2023-05-08 00:18:03] INFO root fetch - processPackages [NikeCA]: New version: [0.2.0] Old Version: [0.1.97rc0]
+[2023-05-08 00:18:03] INFO root fetch - processPackages [granular-engine]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-08 00:18:03] WARNING root fetch - processPackages [substack-api]: Skipping, unable to determine old version
+[2023-05-08 00:18:03] INFO root fetch - main [MainThread]: End processing [substack-api] error
+[2023-05-08 00:18:03] INFO root fetch - processPackages [colititato]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-08 00:18:03] INFO root fetch - processPackages [mongodbm]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-08 00:18:03] INFO root fetch - processPackages [bonbast]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-05-08 00:18:03] INFO root fetch - processPackages [berserk]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-08 00:18:04] INFO root fetch - processPackages [berserk]: executing diffoscope
+[2023-05-08 00:18:04] INFO root fetch - processPackages [berserk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/berserk-0.8.0.tar.gz tmp/berserk-0.9.0.tar.gz --markdown 20230508/b/berserk/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-08 00:18:04] INFO root fetch - processPackages [mongodbm]: Downloading https://files.pythonhosted.org/packages/eb/d6/6f9acb53c9372a63b5d6761b704a7d159e3daab709d32252128894e1fa3d/mongodbm-0.0.2.tar.gz
+[2023-05-08 00:18:04] INFO root fetch - processPackages [granular-engine]: Downloading https://files.pythonhosted.org/packages/83/82/469989f3d9cf0d86f0bdb8baefb08461f3ea2af3de3d3070d600342207e0/granular_engine-0.2.4.tar.gz
+[2023-05-08 00:18:04] INFO root fetch - processPackages [NikeCA]: Downloading https://files.pythonhosted.org/packages/ab/d9/296748cce56542749b6ab7bca34fe2aca6e8ba9e163622b449724ab0939a/NikeCA-0.2.0.tar.gz
+[2023-05-08 00:18:04] INFO root fetch - processPackages [colititato]: Downloading https://files.pythonhosted.org/packages/80/11/9886eaf52215a69c9ec816e550ba8e2ad057286e80f802be6734380a8736/colititato-0.1.0.tar.gz
+[2023-05-08 00:18:04] INFO root fetch - processPackages [Vocabulary-Extension]: Downloading https://files.pythonhosted.org/packages/b6/a0/bf23602048c753e5b8b579e8641c83a5a4f0e22868304b81869697484614/Vocabulary-Extension-0.1.0.tar.gz
+[2023-05-08 00:18:04] INFO root fetch - processPackages [bonbast]: Downloading https://files.pythonhosted.org/packages/1c/05/951caca19e7b5b6a3bdc7dd6e89dfd6d66f36c9a1c994b772d760b742424/bonbast-0.5.4.tar.gz
+[2023-05-08 00:18:04] WARNING root fetch - processPackages [Vocabulary-Extension]: Skipping package: exceeds size limit 87810130>=10485760
+[2023-05-08 00:18:04] INFO root fetch - main [MainThread]: End processing [Vocabulary-Extension] error
+[2023-05-08 00:18:04] INFO root fetch - processPackages [NikeCA]: executing diffoscope
+[2023-05-08 00:18:04] INFO root fetch - processPackages [NikeCA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NikeCA-0.1.97rc0.tar.gz tmp/NikeCA-0.2.0.tar.gz --markdown 20230508/N/NikeCA/0.1.97rc0-0.2.0/diff.md --exclude *.pyd
+[2023-05-08 00:18:04] INFO root fetch - processPackages [mongodbm]: Downloading https://files.pythonhosted.org/packages/25/0c/0b5da8745d1296bc16319f5f511be1a56a56e174debb2cd426d07392b568/mongodbm-0.0.3.tar.gz
+[2023-05-08 00:18:04] INFO root fetch - processPackages [colititato]: Downloading https://files.pythonhosted.org/packages/fd/3e/715f40a3c435e9f212c1b1c2730f9eb7e0f323e5490fa31f44668dec159b/colititato-0.1.1.tar.gz
+[2023-05-08 00:18:04] INFO root fetch - processPackages [granular-engine]: Downloading https://files.pythonhosted.org/packages/8d/d3/b7bb5d20b17fc0ec10d45b447597e21c6f0e82d9085cb0a090f35ca9f4a6/granular_engine-0.2.5.tar.gz
+[2023-05-08 00:18:04] INFO root fetch - processPackages [mongodbm]: executing diffoscope
+[2023-05-08 00:18:04] INFO root fetch - processPackages [mongodbm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongodbm-0.0.2.tar.gz tmp/mongodbm-0.0.3.tar.gz --markdown 20230508/m/mongodbm/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-08 00:18:04] INFO root fetch - processPackages [bonbast]: Downloading https://files.pythonhosted.org/packages/4e/76/3a3e7bb0e699746a16476b1ac23e014ac776fcb3aaa6bc254e7a7cc088d2/bonbast-0.5.5.tar.gz
+[2023-05-08 00:18:04] INFO root fetch - processPackages [colititato]: executing diffoscope
+[2023-05-08 00:18:04] INFO root fetch - processPackages [colititato]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colititato-0.1.0.tar.gz tmp/colititato-0.1.1.tar.gz --markdown 20230508/c/colititato/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-08 00:18:04] INFO root fetch - processPackages [granular-engine]: executing diffoscope
+[2023-05-08 00:18:04] INFO root fetch - processPackages [granular-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/granular_engine-0.2.4.tar.gz tmp/granular_engine-0.2.5.tar.gz --markdown 20230508/g/granular-engine/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-08 00:18:04] INFO root fetch - processPackages [bonbast]: executing diffoscope
+[2023-05-08 00:18:04] INFO root fetch - processPackages [bonbast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bonbast-0.5.4.tar.gz tmp/bonbast-0.5.5.tar.gz --markdown 20230508/b/bonbast/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-05-08 00:18:05] INFO root fetch - main [MainThread]: End processing [colititato]: success
+[2023-05-08 00:18:05] INFO root fetch - main [MainThread]: End processing [NikeCA]: success
+[2023-05-08 00:18:05] INFO root fetch - main [MainThread]: End processing [granular-engine]: success
+[2023-05-08 00:18:05] INFO root fetch - main [MainThread]: End processing [bonbast]: success
+[2023-05-08 00:18:05] INFO root fetch - main [MainThread]: End processing [mongodbm]: success
+[2023-05-08 00:18:06] INFO root fetch - main [MainThread]: End processing [berserk]: success
+[2023-05-08 00:18:06] INFO root fetch - main [MainThread]: Store serial: [18010226]
