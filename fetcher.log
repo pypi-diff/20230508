@@ -822,3 +822,51 @@
 [2023-05-08 01:52:53] INFO root fetch - main [MainThread]: End processing [xztrainer]: success
 [2023-05-08 01:52:54] INFO root fetch - main [MainThread]: End processing [monty]: success
 [2023-05-08 01:52:54] INFO root fetch - main [MainThread]: Store serial: [18010598]
+[2023-05-08 01:57:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18010598]
+[2023-05-08 01:58:03] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-08 01:58:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: YATL
+[2023-05-08 01:58:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: docker
+[2023-05-08 01:58:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: no-teg
+[2023-05-08 01:58:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: detabase
+[2023-05-08 01:58:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: natml
+[2023-05-08 01:58:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: awc-cli
+[2023-05-08 01:58:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mongogettersetter
+[2023-05-08 01:58:03] INFO root fetch - processPackages [natml]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 01:58:03] INFO root fetch - processPackages [mongogettersetter]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-05-08 01:58:03] INFO root fetch - processPackages [no-teg]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-08 01:58:03] INFO root fetch - processPackages [docker]: New version: [6.1.1] Old Version: [6.1.0]
+[2023-05-08 01:58:03] INFO root fetch - processPackages [detabase]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-08 01:58:03] INFO root fetch - processPackages [YATL]: New version: [20230507.1] Old Version: [20230304.1]
+[2023-05-08 01:58:03] INFO root fetch - processPackages [mongogettersetter]: executing diffoscope
+[2023-05-08 01:58:03] INFO root fetch - processPackages [awc-cli]: New version: [1.1.0] Old Version: [1.0.4]
+[2023-05-08 01:58:03] INFO root fetch - processPackages [mongogettersetter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongogettersetter-1.3.5.tar.gz tmp/mongogettersetter-1.3.6.tar.gz --markdown 20230508/m/mongogettersetter/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-05-08 01:58:03] INFO root fetch - processPackages [docker]: Downloading https://files.pythonhosted.org/packages/db/e5/4d553bbcd7788524b2e408103f38a50d10fe419a3b52d5474fe40f6a99b7/docker-6.1.0.tar.gz
+[2023-05-08 01:58:03] INFO root fetch - processPackages [natml]: Downloading https://files.pythonhosted.org/packages/12/45/304d4a990407d7cbadc7812d1403334aebe61ee08ba68327cc3b08322342/natml-0.0.8.tar.gz
+[2023-05-08 01:58:03] INFO root fetch - processPackages [detabase]: Downloading https://files.pythonhosted.org/packages/0d/59/f88048891eaba4ea3902895a9b8b21c490626346ab767da2debe4318aaae/detabase-0.2.3.tar.gz
+[2023-05-08 01:58:03] INFO root fetch - processPackages [YATL]: Downloading https://files.pythonhosted.org/packages/0c/9f/25974c668e3818477d67077153a9744242a009a6e87751ea724ca2b32803/yatl-20230304.1.tar.gz
+[2023-05-08 01:58:03] INFO root fetch - processPackages [no-teg]: Downloading https://files.pythonhosted.org/packages/2f/39/725d3ecf1c54f2431ebe91a0fe749dd9e62b74aab61bf82b1c6c72c99b84/no-teg-0.2.0.tar.gz
+[2023-05-08 01:58:03] INFO root fetch - processPackages [detabase]: executing diffoscope
+[2023-05-08 01:58:03] INFO root fetch - processPackages [detabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/detabase-0.2.2.tar.gz tmp/detabase-0.2.3.tar.gz --markdown 20230508/d/detabase/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-08 01:58:03] INFO root fetch - processPackages [docker]: Downloading https://files.pythonhosted.org/packages/af/24/4356f92e5f879ce60f78eb55d9d8c4369fd61242e7812700c60aa1d0e6e7/docker-6.1.1.tar.gz
+[2023-05-08 01:58:03] INFO root fetch - processPackages [YATL]: Downloading https://files.pythonhosted.org/packages/40/0a/c9842e9125446519a6bdd47a886d0623a9a0d2c9a4ce44786b708b33338a/YATL-20230507.1.tar.gz
+[2023-05-08 01:58:03] INFO root fetch - processPackages [awc-cli]: Downloading https://files.pythonhosted.org/packages/3a/91/15fdf558175651021b0d17e947a11188c5b1e4698fc95d4fe42305d002b0/awc_cli-1.1.0-py2.py3-none-any.whl
+[2023-05-08 01:58:04] INFO root fetch - processPackages [docker]: executing diffoscope
+[2023-05-08 01:58:04] INFO root fetch - processPackages [docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docker-6.1.0.tar.gz tmp/docker-6.1.1.tar.gz --markdown 20230508/d/docker/6.1.0-6.1.1/diff.md --exclude *.pyd
+[2023-05-08 01:58:04] INFO root fetch - processPackages [natml]: Downloading https://files.pythonhosted.org/packages/79/72/3d7ac385ec528b2b365f2e52f63790707f2bbb1bd6acb4e59ae752028f6b/natml-0.0.9.tar.gz
+[2023-05-08 01:58:04] INFO root fetch - processPackages [no-teg]: Downloading https://files.pythonhosted.org/packages/9c/bc/22b3427cd9d6587b970590f1fd155e63797b83cf37c7ad506dd0e361a383/no-teg-0.2.1.tar.gz
+[2023-05-08 01:58:04] INFO root fetch - processPackages [YATL]: executing diffoscope
+[2023-05-08 01:58:04] INFO root fetch - processPackages [YATL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yatl-20230304.1.tar.gz tmp/YATL-20230507.1.tar.gz --markdown 20230508/Y/YATL/20230304.1-20230507.1/diff.md --exclude *.pyd
+[2023-05-08 01:58:04] INFO root fetch - processPackages [awc-cli]: executing diffoscope
+[2023-05-08 01:58:04] INFO root fetch - processPackages [awc-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awc_cli-1.0.4-py2.py3-none-any.whl.zip tmp/awc_cli-1.1.0-py2.py3-none-any.whl.zip --markdown 20230508/a/awc-cli/1.0.4-1.1.0/diff.md --exclude *.pyd
+[2023-05-08 01:58:04] INFO root fetch - processPackages [no-teg]: executing diffoscope
+[2023-05-08 01:58:04] INFO root fetch - processPackages [no-teg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/no-teg-0.2.0.tar.gz tmp/no-teg-0.2.1.tar.gz --markdown 20230508/n/no-teg/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-08 01:58:04] INFO root fetch - processPackages [natml]: executing diffoscope
+[2023-05-08 01:58:04] INFO root fetch - processPackages [natml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/natml-0.0.8.tar.gz tmp/natml-0.0.9.tar.gz --markdown 20230508/n/natml/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 01:58:04] INFO root fetch - main [MainThread]: End processing [mongogettersetter]: success
+[2023-05-08 01:58:05] INFO root fetch - main [MainThread]: End processing [YATL]: success
+[2023-05-08 01:58:05] INFO root fetch - main [MainThread]: End processing [awc-cli]: success
+[2023-05-08 01:58:05] INFO root fetch - main [MainThread]: End processing [detabase]: success
+[2023-05-08 01:58:05] INFO root fetch - main [MainThread]: End processing [no-teg]: success
+[2023-05-08 01:58:05] INFO root fetch - main [MainThread]: End processing [natml]: success
+[2023-05-08 01:58:06] INFO root fetch - main [MainThread]: End processing [docker]: success
+[2023-05-08 01:58:06] INFO root fetch - main [MainThread]: Store serial: [18010617]
