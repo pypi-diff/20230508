@@ -1,0 +1,65 @@
+[2023-05-08 00:02:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18010081]
+[2023-05-08 00:02:23] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-08 00:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: attribtool
+[2023-05-08 00:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: discovery-transition-ds
+[2023-05-08 00:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: headtailx
+[2023-05-08 00:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ua-node-avail
+[2023-05-08 00:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wynntilsresolver
+[2023-05-08 00:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: NikeCA
+[2023-05-08 00:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bismarkplot
+[2023-05-08 00:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pywry
+[2023-05-08 00:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autora-experiment-runner-recruitment-manager-prolific
+[2023-05-08 00:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sampling-constraints
+[2023-05-08 00:02:23] INFO root fetch - processPackages [wynntilsresolver]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-08 00:02:23] INFO root fetch - processPackages [ua-node-avail]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 00:02:23] WARNING root fetch - processPackages [sampling-constraints]: Skipping, unable to determine old version
+[2023-05-08 00:02:23] INFO root fetch - processPackages [sampling-constraints]: Start processing: always-updates
+[2023-05-08 00:02:23] WARNING root fetch - processPackages [autora-experiment-runner-recruitment-manager-prolific]: Skipping, unable to determine old version
+[2023-05-08 00:02:23] INFO root fetch - main [MainThread]: End processing [sampling-constraints] error
+[2023-05-08 00:02:23] INFO root fetch - processPackages [autora-experiment-runner-recruitment-manager-prolific]: Start processing: NikeCA
+[2023-05-08 00:02:23] WARNING root fetch - processPackages [headtailx]: Skipping, unable to determine old version
+[2023-05-08 00:02:23] INFO root fetch - main [MainThread]: End processing [autora-experiment-runner-recruitment-manager-prolific] error
+[2023-05-08 00:02:23] INFO root fetch - processPackages [bismarkplot]: New version: [1.0] Old Version: [0.2.5]
+[2023-05-08 00:02:23] INFO root fetch - main [MainThread]: End processing [headtailx] error
+[2023-05-08 00:02:23] WARNING root fetch - processPackages [attribtool]: Skipping, unable to determine old version
+[2023-05-08 00:02:23] INFO root fetch - main [MainThread]: End processing [attribtool] error
+[2023-05-08 00:02:23] INFO root fetch - processPackages [NikeCA]: New version: [0.1.97a0] Old Version: [0.1.97]
+[2023-05-08 00:02:23] INFO root fetch - processPackages [discovery-transition-ds]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-05-08 00:02:23] INFO root fetch - processPackages [pywry]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-08 00:02:23] INFO root fetch - processPackages [NikeCA]: New version: [0.1.97a0] Old Version: [0.1.97]
+[2023-05-08 00:02:23] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-05-08 00:02:23] INFO root fetch - processPackages [wynntilsresolver]: Downloading https://files.pythonhosted.org/packages/cb/d9/f5c72985553bc31c1b11041ccd749fb62415ebbfb27c7a3669d380cc29e8/wynntilsresolver-0.1.4.tar.gz
+[2023-05-08 00:02:24] INFO root fetch - processPackages [discovery-transition-ds]: Downloading https://files.pythonhosted.org/packages/cc/ca/dd90c3d50a2ad721c7d5c68f5fd4ee0e6e77dc44837a32cecf9e80f276da/discovery-transition-ds-4.9.8.tar.gz
+[2023-05-08 00:02:24] INFO root fetch - processPackages [ua-node-avail]: executing diffoscope
+[2023-05-08 00:02:24] INFO root fetch - processPackages [ua-node-avail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ua-node-avail-0.1.8.tar.gz tmp/ua-node-avail-0.1.9.tar.gz --markdown 20230508/u/ua-node-avail/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 00:02:24] INFO root fetch - processPackages [bismarkplot]: Downloading https://files.pythonhosted.org/packages/df/5e/8dc4475eb08c6895adc3ec7eff54499c7debbdef7cd66450710b40c3be9c/bismarkplot-0.2.5.tar.gz
+[2023-05-08 00:02:24] INFO root fetch - processPackages [pywry]: Downloading https://files.pythonhosted.org/packages/30/df/f07d3164c8a5fbe53df674d84301745c0ee0131b99096c034903f32f1dc8/pywry-0.5.1.tar.gz
+[2023-05-08 00:02:24] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-05-08 00:02:24] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230508/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-05-08 00:02:24] INFO root fetch - processPackages [NikeCA]: Downloading https://files.pythonhosted.org/packages/83/91/55cb62c9db1f1a5f3aa9662b3b14341d75a6e229d7896f344a5f4cbc50f4/NikeCA-0.1.97a0.tar.gz
+[2023-05-08 00:02:24] INFO root fetch - processPackages [NikeCA]: Downloading https://files.pythonhosted.org/packages/83/91/55cb62c9db1f1a5f3aa9662b3b14341d75a6e229d7896f344a5f4cbc50f4/NikeCA-0.1.97a0.tar.gz
+[2023-05-08 00:02:24] INFO root fetch - processPackages [wynntilsresolver]: Downloading https://files.pythonhosted.org/packages/c5/ab/27614f360b397b2638b5db9b5217981e6da1253c48a2a83ca1ba1cf3a0b5/wynntilsresolver-0.1.5.tar.gz
+[2023-05-08 00:02:24] INFO root fetch - processPackages [bismarkplot]: Downloading https://files.pythonhosted.org/packages/30/73/2193067ecd7f946c57dbb214f7d8d480535771f6ee8f1bbe839bc014f4f5/bismarkplot-1.0.tar.gz
+[2023-05-08 00:02:24] INFO root fetch - processPackages [NikeCA]: executing diffoscope
+[2023-05-08 00:02:24] INFO root fetch - processPackages [NikeCA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NikeCA-0.1.97.tar.gz tmp/NikeCA-0.1.97a0.tar.gz --markdown 20230508/N/NikeCA/0.1.97-0.1.97a0/diff.md --exclude *.pyd
+[2023-05-08 00:02:24] INFO root fetch - processPackages [NikeCA]: executing diffoscope
+[2023-05-08 00:02:24] INFO root fetch - processPackages [NikeCA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NikeCA-0.1.97.tar.gz tmp/NikeCA-0.1.97a0.tar.gz --markdown 20230508/N/NikeCA/0.1.97-0.1.97a0/diff.md --exclude *.pyd
+[2023-05-08 00:02:24] INFO root fetch - processPackages [pywry]: Downloading https://files.pythonhosted.org/packages/e8/f6/78921f60d01f4407b903d29d63373126c4f3ef331147cfaf46bce0146e29/pywry-0.5.2.tar.gz
+[2023-05-08 00:02:24] INFO root fetch - processPackages [pywry]: executing diffoscope
+[2023-05-08 00:02:24] INFO root fetch - processPackages [pywry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywry-0.5.1.tar.gz tmp/pywry-0.5.2.tar.gz --markdown 20230508/p/pywry/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-08 00:02:24] INFO root fetch - processPackages [wynntilsresolver]: executing diffoscope
+[2023-05-08 00:02:24] INFO root fetch - processPackages [wynntilsresolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wynntilsresolver-0.1.4.tar.gz tmp/wynntilsresolver-0.1.5.tar.gz --markdown 20230508/w/wynntilsresolver/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-08 00:02:24] INFO root fetch - processPackages [bismarkplot]: executing diffoscope
+[2023-05-08 00:02:24] INFO root fetch - processPackages [bismarkplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bismarkplot-0.2.5.tar.gz tmp/bismarkplot-1.0.tar.gz --markdown 20230508/b/bismarkplot/0.2.5-1.0/diff.md --exclude *.pyd
+[2023-05-08 00:02:24] INFO root fetch - processPackages [discovery-transition-ds]: Downloading https://files.pythonhosted.org/packages/ec/52/fe97bc1465aa4a0bde7a751272ca25b751fd275a83e912c56ca6a544332e/discovery-transition-ds-4.9.9.tar.gz
+[2023-05-08 00:02:25] INFO root fetch - processPackages [discovery-transition-ds]: executing diffoscope
+[2023-05-08 00:02:25] INFO root fetch - processPackages [discovery-transition-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discovery-transition-ds-4.9.8.tar.gz tmp/discovery-transition-ds-4.9.9.tar.gz --markdown 20230508/d/discovery-transition-ds/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-05-08 00:02:25] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-05-08 00:02:25] INFO root fetch - main [MainThread]: End processing [wynntilsresolver]: success
+[2023-05-08 00:02:25] INFO root fetch - main [MainThread]: End processing [pywry]: success
+[2023-05-08 00:02:25] INFO root fetch - main [MainThread]: End processing [ua-node-avail]: success
+[2023-05-08 00:02:26] INFO root fetch - main [MainThread]: End processing [NikeCA]: success
+[2023-05-08 00:02:26] INFO root fetch - main [MainThread]: End processing [bismarkplot]: success
+[2023-05-08 00:02:26] INFO root fetch - main [MainThread]: End processing [NikeCA]: success
+[2023-05-08 00:02:29] INFO root fetch - main [MainThread]: End processing [discovery-transition-ds]: success
+[2023-05-08 00:02:29] INFO root fetch - main [MainThread]: Store serial: [18010137]
