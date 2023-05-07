@@ -289,3 +289,40 @@
 [2023-05-08 00:28:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ec-account-edi]: success
 [2023-05-08 00:28:45] INFO root fetch - main [MainThread]: End processing [st-text-annotator]: success
 [2023-05-08 00:28:45] INFO root fetch - main [MainThread]: Store serial: [18010260]
+[2023-05-08 00:33:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18010260]
+[2023-05-08 00:33:54] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-08 00:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sampling-constraints
+[2023-05-08 00:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libecc
+[2023-05-08 00:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simplt
+[2023-05-08 00:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: async-rotating-proxy
+[2023-05-08 00:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oaiv
+[2023-05-08 00:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: s3dbm
+[2023-05-08 00:33:54] INFO root fetch - processPackages [sampling-constraints]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-08 00:33:54] INFO root fetch - processPackages [async-rotating-proxy]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-08 00:33:54] INFO root fetch - processPackages [libecc]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-08 00:33:54] INFO root fetch - processPackages [simplt]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-08 00:33:54] WARNING root fetch - processPackages [s3dbm]: Skipping, unable to determine old version
+[2023-05-08 00:33:54] INFO root fetch - main [MainThread]: End processing [s3dbm] error
+[2023-05-08 00:33:54] INFO root fetch - processPackages [oaiv]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-05-08 00:33:54] INFO root fetch - processPackages [simplt]: Downloading https://files.pythonhosted.org/packages/6c/b2/5dcfb3fb50661ac5866f800dec15e377fbd32d2d1cdfcfb492b8eed5615e/simplt-0.0.2.tar.gz
+[2023-05-08 00:33:54] INFO root fetch - processPackages [sampling-constraints]: Downloading https://files.pythonhosted.org/packages/ce/70/f43657c31f53673d733d60ff2bd86a667d3889880c4c7b1939cde3026a56/sampling-constraints-0.0.4.tar.gz
+[2023-05-08 00:33:54] INFO root fetch - processPackages [oaiv]: Downloading https://files.pythonhosted.org/packages/51/11/86714d5a47cf84635257434d1da1637efb686202177fde26ba6c558376c5/oaiv-0.9.6.tar.gz
+[2023-05-08 00:33:54] INFO root fetch - processPackages [async-rotating-proxy]: Downloading https://files.pythonhosted.org/packages/dc/06/77b019aa1f5b7faea16f902014ad92cc8b8049dd39e65471e870e1b5b0bf/async_rotating_proxy-0.0.4.tar.gz
+[2023-05-08 00:33:55] INFO root fetch - processPackages [sampling-constraints]: executing diffoscope
+[2023-05-08 00:33:55] INFO root fetch - processPackages [sampling-constraints]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sampling-constraints-0.0.3.tar.gz tmp/sampling-constraints-0.0.4.tar.gz --markdown 20230508/s/sampling-constraints/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-08 00:33:55] INFO root fetch - processPackages [async-rotating-proxy]: executing diffoscope
+[2023-05-08 00:33:55] INFO root fetch - processPackages [async-rotating-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_rotating_proxy-0.0.3.tar.gz tmp/async_rotating_proxy-0.0.4.tar.gz --markdown 20230508/a/async-rotating-proxy/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-08 00:33:55] INFO root fetch - processPackages [libecc]: executing diffoscope
+[2023-05-08 00:33:55] INFO root fetch - processPackages [libecc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libecc-1.0.8-py3-none-any.whl.zip tmp/libecc-1.0.9-py3-none-any.whl.zip --markdown 20230508/l/libecc/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-08 00:33:55] INFO root fetch - processPackages [simplt]: Downloading https://files.pythonhosted.org/packages/2e/72/f9fc4d908ca02436229dcf7a2b525dcb2335049c63b7d7d366b2552cb133/simplt-0.0.3.tar.gz
+[2023-05-08 00:33:55] INFO root fetch - processPackages [simplt]: executing diffoscope
+[2023-05-08 00:33:55] INFO root fetch - processPackages [simplt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplt-0.0.2.tar.gz tmp/simplt-0.0.3.tar.gz --markdown 20230508/s/simplt/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-08 00:33:55] INFO root fetch - processPackages [oaiv]: Downloading https://files.pythonhosted.org/packages/a1/5d/074da2d700cfeabad2ee01639ce3f3abd6e46cd04cc081d634313c0799e9/oaiv-0.9.7.tar.gz
+[2023-05-08 00:33:55] INFO root fetch - processPackages [oaiv]: executing diffoscope
+[2023-05-08 00:33:55] INFO root fetch - processPackages [oaiv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oaiv-0.9.6.tar.gz tmp/oaiv-0.9.7.tar.gz --markdown 20230508/o/oaiv/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-05-08 00:33:56] INFO root fetch - main [MainThread]: End processing [sampling-constraints]: success
+[2023-05-08 00:33:56] INFO root fetch - main [MainThread]: End processing [async-rotating-proxy]: success
+[2023-05-08 00:33:56] INFO root fetch - main [MainThread]: End processing [simplt]: success
+[2023-05-08 00:33:56] INFO root fetch - main [MainThread]: End processing [oaiv]: success
+[2023-05-08 00:34:06] INFO root fetch - main [MainThread]: End processing [libecc]: success
+[2023-05-08 00:34:06] INFO root fetch - main [MainThread]: Store serial: [18010285]
