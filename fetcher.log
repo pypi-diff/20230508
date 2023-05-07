@@ -595,3 +595,37 @@
 [2023-05-08 01:05:57] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
 [2023-05-08 01:05:59] INFO root fetch - main [MainThread]: End processing [monopyly]: success
 [2023-05-08 01:05:59] INFO root fetch - main [MainThread]: Store serial: [18010452]
+[2023-05-08 01:11:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18010452]
+[2023-05-08 01:11:07] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-08 01:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chatsnack
+[2023-05-08 01:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyghostdb
+[2023-05-08 01:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastapi-jwt-login
+[2023-05-08 01:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ipfskvs
+[2023-05-08 01:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mynacode
+[2023-05-08 01:11:07] INFO root fetch - processPackages [fastapi-jwt-login]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-08 01:11:07] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-05-08 01:11:07] INFO root fetch - processPackages [chatsnack]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-08 01:11:07] INFO root fetch - processPackages [pyghostdb]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-08 01:11:07] INFO root fetch - processPackages [ipfskvs]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-08 01:11:07] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-05-08 01:11:07] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230508/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-05-08 01:11:07] INFO root fetch - processPackages [chatsnack]: Downloading https://files.pythonhosted.org/packages/66/67/4f692bb123ab74d6b1e2caa93c8f78e4cd1648aadb7704e7b8a7b4ea5428/chatsnack-0.1.3.tar.gz
+[2023-05-08 01:11:07] INFO root fetch - processPackages [fastapi-jwt-login]: Downloading https://files.pythonhosted.org/packages/01/90/e34c9286904b002a331a6c5c62673dd0df43c7b70bd6a561b9def8ec5c68/fastapi_jwt_login-0.1.0.tar.gz
+[2023-05-08 01:11:07] INFO root fetch - processPackages [ipfskvs]: Downloading https://files.pythonhosted.org/packages/ac/2a/31eb94f86c45e6ed663a4a1cdc9c707c3db1e1f64963e8424c8a9c9e5b21/ipfskvs-0.1.3.tar.gz
+[2023-05-08 01:11:07] INFO root fetch - processPackages [pyghostdb]: Downloading https://files.pythonhosted.org/packages/21/7b/9a25eaaf830614a7409a40b48d3fc441b0a0501e37be61a1b0273ff65515/pyghostdb-0.0.5.tar.gz
+[2023-05-08 01:11:07] INFO root fetch - processPackages [ipfskvs]: executing diffoscope
+[2023-05-08 01:11:07] INFO root fetch - processPackages [ipfskvs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipfskvs-0.1.2.tar.gz tmp/ipfskvs-0.1.3.tar.gz --markdown 20230508/i/ipfskvs/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-08 01:11:08] INFO root fetch - processPackages [pyghostdb]: executing diffoscope
+[2023-05-08 01:11:08] INFO root fetch - processPackages [pyghostdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyghostdb-0.0.4.tar.gz tmp/pyghostdb-0.0.5.tar.gz --markdown 20230508/p/pyghostdb/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-08 01:11:08] INFO root fetch - processPackages [chatsnack]: Downloading https://files.pythonhosted.org/packages/32/33/201e450bab48c725b71c3338fd946830b8b2503b77edd422209da7237216/chatsnack-0.1.4.tar.gz
+[2023-05-08 01:11:08] INFO root fetch - processPackages [fastapi-jwt-login]: Downloading https://files.pythonhosted.org/packages/76/f0/cb7bc69828f6b4eaf4c73edc2424ae98d203960a6e0470fcff44d65c9334/fastapi_jwt_login-0.1.1.tar.gz
+[2023-05-08 01:11:08] INFO root fetch - processPackages [chatsnack]: executing diffoscope
+[2023-05-08 01:11:08] INFO root fetch - processPackages [chatsnack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatsnack-0.1.3.tar.gz tmp/chatsnack-0.1.4.tar.gz --markdown 20230508/c/chatsnack/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-08 01:11:08] INFO root fetch - processPackages [fastapi-jwt-login]: executing diffoscope
+[2023-05-08 01:11:08] INFO root fetch - processPackages [fastapi-jwt-login]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_jwt_login-0.1.0.tar.gz tmp/fastapi_jwt_login-0.1.1.tar.gz --markdown 20230508/f/fastapi-jwt-login/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-08 01:11:08] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-05-08 01:11:08] INFO root fetch - main [MainThread]: End processing [pyghostdb]: success
+[2023-05-08 01:11:08] INFO root fetch - main [MainThread]: End processing [ipfskvs]: success
+[2023-05-08 01:11:09] INFO root fetch - main [MainThread]: End processing [chatsnack]: success
+[2023-05-08 01:11:09] INFO root fetch - main [MainThread]: End processing [fastapi-jwt-login]: success
+[2023-05-08 01:11:09] INFO root fetch - main [MainThread]: Store serial: [18010466]
