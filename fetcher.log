@@ -107,3 +107,69 @@
 [2023-05-08 00:07:40] INFO root fetch - main [MainThread]: End processing [pymap]: success
 [2023-05-08 00:07:41] INFO root fetch - main [MainThread]: End processing [async-retriever]: success
 [2023-05-08 00:07:41] INFO root fetch - main [MainThread]: Store serial: [18010156]
+[2023-05-08 00:12:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18010156]
+[2023-05-08 00:12:49] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-08 00:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sampling-constraints
+[2023-05-08 00:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastapi-offline
+[2023-05-08 00:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: NikeCA
+[2023-05-08 00:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lakestream
+[2023-05-08 00:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: FakeNewsClassifier
+[2023-05-08 00:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alacorder
+[2023-05-08 00:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vocalpy
+[2023-05-08 00:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: twitter-api-py
+[2023-05-08 00:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: berserk
+[2023-05-08 00:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sampling-constraints
+[2023-05-08 00:12:49] WARNING root fetch - processPackages [FakeNewsClassifier]: Skipping, unable to determine old version
+[2023-05-08 00:12:49] INFO root fetch - main [MainThread]: End processing [FakeNewsClassifier] error
+[2023-05-08 00:12:49] INFO root fetch - processPackages [vocalpy]: New version: [0.2.0.post1] Old Version: [0.2.0]
+[2023-05-08 00:12:49] INFO root fetch - processPackages [fastapi-offline]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-05-08 00:12:49] INFO root fetch - processPackages [lakestream]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-08 00:12:49] INFO root fetch - processPackages [sampling-constraints]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-08 00:12:49] INFO root fetch - processPackages [sampling-constraints]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-08 00:12:49] INFO root fetch - processPackages [twitter-api-py]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-05-08 00:12:49] INFO root fetch - processPackages [berserk]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-08 00:12:49] INFO root fetch - processPackages [NikeCA]: New version: [0.1.97rc0] Old Version: [0.1.97b0]
+[2023-05-08 00:12:49] INFO root fetch - processPackages [alacorder]: New version: [80.3.4] Old Version: [80.3.3]
+[2023-05-08 00:12:50] INFO root fetch - processPackages [sampling-constraints]: Downloading https://files.pythonhosted.org/packages/c5/9f/34e60b7c6a80b2b4f0d3ad568ff20014e69f4d7ed9bf6005dad001b60b98/sampling-constraints-0.0.2.tar.gz
+[2023-05-08 00:12:50] INFO root fetch - processPackages [lakestream]: Downloading https://files.pythonhosted.org/packages/d3/67/37e35fa20226cc0996e1ccf066b0292b95ebf40e18ea77531dab40a08f99/lakestream-0.0.2.tar.gz
+[2023-05-08 00:12:50] INFO root fetch - processPackages [sampling-constraints]: Downloading https://files.pythonhosted.org/packages/c5/9f/34e60b7c6a80b2b4f0d3ad568ff20014e69f4d7ed9bf6005dad001b60b98/sampling-constraints-0.0.2.tar.gz
+[2023-05-08 00:12:50] INFO root fetch - processPackages [NikeCA]: Downloading https://files.pythonhosted.org/packages/99/a5/9625b035a88d0542a994e1e5b5b7b2ec3e458d733cdb9167d725d9ef8f55/NikeCA-0.1.97b0.tar.gz
+[2023-05-08 00:12:50] INFO root fetch - processPackages [fastapi-offline]: Downloading https://files.pythonhosted.org/packages/95/7b/0e75f81e8a0478b4f7e72ae267407cf19cbd85b17bd79803489fe4da5018/fastapi_offline-1.5.2.tar.gz
+[2023-05-08 00:12:50] INFO root fetch - processPackages [vocalpy]: Downloading https://files.pythonhosted.org/packages/65/bd/3b2c386f8b321516a11dc8be38daf64800f91f843d22b9de5bb4bb8261e5/vocalpy-0.2.0.post1.tar.gz
+[2023-05-08 00:12:50] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/58/c9/ee781e0df3d3afe2dc9cf552c56a71ace11923842b4b26e38dd618095d7e/alacorder-80.3.4.tar.gz
+[2023-05-08 00:12:50] INFO root fetch - processPackages [berserk]: Downloading https://files.pythonhosted.org/packages/83/7d/ca6332b8aa17ff24603b5ac7c9f4432397e7bc81c59ae2097dfb33df5d03/berserk-0.8.0.tar.gz
+[2023-05-08 00:12:50] INFO root fetch - processPackages [twitter-api-py]: Downloading https://files.pythonhosted.org/packages/be/0d/b176e3db8289243e2d6d82f6fe3ba073629ddecf9bc5eefcc8c9aa77e3c4/twitter_api_py-0.4.8.tar.gz
+[2023-05-08 00:12:50] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-05-08 00:12:50] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-80.3.3.tar.gz tmp/alacorder-80.3.4.tar.gz --markdown 20230508/a/alacorder/80.3.3-80.3.4/diff.md --exclude *.pyd
+[2023-05-08 00:12:50] INFO root fetch - processPackages [sampling-constraints]: Downloading https://files.pythonhosted.org/packages/0f/1a/d9c34e4903243a5bb89d7c7243451fd0d2a16e5dd1026145f4863a9ff6e2/sampling-constraints-0.0.3.tar.gz
+[2023-05-08 00:12:50] INFO root fetch - processPackages [lakestream]: Downloading https://files.pythonhosted.org/packages/8d/54/a03a5f4a20b4b69b3b21d71136b2da1399e9022243225cb744348c7a56d0/lakestream-0.0.3.tar.gz
+[2023-05-08 00:12:50] INFO root fetch - processPackages [sampling-constraints]: Downloading https://files.pythonhosted.org/packages/0f/1a/d9c34e4903243a5bb89d7c7243451fd0d2a16e5dd1026145f4863a9ff6e2/sampling-constraints-0.0.3.tar.gz
+[2023-05-08 00:12:50] INFO root fetch - processPackages [vocalpy]: executing diffoscope
+[2023-05-08 00:12:50] INFO root fetch - processPackages [vocalpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vocalpy-0.2.0.tar.gz tmp/vocalpy-0.2.0.post1.tar.gz --markdown 20230508/v/vocalpy/0.2.0-0.2.0.post1/diff.md --exclude *.pyd
+[2023-05-08 00:12:50] INFO root fetch - processPackages [NikeCA]: Downloading https://files.pythonhosted.org/packages/aa/da/96d793aa46d3ed75fe08a7182e9fe3b543071ef0034cec12e3fc938f1c6d/NikeCA-0.1.97rc0.tar.gz
+[2023-05-08 00:12:50] INFO root fetch - processPackages [twitter-api-py]: executing diffoscope
+[2023-05-08 00:12:50] INFO root fetch - processPackages [twitter-api-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twitter_api_py-0.4.7.tar.gz tmp/twitter_api_py-0.4.8.tar.gz --markdown 20230508/t/twitter-api-py/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-05-08 00:12:50] INFO root fetch - processPackages [berserk]: Downloading https://files.pythonhosted.org/packages/75/5d/9bc9866bce95ef40cd39bf641c210021beb83c2c4c3034eb543754a79767/berserk-0.9.0.tar.gz
+[2023-05-08 00:12:50] INFO root fetch - processPackages [lakestream]: executing diffoscope
+[2023-05-08 00:12:50] INFO root fetch - processPackages [lakestream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lakestream-0.0.2.tar.gz tmp/lakestream-0.0.3.tar.gz --markdown 20230508/l/lakestream/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-08 00:12:50] INFO root fetch - processPackages [fastapi-offline]: Downloading https://files.pythonhosted.org/packages/f3/6b/f03a0680db33ac895a2c6d3a93c6edcb4037c7e4d3dce7552e27c3f540b1/fastapi_offline-1.5.3-py3-none-any.whl
+[2023-05-08 00:12:50] INFO root fetch - processPackages [sampling-constraints]: executing diffoscope
+[2023-05-08 00:12:50] INFO root fetch - processPackages [sampling-constraints]: executing diffoscope
+[2023-05-08 00:12:50] INFO root fetch - processPackages [NikeCA]: executing diffoscope
+[2023-05-08 00:12:50] INFO root fetch - processPackages [sampling-constraints]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sampling-constraints-0.0.2.tar.gz tmp/sampling-constraints-0.0.3.tar.gz --markdown 20230508/s/sampling-constraints/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-08 00:12:50] INFO root fetch - processPackages [sampling-constraints]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sampling-constraints-0.0.2.tar.gz tmp/sampling-constraints-0.0.3.tar.gz --markdown 20230508/s/sampling-constraints/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-08 00:12:50] INFO root fetch - processPackages [NikeCA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NikeCA-0.1.97b0.tar.gz tmp/NikeCA-0.1.97rc0.tar.gz --markdown 20230508/N/NikeCA/0.1.97b0-0.1.97rc0/diff.md --exclude *.pyd
+[2023-05-08 00:12:50] INFO root fetch - processPackages [berserk]: executing diffoscope
+[2023-05-08 00:12:50] INFO root fetch - processPackages [berserk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/berserk-0.8.0.tar.gz tmp/berserk-0.9.0.tar.gz --markdown 20230508/b/berserk/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-08 00:12:50] INFO root fetch - processPackages [fastapi-offline]: executing diffoscope
+[2023-05-08 00:12:50] INFO root fetch - processPackages [fastapi-offline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_offline-1.5.2.tar.gz tmp/fastapi_offline-1.5.3-py3-none-any.whl.zip --markdown 20230508/f/fastapi-offline/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-05-08 00:12:52] INFO root fetch - main [MainThread]: End processing [sampling-constraints]: success
+[2023-05-08 00:12:52] INFO root fetch - main [MainThread]: End processing [sampling-constraints]: success
+[2023-05-08 00:12:52] INFO root fetch - main [MainThread]: End processing [berserk]: success
+[2023-05-08 00:12:53] INFO root fetch - main [MainThread]: End processing [lakestream]: success
+[2023-05-08 00:12:53] INFO root fetch - main [MainThread]: End processing [NikeCA]: success
+[2023-05-08 00:12:54] INFO root fetch - main [MainThread]: End processing [fastapi-offline]: success
+[2023-05-08 00:12:54] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-05-08 00:12:55] INFO root fetch - main [MainThread]: End processing [vocalpy]: success
+[2023-05-08 00:12:55] INFO root fetch - main [MainThread]: End processing [twitter-api-py]: success
+[2023-05-08 00:12:55] INFO root fetch - main [MainThread]: Store serial: [18010195]
