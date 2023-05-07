@@ -440,3 +440,37 @@
 [2023-05-08 00:44:29] INFO root fetch - main [MainThread]: End processing [paperscraper]: success
 [2023-05-08 00:45:01] INFO root fetch - main [MainThread]: End processing [gpt4all-j]: success
 [2023-05-08 00:45:01] INFO root fetch - main [MainThread]: Store serial: [18010357]
+[2023-05-08 00:50:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18010357]
+[2023-05-08 00:50:14] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-08 00:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: whisper-cpp-python
+[2023-05-08 00:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alexapy
+[2023-05-08 00:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: proventosweb
+[2023-05-08 00:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: selfpyintpaypal
+[2023-05-08 00:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: v3io-frames
+[2023-05-08 00:50:14] WARNING root fetch - processPackages [selfpyintpaypal]: Skipping, unable to determine old version
+[2023-05-08 00:50:14] INFO root fetch - main [MainThread]: End processing [selfpyintpaypal] error
+[2023-05-08 00:50:14] INFO root fetch - processPackages [proventosweb]: New version: [0.3] Old Version: [0.1]
+[2023-05-08 00:50:14] INFO root fetch - processPackages [whisper-cpp-python]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-08 00:50:14] INFO root fetch - processPackages [alexapy]: New version: [1.9.0] Old Version: [1.8.4]
+[2023-05-08 00:50:14] INFO root fetch - processPackages [v3io-frames]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-08 00:50:14] INFO root fetch - processPackages [whisper-cpp-python]: Downloading https://files.pythonhosted.org/packages/63/a6/c7ac898a5331be7a32bdcc7217464dd38bb5b179f35bb3ec33e91f7a4041/whisper_cpp_python-0.1.5.tar.gz
+[2023-05-08 00:50:14] INFO root fetch - processPackages [proventosweb]: Downloading https://files.pythonhosted.org/packages/4a/ff/259c76241f1e89f302f207b648632537daa7d074ffc4015746ff454c678e/proventosweb-0.1.tar.gz
+[2023-05-08 00:50:14] INFO root fetch - processPackages [v3io-frames]: Downloading https://files.pythonhosted.org/packages/a5/ce/b7b19a5d57cec191c0598f3eee0e03e08ec46e86b3529d27e659c9f5941e/v3io_frames-0.9.5.tar.gz
+[2023-05-08 00:50:14] INFO root fetch - processPackages [alexapy]: Downloading https://files.pythonhosted.org/packages/76/12/139a32dfb241d08572db07bbc200876c40556e1ef121463be553f3f5387b/AlexaPy-1.8.4.tar.gz
+[2023-05-08 00:50:15] INFO root fetch - processPackages [proventosweb]: Downloading https://files.pythonhosted.org/packages/b1/e5/a1337ee3dbbd3652f46ae0ce6d778487d8b84d4a025e9e2865661be3cae3/proventosweb-0.3.tar.gz
+[2023-05-08 00:50:15] INFO root fetch - processPackages [whisper-cpp-python]: Downloading https://files.pythonhosted.org/packages/08/67/0553121a74032ac37821a1b04645872c0920c5d62a112ab6f77e88c36a8d/whisper_cpp_python-0.1.6.tar.gz
+[2023-05-08 00:50:15] INFO root fetch - processPackages [v3io-frames]: Downloading https://files.pythonhosted.org/packages/f6/d6/959b6bfc090ed338e806d47a119ec3b52f250aba6ad968cd5c8b9f01f8af/v3io_frames-0.9.6.tar.gz
+[2023-05-08 00:50:15] INFO root fetch - processPackages [alexapy]: Downloading https://files.pythonhosted.org/packages/49/2e/1ad4eed48025126d224e8d901d111710dfa8b0dc2a5fe3290d21dabf4b8f/AlexaPy-1.9.0.tar.gz
+[2023-05-08 00:50:15] INFO root fetch - processPackages [proventosweb]: executing diffoscope
+[2023-05-08 00:50:15] INFO root fetch - processPackages [proventosweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proventosweb-0.1.tar.gz tmp/proventosweb-0.3.tar.gz --markdown 20230508/p/proventosweb/0.1-0.3/diff.md --exclude *.pyd
+[2023-05-08 00:50:15] INFO root fetch - processPackages [whisper-cpp-python]: executing diffoscope
+[2023-05-08 00:50:15] INFO root fetch - processPackages [whisper-cpp-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whisper_cpp_python-0.1.5.tar.gz tmp/whisper_cpp_python-0.1.6.tar.gz --markdown 20230508/w/whisper-cpp-python/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-08 00:50:15] INFO root fetch - processPackages [v3io-frames]: executing diffoscope
+[2023-05-08 00:50:15] INFO root fetch - processPackages [v3io-frames]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/v3io_frames-0.9.5.tar.gz tmp/v3io_frames-0.9.6.tar.gz --markdown 20230508/v/v3io-frames/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-08 00:50:15] INFO root fetch - processPackages [alexapy]: executing diffoscope
+[2023-05-08 00:50:15] INFO root fetch - processPackages [alexapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AlexaPy-1.8.4.tar.gz tmp/AlexaPy-1.9.0.tar.gz --markdown 20230508/a/alexapy/1.8.4-1.9.0/diff.md --exclude *.pyd
+[2023-05-08 00:50:16] INFO root fetch - main [MainThread]: End processing [proventosweb]: success
+[2023-05-08 00:50:16] INFO root fetch - main [MainThread]: End processing [alexapy]: success
+[2023-05-08 00:50:16] INFO root fetch - main [MainThread]: End processing [v3io-frames]: success
+[2023-05-08 00:50:19] INFO root fetch - main [MainThread]: End processing [whisper-cpp-python]: success
+[2023-05-08 00:50:19] INFO root fetch - main [MainThread]: Store serial: [18010375]
