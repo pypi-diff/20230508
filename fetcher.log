@@ -782,3 +782,43 @@
 [2023-05-08 01:47:42] INFO root fetch - main [MainThread]: End processing [awc]: success
 [2023-05-08 01:47:43] INFO root fetch - main [MainThread]: End processing [unigui]: success
 [2023-05-08 01:47:43] INFO root fetch - main [MainThread]: Store serial: [18010578]
+[2023-05-08 01:52:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18010578]
+[2023-05-08 01:52:51] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-08 01:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mongogettersetter
+[2023-05-08 01:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jais-search
+[2023-05-08 01:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: monty
+[2023-05-08 01:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llamabot
+[2023-05-08 01:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kibom
+[2023-05-08 01:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xztrainer
+[2023-05-08 01:52:52] INFO root fetch - processPackages [mongogettersetter]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-05-08 01:52:52] WARNING root fetch - processPackages [jais-search]: Skipping, unable to determine old version
+[2023-05-08 01:52:52] INFO root fetch - main [MainThread]: End processing [jais-search] error
+[2023-05-08 01:52:52] INFO root fetch - processPackages [llamabot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 01:52:52] INFO root fetch - processPackages [monty]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-05-08 01:52:52] INFO root fetch - processPackages [xztrainer]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-08 01:52:52] INFO root fetch - processPackages [kibom]: New version: [1.9.0] Old Version: [1.7.1rc0]
+[2023-05-08 01:52:52] INFO root fetch - processPackages [monty]: Downloading https://files.pythonhosted.org/packages/8e/e7/07f0704728ab5c67112d6e8a1c074e74a69dbed087ddd51315d6d40e9508/monty-4.0.1.tar.gz
+[2023-05-08 01:52:52] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/31/05/7d4721877f2dde80d5bd40c84773d24b5486a794e78758d5c6c51a0e0ee0/llamabot-0.0.8.tar.gz
+[2023-05-08 01:52:52] INFO root fetch - processPackages [xztrainer]: Downloading https://files.pythonhosted.org/packages/9d/94/459fd011b1092c415f193c5d4f184f537b49d4b87b8aff732cb5f0a9ce5e/xztrainer-0.9.5.tar.gz
+[2023-05-08 01:52:52] INFO root fetch - processPackages [kibom]: Downloading https://files.pythonhosted.org/packages/a8/dc/44303d16abe99f41f3c13cc7d7c58e8eaae403d26d02c6c7e12e4b3ac06a/kibom-1.7.1rc0-py2.py3-none-any.whl
+[2023-05-08 01:52:52] INFO root fetch - processPackages [mongogettersetter]: Downloading https://files.pythonhosted.org/packages/3f/03/f5a4aa77951ea4a3b15204cc016da757d0ec7bd20e378e460c0dd42c4581/mongogettersetter-1.3.6.tar.gz
+[2023-05-08 01:52:52] INFO root fetch - processPackages [mongogettersetter]: executing diffoscope
+[2023-05-08 01:52:52] INFO root fetch - processPackages [mongogettersetter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongogettersetter-1.3.5.tar.gz tmp/mongogettersetter-1.3.6.tar.gz --markdown 20230508/m/mongogettersetter/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-05-08 01:52:52] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/8c/77/360013b912689bcadc9699ffbfd0c59717ab5c032c425ce8f661e39484f5/llamabot-0.0.9.tar.gz
+[2023-05-08 01:52:52] INFO root fetch - processPackages [llamabot]: executing diffoscope
+[2023-05-08 01:52:52] INFO root fetch - processPackages [llamabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamabot-0.0.8.tar.gz tmp/llamabot-0.0.9.tar.gz --markdown 20230508/l/llamabot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 01:52:52] INFO root fetch - processPackages [monty]: Downloading https://files.pythonhosted.org/packages/84/60/a1fc171b7d1720bdb370077f32807dc7b87bd5245021f2fefc8c66a2ae9f/monty-4.0.2.tar.gz
+[2023-05-08 01:52:52] INFO root fetch - processPackages [xztrainer]: Downloading https://files.pythonhosted.org/packages/02/2d/2e99aaa2f4d065b350bef11b1f1da8fd1503faec00c1ecf45637e64b38bf/xztrainer-0.9.6.tar.gz
+[2023-05-08 01:52:52] INFO root fetch - processPackages [kibom]: Downloading https://files.pythonhosted.org/packages/9c/87/2113ef6529a31aa8f0322efd1b816afe89c80a3089ba50c8ce9c20d85cb0/kibom-1.9.0.tar.gz
+[2023-05-08 01:52:52] INFO root fetch - processPackages [kibom]: executing diffoscope
+[2023-05-08 01:52:52] INFO root fetch - processPackages [kibom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kibom-1.7.1rc0-py2.py3-none-any.whl.zip tmp/kibom-1.9.0.tar.gz --markdown 20230508/k/kibom/1.7.1rc0-1.9.0/diff.md --exclude *.pyd
+[2023-05-08 01:52:52] INFO root fetch - processPackages [xztrainer]: executing diffoscope
+[2023-05-08 01:52:52] INFO root fetch - processPackages [xztrainer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xztrainer-0.9.5.tar.gz tmp/xztrainer-0.9.6.tar.gz --markdown 20230508/x/xztrainer/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-08 01:52:53] INFO root fetch - processPackages [monty]: executing diffoscope
+[2023-05-08 01:52:53] INFO root fetch - processPackages [monty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monty-4.0.1.tar.gz tmp/monty-4.0.2.tar.gz --markdown 20230508/m/monty/4.0.1-4.0.2/diff.md --exclude *.pyd
+[2023-05-08 01:52:53] INFO root fetch - main [MainThread]: End processing [mongogettersetter]: success
+[2023-05-08 01:52:53] INFO root fetch - main [MainThread]: End processing [llamabot]: success
+[2023-05-08 01:52:53] INFO root fetch - main [MainThread]: End processing [kibom]: success
+[2023-05-08 01:52:53] INFO root fetch - main [MainThread]: End processing [xztrainer]: success
+[2023-05-08 01:52:54] INFO root fetch - main [MainThread]: End processing [monty]: success
+[2023-05-08 01:52:54] INFO root fetch - main [MainThread]: Store serial: [18010598]
