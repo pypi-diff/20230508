@@ -500,3 +500,23 @@
 [2023-05-08 00:55:30] INFO root fetch - main [MainThread]: End processing [hydrosignatures]: success
 [2023-05-08 00:55:30] INFO root fetch - main [MainThread]: End processing [pydaymet]: success
 [2023-05-08 00:55:30] INFO root fetch - main [MainThread]: Store serial: [18010390]
+[2023-05-08 01:00:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18010390]
+[2023-05-08 01:00:38] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-08 01:00:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pygeohydro
+[2023-05-08 01:00:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: carbox
+[2023-05-08 01:00:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datasets-summarizer
+[2023-05-08 01:00:38] INFO root fetch - processPackages [datasets-summarizer]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-08 01:00:38] WARNING root fetch - processPackages [carbox]: Skipping, unable to determine old version
+[2023-05-08 01:00:38] INFO root fetch - main [MainThread]: End processing [carbox] error
+[2023-05-08 01:00:38] INFO root fetch - processPackages [pygeohydro]: New version: [0.15.0] Old Version: [0.14.0]
+[2023-05-08 01:00:39] INFO root fetch - processPackages [datasets-summarizer]: Downloading https://files.pythonhosted.org/packages/c1/57/eb5aa41beeb4cf10ea26148de375bcce4843cfc2554218175b383e34df69/datasets-summarizer-0.1.0.tar.gz
+[2023-05-08 01:00:39] INFO root fetch - processPackages [pygeohydro]: Downloading https://files.pythonhosted.org/packages/16/dc/f975db9e1fc4563f8308d0fcd742a7c87647b23af11a0913fa50ffae15b7/pygeohydro-0.14.0.tar.gz
+[2023-05-08 01:00:39] INFO root fetch - processPackages [pygeohydro]: Downloading https://files.pythonhosted.org/packages/b8/27/461537925f39574aa725423a5f3e99f9c1f9e3c5a3be719cfe7ae6b52c78/pygeohydro-0.15.0.tar.gz
+[2023-05-08 01:00:39] INFO root fetch - processPackages [pygeohydro]: executing diffoscope
+[2023-05-08 01:00:39] INFO root fetch - processPackages [pygeohydro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygeohydro-0.14.0.tar.gz tmp/pygeohydro-0.15.0.tar.gz --markdown 20230508/p/pygeohydro/0.14.0-0.15.0/diff.md --exclude *.pyd
+[2023-05-08 01:00:39] INFO root fetch - processPackages [datasets-summarizer]: Downloading https://files.pythonhosted.org/packages/c8/39/2dbf1ef1af65976e29f2d600ef245ab48a310d5c864a4bc26f3da5505950/datasets-summarizer-0.1.1.tar.gz
+[2023-05-08 01:00:39] INFO root fetch - processPackages [datasets-summarizer]: executing diffoscope
+[2023-05-08 01:00:39] INFO root fetch - processPackages [datasets-summarizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasets-summarizer-0.1.0.tar.gz tmp/datasets-summarizer-0.1.1.tar.gz --markdown 20230508/d/datasets-summarizer/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-08 01:00:40] INFO root fetch - main [MainThread]: End processing [pygeohydro]: success
+[2023-05-08 01:00:44] INFO root fetch - main [MainThread]: End processing [datasets-summarizer]: success
+[2023-05-08 01:00:44] INFO root fetch - main [MainThread]: Store serial: [18010401]
