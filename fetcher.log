@@ -660,3 +660,33 @@
 [2023-05-08 01:21:24] INFO root fetch - main [MainThread]: End processing [detabase]: success
 [2023-05-08 01:21:25] INFO root fetch - main [MainThread]: End processing [pypackerdetect]: success
 [2023-05-08 01:21:25] INFO root fetch - main [MainThread]: Store serial: [18010491]
+[2023-05-08 01:26:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18010491]
+[2023-05-08 01:26:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-08 01:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pylovelace.kernel
+[2023-05-08 01:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aocref
+[2023-05-08 01:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datasets-summarizer
+[2023-05-08 01:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spotON_sdk
+[2023-05-08 01:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lzallright
+[2023-05-08 01:26:33] INFO root fetch - processPackages [pylovelace.kernel]: New version: [2023.3.0] Old Version: [2023.2.0]
+[2023-05-08 01:26:33] INFO root fetch - processPackages [spotON_sdk]: New version: [0.0.1.5] Old Version: [0.0.1.4]
+[2023-05-08 01:26:33] INFO root fetch - processPackages [datasets-summarizer]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-08 01:26:33] INFO root fetch - processPackages [aocref]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-08 01:26:33] INFO root fetch - processPackages [spotON_sdk]: executing diffoscope
+[2023-05-08 01:26:33] INFO root fetch - processPackages [spotON_sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotON_sdk-0.0.1.4.tar.gz tmp/spotON_sdk-0.0.1.5.tar.gz --markdown 20230508/s/spotON_sdk/0.0.1.4-0.0.1.5/diff.md --exclude *.pyd
+[2023-05-08 01:26:33] WARNING root fetch - processPackages [lzallright]: Skipping, unable to determine old version
+[2023-05-08 01:26:33] INFO root fetch - main [MainThread]: End processing [lzallright] error
+[2023-05-08 01:26:33] INFO root fetch - processPackages [datasets-summarizer]: executing diffoscope
+[2023-05-08 01:26:33] INFO root fetch - processPackages [datasets-summarizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasets-summarizer-0.1.0.tar.gz tmp/datasets-summarizer-0.1.1.tar.gz --markdown 20230508/d/datasets-summarizer/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-08 01:26:33] INFO root fetch - processPackages [pylovelace.kernel]: Downloading https://files.pythonhosted.org/packages/3b/8e/455d89ecf5d4357fbd1f83286d9e95778893b7f5e90b2179ca40e774ae6c/pylovelace.kernel-2023.2.0-cp312-none-any.whl
+[2023-05-08 01:26:33] INFO root fetch - processPackages [aocref]: Downloading https://files.pythonhosted.org/packages/ea/bd/cf12f6b30e023e267e2e3265d53d3ae8c7d2a9772f53f5147c869f427954/aocref-2.0.8.tar.gz
+[2023-05-08 01:26:34] INFO root fetch - processPackages [aocref]: Downloading https://files.pythonhosted.org/packages/87/d2/eca28112361c5e8ca395c12a250d2eaad5b11ceeaeac5f402f60eb21540b/aocref-2.0.9.tar.gz
+[2023-05-08 01:26:34] INFO root fetch - processPackages [pylovelace.kernel]: Downloading https://files.pythonhosted.org/packages/c0/c7/076c31aebf7f8819298680d950774736719af8ce8a74cb8ecf232047e96a/pylovelace.kernel-2023.3.0-cp312-none-any.whl
+[2023-05-08 01:26:34] INFO root fetch - processPackages [aocref]: executing diffoscope
+[2023-05-08 01:26:34] INFO root fetch - processPackages [aocref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aocref-2.0.8.tar.gz tmp/aocref-2.0.9.tar.gz --markdown 20230508/a/aocref/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-08 01:26:34] INFO root fetch - processPackages [pylovelace.kernel]: executing diffoscope
+[2023-05-08 01:26:34] INFO root fetch - processPackages [pylovelace.kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylovelace.kernel-2023.2.0-cp312-none-any.whl.zip tmp/pylovelace.kernel-2023.3.0-cp312-none-any.whl.zip --markdown 20230508/p/pylovelace.kernel/2023.2.0-2023.3.0/diff.md --exclude *.pyd
+[2023-05-08 01:26:34] INFO root fetch - main [MainThread]: End processing [spotON_sdk]: success
+[2023-05-08 01:26:35] INFO root fetch - main [MainThread]: End processing [aocref]: success
+[2023-05-08 01:26:38] INFO root fetch - main [MainThread]: End processing [datasets-summarizer]: success
+[2023-05-08 01:26:55] INFO root fetch - main [MainThread]: End processing [pylovelace.kernel]: success
+[2023-05-08 01:26:55] INFO root fetch - main [MainThread]: Store serial: [18010530]
