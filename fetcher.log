@@ -690,3 +690,38 @@
 [2023-05-08 01:26:38] INFO root fetch - main [MainThread]: End processing [datasets-summarizer]: success
 [2023-05-08 01:26:55] INFO root fetch - main [MainThread]: End processing [pylovelace.kernel]: success
 [2023-05-08 01:26:55] INFO root fetch - main [MainThread]: Store serial: [18010530]
+[2023-05-08 01:32:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18010530]
+[2023-05-08 01:32:09] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-08 01:32:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bevy
+[2023-05-08 01:32:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pomice
+[2023-05-08 01:32:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pylovelace
+[2023-05-08 01:32:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyDAL
+[2023-05-08 01:32:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: git-nautilus-icons
+[2023-05-08 01:32:09] INFO root fetch - processPackages [pylovelace]: New version: [2023.2.1] Old Version: [2023.2.0]
+[2023-05-08 01:32:09] INFO root fetch - processPackages [bevy]: New version: [2.0.0b6] Old Version: [2.0.0b5]
+[2023-05-08 01:32:09] INFO root fetch - processPackages [pomice]: New version: [2.6.0] Old Version: [2.5.1]
+[2023-05-08 01:32:09] INFO root fetch - processPackages [PyDAL]: New version: [20230407.2] Old Version: [20221110.1]
+[2023-05-08 01:32:09] INFO root fetch - processPackages [git-nautilus-icons]: New version: [2.1.0] Old Version: [2.0.3]
+[2023-05-08 01:32:09] INFO root fetch - processPackages [pomice]: Downloading https://files.pythonhosted.org/packages/b0/cc/4c7e060d3aaf5eeea6c4ae7350e84a3a89c7fb11f60566d12356d5d15c2d/pomice-2.5.1.tar.gz
+[2023-05-08 01:32:09] INFO root fetch - processPackages [bevy]: executing diffoscope
+[2023-05-08 01:32:09] INFO root fetch - processPackages [bevy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bevy-2.0.0b5.tar.gz tmp/bevy-2.0.0b6.tar.gz --markdown 20230508/b/bevy/2.0.0b5-2.0.0b6/diff.md --exclude *.pyd
+[2023-05-08 01:32:09] INFO root fetch - processPackages [pylovelace]: Downloading https://files.pythonhosted.org/packages/f3/88/9c8985c43484e3cbc799d51331aebee79d8cff697424fe516b66fa985f69/pylovelace-2023.2.1-py3-none-any.whl
+[2023-05-08 01:32:09] INFO root fetch - processPackages [PyDAL]: Downloading https://files.pythonhosted.org/packages/73/83/b904c464b6ab060e12b3f406f1fab7deb97bcd9d2021d8c87325e6225c2d/pydal-20221110.1.tar.gz
+[2023-05-08 01:32:09] INFO root fetch - processPackages [git-nautilus-icons]: Downloading https://files.pythonhosted.org/packages/6f/17/647e409d1613f046a727c2daf497cc30546747ee3d4980d794584c1b60fc/git-nautilus-icons-2.0.3.tar.gz
+[2023-05-08 01:32:09] INFO root fetch - processPackages [pylovelace]: executing diffoscope
+[2023-05-08 01:32:09] INFO root fetch - processPackages [pylovelace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylovelace-2023.2.0-py3-none-any.whl.zip tmp/pylovelace-2023.2.1-py3-none-any.whl.zip --markdown 20230508/p/pylovelace/2023.2.0-2023.2.1/diff.md --exclude *.pyd
+[2023-05-08 01:32:09] INFO root fetch - processPackages [pomice]: Downloading https://files.pythonhosted.org/packages/bf/12/46d69cd0fa276518e1e5a05986b09a0ba7aecd4ba2b1aaf521e8c1816c33/pomice-2.6.0.tar.gz
+[2023-05-08 01:32:09] INFO root fetch - processPackages [git-nautilus-icons]: Downloading https://files.pythonhosted.org/packages/91/ac/691392eaa97848c311d978f09fc723c8826669def9a8885c30aa2fc8572c/git-nautilus-icons-2.1.0.tar.gz
+[2023-05-08 01:32:09] INFO root fetch - processPackages [pomice]: executing diffoscope
+[2023-05-08 01:32:09] INFO root fetch - processPackages [pomice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pomice-2.5.1.tar.gz tmp/pomice-2.6.0.tar.gz --markdown 20230508/p/pomice/2.5.1-2.6.0/diff.md --exclude *.pyd
+[2023-05-08 01:32:09] INFO root fetch - processPackages [git-nautilus-icons]: executing diffoscope
+[2023-05-08 01:32:09] INFO root fetch - processPackages [git-nautilus-icons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git-nautilus-icons-2.0.3.tar.gz tmp/git-nautilus-icons-2.1.0.tar.gz --markdown 20230508/g/git-nautilus-icons/2.0.3-2.1.0/diff.md --exclude *.pyd
+[2023-05-08 01:32:09] INFO root fetch - processPackages [PyDAL]: Downloading https://files.pythonhosted.org/packages/32/be/05cc12598b83b2a070bb06be1d391a26ac19be9ca477d051156645f89502/PyDAL-20230407.2.tar.gz
+[2023-05-08 01:32:10] INFO root fetch - processPackages [PyDAL]: executing diffoscope
+[2023-05-08 01:32:10] INFO root fetch - processPackages [PyDAL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydal-20221110.1.tar.gz tmp/PyDAL-20230407.2.tar.gz --markdown 20230508/P/PyDAL/20221110.1-20230407.2/diff.md --exclude *.pyd
+[2023-05-08 01:32:10] INFO root fetch - main [MainThread]: End processing [pylovelace]: success
+[2023-05-08 01:32:10] INFO root fetch - main [MainThread]: End processing [bevy]: success
+[2023-05-08 01:32:10] INFO root fetch - main [MainThread]: End processing [pomice]: success
+[2023-05-08 01:32:14] INFO root fetch - main [MainThread]: End processing [PyDAL]: success
+[2023-05-08 01:32:15] INFO root fetch - main [MainThread]: End processing [git-nautilus-icons]: success
+[2023-05-08 01:32:15] INFO root fetch - main [MainThread]: Store serial: [18010543]
