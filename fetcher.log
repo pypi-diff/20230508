@@ -383,3 +383,60 @@
 [2023-05-08 00:39:18] INFO root fetch - main [MainThread]: End processing [pynhd]: success
 [2023-05-08 00:39:18] INFO root fetch - main [MainThread]: End processing [py3dep]: success
 [2023-05-08 00:39:18] INFO root fetch - main [MainThread]: Store serial: [18010319]
+[2023-05-08 00:44:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18010319]
+[2023-05-08 00:44:27] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-08 00:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: manga-ocr
+[2023-05-08 00:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: paperscraper
+[2023-05-08 00:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Quantum-Tomography
+[2023-05-08 00:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ua-node-avail
+[2023-05-08 00:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PlatitudeTerminal
+[2023-05-08 00:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gpt4all-j
+[2023-05-08 00:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wyudi
+[2023-05-08 00:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: s3dbm
+[2023-05-08 00:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ua-node-avail
+[2023-05-08 00:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gpt4-openai-api
+[2023-05-08 00:44:27] INFO root fetch - processPackages [Quantum-Tomography]: New version: [1.0.7.0] Old Version: [1.0.6.0]
+[2023-05-08 00:44:27] WARNING root fetch - processPackages [PlatitudeTerminal]: Skipping, unable to determine old version
+[2023-05-08 00:44:27] INFO root fetch - processPackages [manga-ocr]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 00:44:27] INFO root fetch - processPackages [paperscraper]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-08 00:44:27] INFO root fetch - processPackages [PlatitudeTerminal]: Start processing: wale-sdk
+[2023-05-08 00:44:27] INFO root fetch - main [MainThread]: End processing [PlatitudeTerminal] error
+[2023-05-08 00:44:27] INFO root fetch - processPackages [s3dbm]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-08 00:44:27] WARNING root fetch - processPackages [wyudi]: Skipping, unable to determine old version
+[2023-05-08 00:44:27] INFO root fetch - main [MainThread]: End processing [wyudi] error
+[2023-05-08 00:44:27] INFO root fetch - processPackages [gpt4all-j]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-08 00:44:27] INFO root fetch - processPackages [ua-node-avail]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 00:44:27] INFO root fetch - processPackages [ua-node-avail]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 00:44:27] INFO root fetch - processPackages [ua-node-avail]: executing diffoscope
+[2023-05-08 00:44:27] INFO root fetch - processPackages [ua-node-avail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ua-node-avail-0.1.8.tar.gz tmp/ua-node-avail-0.1.9.tar.gz --markdown 20230508/u/ua-node-avail/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 00:44:27] WARNING root fetch - processPackages [gpt4-openai-api]: Skipping, unable to determine old version
+[2023-05-08 00:44:27] INFO root fetch - main [MainThread]: End processing [gpt4-openai-api] error
+[2023-05-08 00:44:27] INFO root fetch - processPackages [ua-node-avail]: executing diffoscope
+[2023-05-08 00:44:27] INFO root fetch - processPackages [ua-node-avail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ua-node-avail-0.1.8.tar.gz tmp/ua-node-avail-0.1.9.tar.gz --markdown 20230508/u/ua-node-avail/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 00:44:27] WARNING root fetch - processPackages [wale-sdk]: Skipping, unable to determine old version
+[2023-05-08 00:44:27] INFO root fetch - main [MainThread]: End processing [wale-sdk] error
+[2023-05-08 00:44:27] INFO root fetch - processPackages [Quantum-Tomography]: Downloading https://files.pythonhosted.org/packages/ff/dc/6e32cc5f1d1ad8b5f1288613cfa717183be3f1fa5696a76238025805bb6e/Quantum-Tomography-1.0.6.0.tar.gz
+[2023-05-08 00:44:27] INFO root fetch - processPackages [paperscraper]: Downloading https://files.pythonhosted.org/packages/56/9b/d363e2f73f9e519fa9459d15322a69f5ec9736dca353215c677643a7738f/paperscraper-0.2.5.tar.gz
+[2023-05-08 00:44:27] INFO root fetch - processPackages [s3dbm]: Downloading https://files.pythonhosted.org/packages/10/f3/8d8c2c270ed7215ce26c4ff74663aef632ff9eb0dcea9595192cb78e8d47/s3dbm-0.0.1.tar.gz
+[2023-05-08 00:44:27] INFO root fetch - processPackages [manga-ocr]: executing diffoscope
+[2023-05-08 00:44:27] INFO root fetch - processPackages [manga-ocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manga-ocr-0.1.8.tar.gz tmp/manga-ocr-0.1.9.tar.gz --markdown 20230508/m/manga-ocr/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 00:44:27] INFO root fetch - processPackages [gpt4all-j]: Downloading https://files.pythonhosted.org/packages/ea/7c/fc730e7da909f7426e35684bbbaf8e84ecf548d2ad3dfa88821208931fea/gpt4all-j-0.2.5.tar.gz
+[2023-05-08 00:44:27] INFO root fetch - processPackages [gpt4all-j]: executing diffoscope
+[2023-05-08 00:44:27] INFO root fetch - processPackages [gpt4all-j]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt4all-j-0.2.4.tar.gz tmp/gpt4all-j-0.2.5.tar.gz --markdown 20230508/g/gpt4all-j/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-08 00:44:27] INFO root fetch - processPackages [s3dbm]: Downloading https://files.pythonhosted.org/packages/8d/c8/4947a35d2a8171f13c2f5c3d3bcd5e5dc28766af9f3d005c0c7342a31b8d/s3dbm-0.0.2.tar.gz
+[2023-05-08 00:44:27] INFO root fetch - processPackages [paperscraper]: Downloading https://files.pythonhosted.org/packages/c9/42/1c8380a0ac516f5c354ce6b51ce71ffda4d1025c37ae124d85d1dc787cf9/paperscraper-0.2.6.tar.gz
+[2023-05-08 00:44:27] INFO root fetch - processPackages [Quantum-Tomography]: Downloading https://files.pythonhosted.org/packages/5c/57/7f1dbf89acd399893bb0842bd2c517fea41294909f616ecd54eb26b15b85/Quantum-Tomography-1.0.7.0.tar.gz
+[2023-05-08 00:44:27] INFO root fetch - processPackages [s3dbm]: executing diffoscope
+[2023-05-08 00:44:27] INFO root fetch - processPackages [s3dbm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s3dbm-0.0.1.tar.gz tmp/s3dbm-0.0.2.tar.gz --markdown 20230508/s/s3dbm/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-08 00:44:28] INFO root fetch - processPackages [paperscraper]: executing diffoscope
+[2023-05-08 00:44:28] INFO root fetch - processPackages [paperscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paperscraper-0.2.5.tar.gz tmp/paperscraper-0.2.6.tar.gz --markdown 20230508/p/paperscraper/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-08 00:44:28] INFO root fetch - processPackages [Quantum-Tomography]: executing diffoscope
+[2023-05-08 00:44:28] INFO root fetch - processPackages [Quantum-Tomography]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Quantum-Tomography-1.0.6.0.tar.gz tmp/Quantum-Tomography-1.0.7.0.tar.gz --markdown 20230508/Q/Quantum-Tomography/1.0.6.0-1.0.7.0/diff.md --exclude *.pyd
+[2023-05-08 00:44:28] INFO root fetch - main [MainThread]: End processing [ua-node-avail]: success
+[2023-05-08 00:44:28] INFO root fetch - main [MainThread]: End processing [manga-ocr]: success
+[2023-05-08 00:44:28] INFO root fetch - main [MainThread]: End processing [ua-node-avail]: success
+[2023-05-08 00:44:29] INFO root fetch - main [MainThread]: End processing [s3dbm]: success
+[2023-05-08 00:44:29] INFO root fetch - main [MainThread]: End processing [Quantum-Tomography]: success
+[2023-05-08 00:44:29] INFO root fetch - main [MainThread]: End processing [paperscraper]: success
+[2023-05-08 00:45:01] INFO root fetch - main [MainThread]: End processing [gpt4all-j]: success
+[2023-05-08 00:45:01] INFO root fetch - main [MainThread]: Store serial: [18010357]
