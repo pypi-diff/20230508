@@ -629,3 +629,34 @@
 [2023-05-08 01:11:09] INFO root fetch - main [MainThread]: End processing [chatsnack]: success
 [2023-05-08 01:11:09] INFO root fetch - main [MainThread]: End processing [fastapi-jwt-login]: success
 [2023-05-08 01:11:09] INFO root fetch - main [MainThread]: Store serial: [18010466]
+[2023-05-08 01:16:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18010466]
+[2023-05-08 01:16:17] INFO root fetch - main [MainThread]: No changed packages found
+[2023-05-08 01:21:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18010469]
+[2023-05-08 01:21:23] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-08 01:21:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fetcharoo
+[2023-05-08 01:21:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: atomlite
+[2023-05-08 01:21:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypackerdetect
+[2023-05-08 01:21:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: detabase
+[2023-05-08 01:21:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rgrow
+[2023-05-08 01:21:23] WARNING root fetch - processPackages [atomlite]: Skipping, unable to determine old version
+[2023-05-08 01:21:23] INFO root fetch - main [MainThread]: End processing [atomlite] error
+[2023-05-08 01:21:23] WARNING root fetch - processPackages [fetcharoo]: Skipping, unable to determine old version
+[2023-05-08 01:21:23] INFO root fetch - main [MainThread]: End processing [fetcharoo] error
+[2023-05-08 01:21:23] INFO root fetch - processPackages [pypackerdetect]: New version: [1.1.0] Old Version: [1.0.8]
+[2023-05-08 01:21:23] INFO root fetch - processPackages [rgrow]: New version: [0.12.1] Old Version: [0.12.0a0]
+[2023-05-08 01:21:23] INFO root fetch - processPackages [detabase]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-08 01:21:23] INFO root fetch - processPackages [pypackerdetect]: Downloading https://files.pythonhosted.org/packages/57/c6/1289e35e83ac84d517a650ddf3c2970f522eff102d786084a3f468e6d46c/pypackerdetect-1.0.8.tar.gz
+[2023-05-08 01:21:23] INFO root fetch - processPackages [detabase]: Downloading https://files.pythonhosted.org/packages/99/37/b7b83796f9375b78c5a4be16d7a40a9f4755da3441898c370c03fc1e5d50/detabase-0.2.1.tar.gz
+[2023-05-08 01:21:23] INFO root fetch - processPackages [rgrow]: Downloading https://files.pythonhosted.org/packages/5e/e5/b64c25db8ab2d76a3988f43abeec6c54862d8cc0472f7c9a16357e157674/rgrow-0.12.1-cp310-none-win_amd64.whl
+[2023-05-08 01:21:23] INFO root fetch - processPackages [pypackerdetect]: Downloading https://files.pythonhosted.org/packages/3d/52/1b794fb4b56a4c34235891037e7ff8ae7b03d7cc93f476429bf7bb56fb95/pypackerdetect-1.1.0.tar.gz
+[2023-05-08 01:21:23] INFO root fetch - processPackages [detabase]: Downloading https://files.pythonhosted.org/packages/cc/22/10f3abe9852fb28275e7a4786e50d0f7ebcac0de41fdb187051985974808/detabase-0.2.2.tar.gz
+[2023-05-08 01:21:23] INFO root fetch - processPackages [pypackerdetect]: executing diffoscope
+[2023-05-08 01:21:23] INFO root fetch - processPackages [pypackerdetect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypackerdetect-1.0.8.tar.gz tmp/pypackerdetect-1.1.0.tar.gz --markdown 20230508/p/pypackerdetect/1.0.8-1.1.0/diff.md --exclude *.pyd
+[2023-05-08 01:21:24] INFO root fetch - processPackages [rgrow]: executing diffoscope
+[2023-05-08 01:21:24] INFO root fetch - processPackages [rgrow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rgrow-0.12.0a0.tar.gz tmp/rgrow-0.12.1-cp310-none-win_amd64.whl.zip --markdown 20230508/r/rgrow/0.12.0a0-0.12.1/diff.md --exclude *.pyd
+[2023-05-08 01:21:24] INFO root fetch - processPackages [detabase]: executing diffoscope
+[2023-05-08 01:21:24] INFO root fetch - processPackages [detabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/detabase-0.2.1.tar.gz tmp/detabase-0.2.2.tar.gz --markdown 20230508/d/detabase/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-08 01:21:24] INFO root fetch - main [MainThread]: End processing [rgrow]: success
+[2023-05-08 01:21:24] INFO root fetch - main [MainThread]: End processing [detabase]: success
+[2023-05-08 01:21:25] INFO root fetch - main [MainThread]: End processing [pypackerdetect]: success
+[2023-05-08 01:21:25] INFO root fetch - main [MainThread]: Store serial: [18010491]
