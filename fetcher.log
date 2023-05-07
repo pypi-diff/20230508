@@ -725,3 +725,33 @@
 [2023-05-08 01:32:14] INFO root fetch - main [MainThread]: End processing [PyDAL]: success
 [2023-05-08 01:32:15] INFO root fetch - main [MainThread]: End processing [git-nautilus-icons]: success
 [2023-05-08 01:32:15] INFO root fetch - main [MainThread]: Store serial: [18010543]
+[2023-05-08 01:37:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18010543]
+[2023-05-08 01:37:24] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-08 01:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simplt
+[2023-05-08 01:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wagtail-photography
+[2023-05-08 01:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: steam-wrapper-api
+[2023-05-08 01:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: akellogpt
+[2023-05-08 01:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyBibX
+[2023-05-08 01:37:24] INFO root fetch - processPackages [simplt]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-08 01:37:24] INFO root fetch - processPackages [wagtail-photography]: New version: [1.0.1] Old Version: [1.0]
+[2023-05-08 01:37:24] WARNING root fetch - processPackages [steam-wrapper-api]: Skipping, unable to determine old version
+[2023-05-08 01:37:24] INFO root fetch - main [MainThread]: End processing [steam-wrapper-api] error
+[2023-05-08 01:37:24] INFO root fetch - processPackages [akellogpt]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-08 01:37:24] INFO root fetch - processPackages [pyBibX]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-05-08 01:37:24] INFO root fetch - processPackages [simplt]: Downloading https://files.pythonhosted.org/packages/6b/f7/e435fb910a061b8d757ef8582e7c55721ae2f8062724e403fbebe819081a/simplt-0.0.4.tar.gz
+[2023-05-08 01:37:24] INFO root fetch - processPackages [wagtail-photography]: Downloading https://files.pythonhosted.org/packages/cb/c8/d8cf8033ff8c9d0e34231ae22d402e0d5294272509425829ba4f0b26088c/wagtail-photography-1.0.1.tar.gz
+[2023-05-08 01:37:24] INFO root fetch - processPackages [simplt]: executing diffoscope
+[2023-05-08 01:37:24] INFO root fetch - processPackages [simplt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplt-0.0.3.tar.gz tmp/simplt-0.0.4.tar.gz --markdown 20230508/s/simplt/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-08 01:37:24] INFO root fetch - processPackages [wagtail-photography]: executing diffoscope
+[2023-05-08 01:37:24] INFO root fetch - processPackages [wagtail-photography]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-photography-1.0.tar.gz tmp/wagtail-photography-1.0.1.tar.gz --markdown 20230508/w/wagtail-photography/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-08 01:37:24] INFO root fetch - processPackages [akellogpt]: Downloading https://files.pythonhosted.org/packages/70/18/e5696d8f710997b6bf1b02a2efeeb6da4c7a974bfd6cd44e88184640ed5b/akellogpt-0.0.4.tar.gz
+[2023-05-08 01:37:24] INFO root fetch - processPackages [pyBibX]: Downloading https://files.pythonhosted.org/packages/50/5d/62a060901743721cc3f48f5602ecd3d43d856532eeaa9d5655e4abdacd55/pyBibX-2.9.9.tar.gz
+[2023-05-08 01:37:25] INFO root fetch - processPackages [akellogpt]: executing diffoscope
+[2023-05-08 01:37:25] INFO root fetch - processPackages [akellogpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akellogpt-0.0.3.tar.gz tmp/akellogpt-0.0.4.tar.gz --markdown 20230508/a/akellogpt/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-08 01:37:25] INFO root fetch - processPackages [pyBibX]: executing diffoscope
+[2023-05-08 01:37:25] INFO root fetch - processPackages [pyBibX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyBibX-2.9.8.tar.gz tmp/pyBibX-2.9.9.tar.gz --markdown 20230508/p/pyBibX/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-05-08 01:37:25] INFO root fetch - main [MainThread]: End processing [simplt]: success
+[2023-05-08 01:37:25] INFO root fetch - main [MainThread]: End processing [wagtail-photography]: success
+[2023-05-08 01:37:26] INFO root fetch - main [MainThread]: End processing [akellogpt]: success
+[2023-05-08 01:37:26] INFO root fetch - main [MainThread]: End processing [pyBibX]: success
+[2023-05-08 01:37:26] INFO root fetch - main [MainThread]: Store serial: [18010558]
