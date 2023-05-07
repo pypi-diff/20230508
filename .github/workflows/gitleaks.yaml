@@ -1,0 +1,9 @@
+name: gitleaks
+on: workflow_dispatch
+
+jobs:
+  gitleaks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: DariuszPorowski/github-action-gitleaks@v2
