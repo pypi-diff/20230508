@@ -223,3 +223,42 @@
 [2023-05-08 00:18:05] INFO root fetch - main [MainThread]: End processing [mongodbm]: success
 [2023-05-08 00:18:06] INFO root fetch - main [MainThread]: End processing [berserk]: success
 [2023-05-08 00:18:06] INFO root fetch - main [MainThread]: Store serial: [18010226]
+[2023-05-08 00:23:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18010226]
+[2023-05-08 00:23:15] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-08 00:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spatialcsv
+[2023-05-08 00:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: substack-api
+[2023-05-08 00:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-opensky
+[2023-05-08 00:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aind-data-schema
+[2023-05-08 00:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pygeoogc
+[2023-05-08 00:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qsseesy
+[2023-05-08 00:23:15] INFO root fetch - processPackages [substack-api]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-08 00:23:15] INFO root fetch - processPackages [python-opensky]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-08 00:23:15] WARNING root fetch - processPackages [qsseesy]: Skipping, unable to determine old version
+[2023-05-08 00:23:15] INFO root fetch - processPackages [pygeoogc]: New version: [0.9.0] Old Version: [0.2.2]
+[2023-05-08 00:23:15] INFO root fetch - processPackages [spatialcsv]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 00:23:15] INFO root fetch - main [MainThread]: End processing [qsseesy] error
+[2023-05-08 00:23:15] INFO root fetch - processPackages [aind-data-schema]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-08 00:23:15] INFO root fetch - processPackages [substack-api]: Downloading https://files.pythonhosted.org/packages/40/42/a4a45cb84f3f5c9f8806dd81c0ae5612e6e549890e2a96d1d87b64e00ca6/substack_api-0.0.1.tar.gz
+[2023-05-08 00:23:15] INFO root fetch - processPackages [python-opensky]: Downloading https://files.pythonhosted.org/packages/4d/60/1e540859f773fbe685f1ca396e8b921328c8a62502e57ef9614b7cca2417/python_opensky-0.0.4.tar.gz
+[2023-05-08 00:23:15] INFO root fetch - processPackages [aind-data-schema]: Downloading https://files.pythonhosted.org/packages/f0/3d/4b855ccf3f1b8204c6d84b119d9c98b856c1659bfafe8aa893009a0e4d63/aind-data-schema-0.9.5.tar.gz
+[2023-05-08 00:23:15] INFO root fetch - processPackages [pygeoogc]: Downloading https://files.pythonhosted.org/packages/be/61/69eab2ad6420fc24e0ff0c45ab3cedcd6f8b466d5cbdd6594b283f3b7422/pygeoogc-0.2.2.tar.gz
+[2023-05-08 00:23:15] INFO root fetch - processPackages [substack-api]: Downloading https://files.pythonhosted.org/packages/cd/db/e72974f8a5f8d2d1ebff417e72c7a7d66cdf63ff09ad95abb38b0a6ec393/substack_api-0.0.2.tar.gz
+[2023-05-08 00:23:15] INFO root fetch - processPackages [python-opensky]: Downloading https://files.pythonhosted.org/packages/6d/c5/2d8daff2602d9373ef076fabb3bd5a9f6858c8a70ebfdcb10d62d5d1be26/python_opensky-0.0.5.tar.gz
+[2023-05-08 00:23:15] INFO root fetch - processPackages [spatialcsv]: executing diffoscope
+[2023-05-08 00:23:15] INFO root fetch - processPackages [spatialcsv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spatialcsv-0.0.8.tar.gz tmp/spatialcsv-0.0.9.tar.gz --markdown 20230508/s/spatialcsv/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 00:23:15] INFO root fetch - processPackages [substack-api]: executing diffoscope
+[2023-05-08 00:23:15] INFO root fetch - processPackages [substack-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/substack_api-0.0.1.tar.gz tmp/substack_api-0.0.2.tar.gz --markdown 20230508/s/substack-api/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-08 00:23:15] INFO root fetch - processPackages [python-opensky]: executing diffoscope
+[2023-05-08 00:23:15] INFO root fetch - processPackages [python-opensky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_opensky-0.0.4.tar.gz tmp/python_opensky-0.0.5.tar.gz --markdown 20230508/p/python-opensky/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-08 00:23:15] INFO root fetch - processPackages [aind-data-schema]: Downloading https://files.pythonhosted.org/packages/42/51/6b230e8ca198de797130787e0cd5036fc8d11696d1c43a8c8c07152176e8/aind-data-schema-0.9.6.tar.gz
+[2023-05-08 00:23:15] INFO root fetch - processPackages [pygeoogc]: Downloading https://files.pythonhosted.org/packages/49/e5/96c1fe6854f84bed8f5052253d269a2a80c4463bf9031a429bb8a4324684/pygeoogc-0.9.0.tar.gz
+[2023-05-08 00:23:15] INFO root fetch - processPackages [aind-data-schema]: executing diffoscope
+[2023-05-08 00:23:15] INFO root fetch - processPackages [aind-data-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-data-schema-0.9.5.tar.gz tmp/aind-data-schema-0.9.6.tar.gz --markdown 20230508/a/aind-data-schema/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-08 00:23:16] INFO root fetch - processPackages [pygeoogc]: executing diffoscope
+[2023-05-08 00:23:16] INFO root fetch - processPackages [pygeoogc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygeoogc-0.2.2.tar.gz tmp/pygeoogc-0.9.0.tar.gz --markdown 20230508/p/pygeoogc/0.2.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-08 00:23:16] INFO root fetch - main [MainThread]: End processing [substack-api]: success
+[2023-05-08 00:23:16] INFO root fetch - main [MainThread]: End processing [spatialcsv]: success
+[2023-05-08 00:23:16] INFO root fetch - main [MainThread]: End processing [python-opensky]: success
+[2023-05-08 00:23:17] INFO root fetch - main [MainThread]: End processing [aind-data-schema]: success
+[2023-05-08 00:23:17] INFO root fetch - main [MainThread]: End processing [pygeoogc]: success
+[2023-05-08 00:23:17] INFO root fetch - main [MainThread]: Store serial: [18010246]
