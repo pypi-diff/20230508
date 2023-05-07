@@ -262,3 +262,30 @@
 [2023-05-08 00:23:17] INFO root fetch - main [MainThread]: End processing [aind-data-schema]: success
 [2023-05-08 00:23:17] INFO root fetch - main [MainThread]: End processing [pygeoogc]: success
 [2023-05-08 00:23:17] INFO root fetch - main [MainThread]: Store serial: [18010246]
+[2023-05-08 00:28:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18010246]
+[2023-05-08 00:28:25] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-08 00:28:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: st-text-annotator
+[2023-05-08 00:28:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: colopym2
+[2023-05-08 00:28:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygeoutils
+[2023-05-08 00:28:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-l10n-ec-account-edi
+[2023-05-08 00:28:25] WARNING root fetch - processPackages [colopym2]: Skipping, unable to determine old version
+[2023-05-08 00:28:25] INFO root fetch - main [MainThread]: End processing [colopym2] error
+[2023-05-08 00:28:25] INFO root fetch - processPackages [st-text-annotator]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-05-08 00:28:25] INFO root fetch - processPackages [odoo-addon-l10n-ec-account-edi]: New version: [15.0.1.0.1] Old Version: [15.0.1.0.0.12]
+[2023-05-08 00:28:25] INFO root fetch - processPackages [pygeoutils]: New version: [0.9.0] Old Version: [0.2.0]
+[2023-05-08 00:28:25] INFO root fetch - processPackages [st-text-annotator]: Downloading https://files.pythonhosted.org/packages/16/d8/caf8fd47dad6b2991ded909c7b05f070882e9ee4672a66f2cf7828562e05/st_text_annotator-0.2.2.tar.gz
+[2023-05-08 00:28:25] INFO root fetch - processPackages [pygeoutils]: Downloading https://files.pythonhosted.org/packages/d5/98/3f173fea7c97b19a22f332dd37d9d5648e6558017c60f33f13cd59820287/pygeoutils-0.2.0.tar.gz
+[2023-05-08 00:28:25] INFO root fetch - processPackages [odoo-addon-l10n-ec-account-edi]: Downloading https://files.pythonhosted.org/packages/df/51/daffab71b67b3fe614dc97a8de0764ee2f2aa3f174ea5e3c655eaea7e0b5/odoo_addon_l10n_ec_account_edi-15.0.1.0.0.12-py3-none-any.whl
+[2023-05-08 00:28:26] INFO root fetch - processPackages [pygeoutils]: Downloading https://files.pythonhosted.org/packages/66/4f/905f01a298043738e4acaf55a0d023f4fadd42368ff282e97202885d2dc3/pygeoutils-0.9.0.tar.gz
+[2023-05-08 00:28:26] INFO root fetch - processPackages [odoo-addon-l10n-ec-account-edi]: Downloading https://files.pythonhosted.org/packages/3b/4d/236832d1d32cba7cdfe85d1b01318f01461eaf380a6f7144cbedb8610290/odoo_addon_l10n_ec_account_edi-15.0.1.0.1-py3-none-any.whl
+[2023-05-08 00:28:26] INFO root fetch - processPackages [st-text-annotator]: Downloading https://files.pythonhosted.org/packages/38/92/6bd0c786554b405ea047f262f2b115012032cf3d8e91af6388614a75ed11/st_text_annotator-0.3.0.tar.gz
+[2023-05-08 00:28:26] INFO root fetch - processPackages [pygeoutils]: executing diffoscope
+[2023-05-08 00:28:26] INFO root fetch - processPackages [pygeoutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygeoutils-0.2.0.tar.gz tmp/pygeoutils-0.9.0.tar.gz --markdown 20230508/p/pygeoutils/0.2.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-08 00:28:26] INFO root fetch - processPackages [odoo-addon-l10n-ec-account-edi]: executing diffoscope
+[2023-05-08 00:28:26] INFO root fetch - processPackages [odoo-addon-l10n-ec-account-edi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ec_account_edi-15.0.1.0.0.12-py3-none-any.whl.zip tmp/odoo_addon_l10n_ec_account_edi-15.0.1.0.1-py3-none-any.whl.zip --markdown 20230508/o/odoo-addon-l10n-ec-account-edi/15.0.1.0.0.12-15.0.1.0.1/diff.md --exclude *.pyd
+[2023-05-08 00:28:26] INFO root fetch - processPackages [st-text-annotator]: executing diffoscope
+[2023-05-08 00:28:26] INFO root fetch - processPackages [st-text-annotator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_text_annotator-0.2.2.tar.gz tmp/st_text_annotator-0.3.0.tar.gz --markdown 20230508/s/st-text-annotator/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-05-08 00:28:27] INFO root fetch - main [MainThread]: End processing [pygeoutils]: success
+[2023-05-08 00:28:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ec-account-edi]: success
+[2023-05-08 00:28:45] INFO root fetch - main [MainThread]: End processing [st-text-annotator]: success
+[2023-05-08 00:28:45] INFO root fetch - main [MainThread]: Store serial: [18010260]
