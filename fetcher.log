@@ -326,3 +326,60 @@
 [2023-05-08 00:33:56] INFO root fetch - main [MainThread]: End processing [oaiv]: success
 [2023-05-08 00:34:06] INFO root fetch - main [MainThread]: End processing [libecc]: success
 [2023-05-08 00:34:06] INFO root fetch - main [MainThread]: Store serial: [18010285]
+[2023-05-08 00:39:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18010285]
+[2023-05-08 00:39:16] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-08 00:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: angola
+[2023-05-08 00:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: selfcontrolloadload
+[2023-05-08 00:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: manga-ocr
+[2023-05-08 00:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: async-rotating-proxy
+[2023-05-08 00:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyproject-generator
+[2023-05-08 00:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: proventosweb
+[2023-05-08 00:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: audit-flask
+[2023-05-08 00:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pynhd
+[2023-05-08 00:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: biplane
+[2023-05-08 00:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: py3dep
+[2023-05-08 00:39:16] INFO root fetch - processPackages [angola]: New version: [0.10.9] Old Version: [0.10.8]
+[2023-05-08 00:39:16] INFO root fetch - processPackages [pynhd]: New version: [0.9.0] Old Version: [0.2.0]
+[2023-05-08 00:39:16] WARNING root fetch - processPackages [selfcontrolloadload]: Skipping, unable to determine old version
+[2023-05-08 00:39:16] INFO root fetch - processPackages [manga-ocr]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 00:39:16] INFO root fetch - main [MainThread]: End processing [selfcontrolloadload] error
+[2023-05-08 00:39:16] INFO root fetch - processPackages [async-rotating-proxy]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-08 00:39:16] INFO root fetch - processPackages [audit-flask]: New version: [0.25.1] Old Version: [0.25]
+[2023-05-08 00:39:16] WARNING root fetch - processPackages [proventosweb]: Skipping, unable to determine old version
+[2023-05-08 00:39:16] INFO root fetch - main [MainThread]: End processing [proventosweb] error
+[2023-05-08 00:39:16] INFO root fetch - processPackages [py3dep]: New version: [0.9.0] Old Version: [0.2.0]
+[2023-05-08 00:39:16] INFO root fetch - processPackages [pyproject-generator]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-08 00:39:16] WARNING root fetch - processPackages [biplane]: Skipping, unable to determine old version
+[2023-05-08 00:39:16] INFO root fetch - main [MainThread]: End processing [biplane] error
+[2023-05-08 00:39:16] INFO root fetch - processPackages [angola]: executing diffoscope
+[2023-05-08 00:39:16] INFO root fetch - processPackages [angola]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/angola-0.10.8.tar.gz tmp/angola-0.10.9.tar.gz --markdown 20230508/a/angola/0.10.8-0.10.9/diff.md --exclude *.pyd
+[2023-05-08 00:39:16] INFO root fetch - processPackages [pyproject-generator]: Downloading https://files.pythonhosted.org/packages/6f/df/919cf39f14151ecd4a13123a62e4f729db7b867e18041eea6ede14f47841/pyproject-generator-0.2.2.tar.gz
+[2023-05-08 00:39:16] INFO root fetch - processPackages [pynhd]: Downloading https://files.pythonhosted.org/packages/7e/98/e4d21c076c5ed556f931365763258f5f5ecc0dbd2582c814b8f98038e6d6/pynhd-0.2.0.tar.gz
+[2023-05-08 00:39:16] INFO root fetch - processPackages [audit-flask]: Downloading https://files.pythonhosted.org/packages/16/fc/05ae4783a6ba675180d63c59f410c4c6f7eff436809d2a8708108bfecd1d/audit_flask-0.25.1-py3-none-any.whl
+[2023-05-08 00:39:16] INFO root fetch - processPackages [async-rotating-proxy]: Downloading https://files.pythonhosted.org/packages/52/1c/02a291faf4fccf0a74b64bde498d967a5660b36dca9d624d13a8fb3731ac/async_rotating_proxy-0.0.5.tar.gz
+[2023-05-08 00:39:16] INFO root fetch - processPackages [py3dep]: Downloading https://files.pythonhosted.org/packages/94/81/c0f9874b198dca59f323222b3066072d5a399757879482d3a149321895aa/py3dep-0.2.0.tar.gz
+[2023-05-08 00:39:16] INFO root fetch - processPackages [audit-flask]: executing diffoscope
+[2023-05-08 00:39:16] INFO root fetch - processPackages [audit-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audit_flask-0.25-py3-none-any.whl.zip tmp/audit_flask-0.25.1-py3-none-any.whl.zip --markdown 20230508/a/audit-flask/0.25-0.25.1/diff.md --exclude *.pyd
+[2023-05-08 00:39:16] INFO root fetch - processPackages [manga-ocr]: Downloading https://files.pythonhosted.org/packages/ac/fd/73e7117ee1d8c177edc31b6b3cabbc9d60b2c9038be37f026eb34d68b901/manga-ocr-0.1.8.tar.gz
+[2023-05-08 00:39:16] INFO root fetch - processPackages [async-rotating-proxy]: executing diffoscope
+[2023-05-08 00:39:16] INFO root fetch - processPackages [async-rotating-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_rotating_proxy-0.0.4.tar.gz tmp/async_rotating_proxy-0.0.5.tar.gz --markdown 20230508/a/async-rotating-proxy/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-08 00:39:16] INFO root fetch - processPackages [pyproject-generator]: Downloading https://files.pythonhosted.org/packages/95/6e/3cc077afa0871274400efa8c8178da1fc19adb74d5d78023e23ae22ce403/pyproject-generator-0.2.3.tar.gz
+[2023-05-08 00:39:16] INFO root fetch - processPackages [pyproject-generator]: executing diffoscope
+[2023-05-08 00:39:16] INFO root fetch - processPackages [pyproject-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyproject-generator-0.2.2.tar.gz tmp/pyproject-generator-0.2.3.tar.gz --markdown 20230508/p/pyproject-generator/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-08 00:39:16] INFO root fetch - processPackages [manga-ocr]: Downloading https://files.pythonhosted.org/packages/99/15/d2b42ef8aa7b21a42bcdb513cff82bb4311925c22ff962312a9b53359501/manga-ocr-0.1.9.tar.gz
+[2023-05-08 00:39:16] INFO root fetch - processPackages [pynhd]: Downloading https://files.pythonhosted.org/packages/ae/2e/ab44665fcffefac4faf669c157e99927564a195c419c844dcda65c6bb768/pynhd-0.9.0.tar.gz
+[2023-05-08 00:39:16] INFO root fetch - processPackages [py3dep]: Downloading https://files.pythonhosted.org/packages/f1/6b/650a45264195f20a65625553288354cb1c0bdd73b09d3a46864e86d122d8/py3dep-0.9.0.tar.gz
+[2023-05-08 00:39:17] INFO root fetch - processPackages [manga-ocr]: executing diffoscope
+[2023-05-08 00:39:17] INFO root fetch - processPackages [manga-ocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manga-ocr-0.1.8.tar.gz tmp/manga-ocr-0.1.9.tar.gz --markdown 20230508/m/manga-ocr/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 00:39:17] INFO root fetch - processPackages [pynhd]: executing diffoscope
+[2023-05-08 00:39:17] INFO root fetch - processPackages [pynhd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynhd-0.2.0.tar.gz tmp/pynhd-0.9.0.tar.gz --markdown 20230508/p/pynhd/0.2.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-08 00:39:17] INFO root fetch - processPackages [py3dep]: executing diffoscope
+[2023-05-08 00:39:17] INFO root fetch - processPackages [py3dep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3dep-0.2.0.tar.gz tmp/py3dep-0.9.0.tar.gz --markdown 20230508/p/py3dep/0.2.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-08 00:39:17] INFO root fetch - main [MainThread]: End processing [async-rotating-proxy]: success
+[2023-05-08 00:39:17] INFO root fetch - main [MainThread]: End processing [audit-flask]: success
+[2023-05-08 00:39:18] INFO root fetch - main [MainThread]: End processing [pyproject-generator]: success
+[2023-05-08 00:39:18] INFO root fetch - main [MainThread]: End processing [manga-ocr]: success
+[2023-05-08 00:39:18] INFO root fetch - main [MainThread]: End processing [angola]: success
+[2023-05-08 00:39:18] INFO root fetch - main [MainThread]: End processing [pynhd]: success
+[2023-05-08 00:39:18] INFO root fetch - main [MainThread]: End processing [py3dep]: success
+[2023-05-08 00:39:18] INFO root fetch - main [MainThread]: Store serial: [18010319]
