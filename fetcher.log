@@ -755,3 +755,30 @@
 [2023-05-08 01:37:26] INFO root fetch - main [MainThread]: End processing [akellogpt]: success
 [2023-05-08 01:37:26] INFO root fetch - main [MainThread]: End processing [pyBibX]: success
 [2023-05-08 01:37:26] INFO root fetch - main [MainThread]: Store serial: [18010558]
+[2023-05-08 01:42:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18010558]
+[2023-05-08 01:42:34] INFO root fetch - main [MainThread]: No changed packages found
+[2023-05-08 01:47:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18010566]
+[2023-05-08 01:47:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-08 01:47:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mpservice
+[2023-05-08 01:47:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unigui
+[2023-05-08 01:47:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: akello
+[2023-05-08 01:47:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: awc
+[2023-05-08 01:47:40] INFO root fetch - processPackages [unigui]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-05-08 01:47:40] WARNING root fetch - processPackages [akello]: Skipping, unable to determine old version
+[2023-05-08 01:47:40] INFO root fetch - main [MainThread]: End processing [akello] error
+[2023-05-08 01:47:40] INFO root fetch - processPackages [mpservice]: New version: [0.9.9.post1] Old Version: [0.9.9]
+[2023-05-08 01:47:40] INFO root fetch - processPackages [awc]: New version: [2.0.0] Old Version: [1.3.0]
+[2023-05-08 01:47:40] INFO root fetch - processPackages [mpservice]: Downloading https://files.pythonhosted.org/packages/a4/76/0caf3e54fc1b0c685c01abdb7deb283a4e0ab62467df218edf79256efe6d/mpservice-0.9.9.tar.gz
+[2023-05-08 01:47:40] INFO root fetch - processPackages [unigui]: Downloading https://files.pythonhosted.org/packages/d5/18/7675a059e3e50cd911a7489dbddee77549556ce4e5f4d135487ab71f13e7/unigui-1.4.3.tar.gz
+[2023-05-08 01:47:40] INFO root fetch - processPackages [unigui]: executing diffoscope
+[2023-05-08 01:47:40] INFO root fetch - processPackages [unigui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unigui-1.4.2.tar.gz tmp/unigui-1.4.3.tar.gz --markdown 20230508/u/unigui/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-05-08 01:47:40] INFO root fetch - processPackages [mpservice]: Downloading https://files.pythonhosted.org/packages/62/83/992eb812676a1d5b8ffbc5c9ba7e1bd57f82c86ae5c8a0e509834c8df031/mpservice-0.9.9.post1.tar.gz
+[2023-05-08 01:47:40] INFO root fetch - processPackages [mpservice]: executing diffoscope
+[2023-05-08 01:47:40] INFO root fetch - processPackages [awc]: Downloading https://files.pythonhosted.org/packages/e0/c5/50d9c8957e9d390a0e48f54599533bf552e4d6b23a5ac82805917e33ba65/awc-2.0.0-py2.py3-none-any.whl
+[2023-05-08 01:47:40] INFO root fetch - processPackages [mpservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpservice-0.9.9.tar.gz tmp/mpservice-0.9.9.post1.tar.gz --markdown 20230508/m/mpservice/0.9.9-0.9.9.post1/diff.md --exclude *.pyd
+[2023-05-08 01:47:41] INFO root fetch - processPackages [awc]: executing diffoscope
+[2023-05-08 01:47:41] INFO root fetch - processPackages [awc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awc-1.3.0-py2.py3-none-any.whl.zip tmp/awc-2.0.0-py2.py3-none-any.whl.zip --markdown 20230508/a/awc/1.3.0-2.0.0/diff.md --exclude *.pyd
+[2023-05-08 01:47:41] INFO root fetch - main [MainThread]: End processing [mpservice]: success
+[2023-05-08 01:47:42] INFO root fetch - main [MainThread]: End processing [awc]: success
+[2023-05-08 01:47:43] INFO root fetch - main [MainThread]: End processing [unigui]: success
+[2023-05-08 01:47:43] INFO root fetch - main [MainThread]: Store serial: [18010578]
