@@ -474,3 +474,29 @@
 [2023-05-08 00:50:16] INFO root fetch - main [MainThread]: End processing [v3io-frames]: success
 [2023-05-08 00:50:19] INFO root fetch - main [MainThread]: End processing [whisper-cpp-python]: success
 [2023-05-08 00:50:19] INFO root fetch - main [MainThread]: Store serial: [18010375]
+[2023-05-08 00:55:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18010375]
+[2023-05-08 00:55:28] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-08 00:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ossit
+[2023-05-08 00:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hydrosignatures
+[2023-05-08 00:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyghostdb
+[2023-05-08 00:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydaymet
+[2023-05-08 00:55:28] WARNING root fetch - processPackages [ossit]: Skipping, unable to determine old version
+[2023-05-08 00:55:28] INFO root fetch - main [MainThread]: End processing [ossit] error
+[2023-05-08 00:55:28] INFO root fetch - processPackages [hydrosignatures]: New version: [0.15.0] Old Version: [0.14.0]
+[2023-05-08 00:55:28] INFO root fetch - processPackages [pyghostdb]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-08 00:55:28] INFO root fetch - processPackages [pydaymet]: New version: [0.9.0] Old Version: [0.2.0]
+[2023-05-08 00:55:28] INFO root fetch - processPackages [hydrosignatures]: Downloading https://files.pythonhosted.org/packages/36/2c/cf018024632daca08261263ca2ebeed10971f024c83f854e712b2d823b37/hydrosignatures-0.14.0.tar.gz
+[2023-05-08 00:55:28] INFO root fetch - processPackages [pydaymet]: Downloading https://files.pythonhosted.org/packages/a7/07/1e387235f3fff5cb14efa6ff121e7b9d87fabed027b37dbe6e73436c5688/pydaymet-0.2.0.tar.gz
+[2023-05-08 00:55:28] INFO root fetch - processPackages [pyghostdb]: Downloading https://files.pythonhosted.org/packages/d5/57/c0ec949807f9d9e8301e7ccc4e69c6573beb55361ae388d498a87f69bb15/pyghostdb-0.0.4.tar.gz
+[2023-05-08 00:55:28] INFO root fetch - processPackages [pyghostdb]: executing diffoscope
+[2023-05-08 00:55:28] INFO root fetch - processPackages [pyghostdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyghostdb-0.0.3.tar.gz tmp/pyghostdb-0.0.4.tar.gz --markdown 20230508/p/pyghostdb/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-08 00:55:28] INFO root fetch - processPackages [hydrosignatures]: Downloading https://files.pythonhosted.org/packages/d1/60/ed9bf775c65b3728cc8a231b886cc174538a6c3ee280fca0a6447ddb089e/hydrosignatures-0.15.0.tar.gz
+[2023-05-08 00:55:28] INFO root fetch - processPackages [hydrosignatures]: executing diffoscope
+[2023-05-08 00:55:28] INFO root fetch - processPackages [hydrosignatures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydrosignatures-0.14.0.tar.gz tmp/hydrosignatures-0.15.0.tar.gz --markdown 20230508/h/hydrosignatures/0.14.0-0.15.0/diff.md --exclude *.pyd
+[2023-05-08 00:55:28] INFO root fetch - processPackages [pydaymet]: Downloading https://files.pythonhosted.org/packages/6b/2e/f82eecc20d9252798a141666808903ad2e516d4bb8c25a2b0ac220a0a9a6/pydaymet-0.9.0.tar.gz
+[2023-05-08 00:55:29] INFO root fetch - processPackages [pydaymet]: executing diffoscope
+[2023-05-08 00:55:29] INFO root fetch - processPackages [pydaymet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydaymet-0.2.0.tar.gz tmp/pydaymet-0.9.0.tar.gz --markdown 20230508/p/pydaymet/0.2.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-08 00:55:29] INFO root fetch - main [MainThread]: End processing [pyghostdb]: success
+[2023-05-08 00:55:30] INFO root fetch - main [MainThread]: End processing [hydrosignatures]: success
+[2023-05-08 00:55:30] INFO root fetch - main [MainThread]: End processing [pydaymet]: success
+[2023-05-08 00:55:30] INFO root fetch - main [MainThread]: Store serial: [18010390]
