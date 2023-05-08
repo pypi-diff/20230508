@@ -10083,3 +10083,143 @@
 [2023-05-08 12:34:21] INFO root fetch - main [MainThread]: End processing [inverse]: success
 [2023-05-08 12:34:23] INFO root fetch - main [MainThread]: End processing [NodeGraphQt]: success
 [2023-05-08 12:34:23] INFO root fetch - main [MainThread]: Store serial: [18015637]
+[2023-05-08 12:39:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18015637]
+[2023-05-08 12:39:32] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-08 12:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: optinist
+[2023-05-08 12:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gaiaFramework
+[2023-05-08 12:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ebel-rest
+[2023-05-08 12:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pybiolib
+[2023-05-08 12:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arvan-dns
+[2023-05-08 12:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: databricks-sdk
+[2023-05-08 12:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nashbanksync
+[2023-05-08 12:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: inverse
+[2023-05-08 12:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: calcutils
+[2023-05-08 12:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: arvan-dns
+[2023-05-08 12:39:32] INFO root fetch - processPackages [optinist]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-08 12:39:32] INFO root fetch - processPackages [gaiaFramework]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-08 12:39:32] INFO root fetch - processPackages [calcutils]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-08 12:39:32] INFO root fetch - processPackages [ebel-rest]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-08 12:39:32] INFO root fetch - processPackages [inverse]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 12:39:32] INFO root fetch - processPackages [arvan-dns]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-08 12:39:32] INFO root fetch - processPackages [arvan-dns]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-08 12:39:32] INFO root fetch - processPackages [databricks-sdk]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-08 12:39:32] INFO root fetch - processPackages [nashbanksync]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 12:39:32] INFO root fetch - processPackages [pybiolib]: New version: [1.1.94] Old Version: [1.1.91]
+[2023-05-08 12:39:32] INFO root fetch - processPackages [inverse]: executing diffoscope
+[2023-05-08 12:39:32] INFO root fetch - processPackages [inverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inverse-0.0.8-py3-none-any.whl.zip tmp/inverse-0.0.9-py3-none-any.whl.zip --markdown 20230508/i/inverse/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 12:39:32] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2023-05-08 12:39:32] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.91.tar.gz tmp/pybiolib-1.1.94.tar.gz --markdown 20230508/p/pybiolib/1.1.91-1.1.94/diff.md --exclude *.pyd
+[2023-05-08 12:39:32] INFO root fetch - processPackages [calcutils]: Downloading https://files.pythonhosted.org/packages/76/6b/d6ee23b279245bc250b4ba30aa5f40608845b7dbbdcb0acd940b1838554e/calcutils-0.1.1.tar.gz
+[2023-05-08 12:39:32] INFO root fetch - processPackages [gaiaFramework]: Downloading https://files.pythonhosted.org/packages/7d/31/d623b9c56c81d19a4de121c99750fbb5e7c9904c9f5bcee4b87e39922ece/gaiaFramework-1.0.8.tar.gz
+[2023-05-08 12:39:32] INFO root fetch - processPackages [optinist]: Downloading https://files.pythonhosted.org/packages/67/c8/bd75d1523e24beb0de0de6fead3fe0f76e43908706f470135fc74480c4f6/optinist-0.3.3.tar.gz
+[2023-05-08 12:39:32] INFO root fetch - processPackages [arvan-dns]: Downloading https://files.pythonhosted.org/packages/7e/b1/e672d120a5bdd9332a7f079df5c6d22c7137f49ec123b84ce9b303a095e3/arvan_dns-1.0.6.tar.gz
+[2023-05-08 12:39:32] INFO root fetch - processPackages [arvan-dns]: Downloading https://files.pythonhosted.org/packages/7e/b1/e672d120a5bdd9332a7f079df5c6d22c7137f49ec123b84ce9b303a095e3/arvan_dns-1.0.6.tar.gz
+[2023-05-08 12:39:32] INFO root fetch - processPackages [nashbanksync]: Downloading https://files.pythonhosted.org/packages/11/dd/544d153563799222c6a9e315f2a0b249bc604c9eade4f0d9d3b73a5e08a4/nashbanksync-0.1.8.tar.gz
+[2023-05-08 12:39:32] INFO root fetch - processPackages [ebel-rest]: Downloading https://files.pythonhosted.org/packages/78/21/11226f02d7cfa12ad0a22392d8dd25870c32f60db2c0cfa48fdd1b4978cb/ebel_rest-1.0.8.tar.gz
+[2023-05-08 12:39:32] INFO root fetch - processPackages [optinist]: executing diffoscope
+[2023-05-08 12:39:32] INFO root fetch - processPackages [optinist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optinist-0.3.2.tar.gz tmp/optinist-0.3.3.tar.gz --markdown 20230508/o/optinist/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-08 12:39:32] INFO root fetch - processPackages [calcutils]: Downloading https://files.pythonhosted.org/packages/d4/b7/5fd564ef5a4776ab89ebe56de049330627141c5ed57e15d72fb0fdfa94f2/calcutils-0.1.2.tar.gz
+[2023-05-08 12:39:32] INFO root fetch - processPackages [gaiaFramework]: Downloading https://files.pythonhosted.org/packages/8a/6a/7e1b5292c38185a28ac09beb052442740b1217ef8bbc97a594fc4cbb0bb3/gaiaFramework-1.0.9.tar.gz
+[2023-05-08 12:39:32] INFO root fetch - processPackages [arvan-dns]: Downloading https://files.pythonhosted.org/packages/71/37/eff678826c0b54ffb7be66643b2aab68a6639decb178a3ea1fe3618b77a3/arvan_dns-1.0.7.tar.gz
+[2023-05-08 12:39:32] INFO root fetch - processPackages [databricks-sdk]: Downloading https://files.pythonhosted.org/packages/c4/4e/4ef679338e212154f017bed6a0a9e096b1091a9d74c13968107ebee31627/databricks-sdk-0.1.5.tar.gz
+[2023-05-08 12:39:32] INFO root fetch - processPackages [arvan-dns]: Downloading https://files.pythonhosted.org/packages/71/37/eff678826c0b54ffb7be66643b2aab68a6639decb178a3ea1fe3618b77a3/arvan_dns-1.0.7.tar.gz
+[2023-05-08 12:39:32] INFO root fetch - processPackages [nashbanksync]: Downloading https://files.pythonhosted.org/packages/7a/e4/423e5b98b3a230f3bafa2fd0b9ff5e30d35f36c5a97b49ceea1e91392102/nashbanksync-0.1.9.tar.gz
+[2023-05-08 12:39:32] INFO root fetch - processPackages [gaiaFramework]: executing diffoscope
+[2023-05-08 12:39:32] INFO root fetch - processPackages [gaiaFramework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaiaFramework-1.0.8.tar.gz tmp/gaiaFramework-1.0.9.tar.gz --markdown 20230508/g/gaiaFramework/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-08 12:39:32] INFO root fetch - processPackages [databricks-sdk]: executing diffoscope
+[2023-05-08 12:39:32] INFO root fetch - processPackages [databricks-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databricks-sdk-0.1.4.tar.gz tmp/databricks-sdk-0.1.5.tar.gz --markdown 20230508/d/databricks-sdk/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-08 12:39:33] INFO root fetch - processPackages [calcutils]: executing diffoscope
+[2023-05-08 12:39:33] INFO root fetch - processPackages [calcutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calcutils-0.1.1.tar.gz tmp/calcutils-0.1.2.tar.gz --markdown 20230508/c/calcutils/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-08 12:39:33] INFO root fetch - processPackages [arvan-dns]: executing diffoscope
+[2023-05-08 12:39:33] INFO root fetch - processPackages [arvan-dns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arvan_dns-1.0.6.tar.gz tmp/arvan_dns-1.0.7.tar.gz --markdown 20230508/a/arvan-dns/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-08 12:39:33] INFO root fetch - processPackages [arvan-dns]: executing diffoscope
+[2023-05-08 12:39:33] INFO root fetch - processPackages [arvan-dns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arvan_dns-1.0.6.tar.gz tmp/arvan_dns-1.0.7.tar.gz --markdown 20230508/a/arvan-dns/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-08 12:39:33] INFO root fetch - processPackages [nashbanksync]: executing diffoscope
+[2023-05-08 12:39:33] INFO root fetch - processPackages [nashbanksync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nashbanksync-0.1.8.tar.gz tmp/nashbanksync-0.1.9.tar.gz --markdown 20230508/n/nashbanksync/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 12:39:33] INFO root fetch - processPackages [ebel-rest]: Downloading https://files.pythonhosted.org/packages/bc/d8/5aa330feee3136dbba28678c91b11ba00a8c388d4ac65605211086e1a835/ebel_rest-1.0.9.tar.gz
+[2023-05-08 12:39:33] INFO root fetch - processPackages [ebel-rest]: executing diffoscope
+[2023-05-08 12:39:33] INFO root fetch - processPackages [ebel-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebel_rest-1.0.8.tar.gz tmp/ebel_rest-1.0.9.tar.gz --markdown 20230508/e/ebel-rest/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-08 12:39:34] INFO root fetch - processPackages [calcutils]: Start processing: easyterm
+[2023-05-08 12:39:34] INFO root fetch - main [MainThread]: End processing [calcutils]: success
+[2023-05-08 12:39:34] INFO root fetch - processPackages [easyterm]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-08 12:39:34] INFO root fetch - processPackages [arvan-dns]: Start processing: pyseer
+[2023-05-08 12:39:34] INFO root fetch - main [MainThread]: End processing [arvan-dns]: success
+[2023-05-08 12:39:34] INFO root fetch - processPackages [pyseer]: New version: [1.3.11] Old Version: [1.3.10]
+[2023-05-08 12:39:34] INFO root fetch - processPackages [arvan-dns]: Start processing: pyseer
+[2023-05-08 12:39:34] INFO root fetch - main [MainThread]: End processing [arvan-dns]: success
+[2023-05-08 12:39:34] INFO root fetch - processPackages [pyseer]: New version: [1.3.11] Old Version: [1.3.10]
+[2023-05-08 12:39:34] INFO root fetch - processPackages [easyterm]: Downloading https://files.pythonhosted.org/packages/a3/af/5e5768e27f95ef7baf993de7a4541dfdb38e64796530ffe8ff886ee9fb62/easyterm-1.0.0.tar.gz
+[2023-05-08 12:39:34] ERROR root fetch - processPackages [pyseer]: Unable to fetch info: No such project/version 'pyseer' 1.3.10
+[2023-05-08 12:39:34] ERROR root fetch - processPackages [pyseer]: Unable to fetch info: No such project/version 'pyseer' 1.3.10
+[2023-05-08 12:39:34] INFO root fetch - processPackages [pyseer]: Start processing: taichu-serve
+[2023-05-08 12:39:34] INFO root fetch - main [MainThread]: End processing [pyseer] error
+[2023-05-08 12:39:34] INFO root fetch - processPackages [pyseer]: Start processing: pycomex
+[2023-05-08 12:39:34] INFO root fetch - main [MainThread]: End processing [pyseer] error
+[2023-05-08 12:39:34] INFO root fetch - processPackages [taichu-serve]: New version: [2.0.9] Old Version: [2.0.25]
+[2023-05-08 12:39:34] INFO root fetch - processPackages [pycomex]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-08 12:39:35] INFO root fetch - processPackages [taichu-serve]: Downloading https://files.pythonhosted.org/packages/9d/5f/3588e760b849f329e2da72402b9969a0900e7d05bead0106675e3976393c/taichu-serve-2.0.25.tar.gz
+[2023-05-08 12:39:35] INFO root fetch - processPackages [easyterm]: Downloading https://files.pythonhosted.org/packages/01/64/4a5a306dca521114ad2584429f23d57eb61e59a211b19aeae6a4abd42392/easyterm-1.0.1.tar.gz
+[2023-05-08 12:39:35] INFO root fetch - processPackages [easyterm]: executing diffoscope
+[2023-05-08 12:39:35] INFO root fetch - processPackages [easyterm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyterm-1.0.0.tar.gz tmp/easyterm-1.0.1.tar.gz --markdown 20230508/e/easyterm/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-08 12:39:35] INFO root fetch - processPackages [taichu-serve]: executing diffoscope
+[2023-05-08 12:39:35] INFO root fetch - processPackages [taichu-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taichu-serve-2.0.25.tar.gz tmp/taichu-serve-2.0.9.tar.gz --markdown 20230508/t/taichu-serve/2.0.25-2.0.9/diff.md --exclude *.pyd
+[2023-05-08 12:39:35] INFO root fetch - processPackages [pycomex]: Downloading https://files.pythonhosted.org/packages/df/30/11e1231c5554094df8e5d8fd0290bebe8d91450af6e2613ab04667e174b0/pycomex-0.9.4.tar.gz
+[2023-05-08 12:39:35] INFO root fetch - processPackages [pycomex]: executing diffoscope
+[2023-05-08 12:39:35] INFO root fetch - processPackages [pycomex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycomex-0.9.3.tar.gz tmp/pycomex-0.9.4.tar.gz --markdown 20230508/p/pycomex/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-08 12:39:35] INFO root fetch - processPackages [databricks-sdk]: Start processing: proteus-cli
+[2023-05-08 12:39:35] INFO root fetch - main [MainThread]: End processing [databricks-sdk]: success
+[2023-05-08 12:39:35] INFO root fetch - processPackages [proteus-cli]: New version: [0.2.26] Old Version: [0.2.25]
+[2023-05-08 12:39:35] INFO root fetch - processPackages [ebel-rest]: Start processing: pysangkom
+[2023-05-08 12:39:35] INFO root fetch - main [MainThread]: End processing [ebel-rest]: success
+[2023-05-08 12:39:35] INFO root fetch - processPackages [inverse]: Start processing: odoo13-addon-ddmrp-coverage-days
+[2023-05-08 12:39:35] INFO root fetch - main [MainThread]: End processing [inverse]: success
+[2023-05-08 12:39:35] INFO root fetch - processPackages [pysangkom]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-08 12:39:35] INFO root fetch - processPackages [nashbanksync]: Start processing: gcscore
+[2023-05-08 12:39:35] INFO root fetch - main [MainThread]: End processing [nashbanksync]: success
+[2023-05-08 12:39:35] INFO root fetch - processPackages [odoo13-addon-ddmrp-coverage-days]: New version: [13.0.1.2.0] Old Version: [13.0.1.1.0]
+[2023-05-08 12:39:35] INFO root fetch - processPackages [gcscore]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 12:39:35] INFO root fetch - processPackages [gaiaFramework]: Start processing: visual-compare
+[2023-05-08 12:39:35] INFO root fetch - main [MainThread]: End processing [gaiaFramework]: success
+[2023-05-08 12:39:35] INFO root fetch - processPackages [visual-compare]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-08 12:39:35] INFO root fetch - processPackages [proteus-cli]: Downloading https://files.pythonhosted.org/packages/33/22/c2c92ac3c0a6b847fb8d35635f35780a0011a5b209f03953a04b221eef9e/proteus_cli-0.2.25.tar.gz
+[2023-05-08 12:39:35] INFO root fetch - processPackages [gcscore]: executing diffoscope
+[2023-05-08 12:39:35] INFO root fetch - processPackages [gcscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcscore-0.0.8.tar.gz tmp/gcscore-0.0.9.tar.gz --markdown 20230508/g/gcscore/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 12:39:35] INFO root fetch - processPackages [pysangkom]: Downloading https://files.pythonhosted.org/packages/1d/c6/9741704bab7c99ca8f68556cd31700e1806db0258dd0ec3e6848436b533d/pysangkom-1.0.4.tar.gz
+[2023-05-08 12:39:35] INFO root fetch - processPackages [pybiolib]: Start processing: p-ttauto-crawler
+[2023-05-08 12:39:35] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2023-05-08 12:39:35] INFO root fetch - processPackages [odoo13-addon-ddmrp-coverage-days]: Downloading https://files.pythonhosted.org/packages/3f/9a/38c4d278cb15b81871558dbab19270574fb4048bfcad91577777c3a1e94b/odoo13_addon_ddmrp_coverage_days-13.0.1.1.0-py3-none-any.whl
+[2023-05-08 12:39:36] INFO root fetch - processPackages [visual-compare]: Downloading https://files.pythonhosted.org/packages/9d/3d/5bd003408a666ba57683fcff4b384d850acc413d2c55464f860f48169517/visual-compare-0.1.0.tar.gz
+[2023-05-08 12:39:36] INFO root fetch - processPackages [pysangkom]: executing diffoscope
+[2023-05-08 12:39:36] INFO root fetch - processPackages [pysangkom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysangkom-1.0.3.tar.gz tmp/pysangkom-1.0.4.tar.gz --markdown 20230508/p/pysangkom/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-08 12:39:36] INFO root fetch - processPackages [proteus-cli]: Downloading https://files.pythonhosted.org/packages/f6/53/c00207467f3c7fa23931cdffe9ae7e5c2df167c51af260bfafe4e82050d7/proteus_cli-0.2.26.tar.gz
+[2023-05-08 12:39:36] INFO root fetch - processPackages [p-ttauto-crawler]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 12:39:36] INFO root fetch - processPackages [proteus-cli]: executing diffoscope
+[2023-05-08 12:39:36] INFO root fetch - processPackages [proteus-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteus_cli-0.2.25.tar.gz tmp/proteus_cli-0.2.26.tar.gz --markdown 20230508/p/proteus-cli/0.2.25-0.2.26/diff.md --exclude *.pyd
+[2023-05-08 12:39:36] INFO root fetch - processPackages [visual-compare]: Downloading https://files.pythonhosted.org/packages/d0/6e/8a4b1fcfa4a4c1c4df26c41fc005762103b23c894ef137df6f6bcde46a65/visual-compare-0.1.1.tar.gz
+[2023-05-08 12:39:36] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/c4/a5/04a2c545b6da0f2692335c39cd3a01ce563b9eacd60a976d2764725deca5/p-ttauto-crawler-0.0.8.tar.gz
+[2023-05-08 12:39:36] INFO root fetch - processPackages [visual-compare]: executing diffoscope
+[2023-05-08 12:39:36] INFO root fetch - processPackages [visual-compare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visual-compare-0.1.0.tar.gz tmp/visual-compare-0.1.1.tar.gz --markdown 20230508/v/visual-compare/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-08 12:39:36] INFO root fetch - processPackages [odoo13-addon-ddmrp-coverage-days]: Downloading https://files.pythonhosted.org/packages/7c/b9/8d2fa004c04f5589599af532fef54258039b8044176d73cdf21b950df469/odoo13_addon_ddmrp_coverage_days-13.0.1.2.0-py3-none-any.whl
+[2023-05-08 12:39:36] INFO root fetch - processPackages [odoo13-addon-ddmrp-coverage-days]: executing diffoscope
+[2023-05-08 12:39:36] INFO root fetch - processPackages [odoo13-addon-ddmrp-coverage-days]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_ddmrp_coverage_days-13.0.1.1.0-py3-none-any.whl.zip tmp/odoo13_addon_ddmrp_coverage_days-13.0.1.2.0-py3-none-any.whl.zip --markdown 20230508/o/odoo13-addon-ddmrp-coverage-days/13.0.1.1.0-13.0.1.2.0/diff.md --exclude *.pyd
+[2023-05-08 12:39:36] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/b4/f7/5bb1b0eca90eafbd5c9d828d6d1b59db3270a417f6544d298391274b8f03/p-ttauto-crawler-0.0.9.tar.gz
+[2023-05-08 12:39:36] INFO root fetch - processPackages [p-ttauto-crawler]: executing diffoscope
+[2023-05-08 12:39:36] INFO root fetch - processPackages [p-ttauto-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-ttauto-crawler-0.0.8.tar.gz tmp/p-ttauto-crawler-0.0.9.tar.gz --markdown 20230508/p/p-ttauto-crawler/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 12:39:37] INFO root fetch - processPackages [taichu-serve]: Start processing: leqi-algorithm-mic-sdk
+[2023-05-08 12:39:37] INFO root fetch - main [MainThread]: End processing [taichu-serve]: success
+[2023-05-08 12:39:37] INFO root fetch - main [MainThread]: End processing [easyterm]: success
+[2023-05-08 12:39:37] INFO root fetch - processPackages [leqi-algorithm-mic-sdk]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-05-08 12:39:37] INFO root fetch - main [MainThread]: End processing [gcscore]: success
+[2023-05-08 12:39:37] INFO root fetch - processPackages [leqi-algorithm-mic-sdk]: Downloading https://files.pythonhosted.org/packages/0f/46/17c850430657f84b3e39909b2ed97d5235d1c3a849cea70bde7fe72785ab/leqi-algorithm-mic-sdk-1.9.3.tar.gz
+[2023-05-08 12:39:37] INFO root fetch - main [MainThread]: End processing [pycomex]: success
+[2023-05-08 12:39:37] INFO root fetch - processPackages [leqi-algorithm-mic-sdk]: Downloading https://files.pythonhosted.org/packages/a7/b0/88958e9f07e5e92014f5016897e4a727bf30718767ec3e9eb1e13d8fdf92/leqi-algorithm-mic-sdk-1.9.4.tar.gz
+[2023-05-08 12:39:37] INFO root fetch - main [MainThread]: End processing [pysangkom]: success
+[2023-05-08 12:39:38] INFO root fetch - processPackages [leqi-algorithm-mic-sdk]: executing diffoscope
+[2023-05-08 12:39:38] INFO root fetch - processPackages [leqi-algorithm-mic-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leqi-algorithm-mic-sdk-1.9.3.tar.gz tmp/leqi-algorithm-mic-sdk-1.9.4.tar.gz --markdown 20230508/l/leqi-algorithm-mic-sdk/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-05-08 12:39:38] INFO root fetch - main [MainThread]: End processing [optinist]: success
+[2023-05-08 12:39:38] INFO root fetch - main [MainThread]: End processing [odoo13-addon-ddmrp-coverage-days]: success
+[2023-05-08 12:39:38] INFO root fetch - main [MainThread]: End processing [proteus-cli]: success
+[2023-05-08 12:39:38] INFO root fetch - main [MainThread]: End processing [p-ttauto-crawler]: success
+[2023-05-08 12:39:38] INFO root fetch - main [MainThread]: End processing [visual-compare]: success
+[2023-05-08 12:39:39] INFO root fetch - main [MainThread]: End processing [leqi-algorithm-mic-sdk]: success
+[2023-05-08 12:39:39] INFO root fetch - main [MainThread]: Store serial: [18015694]
