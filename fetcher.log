@@ -10223,3 +10223,77 @@
 [2023-05-08 12:39:38] INFO root fetch - main [MainThread]: End processing [visual-compare]: success
 [2023-05-08 12:39:39] INFO root fetch - main [MainThread]: End processing [leqi-algorithm-mic-sdk]: success
 [2023-05-08 12:39:39] INFO root fetch - main [MainThread]: Store serial: [18015694]
+[2023-05-08 12:44:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18015694]
+[2023-05-08 12:44:47] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-08 12:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: leqi-algorithm-mic-sdk
+[2023-05-08 12:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ibpmodel
+[2023-05-08 12:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tybase
+[2023-05-08 12:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gcsaws
+[2023-05-08 12:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mxdev
+[2023-05-08 12:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: root-painter-trainer
+[2023-05-08 12:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: braincube-aws-core-alpha
+[2023-05-08 12:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gopro-overlay
+[2023-05-08 12:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lightwave
+[2023-05-08 12:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: exalusAPI
+[2023-05-08 12:44:47] INFO root fetch - processPackages [ibpmodel]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-05-08 12:44:47] INFO root fetch - processPackages [leqi-algorithm-mic-sdk]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-05-08 12:44:47] INFO root fetch - processPackages [gcsaws]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 12:44:47] INFO root fetch - processPackages [tybase]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-08 12:44:47] INFO root fetch - processPackages [braincube-aws-core-alpha]: New version: [0.0.20] Old Version: [0.0.19]
+[2023-05-08 12:44:47] INFO root fetch - processPackages [exalusAPI]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-05-08 12:44:47] INFO root fetch - processPackages [root-painter-trainer]: New version: [0.2.27.0] Old Version: [0.2.25.3]
+[2023-05-08 12:44:47] INFO root fetch - processPackages [gopro-overlay]: New version: [0.92.0] Old Version: [0.91.0]
+[2023-05-08 12:44:47] INFO root fetch - processPackages [lightwave]: New version: [0.24] Old Version: [0.23]
+[2023-05-08 12:44:47] INFO root fetch - processPackages [mxdev]: New version: [3.0.0b3] Old Version: [3.0.0b2]
+[2023-05-08 12:44:48] INFO root fetch - processPackages [leqi-algorithm-mic-sdk]: executing diffoscope
+[2023-05-08 12:44:48] INFO root fetch - processPackages [leqi-algorithm-mic-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leqi-algorithm-mic-sdk-1.9.3.tar.gz tmp/leqi-algorithm-mic-sdk-1.9.4.tar.gz --markdown 20230508/l/leqi-algorithm-mic-sdk/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-05-08 12:44:48] INFO root fetch - processPackages [gopro-overlay]: Downloading https://files.pythonhosted.org/packages/98/2c/2a30c254eb05f1d297741806c066951217479ae8780e44f3256eb9a171d2/gopro-overlay-0.91.0.tar.gz
+[2023-05-08 12:44:48] INFO root fetch - processPackages [gcsaws]: Downloading https://files.pythonhosted.org/packages/08/8a/05177a8c3cb408994fbcadd1de82000fad9fc69f43879dc65f5f5dc1d4b8/gcsaws-0.0.8.tar.gz
+[2023-05-08 12:44:48] INFO root fetch - processPackages [root-painter-trainer]: Downloading https://files.pythonhosted.org/packages/d2/71/ad0e3e0d9076a7e2cc92d9609e34ffb33c6a51a838632babfa768ad9585e/root_painter_trainer-0.2.25.3.tar.gz
+[2023-05-08 12:44:48] INFO root fetch - processPackages [exalusAPI]: Downloading https://files.pythonhosted.org/packages/4f/68/c7f21c2757f65cb855a335d02b55a1b4c61ffc653863906d41a80fb199c9/exalusAPI-0.6.2.tar.gz
+[2023-05-08 12:44:48] INFO root fetch - processPackages [lightwave]: Downloading https://files.pythonhosted.org/packages/96/1a/7754f0a3639b3c8c7c05310de7ba67af3bf1e36a20537bde0473bbc91793/lightwave-0.24.tar.gz
+[2023-05-08 12:44:48] INFO root fetch - processPackages [braincube-aws-core-alpha]: Downloading https://files.pythonhosted.org/packages/ef/97/13fe8ce08f97738ccbc562ea8f9b9da12e71e7ccd3c8adb68f87262cfa85/braincube-aws-core-alpha-0.0.20.tar.gz
+[2023-05-08 12:44:48] INFO root fetch - processPackages [ibpmodel]: Downloading https://files.pythonhosted.org/packages/87/ba/69fe646755b55399a8f0d29a3a551308fef9f419c1ca86ec3dfb8b370fce/ibpmodel-1.1.2.tar.gz
+[2023-05-08 12:44:48] INFO root fetch - processPackages [mxdev]: Downloading https://files.pythonhosted.org/packages/7b/98/e661ed84624b7ebb9e798d98e94d48bd43754586b724a48ef197821fd31e/mxdev-3.0.0b2-py3-none-any.whl
+[2023-05-08 12:44:48] INFO root fetch - processPackages [exalusAPI]: executing diffoscope
+[2023-05-08 12:44:48] INFO root fetch - processPackages [exalusAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exalusAPI-0.6.1.tar.gz tmp/exalusAPI-0.6.2.tar.gz --markdown 20230508/e/exalusAPI/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-05-08 12:44:48] INFO root fetch - processPackages [braincube-aws-core-alpha]: executing diffoscope
+[2023-05-08 12:44:48] INFO root fetch - processPackages [braincube-aws-core-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/braincube-aws-core-alpha-0.0.19.tar.gz tmp/braincube-aws-core-alpha-0.0.20.tar.gz --markdown 20230508/b/braincube-aws-core-alpha/0.0.19-0.0.20/diff.md --exclude *.pyd
+[2023-05-08 12:44:48] INFO root fetch - processPackages [lightwave]: executing diffoscope
+[2023-05-08 12:44:48] INFO root fetch - processPackages [lightwave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightwave-0.23.tar.gz tmp/lightwave-0.24.tar.gz --markdown 20230508/l/lightwave/0.23-0.24/diff.md --exclude *.pyd
+[2023-05-08 12:44:48] INFO root fetch - processPackages [tybase]: Downloading https://files.pythonhosted.org/packages/fb/4c/490457c1d06645d5198c071dbbaf752de0d924ec4a3fd12cb996faa35ff8/tybase-0.0.6.tar.gz
+[2023-05-08 12:44:48] INFO root fetch - processPackages [gcsaws]: Downloading https://files.pythonhosted.org/packages/f4/61/f3000e49f08920b77b2c1f4c0457ef630f7468369f2690897f29c45ca10a/gcsaws-0.0.9.tar.gz
+[2023-05-08 12:44:48] INFO root fetch - processPackages [root-painter-trainer]: Downloading https://files.pythonhosted.org/packages/d3/f7/402d1c7c03daf0f63c36ac639cbd640af4a520921b9ed7552f647e97d80d/root_painter_trainer-0.2.27.0.tar.gz
+[2023-05-08 12:44:48] INFO root fetch - processPackages [gopro-overlay]: Downloading https://files.pythonhosted.org/packages/c9/07/e9e7ee836e2993d73bd3f280009381547cfa91c68b5552ab12fe497d6871/gopro-overlay-0.92.0.tar.gz
+[2023-05-08 12:44:48] INFO root fetch - processPackages [tybase]: executing diffoscope
+[2023-05-08 12:44:48] INFO root fetch - processPackages [tybase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tybase-0.0.5.tar.gz tmp/tybase-0.0.6.tar.gz --markdown 20230508/t/tybase/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-08 12:44:48] INFO root fetch - processPackages [gcsaws]: executing diffoscope
+[2023-05-08 12:44:48] INFO root fetch - processPackages [gcsaws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcsaws-0.0.8.tar.gz tmp/gcsaws-0.0.9.tar.gz --markdown 20230508/g/gcsaws/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 12:44:48] INFO root fetch - processPackages [root-painter-trainer]: executing diffoscope
+[2023-05-08 12:44:48] INFO root fetch - processPackages [root-painter-trainer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/root_painter_trainer-0.2.25.3.tar.gz tmp/root_painter_trainer-0.2.27.0.tar.gz --markdown 20230508/r/root-painter-trainer/0.2.25.3-0.2.27.0/diff.md --exclude *.pyd
+[2023-05-08 12:44:48] INFO root fetch - processPackages [gopro-overlay]: executing diffoscope
+[2023-05-08 12:44:48] INFO root fetch - processPackages [gopro-overlay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gopro-overlay-0.91.0.tar.gz tmp/gopro-overlay-0.92.0.tar.gz --markdown 20230508/g/gopro-overlay/0.91.0-0.92.0/diff.md --exclude *.pyd
+[2023-05-08 12:44:48] INFO root fetch - processPackages [mxdev]: Downloading https://files.pythonhosted.org/packages/c3/8d/8af925849216a6f31e8033f24b88a51566bbf1a17d276ee00c42959280ca/mxdev-3.0.0b3.tar.gz
+[2023-05-08 12:44:48] INFO root fetch - processPackages [mxdev]: executing diffoscope
+[2023-05-08 12:44:48] INFO root fetch - processPackages [mxdev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mxdev-3.0.0b2-py3-none-any.whl.zip tmp/mxdev-3.0.0b3.tar.gz --markdown 20230508/m/mxdev/3.0.0b2-3.0.0b3/diff.md --exclude *.pyd
+[2023-05-08 12:44:49] INFO root fetch - processPackages [ibpmodel]: Downloading https://files.pythonhosted.org/packages/ad/db/77178d1a579fe135ddfd36eb6f805e7387a261ad03db076c6548e922bd84/ibpmodel-1.2.0.tar.gz
+[2023-05-08 12:44:49] INFO root fetch - processPackages [ibpmodel]: executing diffoscope
+[2023-05-08 12:44:49] INFO root fetch - processPackages [ibpmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibpmodel-1.1.2.tar.gz tmp/ibpmodel-1.2.0.tar.gz --markdown 20230508/i/ibpmodel/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-05-08 12:44:50] INFO root fetch - processPackages [leqi-algorithm-mic-sdk]: Start processing: django-cryptapi
+[2023-05-08 12:44:50] INFO root fetch - main [MainThread]: End processing [leqi-algorithm-mic-sdk]: success
+[2023-05-08 12:44:50] INFO root fetch - processPackages [django-cryptapi]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-05-08 12:44:50] INFO root fetch - main [MainThread]: End processing [braincube-aws-core-alpha]: success
+[2023-05-08 12:44:50] INFO root fetch - main [MainThread]: End processing [exalusAPI]: success
+[2023-05-08 12:44:50] INFO root fetch - main [MainThread]: End processing [mxdev]: success
+[2023-05-08 12:44:50] INFO root fetch - main [MainThread]: End processing [lightwave]: success
+[2023-05-08 12:44:50] INFO root fetch - main [MainThread]: End processing [tybase]: success
+[2023-05-08 12:44:50] INFO root fetch - main [MainThread]: End processing [root-painter-trainer]: success
+[2023-05-08 12:44:50] INFO root fetch - processPackages [django-cryptapi]: Downloading https://files.pythonhosted.org/packages/5d/ee/4bb4a2c03ebd83fec81d6ce6546c1711298e5cac85dc335d0f71733cdc06/django-cryptapi-0.4.2.tar.gz
+[2023-05-08 12:44:50] INFO root fetch - main [MainThread]: End processing [gcsaws]: success
+[2023-05-08 12:44:51] INFO root fetch - processPackages [django-cryptapi]: Downloading https://files.pythonhosted.org/packages/4b/b2/a819d6a498faef5e32e9199e72098e389fb920ceaf4ff718028ccc6e9f4c/django-cryptapi-0.4.3.tar.gz
+[2023-05-08 12:44:51] INFO root fetch - processPackages [django-cryptapi]: executing diffoscope
+[2023-05-08 12:44:51] INFO root fetch - processPackages [django-cryptapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-cryptapi-0.4.2.tar.gz tmp/django-cryptapi-0.4.3.tar.gz --markdown 20230508/d/django-cryptapi/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-05-08 12:44:51] INFO root fetch - main [MainThread]: End processing [ibpmodel]: success
+[2023-05-08 12:44:52] INFO root fetch - main [MainThread]: End processing [django-cryptapi]: success
+[2023-05-08 12:44:52] INFO root fetch - main [MainThread]: End processing [gopro-overlay]: success
+[2023-05-08 12:44:52] INFO root fetch - main [MainThread]: Store serial: [18015725]
