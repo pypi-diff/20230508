@@ -5641,3 +5641,46 @@
 [2023-05-08 07:07:46] INFO root fetch - main [MainThread]: End processing [bagbag]: success
 [2023-05-08 07:10:30] INFO root fetch - main [MainThread]: End processing [multi-model-server]: success
 [2023-05-08 07:10:30] INFO root fetch - main [MainThread]: Store serial: [18013099]
+[2023-05-08 07:15:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18013099]
+[2023-05-08 07:15:39] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-08 07:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tflite-model-maker-nightly
+[2023-05-08 07:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llamatry
+[2023-05-08 07:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: denoising-diffusion-pytorch
+[2023-05-08 07:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rapi-api
+[2023-05-08 07:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: filedbm
+[2023-05-08 07:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: getfilenuitkapython
+[2023-05-08 07:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xtgeoviz
+[2023-05-08 07:15:39] INFO root fetch - processPackages [denoising-diffusion-pytorch]: New version: [1.5.8] Old Version: [1.5.7]
+[2023-05-08 07:15:39] WARNING root fetch - processPackages [filedbm]: Skipping, unable to determine old version
+[2023-05-08 07:15:39] INFO root fetch - main [MainThread]: End processing [filedbm] error
+[2023-05-08 07:15:39] INFO root fetch - processPackages [getfilenuitkapython]: New version: [0.11] Old Version: [0.10]
+[2023-05-08 07:15:39] INFO root fetch - processPackages [llamatry]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-08 07:15:39] INFO root fetch - processPackages [xtgeoviz]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-08 07:15:39] WARNING root fetch - processPackages [rapi-api]: Skipping, unable to determine old version
+[2023-05-08 07:15:39] INFO root fetch - main [MainThread]: End processing [rapi-api] error
+[2023-05-08 07:15:39] INFO root fetch - processPackages [tflite-model-maker-nightly]: New version: [0.4.3.dev202305080509] Old Version: [0.4.3.dev202305070508]
+[2023-05-08 07:15:39] INFO root fetch - processPackages [denoising-diffusion-pytorch]: Downloading https://files.pythonhosted.org/packages/94/70/cbd8e5691fca846ba27554d407d599b337880b07317efa1f0dea2797d402/denoising-diffusion-pytorch-1.5.8.tar.gz
+[2023-05-08 07:15:39] INFO root fetch - processPackages [llamatry]: Downloading https://files.pythonhosted.org/packages/9b/8b/e138058a4f1b8ddd6ab450b50f8d5c61ce24cbfeb04093c3f55e38ca07d5/llamatry-0.1.0.tar.gz
+[2023-05-08 07:15:39] INFO root fetch - processPackages [getfilenuitkapython]: Downloading https://files.pythonhosted.org/packages/a7/76/d4a7823f74aca851fbc970b0ff991501b597b5241d18be4625786e92d2f9/getfilenuitkapython-0.10.tar.gz
+[2023-05-08 07:15:39] INFO root fetch - processPackages [xtgeoviz]: Downloading https://files.pythonhosted.org/packages/b6/78/8de6f0db5b882f260f677cb0f798d76a8e0b087ac5d900efd789108d99d5/xtgeoviz-0.0.6.tar.gz
+[2023-05-08 07:15:39] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/6f/49/3fa0d85490c2321dcacb3c13a4c06b64edb87ffc50a63b10b6dcf7ad4609/tflite-model-maker-nightly-0.4.3.dev202305070508.tar.gz
+[2023-05-08 07:15:39] INFO root fetch - processPackages [denoising-diffusion-pytorch]: executing diffoscope
+[2023-05-08 07:15:39] INFO root fetch - processPackages [denoising-diffusion-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/denoising-diffusion-pytorch-1.5.7.tar.gz tmp/denoising-diffusion-pytorch-1.5.8.tar.gz --markdown 20230508/d/denoising-diffusion-pytorch/1.5.7-1.5.8/diff.md --exclude *.pyd
+[2023-05-08 07:15:40] INFO root fetch - processPackages [getfilenuitkapython]: Downloading https://files.pythonhosted.org/packages/2c/8b/0eceb1082ecf8417ca880df229c868f632e522383b7eeadff5279b75adb5/getfilenuitkapython-0.11.tar.gz
+[2023-05-08 07:15:40] INFO root fetch - processPackages [llamatry]: Downloading https://files.pythonhosted.org/packages/5e/6c/943f5ef59c805c9528541666eaac46edadfa6829e8bfad09d997e8c71d72/llamatry-0.1.1.tar.gz
+[2023-05-08 07:15:40] INFO root fetch - processPackages [llamatry]: executing diffoscope
+[2023-05-08 07:15:40] INFO root fetch - processPackages [llamatry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamatry-0.1.0.tar.gz tmp/llamatry-0.1.1.tar.gz --markdown 20230508/l/llamatry/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-08 07:15:40] INFO root fetch - processPackages [getfilenuitkapython]: executing diffoscope
+[2023-05-08 07:15:40] INFO root fetch - processPackages [getfilenuitkapython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getfilenuitkapython-0.10.tar.gz tmp/getfilenuitkapython-0.11.tar.gz --markdown 20230508/g/getfilenuitkapython/0.10-0.11/diff.md --exclude *.pyd
+[2023-05-08 07:15:40] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/97/c2/9d230031a4c6993b2e719dc4635a859419d1d2a646dfd0144bfbdeb7144a/tflite-model-maker-nightly-0.4.3.dev202305080509.tar.gz
+[2023-05-08 07:15:40] INFO root fetch - processPackages [xtgeoviz]: Downloading https://files.pythonhosted.org/packages/6f/00/194a4399a5ad21abee900d5109c2b585898eddf44609f5ed1f5edff2336b/xtgeoviz-0.0.7.tar.gz
+[2023-05-08 07:15:40] INFO root fetch - processPackages [tflite-model-maker-nightly]: executing diffoscope
+[2023-05-08 07:15:40] INFO root fetch - processPackages [tflite-model-maker-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite-model-maker-nightly-0.4.3.dev202305070508.tar.gz tmp/tflite-model-maker-nightly-0.4.3.dev202305080509.tar.gz --markdown 20230508/t/tflite-model-maker-nightly/0.4.3.dev202305070508-0.4.3.dev202305080509/diff.md --exclude *.pyd
+[2023-05-08 07:15:40] INFO root fetch - processPackages [xtgeoviz]: executing diffoscope
+[2023-05-08 07:15:40] INFO root fetch - processPackages [xtgeoviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtgeoviz-0.0.6.tar.gz tmp/xtgeoviz-0.0.7.tar.gz --markdown 20230508/x/xtgeoviz/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-08 07:15:41] INFO root fetch - main [MainThread]: End processing [denoising-diffusion-pytorch]: success
+[2023-05-08 07:15:41] INFO root fetch - main [MainThread]: End processing [llamatry]: success
+[2023-05-08 07:15:41] INFO root fetch - main [MainThread]: End processing [getfilenuitkapython]: success
+[2023-05-08 07:15:41] INFO root fetch - main [MainThread]: End processing [xtgeoviz]: success
+[2023-05-08 07:15:43] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
+[2023-05-08 07:15:43] INFO root fetch - main [MainThread]: Store serial: [18013136]
