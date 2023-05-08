@@ -20573,3 +20573,104 @@ EOFError: EOF read where object expected
 [2023-05-08 21:43:07] INFO root fetch - main [MainThread]: End processing [plone.app.portlets]: success
 [2023-05-08 21:43:12] INFO root fetch - main [MainThread]: End processing [prunerr]: success
 [2023-05-08 21:43:12] INFO root fetch - main [MainThread]: Store serial: [18021590]
+[2023-05-08 21:48:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18021590]
+[2023-05-08 21:48:22] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-08 21:48:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arcflash-calc
+[2023-05-08 21:48:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: emmet-core
+[2023-05-08 21:48:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: padelpy
+[2023-05-08 21:48:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: z4d-certified-devices
+[2023-05-08 21:48:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bhv
+[2023-05-08 21:48:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cim-graph
+[2023-05-08 21:48:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: emmet-builders
+[2023-05-08 21:48:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: plone.namedfile
+[2023-05-08 21:48:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: se-lib
+[2023-05-08 21:48:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Subsearch
+[2023-05-08 21:48:22] INFO root fetch - processPackages [emmet-core]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-08 21:48:22] INFO root fetch - processPackages [bhv]: New version: [0.2.8] Old Version: [0.2.6]
+[2023-05-08 21:48:22] INFO root fetch - processPackages [cim-graph]: New version: [0.1.20230508194360a0] Old Version: [0.1.20230508191837a0]
+[2023-05-08 21:48:22] INFO root fetch - processPackages [z4d-certified-devices]: New version: [2.57] Old Version: [2.56]
+[2023-05-08 21:48:22] INFO root fetch - processPackages [se-lib]: New version: [0.26.5] Old Version: [0.26.4]
+[2023-05-08 21:48:22] WARNING root fetch - processPackages [arcflash-calc]: Skipping, unable to determine old version
+[2023-05-08 21:48:22] INFO root fetch - processPackages [arcflash-calc]: Start processing: emmet-api
+[2023-05-08 21:48:22] INFO root fetch - main [MainThread]: End processing [arcflash-calc] error
+[2023-05-08 21:48:22] INFO root fetch - processPackages [padelpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 21:48:22] INFO root fetch - processPackages [plone.namedfile]: New version: [6.0.2] Old Version: [6.0.1]
+[2023-05-08 21:48:22] INFO root fetch - processPackages [emmet-builders]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-08 21:48:22] INFO root fetch - processPackages [Subsearch]: New version: [2.34.0rc1] Old Version: [2.34.0]
+[2023-05-08 21:48:22] INFO root fetch - processPackages [emmet-api]: New version: [0.54.3] Old Version: [0.54.2]
+[2023-05-08 21:48:22] INFO root fetch - processPackages [Subsearch]: Downloading https://files.pythonhosted.org/packages/bc/83/a9326453b2570316d350c89aa23717dbb8c2d91c427f22508514245d7824/Subsearch-2.34.0.tar.gz
+[2023-05-08 21:48:22] INFO root fetch - processPackages [cim-graph]: Downloading https://files.pythonhosted.org/packages/47/4d/35e89ae04113c494540c4108c6762d6774f29900a710615785f16c4ca874/cim_graph-0.1.20230508194360a0.tar.gz
+[2023-05-08 21:48:22] INFO root fetch - processPackages [bhv]: Downloading https://files.pythonhosted.org/packages/97/33/4cc59b9fe27dc88342ec88484653a849dcd10e836ddea60d6d9ecd234136/bhv-0.2.6.tar.gz
+[2023-05-08 21:48:22] INFO root fetch - processPackages [padelpy]: Downloading https://files.pythonhosted.org/packages/1d/e4/a66c3b94d0d2b730838f0eb95cebcb4d83a179bf12c0eae7fa5113e2051d/padelpy-0.1.8.tar.gz
+[2023-05-08 21:48:22] INFO root fetch - processPackages [se-lib]: Downloading https://files.pythonhosted.org/packages/ac/6e/37b2f38406b42b3f196b44b3ab37d47730eb5b14c3546fa841ebef78c259/se_lib-0.26.4.tar.gz
+[2023-05-08 21:48:22] INFO root fetch - processPackages [z4d-certified-devices]: Downloading https://files.pythonhosted.org/packages/e0/36/ba83d0c4c4817e0e64d14de83a75da3f2cb26748fd414f565bf4be66c06d/z4d-certified-devices-2.56.tar.gz
+[2023-05-08 21:48:22] INFO root fetch - processPackages [emmet-core]: Downloading https://files.pythonhosted.org/packages/79/85/be17b500afc3d15c1ca6b73b0cf8b7564ecc06d89b27d59ca86581efa254/emmet-core-0.9.2.tar.gz
+[2023-05-08 21:48:22] INFO root fetch - processPackages [emmet-api]: Downloading https://files.pythonhosted.org/packages/7d/64/a3ac67fb9945d19a1612dc676f687a080312df5e77ea23ef41b3d9ceff90/emmet-api-0.54.2.tar.gz
+[2023-05-08 21:48:22] INFO root fetch - processPackages [plone.namedfile]: Downloading https://files.pythonhosted.org/packages/fb/a6/509286a434b47d17ba74dfd0f2e7b607cf8f912413a51220eabc244a8da8/plone.namedfile-6.0.1.tar.gz
+[2023-05-08 21:48:22] INFO root fetch - processPackages [emmet-builders]: Downloading https://files.pythonhosted.org/packages/b3/9f/ec08c5daefc1dab5587b18b933f8845a69362d5e4f4cd605e3028250efa8/emmet-builders-0.9.2.tar.gz
+[2023-05-08 21:48:22] INFO root fetch - processPackages [Subsearch]: executing diffoscope
+[2023-05-08 21:48:22] INFO root fetch - processPackages [Subsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Subsearch-2.34.0.tar.gz tmp/Subsearch-2.34.0rc1.tar.gz --markdown 20230508/S/Subsearch/2.34.0-2.34.0rc1/diff.md --exclude *.pyd
+[2023-05-08 21:48:22] INFO root fetch - processPackages [cim-graph]: executing diffoscope
+[2023-05-08 21:48:22] INFO root fetch - processPackages [cim-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cim_graph-0.1.20230508191837a0.tar.gz tmp/cim_graph-0.1.20230508194360a0.tar.gz --markdown 20230508/c/cim-graph/0.1.20230508191837a0-0.1.20230508194360a0/diff.md --exclude *.pyd
+[2023-05-08 21:48:22] INFO root fetch - processPackages [se-lib]: Downloading https://files.pythonhosted.org/packages/71/4a/4b42d8c3b8f57019b94967fc2fd94e89d77f603067fe624ec4cf8ad3626e/se_lib-0.26.5.tar.gz
+[2023-05-08 21:48:22] INFO root fetch - processPackages [se-lib]: executing diffoscope
+[2023-05-08 21:48:22] INFO root fetch - processPackages [se-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/se_lib-0.26.4.tar.gz tmp/se_lib-0.26.5.tar.gz --markdown 20230508/s/se-lib/0.26.4-0.26.5/diff.md --exclude *.pyd
+[2023-05-08 21:48:22] INFO root fetch - processPackages [emmet-api]: Downloading https://files.pythonhosted.org/packages/5f/c4/d5db9b9b444cf27e3c2e1e6cb06414e94a51e52e84f78299e359367d9c9b/emmet-api-0.54.3.tar.gz
+[2023-05-08 21:48:22] INFO root fetch - processPackages [z4d-certified-devices]: Downloading https://files.pythonhosted.org/packages/14/02/5a02ac4a288cc46a48aeef940f1f94f86c73c9504fd311c6ac27951b05eb/z4d-certified-devices-2.57.tar.gz
+[2023-05-08 21:48:22] INFO root fetch - processPackages [z4d-certified-devices]: executing diffoscope
+[2023-05-08 21:48:22] INFO root fetch - processPackages [z4d-certified-devices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/z4d-certified-devices-2.56.tar.gz tmp/z4d-certified-devices-2.57.tar.gz --markdown 20230508/z/z4d-certified-devices/2.56-2.57/diff.md --exclude *.pyd
+[2023-05-08 21:48:22] INFO root fetch - processPackages [emmet-core]: Downloading https://files.pythonhosted.org/packages/a8/71/fb3a5816288c941fd4a8039c02a612bdb6b1e002843cb9c029f1a4210aaa/emmet-core-0.9.3.tar.gz
+[2023-05-08 21:48:22] INFO root fetch - processPackages [plone.namedfile]: Downloading https://files.pythonhosted.org/packages/f9/be/2540e68b984af6bcf2675f9188ca2176309b23acfa1581001ba95c5859f1/plone.namedfile-6.0.2.tar.gz
+[2023-05-08 21:48:22] INFO root fetch - processPackages [bhv]: Downloading https://files.pythonhosted.org/packages/6e/50/1eacee34fcd6118a9e79c7d92b025bbae26da1abcfec77cb25c52953cf23/bhv-0.2.8.tar.gz
+[2023-05-08 21:48:22] INFO root fetch - processPackages [emmet-api]: executing diffoscope
+[2023-05-08 21:48:22] INFO root fetch - processPackages [emmet-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmet-api-0.54.2.tar.gz tmp/emmet-api-0.54.3.tar.gz --markdown 20230508/e/emmet-api/0.54.2-0.54.3/diff.md --exclude *.pyd
+[2023-05-08 21:48:22] INFO root fetch - processPackages [plone.namedfile]: executing diffoscope
+[2023-05-08 21:48:22] INFO root fetch - processPackages [plone.namedfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.namedfile-6.0.1.tar.gz tmp/plone.namedfile-6.0.2.tar.gz --markdown 20230508/p/plone.namedfile/6.0.1-6.0.2/diff.md --exclude *.pyd
+[2023-05-08 21:48:22] INFO root fetch - processPackages [bhv]: executing diffoscope
+[2023-05-08 21:48:22] INFO root fetch - processPackages [bhv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bhv-0.2.6.tar.gz tmp/bhv-0.2.8.tar.gz --markdown 20230508/b/bhv/0.2.6-0.2.8/diff.md --exclude *.pyd
+[2023-05-08 21:48:23] INFO root fetch - processPackages [emmet-core]: executing diffoscope
+[2023-05-08 21:48:23] INFO root fetch - processPackages [emmet-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmet-core-0.9.2.tar.gz tmp/emmet-core-0.9.3.tar.gz --markdown 20230508/e/emmet-core/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-08 21:48:23] INFO root fetch - processPackages [emmet-builders]: Downloading https://files.pythonhosted.org/packages/d3/8a/c73672eb055bc5323b006090ad1112b6027d2d5cbbe46b35eaa33b3924be/emmet-builders-0.9.3.tar.gz
+[2023-05-08 21:48:23] WARNING root fetch - processPackages [padelpy]: Skipping package: exceeds size limit 20866800>=10485760
+[2023-05-08 21:48:23] INFO root fetch - processPackages [padelpy]: Start processing: casagui
+[2023-05-08 21:48:23] INFO root fetch - main [MainThread]: End processing [padelpy] error
+[2023-05-08 21:48:23] INFO root fetch - processPackages [casagui]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-08 21:48:23] INFO root fetch - processPackages [casagui]: Downloading https://files.pythonhosted.org/packages/be/67/8cb9d67463767f655d04d5be9fb57e503c09f183a9459c6960020c3400bc/casagui-0.2.8.tar.gz
+[2023-05-08 21:48:24] INFO root fetch - processPackages [bhv]: Start processing: certora-cli-alpha-yuvalbd-rule-events-error-checking-part-two
+[2023-05-08 21:48:24] INFO root fetch - main [MainThread]: End processing [bhv]: success
+[2023-05-08 21:48:24] INFO root fetch - processPackages [emmet-builders]: executing diffoscope
+[2023-05-08 21:48:24] INFO root fetch - processPackages [emmet-builders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmet-builders-0.9.2.tar.gz tmp/emmet-builders-0.9.3.tar.gz --markdown 20230508/e/emmet-builders/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-08 21:48:24] INFO root fetch - processPackages [certora-cli-alpha-yuvalbd-rule-events-error-checking-part-two]: New version: [20230508.7.43.27573] Old Version: [20230508.7.12.93347]
+[2023-05-08 21:48:24] INFO root fetch - processPackages [certora-cli-alpha-yuvalbd-rule-events-error-checking-part-two]: Downloading https://files.pythonhosted.org/packages/8c/6a/e54959507f9a03300127a7a13e298b090ea5d8a802d99857d877e4706976/certora-cli-alpha-yuvalbd-rule_events_error_checking_part_two-20230508.7.12.93347.tar.gz
+[2023-05-08 21:48:24] INFO root fetch - processPackages [Subsearch]: Start processing: canopy-platform
+[2023-05-08 21:48:24] INFO root fetch - main [MainThread]: End processing [Subsearch]: success
+[2023-05-08 21:48:24] WARNING root fetch - processPackages [certora-cli-alpha-yuvalbd-rule-events-error-checking-part-two]: Skipping package: exceeds size limit 38474506>=10485760
+[2023-05-08 21:48:24] INFO root fetch - processPackages [certora-cli-alpha-yuvalbd-rule-events-error-checking-part-two]: Start processing: chromadb
+[2023-05-08 21:48:24] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-yuvalbd-rule-events-error-checking-part-two] error
+[2023-05-08 21:48:24] INFO root fetch - processPackages [canopy-platform]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-05-08 21:48:24] INFO root fetch - processPackages [chromadb]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-05-08 21:48:24] INFO root fetch - processPackages [se-lib]: Start processing: lamineml
+[2023-05-08 21:48:24] INFO root fetch - main [MainThread]: End processing [se-lib]: success
+[2023-05-08 21:48:24] INFO root fetch - processPackages [lamineml]: New version: [0.8] Old Version: [0.7]
+[2023-05-08 21:48:24] INFO root fetch - main [MainThread]: End processing [emmet-core]: success
+[2023-05-08 21:48:24] INFO root fetch - processPackages [lamineml]: executing diffoscope
+[2023-05-08 21:48:24] INFO root fetch - processPackages [lamineml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamineml-0.7.tar.gz tmp/lamineml-0.8.tar.gz --markdown 20230508/l/lamineml/0.7-0.8/diff.md --exclude *.pyd
+[2023-05-08 21:48:24] INFO root fetch - processPackages [chromadb]: Downloading https://files.pythonhosted.org/packages/a0/7f/975827ac11ddaae01d5da22e4ac5d8eeedcb1054cb797857cde23daf41bd/chromadb-0.3.7.tar.gz
+[2023-05-08 21:48:24] INFO root fetch - processPackages [canopy-platform]: executing diffoscope
+[2023-05-08 21:48:24] INFO root fetch - processPackages [canopy-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canopy-platform-0.0.7.tar.gz tmp/canopy-platform-0.0.9.tar.gz --markdown 20230508/c/canopy-platform/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 21:48:24] INFO root fetch - processPackages [casagui]: Downloading https://files.pythonhosted.org/packages/a2/9e/15b31ee83f472098af253510817afbca0606055e7ffbf98042a116fb91f0/casagui-0.2.9.tar.gz
+[2023-05-08 21:48:24] INFO root fetch - processPackages [chromadb]: Downloading https://files.pythonhosted.org/packages/f7/18/d8e27cccc90edd5a15525a33800c89c70a96662187510b6ec833428d7c64/chromadb-0.3.8.tar.gz
+[2023-05-08 21:48:24] INFO root fetch - processPackages [casagui]: executing diffoscope
+[2023-05-08 21:48:24] INFO root fetch - processPackages [casagui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/casagui-0.2.8.tar.gz tmp/casagui-0.2.9.tar.gz --markdown 20230508/c/casagui/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-08 21:48:25] INFO root fetch - processPackages [chromadb]: executing diffoscope
+[2023-05-08 21:48:25] INFO root fetch - processPackages [chromadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromadb-0.3.7.tar.gz tmp/chromadb-0.3.8.tar.gz --markdown 20230508/c/chromadb/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-05-08 21:48:25] INFO root fetch - main [MainThread]: End processing [emmet-builders]: success
+[2023-05-08 21:48:25] INFO root fetch - main [MainThread]: End processing [lamineml]: success
+[2023-05-08 21:48:25] INFO root fetch - main [MainThread]: End processing [canopy-platform]: success
+[2023-05-08 21:48:26] INFO root fetch - main [MainThread]: End processing [chromadb]: success
+[2023-05-08 21:48:26] INFO root fetch - main [MainThread]: End processing [casagui]: success
+[2023-05-08 21:48:26] INFO root fetch - main [MainThread]: End processing [plone.namedfile]: success
+[2023-05-08 21:48:27] INFO root fetch - main [MainThread]: End processing [cim-graph]: success
+[2023-05-08 21:48:27] INFO root fetch - main [MainThread]: End processing [emmet-api]: success
+[2023-05-08 21:48:28] INFO root fetch - main [MainThread]: End processing [z4d-certified-devices]: success
+[2023-05-08 21:48:28] INFO root fetch - main [MainThread]: Store serial: [18021645]
