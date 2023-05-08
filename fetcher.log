@@ -7380,3 +7380,69 @@
 [2023-05-08 09:45:02] INFO root fetch - main [MainThread]: End processing [a2]: success
 [2023-05-08 09:45:03] INFO root fetch - main [MainThread]: End processing [most-queue]: success
 [2023-05-08 09:45:03] INFO root fetch - main [MainThread]: Store serial: [18014188]
+[2023-05-08 09:50:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18014188]
+[2023-05-08 09:50:11] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-08 09:50:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aliyun-python-sdk-ccc
+[2023-05-08 09:50:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: keras-nightly
+[2023-05-08 09:50:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: syncer
+[2023-05-08 09:50:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: intake-dataframe-catalog
+[2023-05-08 09:50:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: semisup-segmentation
+[2023-05-08 09:50:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: libertywrapper
+[2023-05-08 09:50:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: akerbp.mlops
+[2023-05-08 09:50:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sj-tool
+[2023-05-08 09:50:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: muffin-admin
+[2023-05-08 09:50:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyldk
+[2023-05-08 09:50:12] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-05-08 09:50:12] INFO root fetch - processPackages [pyldk]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-05-08 09:50:12] INFO root fetch - processPackages [syncer]: New version: [2.0.2] Old Version: [1.3.0]
+[2023-05-08 09:50:12] INFO root fetch - processPackages [intake-dataframe-catalog]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-08 09:50:12] WARNING root fetch - processPackages [libertywrapper]: Skipping, unable to determine old version
+[2023-05-08 09:50:12] INFO root fetch - main [MainThread]: End processing [libertywrapper] error
+[2023-05-08 09:50:12] INFO root fetch - processPackages [pyldk]: executing diffoscope
+[2023-05-08 09:50:12] INFO root fetch - processPackages [pyldk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyldk-1.1.2-py3-none-win_amd64.whl.zip tmp/pyldk-1.1.3-py3-none-win_amd64.whl.zip --markdown 20230508/p/pyldk/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-05-08 09:50:12] INFO root fetch - processPackages [aliyun-python-sdk-ccc]: New version: [2.4.3] Old Version: [2.3.0]
+[2023-05-08 09:50:12] INFO root fetch - processPackages [semisup-segmentation]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 09:50:12] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-08 09:50:12] INFO root fetch - processPackages [akerbp.mlops]: New version: [3.1.1a4] Old Version: [3.1.1a3]
+[2023-05-08 09:50:12] INFO root fetch - processPackages [muffin-admin]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-05-08 09:50:12] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/9c/ac/df626672be5af4204ef9c477f1110050afecb7a0f086fef8a6a2e3469a56/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl
+[2023-05-08 09:50:12] INFO root fetch - processPackages [syncer]: Downloading https://files.pythonhosted.org/packages/8f/8d/25eb0e20d7b2b99ca667ca2fcdda0c35a24756c0040f8710808837aced9e/syncer-1.3.0.tar.gz
+[2023-05-08 09:50:12] INFO root fetch - processPackages [aliyun-python-sdk-ccc]: Downloading https://files.pythonhosted.org/packages/b8/ab/db5fc7c64b49477be6f65a301523817503d09d6c72b5bc821abaf1faafaf/aliyun-python-sdk-ccc-2.3.0.tar.gz
+[2023-05-08 09:50:12] INFO root fetch - processPackages [intake-dataframe-catalog]: Downloading https://files.pythonhosted.org/packages/df/34/6b6c48742836e0f1c833ff249ea018cc25e10e8b8571c53a1cee1d979bcb/intake_dataframe_catalog-0.0.2.tar.gz
+[2023-05-08 09:50:12] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/8b/f9/2af667f18b77632259bbdac6a0db7f33f9cbea38a7a1baa7d9979d9060d3/sj_tool-1.0.8-py3-none-any.whl
+[2023-05-08 09:50:12] INFO root fetch - processPackages [muffin-admin]: Downloading https://files.pythonhosted.org/packages/63/e9/6b034c32bbf3742c8219ee3a69ba44c2b94b9758f99cfa0ec0aa10c3d352/muffin-admin-1.8.1.tar.gz
+[2023-05-08 09:50:12] INFO root fetch - processPackages [semisup-segmentation]: Downloading https://files.pythonhosted.org/packages/47/c7/dcd7d163ee4e75390d85b7ff16e81547bebceaef7f581b2ce74e55663566/semisup-segmentation-0.0.8.tar.gz
+[2023-05-08 09:50:12] INFO root fetch - processPackages [akerbp.mlops]: Downloading https://files.pythonhosted.org/packages/f5/d4/0d3a6dd1faf8dd1540c3a96ca47cb8ad5fb121f2e2f852eea9c2bdaecd1d/akerbp.mlops-3.1.1a4.tar.gz
+[2023-05-08 09:50:12] INFO root fetch - processPackages [syncer]: Downloading https://files.pythonhosted.org/packages/e3/71/48486d993a3b969405b1af2add501f45816beff40252a5a5c9c4929d1806/syncer-2.0.2.tar.gz
+[2023-05-08 09:50:12] INFO root fetch - processPackages [intake-dataframe-catalog]: Downloading https://files.pythonhosted.org/packages/f0/b8/f088c4e4a123970b17815d08d6911cc3500f981c38d359155a607bff052b/intake_dataframe_catalog-0.0.3.tar.gz
+[2023-05-08 09:50:12] INFO root fetch - processPackages [akerbp.mlops]: executing diffoscope
+[2023-05-08 09:50:12] INFO root fetch - processPackages [akerbp.mlops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akerbp.mlops-3.1.1a3.tar.gz tmp/akerbp.mlops-3.1.1a4.tar.gz --markdown 20230508/a/akerbp.mlops/3.1.1a3-3.1.1a4/diff.md --exclude *.pyd
+[2023-05-08 09:50:12] INFO root fetch - processPackages [syncer]: executing diffoscope
+[2023-05-08 09:50:12] INFO root fetch - processPackages [syncer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncer-1.3.0.tar.gz tmp/syncer-2.0.2.tar.gz --markdown 20230508/s/syncer/1.3.0-2.0.2/diff.md --exclude *.pyd
+[2023-05-08 09:50:12] INFO root fetch - processPackages [intake-dataframe-catalog]: executing diffoscope
+[2023-05-08 09:50:12] INFO root fetch - processPackages [intake-dataframe-catalog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intake_dataframe_catalog-0.0.2.tar.gz tmp/intake_dataframe_catalog-0.0.3.tar.gz --markdown 20230508/i/intake-dataframe-catalog/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-08 09:50:12] INFO root fetch - processPackages [semisup-segmentation]: Downloading https://files.pythonhosted.org/packages/0f/08/e18d525873c4014f434582cc1b1178204dde15b356f544acd67545377665/semisup-segmentation-0.0.9.tar.gz
+[2023-05-08 09:50:12] INFO root fetch - processPackages [aliyun-python-sdk-ccc]: Downloading https://files.pythonhosted.org/packages/bd/80/8463a766a37a380bc525a8ac7c612fb5a8c69bbef89840ed7930bb6d29a5/aliyun-python-sdk-ccc-2.4.3.tar.gz
+[2023-05-08 09:50:12] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/2e/c6/ed941d25e472426116ea2e75bd85fead4f6fad46d6238c6a7bc0c10801f1/sj_tool-1.0.9-py3-none-any.whl
+[2023-05-08 09:50:12] INFO root fetch - processPackages [semisup-segmentation]: executing diffoscope
+[2023-05-08 09:50:12] INFO root fetch - processPackages [semisup-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semisup-segmentation-0.0.8.tar.gz tmp/semisup-segmentation-0.0.9.tar.gz --markdown 20230508/s/semisup-segmentation/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 09:50:12] INFO root fetch - processPackages [muffin-admin]: Downloading https://files.pythonhosted.org/packages/9e/5b/3cda6b53f22847d402f99962337e921c6478b940e51a6d1e692ea3b0538f/muffin-admin-1.9.0.tar.gz
+[2023-05-08 09:50:12] INFO root fetch - processPackages [aliyun-python-sdk-ccc]: executing diffoscope
+[2023-05-08 09:50:12] INFO root fetch - processPackages [aliyun-python-sdk-ccc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-ccc-2.3.0.tar.gz tmp/aliyun-python-sdk-ccc-2.4.3.tar.gz --markdown 20230508/a/aliyun-python-sdk-ccc/2.3.0-2.4.3/diff.md --exclude *.pyd
+[2023-05-08 09:50:12] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-05-08 09:50:12] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.8-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230508/s/sj-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-08 09:50:13] INFO root fetch - processPackages [muffin-admin]: executing diffoscope
+[2023-05-08 09:50:13] INFO root fetch - processPackages [muffin-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muffin-admin-1.8.1.tar.gz tmp/muffin-admin-1.9.0.tar.gz --markdown 20230508/m/muffin-admin/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-05-08 09:50:13] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/64/5c/effcf86e94e42de7429f684d499233617aaa054e929986d65d4d72fb5c19/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl
+[2023-05-08 09:50:13] INFO root fetch - main [MainThread]: End processing [pyldk]: success
+[2023-05-08 09:50:13] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-05-08 09:50:13] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230508/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-05-08 09:50:14] INFO root fetch - main [MainThread]: End processing [syncer]: success
+[2023-05-08 09:50:14] INFO root fetch - main [MainThread]: End processing [intake-dataframe-catalog]: success
+[2023-05-08 09:50:14] INFO root fetch - main [MainThread]: End processing [semisup-segmentation]: success
+[2023-05-08 09:50:14] INFO root fetch - main [MainThread]: End processing [akerbp.mlops]: success
+[2023-05-08 09:50:14] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-05-08 09:50:15] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-ccc]: success
+[2023-05-08 09:50:23] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-05-08 09:50:29] INFO root fetch - main [MainThread]: End processing [muffin-admin]: success
+[2023-05-08 09:50:29] INFO root fetch - main [MainThread]: Store serial: [18014220]
