@@ -18745,3 +18745,94 @@ EOFError: EOF read where object expected
 [2023-05-08 20:07:08] INFO root fetch - main [MainThread]: End processing [nextbox-ui-plugin]: success
 [2023-05-08 20:07:09] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-05-08 20:07:09] INFO root fetch - main [MainThread]: Store serial: [18020494]
+[2023-05-08 20:12:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18020494]
+[2023-05-08 20:12:19] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-08 20:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coiled
+[2023-05-08 20:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oqtant
+[2023-05-08 20:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edk2-pytool-extensions
+[2023-05-08 20:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kfp-tekton
+[2023-05-08 20:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Faker
+[2023-05-08 20:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: clearblade-cloud-iot
+[2023-05-08 20:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: unpast
+[2023-05-08 20:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lumigo-opentelemetry
+[2023-05-08 20:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hindilemmatizer
+[2023-05-08 20:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zkaccess-c3
+[2023-05-08 20:12:19] INFO root fetch - processPackages [unpast]: New version: [0.1.0.5] Old Version: [0.1.0.4]
+[2023-05-08 20:12:19] INFO root fetch - processPackages [hindilemmatizer]: New version: [0.4.1] Old Version: [0.3.0]
+[2023-05-08 20:12:19] WARNING root fetch - processPackages [oqtant]: Skipping, unable to determine old version
+[2023-05-08 20:12:19] INFO root fetch - processPackages [oqtant]: Start processing: dokuwikidumper
+[2023-05-08 20:12:19] INFO root fetch - main [MainThread]: End processing [oqtant] error
+[2023-05-08 20:12:20] INFO root fetch - processPackages [kfp-tekton]: New version: [1.6.6] Old Version: [1.6.5]
+[2023-05-08 20:12:20] INFO root fetch - processPackages [clearblade-cloud-iot]: New version: [2.0.0] Old Version: [1.0.7]
+[2023-05-08 20:12:20] INFO root fetch - processPackages [zkaccess-c3]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-08 20:12:20] INFO root fetch - processPackages [lumigo-opentelemetry]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-08 20:12:20] INFO root fetch - processPackages [Faker]: New version: [9.9.1] Old Version: [9.9.0]
+[2023-05-08 20:12:20] INFO root fetch - processPackages [edk2-pytool-extensions]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-08 20:12:20] INFO root fetch - processPackages [unpast]: Downloading https://files.pythonhosted.org/packages/a8/19/85a333e017db177745514c7052c6d0fb4c56bedf2b3dd143ac565ec103cd/unpast-0.1.0.5.tar.gz
+[2023-05-08 20:12:20] INFO root fetch - processPackages [dokuwikidumper]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 20:12:20] INFO root fetch - processPackages [hindilemmatizer]: Downloading https://files.pythonhosted.org/packages/83/57/94dfa457be8bc27cd66cd12f6809db166669703fa02e2a1b4b849207cee0/hindilemmatizer-0.4.1-py3-none-any.whl
+[2023-05-08 20:12:20] INFO root fetch - processPackages [clearblade-cloud-iot]: Downloading https://files.pythonhosted.org/packages/cf/be/0f91c4fea51f2c47840070df773dd8e67ad9447d48f135e45b7c9761dcea/clearblade-cloud-iot-1.0.7.tar.gz
+[2023-05-08 20:12:20] INFO root fetch - processPackages [zkaccess-c3]: Downloading https://files.pythonhosted.org/packages/aa/01/3b666b66726078183c89e79904c822580dbcd344b163b1ad65aa1ddb0ff3/zkaccess_c3-0.0.3.tar.gz
+[2023-05-08 20:12:20] INFO root fetch - processPackages [lumigo-opentelemetry]: Downloading https://files.pythonhosted.org/packages/9c/64/2e350612673dcde2f1bd79c8b6fea2e0ef8b6239bdff92276be501c2c300/lumigo_opentelemetry-1.0.8-py3-none-any.whl
+[2023-05-08 20:12:20] INFO root fetch - processPackages [Faker]: Downloading https://files.pythonhosted.org/packages/97/28/7a088e10e6654835d2423f12aec34aae16fe24c392106823dbe4c25ca7b8/Faker-9.9.0.tar.gz
+[2023-05-08 20:12:20] INFO root fetch - processPackages [coiled]: New version: [0.6.3.dev9] Old Version: [0.6.3.dev8]
+[2023-05-08 20:12:20] INFO root fetch - processPackages [edk2-pytool-extensions]: Downloading https://files.pythonhosted.org/packages/e5/16/5b13429b7b73c72c11529c59f3eebe37f346e2ce533be54927f6eb992a17/edk2-pytool-extensions-0.9.4.tar.gz
+[2023-05-08 20:12:20] INFO root fetch - processPackages [dokuwikidumper]: Downloading https://files.pythonhosted.org/packages/8a/77/6dec3b11bf518fac347215309f743f5b619907f701930657ce67b1a56294/dokuwikidumper-0.1.8.tar.gz
+[2023-05-08 20:12:20] INFO root fetch - processPackages [unpast]: executing diffoscope
+[2023-05-08 20:12:20] INFO root fetch - processPackages [unpast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unpast-0.1.0.4.tar.gz tmp/unpast-0.1.0.5.tar.gz --markdown 20230508/u/unpast/0.1.0.4-0.1.0.5/diff.md --exclude *.pyd
+[2023-05-08 20:12:20] INFO root fetch - processPackages [kfp-tekton]: executing diffoscope
+[2023-05-08 20:12:20] INFO root fetch - processPackages [kfp-tekton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfp-tekton-1.6.5.tar.gz tmp/kfp-tekton-1.6.6.tar.gz --markdown 20230508/k/kfp-tekton/1.6.5-1.6.6/diff.md --exclude *.pyd
+[2023-05-08 20:12:20] INFO root fetch - processPackages [zkaccess-c3]: Downloading https://files.pythonhosted.org/packages/a2/52/2d68c6d33d0eb8e104f85facea7ca388c7fc94f712cb51a467c8118d7901/zkaccess_c3-0.0.4.tar.gz
+[2023-05-08 20:12:20] INFO root fetch - processPackages [clearblade-cloud-iot]: Downloading https://files.pythonhosted.org/packages/6b/36/7d478ed43edc4b04edb2acdab189781aafa22a3b6bfba0cc76c956a0a759/clearblade-cloud-iot-2.0.0.tar.gz
+[2023-05-08 20:12:20] INFO root fetch - processPackages [dokuwikidumper]: Downloading https://files.pythonhosted.org/packages/8e/0b/c59e9f31ad583ecbb464b66cbce93ebe16efa5f9597f9aea718ec09587fb/dokuwikidumper-0.1.9.tar.gz
+[2023-05-08 20:12:20] INFO root fetch - processPackages [zkaccess-c3]: executing diffoscope
+[2023-05-08 20:12:20] INFO root fetch - processPackages [zkaccess-c3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zkaccess_c3-0.0.3.tar.gz tmp/zkaccess_c3-0.0.4.tar.gz --markdown 20230508/z/zkaccess-c3/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-08 20:12:20] INFO root fetch - processPackages [clearblade-cloud-iot]: executing diffoscope
+[2023-05-08 20:12:20] INFO root fetch - processPackages [clearblade-cloud-iot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clearblade-cloud-iot-1.0.7.tar.gz tmp/clearblade-cloud-iot-2.0.0.tar.gz --markdown 20230508/c/clearblade-cloud-iot/1.0.7-2.0.0/diff.md --exclude *.pyd
+[2023-05-08 20:12:20] INFO root fetch - processPackages [hindilemmatizer]: executing diffoscope
+[2023-05-08 20:12:20] INFO root fetch - processPackages [hindilemmatizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hindilemmatizer-0.3.0-py3-none-any.whl.zip tmp/hindilemmatizer-0.4.1-py3-none-any.whl.zip --markdown 20230508/h/hindilemmatizer/0.3.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-08 20:12:20] INFO root fetch - processPackages [lumigo-opentelemetry]: Downloading https://files.pythonhosted.org/packages/f7/5b/deb6be16415fe585d5fa6fd34df7999995f7157a010bcaddba8ef665f9ae/lumigo_opentelemetry-1.0.9-py3-none-any.whl
+[2023-05-08 20:12:20] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-08 20:12:20] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.3.dev8.tar.gz tmp/coiled-0.6.3.dev9.tar.gz --markdown 20230508/c/coiled/0.6.3.dev8-0.6.3.dev9/diff.md --exclude *.pyd
+[2023-05-08 20:12:20] INFO root fetch - processPackages [dokuwikidumper]: executing diffoscope
+[2023-05-08 20:12:20] INFO root fetch - processPackages [dokuwikidumper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dokuwikidumper-0.1.8.tar.gz tmp/dokuwikidumper-0.1.9.tar.gz --markdown 20230508/d/dokuwikidumper/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 20:12:20] INFO root fetch - processPackages [lumigo-opentelemetry]: executing diffoscope
+[2023-05-08 20:12:20] INFO root fetch - processPackages [lumigo-opentelemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lumigo_opentelemetry-1.0.8-py3-none-any.whl.zip tmp/lumigo_opentelemetry-1.0.9-py3-none-any.whl.zip --markdown 20230508/l/lumigo-opentelemetry/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-08 20:12:20] INFO root fetch - processPackages [Faker]: Downloading https://files.pythonhosted.org/packages/51/99/edb47acf0025b63c69fc6c8845b121267322a1e1bfbf5868dba5b601cc93/Faker-9.9.1.tar.gz
+[2023-05-08 20:12:20] INFO root fetch - processPackages [edk2-pytool-extensions]: Downloading https://files.pythonhosted.org/packages/4d/62/9ba9bc59689eddb6e5540966f6ad191972229431a3b07b304ff1a07322c0/edk2-pytool-extensions-0.9.5.tar.gz
+[2023-05-08 20:12:21] INFO root fetch - processPackages [Faker]: executing diffoscope
+[2023-05-08 20:12:21] INFO root fetch - processPackages [Faker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Faker-9.9.0.tar.gz tmp/Faker-9.9.1.tar.gz --markdown 20230508/F/Faker/9.9.0-9.9.1/diff.md --exclude *.pyd
+[2023-05-08 20:12:21] INFO root fetch - processPackages [edk2-pytool-extensions]: executing diffoscope
+[2023-05-08 20:12:21] INFO root fetch - processPackages [edk2-pytool-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edk2-pytool-extensions-0.9.4.tar.gz tmp/edk2-pytool-extensions-0.9.5.tar.gz --markdown 20230508/e/edk2-pytool-extensions/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-08 20:12:22] INFO root fetch - processPackages [zkaccess-c3]: Start processing: unpast
+[2023-05-08 20:12:22] INFO root fetch - main [MainThread]: End processing [zkaccess-c3]: success
+[2023-05-08 20:12:22] INFO root fetch - processPackages [unpast]: New version: [0.1.0.7] Old Version: [0.1.0.6]
+[2023-05-08 20:12:22] INFO root fetch - processPackages [kfp-tekton]: Start processing: djangocms-page-tags
+[2023-05-08 20:12:22] INFO root fetch - main [MainThread]: End processing [kfp-tekton]: success
+[2023-05-08 20:12:22] INFO root fetch - processPackages [unpast]: Downloading https://files.pythonhosted.org/packages/18/20/0cc19274d30199a2bfda723c9c86228e7983ddaacb8c596026c69acc93dd/unpast-0.1.0.6.tar.gz
+[2023-05-08 20:12:22] INFO root fetch - processPackages [clearblade-cloud-iot]: Start processing: django-admin-corporate
+[2023-05-08 20:12:22] INFO root fetch - main [MainThread]: End processing [clearblade-cloud-iot]: success
+[2023-05-08 20:12:22] INFO root fetch - main [MainThread]: End processing [unpast]: success
+[2023-05-08 20:12:22] INFO root fetch - processPackages [djangocms-page-tags]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-08 20:12:22] INFO root fetch - processPackages [django-admin-corporate]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-08 20:12:22] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-08 20:12:22] INFO root fetch - processPackages [unpast]: Downloading https://files.pythonhosted.org/packages/ff/07/c9215bfa20bc103f29b7acf3d932e49c0ce3bc8988127e505228b4e2dd2a/unpast-0.1.0.7.tar.gz
+[2023-05-08 20:12:22] INFO root fetch - processPackages [djangocms-page-tags]: Downloading https://files.pythonhosted.org/packages/4f/aa/03860a0a053bf95692237bbaa228e98f056a43b8e423c684e797f048260f/djangocms-page-tags-1.0.0.tar.gz
+[2023-05-08 20:12:22] INFO root fetch - main [MainThread]: End processing [dokuwikidumper]: success
+[2023-05-08 20:12:22] INFO root fetch - processPackages [django-admin-corporate]: Downloading https://files.pythonhosted.org/packages/80/64/7ccf1abccdc12454c21d309982fb1e98658795eebf4d8ade203ed7892f89/django-admin-corporate-1.0.1.tar.gz
+[2023-05-08 20:12:22] INFO root fetch - main [MainThread]: End processing [lumigo-opentelemetry]: success
+[2023-05-08 20:12:22] INFO root fetch - main [MainThread]: End processing [hindilemmatizer]: success
+[2023-05-08 20:12:22] INFO root fetch - processPackages [unpast]: executing diffoscope
+[2023-05-08 20:12:22] INFO root fetch - processPackages [unpast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unpast-0.1.0.6.tar.gz tmp/unpast-0.1.0.7.tar.gz --markdown 20230508/u/unpast/0.1.0.6-0.1.0.7/diff.md --exclude *.pyd
+[2023-05-08 20:12:23] INFO root fetch - processPackages [djangocms-page-tags]: Downloading https://files.pythonhosted.org/packages/26/98/b6c7434e2aeb564192aa70237efb8bab44b24166196b687537c9396b80eb/djangocms-page-tags-1.1.0.tar.gz
+[2023-05-08 20:12:23] INFO root fetch - processPackages [djangocms-page-tags]: executing diffoscope
+[2023-05-08 20:12:23] INFO root fetch - processPackages [djangocms-page-tags]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangocms-page-tags-1.0.0.tar.gz tmp/djangocms-page-tags-1.1.0.tar.gz --markdown 20230508/d/djangocms-page-tags/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-08 20:12:23] INFO root fetch - processPackages [django-admin-corporate]: Downloading https://files.pythonhosted.org/packages/7b/58/d1c34f01b83c9a01f4f427501e82b8a8f5276b0676505d9d08ffbd61798c/django-admin-corporate-1.0.2.tar.gz
+[2023-05-08 20:12:23] INFO root fetch - main [MainThread]: End processing [edk2-pytool-extensions]: success
+[2023-05-08 20:12:23] INFO root fetch - processPackages [django-admin-corporate]: executing diffoscope
+[2023-05-08 20:12:23] INFO root fetch - processPackages [django-admin-corporate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-admin-corporate-1.0.1.tar.gz tmp/django-admin-corporate-1.0.2.tar.gz --markdown 20230508/d/django-admin-corporate/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-08 20:12:24] INFO root fetch - main [MainThread]: End processing [unpast]: success
+[2023-05-08 20:12:24] INFO root fetch - main [MainThread]: End processing [djangocms-page-tags]: success
+[2023-05-08 20:12:26] INFO root fetch - main [MainThread]: End processing [Faker]: success
+[2023-05-08 20:12:29] INFO root fetch - main [MainThread]: End processing [django-admin-corporate]: success
+[2023-05-08 20:12:29] INFO root fetch - main [MainThread]: Store serial: [18020542]
