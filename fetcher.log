@@ -21017,3 +21017,102 @@ EOFError: EOF read where object expected
 [2023-05-08 22:06:47] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
 [2023-05-08 22:06:55] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
 [2023-05-08 22:06:55] INFO root fetch - main [MainThread]: Store serial: [18021871]
+[2023-05-08 22:12:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18021871]
+[2023-05-08 22:12:06] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-08 22:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kittycad
+[2023-05-08 22:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: keypact
+[2023-05-08 22:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: topology-digital-operations
+[2023-05-08 22:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: struct-gpt
+[2023-05-08 22:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: omnisafe
+[2023-05-08 22:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-eric-kotlin1.8
+[2023-05-08 22:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: anthropic
+[2023-05-08 22:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: skailarestframework
+[2023-05-08 22:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytest-logikal
+[2023-05-08 22:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tensorflow-probability
+[2023-05-08 22:12:06] WARNING root fetch - processPackages [topology-digital-operations]: Skipping, unable to determine old version
+[2023-05-08 22:12:06] INFO root fetch - processPackages [topology-digital-operations]: Start processing: pytigon-lib
+[2023-05-08 22:12:06] INFO root fetch - main [MainThread]: End processing [topology-digital-operations] error
+[2023-05-08 22:12:06] INFO root fetch - processPackages [keypact]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-08 22:12:06] INFO root fetch - processPackages [anthropic]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-08 22:12:06] INFO root fetch - processPackages [certora-cli-alpha-eric-kotlin1.8]: New version: [20230508.20.7.741514] Old Version: [20230508.18.4.19857]
+[2023-05-08 22:12:06] INFO root fetch - processPackages [struct-gpt]: New version: [2.1.0] Old Version: [2.0.2]
+[2023-05-08 22:12:06] INFO root fetch - processPackages [kittycad]: New version: [0.4.0] Old Version: [0.3.9]
+[2023-05-08 22:12:06] INFO root fetch - processPackages [omnisafe]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-08 22:12:06] WARNING root fetch - processPackages [skailarestframework]: Skipping, unable to determine old version
+[2023-05-08 22:12:06] INFO root fetch - processPackages [skailarestframework]: Start processing: botocore-stubs
+[2023-05-08 22:12:06] INFO root fetch - main [MainThread]: End processing [skailarestframework] error
+[2023-05-08 22:12:06] INFO root fetch - processPackages [pytest-logikal]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-05-08 22:12:06] INFO root fetch - processPackages [pytigon-lib]: New version: [0.230508] Old Version: [0.230402]
+[2023-05-08 22:12:06] INFO root fetch - processPackages [tensorflow-probability]: New version: [0.9.0] Old Version: [0.8.0rc0]
+[2023-05-08 22:12:06] INFO root fetch - processPackages [botocore-stubs]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-05-08 22:12:06] INFO root fetch - processPackages [keypact]: Downloading https://files.pythonhosted.org/packages/5a/19/9bf47311ce0f83ed04289a7fb9ba26776896d6130cd4af4dc8d361bcfa7f/keypact-0.2.2.tar.gz
+[2023-05-08 22:12:06] INFO root fetch - processPackages [anthropic]: Downloading https://files.pythonhosted.org/packages/60/d5/9254b8a32718b609300aab4e23e5b547d7faa1e8a089cc15bb0f0f8463f4/anthropic-0.2.7.tar.gz
+[2023-05-08 22:12:06] INFO root fetch - processPackages [struct-gpt]: Downloading https://files.pythonhosted.org/packages/19/33/4c6824435ecee336f40cdb5ae71a492cef9e6a5e5fd29329df4ac655948f/struct_gpt-2.1.0.tar.gz
+[2023-05-08 22:12:06] INFO root fetch - processPackages [certora-cli-alpha-eric-kotlin1.8]: Downloading https://files.pythonhosted.org/packages/35/35/2ae220b89b1e82f510863d7a762f16fcfce87b25a002948441931aa46369/certora-cli-alpha-eric-kotlin1.8-20230508.18.4.19857.tar.gz
+[2023-05-08 22:12:06] INFO root fetch - processPackages [kittycad]: Downloading https://files.pythonhosted.org/packages/35/52/36d95cddcc524e47e5630081bc3b4a58290cc1bb53dabc438d1ca850f181/kittycad-0.3.9.tar.gz
+[2023-05-08 22:12:06] INFO root fetch - processPackages [omnisafe]: Downloading https://files.pythonhosted.org/packages/36/df/f6ccd92f9a8ef46bd45b1f711bdbb0eb0a132fab78b706c91891e8bbb0f4/omnisafe-0.3.0.tar.gz
+[2023-05-08 22:12:06] INFO root fetch - processPackages [pytigon-lib]: Downloading https://files.pythonhosted.org/packages/ef/ae/9e59c5acb7f7010da3adcafc74c9819a8b0276d3d15a696ecf275d6f870e/pytigon-lib-0.230402.tar.gz
+[2023-05-08 22:12:06] WARNING root fetch - processPackages [certora-cli-alpha-eric-kotlin1.8]: Skipping package: exceeds size limit 39212291>=10485760
+[2023-05-08 22:12:06] INFO root fetch - processPackages [certora-cli-alpha-eric-kotlin1.8]: Start processing: Werkzeug
+[2023-05-08 22:12:06] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-eric-kotlin1.8] error
+[2023-05-08 22:12:06] INFO root fetch - processPackages [tensorflow-probability]: Downloading https://files.pythonhosted.org/packages/b2/63/f54ce32063abaa682d779e44b49eb63fcf63c2422f978842fdeda794337d/tensorflow_probability-0.8.0rc0-py2.py3-none-any.whl
+[2023-05-08 22:12:06] INFO root fetch - processPackages [Werkzeug]: New version: [2.3.3] Old Version: [2.3.2]
+[2023-05-08 22:12:06] INFO root fetch - processPackages [pytest-logikal]: Downloading https://files.pythonhosted.org/packages/37/10/25805056d581eb0f556c04647d847ad57c30a402fcfc5412a11f29c98f14/pytest-logikal-1.8.0.tar.gz
+[2023-05-08 22:12:06] INFO root fetch - processPackages [struct-gpt]: executing diffoscope
+[2023-05-08 22:12:06] INFO root fetch - processPackages [struct-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/struct_gpt-2.0.2.tar.gz tmp/struct_gpt-2.1.0.tar.gz --markdown 20230508/s/struct-gpt/2.0.2-2.1.0/diff.md --exclude *.pyd
+[2023-05-08 22:12:06] INFO root fetch - processPackages [botocore-stubs]: Downloading https://files.pythonhosted.org/packages/96/54/40b30a6094b51328e233ea7bcc80f355c48a2fafaf1ce3cec391a1d72598/botocore_stubs-1.29.98.tar.gz
+[2023-05-08 22:12:06] INFO root fetch - processPackages [Werkzeug]: Downloading https://files.pythonhosted.org/packages/fe/1a/2a4da2b4ae4f01522cf01a29d68ddc95a5ff338b56a3cbbd8b77475114cc/Werkzeug-2.3.2.tar.gz
+[2023-05-08 22:12:06] INFO root fetch - processPackages [anthropic]: Downloading https://files.pythonhosted.org/packages/bb/e6/8b2e3a56571f9fd7bbf763dfb77f9f67b77f2e942e46a058c2821592f8bb/anthropic-0.2.8.tar.gz
+[2023-05-08 22:12:06] INFO root fetch - processPackages [keypact]: Downloading https://files.pythonhosted.org/packages/2b/75/096bef9af235d04b63cfa2440a73cedcc3abf4ced8136c66df1b0e3009dc/keypact-0.2.3.tar.gz
+[2023-05-08 22:12:06] INFO root fetch - processPackages [kittycad]: Downloading https://files.pythonhosted.org/packages/f6/d5/0062da4dc9dee04fe8334590948b1ec9612f738224d2f93671d13d66720a/kittycad-0.4.0.tar.gz
+[2023-05-08 22:12:06] INFO root fetch - processPackages [pytest-logikal]: Downloading https://files.pythonhosted.org/packages/6b/f7/235f4842c17060c78b7ba713b2a3a868116a3d716013300444dffb2e9d87/pytest-logikal-1.8.1.tar.gz
+[2023-05-08 22:12:06] INFO root fetch - processPackages [anthropic]: executing diffoscope
+[2023-05-08 22:12:06] INFO root fetch - processPackages [anthropic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anthropic-0.2.7.tar.gz tmp/anthropic-0.2.8.tar.gz --markdown 20230508/a/anthropic/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-05-08 22:12:06] INFO root fetch - processPackages [keypact]: executing diffoscope
+[2023-05-08 22:12:06] INFO root fetch - processPackages [keypact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keypact-0.2.2.tar.gz tmp/keypact-0.2.3.tar.gz --markdown 20230508/k/keypact/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-08 22:12:06] INFO root fetch - processPackages [pytigon-lib]: Downloading https://files.pythonhosted.org/packages/9a/f0/243f19cff9939bbe1c086d2e43919049178b6b8b1676de281731a0f6e67d/pytigon-lib-0.230508.tar.gz
+[2023-05-08 22:12:06] INFO root fetch - processPackages [Werkzeug]: Downloading https://files.pythonhosted.org/packages/52/82/bc77d22189679940b9f73685451167221ec5348e08c6d2594f1070767124/Werkzeug-2.3.3.tar.gz
+[2023-05-08 22:12:06] INFO root fetch - processPackages [omnisafe]: Downloading https://files.pythonhosted.org/packages/f4/f8/e16f2e30afc305c0841a9ca13e70e5d3b2b6d3957cc8d420dae8f12465bf/omnisafe-0.4.0.tar.gz
+[2023-05-08 22:12:06] INFO root fetch - processPackages [pytest-logikal]: executing diffoscope
+[2023-05-08 22:12:06] INFO root fetch - processPackages [pytest-logikal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-logikal-1.8.0.tar.gz tmp/pytest-logikal-1.8.1.tar.gz --markdown 20230508/p/pytest-logikal/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-05-08 22:12:06] INFO root fetch - processPackages [kittycad]: executing diffoscope
+[2023-05-08 22:12:06] INFO root fetch - processPackages [kittycad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kittycad-0.3.9.tar.gz tmp/kittycad-0.4.0.tar.gz --markdown 20230508/k/kittycad/0.3.9-0.4.0/diff.md --exclude *.pyd
+[2023-05-08 22:12:06] INFO root fetch - processPackages [tensorflow-probability]: Downloading https://files.pythonhosted.org/packages/9b/ed/f587d64127bbb85e539f06a2aace1240b7b5c6b4267bea94f232230551a5/tensorflow_probability-0.9.0-py2.py3-none-any.whl
+[2023-05-08 22:12:07] INFO root fetch - processPackages [botocore-stubs]: Downloading https://files.pythonhosted.org/packages/38/ab/72974332ff9e3d31c7c86072032f8f2cd0daa9a0af4a7e93ea71e8305b2a/botocore_stubs-1.29.99.tar.gz
+[2023-05-08 22:12:07] INFO root fetch - processPackages [Werkzeug]: executing diffoscope
+[2023-05-08 22:12:07] INFO root fetch - processPackages [Werkzeug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Werkzeug-2.3.2.tar.gz tmp/Werkzeug-2.3.3.tar.gz --markdown 20230508/W/Werkzeug/2.3.2-2.3.3/diff.md --exclude *.pyd
+[2023-05-08 22:12:07] INFO root fetch - processPackages [omnisafe]: executing diffoscope
+[2023-05-08 22:12:07] INFO root fetch - processPackages [omnisafe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnisafe-0.3.0.tar.gz tmp/omnisafe-0.4.0.tar.gz --markdown 20230508/o/omnisafe/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-08 22:12:07] INFO root fetch - processPackages [botocore-stubs]: executing diffoscope
+[2023-05-08 22:12:07] INFO root fetch - processPackages [botocore-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore_stubs-1.29.98.tar.gz tmp/botocore_stubs-1.29.99.tar.gz --markdown 20230508/b/botocore-stubs/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-05-08 22:12:07] INFO root fetch - processPackages [tensorflow-probability]: executing diffoscope
+[2023-05-08 22:12:07] INFO root fetch - processPackages [tensorflow-probability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_probability-0.8.0rc0-py2.py3-none-any.whl.zip tmp/tensorflow_probability-0.9.0-py2.py3-none-any.whl.zip --markdown 20230508/t/tensorflow-probability/0.8.0rc0-0.9.0/diff.md --exclude *.pyd
+[2023-05-08 22:12:07] INFO root fetch - processPackages [pytigon-lib]: executing diffoscope
+[2023-05-08 22:12:07] INFO root fetch - processPackages [pytigon-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytigon-lib-0.230402.tar.gz tmp/pytigon-lib-0.230508.tar.gz --markdown 20230508/p/pytigon-lib/0.230402-0.230508/diff.md --exclude *.pyd
+[2023-05-08 22:12:08] INFO root fetch - processPackages [struct-gpt]: Start processing: khloraascaf-utils
+[2023-05-08 22:12:08] INFO root fetch - main [MainThread]: End processing [struct-gpt]: success
+[2023-05-08 22:12:08] INFO root fetch - processPackages [khloraascaf-utils]: New version: [0.7.0] Old Version: [0.6.2]
+[2023-05-08 22:12:08] INFO root fetch - processPackages [keypact]: Start processing: firepit
+[2023-05-08 22:12:08] INFO root fetch - main [MainThread]: End processing [keypact]: success
+[2023-05-08 22:12:08] INFO root fetch - processPackages [anthropic]: Start processing: kiekerforpython
+[2023-05-08 22:12:08] INFO root fetch - main [MainThread]: End processing [anthropic]: success
+[2023-05-08 22:12:08] INFO root fetch - processPackages [firepit]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-08 22:12:08] INFO root fetch - processPackages [khloraascaf-utils]: Downloading https://files.pythonhosted.org/packages/a4/a0/bb8c87befde8bfd4e080ce5fca2b91ae8c4d0b776d1c9f72f95bd5f6b6dc/khloraascaf_utils-0.7.0.tar.gz
+[2023-05-08 22:12:08] WARNING root fetch - processPackages [kiekerforpython]: Skipping, unable to determine old version
+[2023-05-08 22:12:08] INFO root fetch - main [MainThread]: End processing [kiekerforpython] error
+[2023-05-08 22:12:08] INFO root fetch - main [MainThread]: End processing [pytest-logikal]: success
+[2023-05-08 22:12:08] INFO root fetch - main [MainThread]: End processing [botocore-stubs]: success
+[2023-05-08 22:12:08] INFO root fetch - processPackages [khloraascaf-utils]: executing diffoscope
+[2023-05-08 22:12:08] INFO root fetch - processPackages [khloraascaf-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khloraascaf_utils-0.6.2.tar.gz tmp/khloraascaf_utils-0.7.0.tar.gz --markdown 20230508/k/khloraascaf-utils/0.6.2-0.7.0/diff.md --exclude *.pyd
+[2023-05-08 22:12:08] INFO root fetch - processPackages [firepit]: Downloading https://files.pythonhosted.org/packages/e0/52/73f092229e3a98c36b2ed1a4a65fe35876022a722fbe73078eb97805e9bd/firepit-2.3.8.tar.gz
+[2023-05-08 22:12:09] INFO root fetch - processPackages [firepit]: Downloading https://files.pythonhosted.org/packages/04/53/698bd0b9c3e6424f439e58b7c0a9ea2a9f0db15f4a07f72cea4db27fb63b/firepit-2.3.9.tar.gz
+[2023-05-08 22:12:09] INFO root fetch - main [MainThread]: End processing [pytigon-lib]: success
+[2023-05-08 22:12:09] INFO root fetch - processPackages [firepit]: executing diffoscope
+[2023-05-08 22:12:09] INFO root fetch - processPackages [firepit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firepit-2.3.8.tar.gz tmp/firepit-2.3.9.tar.gz --markdown 20230508/f/firepit/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-08 22:12:09] INFO root fetch - main [MainThread]: End processing [khloraascaf-utils]: success
+[2023-05-08 22:12:10] INFO root fetch - main [MainThread]: End processing [Werkzeug]: success
+[2023-05-08 22:12:11] INFO root fetch - main [MainThread]: End processing [firepit]: success
+[2023-05-08 22:12:12] INFO root fetch - main [MainThread]: End processing [omnisafe]: success
+[2023-05-08 22:12:12] INFO root fetch - main [MainThread]: End processing [kittycad]: success
+[2023-05-08 22:12:33] INFO root fetch - main [MainThread]: End processing [tensorflow-probability]: success
+[2023-05-08 22:12:33] INFO root fetch - main [MainThread]: Store serial: [18021932]
