@@ -1830,3 +1830,29 @@
 [2023-05-08 03:06:38] INFO root fetch - main [MainThread]: End processing [google-flight-analysis]: success
 [2023-05-08 03:06:39] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark2]: success
 [2023-05-08 03:06:39] INFO root fetch - main [MainThread]: Store serial: [18011088]
+[2023-05-08 03:11:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18011088]
+[2023-05-08 03:11:48] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-08 03:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zhengyang-env-4
+[2023-05-08 03:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xcpcio-board-spider
+[2023-05-08 03:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kfsd
+[2023-05-08 03:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-sops-secrets
+[2023-05-08 03:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: test-first-jl-extension
+[2023-05-08 03:11:48] WARNING root fetch - processPackages [zhengyang-env-4]: Skipping, unable to determine old version
+[2023-05-08 03:11:48] INFO root fetch - main [MainThread]: End processing [zhengyang-env-4] error
+[2023-05-08 03:11:48] INFO root fetch - processPackages [xcpcio-board-spider]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 03:11:48] INFO root fetch - processPackages [kfsd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 03:11:48] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.9] Old Version: [1.2.85]
+[2023-05-08 03:11:48] WARNING root fetch - processPackages [test-first-jl-extension]: Skipping, unable to determine old version
+[2023-05-08 03:11:48] INFO root fetch - main [MainThread]: End processing [test-first-jl-extension] error
+[2023-05-08 03:11:48] INFO root fetch - processPackages [xcpcio-board-spider]: executing diffoscope
+[2023-05-08 03:11:48] INFO root fetch - processPackages [xcpcio-board-spider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xcpcio_board_spider-0.0.8.tar.gz tmp/xcpcio_board_spider-0.0.9.tar.gz --markdown 20230508/x/xcpcio-board-spider/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 03:11:48] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/43/09/75367ca930a9ee5b7611167309153f9769ccbd5a21b1f926f7e0fb5e8a10/cdk-sops-secrets-1.2.85.tar.gz
+[2023-05-08 03:11:48] INFO root fetch - processPackages [kfsd]: executing diffoscope
+[2023-05-08 03:11:48] INFO root fetch - processPackages [kfsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfsd-0.0.8.tar.gz tmp/kfsd-0.0.9.tar.gz --markdown 20230508/k/kfsd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 03:11:49] INFO root fetch - main [MainThread]: End processing [xcpcio-board-spider]: success
+[2023-05-08 03:11:49] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/01/0b/1803112e00d59ac489cc1729df4cdb28f6e126e536d4bdf2e3cf8badc7af/cdk-sops-secrets-1.2.9.tar.gz
+[2023-05-08 03:11:49] INFO root fetch - main [MainThread]: End processing [kfsd]: success
+[2023-05-08 03:11:50] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-05-08 03:11:50] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.85.tar.gz tmp/cdk-sops-secrets-1.2.9.tar.gz --markdown 20230508/c/cdk-sops-secrets/1.2.85-1.2.9/diff.md --exclude *.pyd
+[2023-05-08 03:11:52] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-05-08 03:11:52] INFO root fetch - main [MainThread]: Store serial: [18011109]
