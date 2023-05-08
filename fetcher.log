@@ -1795,3 +1795,38 @@
 [2023-05-08 03:01:27] INFO root fetch - main [MainThread]: End processing [super-ec2]: success
 [2023-05-08 03:01:27] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark2]: success
 [2023-05-08 03:01:27] INFO root fetch - main [MainThread]: Store serial: [18011064]
+[2023-05-08 03:06:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18011064]
+[2023-05-08 03:06:36] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-08 03:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-chronos-spark2
+[2023-05-08 03:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-spark2
+[2023-05-08 03:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: atlas-finance
+[2023-05-08 03:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: google-flight-analysis
+[2023-05-08 03:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: uintel
+[2023-05-08 03:06:36] INFO root fetch - processPackages [atlas-finance]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-05-08 03:06:36] INFO root fetch - processPackages [bigdl-chronos-spark2]: New version: [2.4.0b20230508] Old Version: [2.4.0b20230505]
+[2023-05-08 03:06:36] INFO root fetch - processPackages [bigdl-spark2]: New version: [2.4.0b20230508] Old Version: [2.4.0b20230505]
+[2023-05-08 03:06:36] INFO root fetch - processPackages [google-flight-analysis]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-08 03:06:36] INFO root fetch - processPackages [uintel]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-08 03:06:36] ERROR root fetch - processPackages [atlas-finance]: Unable to fetch info: No such project/version 'atlas-finance' 2.0.3
+[2023-05-08 03:06:36] INFO root fetch - main [MainThread]: End processing [atlas-finance] error
+[2023-05-08 03:06:36] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/13/4d/68378c2694ef058d697cb0f7b2c124b50348eb3be664078e45b273faa0d5/bigdl_chronos_spark2-2.4.0b20230505-py3-none-manylinux1_x86_64.whl
+[2023-05-08 03:06:36] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/d0/ef/e399ebbf1746a6664bc24f66629f69d4599f2982bd9508799239b1809c7b/bigdl_spark2-2.4.0b20230505-py3-none-manylinux1_x86_64.whl
+[2023-05-08 03:06:36] INFO root fetch - processPackages [google-flight-analysis]: Downloading https://files.pythonhosted.org/packages/a9/8c/ef64538c4ddeff552470647bdf74bf05e7199844376cb778fe7123fc4ab5/google-flight-analysis-1.0.0.tar.gz
+[2023-05-08 03:06:37] INFO root fetch - processPackages [uintel]: Downloading https://files.pythonhosted.org/packages/3d/10/e2c31a969551f8739f04d1caea1776e30a5d34d3cbb5f28a2f63f228a734/uintel-0.3.8.tar.gz
+[2023-05-08 03:06:37] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/7b/24/44a5775f02a5f2bbdd81447e2581863f0d92c167544385ac08846f378bc0/bigdl_spark2-2.4.0b20230508-py3-none-manylinux1_x86_64.whl
+[2023-05-08 03:06:37] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/7c/f8/a18acad20cc49725eafcd6b33abf2d3f1ee6e4bb7ec980d81ba022eb34ff/bigdl_chronos_spark2-2.4.0b20230508-py3-none-manylinux1_x86_64.whl
+[2023-05-08 03:06:37] INFO root fetch - processPackages [uintel]: Downloading https://files.pythonhosted.org/packages/a0/5c/0d54c13b14cbe4945d5e15a0e23afc8e445ed191c43759a6c09f89f3154c/uintel-0.3.9.tar.gz
+[2023-05-08 03:06:37] INFO root fetch - processPackages [google-flight-analysis]: Downloading https://files.pythonhosted.org/packages/dd/a7/1454d28d6fa7021602d0274575d512deae424fa88a108a9c361e03181ad7/google-flight-analysis-1.1.0.tar.gz
+[2023-05-08 03:06:37] INFO root fetch - processPackages [bigdl-spark2]: executing diffoscope
+[2023-05-08 03:06:37] INFO root fetch - processPackages [bigdl-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark2-2.4.0b20230505-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark2-2.4.0b20230508-py3-none-manylinux1_x86_64.whl.zip --markdown 20230508/b/bigdl-spark2/2.4.0b20230505-2.4.0b20230508/diff.md --exclude *.pyd
+[2023-05-08 03:06:37] INFO root fetch - processPackages [uintel]: executing diffoscope
+[2023-05-08 03:06:37] INFO root fetch - processPackages [uintel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uintel-0.3.8.tar.gz tmp/uintel-0.3.9.tar.gz --markdown 20230508/u/uintel/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-08 03:06:37] INFO root fetch - processPackages [google-flight-analysis]: executing diffoscope
+[2023-05-08 03:06:37] INFO root fetch - processPackages [google-flight-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-flight-analysis-1.0.0.tar.gz tmp/google-flight-analysis-1.1.0.tar.gz --markdown 20230508/g/google-flight-analysis/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-08 03:06:37] INFO root fetch - processPackages [bigdl-chronos-spark2]: executing diffoscope
+[2023-05-08 03:06:37] INFO root fetch - processPackages [bigdl-chronos-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark2-2.4.0b20230505-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark2-2.4.0b20230508-py3-none-manylinux1_x86_64.whl.zip --markdown 20230508/b/bigdl-chronos-spark2/2.4.0b20230505-2.4.0b20230508/diff.md --exclude *.pyd
+[2023-05-08 03:06:38] INFO root fetch - main [MainThread]: End processing [uintel]: success
+[2023-05-08 03:06:38] INFO root fetch - main [MainThread]: End processing [bigdl-spark2]: success
+[2023-05-08 03:06:38] INFO root fetch - main [MainThread]: End processing [google-flight-analysis]: success
+[2023-05-08 03:06:39] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark2]: success
+[2023-05-08 03:06:39] INFO root fetch - main [MainThread]: Store serial: [18011088]
