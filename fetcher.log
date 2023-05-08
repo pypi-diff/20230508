@@ -9071,3 +9071,86 @@
 [2023-05-08 11:22:31] INFO root fetch - main [MainThread]: End processing [pineboo]: success
 [2023-05-08 11:22:34] INFO root fetch - main [MainThread]: End processing [pineboo]: success
 [2023-05-08 11:22:34] INFO root fetch - main [MainThread]: Store serial: [18015122]
+[2023-05-08 11:27:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18015122]
+[2023-05-08 11:27:43] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-08 11:27:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cnert
+[2023-05-08 11:27:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pandasai
+[2023-05-08 11:27:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: schrodinet
+[2023-05-08 11:27:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hrin-msb
+[2023-05-08 11:27:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: safe-eth-py-suraneti
+[2023-05-08 11:27:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: goatl
+[2023-05-08 11:27:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vcsc-data-common
+[2023-05-08 11:27:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: checkbox-api
+[2023-05-08 11:27:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: data2rdf
+[2023-05-08 11:27:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kcli
+[2023-05-08 11:27:43] INFO root fetch - processPackages [goatl]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-05-08 11:27:43] INFO root fetch - processPackages [vcsc-data-common]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-08 11:27:43] INFO root fetch - processPackages [schrodinet]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-08 11:27:43] INFO root fetch - processPackages [safe-eth-py-suraneti]: New version: [5.3.3] Old Version: [5.3.2]
+[2023-05-08 11:27:43] INFO root fetch - processPackages [data2rdf]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-08 11:27:43] INFO root fetch - processPackages [cnert]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-05-08 11:27:43] INFO root fetch - processPackages [pandasai]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-05-08 11:27:43] INFO root fetch - processPackages [hrin-msb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-08 11:27:43] INFO root fetch - processPackages [checkbox-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 11:27:43] INFO root fetch - processPackages [kcli]: New version: [99.0.202305072120] Old Version: [99.0.202305051337]
+[2023-05-08 11:27:43] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-05-08 11:27:43] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202305051337-py3-none-any.whl.zip tmp/kcli-99.0.202305072120-py3-none-any.whl.zip --markdown 20230508/k/kcli/99.0.202305051337-99.0.202305072120/diff.md --exclude *.pyd
+[2023-05-08 11:27:43] INFO root fetch - processPackages [safe-eth-py-suraneti]: Downloading https://files.pythonhosted.org/packages/06/76/5075196194bade9d04afbc5402ccf46dc30762a2649b40a7f870ee8384df/safe-eth-py-suraneti-5.3.2.tar.gz
+[2023-05-08 11:27:43] INFO root fetch - processPackages [vcsc-data-common]: Downloading https://files.pythonhosted.org/packages/98/a8/76e7bf535d3a6a6a4b8776cb88cb4ef33ab387af318007aa2fdacbef2e19/vcsc_data_common-0.1.5.tar.gz
+[2023-05-08 11:27:43] INFO root fetch - processPackages [schrodinet]: Downloading https://files.pythonhosted.org/packages/aa/90/9f524e851f47917f6f007adadac35718cfaee3f4cbd9e5435c27e454fbee/schrodinet-0.1.1.tar.gz
+[2023-05-08 11:27:43] INFO root fetch - processPackages [data2rdf]: Downloading https://files.pythonhosted.org/packages/5a/b5/3cca0fb1ba92a87690fc966b81270087629391ac8663f997976cd5632baf/data2rdf-1.0.3.tar.gz
+[2023-05-08 11:27:43] INFO root fetch - processPackages [cnert]: Downloading https://files.pythonhosted.org/packages/99/7f/859147760858ab9919d787bb4edc06afa1176c4a121d328c93a23d9526e8/cnert-0.1.5.tar.gz
+[2023-05-08 11:27:43] INFO root fetch - processPackages [goatl]: Downloading https://files.pythonhosted.org/packages/df/c7/d2774dae9e42b1e040567b680f0625b9cdadc320f707071ff686c2690db1/goatl-0.6.2.tar.gz
+[2023-05-08 11:27:43] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/31/fd/57c4faeb7b26c9c32ac05d29222914a84f1fe8edd91cd0f48cfadd8c3331/pandasai-0.2.7.tar.gz
+[2023-05-08 11:27:43] INFO root fetch - processPackages [checkbox-api]: Downloading https://files.pythonhosted.org/packages/fa/a4/921d3a2548bdfda56584e84c06dde9c91bfa2975d4ccba4f39e70727d871/checkbox-api-0.1.8.tar.gz
+[2023-05-08 11:27:43] INFO root fetch - processPackages [hrin-msb]: Downloading https://files.pythonhosted.org/packages/01/68/1789fa953fb7468267c85f88fd2bd30966fc7095fa1019588962e2e45635/hrin_msb-0.2.8.tar.gz
+[2023-05-08 11:27:43] INFO root fetch - processPackages [pandasai]: executing diffoscope
+[2023-05-08 11:27:43] INFO root fetch - processPackages [pandasai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasai-0.2.6.tar.gz tmp/pandasai-0.2.7.tar.gz --markdown 20230508/p/pandasai/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-05-08 11:27:43] INFO root fetch - processPackages [data2rdf]: executing diffoscope
+[2023-05-08 11:27:43] INFO root fetch - processPackages [data2rdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data2rdf-1.0.2.tar.gz tmp/data2rdf-1.0.3.tar.gz --markdown 20230508/d/data2rdf/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-08 11:27:43] INFO root fetch - processPackages [safe-eth-py-suraneti]: Downloading https://files.pythonhosted.org/packages/66/91/f8cb40a237ae0cc1607daba622acede4537e689ab0284dff79b0ff10190f/safe-eth-py-suraneti-5.3.3.tar.gz
+[2023-05-08 11:27:43] INFO root fetch - processPackages [cnert]: Downloading https://files.pythonhosted.org/packages/46/7b/7fe7f3c7ba7f16e4a45f2e36b4b9a7dbe515b2605924588fae4a9f0ed4c9/cnert-0.2.0.tar.gz
+[2023-05-08 11:27:43] INFO root fetch - processPackages [vcsc-data-common]: Downloading https://files.pythonhosted.org/packages/92/5e/27a964a0820d2a04003b4c17f929dc68b3695d78c5a6a4f6fe7a93781a5c/vcsc_data_common-0.1.6.tar.gz
+[2023-05-08 11:27:43] INFO root fetch - processPackages [goatl]: Downloading https://files.pythonhosted.org/packages/d2/be/691691f68d535f8c51b35601cf858fb91b26d7a655ba7a73c14f98b4424a/goatl-0.6.3.tar.gz
+[2023-05-08 11:27:43] INFO root fetch - processPackages [schrodinet]: Downloading https://files.pythonhosted.org/packages/f4/8a/a60d3d1c7ddafa38858076aa9e1f389a089ee19ce028e83ca8492bf4c364/schrodinet-0.1.2.tar.gz
+[2023-05-08 11:27:43] INFO root fetch - processPackages [checkbox-api]: Downloading https://files.pythonhosted.org/packages/82/96/934852a545753a06db2ca1d938b3f6397c35c18ef658c5f4780ce5eb2836/checkbox-api-0.1.9.tar.gz
+[2023-05-08 11:27:43] INFO root fetch - processPackages [vcsc-data-common]: executing diffoscope
+[2023-05-08 11:27:43] INFO root fetch - processPackages [vcsc-data-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcsc_data_common-0.1.5.tar.gz tmp/vcsc_data_common-0.1.6.tar.gz --markdown 20230508/v/vcsc-data-common/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-08 11:27:43] INFO root fetch - processPackages [cnert]: executing diffoscope
+[2023-05-08 11:27:43] INFO root fetch - processPackages [cnert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnert-0.1.5.tar.gz tmp/cnert-0.2.0.tar.gz --markdown 20230508/c/cnert/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-05-08 11:27:43] INFO root fetch - processPackages [goatl]: executing diffoscope
+[2023-05-08 11:27:43] INFO root fetch - processPackages [goatl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goatl-0.6.2.tar.gz tmp/goatl-0.6.3.tar.gz --markdown 20230508/g/goatl/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-05-08 11:27:43] INFO root fetch - processPackages [schrodinet]: executing diffoscope
+[2023-05-08 11:27:43] INFO root fetch - processPackages [schrodinet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schrodinet-0.1.1.tar.gz tmp/schrodinet-0.1.2.tar.gz --markdown 20230508/s/schrodinet/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-08 11:27:43] INFO root fetch - processPackages [safe-eth-py-suraneti]: executing diffoscope
+[2023-05-08 11:27:43] INFO root fetch - processPackages [safe-eth-py-suraneti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safe-eth-py-suraneti-5.3.2.tar.gz tmp/safe-eth-py-suraneti-5.3.3.tar.gz --markdown 20230508/s/safe-eth-py-suraneti/5.3.2-5.3.3/diff.md --exclude *.pyd
+[2023-05-08 11:27:43] INFO root fetch - processPackages [hrin-msb]: Downloading https://files.pythonhosted.org/packages/f7/94/d59c8a5b3bee420117fc2d467d62317feecd19b8b1d838107abbbf1f5528/hrin_msb-0.2.9.tar.gz
+[2023-05-08 11:27:43] INFO root fetch - processPackages [checkbox-api]: executing diffoscope
+[2023-05-08 11:27:43] INFO root fetch - processPackages [checkbox-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkbox-api-0.1.8.tar.gz tmp/checkbox-api-0.1.9.tar.gz --markdown 20230508/c/checkbox-api/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 11:27:44] INFO root fetch - processPackages [hrin-msb]: executing diffoscope
+[2023-05-08 11:27:44] INFO root fetch - processPackages [hrin-msb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hrin_msb-0.2.8.tar.gz tmp/hrin_msb-0.2.9.tar.gz --markdown 20230508/h/hrin-msb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-08 11:27:45] INFO root fetch - processPackages [pandasai]: Start processing: mealpy
+[2023-05-08 11:27:45] INFO root fetch - main [MainThread]: End processing [pandasai]: success
+[2023-05-08 11:27:45] INFO root fetch - processPackages [mealpy]: New version: [2.5.4a2] Old Version: [2.5.4a1]
+[2023-05-08 11:27:45] INFO root fetch - processPackages [vcsc-data-common]: Start processing: fosslight-dependency
+[2023-05-08 11:27:45] INFO root fetch - main [MainThread]: End processing [vcsc-data-common]: success
+[2023-05-08 11:27:45] INFO root fetch - main [MainThread]: End processing [goatl]: success
+[2023-05-08 11:27:45] INFO root fetch - processPackages [mealpy]: Downloading https://files.pythonhosted.org/packages/d7/c3/993a3b356b362ed481b496249ec7f8753a61005d0b024d7181dc35564182/mealpy-2.5.4a1.tar.gz
+[2023-05-08 11:27:45] INFO root fetch - main [MainThread]: End processing [checkbox-api]: success
+[2023-05-08 11:27:45] INFO root fetch - processPackages [fosslight-dependency]: New version: [3.9.4] Old Version: [3.9.3]
+[2023-05-08 11:27:45] INFO root fetch - main [MainThread]: End processing [schrodinet]: success
+[2023-05-08 11:27:45] INFO root fetch - main [MainThread]: End processing [cnert]: success
+[2023-05-08 11:27:45] INFO root fetch - main [MainThread]: End processing [data2rdf]: success
+[2023-05-08 11:27:45] INFO root fetch - processPackages [mealpy]: Downloading https://files.pythonhosted.org/packages/20/3a/a28c725bd995aaf28012679222319679ca68ff09185e34d8840d9af2799d/mealpy-2.5.4a2.tar.gz
+[2023-05-08 11:27:45] INFO root fetch - processPackages [fosslight-dependency]: Downloading https://files.pythonhosted.org/packages/0f/cc/9b5800a44012332c1de79449a5123f244debc77b18c831bd3f63f99c22fc/fosslight_dependency-3.9.3.tar.gz
+[2023-05-08 11:27:45] INFO root fetch - processPackages [mealpy]: executing diffoscope
+[2023-05-08 11:27:45] INFO root fetch - processPackages [mealpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mealpy-2.5.4a1.tar.gz tmp/mealpy-2.5.4a2.tar.gz --markdown 20230508/m/mealpy/2.5.4a1-2.5.4a2/diff.md --exclude *.pyd
+[2023-05-08 11:27:46] INFO root fetch - processPackages [fosslight-dependency]: Downloading https://files.pythonhosted.org/packages/64/a0/dd2dd62761eaf4233405b1b03d3de41c2a2bfee2ca24a27417a71ae0569d/fosslight_dependency-3.9.4.tar.gz
+[2023-05-08 11:27:46] INFO root fetch - main [MainThread]: End processing [hrin-msb]: success
+[2023-05-08 11:27:46] INFO root fetch - processPackages [fosslight-dependency]: executing diffoscope
+[2023-05-08 11:27:46] INFO root fetch - processPackages [fosslight-dependency]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fosslight_dependency-3.9.3.tar.gz tmp/fosslight_dependency-3.9.4.tar.gz --markdown 20230508/f/fosslight-dependency/3.9.3-3.9.4/diff.md --exclude *.pyd
+[2023-05-08 11:27:47] INFO root fetch - main [MainThread]: End processing [fosslight-dependency]: success
+[2023-05-08 11:27:47] INFO root fetch - main [MainThread]: End processing [mealpy]: success
+[2023-05-08 11:27:50] INFO root fetch - main [MainThread]: End processing [safe-eth-py-suraneti]: success
+[2023-05-08 11:27:52] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-05-08 11:27:52] INFO root fetch - main [MainThread]: Store serial: [18015162]
