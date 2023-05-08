@@ -11660,3 +11660,80 @@
 [2023-05-08 14:10:17] INFO root fetch - main [MainThread]: End processing [databricks-cli]: success
 [2023-05-08 14:10:18] INFO root fetch - main [MainThread]: End processing [selenium]: success
 [2023-05-08 14:10:18] INFO root fetch - main [MainThread]: Store serial: [18016443]
+[2023-05-08 14:15:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18016443]
+[2023-05-08 14:15:27] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-08 14:15:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloudcix
+[2023-05-08 14:15:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: napari-nifti
+[2023-05-08 14:15:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: brion
+[2023-05-08 14:15:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: waipy
+[2023-05-08 14:15:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: AutoCython-jianjun
+[2023-05-08 14:15:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ChatRoom-jianjun
+[2023-05-08 14:15:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cloudcix
+[2023-05-08 14:15:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cg
+[2023-05-08 14:15:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: clubscore
+[2023-05-08 14:15:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Perceptrone-viral3899
+[2023-05-08 14:15:27] INFO root fetch - processPackages [napari-nifti]: New version: [0.0.5] Old Version: [0.0.3]
+[2023-05-08 14:15:27] INFO root fetch - processPackages [brion]: New version: [3.3.8.dev0] Old Version: [3.3.7]
+[2023-05-08 14:15:27] INFO root fetch - processPackages [Perceptrone-viral3899]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-08 14:15:27] INFO root fetch - processPackages [ChatRoom-jianjun]: New version: [3.0.5] Old Version: [3.0.3]
+[2023-05-08 14:15:27] INFO root fetch - processPackages [AutoCython-jianjun]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-05-08 14:15:27] INFO root fetch - processPackages [clubscore]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-08 14:15:27] INFO root fetch - processPackages [waipy]: New version: [0.1.51] Old Version: [0.0.9.0]
+[2023-05-08 14:15:27] INFO root fetch - processPackages [cloudcix]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-08 14:15:27] INFO root fetch - processPackages [cloudcix]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-08 14:15:27] INFO root fetch - processPackages [cg]: New version: [29.8.2] Old Version: [29.8.1]
+[2023-05-08 14:15:27] INFO root fetch - processPackages [Perceptrone-viral3899]: executing diffoscope
+[2023-05-08 14:15:27] INFO root fetch - processPackages [Perceptrone-viral3899]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Perceptrone-viral3899-0.0.1.tar.gz tmp/Perceptrone-viral3899-0.0.2.tar.gz --markdown 20230508/P/Perceptrone-viral3899/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-08 14:15:27] INFO root fetch - processPackages [brion]: Downloading https://files.pythonhosted.org/packages/4c/4a/d7652e91f5792a8581e30215c77cf941d170e448aa7af23c13f307e5a74b/brion-3.3.7-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-08 14:15:27] INFO root fetch - processPackages [AutoCython-jianjun]: Downloading https://files.pythonhosted.org/packages/35/79/820d6845679d1939cf43baa477ca785a51d4be72fdd2f47e6845297ae2ab/AutoCython-jianjun-1.3.2.tar.gz
+[2023-05-08 14:15:27] INFO root fetch - processPackages [napari-nifti]: Downloading https://files.pythonhosted.org/packages/aa/9b/edcdb2e7e6eb49ec8e8bd80014f90d627f632c191bdb3dee30242d795015/napari-nifti-0.0.3.tar.gz
+[2023-05-08 14:15:27] INFO root fetch - processPackages [ChatRoom-jianjun]: Downloading https://files.pythonhosted.org/packages/3e/d7/4ea3b3bb5404e7826a7cad3d9ced473650658f5c842f69cf3284823e0df9/ChatRoom_jianjun-3.0.3-cp39-cp39-win_amd64.whl
+[2023-05-08 14:15:27] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/f0/49/af6e99cd49d9feef466f58e9044af95c29b7244bcae0c8feb00ad66657c2/cg-29.8.1.tar.gz
+[2023-05-08 14:15:27] INFO root fetch - processPackages [clubscore]: Downloading https://files.pythonhosted.org/packages/e6/66/b2a9298e412a2ac6a9d1fb5b464dc1045ad127b62fbdfc75f3a0b70a5261/clubscore-0.1.4.tar.gz
+[2023-05-08 14:15:27] INFO root fetch - processPackages [waipy]: Downloading https://files.pythonhosted.org/packages/19/7f/c572c551542b0dab0090fe0881fc8507275c75821f26ced81c45864211a0/waipy-0.1.51.tar.gz
+[2023-05-08 14:15:27] INFO root fetch - processPackages [cloudcix]: Downloading https://files.pythonhosted.org/packages/b8/1c/a17e6f9695686dbb90b7d69b2bd7e7040c03a64f5c1b64bfc1b1e14b5edd/cloudcix-0.9.5.tar.gz
+[2023-05-08 14:15:27] INFO root fetch - processPackages [cloudcix]: Downloading https://files.pythonhosted.org/packages/b8/1c/a17e6f9695686dbb90b7d69b2bd7e7040c03a64f5c1b64bfc1b1e14b5edd/cloudcix-0.9.5.tar.gz
+[2023-05-08 14:15:27] INFO root fetch - processPackages [clubscore]: executing diffoscope
+[2023-05-08 14:15:27] INFO root fetch - processPackages [clubscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clubscore-0.1.3.tar.gz tmp/clubscore-0.1.4.tar.gz --markdown 20230508/c/clubscore/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-08 14:15:27] INFO root fetch - processPackages [waipy]: executing diffoscope
+[2023-05-08 14:15:27] INFO root fetch - processPackages [waipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waipy-0.0.9.0.tar.gz tmp/waipy-0.1.51.tar.gz --markdown 20230508/w/waipy/0.0.9.0-0.1.51/diff.md --exclude *.pyd
+[2023-05-08 14:15:27] WARNING root fetch - processPackages [brion]: Skipping package: exceeds size limit 16579517>=10485760
+[2023-05-08 14:15:27] INFO root fetch - processPackages [brion]: Start processing: co2mpas-driver
+[2023-05-08 14:15:27] INFO root fetch - main [MainThread]: End processing [brion] error
+[2023-05-08 14:15:27] INFO root fetch - processPackages [co2mpas-driver]: New version: [1.3.3] Old Version: [1.3.1]
+[2023-05-08 14:15:27] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/ad/a7/91c00c569d7bf715e0a4a719f19530b1514eee3af51ff1ffe9098424deb9/cg-29.8.2.tar.gz
+[2023-05-08 14:15:27] INFO root fetch - processPackages [AutoCython-jianjun]: Downloading https://files.pythonhosted.org/packages/63/b9/e6bf05163dcad033c2d8aca7977f96de833575033df140d4fcd94fc8757f/AutoCython-jianjun-1.3.3.tar.gz
+[2023-05-08 14:15:27] INFO root fetch - processPackages [AutoCython-jianjun]: executing diffoscope
+[2023-05-08 14:15:27] INFO root fetch - processPackages [AutoCython-jianjun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoCython-jianjun-1.3.2.tar.gz tmp/AutoCython-jianjun-1.3.3.tar.gz --markdown 20230508/A/AutoCython-jianjun/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-05-08 14:15:27] INFO root fetch - processPackages [napari-nifti]: Downloading https://files.pythonhosted.org/packages/8c/0d/e178221d472040d0a86c8e92155121a534e479057afdb8529f4d5bcbba5f/napari-nifti-0.0.5.tar.gz
+[2023-05-08 14:15:27] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-05-08 14:15:27] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-29.8.1.tar.gz tmp/cg-29.8.2.tar.gz --markdown 20230508/c/cg/29.8.1-29.8.2/diff.md --exclude *.pyd
+[2023-05-08 14:15:27] INFO root fetch - processPackages [cloudcix]: Downloading https://files.pythonhosted.org/packages/cc/cc/13d28a5efdd4e496bafa1fd6d1a99c8d16600cc337a964e77d0a23ecac9d/cloudcix-0.9.6.tar.gz
+[2023-05-08 14:15:27] INFO root fetch - processPackages [cloudcix]: Downloading https://files.pythonhosted.org/packages/cc/cc/13d28a5efdd4e496bafa1fd6d1a99c8d16600cc337a964e77d0a23ecac9d/cloudcix-0.9.6.tar.gz
+[2023-05-08 14:15:27] INFO root fetch - processPackages [cloudcix]: executing diffoscope
+[2023-05-08 14:15:27] INFO root fetch - processPackages [cloudcix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudcix-0.9.5.tar.gz tmp/cloudcix-0.9.6.tar.gz --markdown 20230508/c/cloudcix/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-08 14:15:27] INFO root fetch - processPackages [cloudcix]: executing diffoscope
+[2023-05-08 14:15:27] INFO root fetch - processPackages [cloudcix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudcix-0.9.5.tar.gz tmp/cloudcix-0.9.6.tar.gz --markdown 20230508/c/cloudcix/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-08 14:15:27] INFO root fetch - processPackages [co2mpas-driver]: Downloading https://files.pythonhosted.org/packages/4b/ab/a65c301b4bcd261f7193ca5934f52d58b9a176be25887a4299f70c96bdac/co2mpas_driver-1.3.1.tar.gz
+[2023-05-08 14:15:28] INFO root fetch - processPackages [ChatRoom-jianjun]: Downloading https://files.pythonhosted.org/packages/fc/3e/c48d8c37c9253ec7af7c39888b7de89c37c3260b977712ec31ece261ffee/ChatRoom_jianjun-3.0.5-cp39-cp39-win_amd64.whl
+[2023-05-08 14:15:28] INFO root fetch - processPackages [ChatRoom-jianjun]: executing diffoscope
+[2023-05-08 14:15:28] INFO root fetch - processPackages [ChatRoom-jianjun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatRoom_jianjun-3.0.3-cp39-cp39-win_amd64.whl.zip tmp/ChatRoom_jianjun-3.0.5-cp39-cp39-win_amd64.whl.zip --markdown 20230508/C/ChatRoom-jianjun/3.0.3-3.0.5/diff.md --exclude *.pyd
+[2023-05-08 14:15:28] INFO root fetch - processPackages [napari-nifti]: executing diffoscope
+[2023-05-08 14:15:28] INFO root fetch - processPackages [napari-nifti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-nifti-0.0.3.tar.gz tmp/napari-nifti-0.0.5.tar.gz --markdown 20230508/n/napari-nifti/0.0.3-0.0.5/diff.md --exclude *.pyd
+[2023-05-08 14:15:28] INFO root fetch - processPackages [co2mpas-driver]: Downloading https://files.pythonhosted.org/packages/10/4f/b33c4fbd386a8e798b2ed6caf785d271fbfe15b0956a1c4f708057439808/co2mpas_driver-1.3.3.tar.gz
+[2023-05-08 14:15:28] INFO root fetch - processPackages [co2mpas-driver]: executing diffoscope
+[2023-05-08 14:15:28] INFO root fetch - processPackages [co2mpas-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/co2mpas_driver-1.3.1.tar.gz tmp/co2mpas_driver-1.3.3.tar.gz --markdown 20230508/c/co2mpas-driver/1.3.1-1.3.3/diff.md --exclude *.pyd
+[2023-05-08 14:15:28] INFO root fetch - processPackages [Perceptrone-viral3899]: Start processing: wavebreaking
+[2023-05-08 14:15:28] INFO root fetch - main [MainThread]: End processing [Perceptrone-viral3899]: success
+[2023-05-08 14:15:28] WARNING root fetch - processPackages [wavebreaking]: Skipping, unable to determine old version
+[2023-05-08 14:15:28] INFO root fetch - main [MainThread]: End processing [wavebreaking] error
+[2023-05-08 14:15:29] INFO root fetch - main [MainThread]: End processing [waipy]: success
+[2023-05-08 14:15:29] INFO root fetch - main [MainThread]: End processing [clubscore]: success
+[2023-05-08 14:15:29] INFO root fetch - main [MainThread]: End processing [AutoCython-jianjun]: success
+[2023-05-08 14:15:29] INFO root fetch - main [MainThread]: End processing [cloudcix]: success
+[2023-05-08 14:15:29] INFO root fetch - main [MainThread]: End processing [cloudcix]: success
+[2023-05-08 14:15:29] INFO root fetch - main [MainThread]: End processing [napari-nifti]: success
+[2023-05-08 14:15:30] INFO root fetch - main [MainThread]: End processing [ChatRoom-jianjun]: success
+[2023-05-08 14:15:32] INFO root fetch - main [MainThread]: End processing [co2mpas-driver]: success
+[2023-05-08 14:15:42] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-05-08 14:15:42] INFO root fetch - main [MainThread]: Store serial: [18016475]
