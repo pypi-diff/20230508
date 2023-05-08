@@ -5319,3 +5319,25 @@
 [2023-05-08 06:36:28] INFO root fetch - main [MainThread]: End processing [ekaros]: success
 [2023-05-08 06:36:29] INFO root fetch - main [MainThread]: End processing [graia-ariadne]: success
 [2023-05-08 06:36:29] INFO root fetch - main [MainThread]: Store serial: [18012918]
+[2023-05-08 06:41:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18012918]
+[2023-05-08 06:41:38] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-08 06:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pystools
+[2023-05-08 06:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shlexwhichplus
+[2023-05-08 06:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fhnw-nlp-utils
+[2023-05-08 06:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autoxx
+[2023-05-08 06:41:38] INFO root fetch - processPackages [pystools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 06:41:38] INFO root fetch - processPackages [autoxx]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 06:41:38] WARNING root fetch - processPackages [shlexwhichplus]: Skipping, unable to determine old version
+[2023-05-08 06:41:38] INFO root fetch - main [MainThread]: End processing [shlexwhichplus] error
+[2023-05-08 06:41:38] INFO root fetch - processPackages [fhnw-nlp-utils]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-05-08 06:41:38] INFO root fetch - processPackages [pystools]: executing diffoscope
+[2023-05-08 06:41:38] INFO root fetch - processPackages [pystools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystools-0.0.8.tar.gz tmp/pystools-0.0.9.tar.gz --markdown 20230508/p/pystools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 06:41:38] INFO root fetch - processPackages [fhnw-nlp-utils]: executing diffoscope
+[2023-05-08 06:41:38] INFO root fetch - processPackages [fhnw-nlp-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fhnw_nlp_utils-0.6.8-py3-none-any.whl.zip tmp/fhnw_nlp_utils-0.6.9-py3-none-any.whl.zip --markdown 20230508/f/fhnw-nlp-utils/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-05-08 06:41:38] INFO root fetch - processPackages [autoxx]: Downloading https://files.pythonhosted.org/packages/46/c9/efcefbf0463b071e9752a06466ad81c3f71caaf6c589a055893f8b1f427e/autoxx-0.0.9.tar.gz
+[2023-05-08 06:41:38] INFO root fetch - processPackages [autoxx]: executing diffoscope
+[2023-05-08 06:41:38] INFO root fetch - processPackages [autoxx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoxx-0.0.8.tar.gz tmp/autoxx-0.0.9.tar.gz --markdown 20230508/a/autoxx/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 06:41:39] INFO root fetch - main [MainThread]: End processing [fhnw-nlp-utils]: success
+[2023-05-08 06:41:39] INFO root fetch - main [MainThread]: End processing [pystools]: success
+[2023-05-08 06:41:39] INFO root fetch - main [MainThread]: End processing [autoxx]: success
+[2023-05-08 06:41:39] INFO root fetch - main [MainThread]: Store serial: [18012931]
