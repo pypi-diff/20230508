@@ -7852,3 +7852,51 @@
 [2023-05-08 10:17:18] INFO root fetch - main [MainThread]: End processing [smartchart]: success
 [2023-05-08 10:17:19] INFO root fetch - main [MainThread]: End processing [labelmeAMIT]: success
 [2023-05-08 10:17:19] INFO root fetch - main [MainThread]: Store serial: [18014426]
+[2023-05-08 10:22:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18014426]
+[2023-05-08 10:22:27] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-08 10:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ysf-test
+[2023-05-08 10:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: socket-request
+[2023-05-08 10:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: owlery
+[2023-05-08 10:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: phdu
+[2023-05-08 10:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mtANN
+[2023-05-08 10:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: manim-slides
+[2023-05-08 10:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tf-nightly
+[2023-05-08 10:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dialoguekit
+[2023-05-08 10:22:27] INFO root fetch - processPackages [phdu]: New version: [1.9b2] Old Version: [1.9b1]
+[2023-05-08 10:22:27] WARNING root fetch - processPackages [mtANN]: Skipping, unable to determine old version
+[2023-05-08 10:22:27] INFO root fetch - processPackages [socket-request]: New version: [1.1.9] Old Version: [1.1.7]
+[2023-05-08 10:22:27] INFO root fetch - main [MainThread]: End processing [mtANN] error
+[2023-05-08 10:22:27] INFO root fetch - processPackages [ysf-test]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-08 10:22:27] INFO root fetch - processPackages [owlery]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-08 10:22:27] INFO root fetch - processPackages [manim-slides]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-05-08 10:22:28] INFO root fetch - processPackages [socket-request]: executing diffoscope
+[2023-05-08 10:22:28] INFO root fetch - processPackages [socket-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socket_request-1.1.7-py3-none-any.whl.zip tmp/socket_request-1.1.9-py3-none-any.whl.zip --markdown 20230508/s/socket-request/1.1.7-1.1.9/diff.md --exclude *.pyd
+[2023-05-08 10:22:28] INFO root fetch - processPackages [dialoguekit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 10:22:28] INFO root fetch - processPackages [manim-slides]: executing diffoscope
+[2023-05-08 10:22:28] INFO root fetch - processPackages [manim-slides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manim_slides-4.9.1.tar.gz tmp/manim_slides-4.9.2.tar.gz --markdown 20230508/m/manim-slides/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-05-08 10:22:28] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230508] Old Version: [2.14.0.dev20230507]
+[2023-05-08 10:22:28] INFO root fetch - processPackages [ysf-test]: Downloading https://files.pythonhosted.org/packages/c3/61/2b90cf2840f571173a47fc4e1f1e25bde0ccf78c4237bbe39827e584b2ad/ysf_test-0.0.1.tar.gz
+[2023-05-08 10:22:28] INFO root fetch - processPackages [phdu]: Downloading https://files.pythonhosted.org/packages/58/32/7a810eb3b7ae771389537d598f68f148135c66a7538429e40bb52b586b70/phdu-1.9b2.tar.gz
+[2023-05-08 10:22:28] INFO root fetch - processPackages [phdu]: executing diffoscope
+[2023-05-08 10:22:28] INFO root fetch - processPackages [phdu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phdu-1.9b1.tar.gz tmp/phdu-1.9b2.tar.gz --markdown 20230508/p/phdu/1.9b1-1.9b2/diff.md --exclude *.pyd
+[2023-05-08 10:22:28] INFO root fetch - processPackages [owlery]: Downloading https://files.pythonhosted.org/packages/13/36/07f5c36f68b58d004b745caee1e49f9bf40f33bc0726d4f0f7c1c9511e2e/owlery-0.1.0-py3-none-any.whl
+[2023-05-08 10:22:28] INFO root fetch - processPackages [dialoguekit]: Downloading https://files.pythonhosted.org/packages/0d/74/abecce1c39d4a5124093957dee5e467359fdea55f2b5eb092d65a79b2f63/dialoguekit-0.0.8.tar.gz
+[2023-05-08 10:22:28] INFO root fetch - processPackages [ysf-test]: Downloading https://files.pythonhosted.org/packages/0e/ec/7d799f3648be810e6d1756435b001e0f8bf7ec9c41fa0e4f44f669782b79/ysf_test-0.0.2.tar.gz
+[2023-05-08 10:22:28] INFO root fetch - processPackages [ysf-test]: executing diffoscope
+[2023-05-08 10:22:28] INFO root fetch - processPackages [ysf-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ysf_test-0.0.1.tar.gz tmp/ysf_test-0.0.2.tar.gz --markdown 20230508/y/ysf-test/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-08 10:22:28] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/40/6d/03f88fa54634673cc7dab2ea16ed2f4c88aaeb03fcf8277b4a3fd8713bf0/tf_nightly-2.14.0.dev20230508-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-08 10:22:28] INFO root fetch - processPackages [owlery]: Downloading https://files.pythonhosted.org/packages/38/ac/8caf0fa2b06287115048bc2ca21262bd72eb9ee819c510a719ae1e498881/owlery-0.1.1.tar.gz
+[2023-05-08 10:22:28] WARNING root fetch - processPackages [tf-nightly]: Skipping package: exceeds size limit 527294952>=10485760
+[2023-05-08 10:22:28] INFO root fetch - main [MainThread]: End processing [tf-nightly] error
+[2023-05-08 10:22:28] INFO root fetch - processPackages [dialoguekit]: Downloading https://files.pythonhosted.org/packages/8e/7f/1ba219a62355d35562f5769c9d778e0533a24311d048cadc4a480453c947/dialoguekit-0.0.9.tar.gz
+[2023-05-08 10:22:28] INFO root fetch - processPackages [owlery]: executing diffoscope
+[2023-05-08 10:22:28] INFO root fetch - processPackages [owlery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owlery-0.1.0-py3-none-any.whl.zip tmp/owlery-0.1.1.tar.gz --markdown 20230508/o/owlery/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-08 10:22:28] INFO root fetch - processPackages [dialoguekit]: executing diffoscope
+[2023-05-08 10:22:28] INFO root fetch - processPackages [dialoguekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dialoguekit-0.0.8.tar.gz tmp/dialoguekit-0.0.9.tar.gz --markdown 20230508/d/dialoguekit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 10:22:29] INFO root fetch - main [MainThread]: End processing [socket-request]: success
+[2023-05-08 10:22:29] INFO root fetch - main [MainThread]: End processing [ysf-test]: success
+[2023-05-08 10:22:29] INFO root fetch - main [MainThread]: End processing [owlery]: success
+[2023-05-08 10:22:29] INFO root fetch - main [MainThread]: End processing [manim-slides]: success
+[2023-05-08 10:22:30] INFO root fetch - main [MainThread]: End processing [phdu]: success
+[2023-05-08 10:22:31] INFO root fetch - main [MainThread]: End processing [dialoguekit]: success
+[2023-05-08 10:22:31] INFO root fetch - main [MainThread]: Store serial: [18014453]
