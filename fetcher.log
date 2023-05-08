@@ -13603,3 +13603,132 @@ EOFError: EOF read where object expected
 [2023-05-08 15:54:23] INFO root fetch - main [MainThread]: End processing [twitch-archiver]: success
 [2023-05-08 15:54:24] INFO root fetch - main [MainThread]: End processing [shellfoundry]: success
 [2023-05-08 15:54:24] INFO root fetch - main [MainThread]: Store serial: [18017417]
+[2023-05-08 15:59:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18017417]
+[2023-05-08 15:59:34] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-08 15:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ecspylibs
+[2023-05-08 15:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OctoPrint
+[2023-05-08 15:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mpxj
+[2023-05-08 15:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: terka
+[2023-05-08 15:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yetl-framework
+[2023-05-08 15:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dbt-doc-py
+[2023-05-08 15:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cloud-radar
+[2023-05-08 15:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: inmanta-module-aws
+[2023-05-08 15:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: substrate-interface
+[2023-05-08 15:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: inmanta-module-ip
+[2023-05-08 15:59:34] INFO root fetch - processPackages [OctoPrint]: New version: [1.9.0rc6] Old Version: [1.9.0rc5]
+[2023-05-08 15:59:34] INFO root fetch - processPackages [dbt-doc-py]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-08 15:59:34] INFO root fetch - processPackages [inmanta-module-aws]: New version: [3.2.9] Old Version: [3.2.8]
+[2023-05-08 15:59:34] INFO root fetch - processPackages [mpxj]: New version: [9.8.3] Old Version: [9.8.2]
+[2023-05-08 15:59:34] INFO root fetch - processPackages [inmanta-module-ip]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-08 15:59:34] INFO root fetch - processPackages [cloud-radar]: New version: [0.7.0] Old Version: [0.6.5]
+[2023-05-08 15:59:34] INFO root fetch - processPackages [yetl-framework]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-05-08 15:59:34] INFO root fetch - processPackages [substrate-interface]: New version: [1.7.0] Old Version: [1.6.2]
+[2023-05-08 15:59:34] INFO root fetch - processPackages [ecspylibs]: New version: [1.1.35] Old Version: [1.1.34]
+[2023-05-08 15:59:34] INFO root fetch - processPackages [terka]: New version: [1.7.2.2] Old Version: [1.7.2.1]
+[2023-05-08 15:59:34] INFO root fetch - processPackages [inmanta-module-aws]: Downloading https://files.pythonhosted.org/packages/15/37/6d0284b901d64c84ea3cfcc1df08b24849ec774a884dc399e3b60327d8c5/inmanta_module_aws-3.2.8-py3-none-any.whl
+[2023-05-08 15:59:34] INFO root fetch - processPackages [OctoPrint]: Downloading https://files.pythonhosted.org/packages/b2/39/44f457e8bad3d38e75deddce1cfb6138155cbf4ed54b2e81d5194a02e03b/OctoPrint-1.9.0rc5.tar.gz
+[2023-05-08 15:59:34] INFO root fetch - processPackages [inmanta-module-ip]: Downloading https://files.pythonhosted.org/packages/de/1e/2f1cc0f6ad6f1b398e425241c78042482d02d3b75ebd9ad4e0e58b3986f8/inmanta_module_ip-1.2.8-py3-none-any.whl
+[2023-05-08 15:59:34] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/68/ae/85c8664ebf974ed34a265ecbd8cc657ff0fd56a7cae1c8109da19e834a85/yetl-framework-1.2.6.tar.gz
+[2023-05-08 15:59:34] INFO root fetch - processPackages [dbt-doc-py]: Downloading https://files.pythonhosted.org/packages/d1/e3/69a8de33ecae6c0d5ff01b3d4303d4722a41824a36627c5b92324c436f00/dbt-doc-py-0.1.0.tar.gz
+[2023-05-08 15:59:34] INFO root fetch - processPackages [mpxj]: Downloading https://files.pythonhosted.org/packages/39/d0/4e44b7920417d0090990177f4d89ad7335ca83c0adef231d736a31b223c5/mpxj-9.8.2.tar.gz
+[2023-05-08 15:59:34] INFO root fetch - processPackages [cloud-radar]: Downloading https://files.pythonhosted.org/packages/27/44/41ab0182b28a033d7a9d69378f0eaf74b3a9602a89a39ba97a9cd6da905b/cloud_radar-0.6.5.tar.gz
+[2023-05-08 15:59:34] INFO root fetch - processPackages [substrate-interface]: Downloading https://files.pythonhosted.org/packages/be/49/072486931ce373c4f9a619723d4f73244729d9cdd2d0f87e2f4949e85124/substrate-interface-1.6.2.tar.gz
+[2023-05-08 15:59:34] INFO root fetch - processPackages [terka]: Downloading https://files.pythonhosted.org/packages/a9/51/7fd4eabbab9869888dc7c233acff21028d30a86577538034ab64a12947aa/terka-1.7.2.2.tar.gz
+[2023-05-08 15:59:34] INFO root fetch - processPackages [ecspylibs]: Downloading https://files.pythonhosted.org/packages/2e/73/06c90cf6209d8d4db9e9040f98a7303b303951ac8953d5035b634313b416/ecspylibs-1.1.34.tar.gz
+[2023-05-08 15:59:34] INFO root fetch - processPackages [yetl-framework]: executing diffoscope
+[2023-05-08 15:59:34] INFO root fetch - processPackages [yetl-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yetl-framework-1.2.5.tar.gz tmp/yetl-framework-1.2.6.tar.gz --markdown 20230508/y/yetl-framework/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-05-08 15:59:34] INFO root fetch - processPackages [terka]: executing diffoscope
+[2023-05-08 15:59:34] INFO root fetch - processPackages [terka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terka-1.7.2.1.tar.gz tmp/terka-1.7.2.2.tar.gz --markdown 20230508/t/terka/1.7.2.1-1.7.2.2/diff.md --exclude *.pyd
+[2023-05-08 15:59:34] INFO root fetch - processPackages [cloud-radar]: Downloading https://files.pythonhosted.org/packages/2d/d3/f05450adbb07ad54f1f083079fa45808f358954063d32757bc4d2948081c/cloud_radar-0.7.0.tar.gz
+[2023-05-08 15:59:34] INFO root fetch - processPackages [dbt-doc-py]: Downloading https://files.pythonhosted.org/packages/52/6d/8dc3b9dae0f9aab5c27b252ac3bba1e1f09dade2a21e8e809577b36ec4be/dbt-doc-py-0.1.1.tar.gz
+[2023-05-08 15:59:34] INFO root fetch - processPackages [substrate-interface]: Downloading https://files.pythonhosted.org/packages/48/67/fd54d2fe1e211b71532848f9878c85fccba3aa8ef7912bfab3ee2435f827/substrate-interface-1.7.0.tar.gz
+[2023-05-08 15:59:34] INFO root fetch - processPackages [ecspylibs]: Downloading https://files.pythonhosted.org/packages/8d/09/4ad23a3682209db7e4c0abb4b7280ccce710d619d079bb599b4a978f7047/ecspylibs-1.1.35.tar.gz
+[2023-05-08 15:59:34] WARNING root fetch - processPackages [mpxj]: Skipping package: exceeds size limit 16838188>=10485760
+[2023-05-08 15:59:34] INFO root fetch - processPackages [mpxj]: Start processing: threedi-modelchecker
+[2023-05-08 15:59:34] INFO root fetch - main [MainThread]: End processing [mpxj] error
+[2023-05-08 15:59:34] INFO root fetch - processPackages [inmanta-module-ip]: Downloading https://files.pythonhosted.org/packages/f8/92/273f315d9248c3a3f1b3e218de74c0b9ce85265f290f81e7a1acb0590563/inmanta_module_ip-1.2.9-py3-none-any.whl
+[2023-05-08 15:59:34] INFO root fetch - processPackages [cloud-radar]: executing diffoscope
+[2023-05-08 15:59:34] INFO root fetch - processPackages [cloud-radar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud_radar-0.6.5.tar.gz tmp/cloud_radar-0.7.0.tar.gz --markdown 20230508/c/cloud-radar/0.6.5-0.7.0/diff.md --exclude *.pyd
+[2023-05-08 15:59:34] INFO root fetch - processPackages [threedi-modelchecker]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-05-08 15:59:34] INFO root fetch - processPackages [inmanta-module-aws]: Downloading https://files.pythonhosted.org/packages/f0/9a/b471de414c787f009b64851cd654e12d6fbb9d1410943689c7ac3f23ce72/inmanta_module_aws-3.2.9-py3-none-any.whl
+[2023-05-08 15:59:34] INFO root fetch - processPackages [ecspylibs]: executing diffoscope
+[2023-05-08 15:59:34] INFO root fetch - processPackages [ecspylibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecspylibs-1.1.34.tar.gz tmp/ecspylibs-1.1.35.tar.gz --markdown 20230508/e/ecspylibs/1.1.34-1.1.35/diff.md --exclude *.pyd
+[2023-05-08 15:59:34] INFO root fetch - processPackages [substrate-interface]: executing diffoscope
+[2023-05-08 15:59:34] INFO root fetch - processPackages [substrate-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/substrate-interface-1.6.2.tar.gz tmp/substrate-interface-1.7.0.tar.gz --markdown 20230508/s/substrate-interface/1.6.2-1.7.0/diff.md --exclude *.pyd
+[2023-05-08 15:59:34] INFO root fetch - processPackages [dbt-doc-py]: executing diffoscope
+[2023-05-08 15:59:34] INFO root fetch - processPackages [dbt-doc-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-doc-py-0.1.0.tar.gz tmp/dbt-doc-py-0.1.1.tar.gz --markdown 20230508/d/dbt-doc-py/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-08 15:59:34] INFO root fetch - processPackages [OctoPrint]: Downloading https://files.pythonhosted.org/packages/41/13/d038a800093d99c3ec5b63809bd5b920eb4caf0570aebb570764fcf59a05/OctoPrint-1.9.0rc6.tar.gz
+[2023-05-08 15:59:35] INFO root fetch - processPackages [inmanta-module-ip]: executing diffoscope
+[2023-05-08 15:59:35] INFO root fetch - processPackages [inmanta-module-ip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inmanta_module_ip-1.2.8-py3-none-any.whl.zip tmp/inmanta_module_ip-1.2.9-py3-none-any.whl.zip --markdown 20230508/i/inmanta-module-ip/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-08 15:59:35] INFO root fetch - processPackages [inmanta-module-aws]: executing diffoscope
+[2023-05-08 15:59:35] INFO root fetch - processPackages [inmanta-module-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inmanta_module_aws-3.2.8-py3-none-any.whl.zip tmp/inmanta_module_aws-3.2.9-py3-none-any.whl.zip --markdown 20230508/i/inmanta-module-aws/3.2.8-3.2.9/diff.md --exclude *.pyd
+[2023-05-08 15:59:35] INFO root fetch - processPackages [threedi-modelchecker]: Downloading https://files.pythonhosted.org/packages/6e/fa/9fc671260c7bb2d06861bceeab9fff973c10be73638c3b1934a0049b4b37/threedi-modelchecker-2.1.0.tar.gz
+[2023-05-08 15:59:35] INFO root fetch - processPackages [threedi-modelchecker]: Downloading https://files.pythonhosted.org/packages/29/14/4aa262280e07058a9ba72036fb4169dd15466adf80a121645fcf4ea5b41a/threedi-modelchecker-2.1.1.tar.gz
+[2023-05-08 15:59:35] INFO root fetch - processPackages [threedi-modelchecker]: executing diffoscope
+[2023-05-08 15:59:35] INFO root fetch - processPackages [threedi-modelchecker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threedi-modelchecker-2.1.0.tar.gz tmp/threedi-modelchecker-2.1.1.tar.gz --markdown 20230508/t/threedi-modelchecker/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-05-08 15:59:35] INFO root fetch - processPackages [OctoPrint]: executing diffoscope
+[2023-05-08 15:59:35] INFO root fetch - processPackages [OctoPrint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OctoPrint-1.9.0rc5.tar.gz tmp/OctoPrint-1.9.0rc6.tar.gz --markdown 20230508/O/OctoPrint/1.9.0rc5-1.9.0rc6/diff.md --exclude *.pyd
+[2023-05-08 15:59:36] INFO root fetch - processPackages [inmanta-module-ip]: Start processing: cavcalc
+[2023-05-08 15:59:36] INFO root fetch - main [MainThread]: End processing [inmanta-module-ip]: success
+[2023-05-08 15:59:36] INFO root fetch - processPackages [cavcalc]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-08 15:59:36] INFO root fetch - processPackages [dbt-doc-py]: Start processing: threedigrid-builder
+[2023-05-08 15:59:36] INFO root fetch - main [MainThread]: End processing [dbt-doc-py]: success
+[2023-05-08 15:59:36] INFO root fetch - processPackages [threedigrid-builder]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-08 15:59:36] INFO root fetch - processPackages [cavcalc]: Downloading https://files.pythonhosted.org/packages/8f/2a/5687f58475d816137f9dc0c5c538d0d5374ea9d24893cb4a4b90d921dace/cavcalc-1.1.0.tar.gz
+[2023-05-08 15:59:36] INFO root fetch - processPackages [inmanta-module-aws]: Start processing: pywry
+[2023-05-08 15:59:36] INFO root fetch - main [MainThread]: End processing [inmanta-module-aws]: success
+[2023-05-08 15:59:36] INFO root fetch - processPackages [pywry]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-05-08 15:59:36] INFO root fetch - processPackages [cloud-radar]: Start processing: ecscmdb
+[2023-05-08 15:59:36] INFO root fetch - main [MainThread]: End processing [cloud-radar]: success
+[2023-05-08 15:59:36] INFO root fetch - processPackages [ecscmdb]: New version: [1.7.8] Old Version: [1.7.7]
+[2023-05-08 15:59:36] INFO root fetch - processPackages [threedigrid-builder]: Downloading https://files.pythonhosted.org/packages/2c/e1/9e264cac9dd3136894d0343e718af980cb8a07cf16a29809269d6ad4546f/threedigrid-builder-1.8.0.tar.gz
+[2023-05-08 15:59:36] INFO root fetch - processPackages [yetl-framework]: Start processing: pineappl
+[2023-05-08 15:59:36] INFO root fetch - main [MainThread]: End processing [yetl-framework]: success
+[2023-05-08 15:59:36] INFO root fetch - processPackages [pineappl]: New version: [0.6.0a9] Old Version: [0.6.0a8]
+[2023-05-08 15:59:36] INFO root fetch - processPackages [ecspylibs]: Start processing: proventosweb
+[2023-05-08 15:59:36] INFO root fetch - main [MainThread]: End processing [ecspylibs]: success
+[2023-05-08 15:59:37] INFO root fetch - processPackages [proventosweb]: New version: [0.6] Old Version: [0.5]
+[2023-05-08 15:59:37] INFO root fetch - processPackages [ecscmdb]: Downloading https://files.pythonhosted.org/packages/b8/60/1f9d985d24e20eb3d663e193399426cc06e1483f0fc3d3ec708ae755150f/ecscmdb-1.7.7.tar.gz
+[2023-05-08 15:59:37] INFO root fetch - processPackages [pywry]: Downloading https://files.pythonhosted.org/packages/e2/7d/fcf8dbeced11d340a0d5344dec281a8dea73ad6bb5db0a7148eab7d25810/pywry-0.5.3.tar.gz
+[2023-05-08 15:59:37] INFO root fetch - processPackages [threedi-modelchecker]: Start processing: dbt-doc-py
+[2023-05-08 15:59:37] INFO root fetch - main [MainThread]: End processing [threedi-modelchecker]: success
+[2023-05-08 15:59:37] INFO root fetch - processPackages [dbt-doc-py]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-08 15:59:37] INFO root fetch - processPackages [pineappl]: Downloading https://files.pythonhosted.org/packages/ad/77/76244c770fa3c162e17ac95e7f297f4b8b53d83ec548338c8000b38b269d/pineappl-0.6.0a8.tar.gz
+[2023-05-08 15:59:37] INFO root fetch - processPackages [cavcalc]: Downloading https://files.pythonhosted.org/packages/51/d7/c082c32ba820d29b36886f4146a0b4344799bbfa473d43d658e7eb932a43/cavcalc-1.2.0.tar.gz
+[2023-05-08 15:59:37] INFO root fetch - processPackages [proventosweb]: Downloading https://files.pythonhosted.org/packages/cd/96/91d292ab49183cb0de14a967e9b8514031b19e4fa30a8f5d09ebaa75f387/proventosweb-0.6.tar.gz
+[2023-05-08 15:59:37] INFO root fetch - processPackages [pywry]: executing diffoscope
+[2023-05-08 15:59:37] INFO root fetch - processPackages [pywry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywry-0.5.2.tar.gz tmp/pywry-0.5.3.tar.gz --markdown 20230508/p/pywry/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-05-08 15:59:37] INFO root fetch - processPackages [ecscmdb]: Downloading https://files.pythonhosted.org/packages/50/31/32636d702f3ef42c89c4c5a59612f90854dbb2b8943af21e65bfe19195a3/ecscmdb-1.7.8.tar.gz
+[2023-05-08 15:59:37] INFO root fetch - processPackages [threedigrid-builder]: Downloading https://files.pythonhosted.org/packages/6b/de/d4fa81887befd3d08d5cf0d124803d3d142dbde109c6825cae8b8eb896e7/threedigrid-builder-1.9.0.tar.gz
+[2023-05-08 15:59:37] INFO root fetch - processPackages [dbt-doc-py]: Downloading https://files.pythonhosted.org/packages/93/5e/3987eefda7b6e851d5bd0a572aa875643a1a520f758b9be591499dd9597d/dbt-doc-py-0.1.2.tar.gz
+[2023-05-08 15:59:37] INFO root fetch - processPackages [terka]: Start processing: schemadisplay-magic
+[2023-05-08 15:59:37] INFO root fetch - main [MainThread]: End processing [terka]: success
+[2023-05-08 15:59:37] INFO root fetch - processPackages [proventosweb]: executing diffoscope
+[2023-05-08 15:59:37] INFO root fetch - processPackages [proventosweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proventosweb-0.5.tar.gz tmp/proventosweb-0.6.tar.gz --markdown 20230508/p/proventosweb/0.5-0.6/diff.md --exclude *.pyd
+[2023-05-08 15:59:37] INFO root fetch - processPackages [cavcalc]: executing diffoscope
+[2023-05-08 15:59:37] INFO root fetch - processPackages [cavcalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cavcalc-1.1.0.tar.gz tmp/cavcalc-1.2.0.tar.gz --markdown 20230508/c/cavcalc/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-08 15:59:37] INFO root fetch - processPackages [ecscmdb]: executing diffoscope
+[2023-05-08 15:59:37] INFO root fetch - processPackages [ecscmdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecscmdb-1.7.7.tar.gz tmp/ecscmdb-1.7.8.tar.gz --markdown 20230508/e/ecscmdb/1.7.7-1.7.8/diff.md --exclude *.pyd
+[2023-05-08 15:59:37] INFO root fetch - processPackages [dbt-doc-py]: executing diffoscope
+[2023-05-08 15:59:37] INFO root fetch - processPackages [dbt-doc-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-doc-py-0.1.1.tar.gz tmp/dbt-doc-py-0.1.2.tar.gz --markdown 20230508/d/dbt-doc-py/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-08 15:59:37] INFO root fetch - processPackages [schemadisplay-magic]: New version: [0.0.6] Old Version: [0.0.4]
+[2023-05-08 15:59:37] INFO root fetch - processPackages [threedigrid-builder]: executing diffoscope
+[2023-05-08 15:59:37] INFO root fetch - processPackages [threedigrid-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threedigrid-builder-1.8.0.tar.gz tmp/threedigrid-builder-1.9.0.tar.gz --markdown 20230508/t/threedigrid-builder/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-08 15:59:37] INFO root fetch - processPackages [pineappl]: Downloading https://files.pythonhosted.org/packages/2f/c0/e06b725a07b108caa3d55ac61cf961893119ba0c8a7f0ab59ed04cc78e47/pineappl-0.6.0a9.tar.gz
+[2023-05-08 15:59:37] INFO root fetch - processPackages [schemadisplay-magic]: Downloading https://files.pythonhosted.org/packages/7e/4e/6880cf71c4c90116dcb69d4dee5b4599cf1b308022ec2038be3679a35823/schemadisplay-magic-0.0.4.tar.gz
+[2023-05-08 15:59:37] INFO root fetch - processPackages [pineappl]: executing diffoscope
+[2023-05-08 15:59:37] INFO root fetch - processPackages [pineappl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pineappl-0.6.0a8.tar.gz tmp/pineappl-0.6.0a9.tar.gz --markdown 20230508/p/pineappl/0.6.0a8-0.6.0a9/diff.md --exclude *.pyd
+[2023-05-08 15:59:37] INFO root fetch - processPackages [schemadisplay-magic]: Downloading https://files.pythonhosted.org/packages/6e/eb/246b6c13a6808b1471982da60b5355d085cc097eb6aefeaedd256632b911/schemadisplay-magic-0.0.6.tar.gz
+[2023-05-08 15:59:38] INFO root fetch - main [MainThread]: End processing [substrate-interface]: success
+[2023-05-08 15:59:38] INFO root fetch - processPackages [schemadisplay-magic]: executing diffoscope
+[2023-05-08 15:59:38] INFO root fetch - processPackages [schemadisplay-magic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schemadisplay-magic-0.0.4.tar.gz tmp/schemadisplay-magic-0.0.6.tar.gz --markdown 20230508/s/schemadisplay-magic/0.0.4-0.0.6/diff.md --exclude *.pyd
+[2023-05-08 15:59:38] INFO root fetch - main [MainThread]: End processing [proventosweb]: success
+[2023-05-08 15:59:38] INFO root fetch - main [MainThread]: End processing [cavcalc]: success
+[2023-05-08 15:59:38] INFO root fetch - main [MainThread]: End processing [dbt-doc-py]: success
+[2023-05-08 15:59:39] INFO root fetch - main [MainThread]: End processing [pywry]: success
+[2023-05-08 15:59:39] INFO root fetch - main [MainThread]: End processing [pineappl]: success
+[2023-05-08 15:59:39] INFO root fetch - main [MainThread]: End processing [schemadisplay-magic]: success
+[2023-05-08 15:59:39] INFO root fetch - main [MainThread]: End processing [ecscmdb]: success
+[2023-05-08 15:59:41] INFO root fetch - main [MainThread]: End processing [threedigrid-builder]: success
+[2023-05-08 15:59:42] INFO root fetch - main [MainThread]: End processing [OctoPrint]: success
+[2023-05-08 15:59:42] INFO root fetch - main [MainThread]: Store serial: [18017516]
