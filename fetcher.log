@@ -22085,3 +22085,57 @@ EOFError: EOF read where object expected
 [2023-05-08 22:50:14] INFO root fetch - main [MainThread]: End processing [ax-platform]: success
 [2023-05-08 22:50:28] INFO root fetch - main [MainThread]: End processing [python-gdcm]: success
 [2023-05-08 22:50:28] INFO root fetch - main [MainThread]: Store serial: [18022483]
+[2023-05-08 22:55:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18022483]
+[2023-05-08 22:55:37] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-08 22:55:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: netunicorn-client
+[2023-05-08 22:55:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jax-fdm
+[2023-05-08 22:55:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: struct-gpt
+[2023-05-08 22:55:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spotON_sdk
+[2023-05-08 22:55:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shello-world
+[2023-05-08 22:55:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nvdlib
+[2023-05-08 22:55:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-appointment
+[2023-05-08 22:55:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: daniel-cavazos-sdk
+[2023-05-08 22:55:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: abmap
+[2023-05-08 22:55:37] INFO root fetch - processPackages [netunicorn-client]: New version: [0.3.0] Old Version: [0.2.4]
+[2023-05-08 22:55:37] INFO root fetch - processPackages [spotON_sdk]: New version: [0.0.2.3] Old Version: [0.0.2.2]
+[2023-05-08 22:55:37] INFO root fetch - processPackages [abmap]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-08 22:55:37] INFO root fetch - processPackages [jax-fdm]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-05-08 22:55:37] INFO root fetch - processPackages [struct-gpt]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-05-08 22:55:37] INFO root fetch - processPackages [nvdlib]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-05-08 22:55:37] INFO root fetch - processPackages [shello-world]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-08 22:55:37] INFO root fetch - processPackages [daniel-cavazos-sdk]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-08 22:55:38] WARNING root fetch - processPackages [django-appointment]: Skipping, unable to determine old version
+[2023-05-08 22:55:38] INFO root fetch - main [MainThread]: End processing [django-appointment] error
+[2023-05-08 22:55:38] INFO root fetch - processPackages [daniel-cavazos-sdk]: executing diffoscope
+[2023-05-08 22:55:38] INFO root fetch - processPackages [daniel-cavazos-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daniel-cavazos-sdk-0.0.1.tar.gz tmp/daniel-cavazos-sdk-0.0.2.tar.gz --markdown 20230508/d/daniel-cavazos-sdk/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-08 22:55:38] INFO root fetch - processPackages [abmap]: executing diffoscope
+[2023-05-08 22:55:38] INFO root fetch - processPackages [abmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abmap-0.1.0.tar.gz tmp/abmap-0.1.1.tar.gz --markdown 20230508/a/abmap/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-08 22:55:38] INFO root fetch - processPackages [spotON_sdk]: Downloading https://files.pythonhosted.org/packages/10/fc/8f55d7d583b6567c4b9a33d5b94acd2b302020917cbd2f454e63ce1ac938/spotON_sdk-0.0.2.3.tar.gz
+[2023-05-08 22:55:38] INFO root fetch - processPackages [struct-gpt]: Downloading https://files.pythonhosted.org/packages/d8/80/1cd349f435a807ba6d9bd570c7c2ec40cc03bf8129c08acf21036d12c7f0/struct_gpt-2.2.3.tar.gz
+[2023-05-08 22:55:38] INFO root fetch - processPackages [netunicorn-client]: Downloading https://files.pythonhosted.org/packages/ed/a1/49cb8bc49ba5c7b6dc66ab6c50a5452ce8623b0aee1410a100fc19f313c5/netunicorn-client-0.2.4.tar.gz
+[2023-05-08 22:55:38] INFO root fetch - processPackages [shello-world]: Downloading https://files.pythonhosted.org/packages/04/3b/cc32f52dbcefc78f0dd67b8ab3c2746245bb2e9b157419bab3b1182abe77/shello_world-0.1.5.tar.gz
+[2023-05-08 22:55:38] INFO root fetch - processPackages [nvdlib]: Downloading https://files.pythonhosted.org/packages/85/05/f906c660fa5cdc8665974525ccecf2c4518330b1ade9717de5b75d1c44cb/nvdlib-0.7.3-py3-none-any.whl
+[2023-05-08 22:55:38] INFO root fetch - processPackages [jax-fdm]: Downloading https://files.pythonhosted.org/packages/67/e7/8822334da01f9d7f6ee3984ed4eeff8900ce6504a946c50ee42b0ee786db/jax_fdm-0.7.1.tar.gz
+[2023-05-08 22:55:38] INFO root fetch - processPackages [spotON_sdk]: executing diffoscope
+[2023-05-08 22:55:38] INFO root fetch - processPackages [spotON_sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotON_sdk-0.0.2.2.tar.gz tmp/spotON_sdk-0.0.2.3.tar.gz --markdown 20230508/s/spotON_sdk/0.0.2.2-0.0.2.3/diff.md --exclude *.pyd
+[2023-05-08 22:55:38] INFO root fetch - processPackages [struct-gpt]: executing diffoscope
+[2023-05-08 22:55:38] INFO root fetch - processPackages [struct-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/struct_gpt-2.2.2.tar.gz tmp/struct_gpt-2.2.3.tar.gz --markdown 20230508/s/struct-gpt/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2023-05-08 22:55:38] INFO root fetch - processPackages [shello-world]: executing diffoscope
+[2023-05-08 22:55:38] INFO root fetch - processPackages [shello-world]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shello_world-0.1.4.tar.gz tmp/shello_world-0.1.5.tar.gz --markdown 20230508/s/shello-world/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-08 22:55:38] INFO root fetch - processPackages [jax-fdm]: executing diffoscope
+[2023-05-08 22:55:38] INFO root fetch - processPackages [jax-fdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jax_fdm-0.7.0.tar.gz tmp/jax_fdm-0.7.1.tar.gz --markdown 20230508/j/jax-fdm/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-05-08 22:55:38] INFO root fetch - processPackages [nvdlib]: Downloading https://files.pythonhosted.org/packages/6d/6c/7372e2ced9ba0c7530a20b9f8c860a1f71876c55bb9b7541dc2ca1ff1a76/nvdlib-0.7.4-py3-none-any.whl
+[2023-05-08 22:55:38] INFO root fetch - processPackages [netunicorn-client]: Downloading https://files.pythonhosted.org/packages/96/50/eb078c36f8a7c19e0a4f5e7d81a6706c24bc0b17e9f62e65f19f2c735ee0/netunicorn-client-0.3.0.tar.gz
+[2023-05-08 22:55:38] INFO root fetch - processPackages [netunicorn-client]: executing diffoscope
+[2023-05-08 22:55:38] INFO root fetch - processPackages [netunicorn-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netunicorn-client-0.2.4.tar.gz tmp/netunicorn-client-0.3.0.tar.gz --markdown 20230508/n/netunicorn-client/0.2.4-0.3.0/diff.md --exclude *.pyd
+[2023-05-08 22:55:38] INFO root fetch - processPackages [nvdlib]: executing diffoscope
+[2023-05-08 22:55:38] INFO root fetch - processPackages [nvdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvdlib-0.7.3-py3-none-any.whl.zip tmp/nvdlib-0.7.4-py3-none-any.whl.zip --markdown 20230508/n/nvdlib/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-05-08 22:55:39] INFO root fetch - main [MainThread]: End processing [daniel-cavazos-sdk]: success
+[2023-05-08 22:55:39] INFO root fetch - main [MainThread]: End processing [shello-world]: success
+[2023-05-08 22:55:39] INFO root fetch - main [MainThread]: End processing [abmap]: success
+[2023-05-08 22:55:39] INFO root fetch - main [MainThread]: End processing [struct-gpt]: success
+[2023-05-08 22:55:39] INFO root fetch - main [MainThread]: End processing [spotON_sdk]: success
+[2023-05-08 22:55:39] INFO root fetch - main [MainThread]: End processing [netunicorn-client]: success
+[2023-05-08 22:55:39] INFO root fetch - main [MainThread]: End processing [nvdlib]: success
+[2023-05-08 22:55:39] INFO root fetch - main [MainThread]: End processing [jax-fdm]: success
+[2023-05-08 22:55:39] INFO root fetch - main [MainThread]: Store serial: [18022519]
