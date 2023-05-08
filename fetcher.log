@@ -5939,3 +5939,48 @@
 [2023-05-08 07:52:42] INFO root fetch - main [MainThread]: End processing [PyPDPM]: success
 [2023-05-08 07:52:43] INFO root fetch - main [MainThread]: End processing [bbm]: success
 [2023-05-08 07:52:43] INFO root fetch - main [MainThread]: Store serial: [18013272]
+[2023-05-08 07:57:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18013272]
+[2023-05-08 07:57:52] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-08 07:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: userfs
+[2023-05-08 07:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: codepeers
+[2023-05-08 07:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onnx2kerastl
+[2023-05-08 07:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mecord-cli
+[2023-05-08 07:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flask-securelogin
+[2023-05-08 07:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ndfind
+[2023-05-08 07:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bbm
+[2023-05-08 07:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pcb-parser
+[2023-05-08 07:57:52] INFO root fetch - processPackages [userfs]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-08 07:57:52] INFO root fetch - processPackages [bbm]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 07:57:52] WARNING root fetch - processPackages [flask-securelogin]: Skipping, unable to determine old version
+[2023-05-08 07:57:52] INFO root fetch - main [MainThread]: End processing [flask-securelogin] error
+[2023-05-08 07:57:52] WARNING root fetch - processPackages [codepeers]: Skipping, unable to determine old version
+[2023-05-08 07:57:52] INFO root fetch - main [MainThread]: End processing [codepeers] error
+[2023-05-08 07:57:52] INFO root fetch - processPackages [ndfind]: New version: [0.4.1] Old Version: [0.4]
+[2023-05-08 07:57:52] INFO root fetch - processPackages [onnx2kerastl]: New version: [0.0.85.5] Old Version: [0.0.85]
+[2023-05-08 07:57:52] INFO root fetch - processPackages [mecord-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 07:57:52] INFO root fetch - processPackages [pcb-parser]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 07:57:52] INFO root fetch - processPackages [pcb-parser]: executing diffoscope
+[2023-05-08 07:57:52] INFO root fetch - processPackages [pcb-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pcb-parser-0.0.8.tar.gz tmp/pcb-parser-0.0.9.tar.gz --markdown 20230508/p/pcb-parser/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 07:57:52] INFO root fetch - processPackages [userfs]: Downloading https://files.pythonhosted.org/packages/9c/cd/420d8180e745232f81f6d958b0677fb8f25926b34bced7084493fe46528d/userfs-1.0.1.tar.gz
+[2023-05-08 07:57:52] INFO root fetch - processPackages [onnx2kerastl]: Downloading https://files.pythonhosted.org/packages/5d/38/49c440401764c4414e5f9582223f10c090368db25cc3fcb83d6fbf73f1cf/onnx2kerastl-0.0.85.5.tar.gz
+[2023-05-08 07:57:52] INFO root fetch - processPackages [bbm]: Downloading https://files.pythonhosted.org/packages/68/ad/dc96f7f506fd417feeff52d8dd267397d040ffe1df19648500d490a76110/bbm-0.0.9.tar.gz
+[2023-05-08 07:57:52] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/99/07/defecf133b4a0c137e7272f092b0a7e4b36005e5d2e5b2e4f22949323973/mecord-cli-0.1.8.tar.gz
+[2023-05-08 07:57:52] INFO root fetch - processPackages [userfs]: executing diffoscope
+[2023-05-08 07:57:52] INFO root fetch - processPackages [userfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/userfs-1.0.0.tar.gz tmp/userfs-1.0.1.tar.gz --markdown 20230508/u/userfs/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-08 07:57:52] INFO root fetch - processPackages [onnx2kerastl]: executing diffoscope
+[2023-05-08 07:57:52] INFO root fetch - processPackages [onnx2kerastl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2kerastl-0.0.85.tar.gz tmp/onnx2kerastl-0.0.85.5.tar.gz --markdown 20230508/o/onnx2kerastl/0.0.85-0.0.85.5/diff.md --exclude *.pyd
+[2023-05-08 07:57:52] INFO root fetch - processPackages [bbm]: executing diffoscope
+[2023-05-08 07:57:52] INFO root fetch - processPackages [bbm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbm-0.0.8.tar.gz tmp/bbm-0.0.9.tar.gz --markdown 20230508/b/bbm/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 07:57:52] INFO root fetch - processPackages [ndfind]: Downloading https://files.pythonhosted.org/packages/fb/94/b483cdde885621c1bc8619b7e56d8cc530202be96983da930b11e1260d5e/ndfind-0.4.1.tar.gz
+[2023-05-08 07:57:52] INFO root fetch - processPackages [ndfind]: executing diffoscope
+[2023-05-08 07:57:52] INFO root fetch - processPackages [ndfind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ndfind-0.4.tar.gz tmp/ndfind-0.4.1.tar.gz --markdown 20230508/n/ndfind/0.4-0.4.1/diff.md --exclude *.pyd
+[2023-05-08 07:57:52] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/2b/9f/dbf00e6cfb2e166744734b7095dec6d81a7ee7213a1ef56c5c29e85783a1/mecord-cli-0.1.9.tar.gz
+[2023-05-08 07:57:53] INFO root fetch - processPackages [mecord-cli]: executing diffoscope
+[2023-05-08 07:57:53] INFO root fetch - processPackages [mecord-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecord-cli-0.1.8.tar.gz tmp/mecord-cli-0.1.9.tar.gz --markdown 20230508/m/mecord-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 07:57:53] INFO root fetch - main [MainThread]: End processing [pcb-parser]: success
+[2023-05-08 07:57:54] INFO root fetch - main [MainThread]: End processing [userfs]: success
+[2023-05-08 07:57:54] INFO root fetch - main [MainThread]: End processing [onnx2kerastl]: success
+[2023-05-08 07:57:54] INFO root fetch - main [MainThread]: End processing [mecord-cli]: success
+[2023-05-08 07:57:55] INFO root fetch - main [MainThread]: End processing [bbm]: success
+[2023-05-08 07:57:55] INFO root fetch - main [MainThread]: End processing [ndfind]: success
+[2023-05-08 07:57:55] INFO root fetch - main [MainThread]: Store serial: [18013299]
