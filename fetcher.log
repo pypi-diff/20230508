@@ -11233,3 +11233,73 @@
 [2023-05-08 13:43:32] INFO root fetch - main [MainThread]: End processing [ory-client]: success
 [2023-05-08 13:43:33] INFO root fetch - main [MainThread]: End processing [demisto-sdk]: success
 [2023-05-08 13:43:33] INFO root fetch - main [MainThread]: Store serial: [18016214]
+[2023-05-08 13:48:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18016214]
+[2023-05-08 13:48:42] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-08 13:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-afip
+[2023-05-08 13:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastqueue-lib
+[2023-05-08 13:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hpb
+[2023-05-08 13:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: matlab-proxy
+[2023-05-08 13:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: FakeNewsClassifier
+[2023-05-08 13:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pnu-libpnu
+[2023-05-08 13:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hummuspy
+[2023-05-08 13:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: inverse
+[2023-05-08 13:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: libsa4py
+[2023-05-08 13:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ftdz-from-fyh1
+[2023-05-08 13:48:43] INFO root fetch - processPackages [inverse]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 13:48:43] WARNING root fetch - processPackages [FakeNewsClassifier]: Skipping, unable to determine old version
+[2023-05-08 13:48:43] INFO root fetch - processPackages [FakeNewsClassifier]: Start processing: aliyun-python-sdk-cams
+[2023-05-08 13:48:43] INFO root fetch - main [MainThread]: End processing [FakeNewsClassifier] error
+[2023-05-08 13:48:43] INFO root fetch - processPackages [fastqueue-lib]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-08 13:48:43] INFO root fetch - processPackages [django-afip]: New version: [9.0.0] Old Version: [8.0.4]
+[2023-05-08 13:48:43] INFO root fetch - processPackages [hummuspy]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-08 13:48:43] WARNING root fetch - processPackages [hpb]: Skipping, unable to determine old version
+[2023-05-08 13:48:43] INFO root fetch - processPackages [libsa4py]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-08 13:48:43] INFO root fetch - main [MainThread]: End processing [hpb] error
+[2023-05-08 13:48:43] INFO root fetch - processPackages [ftdz-from-fyh1]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-08 13:48:43] INFO root fetch - processPackages [inverse]: executing diffoscope
+[2023-05-08 13:48:43] INFO root fetch - processPackages [matlab-proxy]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-08 13:48:43] INFO root fetch - processPackages [inverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inverse-0.0.8-py3-none-any.whl.zip tmp/inverse-0.0.9-py3-none-any.whl.zip --markdown 20230508/i/inverse/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 13:48:43] INFO root fetch - processPackages [aliyun-python-sdk-cams]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-08 13:48:43] INFO root fetch - processPackages [pnu-libpnu]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-05-08 13:48:43] INFO root fetch - processPackages [django-afip]: Downloading https://files.pythonhosted.org/packages/e1/99/e43c470e326e0ec570d096126ced763b39e6fc3838e9649bda121687bc43/django-afip-8.0.4.tar.gz
+[2023-05-08 13:48:43] INFO root fetch - processPackages [libsa4py]: Downloading https://files.pythonhosted.org/packages/69/ab/8ab7d732df2a3c08daae275df97a1c45da5cbc6c5b16499f9471d41aeee2/libsa4py-0.3.0.tar.gz
+[2023-05-08 13:48:43] INFO root fetch - processPackages [hummuspy]: Downloading https://files.pythonhosted.org/packages/46/db/b9cb4537bb14adec2cb772cd512b5a00f4861c18218f60434c39ca35dffa/hummuspy-0.0.4.tar.gz
+[2023-05-08 13:48:43] INFO root fetch - processPackages [fastqueue-lib]: Downloading https://files.pythonhosted.org/packages/ef/46/563e3a236accfb5fb0306581545ad6cd32ef019aaa2068e743979d0aef2a/fastqueue-lib-0.0.4.tar.gz
+[2023-05-08 13:48:43] INFO root fetch - processPackages [ftdz-from-fyh1]: Downloading https://files.pythonhosted.org/packages/0a/67/c0928f3ee7ab77de219121b7419bf82562f7b40bebcefb4003ff23c6b224/ftdz_from_fyh1-1.0.0.tar.gz
+[2023-05-08 13:48:43] INFO root fetch - processPackages [aliyun-python-sdk-cams]: Downloading https://files.pythonhosted.org/packages/0c/29/d482e84b18b8d655c644308667856277e5474bb9b3bb956ce75d78a87a47/aliyun-python-sdk-cams-1.0.4.tar.gz
+[2023-05-08 13:48:43] INFO root fetch - processPackages [matlab-proxy]: Downloading https://files.pythonhosted.org/packages/b7/1e/ebe0c1f7056530b718870c94de93baf92f788b5731cba8a7536620521d2b/matlab-proxy-0.5.8.tar.gz
+[2023-05-08 13:48:43] INFO root fetch - processPackages [pnu-libpnu]: Downloading https://files.pythonhosted.org/packages/e0/71/95778246c25b1ba2cc939be811414361e1d74676adf264863f85c878cac8/pnu_libpnu-1.1.2.tar.gz
+[2023-05-08 13:48:43] INFO root fetch - processPackages [ftdz-from-fyh1]: Downloading https://files.pythonhosted.org/packages/6e/d3/4d55427a8df4e37f030168d804550e5a0fd0a1349025d7a653b5769bff59/ftdz_from_fyh1-1.0.1.tar.gz
+[2023-05-08 13:48:43] INFO root fetch - processPackages [fastqueue-lib]: Downloading https://files.pythonhosted.org/packages/76/62/85df25e92e7f722004859d84bee36a308316c4b94ec6012fa92b516995a8/fastqueue-lib-0.0.5.tar.gz
+[2023-05-08 13:48:43] INFO root fetch - processPackages [libsa4py]: Downloading https://files.pythonhosted.org/packages/c8/43/bed5e39db0ff9b18354c2764be54155e668a8acf0aca5b216bdbe2a92943/libsa4py-0.4.0.tar.gz
+[2023-05-08 13:48:43] INFO root fetch - processPackages [aliyun-python-sdk-cams]: Downloading https://files.pythonhosted.org/packages/67/36/c65af282d6952950da5c18994771de1d440c351980e3361b216c806ea67f/aliyun-python-sdk-cams-1.0.5.tar.gz
+[2023-05-08 13:48:43] INFO root fetch - processPackages [ftdz-from-fyh1]: executing diffoscope
+[2023-05-08 13:48:43] INFO root fetch - processPackages [ftdz-from-fyh1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftdz_from_fyh1-1.0.0.tar.gz tmp/ftdz_from_fyh1-1.0.1.tar.gz --markdown 20230508/f/ftdz-from-fyh1/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-08 13:48:43] INFO root fetch - processPackages [hummuspy]: Downloading https://files.pythonhosted.org/packages/cd/60/7a48a333c757d7b7f75776d0d1bc6cb5013af5d1b787f9658357b6dc1f31/hummuspy-0.0.5.tar.gz
+[2023-05-08 13:48:43] INFO root fetch - processPackages [fastqueue-lib]: executing diffoscope
+[2023-05-08 13:48:43] INFO root fetch - processPackages [fastqueue-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastqueue-lib-0.0.4.tar.gz tmp/fastqueue-lib-0.0.5.tar.gz --markdown 20230508/f/fastqueue-lib/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-08 13:48:43] INFO root fetch - processPackages [aliyun-python-sdk-cams]: executing diffoscope
+[2023-05-08 13:48:43] INFO root fetch - processPackages [aliyun-python-sdk-cams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-cams-1.0.4.tar.gz tmp/aliyun-python-sdk-cams-1.0.5.tar.gz --markdown 20230508/a/aliyun-python-sdk-cams/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-08 13:48:43] INFO root fetch - processPackages [libsa4py]: executing diffoscope
+[2023-05-08 13:48:43] INFO root fetch - processPackages [libsa4py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libsa4py-0.3.0.tar.gz tmp/libsa4py-0.4.0.tar.gz --markdown 20230508/l/libsa4py/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-08 13:48:43] INFO root fetch - processPackages [pnu-libpnu]: Downloading https://files.pythonhosted.org/packages/ed/26/b10e9ac7d44195d1ceef890f2bf848b0aea6b3cc23bdb735ccfcc4cbd151/pnu-libpnu-1.2.0.tar.gz
+[2023-05-08 13:48:43] INFO root fetch - processPackages [hummuspy]: executing diffoscope
+[2023-05-08 13:48:43] INFO root fetch - processPackages [hummuspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hummuspy-0.0.4.tar.gz tmp/hummuspy-0.0.5.tar.gz --markdown 20230508/h/hummuspy/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-08 13:48:43] INFO root fetch - processPackages [django-afip]: Downloading https://files.pythonhosted.org/packages/19/79/580512447a4ed18f6a2812d0bdb89f47a3a910acbe0a0ff9ddb6d84e2e76/django-afip-9.0.0.tar.gz
+[2023-05-08 13:48:43] INFO root fetch - processPackages [pnu-libpnu]: executing diffoscope
+[2023-05-08 13:48:43] INFO root fetch - processPackages [pnu-libpnu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pnu_libpnu-1.1.2.tar.gz tmp/pnu-libpnu-1.2.0.tar.gz --markdown 20230508/p/pnu-libpnu/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-05-08 13:48:43] INFO root fetch - processPackages [matlab-proxy]: Downloading https://files.pythonhosted.org/packages/21/d3/a49582370cfc62790db903278ed87cb684821c4f8deb8c4a1b1556494298/matlab-proxy-0.5.9.tar.gz
+[2023-05-08 13:48:44] INFO root fetch - processPackages [django-afip]: executing diffoscope
+[2023-05-08 13:48:44] INFO root fetch - processPackages [django-afip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-afip-8.0.4.tar.gz tmp/django-afip-9.0.0.tar.gz --markdown 20230508/d/django-afip/8.0.4-9.0.0/diff.md --exclude *.pyd
+[2023-05-08 13:48:44] INFO root fetch - processPackages [matlab-proxy]: executing diffoscope
+[2023-05-08 13:48:44] INFO root fetch - processPackages [matlab-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matlab-proxy-0.5.8.tar.gz tmp/matlab-proxy-0.5.9.tar.gz --markdown 20230508/m/matlab-proxy/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-08 13:48:45] INFO root fetch - main [MainThread]: End processing [inverse]: success
+[2023-05-08 13:48:45] INFO root fetch - main [MainThread]: End processing [fastqueue-lib]: success
+[2023-05-08 13:48:45] INFO root fetch - main [MainThread]: End processing [ftdz-from-fyh1]: success
+[2023-05-08 13:48:45] INFO root fetch - main [MainThread]: End processing [pnu-libpnu]: success
+[2023-05-08 13:48:45] INFO root fetch - main [MainThread]: End processing [hummuspy]: success
+[2023-05-08 13:48:45] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-cams]: success
+[2023-05-08 13:48:47] INFO root fetch - main [MainThread]: End processing [django-afip]: success
+[2023-05-08 13:48:47] INFO root fetch - main [MainThread]: End processing [libsa4py]: success
+[2023-05-08 13:48:57] INFO root fetch - main [MainThread]: End processing [matlab-proxy]: success
+[2023-05-08 13:48:57] INFO root fetch - main [MainThread]: Store serial: [18016247]
