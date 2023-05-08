@@ -19855,3 +19855,145 @@ EOFError: EOF read where object expected
 [2023-05-08 21:11:59] INFO root fetch - main [MainThread]: End processing [scgpt]: success
 [2023-05-08 21:12:32] INFO root fetch - main [MainThread]: End processing [comet-ml]: success
 [2023-05-08 21:12:32] INFO root fetch - main [MainThread]: Store serial: [18021091]
+[2023-05-08 21:17:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18021091]
+[2023-05-08 21:17:41] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-05-08 21:17:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: volttron-actuator
+[2023-05-08 21:17:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spline-basis
+[2023-05-08 21:17:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chatplayground
+[2023-05-08 21:17:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gravitypy
+[2023-05-08 21:17:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: knic-jupyter
+[2023-05-08 21:17:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dreamai-dl
+[2023-05-08 21:17:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pollination-apps
+[2023-05-08 21:17:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nm-transformers-nightly
+[2023-05-08 21:17:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: exciton
+[2023-05-08 21:17:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ZephyrusChatbot
+[2023-05-08 21:17:41] INFO root fetch - processPackages [exciton]: New version: [2.0.0] Old Version: [1.9.1]
+[2023-05-08 21:17:41] INFO root fetch - processPackages [knic-jupyter]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-08 21:17:41] INFO root fetch - processPackages [volttron-actuator]: New version: [0.1.1a2] Old Version: [0.1.1a1]
+[2023-05-08 21:17:41] INFO root fetch - processPackages [gravitypy]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-05-08 21:17:41] WARNING root fetch - processPackages [spline-basis]: Skipping, unable to determine old version
+[2023-05-08 21:17:41] INFO root fetch - processPackages [spline-basis]: Start processing: nm-yolov5-nightly
+[2023-05-08 21:17:41] INFO root fetch - main [MainThread]: End processing [spline-basis] error
+[2023-05-08 21:17:41] INFO root fetch - processPackages [dreamai-dl]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 21:17:41] INFO root fetch - processPackages [pollination-apps]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-05-08 21:17:41] WARNING root fetch - processPackages [chatplayground]: Skipping, unable to determine old version
+[2023-05-08 21:17:41] INFO root fetch - processPackages [chatplayground]: Start processing: dbt-coves
+[2023-05-08 21:17:41] INFO root fetch - main [MainThread]: End processing [chatplayground] error
+[2023-05-08 21:17:41] WARNING root fetch - processPackages [ZephyrusChatbot]: Skipping, unable to determine old version
+[2023-05-08 21:17:41] INFO root fetch - processPackages [ZephyrusChatbot]: Start processing: padtexturetool
+[2023-05-08 21:17:41] INFO root fetch - main [MainThread]: End processing [ZephyrusChatbot] error
+[2023-05-08 21:17:41] WARNING root fetch - processPackages [nm-transformers-nightly]: Skipping, unable to determine old version
+[2023-05-08 21:17:41] INFO root fetch - processPackages [nm-transformers-nightly]: Start processing: journal-prompts
+[2023-05-08 21:17:41] INFO root fetch - main [MainThread]: End processing [nm-transformers-nightly] error
+[2023-05-08 21:17:41] WARNING root fetch - processPackages [nm-yolov5-nightly]: Skipping, unable to determine old version
+[2023-05-08 21:17:41] INFO root fetch - processPackages [nm-yolov5-nightly]: Start processing: nvfuser
+[2023-05-08 21:17:41] INFO root fetch - main [MainThread]: End processing [nm-yolov5-nightly] error
+[2023-05-08 21:17:41] WARNING root fetch - processPackages [padtexturetool]: Skipping, unable to determine old version
+[2023-05-08 21:17:41] INFO root fetch - processPackages [journal-prompts]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-08 21:17:41] INFO root fetch - processPackages [padtexturetool]: Start processing: carchive
+[2023-05-08 21:17:41] INFO root fetch - main [MainThread]: End processing [padtexturetool] error
+[2023-05-08 21:17:41] INFO root fetch - processPackages [dbt-coves]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-08 21:17:41] INFO root fetch - processPackages [nvfuser]: New version: [0.0.9.dev20230508] Old Version: [0.0.9.dev20230506]
+[2023-05-08 21:17:41] INFO root fetch - processPackages [carchive]: New version: [0.0.52] Old Version: [0.0.51]
+[2023-05-08 21:17:41] INFO root fetch - processPackages [exciton]: Downloading https://files.pythonhosted.org/packages/4b/74/ff28a37fdea3a669a27017bd25998c007b7b8ec97be5bb75a3a00d09b34a/exciton-2.0.0-py3-none-any.whl
+[2023-05-08 21:17:41] INFO root fetch - processPackages [volttron-actuator]: Downloading https://files.pythonhosted.org/packages/a8/15/21f1039faef4c1cbcd51792f560cbad1ada6855c6731ed8b41b77753f8ea/volttron_actuator-0.1.1a1.tar.gz
+[2023-05-08 21:17:41] INFO root fetch - processPackages [pollination-apps]: Downloading https://files.pythonhosted.org/packages/b4/15/f39379ef30f07a25804e5aa49bedf6bac16f1fed748d5d952e6c7ea777f7/pollination-apps-0.7.1.tar.gz
+[2023-05-08 21:17:41] INFO root fetch - processPackages [dreamai-dl]: Downloading https://files.pythonhosted.org/packages/75/11/1a8d8dfe8bf9f31ffd419ecea84f06ade773b8357cac8348cf088949f67c/dreamai_dl-0.0.8.tar.gz
+[2023-05-08 21:17:41] INFO root fetch - processPackages [dbt-coves]: executing diffoscope
+[2023-05-08 21:17:41] INFO root fetch - processPackages [dbt-coves]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_coves-1.4.8.tar.gz tmp/dbt_coves-1.4.9.tar.gz --markdown 20230508/d/dbt-coves/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-05-08 21:17:41] INFO root fetch - processPackages [gravitypy]: Downloading https://files.pythonhosted.org/packages/74/d0/aac6d7b90cc51ecb7715540e5fce9fb5fa0ba75b31d6f540716d7ecd2d7f/gravitypy-1.1.3.tar.gz
+[2023-05-08 21:17:41] INFO root fetch - processPackages [journal-prompts]: Downloading https://files.pythonhosted.org/packages/b9/2e/bffbd783b43ad45eb5db4fbb8c19af7a5261e85cab262c7a72813aae146d/journal-prompts-0.1.7.tar.gz
+[2023-05-08 21:17:41] INFO root fetch - processPackages [exciton]: executing diffoscope
+[2023-05-08 21:17:41] INFO root fetch - processPackages [exciton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exciton-1.9.1-py3-none-any.whl.zip tmp/exciton-2.0.0-py3-none-any.whl.zip --markdown 20230508/e/exciton/1.9.1-2.0.0/diff.md --exclude *.pyd
+[2023-05-08 21:17:41] INFO root fetch - processPackages [nvfuser]: Downloading https://files.pythonhosted.org/packages/c1/ef/50226f6228a4ed71d01aa3e3efe69de238f16dac8ca536c47ab442042bd4/nvfuser-0.0.9.dev20230506-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-08 21:17:41] INFO root fetch - processPackages [knic-jupyter]: Downloading https://files.pythonhosted.org/packages/2b/76/ba3d0d2574ae4972d9afd0405061191aa30c286ca011542bbde063afe2e4/knic_jupyter-0.1.2.tar.gz
+[2023-05-08 21:17:42] INFO root fetch - processPackages [carchive]: Downloading https://files.pythonhosted.org/packages/71/b1/5a87df8710f9e1af05ced536336ad5a23ac4d333f6dc82bfd1864a346869/carchive-0.0.52.tar.gz
+[2023-05-08 21:17:42] INFO root fetch - processPackages [journal-prompts]: executing diffoscope
+[2023-05-08 21:17:42] INFO root fetch - processPackages [journal-prompts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/journal-prompts-0.1.6.tar.gz tmp/journal-prompts-0.1.7.tar.gz --markdown 20230508/j/journal-prompts/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-08 21:17:42] INFO root fetch - processPackages [gravitypy]: executing diffoscope
+[2023-05-08 21:17:42] INFO root fetch - processPackages [gravitypy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gravitypy-1.1.2.tar.gz tmp/gravitypy-1.1.3.tar.gz --markdown 20230508/g/gravitypy/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-05-08 21:17:42] INFO root fetch - processPackages [knic-jupyter]: executing diffoscope
+[2023-05-08 21:17:42] INFO root fetch - processPackages [knic-jupyter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knic_jupyter-0.1.1.tar.gz tmp/knic_jupyter-0.1.2.tar.gz --markdown 20230508/k/knic-jupyter/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-08 21:17:42] INFO root fetch - processPackages [carchive]: executing diffoscope
+[2023-05-08 21:17:42] INFO root fetch - processPackages [carchive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carchive-0.0.51.tar.gz tmp/carchive-0.0.52.tar.gz --markdown 20230508/c/carchive/0.0.51-0.0.52/diff.md --exclude *.pyd
+[2023-05-08 21:17:42] INFO root fetch - processPackages [dreamai-dl]: executing diffoscope
+[2023-05-08 21:17:42] INFO root fetch - processPackages [dreamai-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dreamai_dl-0.0.8.tar.gz tmp/dreamai_dl-0.0.9.tar.gz --markdown 20230508/d/dreamai-dl/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 21:17:42] INFO root fetch - processPackages [pollination-apps]: Downloading https://files.pythonhosted.org/packages/b9/15/695ceffc7a12c7a4fac189616417c299c00477d8ca657ad30c4b703c8d21/pollination-apps-0.7.2.tar.gz
+[2023-05-08 21:17:42] INFO root fetch - processPackages [volttron-actuator]: Downloading https://files.pythonhosted.org/packages/78/e9/e58b7ea79b441d4fa46a5eec0db565f744c99186e2daf9d793a28aa8b192/volttron_actuator-0.1.1a2.tar.gz
+[2023-05-08 21:17:42] INFO root fetch - processPackages [volttron-actuator]: executing diffoscope
+[2023-05-08 21:17:42] INFO root fetch - processPackages [volttron-actuator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volttron_actuator-0.1.1a1.tar.gz tmp/volttron_actuator-0.1.1a2.tar.gz --markdown 20230508/v/volttron-actuator/0.1.1a1-0.1.1a2/diff.md --exclude *.pyd
+[2023-05-08 21:17:42] INFO root fetch - processPackages [pollination-apps]: executing diffoscope
+[2023-05-08 21:17:42] INFO root fetch - processPackages [pollination-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollination-apps-0.7.1.tar.gz tmp/pollination-apps-0.7.2.tar.gz --markdown 20230508/p/pollination-apps/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-05-08 21:17:43] INFO root fetch - processPackages [carchive]: Start processing: dreamai-pdf
+[2023-05-08 21:17:43] INFO root fetch - main [MainThread]: End processing [carchive]: success
+[2023-05-08 21:17:43] INFO root fetch - processPackages [gravitypy]: Start processing: mocker-builder
+[2023-05-08 21:17:43] INFO root fetch - main [MainThread]: End processing [gravitypy]: success
+[2023-05-08 21:17:43] INFO root fetch - processPackages [dreamai-dl]: Start processing: certora-cli-alpha-yuvalbd-rule-events-error-checking-part-two
+[2023-05-08 21:17:43] INFO root fetch - main [MainThread]: End processing [dreamai-dl]: success
+[2023-05-08 21:17:43] INFO root fetch - processPackages [certora-cli-alpha-yuvalbd-rule-events-error-checking-part-two]: New version: [20230508.7.43.27573] Old Version: [20230508.7.12.93347]
+[2023-05-08 21:17:43] INFO root fetch - processPackages [dreamai-pdf]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 21:17:43] INFO root fetch - processPackages [mocker-builder]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-08 21:17:43] INFO root fetch - processPackages [nvfuser]: Downloading https://files.pythonhosted.org/packages/88/4a/f9d5473573c9cbc807a9beef5f492d649da176d7ced298fd1ff1bc191117/nvfuser-0.0.9.dev20230508-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-08 21:17:43] INFO root fetch - processPackages [certora-cli-alpha-yuvalbd-rule-events-error-checking-part-two]: Downloading https://files.pythonhosted.org/packages/8c/6a/e54959507f9a03300127a7a13e298b090ea5d8a802d99857d877e4706976/certora-cli-alpha-yuvalbd-rule_events_error_checking_part_two-20230508.7.12.93347.tar.gz
+[2023-05-08 21:17:43] INFO root fetch - processPackages [exciton]: Start processing: botocore
+[2023-05-08 21:17:43] INFO root fetch - main [MainThread]: End processing [exciton]: success
+[2023-05-08 21:17:43] WARNING root fetch - processPackages [certora-cli-alpha-yuvalbd-rule-events-error-checking-part-two]: Skipping package: exceeds size limit 38474506>=10485760
+[2023-05-08 21:17:43] INFO root fetch - processPackages [certora-cli-alpha-yuvalbd-rule-events-error-checking-part-two]: Start processing: atmoswing-vigicrues
+[2023-05-08 21:17:43] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-yuvalbd-rule-events-error-checking-part-two] error
+[2023-05-08 21:17:43] INFO root fetch - processPackages [volttron-actuator]: Start processing: awscli
+[2023-05-08 21:17:43] INFO root fetch - main [MainThread]: End processing [volttron-actuator]: success
+[2023-05-08 21:17:43] INFO root fetch - processPackages [journal-prompts]: Start processing: lamineml
+[2023-05-08 21:17:43] INFO root fetch - main [MainThread]: End processing [journal-prompts]: success
+[2023-05-08 21:17:43] INFO root fetch - processPackages [lamineml]: New version: [0.8] Old Version: [0.7]
+[2023-05-08 21:17:43] INFO root fetch - processPackages [dreamai-pdf]: Downloading https://files.pythonhosted.org/packages/7c/44/1a27ec66e62ba81ab75af022719cf22cc64a5b3b8314e4e00712e3152bb4/dreamai_pdf-0.0.8.tar.gz
+[2023-05-08 21:17:43] INFO root fetch - processPackages [mocker-builder]: Downloading https://files.pythonhosted.org/packages/10/71/82c9528d31753ce2a16422f97c1be23b997b5b17ebe9eafe56b3f045f6a0/mocker-builder-0.1.4.tar.gz
+[2023-05-08 21:17:43] INFO root fetch - processPackages [atmoswing-vigicrues]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-08 21:17:43] INFO root fetch - processPackages [knic-jupyter]: Start processing: boto3
+[2023-05-08 21:17:43] INFO root fetch - main [MainThread]: End processing [knic-jupyter]: success
+[2023-05-08 21:17:43] INFO root fetch - processPackages [lamineml]: executing diffoscope
+[2023-05-08 21:17:43] INFO root fetch - processPackages [lamineml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamineml-0.7.tar.gz tmp/lamineml-0.8.tar.gz --markdown 20230508/l/lamineml/0.7-0.8/diff.md --exclude *.pyd
+[2023-05-08 21:17:43] INFO root fetch - processPackages [awscli]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-08 21:17:43] INFO root fetch - processPackages [botocore]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-08 21:17:44] INFO root fetch - processPackages [boto3]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-05-08 21:17:44] INFO root fetch - processPackages [atmoswing-vigicrues]: Downloading https://files.pythonhosted.org/packages/1b/df/de5c29008863f960924609f3cba7957ec748f9ea3892855c73fc22e35428/atmoswing-vigicrues-1.0.2.tar.gz
+[2023-05-08 21:17:44] INFO root fetch - processPackages [pollination-apps]: Start processing: LbCondaWrappers
+[2023-05-08 21:17:44] INFO root fetch - main [MainThread]: End processing [pollination-apps]: success
+[2023-05-08 21:17:44] INFO root fetch - processPackages [nvfuser]: executing diffoscope
+[2023-05-08 21:17:44] INFO root fetch - processPackages [nvfuser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser-0.0.9.dev20230506-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser-0.0.9.dev20230508-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230508/n/nvfuser/0.0.9.dev20230506-0.0.9.dev20230508/diff.md --exclude *.pyd
+[2023-05-08 21:17:44] INFO root fetch - processPackages [mocker-builder]: Downloading https://files.pythonhosted.org/packages/aa/b7/c0e271150faf778087e38cc94e8316c9d4da8e1b0117a7e3d83954951f5e/mocker-builder-0.1.5.tar.gz
+[2023-05-08 21:17:44] INFO root fetch - processPackages [botocore]: Downloading https://files.pythonhosted.org/packages/cd/01/3bd0656f80c5afb2f0e09f09215178a501191aef9fff0a43b156cf1c9665/botocore-1.9.8.tar.gz
+[2023-05-08 21:17:44] INFO root fetch - processPackages [dreamai-pdf]: Downloading https://files.pythonhosted.org/packages/ad/f1/d99a6ade64dcf5d65ae9367637698f284d2cdbcef586fecb3f8951e66b09/dreamai_pdf-0.0.9.tar.gz
+[2023-05-08 21:17:44] INFO root fetch - processPackages [awscli]: Downloading https://files.pythonhosted.org/packages/84/06/782193c5b3720ef9eff21fa2d4c6b7cab72ac635f9865449796fa78e9551/awscli-1.9.8.tar.gz
+[2023-05-08 21:17:44] INFO root fetch - processPackages [boto3]: Downloading https://files.pythonhosted.org/packages/95/51/f6788115251e93bb35a56196036aa225060105616d369a2b1a712f537e1e/boto3-1.9.98.tar.gz
+[2023-05-08 21:17:44] INFO root fetch - processPackages [mocker-builder]: executing diffoscope
+[2023-05-08 21:17:44] INFO root fetch - processPackages [mocker-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mocker-builder-0.1.4.tar.gz tmp/mocker-builder-0.1.5.tar.gz --markdown 20230508/m/mocker-builder/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-08 21:17:44] INFO root fetch - processPackages [LbCondaWrappers]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-08 21:17:44] INFO root fetch - processPackages [dreamai-pdf]: executing diffoscope
+[2023-05-08 21:17:44] INFO root fetch - processPackages [dreamai-pdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dreamai_pdf-0.0.8.tar.gz tmp/dreamai_pdf-0.0.9.tar.gz --markdown 20230508/d/dreamai-pdf/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 21:17:44] INFO root fetch - processPackages [atmoswing-vigicrues]: Downloading https://files.pythonhosted.org/packages/f3/72/d93c44af5a5b3d80b9aef84aa2393c71cee519b9dddbb5adcd8ddf06393b/atmoswing-vigicrues-1.0.3.tar.gz
+[2023-05-08 21:17:44] INFO root fetch - processPackages [LbCondaWrappers]: Downloading https://files.pythonhosted.org/packages/49/70/9bc1cc1334d382160c17d2f5096032d43c544143ee01ec3697b73ff63d1f/LbCondaWrappers-0.3.0.tar.gz
+[2023-05-08 21:17:44] INFO root fetch - processPackages [boto3]: Downloading https://files.pythonhosted.org/packages/a4/40/6b6504d54ab9fbb16030052d363568399b7678ac18dc233de23fe7ed1922/boto3-1.9.99.tar.gz
+[2023-05-08 21:17:44] INFO root fetch - processPackages [awscli]: Downloading https://files.pythonhosted.org/packages/03/ae/0ab53e9f7ac1eff217ca8355af05fe5fbdd9fd087e75a7abcda0c9179848/awscli-1.9.9.tar.gz
+[2023-05-08 21:17:44] INFO root fetch - processPackages [atmoswing-vigicrues]: executing diffoscope
+[2023-05-08 21:17:44] INFO root fetch - processPackages [atmoswing-vigicrues]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atmoswing-vigicrues-1.0.2.tar.gz tmp/atmoswing-vigicrues-1.0.3.tar.gz --markdown 20230508/a/atmoswing-vigicrues/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-08 21:17:44] INFO root fetch - processPackages [boto3]: executing diffoscope
+[2023-05-08 21:17:44] INFO root fetch - processPackages [boto3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3-1.9.98.tar.gz tmp/boto3-1.9.99.tar.gz --markdown 20230508/b/boto3/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-05-08 21:17:44] INFO root fetch - processPackages [awscli]: executing diffoscope
+[2023-05-08 21:17:44] INFO root fetch - processPackages [awscli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awscli-1.9.8.tar.gz tmp/awscli-1.9.9.tar.gz --markdown 20230508/a/awscli/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-08 21:17:44] INFO root fetch - processPackages [LbCondaWrappers]: Downloading https://files.pythonhosted.org/packages/42/ed/588f70ca1c8250b4674399d41399021be286335f26dd86b0cbc75b0e8643/LbCondaWrappers-0.3.1.tar.gz
+[2023-05-08 21:17:44] INFO root fetch - processPackages [botocore]: Downloading https://files.pythonhosted.org/packages/58/63/da4e26f62f9cf5702bb82462ca688961afdf72123f071831ed927b19c7a0/botocore-1.9.9.tar.gz
+[2023-05-08 21:17:45] INFO root fetch - processPackages [LbCondaWrappers]: executing diffoscope
+[2023-05-08 21:17:45] INFO root fetch - processPackages [LbCondaWrappers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LbCondaWrappers-0.3.0.tar.gz tmp/LbCondaWrappers-0.3.1.tar.gz --markdown 20230508/L/LbCondaWrappers/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-08 21:17:45] INFO root fetch - main [MainThread]: End processing [lamineml]: success
+[2023-05-08 21:17:45] INFO root fetch - main [MainThread]: End processing [dbt-coves]: success
+[2023-05-08 21:17:45] INFO root fetch - processPackages [botocore]: executing diffoscope
+[2023-05-08 21:17:45] INFO root fetch - processPackages [botocore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-1.9.8.tar.gz tmp/botocore-1.9.9.tar.gz --markdown 20230508/b/botocore/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-08 21:17:45] INFO root fetch - main [MainThread]: End processing [mocker-builder]: success
+[2023-05-08 21:17:46] INFO root fetch - main [MainThread]: End processing [dreamai-pdf]: success
+[2023-05-08 21:17:46] INFO root fetch - main [MainThread]: End processing [LbCondaWrappers]: success
+[2023-05-08 21:17:46] INFO root fetch - main [MainThread]: End processing [atmoswing-vigicrues]: success
+[2023-05-08 21:17:48] INFO root fetch - main [MainThread]: End processing [boto3]: success
+[2023-05-08 21:17:55] INFO root fetch - main [MainThread]: End processing [awscli]: success
+[2023-05-08 21:18:06] INFO root fetch - main [MainThread]: End processing [botocore]: success
+[2023-05-08 21:18:57] INFO root fetch - main [MainThread]: End processing [nvfuser]: success
+[2023-05-08 21:18:57] INFO root fetch - main [MainThread]: Store serial: [18021176]

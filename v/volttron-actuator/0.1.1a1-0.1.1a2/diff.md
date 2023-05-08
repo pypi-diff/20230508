@@ -1,0 +1,1387 @@
+# Comparing `tmp/volttron_actuator-0.1.1a1.tar.gz` & `tmp/volttron_actuator-0.1.1a2.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "volttron_actuator-0.1.1a1.tar", max compression
++gzip compressed data, was "volttron_actuator-0.1.1a2.tar", max compression
+```
+
+## Comparing `volttron_actuator-0.1.1a1.tar` & `volttron_actuator-0.1.1a2.tar`
+
+### file list
+
+```diff
+@@ -1,8 +1,8 @@
+--rw-r--r--   0        0        0    10255 2023-03-29 20:24:50.738300 volttron_actuator-0.1.1a1/LICENSE
+--rw-r--r--   0        0        0     2942 2023-03-29 20:24:50.738300 volttron_actuator-0.1.1a1/README.md
+--rw-r--r--   0        0        0     1909 2023-03-29 20:26:59.507793 volttron_actuator-0.1.1a1/pyproject.toml
+--rw-r--r--   0        0        0     1570 2023-03-29 20:24:50.738300 volttron_actuator-0.1.1a1/src/actuator/__init__.py
+--rw-r--r--   0        0        0    52550 2023-03-29 20:24:50.738300 volttron_actuator-0.1.1a1/src/actuator/agent.py
+--rw-r--r--   0        0        0    16122 2023-03-29 20:24:50.738300 volttron_actuator-0.1.1a1/src/actuator/scheduler.py
+--rw-r--r--   0        0        0     4067 1970-01-01 00:00:00.000000 volttron_actuator-0.1.1a1/setup.py
+--rw-r--r--   0        0        0     4140 1970-01-01 00:00:00.000000 volttron_actuator-0.1.1a1/PKG-INFO
++-rw-r--r--   0        0        0    10255 2023-05-08 19:09:56.852430 volttron_actuator-0.1.1a2/LICENSE
++-rw-r--r--   0        0        0     2666 2023-05-08 19:09:56.852430 volttron_actuator-0.1.1a2/README.md
++-rw-r--r--   0        0        0     1910 2023-05-08 19:11:53.525382 volttron_actuator-0.1.1a2/pyproject.toml
++-rw-r--r--   0        0        0     1570 2023-05-08 19:09:56.852430 volttron_actuator-0.1.1a2/src/actuator/__init__.py
++-rw-r--r--   0        0        0    52552 2023-05-08 19:09:56.852430 volttron_actuator-0.1.1a2/src/actuator/agent.py
++-rw-r--r--   0        0        0    16122 2023-05-08 19:09:56.852430 volttron_actuator-0.1.1a2/src/actuator/scheduler.py
++-rw-r--r--   0        0        0     3765 1970-01-01 00:00:00.000000 volttron_actuator-0.1.1a2/setup.py
++-rw-r--r--   0        0        0     3765 1970-01-01 00:00:00.000000 volttron_actuator-0.1.1a2/PKG-INFO
+```
+
+### Comparing `volttron_actuator-0.1.1a1/LICENSE` & `volttron_actuator-0.1.1a2/LICENSE`
+
+ * *Files identical despite different names*
+
+### Comparing `volttron_actuator-0.1.1a1/README.md` & `volttron_actuator-0.1.1a2/README.md`
+
+ * *Files 20% similar despite different names*
+
+```diff
+@@ -1,184 +1,167 @@
+ 00000000: 2320 766f 6c74 7472 6f6e 2d61 6374 7561  # volttron-actua
+ 00000010: 746f 720a 0a5b 215b 5061 7373 696e 673f  tor..[![Passing?
+ 00000020: 5d28 6874 7470 733a 2f2f 6769 7468 7562  ](https://github
+-00000030: 2e63 6f6d 2f56 4f4c 5454 524f 4e2f 766f  .com/VOLTTRON/vo
+-00000040: 6c74 7472 6f6e 2d61 6374 7561 746f 722f  lttron-actuator/
+-00000050: 6163 7469 6f6e 732f 776f 726b 666c 6f77  actions/workflow
+-00000060: 732f 7275 6e2d 7465 7374 732e 796d 6c2f  s/run-tests.yml/
+-00000070: 6261 6467 652e 7376 6729 5d28 6874 7470  badge.svg)](http
+-00000080: 733a 2f2f 6769 7468 7562 2e63 6f6d 2f56  s://github.com/V
+-00000090: 4f4c 5454 524f 4e2f 766f 6c74 7472 6f6e  OLTTRON/volttron
+-000000a0: 2d61 6374 7561 746f 722f 6163 7469 6f6e  -actuator/action
+-000000b0: 732f 776f 726b 666c 6f77 732f 7275 6e2d  s/workflows/run-
+-000000c0: 7465 7374 732e 796d 6c29 0a5b 215b 7079  tests.yml).[![py
+-000000d0: 7069 2076 6572 7369 6f6e 5d28 6874 7470  pi version](http
+-000000e0: 733a 2f2f 696d 672e 7368 6965 6c64 732e  s://img.shields.
+-000000f0: 696f 2f70 7970 692f 762f 766f 6c74 7472  io/pypi/v/volttr
+-00000100: 6f6e 2d61 6374 7561 746f 722e 7376 6729  on-actuator.svg)
+-00000110: 5d28 6874 7470 733a 2f2f 7079 7069 2e6f  ](https://pypi.o
+-00000120: 7267 2f70 726f 6a65 6374 2f76 6f6c 7474  rg/project/voltt
+-00000130: 726f 6e2d 6163 7475 6174 6f72 2f29 0a0a  ron-actuator/)..
+-00000140: 0a54 6865 2041 6374 7561 746f 7220 4167  .The Actuator Ag
+-00000150: 656e 7420 6973 2075 7365 6420 746f 206d  ent is used to m
+-00000160: 616e 6167 6520 7772 6974 6520 6163 6365  anage write acce
+-00000170: 7373 2074 6f20 6465 7669 6365 732e 204f  ss to devices. O
+-00000180: 7468 6572 2061 6765 6e74 7320 6d61 7920  ther agents may 
+-00000190: 7265 7175 6573 7420 7363 6865 6475 6c65  request schedule
+-000001a0: 6420 7469 6d65 732c 2063 616c 6c65 6420  d times, called 
+-000001b0: 5461 736b 732c 2074 6f20 696e 7465 7261  Tasks, to intera
+-000001c0: 6374 2077 6974 6820 6f6e 6520 6f72 206d  ct with one or m
+-000001d0: 6f72 6520 6465 7669 6365 732e 0a0a 2323  ore devices...##
+-000001e0: 2050 7265 7265 7175 6973 6974 6573 0a0a   Prerequisites..
+-000001f0: 2a20 5079 7468 6f6e 2033 2e38 0a0a 2323  * Python 3.8..##
+-00000200: 2050 7974 686f 6e0a 0a3c 6465 7461 696c   Python..<detail
+-00000210: 733e 0a3c 7375 6d6d 6172 793e 546f 2069  s>.<summary>To i
+-00000220: 6e73 7461 6c6c 2050 7974 686f 6e20 332e  nstall Python 3.
+-00000230: 382c 2077 6520 7265 636f 6d6d 656e 6420  8, we recommend 
+-00000240: 7573 696e 6720 3c61 2068 7265 663d 2268  using <a href="h
+-00000250: 7474 7073 3a2f 2f67 6974 6875 622e 636f  ttps://github.co
+-00000260: 6d2f 7079 656e 762f 7079 656e 7622 3e3c  m/pyenv/pyenv"><
+-00000270: 636f 6465 3e70 7965 6e76 3c2f 636f 6465  code>pyenv</code
+-00000280: 3e3c 2f61 3e2e 3c2f 7375 6d6d 6172 793e  ></a>.</summary>
+-00000290: 0a0a 6060 6062 6173 680a 2320 696e 7374  ..```bash.# inst
+-000002a0: 616c 6c20 7079 656e 760a 6769 7420 636c  all pyenv.git cl
+-000002b0: 6f6e 6520 6874 7470 733a 2f2f 6769 7468  one https://gith
+-000002c0: 7562 2e63 6f6d 2f70 7965 6e76 2f70 7965  ub.com/pyenv/pye
+-000002d0: 6e76 207e 2f2e 7079 656e 760a 0a23 2073  nv ~/.pyenv..# s
+-000002e0: 6574 7570 2070 7965 6e76 2028 796f 7520  etup pyenv (you 
+-000002f0: 7368 6f75 6c64 2061 6c73 6f20 7075 7420  should also put 
+-00000300: 7468 6573 6520 7468 7265 6520 6c69 6e65  these three line
+-00000310: 7320 696e 202e 6261 7368 7263 206f 7220  s in .bashrc or 
+-00000320: 7369 6d69 6c61 7229 0a65 7870 6f72 7420  similar).export 
+-00000330: 5041 5448 3d22 247b 484f 4d45 7d2f 2e70  PATH="${HOME}/.p
+-00000340: 7965 6e76 2f62 696e 3a24 7b50 4154 487d  yenv/bin:${PATH}
+-00000350: 220a 6578 706f 7274 2050 5945 4e56 5f52  ".export PYENV_R
+-00000360: 4f4f 543d 2224 7b48 4f4d 457d 2f2e 7079  OOT="${HOME}/.py
+-00000370: 656e 7622 0a65 7661 6c20 2224 2870 7965  env".eval "$(pye
+-00000380: 6e76 2069 6e69 7420 2d29 220a 0a23 2069  nv init -)"..# i
+-00000390: 6e73 7461 6c6c 2050 7974 686f 6e20 332e  nstall Python 3.
+-000003a0: 380a 7079 656e 7620 696e 7374 616c 6c20  8.pyenv install 
+-000003b0: 332e 382e 3130 0a0a 2320 6d61 6b65 2069  3.8.10..# make i
+-000003c0: 7420 6176 6169 6c61 626c 6520 676c 6f62  t available glob
+-000003d0: 616c 6c79 0a70 7965 6e76 2067 6c6f 6261  ally.pyenv globa
+-000003e0: 6c20 7379 7374 656d 2033 2e38 2e31 300a  l system 3.8.10.
+-000003f0: 6060 600a 3c2f 6465 7461 696c 733e 0a0a  ```.</details>..
+-00000400: 2320 496e 7374 616c 6c61 7469 6f6e 0a0a  # Installation..
+-00000410: 4372 6561 7465 2061 6e64 2061 6374 6976  Create and activ
+-00000420: 6174 6520 6120 7669 7274 7561 6c20 656e  ate a virtual en
+-00000430: 7669 726f 6e6d 656e 742e 0a0a 6060 6073  vironment...```s
+-00000440: 6865 6c6c 0a70 7974 686f 6e20 2d6d 2076  hell.python -m v
+-00000450: 656e 7620 656e 760a 736f 7572 6365 2065  env env.source e
+-00000460: 6e76 2f62 696e 2f61 6374 6976 6174 650a  nv/bin/activate.
+-00000470: 6060 600a 0a49 6e73 7461 6c6c 696e 6720  ```..Installing 
+-00000480: 766f 6c74 7472 6f6e 2d70 6c61 7466 6f72  volttron-platfor
+-00000490: 6d2d 6472 6976 6572 2072 6571 7569 7265  m-driver require
+-000004a0: 7320 6120 7275 6e6e 696e 6720 766f 6c74  s a running volt
+-000004b0: 7472 6f6e 2069 6e73 7461 6e63 652e 0a0a  tron instance...
+-000004c0: 6060 6073 6865 6c6c 0a70 6970 2069 6e73  ```shell.pip ins
+-000004d0: 7461 6c6c 2076 6f6c 7474 726f 6e0a 0a23  tall volttron..#
+-000004e0: 2053 7461 7274 2070 6c61 7466 6f72 6d20   Start platform 
+-000004f0: 7769 7468 206f 7574 7075 7420 676f 696e  with output goin
+-00000500: 6720 746f 2076 6f6c 7474 726f 6e2e 6c6f  g to volttron.lo
+-00000510: 670a 766f 6c74 7472 6f6e 202d 7676 202d  g.volttron -vv -
+-00000520: 6c20 766f 6c74 7472 6f6e 2e6c 6f67 2026  l volttron.log &
+-00000530: 0a60 6060 0a0a 496e 7374 616c 6c20 616e  .```..Install an
+-00000540: 6420 7374 6172 7420 7468 6520 766f 6c74  d start the volt
+-00000550: 7472 6f6e 2d61 6374 7561 746f 722e 0a0a  tron-actuator...
+-00000560: 6060 6073 6865 6c6c 0a76 6374 6c20 696e  ```shell.vctl in
+-00000570: 7374 616c 6c20 766f 6c74 7472 6f6e 2d61  stall volttron-a
+-00000580: 6374 7561 746f 7220 2d2d 6167 656e 742d  ctuator --agent-
+-00000590: 636f 6e66 6967 203c 7061 7468 2074 6f20  config <path to 
+-000005a0: 6167 656e 7420 636f 6e66 6967 3e20 2d2d  agent config> --
+-000005b0: 7374 6172 740a 6060 600a 0a56 6965 7720  start.```..View 
+-000005c0: 7468 6520 7374 6174 7573 206f 6620 7468  the status of th
+-000005d0: 6520 696e 7374 616c 6c65 6420 6167 656e  e installed agen
+-000005e0: 740a 0a60 6060 7368 656c 6c0a 7663 746c  t..```shell.vctl
+-000005f0: 2073 7461 7475 730a 6060 600a 0a23 2044   status.```..# D
+-00000600: 6576 656c 6f70 6d65 6e74 0a0a 506c 6561  evelopment..Plea
+-00000610: 7365 2073 6565 2074 6865 2066 6f6c 6c6f  se see the follo
+-00000620: 7769 6e67 2066 6f72 2063 6f6e 7472 6962  wing for contrib
+-00000630: 7574 696e 6720 6775 6964 656c 696e 6573  uting guidelines
+-00000640: 205b 636f 6e74 7269 6275 7469 6e67 5d28   [contributing](
+-00000650: 6874 7470 733a 2f2f 6769 7468 7562 2e63  https://github.c
+-00000660: 6f6d 2f65 636c 6970 7365 2d76 6f6c 7474  om/eclipse-voltt
+-00000670: 726f 6e2f 766f 6c74 7472 6f6e 2d63 6f72  ron/volttron-cor
+-00000680: 652f 626c 6f62 2f64 6576 656c 6f70 2f43  e/blob/develop/C
+-00000690: 4f4e 5452 4942 5554 494e 472e 6d64 292e  ONTRIBUTING.md).
+-000006a0: 0a0a 506c 6561 7365 2073 6565 2074 6865  ..Please see the
+-000006b0: 2066 6f6c 6c6f 7769 6e67 2068 656c 7066   following helpf
+-000006c0: 756c 2067 7569 6465 2061 626f 7574 205b  ul guide about [
+-000006d0: 6465 7665 6c6f 7069 6e67 206d 6f64 756c  developing modul
+-000006e0: 6172 2056 4f4c 5454 524f 4e20 6167 656e  ar VOLTTRON agen
+-000006f0: 7473 5d28 6874 7470 733a 2f2f 6769 7468  ts](https://gith
+-00000700: 7562 2e63 6f6d 2f65 636c 6970 7365 2d76  ub.com/eclipse-v
+-00000710: 6f6c 7474 726f 6e2f 766f 6c74 7472 6f6e  olttron/volttron
+-00000720: 2d63 6f72 652f 626c 6f62 2f64 6576 656c  -core/blob/devel
+-00000730: 6f70 2f44 4556 454c 4f50 494e 475f 4f4e  op/DEVELOPING_ON
+-00000740: 5f4d 4f44 554c 4152 2e6d 6429 0a0a 0a23  _MODULAR.md)...#
+-00000750: 2044 6973 636c 6169 6d65 7220 4e6f 7469   Disclaimer Noti
+-00000760: 6365 0a0a 5468 6973 206d 6174 6572 6961  ce..This materia
+-00000770: 6c20 7761 7320 7072 6570 6172 6564 2061  l was prepared a
+-00000780: 7320 616e 2061 6363 6f75 6e74 206f 6620  s an account of 
+-00000790: 776f 726b 2073 706f 6e73 6f72 6564 2062  work sponsored b
+-000007a0: 7920 616e 2061 6765 6e63 7920 6f66 2074  y an agency of t
+-000007b0: 6865 0a55 6e69 7465 6420 5374 6174 6573  he.United States
+-000007c0: 2047 6f76 6572 6e6d 656e 742e 2020 4e65   Government.  Ne
+-000007d0: 6974 6865 7220 7468 6520 556e 6974 6564  ither the United
+-000007e0: 2053 7461 7465 7320 476f 7665 726e 6d65   States Governme
+-000007f0: 6e74 206e 6f72 2074 6865 2055 6e69 7465  nt nor the Unite
+-00000800: 640a 5374 6174 6573 2044 6570 6172 746d  d.States Departm
+-00000810: 656e 7420 6f66 2045 6e65 7267 792c 206e  ent of Energy, n
+-00000820: 6f72 2042 6174 7465 6c6c 652c 206e 6f72  or Battelle, nor
+-00000830: 2061 6e79 206f 6620 7468 6569 7220 656d   any of their em
+-00000840: 706c 6f79 6565 732c 206e 6f72 2061 6e79  ployees, nor any
+-00000850: 0a6a 7572 6973 6469 6374 696f 6e20 6f72  .jurisdiction or
+-00000860: 206f 7267 616e 697a 6174 696f 6e20 7468   organization th
+-00000870: 6174 2068 6173 2063 6f6f 7065 7261 7465  at has cooperate
+-00000880: 6420 696e 2074 6865 2064 6576 656c 6f70  d in the develop
+-00000890: 6d65 6e74 206f 6620 7468 6573 650a 6d61  ment of these.ma
+-000008a0: 7465 7269 616c 732c 206d 616b 6573 2061  terials, makes a
+-000008b0: 6e79 2077 6172 7261 6e74 792c 2065 7870  ny warranty, exp
+-000008c0: 7265 7373 206f 7220 696d 706c 6965 642c  ress or implied,
+-000008d0: 206f 7220 6173 7375 6d65 7320 616e 7920   or assumes any 
+-000008e0: 6c65 6761 6c0a 6c69 6162 696c 6974 7920  legal.liability 
+-000008f0: 6f72 2072 6573 706f 6e73 6962 696c 6974  or responsibilit
+-00000900: 7920 666f 7220 7468 6520 6163 6375 7261  y for the accura
+-00000910: 6379 2c20 636f 6d70 6c65 7465 6e65 7373  cy, completeness
+-00000920: 2c20 6f72 2075 7365 6675 6c6e 6573 7320  , or usefulness 
+-00000930: 6f72 2061 6e79 0a69 6e66 6f72 6d61 7469  or any.informati
+-00000940: 6f6e 2c20 6170 7061 7261 7475 732c 2070  on, apparatus, p
+-00000950: 726f 6475 6374 2c20 736f 6674 7761 7265  roduct, software
+-00000960: 2c20 6f72 2070 726f 6365 7373 2064 6973  , or process dis
+-00000970: 636c 6f73 6564 2c20 6f72 2072 6570 7265  closed, or repre
+-00000980: 7365 6e74 730a 7468 6174 2069 7473 2075  sents.that its u
+-00000990: 7365 2077 6f75 6c64 206e 6f74 2069 6e66  se would not inf
+-000009a0: 7269 6e67 6520 7072 6976 6174 656c 7920  ringe privately 
+-000009b0: 6f77 6e65 6420 7269 6768 7473 2e0a 0a52  owned rights...R
+-000009c0: 6566 6572 656e 6365 2068 6572 6569 6e20  eference herein 
+-000009d0: 746f 2061 6e79 2073 7065 6369 6669 6320  to any specific 
+-000009e0: 636f 6d6d 6572 6369 616c 2070 726f 6475  commercial produ
+-000009f0: 6374 2c20 7072 6f63 6573 732c 206f 7220  ct, process, or 
+-00000a00: 7365 7276 6963 6520 6279 0a74 7261 6465  service by.trade
+-00000a10: 206e 616d 652c 2074 7261 6465 6d61 726b   name, trademark
+-00000a20: 2c20 6d61 6e75 6661 6374 7572 6572 2c20  , manufacturer, 
+-00000a30: 6f72 206f 7468 6572 7769 7365 2064 6f65  or otherwise doe
+-00000a40: 7320 6e6f 7420 6e65 6365 7373 6172 696c  s not necessaril
+-00000a50: 790a 636f 6e73 7469 7475 7465 206f 7220  y.constitute or 
+-00000a60: 696d 706c 7920 6974 7320 656e 646f 7273  imply its endors
+-00000a70: 656d 656e 742c 2072 6563 6f6d 6d65 6e64  ement, recommend
+-00000a80: 6174 696f 6e2c 206f 7220 6661 766f 7269  ation, or favori
+-00000a90: 6e67 2062 7920 7468 6520 556e 6974 6564  ng by the United
+-00000aa0: 0a53 7461 7465 7320 476f 7665 726e 6d65  .States Governme
+-00000ab0: 6e74 206f 7220 616e 7920 6167 656e 6379  nt or any agency
+-00000ac0: 2074 6865 7265 6f66 2c20 6f72 2042 6174   thereof, or Bat
+-00000ad0: 7465 6c6c 6520 4d65 6d6f 7269 616c 2049  telle Memorial I
+-00000ae0: 6e73 7469 7475 7465 2e20 5468 650a 7669  nstitute. The.vi
+-00000af0: 6577 7320 616e 6420 6f70 696e 696f 6e73  ews and opinions
+-00000b00: 206f 6620 6175 7468 6f72 7320 6578 7072   of authors expr
+-00000b10: 6573 7365 6420 6865 7265 696e 2064 6f20  essed herein do 
+-00000b20: 6e6f 7420 6e65 6365 7373 6172 696c 7920  not necessarily 
+-00000b30: 7374 6174 6520 6f72 0a72 6566 6c65 6374  state or.reflect
+-00000b40: 2074 686f 7365 206f 6620 7468 6520 556e   those of the Un
+-00000b50: 6974 6564 2053 7461 7465 7320 476f 7665  ited States Gove
+-00000b60: 726e 6d65 6e74 206f 7220 616e 7920 6167  rnment or any ag
+-00000b70: 656e 6379 2074 6865 7265 6f66 2e0a       ency thereof..
++00000030: 2e63 6f6d 2f65 636c 6970 7365 2d76 6f6c  .com/eclipse-vol
++00000040: 7474 726f 6e2f 766f 6c74 7472 6f6e 2d61  ttron/volttron-a
++00000050: 6374 7561 746f 722f 6163 7469 6f6e 732f  ctuator/actions/
++00000060: 776f 726b 666c 6f77 732f 7275 6e2d 7465  workflows/run-te
++00000070: 7374 732e 796d 6c2f 6261 6467 652e 7376  sts.yml/badge.sv
++00000080: 6729 5d28 6874 7470 733a 2f2f 6769 7468  g)](https://gith
++00000090: 7562 2e63 6f6d 2f56 4f4c 5454 524f 4e2f  ub.com/VOLTTRON/
++000000a0: 766f 6c74 7472 6f6e 2d61 6374 7561 746f  volttron-actuato
++000000b0: 722f 6163 7469 6f6e 732f 776f 726b 666c  r/actions/workfl
++000000c0: 6f77 732f 7275 6e2d 7465 7374 732e 796d  ows/run-tests.ym
++000000d0: 6c29 0a5b 215b 7079 7069 2076 6572 7369  l).[![pypi versi
++000000e0: 6f6e 5d28 6874 7470 733a 2f2f 696d 672e  on](https://img.
++000000f0: 7368 6965 6c64 732e 696f 2f70 7970 692f  shields.io/pypi/
++00000100: 762f 766f 6c74 7472 6f6e 2d61 6374 7561  v/volttron-actua
++00000110: 746f 722e 7376 6729 5d28 6874 7470 733a  tor.svg)](https:
++00000120: 2f2f 7079 7069 2e6f 7267 2f70 726f 6a65  //pypi.org/proje
++00000130: 6374 2f76 6f6c 7474 726f 6e2d 6163 7475  ct/volttron-actu
++00000140: 6174 6f72 2f29 0a0a 0a54 6865 2041 6374  ator/)...The Act
++00000150: 7561 746f 7220 4167 656e 7420 6973 2075  uator Agent is u
++00000160: 7365 6420 746f 206d 616e 6167 6520 7772  sed to manage wr
++00000170: 6974 6520 6163 6365 7373 2074 6f20 6465  ite access to de
++00000180: 7669 6365 732e 204f 7468 6572 2061 6765  vices. Other age
++00000190: 6e74 7320 6d61 7920 7265 7175 6573 7420  nts may request 
++000001a0: 7363 6865 6475 6c65 6420 7469 6d65 732c  scheduled times,
++000001b0: 2063 616c 6c65 6420 5461 736b 732c 2074   called Tasks, t
++000001c0: 6f20 696e 7465 7261 6374 2077 6974 6820  o interact with 
++000001d0: 6f6e 6520 6f72 206d 6f72 6520 6465 7669  one or more devi
++000001e0: 6365 732e 0a0a 2320 5265 7175 6972 6573  ces...# Requires
++000001f0: 0a0a 2a20 7079 7468 6f6e 203e 3d20 332e  ..* python >= 3.
++00000200: 3130 0a2a 2076 6f6c 7474 726f 6e20 3e3d  10.* volttron >=
++00000210: 2031 302e 300a 2a20 747a 6c6f 6361 6c20   10.0.* tzlocal 
++00000220: 3e3d 2034 2e32 0a2a 2074 7970 6573 2d74  >= 4.2.* types-t
++00000230: 7a6c 6f63 616c 203e 3d20 342e 322e 322e  zlocal >= 4.2.2.
++00000240: 320a 0a23 2044 6f63 756d 656e 7461 7469  2..# Documentati
++00000250: 6f6e 0a4d 6f72 6520 6465 7461 696c 6564  on.More detailed
++00000260: 2064 6f63 756d 656e 7461 7469 6f6e 2063   documentation c
++00000270: 616e 2062 6520 666f 756e 6420 6f6e 205b  an be found on [
++00000280: 5265 6164 5468 6544 6f63 735d 2868 7474  ReadTheDocs](htt
++00000290: 7073 3a2f 2f76 6f6c 7474 726f 6e2e 7265  ps://volttron.re
++000002a0: 6164 7468 6564 6f63 732e 696f 2f65 6e2f  adthedocs.io/en/
++000002b0: 6d6f 6475 6c61 722f 292e 2054 6865 2052  modular/). The R
++000002c0: 5354 2073 6f75 7263 650a 6f66 2074 6865  ST source.of the
++000002d0: 2064 6f63 756d 656e 7461 7469 6f6e 2066   documentation f
++000002e0: 6f72 2074 6869 7320 636f 6d70 6f6e 656e  or this componen
++000002f0: 7420 6973 206c 6f63 6174 6564 2069 6e20  t is located in 
++00000300: 7468 6520 2264 6f63 7322 2064 6972 6563  the "docs" direc
++00000310: 746f 7279 206f 6620 7468 6973 2072 6570  tory of this rep
++00000320: 6f73 6974 6f72 792e 0a0a 2320 496e 7374  ository...# Inst
++00000330: 616c 6c61 7469 6f6e 0a0a 4265 666f 7265  allation..Before
++00000340: 2069 6e73 7461 6c6c 696e 672c 2056 4f4c   installing, VOL
++00000350: 5454 524f 4e20 7368 6f75 6c64 2062 6520  TTRON should be 
++00000360: 696e 7374 616c 6c65 6420 616e 6420 7275  installed and ru
++00000370: 6e6e 696e 672e 2020 4974 7320 7669 7274  nning.  Its virt
++00000380: 7561 6c20 656e 7669 726f 6e6d 656e 7420  ual environment 
++00000390: 7368 6f75 6c64 2062 6520 6163 7469 7665  should be active
++000003a0: 2e0a 496e 666f 726d 6174 696f 6e20 6f6e  ..Information on
++000003b0: 2068 6f77 2074 6f20 696e 7374 616c 6c20   how to install 
++000003c0: 6f66 2074 6865 2056 4f4c 5454 524f 4e20  of the VOLTTRON 
++000003d0: 706c 6174 666f 726d 2063 616e 2062 6520  platform can be 
++000003e0: 666f 756e 640a 5b68 6572 655d 2868 7474  found.[here](htt
++000003f0: 7073 3a2f 2f67 6974 6875 622e 636f 6d2f  ps://github.com/
++00000400: 6563 6c69 7073 652d 766f 6c74 7472 6f6e  eclipse-volttron
++00000410: 2f76 6f6c 7474 726f 6e2d 636f 7265 292e  /volttron-core).
++00000420: 0a0a 496e 7374 616c 6c20 616e 6420 7374  ..Install and st
++00000430: 6172 7420 7468 6520 766f 6c74 7472 6f6e  art the volttron
++00000440: 2d61 6374 7561 746f 722e 0a0a 6060 6073  -actuator...```s
++00000450: 6865 6c6c 0a76 6374 6c20 696e 7374 616c  hell.vctl instal
++00000460: 6c20 766f 6c74 7472 6f6e 2d61 6374 7561  l volttron-actua
++00000470: 746f 7220 2d2d 6167 656e 742d 636f 6e66  tor --agent-conf
++00000480: 6967 203c 7061 7468 2074 6f20 6167 656e  ig <path to agen
++00000490: 7420 636f 6e66 6967 3e20 2d2d 7374 6172  t config> --star
++000004a0: 740a 6060 600a 0a56 6965 7720 7468 6520  t.```..View the 
++000004b0: 7374 6174 7573 206f 6620 7468 6520 696e  status of the in
++000004c0: 7374 616c 6c65 6420 6167 656e 740a 0a60  stalled agent..`
++000004d0: 6060 7368 656c 6c0a 7663 746c 2073 7461  ``shell.vctl sta
++000004e0: 7475 730a 6060 600a 0a23 2044 6576 656c  tus.```..# Devel
++000004f0: 6f70 6d65 6e74 0a0a 506c 6561 7365 2073  opment..Please s
++00000500: 6565 2074 6865 2066 6f6c 6c6f 7769 6e67  ee the following
++00000510: 2066 6f72 2063 6f6e 7472 6962 7574 696e   for contributin
++00000520: 6720 6775 6964 656c 696e 6573 205b 636f  g guidelines [co
++00000530: 6e74 7269 6275 7469 6e67 5d28 6874 7470  ntributing](http
++00000540: 733a 2f2f 6769 7468 7562 2e63 6f6d 2f65  s://github.com/e
++00000550: 636c 6970 7365 2d76 6f6c 7474 726f 6e2f  clipse-volttron/
++00000560: 766f 6c74 7472 6f6e 2d63 6f72 652f 626c  volttron-core/bl
++00000570: 6f62 2f64 6576 656c 6f70 2f43 4f4e 5452  ob/develop/CONTR
++00000580: 4942 5554 494e 472e 6d64 292e 0a0a 506c  IBUTING.md)...Pl
++00000590: 6561 7365 2073 6565 2074 6865 2066 6f6c  ease see the fol
++000005a0: 6c6f 7769 6e67 2068 656c 7066 756c 2067  lowing helpful g
++000005b0: 7569 6465 2061 626f 7574 205b 6465 7665  uide about [deve
++000005c0: 6c6f 7069 6e67 206d 6f64 756c 6172 2056  loping modular V
++000005d0: 4f4c 5454 524f 4e20 6167 656e 7473 5d28  OLTTRON agents](
++000005e0: 6874 7470 733a 2f2f 6769 7468 7562 2e63  https://github.c
++000005f0: 6f6d 2f65 636c 6970 7365 2d76 6f6c 7474  om/eclipse-voltt
++00000600: 726f 6e2f 766f 6c74 7472 6f6e 2d63 6f72  ron/volttron-cor
++00000610: 652f 626c 6f62 2f64 6576 656c 6f70 2f44  e/blob/develop/D
++00000620: 4556 454c 4f50 494e 475f 4f4e 5f4d 4f44  EVELOPING_ON_MOD
++00000630: 554c 4152 2e6d 6429 0a0a 0a23 2044 6973  ULAR.md)...# Dis
++00000640: 636c 6169 6d65 7220 4e6f 7469 6365 0a0a  claimer Notice..
++00000650: 5468 6973 206d 6174 6572 6961 6c20 7761  This material wa
++00000660: 7320 7072 6570 6172 6564 2061 7320 616e  s prepared as an
++00000670: 2061 6363 6f75 6e74 206f 6620 776f 726b   account of work
++00000680: 2073 706f 6e73 6f72 6564 2062 7920 616e   sponsored by an
++00000690: 2061 6765 6e63 7920 6f66 2074 6865 0a55   agency of the.U
++000006a0: 6e69 7465 6420 5374 6174 6573 2047 6f76  nited States Gov
++000006b0: 6572 6e6d 656e 742e 2020 4e65 6974 6865  ernment.  Neithe
++000006c0: 7220 7468 6520 556e 6974 6564 2053 7461  r the United Sta
++000006d0: 7465 7320 476f 7665 726e 6d65 6e74 206e  tes Government n
++000006e0: 6f72 2074 6865 2055 6e69 7465 640a 5374  or the United.St
++000006f0: 6174 6573 2044 6570 6172 746d 656e 7420  ates Department 
++00000700: 6f66 2045 6e65 7267 792c 206e 6f72 2042  of Energy, nor B
++00000710: 6174 7465 6c6c 652c 206e 6f72 2061 6e79  attelle, nor any
++00000720: 206f 6620 7468 6569 7220 656d 706c 6f79   of their employ
++00000730: 6565 732c 206e 6f72 2061 6e79 0a6a 7572  ees, nor any.jur
++00000740: 6973 6469 6374 696f 6e20 6f72 206f 7267  isdiction or org
++00000750: 616e 697a 6174 696f 6e20 7468 6174 2068  anization that h
++00000760: 6173 2063 6f6f 7065 7261 7465 6420 696e  as cooperated in
++00000770: 2074 6865 2064 6576 656c 6f70 6d65 6e74   the development
++00000780: 206f 6620 7468 6573 650a 6d61 7465 7269   of these.materi
++00000790: 616c 732c 206d 616b 6573 2061 6e79 2077  als, makes any w
++000007a0: 6172 7261 6e74 792c 2065 7870 7265 7373  arranty, express
++000007b0: 206f 7220 696d 706c 6965 642c 206f 7220   or implied, or 
++000007c0: 6173 7375 6d65 7320 616e 7920 6c65 6761  assumes any lega
++000007d0: 6c0a 6c69 6162 696c 6974 7920 6f72 2072  l.liability or r
++000007e0: 6573 706f 6e73 6962 696c 6974 7920 666f  esponsibility fo
++000007f0: 7220 7468 6520 6163 6375 7261 6379 2c20  r the accuracy, 
++00000800: 636f 6d70 6c65 7465 6e65 7373 2c20 6f72  completeness, or
++00000810: 2075 7365 6675 6c6e 6573 7320 6f72 2061   usefulness or a
++00000820: 6e79 0a69 6e66 6f72 6d61 7469 6f6e 2c20  ny.information, 
++00000830: 6170 7061 7261 7475 732c 2070 726f 6475  apparatus, produ
++00000840: 6374 2c20 736f 6674 7761 7265 2c20 6f72  ct, software, or
++00000850: 2070 726f 6365 7373 2064 6973 636c 6f73   process disclos
++00000860: 6564 2c20 6f72 2072 6570 7265 7365 6e74  ed, or represent
++00000870: 730a 7468 6174 2069 7473 2075 7365 2077  s.that its use w
++00000880: 6f75 6c64 206e 6f74 2069 6e66 7269 6e67  ould not infring
++00000890: 6520 7072 6976 6174 656c 7920 6f77 6e65  e privately owne
++000008a0: 6420 7269 6768 7473 2e0a 0a52 6566 6572  d rights...Refer
++000008b0: 656e 6365 2068 6572 6569 6e20 746f 2061  ence herein to a
++000008c0: 6e79 2073 7065 6369 6669 6320 636f 6d6d  ny specific comm
++000008d0: 6572 6369 616c 2070 726f 6475 6374 2c20  ercial product, 
++000008e0: 7072 6f63 6573 732c 206f 7220 7365 7276  process, or serv
++000008f0: 6963 6520 6279 0a74 7261 6465 206e 616d  ice by.trade nam
++00000900: 652c 2074 7261 6465 6d61 726b 2c20 6d61  e, trademark, ma
++00000910: 6e75 6661 6374 7572 6572 2c20 6f72 206f  nufacturer, or o
++00000920: 7468 6572 7769 7365 2064 6f65 7320 6e6f  therwise does no
++00000930: 7420 6e65 6365 7373 6172 696c 790a 636f  t necessarily.co
++00000940: 6e73 7469 7475 7465 206f 7220 696d 706c  nstitute or impl
++00000950: 7920 6974 7320 656e 646f 7273 656d 656e  y its endorsemen
++00000960: 742c 2072 6563 6f6d 6d65 6e64 6174 696f  t, recommendatio
++00000970: 6e2c 206f 7220 6661 766f 7269 6e67 2062  n, or favoring b
++00000980: 7920 7468 6520 556e 6974 6564 0a53 7461  y the United.Sta
++00000990: 7465 7320 476f 7665 726e 6d65 6e74 206f  tes Government o
++000009a0: 7220 616e 7920 6167 656e 6379 2074 6865  r any agency the
++000009b0: 7265 6f66 2c20 6f72 2042 6174 7465 6c6c  reof, or Battell
++000009c0: 6520 4d65 6d6f 7269 616c 2049 6e73 7469  e Memorial Insti
++000009d0: 7475 7465 2e20 5468 650a 7669 6577 7320  tute. The.views 
++000009e0: 616e 6420 6f70 696e 696f 6e73 206f 6620  and opinions of 
++000009f0: 6175 7468 6f72 7320 6578 7072 6573 7365  authors expresse
++00000a00: 6420 6865 7265 696e 2064 6f20 6e6f 7420  d herein do not 
++00000a10: 6e65 6365 7373 6172 696c 7920 7374 6174  necessarily stat
++00000a20: 6520 6f72 0a72 6566 6c65 6374 2074 686f  e or.reflect tho
++00000a30: 7365 206f 6620 7468 6520 556e 6974 6564  se of the United
++00000a40: 2053 7461 7465 7320 476f 7665 726e 6d65   States Governme
++00000a50: 6e74 206f 7220 616e 7920 6167 656e 6379  nt or any agency
++00000a60: 2074 6865 7265 6f66 2e0a                  thereof..
+```
+
+### Comparing `volttron_actuator-0.1.1a1/pyproject.toml` & `volttron_actuator-0.1.1a2/pyproject.toml`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -14,15 +14,15 @@
+ warn_return_any = true
+ warn_unused_configs = true
+ show_error_codes = true
+ exclude = ['docs/']
+ 
+ [tool.poetry]
+ name = "volttron-actuator"
+-version = "0.1.1a1"
++version = "0.1.1a2"
+ description = "The Actuator Agent is used to manage write access to devices. Other agents may request scheduled times, called Tasks, to interact with one or more devices."
+ authors = ["Mark Bonicillo <volttron@pnnl.gov>"]
+ license = "Apache License 2.0"
+ readme = "README.md"
+ repository = "https://github.com/VOLTTRON/volttron-actuator"
+ homepage = "https://github.com/VOLTTRON/volttron-actuator"
+ keywords = []
+@@ -33,15 +33,15 @@
+     "Intended Audience :: Information Technology",
+     "Intended Audience :: Developers",
+     "Intended Audience :: Other Audience",
+     "License :: OSI Approved :: Apache Software License"
+ ]
+ 
+ [tool.poetry.dependencies]
+-python = ">=3.8,<4.0"
++python = ">=3.10,<4.0"
+ tzlocal = "^4.2"
+ volttron = ">=10.0.2rc0,<11.0"
+ types-tzlocal = "^4.2.2.2"
+ 
+ [tool.poetry.group.dev.dependencies]
+ volttron-testing = "^0.4.0rc0"
+ pytest = "^6.2.5"
+```
+
+### Comparing `volttron_actuator-0.1.1a1/src/actuator/__init__.py` & `volttron_actuator-0.1.1a2/src/actuator/__init__.py`
+
+ * *Files identical despite different names*
+
+### Comparing `volttron_actuator-0.1.1a1/src/actuator/agent.py` & `volttron_actuator-0.1.1a2/src/actuator/agent.py`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -515,17 +515,17 @@
+     The Actuator Agent regulates control of devices by other agents. Agents
+     request a schedule and then issue commands to the device through
+     this agent.
+ 
+     The Actuator Agent also sends out the signal to drivers to trigger
+     a device heartbeat.
+ 
+-    :param heartbeat_interval: Interval in seonds to send out a heartbeat
++    :param heartbeat_interval: Interval in seconds to send out a heartbeat
+         to devices.
+-    :param schedule_publish_interval: Interval in seonds to publish the
++    :param schedule_publish_interval: Interval in seconds to publish the
+         currently active schedules.
+     :param schedule_state_file: Name of the file to save the current schedule
+         state to. This file is updated every time a schedule changes.
+     :param preempt_grace_time: Time in seconds after a schedule is preemted
+         before it is actually cancelled.
+     :param driver_vip_identity: VIP identity of the Platform Driver Agent.
+```
+
+### Comparing `volttron_actuator-0.1.1a1/src/actuator/scheduler.py` & `volttron_actuator-0.1.1a2/src/actuator/scheduler.py`
+
+ * *Files identical despite different names*
+
+### Comparing `volttron_actuator-0.1.1a1/setup.py` & `volttron_actuator-0.1.1a2/setup.py`
+
+ * *Files 14% similar despite different names*
+
+```diff
+@@ -19,15 +19,15 @@
+ 00000120: 2776 6f6c 7474 726f 6e2d 6163 7475 6174  'volttron-actuat
+ 00000130: 6f72 203d 2061 6374 7561 746f 722e 6167  or = actuator.ag
+ 00000140: 656e 743a 6d61 696e 275d 7d0a 0a73 6574  ent:main']}..set
+ 00000150: 7570 5f6b 7761 7267 7320 3d20 7b0a 2020  up_kwargs = {.  
+ 00000160: 2020 276e 616d 6527 3a20 2776 6f6c 7474    'name': 'voltt
+ 00000170: 726f 6e2d 6163 7475 6174 6f72 272c 0a20  ron-actuator',. 
+ 00000180: 2020 2027 7665 7273 696f 6e27 3a20 2730     'version': '0
+-00000190: 2e31 2e31 6131 272c 0a20 2020 2027 6465  .1.1a1',.    'de
++00000190: 2e31 2e31 6132 272c 0a20 2020 2027 6465  .1.1a2',.    'de
+ 000001a0: 7363 7269 7074 696f 6e27 3a20 2754 6865  scription': 'The
+ 000001b0: 2041 6374 7561 746f 7220 4167 656e 7420   Actuator Agent 
+ 000001c0: 6973 2075 7365 6420 746f 206d 616e 6167  is used to manag
+ 000001d0: 6520 7772 6974 6520 6163 6365 7373 2074  e write access t
+ 000001e0: 6f20 6465 7669 6365 732e 204f 7468 6572  o devices. Other
+ 000001f0: 2061 6765 6e74 7320 6d61 7920 7265 7175   agents may requ
+ 00000200: 6573 7420 7363 6865 6475 6c65 6420 7469  est scheduled ti
+@@ -35,221 +35,202 @@
+ 00000220: 732c 2074 6f20 696e 7465 7261 6374 2077  s, to interact w
+ 00000230: 6974 6820 6f6e 6520 6f72 206d 6f72 6520  ith one or more 
+ 00000240: 6465 7669 6365 732e 272c 0a20 2020 2027  devices.',.    '
+ 00000250: 6c6f 6e67 5f64 6573 6372 6970 7469 6f6e  long_description
+ 00000260: 273a 2027 2320 766f 6c74 7472 6f6e 2d61  ': '# volttron-a
+ 00000270: 6374 7561 746f 725c 6e5c 6e5b 215b 5061  ctuator\n\n[![Pa
+ 00000280: 7373 696e 673f 5d28 6874 7470 733a 2f2f  ssing?](https://
+-00000290: 6769 7468 7562 2e63 6f6d 2f56 4f4c 5454  github.com/VOLTT
+-000002a0: 524f 4e2f 766f 6c74 7472 6f6e 2d61 6374  RON/volttron-act
+-000002b0: 7561 746f 722f 6163 7469 6f6e 732f 776f  uator/actions/wo
+-000002c0: 726b 666c 6f77 732f 7275 6e2d 7465 7374  rkflows/run-test
+-000002d0: 732e 796d 6c2f 6261 6467 652e 7376 6729  s.yml/badge.svg)
+-000002e0: 5d28 6874 7470 733a 2f2f 6769 7468 7562  ](https://github
+-000002f0: 2e63 6f6d 2f56 4f4c 5454 524f 4e2f 766f  .com/VOLTTRON/vo
+-00000300: 6c74 7472 6f6e 2d61 6374 7561 746f 722f  lttron-actuator/
+-00000310: 6163 7469 6f6e 732f 776f 726b 666c 6f77  actions/workflow
+-00000320: 732f 7275 6e2d 7465 7374 732e 796d 6c29  s/run-tests.yml)
+-00000330: 5c6e 5b21 5b70 7970 6920 7665 7273 696f  \n[![pypi versio
+-00000340: 6e5d 2868 7474 7073 3a2f 2f69 6d67 2e73  n](https://img.s
+-00000350: 6869 656c 6473 2e69 6f2f 7079 7069 2f76  hields.io/pypi/v
+-00000360: 2f76 6f6c 7474 726f 6e2d 6163 7475 6174  /volttron-actuat
+-00000370: 6f72 2e73 7667 295d 2868 7474 7073 3a2f  or.svg)](https:/
+-00000380: 2f70 7970 692e 6f72 672f 7072 6f6a 6563  /pypi.org/projec
+-00000390: 742f 766f 6c74 7472 6f6e 2d61 6374 7561  t/volttron-actua
+-000003a0: 746f 722f 295c 6e5c 6e5c 6e54 6865 2041  tor/)\n\n\nThe A
+-000003b0: 6374 7561 746f 7220 4167 656e 7420 6973  ctuator Agent is
+-000003c0: 2075 7365 6420 746f 206d 616e 6167 6520   used to manage 
+-000003d0: 7772 6974 6520 6163 6365 7373 2074 6f20  write access to 
+-000003e0: 6465 7669 6365 732e 204f 7468 6572 2061  devices. Other a
+-000003f0: 6765 6e74 7320 6d61 7920 7265 7175 6573  gents may reques
+-00000400: 7420 7363 6865 6475 6c65 6420 7469 6d65  t scheduled time
+-00000410: 732c 2063 616c 6c65 6420 5461 736b 732c  s, called Tasks,
+-00000420: 2074 6f20 696e 7465 7261 6374 2077 6974   to interact wit
+-00000430: 6820 6f6e 6520 6f72 206d 6f72 6520 6465  h one or more de
+-00000440: 7669 6365 732e 5c6e 5c6e 2323 2050 7265  vices.\n\n## Pre
+-00000450: 7265 7175 6973 6974 6573 5c6e 5c6e 2a20  requisites\n\n* 
+-00000460: 5079 7468 6f6e 2033 2e38 5c6e 5c6e 2323  Python 3.8\n\n##
+-00000470: 2050 7974 686f 6e5c 6e5c 6e3c 6465 7461   Python\n\n<deta
+-00000480: 696c 733e 5c6e 3c73 756d 6d61 7279 3e54  ils>\n<summary>T
+-00000490: 6f20 696e 7374 616c 6c20 5079 7468 6f6e  o install Python
+-000004a0: 2033 2e38 2c20 7765 2072 6563 6f6d 6d65   3.8, we recomme
+-000004b0: 6e64 2075 7369 6e67 203c 6120 6872 6566  nd using <a href
+-000004c0: 3d22 6874 7470 733a 2f2f 6769 7468 7562  ="https://github
+-000004d0: 2e63 6f6d 2f70 7965 6e76 2f70 7965 6e76  .com/pyenv/pyenv
+-000004e0: 223e 3c63 6f64 653e 7079 656e 763c 2f63  "><code>pyenv</c
+-000004f0: 6f64 653e 3c2f 613e 2e3c 2f73 756d 6d61  ode></a>.</summa
+-00000500: 7279 3e5c 6e5c 6e60 6060 6261 7368 5c6e  ry>\n\n```bash\n
+-00000510: 2320 696e 7374 616c 6c20 7079 656e 765c  # install pyenv\
+-00000520: 6e67 6974 2063 6c6f 6e65 2068 7474 7073  ngit clone https
+-00000530: 3a2f 2f67 6974 6875 622e 636f 6d2f 7079  ://github.com/py
+-00000540: 656e 762f 7079 656e 7620 7e2f 2e70 7965  env/pyenv ~/.pye
+-00000550: 6e76 5c6e 5c6e 2320 7365 7475 7020 7079  nv\n\n# setup py
+-00000560: 656e 7620 2879 6f75 2073 686f 756c 6420  env (you should 
+-00000570: 616c 736f 2070 7574 2074 6865 7365 2074  also put these t
+-00000580: 6872 6565 206c 696e 6573 2069 6e20 2e62  hree lines in .b
+-00000590: 6173 6872 6320 6f72 2073 696d 696c 6172  ashrc or similar
+-000005a0: 295c 6e65 7870 6f72 7420 5041 5448 3d22  )\nexport PATH="
+-000005b0: 247b 484f 4d45 7d2f 2e70 7965 6e76 2f62  ${HOME}/.pyenv/b
+-000005c0: 696e 3a24 7b50 4154 487d 225c 6e65 7870  in:${PATH}"\nexp
+-000005d0: 6f72 7420 5059 454e 565f 524f 4f54 3d22  ort PYENV_ROOT="
+-000005e0: 247b 484f 4d45 7d2f 2e70 7965 6e76 225c  ${HOME}/.pyenv"\
+-000005f0: 6e65 7661 6c20 2224 2870 7965 6e76 2069  neval "$(pyenv i
+-00000600: 6e69 7420 2d29 225c 6e5c 6e23 2069 6e73  nit -)"\n\n# ins
+-00000610: 7461 6c6c 2050 7974 686f 6e20 332e 385c  tall Python 3.8\
+-00000620: 6e70 7965 6e76 2069 6e73 7461 6c6c 2033  npyenv install 3
+-00000630: 2e38 2e31 305c 6e5c 6e23 206d 616b 6520  .8.10\n\n# make 
+-00000640: 6974 2061 7661 696c 6162 6c65 2067 6c6f  it available glo
+-00000650: 6261 6c6c 795c 6e70 7965 6e76 2067 6c6f  bally\npyenv glo
+-00000660: 6261 6c20 7379 7374 656d 2033 2e38 2e31  bal system 3.8.1
+-00000670: 305c 6e60 6060 5c6e 3c2f 6465 7461 696c  0\n```\n</detail
+-00000680: 733e 5c6e 5c6e 2320 496e 7374 616c 6c61  s>\n\n# Installa
+-00000690: 7469 6f6e 5c6e 5c6e 4372 6561 7465 2061  tion\n\nCreate a
+-000006a0: 6e64 2061 6374 6976 6174 6520 6120 7669  nd activate a vi
+-000006b0: 7274 7561 6c20 656e 7669 726f 6e6d 656e  rtual environmen
+-000006c0: 742e 5c6e 5c6e 6060 6073 6865 6c6c 5c6e  t.\n\n```shell\n
+-000006d0: 7079 7468 6f6e 202d 6d20 7665 6e76 2065  python -m venv e
+-000006e0: 6e76 5c6e 736f 7572 6365 2065 6e76 2f62  nv\nsource env/b
+-000006f0: 696e 2f61 6374 6976 6174 655c 6e60 6060  in/activate\n```
+-00000700: 5c6e 5c6e 496e 7374 616c 6c69 6e67 2076  \n\nInstalling v
+-00000710: 6f6c 7474 726f 6e2d 706c 6174 666f 726d  olttron-platform
+-00000720: 2d64 7269 7665 7220 7265 7175 6972 6573  -driver requires
+-00000730: 2061 2072 756e 6e69 6e67 2076 6f6c 7474   a running voltt
+-00000740: 726f 6e20 696e 7374 616e 6365 2e5c 6e5c  ron instance.\n\
+-00000750: 6e60 6060 7368 656c 6c5c 6e70 6970 2069  n```shell\npip i
+-00000760: 6e73 7461 6c6c 2076 6f6c 7474 726f 6e5c  nstall volttron\
+-00000770: 6e5c 6e23 2053 7461 7274 2070 6c61 7466  n\n# Start platf
+-00000780: 6f72 6d20 7769 7468 206f 7574 7075 7420  orm with output 
+-00000790: 676f 696e 6720 746f 2076 6f6c 7474 726f  going to volttro
+-000007a0: 6e2e 6c6f 675c 6e76 6f6c 7474 726f 6e20  n.log\nvolttron 
+-000007b0: 2d76 7620 2d6c 2076 6f6c 7474 726f 6e2e  -vv -l volttron.
+-000007c0: 6c6f 6720 265c 6e60 6060 5c6e 5c6e 496e  log &\n```\n\nIn
+-000007d0: 7374 616c 6c20 616e 6420 7374 6172 7420  stall and start 
+-000007e0: 7468 6520 766f 6c74 7472 6f6e 2d61 6374  the volttron-act
+-000007f0: 7561 746f 722e 5c6e 5c6e 6060 6073 6865  uator.\n\n```she
+-00000800: 6c6c 5c6e 7663 746c 2069 6e73 7461 6c6c  ll\nvctl install
+-00000810: 2076 6f6c 7474 726f 6e2d 6163 7475 6174   volttron-actuat
+-00000820: 6f72 202d 2d61 6765 6e74 2d63 6f6e 6669  or --agent-confi
+-00000830: 6720 3c70 6174 6820 746f 2061 6765 6e74  g <path to agent
+-00000840: 2063 6f6e 6669 673e 202d 2d73 7461 7274   config> --start
+-00000850: 5c6e 6060 605c 6e5c 6e56 6965 7720 7468  \n```\n\nView th
+-00000860: 6520 7374 6174 7573 206f 6620 7468 6520  e status of the 
+-00000870: 696e 7374 616c 6c65 6420 6167 656e 745c  installed agent\
+-00000880: 6e5c 6e60 6060 7368 656c 6c5c 6e76 6374  n\n```shell\nvct
+-00000890: 6c20 7374 6174 7573 5c6e 6060 605c 6e5c  l status\n```\n\
+-000008a0: 6e23 2044 6576 656c 6f70 6d65 6e74 5c6e  n# Development\n
+-000008b0: 5c6e 506c 6561 7365 2073 6565 2074 6865  \nPlease see the
+-000008c0: 2066 6f6c 6c6f 7769 6e67 2066 6f72 2063   following for c
+-000008d0: 6f6e 7472 6962 7574 696e 6720 6775 6964  ontributing guid
+-000008e0: 656c 696e 6573 205b 636f 6e74 7269 6275  elines [contribu
+-000008f0: 7469 6e67 5d28 6874 7470 733a 2f2f 6769  ting](https://gi
+-00000900: 7468 7562 2e63 6f6d 2f65 636c 6970 7365  thub.com/eclipse
+-00000910: 2d76 6f6c 7474 726f 6e2f 766f 6c74 7472  -volttron/volttr
+-00000920: 6f6e 2d63 6f72 652f 626c 6f62 2f64 6576  on-core/blob/dev
+-00000930: 656c 6f70 2f43 4f4e 5452 4942 5554 494e  elop/CONTRIBUTIN
+-00000940: 472e 6d64 292e 5c6e 5c6e 506c 6561 7365  G.md).\n\nPlease
+-00000950: 2073 6565 2074 6865 2066 6f6c 6c6f 7769   see the followi
+-00000960: 6e67 2068 656c 7066 756c 2067 7569 6465  ng helpful guide
+-00000970: 2061 626f 7574 205b 6465 7665 6c6f 7069   about [developi
+-00000980: 6e67 206d 6f64 756c 6172 2056 4f4c 5454  ng modular VOLTT
+-00000990: 524f 4e20 6167 656e 7473 5d28 6874 7470  RON agents](http
+-000009a0: 733a 2f2f 6769 7468 7562 2e63 6f6d 2f65  s://github.com/e
+-000009b0: 636c 6970 7365 2d76 6f6c 7474 726f 6e2f  clipse-volttron/
+-000009c0: 766f 6c74 7472 6f6e 2d63 6f72 652f 626c  volttron-core/bl
+-000009d0: 6f62 2f64 6576 656c 6f70 2f44 4556 454c  ob/develop/DEVEL
+-000009e0: 4f50 494e 475f 4f4e 5f4d 4f44 554c 4152  OPING_ON_MODULAR
+-000009f0: 2e6d 6429 5c6e 5c6e 5c6e 2320 4469 7363  .md)\n\n\n# Disc
+-00000a00: 6c61 696d 6572 204e 6f74 6963 655c 6e5c  laimer Notice\n\
+-00000a10: 6e54 6869 7320 6d61 7465 7269 616c 2077  nThis material w
+-00000a20: 6173 2070 7265 7061 7265 6420 6173 2061  as prepared as a
+-00000a30: 6e20 6163 636f 756e 7420 6f66 2077 6f72  n account of wor
+-00000a40: 6b20 7370 6f6e 736f 7265 6420 6279 2061  k sponsored by a
+-00000a50: 6e20 6167 656e 6379 206f 6620 7468 655c  n agency of the\
+-00000a60: 6e55 6e69 7465 6420 5374 6174 6573 2047  nUnited States G
+-00000a70: 6f76 6572 6e6d 656e 742e 2020 4e65 6974  overnment.  Neit
+-00000a80: 6865 7220 7468 6520 556e 6974 6564 2053  her the United S
+-00000a90: 7461 7465 7320 476f 7665 726e 6d65 6e74  tates Government
+-00000aa0: 206e 6f72 2074 6865 2055 6e69 7465 645c   nor the United\
+-00000ab0: 6e53 7461 7465 7320 4465 7061 7274 6d65  nStates Departme
+-00000ac0: 6e74 206f 6620 456e 6572 6779 2c20 6e6f  nt of Energy, no
+-00000ad0: 7220 4261 7474 656c 6c65 2c20 6e6f 7220  r Battelle, nor 
+-00000ae0: 616e 7920 6f66 2074 6865 6972 2065 6d70  any of their emp
+-00000af0: 6c6f 7965 6573 2c20 6e6f 7220 616e 795c  loyees, nor any\
+-00000b00: 6e6a 7572 6973 6469 6374 696f 6e20 6f72  njurisdiction or
+-00000b10: 206f 7267 616e 697a 6174 696f 6e20 7468   organization th
+-00000b20: 6174 2068 6173 2063 6f6f 7065 7261 7465  at has cooperate
+-00000b30: 6420 696e 2074 6865 2064 6576 656c 6f70  d in the develop
+-00000b40: 6d65 6e74 206f 6620 7468 6573 655c 6e6d  ment of these\nm
+-00000b50: 6174 6572 6961 6c73 2c20 6d61 6b65 7320  aterials, makes 
+-00000b60: 616e 7920 7761 7272 616e 7479 2c20 6578  any warranty, ex
+-00000b70: 7072 6573 7320 6f72 2069 6d70 6c69 6564  press or implied
+-00000b80: 2c20 6f72 2061 7373 756d 6573 2061 6e79  , or assumes any
+-00000b90: 206c 6567 616c 5c6e 6c69 6162 696c 6974   legal\nliabilit
+-00000ba0: 7920 6f72 2072 6573 706f 6e73 6962 696c  y or responsibil
+-00000bb0: 6974 7920 666f 7220 7468 6520 6163 6375  ity for the accu
+-00000bc0: 7261 6379 2c20 636f 6d70 6c65 7465 6e65  racy, completene
+-00000bd0: 7373 2c20 6f72 2075 7365 6675 6c6e 6573  ss, or usefulnes
+-00000be0: 7320 6f72 2061 6e79 5c6e 696e 666f 726d  s or any\ninform
+-00000bf0: 6174 696f 6e2c 2061 7070 6172 6174 7573  ation, apparatus
+-00000c00: 2c20 7072 6f64 7563 742c 2073 6f66 7477  , product, softw
+-00000c10: 6172 652c 206f 7220 7072 6f63 6573 7320  are, or process 
+-00000c20: 6469 7363 6c6f 7365 642c 206f 7220 7265  disclosed, or re
+-00000c30: 7072 6573 656e 7473 5c6e 7468 6174 2069  presents\nthat i
+-00000c40: 7473 2075 7365 2077 6f75 6c64 206e 6f74  ts use would not
+-00000c50: 2069 6e66 7269 6e67 6520 7072 6976 6174   infringe privat
+-00000c60: 656c 7920 6f77 6e65 6420 7269 6768 7473  ely owned rights
+-00000c70: 2e5c 6e5c 6e52 6566 6572 656e 6365 2068  .\n\nReference h
+-00000c80: 6572 6569 6e20 746f 2061 6e79 2073 7065  erein to any spe
+-00000c90: 6369 6669 6320 636f 6d6d 6572 6369 616c  cific commercial
+-00000ca0: 2070 726f 6475 6374 2c20 7072 6f63 6573   product, proces
+-00000cb0: 732c 206f 7220 7365 7276 6963 6520 6279  s, or service by
+-00000cc0: 5c6e 7472 6164 6520 6e61 6d65 2c20 7472  \ntrade name, tr
+-00000cd0: 6164 656d 6172 6b2c 206d 616e 7566 6163  ademark, manufac
+-00000ce0: 7475 7265 722c 206f 7220 6f74 6865 7277  turer, or otherw
+-00000cf0: 6973 6520 646f 6573 206e 6f74 206e 6563  ise does not nec
+-00000d00: 6573 7361 7269 6c79 5c6e 636f 6e73 7469  essarily\nconsti
+-00000d10: 7475 7465 206f 7220 696d 706c 7920 6974  tute or imply it
+-00000d20: 7320 656e 646f 7273 656d 656e 742c 2072  s endorsement, r
+-00000d30: 6563 6f6d 6d65 6e64 6174 696f 6e2c 206f  ecommendation, o
+-00000d40: 7220 6661 766f 7269 6e67 2062 7920 7468  r favoring by th
+-00000d50: 6520 556e 6974 6564 5c6e 5374 6174 6573  e United\nStates
+-00000d60: 2047 6f76 6572 6e6d 656e 7420 6f72 2061   Government or a
+-00000d70: 6e79 2061 6765 6e63 7920 7468 6572 656f  ny agency thereo
+-00000d80: 662c 206f 7220 4261 7474 656c 6c65 204d  f, or Battelle M
+-00000d90: 656d 6f72 6961 6c20 496e 7374 6974 7574  emorial Institut
+-00000da0: 652e 2054 6865 5c6e 7669 6577 7320 616e  e. The\nviews an
+-00000db0: 6420 6f70 696e 696f 6e73 206f 6620 6175  d opinions of au
+-00000dc0: 7468 6f72 7320 6578 7072 6573 7365 6420  thors expressed 
+-00000dd0: 6865 7265 696e 2064 6f20 6e6f 7420 6e65  herein do not ne
+-00000de0: 6365 7373 6172 696c 7920 7374 6174 6520  cessarily state 
+-00000df0: 6f72 5c6e 7265 666c 6563 7420 7468 6f73  or\nreflect thos
+-00000e00: 6520 6f66 2074 6865 2055 6e69 7465 6420  e of the United 
+-00000e10: 5374 6174 6573 2047 6f76 6572 6e6d 656e  States Governmen
+-00000e20: 7420 6f72 2061 6e79 2061 6765 6e63 7920  t or any agency 
+-00000e30: 7468 6572 656f 662e 5c6e 272c 0a20 2020  thereof.\n',.   
+-00000e40: 2027 6175 7468 6f72 273a 2027 4d61 726b   'author': 'Mark
+-00000e50: 2042 6f6e 6963 696c 6c6f 272c 0a20 2020   Bonicillo',.   
+-00000e60: 2027 6175 7468 6f72 5f65 6d61 696c 273a   'author_email':
+-00000e70: 2027 766f 6c74 7472 6f6e 4070 6e6e 6c2e   'volttron@pnnl.
+-00000e80: 676f 7627 2c0a 2020 2020 276d 6169 6e74  gov',.    'maint
+-00000e90: 6169 6e65 7227 3a20 274e 6f6e 6527 2c0a  ainer': 'None',.
+-00000ea0: 2020 2020 276d 6169 6e74 6169 6e65 725f      'maintainer_
+-00000eb0: 656d 6169 6c27 3a20 274e 6f6e 6527 2c0a  email': 'None',.
+-00000ec0: 2020 2020 2775 726c 273a 2027 6874 7470      'url': 'http
+-00000ed0: 733a 2f2f 6769 7468 7562 2e63 6f6d 2f56  s://github.com/V
+-00000ee0: 4f4c 5454 524f 4e2f 766f 6c74 7472 6f6e  OLTTRON/volttron
+-00000ef0: 2d61 6374 7561 746f 7227 2c0a 2020 2020  -actuator',.    
+-00000f00: 2770 6163 6b61 6765 5f64 6972 273a 2070  'package_dir': p
+-00000f10: 6163 6b61 6765 5f64 6972 2c0a 2020 2020  ackage_dir,.    
+-00000f20: 2770 6163 6b61 6765 7327 3a20 7061 636b  'packages': pack
+-00000f30: 6167 6573 2c0a 2020 2020 2770 6163 6b61  ages,.    'packa
+-00000f40: 6765 5f64 6174 6127 3a20 7061 636b 6167  ge_data': packag
+-00000f50: 655f 6461 7461 2c0a 2020 2020 2769 6e73  e_data,.    'ins
+-00000f60: 7461 6c6c 5f72 6571 7569 7265 7327 3a20  tall_requires': 
+-00000f70: 696e 7374 616c 6c5f 7265 7175 6972 6573  install_requires
+-00000f80: 2c0a 2020 2020 2765 6e74 7279 5f70 6f69  ,.    'entry_poi
+-00000f90: 6e74 7327 3a20 656e 7472 795f 706f 696e  nts': entry_poin
+-00000fa0: 7473 2c0a 2020 2020 2770 7974 686f 6e5f  ts,.    'python_
+-00000fb0: 7265 7175 6972 6573 273a 2027 3e3d 332e  requires': '>=3.
+-00000fc0: 382c 3c34 2e30 272c 0a7d 0a0a 0a73 6574  8,<4.0',.}...set
+-00000fd0: 7570 282a 2a73 6574 7570 5f6b 7761 7267  up(**setup_kwarg
+-00000fe0: 7329 0a                                  s).
++00000290: 6769 7468 7562 2e63 6f6d 2f65 636c 6970  github.com/eclip
++000002a0: 7365 2d76 6f6c 7474 726f 6e2f 766f 6c74  se-volttron/volt
++000002b0: 7472 6f6e 2d61 6374 7561 746f 722f 6163  tron-actuator/ac
++000002c0: 7469 6f6e 732f 776f 726b 666c 6f77 732f  tions/workflows/
++000002d0: 7275 6e2d 7465 7374 732e 796d 6c2f 6261  run-tests.yml/ba
++000002e0: 6467 652e 7376 6729 5d28 6874 7470 733a  dge.svg)](https:
++000002f0: 2f2f 6769 7468 7562 2e63 6f6d 2f56 4f4c  //github.com/VOL
++00000300: 5454 524f 4e2f 766f 6c74 7472 6f6e 2d61  TTRON/volttron-a
++00000310: 6374 7561 746f 722f 6163 7469 6f6e 732f  ctuator/actions/
++00000320: 776f 726b 666c 6f77 732f 7275 6e2d 7465  workflows/run-te
++00000330: 7374 732e 796d 6c29 5c6e 5b21 5b70 7970  sts.yml)\n[![pyp
++00000340: 6920 7665 7273 696f 6e5d 2868 7474 7073  i version](https
++00000350: 3a2f 2f69 6d67 2e73 6869 656c 6473 2e69  ://img.shields.i
++00000360: 6f2f 7079 7069 2f76 2f76 6f6c 7474 726f  o/pypi/v/volttro
++00000370: 6e2d 6163 7475 6174 6f72 2e73 7667 295d  n-actuator.svg)]
++00000380: 2868 7474 7073 3a2f 2f70 7970 692e 6f72  (https://pypi.or
++00000390: 672f 7072 6f6a 6563 742f 766f 6c74 7472  g/project/volttr
++000003a0: 6f6e 2d61 6374 7561 746f 722f 295c 6e5c  on-actuator/)\n\
++000003b0: 6e5c 6e54 6865 2041 6374 7561 746f 7220  n\nThe Actuator 
++000003c0: 4167 656e 7420 6973 2075 7365 6420 746f  Agent is used to
++000003d0: 206d 616e 6167 6520 7772 6974 6520 6163   manage write ac
++000003e0: 6365 7373 2074 6f20 6465 7669 6365 732e  cess to devices.
++000003f0: 204f 7468 6572 2061 6765 6e74 7320 6d61   Other agents ma
++00000400: 7920 7265 7175 6573 7420 7363 6865 6475  y request schedu
++00000410: 6c65 6420 7469 6d65 732c 2063 616c 6c65  led times, calle
++00000420: 6420 5461 736b 732c 2074 6f20 696e 7465  d Tasks, to inte
++00000430: 7261 6374 2077 6974 6820 6f6e 6520 6f72  ract with one or
++00000440: 206d 6f72 6520 6465 7669 6365 732e 5c6e   more devices.\n
++00000450: 5c6e 2320 5265 7175 6972 6573 5c6e 5c6e  \n# Requires\n\n
++00000460: 2a20 7079 7468 6f6e 203e 3d20 332e 3130  * python >= 3.10
++00000470: 5c6e 2a20 766f 6c74 7472 6f6e 203e 3d20  \n* volttron >= 
++00000480: 3130 2e30 5c6e 2a20 747a 6c6f 6361 6c20  10.0\n* tzlocal 
++00000490: 3e3d 2034 2e32 5c6e 2a20 7479 7065 732d  >= 4.2\n* types-
++000004a0: 747a 6c6f 6361 6c20 3e3d 2034 2e32 2e32  tzlocal >= 4.2.2
++000004b0: 2e32 5c6e 5c6e 2320 446f 6375 6d65 6e74  .2\n\n# Document
++000004c0: 6174 696f 6e5c 6e4d 6f72 6520 6465 7461  ation\nMore deta
++000004d0: 696c 6564 2064 6f63 756d 656e 7461 7469  iled documentati
++000004e0: 6f6e 2063 616e 2062 6520 666f 756e 6420  on can be found 
++000004f0: 6f6e 205b 5265 6164 5468 6544 6f63 735d  on [ReadTheDocs]
++00000500: 2868 7474 7073 3a2f 2f76 6f6c 7474 726f  (https://volttro
++00000510: 6e2e 7265 6164 7468 6564 6f63 732e 696f  n.readthedocs.io
++00000520: 2f65 6e2f 6d6f 6475 6c61 722f 292e 2054  /en/modular/). T
++00000530: 6865 2052 5354 2073 6f75 7263 655c 6e6f  he RST source\no
++00000540: 6620 7468 6520 646f 6375 6d65 6e74 6174  f the documentat
++00000550: 696f 6e20 666f 7220 7468 6973 2063 6f6d  ion for this com
++00000560: 706f 6e65 6e74 2069 7320 6c6f 6361 7465  ponent is locate
++00000570: 6420 696e 2074 6865 2022 646f 6373 2220  d in the "docs" 
++00000580: 6469 7265 6374 6f72 7920 6f66 2074 6869  directory of thi
++00000590: 7320 7265 706f 7369 746f 7279 2e5c 6e5c  s repository.\n\
++000005a0: 6e23 2049 6e73 7461 6c6c 6174 696f 6e5c  n# Installation\
++000005b0: 6e5c 6e42 6566 6f72 6520 696e 7374 616c  n\nBefore instal
++000005c0: 6c69 6e67 2c20 564f 4c54 5452 4f4e 2073  ling, VOLTTRON s
++000005d0: 686f 756c 6420 6265 2069 6e73 7461 6c6c  hould be install
++000005e0: 6564 2061 6e64 2072 756e 6e69 6e67 2e20  ed and running. 
++000005f0: 2049 7473 2076 6972 7475 616c 2065 6e76   Its virtual env
++00000600: 6972 6f6e 6d65 6e74 2073 686f 756c 6420  ironment should 
++00000610: 6265 2061 6374 6976 652e 5c6e 496e 666f  be active.\nInfo
++00000620: 726d 6174 696f 6e20 6f6e 2068 6f77 2074  rmation on how t
++00000630: 6f20 696e 7374 616c 6c20 6f66 2074 6865  o install of the
++00000640: 2056 4f4c 5454 524f 4e20 706c 6174 666f   VOLTTRON platfo
++00000650: 726d 2063 616e 2062 6520 666f 756e 645c  rm can be found\
++00000660: 6e5b 6865 7265 5d28 6874 7470 733a 2f2f  n[here](https://
++00000670: 6769 7468 7562 2e63 6f6d 2f65 636c 6970  github.com/eclip
++00000680: 7365 2d76 6f6c 7474 726f 6e2f 766f 6c74  se-volttron/volt
++00000690: 7472 6f6e 2d63 6f72 6529 2e5c 6e5c 6e49  tron-core).\n\nI
++000006a0: 6e73 7461 6c6c 2061 6e64 2073 7461 7274  nstall and start
++000006b0: 2074 6865 2076 6f6c 7474 726f 6e2d 6163   the volttron-ac
++000006c0: 7475 6174 6f72 2e5c 6e5c 6e60 6060 7368  tuator.\n\n```sh
++000006d0: 656c 6c5c 6e76 6374 6c20 696e 7374 616c  ell\nvctl instal
++000006e0: 6c20 766f 6c74 7472 6f6e 2d61 6374 7561  l volttron-actua
++000006f0: 746f 7220 2d2d 6167 656e 742d 636f 6e66  tor --agent-conf
++00000700: 6967 203c 7061 7468 2074 6f20 6167 656e  ig <path to agen
++00000710: 7420 636f 6e66 6967 3e20 2d2d 7374 6172  t config> --star
++00000720: 745c 6e60 6060 5c6e 5c6e 5669 6577 2074  t\n```\n\nView t
++00000730: 6865 2073 7461 7475 7320 6f66 2074 6865  he status of the
++00000740: 2069 6e73 7461 6c6c 6564 2061 6765 6e74   installed agent
++00000750: 5c6e 5c6e 6060 6073 6865 6c6c 5c6e 7663  \n\n```shell\nvc
++00000760: 746c 2073 7461 7475 735c 6e60 6060 5c6e  tl status\n```\n
++00000770: 5c6e 2320 4465 7665 6c6f 706d 656e 745c  \n# Development\
++00000780: 6e5c 6e50 6c65 6173 6520 7365 6520 7468  n\nPlease see th
++00000790: 6520 666f 6c6c 6f77 696e 6720 666f 7220  e following for 
++000007a0: 636f 6e74 7269 6275 7469 6e67 2067 7569  contributing gui
++000007b0: 6465 6c69 6e65 7320 5b63 6f6e 7472 6962  delines [contrib
++000007c0: 7574 696e 675d 2868 7474 7073 3a2f 2f67  uting](https://g
++000007d0: 6974 6875 622e 636f 6d2f 6563 6c69 7073  ithub.com/eclips
++000007e0: 652d 766f 6c74 7472 6f6e 2f76 6f6c 7474  e-volttron/voltt
++000007f0: 726f 6e2d 636f 7265 2f62 6c6f 622f 6465  ron-core/blob/de
++00000800: 7665 6c6f 702f 434f 4e54 5249 4255 5449  velop/CONTRIBUTI
++00000810: 4e47 2e6d 6429 2e5c 6e5c 6e50 6c65 6173  NG.md).\n\nPleas
++00000820: 6520 7365 6520 7468 6520 666f 6c6c 6f77  e see the follow
++00000830: 696e 6720 6865 6c70 6675 6c20 6775 6964  ing helpful guid
++00000840: 6520 6162 6f75 7420 5b64 6576 656c 6f70  e about [develop
++00000850: 696e 6720 6d6f 6475 6c61 7220 564f 4c54  ing modular VOLT
++00000860: 5452 4f4e 2061 6765 6e74 735d 2868 7474  TRON agents](htt
++00000870: 7073 3a2f 2f67 6974 6875 622e 636f 6d2f  ps://github.com/
++00000880: 6563 6c69 7073 652d 766f 6c74 7472 6f6e  eclipse-volttron
++00000890: 2f76 6f6c 7474 726f 6e2d 636f 7265 2f62  /volttron-core/b
++000008a0: 6c6f 622f 6465 7665 6c6f 702f 4445 5645  lob/develop/DEVE
++000008b0: 4c4f 5049 4e47 5f4f 4e5f 4d4f 4455 4c41  LOPING_ON_MODULA
++000008c0: 522e 6d64 295c 6e5c 6e5c 6e23 2044 6973  R.md)\n\n\n# Dis
++000008d0: 636c 6169 6d65 7220 4e6f 7469 6365 5c6e  claimer Notice\n
++000008e0: 5c6e 5468 6973 206d 6174 6572 6961 6c20  \nThis material 
++000008f0: 7761 7320 7072 6570 6172 6564 2061 7320  was prepared as 
++00000900: 616e 2061 6363 6f75 6e74 206f 6620 776f  an account of wo
++00000910: 726b 2073 706f 6e73 6f72 6564 2062 7920  rk sponsored by 
++00000920: 616e 2061 6765 6e63 7920 6f66 2074 6865  an agency of the
++00000930: 5c6e 556e 6974 6564 2053 7461 7465 7320  \nUnited States 
++00000940: 476f 7665 726e 6d65 6e74 2e20 204e 6569  Government.  Nei
++00000950: 7468 6572 2074 6865 2055 6e69 7465 6420  ther the United 
++00000960: 5374 6174 6573 2047 6f76 6572 6e6d 656e  States Governmen
++00000970: 7420 6e6f 7220 7468 6520 556e 6974 6564  t nor the United
++00000980: 5c6e 5374 6174 6573 2044 6570 6172 746d  \nStates Departm
++00000990: 656e 7420 6f66 2045 6e65 7267 792c 206e  ent of Energy, n
++000009a0: 6f72 2042 6174 7465 6c6c 652c 206e 6f72  or Battelle, nor
++000009b0: 2061 6e79 206f 6620 7468 6569 7220 656d   any of their em
++000009c0: 706c 6f79 6565 732c 206e 6f72 2061 6e79  ployees, nor any
++000009d0: 5c6e 6a75 7269 7364 6963 7469 6f6e 206f  \njurisdiction o
++000009e0: 7220 6f72 6761 6e69 7a61 7469 6f6e 2074  r organization t
++000009f0: 6861 7420 6861 7320 636f 6f70 6572 6174  hat has cooperat
++00000a00: 6564 2069 6e20 7468 6520 6465 7665 6c6f  ed in the develo
++00000a10: 706d 656e 7420 6f66 2074 6865 7365 5c6e  pment of these\n
++00000a20: 6d61 7465 7269 616c 732c 206d 616b 6573  materials, makes
++00000a30: 2061 6e79 2077 6172 7261 6e74 792c 2065   any warranty, e
++00000a40: 7870 7265 7373 206f 7220 696d 706c 6965  xpress or implie
++00000a50: 642c 206f 7220 6173 7375 6d65 7320 616e  d, or assumes an
++00000a60: 7920 6c65 6761 6c5c 6e6c 6961 6269 6c69  y legal\nliabili
++00000a70: 7479 206f 7220 7265 7370 6f6e 7369 6269  ty or responsibi
++00000a80: 6c69 7479 2066 6f72 2074 6865 2061 6363  lity for the acc
++00000a90: 7572 6163 792c 2063 6f6d 706c 6574 656e  uracy, completen
++00000aa0: 6573 732c 206f 7220 7573 6566 756c 6e65  ess, or usefulne
++00000ab0: 7373 206f 7220 616e 795c 6e69 6e66 6f72  ss or any\ninfor
++00000ac0: 6d61 7469 6f6e 2c20 6170 7061 7261 7475  mation, apparatu
++00000ad0: 732c 2070 726f 6475 6374 2c20 736f 6674  s, product, soft
++00000ae0: 7761 7265 2c20 6f72 2070 726f 6365 7373  ware, or process
++00000af0: 2064 6973 636c 6f73 6564 2c20 6f72 2072   disclosed, or r
++00000b00: 6570 7265 7365 6e74 735c 6e74 6861 7420  epresents\nthat 
++00000b10: 6974 7320 7573 6520 776f 756c 6420 6e6f  its use would no
++00000b20: 7420 696e 6672 696e 6765 2070 7269 7661  t infringe priva
++00000b30: 7465 6c79 206f 776e 6564 2072 6967 6874  tely owned right
++00000b40: 732e 5c6e 5c6e 5265 6665 7265 6e63 6520  s.\n\nReference 
++00000b50: 6865 7265 696e 2074 6f20 616e 7920 7370  herein to any sp
++00000b60: 6563 6966 6963 2063 6f6d 6d65 7263 6961  ecific commercia
++00000b70: 6c20 7072 6f64 7563 742c 2070 726f 6365  l product, proce
++00000b80: 7373 2c20 6f72 2073 6572 7669 6365 2062  ss, or service b
++00000b90: 795c 6e74 7261 6465 206e 616d 652c 2074  y\ntrade name, t
++00000ba0: 7261 6465 6d61 726b 2c20 6d61 6e75 6661  rademark, manufa
++00000bb0: 6374 7572 6572 2c20 6f72 206f 7468 6572  cturer, or other
++00000bc0: 7769 7365 2064 6f65 7320 6e6f 7420 6e65  wise does not ne
++00000bd0: 6365 7373 6172 696c 795c 6e63 6f6e 7374  cessarily\nconst
++00000be0: 6974 7574 6520 6f72 2069 6d70 6c79 2069  itute or imply i
++00000bf0: 7473 2065 6e64 6f72 7365 6d65 6e74 2c20  ts endorsement, 
++00000c00: 7265 636f 6d6d 656e 6461 7469 6f6e 2c20  recommendation, 
++00000c10: 6f72 2066 6176 6f72 696e 6720 6279 2074  or favoring by t
++00000c20: 6865 2055 6e69 7465 645c 6e53 7461 7465  he United\nState
++00000c30: 7320 476f 7665 726e 6d65 6e74 206f 7220  s Government or 
++00000c40: 616e 7920 6167 656e 6379 2074 6865 7265  any agency there
++00000c50: 6f66 2c20 6f72 2042 6174 7465 6c6c 6520  of, or Battelle 
++00000c60: 4d65 6d6f 7269 616c 2049 6e73 7469 7475  Memorial Institu
++00000c70: 7465 2e20 5468 655c 6e76 6965 7773 2061  te. The\nviews a
++00000c80: 6e64 206f 7069 6e69 6f6e 7320 6f66 2061  nd opinions of a
++00000c90: 7574 686f 7273 2065 7870 7265 7373 6564  uthors expressed
++00000ca0: 2068 6572 6569 6e20 646f 206e 6f74 206e   herein do not n
++00000cb0: 6563 6573 7361 7269 6c79 2073 7461 7465  ecessarily state
++00000cc0: 206f 725c 6e72 6566 6c65 6374 2074 686f   or\nreflect tho
++00000cd0: 7365 206f 6620 7468 6520 556e 6974 6564  se of the United
++00000ce0: 2053 7461 7465 7320 476f 7665 726e 6d65   States Governme
++00000cf0: 6e74 206f 7220 616e 7920 6167 656e 6379  nt or any agency
++00000d00: 2074 6865 7265 6f66 2e5c 6e27 2c0a 2020   thereof.\n',.  
++00000d10: 2020 2761 7574 686f 7227 3a20 274d 6172    'author': 'Mar
++00000d20: 6b20 426f 6e69 6369 6c6c 6f27 2c0a 2020  k Bonicillo',.  
++00000d30: 2020 2761 7574 686f 725f 656d 6169 6c27    'author_email'
++00000d40: 3a20 2776 6f6c 7474 726f 6e40 706e 6e6c  : 'volttron@pnnl
++00000d50: 2e67 6f76 272c 0a20 2020 2027 6d61 696e  .gov',.    'main
++00000d60: 7461 696e 6572 273a 2027 4e6f 6e65 272c  tainer': 'None',
++00000d70: 0a20 2020 2027 6d61 696e 7461 696e 6572  .    'maintainer
++00000d80: 5f65 6d61 696c 273a 2027 4e6f 6e65 272c  _email': 'None',
++00000d90: 0a20 2020 2027 7572 6c27 3a20 2768 7474  .    'url': 'htt
++00000da0: 7073 3a2f 2f67 6974 6875 622e 636f 6d2f  ps://github.com/
++00000db0: 564f 4c54 5452 4f4e 2f76 6f6c 7474 726f  VOLTTRON/volttro
++00000dc0: 6e2d 6163 7475 6174 6f72 272c 0a20 2020  n-actuator',.   
++00000dd0: 2027 7061 636b 6167 655f 6469 7227 3a20   'package_dir': 
++00000de0: 7061 636b 6167 655f 6469 722c 0a20 2020  package_dir,.   
++00000df0: 2027 7061 636b 6167 6573 273a 2070 6163   'packages': pac
++00000e00: 6b61 6765 732c 0a20 2020 2027 7061 636b  kages,.    'pack
++00000e10: 6167 655f 6461 7461 273a 2070 6163 6b61  age_data': packa
++00000e20: 6765 5f64 6174 612c 0a20 2020 2027 696e  ge_data,.    'in
++00000e30: 7374 616c 6c5f 7265 7175 6972 6573 273a  stall_requires':
++00000e40: 2069 6e73 7461 6c6c 5f72 6571 7569 7265   install_require
++00000e50: 732c 0a20 2020 2027 656e 7472 795f 706f  s,.    'entry_po
++00000e60: 696e 7473 273a 2065 6e74 7279 5f70 6f69  ints': entry_poi
++00000e70: 6e74 732c 0a20 2020 2027 7079 7468 6f6e  nts,.    'python
++00000e80: 5f72 6571 7569 7265 7327 3a20 273e 3d33  _requires': '>=3
++00000e90: 2e31 302c 3c34 2e30 272c 0a7d 0a0a 0a73  .10,<4.0',.}...s
++00000ea0: 6574 7570 282a 2a73 6574 7570 5f6b 7761  etup(**setup_kwa
++00000eb0: 7267 7329 0a                             rgs).
+```
+
+### Comparing `volttron_actuator-0.1.1a1/PKG-INFO` & `volttron_actuator-0.1.1a2/PKG-INFO`
+
+ * *Files 13% similar despite different names*
+
+```diff
+@@ -1,11 +1,11 @@
+ 00000000: 4d65 7461 6461 7461 2d56 6572 7369 6f6e  Metadata-Version
+ 00000010: 3a20 322e 310a 4e61 6d65 3a20 766f 6c74  : 2.1.Name: volt
+ 00000020: 7472 6f6e 2d61 6374 7561 746f 720a 5665  tron-actuator.Ve
+-00000030: 7273 696f 6e3a 2030 2e31 2e31 6131 0a53  rsion: 0.1.1a1.S
++00000030: 7273 696f 6e3a 2030 2e31 2e31 6132 0a53  rsion: 0.1.1a2.S
+ 00000040: 756d 6d61 7279 3a20 5468 6520 4163 7475  ummary: The Actu
+ 00000050: 6174 6f72 2041 6765 6e74 2069 7320 7573  ator Agent is us
+ 00000060: 6564 2074 6f20 6d61 6e61 6765 2077 7269  ed to manage wri
+ 00000070: 7465 2061 6363 6573 7320 746f 2064 6576  te access to dev
+ 00000080: 6963 6573 2e20 4f74 6865 7220 6167 656e  ices. Other agen
+ 00000090: 7473 206d 6179 2072 6571 7565 7374 2073  ts may request s
+ 000000a0: 6368 6564 756c 6564 2074 696d 6573 2c20  cheduled times, 
+@@ -17,243 +17,220 @@
+ 00000100: 6d2f 564f 4c54 5452 4f4e 2f76 6f6c 7474  m/VOLTTRON/voltt
+ 00000110: 726f 6e2d 6163 7475 6174 6f72 0a4c 6963  ron-actuator.Lic
+ 00000120: 656e 7365 3a20 4170 6163 6865 2d32 2e30  ense: Apache-2.0
+ 00000130: 0a41 7574 686f 723a 204d 6172 6b20 426f  .Author: Mark Bo
+ 00000140: 6e69 6369 6c6c 6f0a 4175 7468 6f72 2d65  nicillo.Author-e
+ 00000150: 6d61 696c 3a20 766f 6c74 7472 6f6e 4070  mail: volttron@p
+ 00000160: 6e6e 6c2e 676f 760a 5265 7175 6972 6573  nnl.gov.Requires
+-00000170: 2d50 7974 686f 6e3a 203e 3d33 2e38 2c3c  -Python: >=3.8,<
+-00000180: 342e 300a 436c 6173 7369 6669 6572 3a20  4.0.Classifier: 
+-00000190: 496e 7465 6e64 6564 2041 7564 6965 6e63  Intended Audienc
+-000001a0: 6520 3a3a 2044 6576 656c 6f70 6572 730a  e :: Developers.
+-000001b0: 436c 6173 7369 6669 6572 3a20 496e 7465  Classifier: Inte
+-000001c0: 6e64 6564 2041 7564 6965 6e63 6520 3a3a  nded Audience ::
+-000001d0: 2049 6e66 6f72 6d61 7469 6f6e 2054 6563   Information Tec
+-000001e0: 686e 6f6c 6f67 790a 436c 6173 7369 6669  hnology.Classifi
+-000001f0: 6572 3a20 496e 7465 6e64 6564 2041 7564  er: Intended Aud
+-00000200: 6965 6e63 6520 3a3a 204f 7468 6572 2041  ience :: Other A
+-00000210: 7564 6965 6e63 650a 436c 6173 7369 6669  udience.Classifi
+-00000220: 6572 3a20 496e 7465 6e64 6564 2041 7564  er: Intended Aud
+-00000230: 6965 6e63 6520 3a3a 2053 6369 656e 6365  ience :: Science
+-00000240: 2f52 6573 6561 7263 680a 436c 6173 7369  /Research.Classi
+-00000250: 6669 6572 3a20 4c69 6365 6e73 6520 3a3a  fier: License ::
+-00000260: 204f 5349 2041 7070 726f 7665 6420 3a3a   OSI Approved ::
+-00000270: 2041 7061 6368 6520 536f 6674 7761 7265   Apache Software
+-00000280: 204c 6963 656e 7365 0a43 6c61 7373 6966   License.Classif
+-00000290: 6965 723a 2050 726f 6772 616d 6d69 6e67  ier: Programming
+-000002a0: 204c 616e 6775 6167 6520 3a3a 2050 7974   Language :: Pyt
+-000002b0: 686f 6e20 3a3a 2033 0a43 6c61 7373 6966  hon :: 3.Classif
+-000002c0: 6965 723a 2050 726f 6772 616d 6d69 6e67  ier: Programming
+-000002d0: 204c 616e 6775 6167 6520 3a3a 2050 7974   Language :: Pyt
+-000002e0: 686f 6e20 3a3a 2033 2e38 0a43 6c61 7373  hon :: 3.8.Class
+-000002f0: 6966 6965 723a 2050 726f 6772 616d 6d69  ifier: Programmi
+-00000300: 6e67 204c 616e 6775 6167 6520 3a3a 2050  ng Language :: P
+-00000310: 7974 686f 6e20 3a3a 2033 2e39 0a43 6c61  ython :: 3.9.Cla
+-00000320: 7373 6966 6965 723a 2050 726f 6772 616d  ssifier: Program
+-00000330: 6d69 6e67 204c 616e 6775 6167 6520 3a3a  ming Language ::
+-00000340: 2050 7974 686f 6e20 3a3a 2033 2e31 300a   Python :: 3.10.
+-00000350: 436c 6173 7369 6669 6572 3a20 5072 6f67  Classifier: Prog
+-00000360: 7261 6d6d 696e 6720 4c61 6e67 7561 6765  ramming Language
+-00000370: 203a 3a20 5079 7468 6f6e 203a 3a20 332e   :: Python :: 3.
+-00000380: 3131 0a43 6c61 7373 6966 6965 723a 2050  11.Classifier: P
+-00000390: 726f 6772 616d 6d69 6e67 204c 616e 6775  rogramming Langu
+-000003a0: 6167 6520 3a3a 2050 7974 686f 6e20 3a3a  age :: Python ::
+-000003b0: 2033 203a 3a20 4f6e 6c79 0a52 6571 7569   3 :: Only.Requi
+-000003c0: 7265 732d 4469 7374 3a20 7479 7065 732d  res-Dist: types-
+-000003d0: 747a 6c6f 6361 6c20 283e 3d34 2e32 2e32  tzlocal (>=4.2.2
+-000003e0: 2e32 2c3c 352e 302e 302e 3029 0a52 6571  .2,<5.0.0.0).Req
+-000003f0: 7569 7265 732d 4469 7374 3a20 747a 6c6f  uires-Dist: tzlo
+-00000400: 6361 6c20 283e 3d34 2e32 2c3c 352e 3029  cal (>=4.2,<5.0)
+-00000410: 0a52 6571 7569 7265 732d 4469 7374 3a20  .Requires-Dist: 
+-00000420: 766f 6c74 7472 6f6e 2028 3e3d 3130 2e30  volttron (>=10.0
+-00000430: 2e32 7263 302c 3c31 312e 3029 0a50 726f  .2rc0,<11.0).Pro
+-00000440: 6a65 6374 2d55 524c 3a20 5265 706f 7369  ject-URL: Reposi
+-00000450: 746f 7279 2c20 6874 7470 733a 2f2f 6769  tory, https://gi
+-00000460: 7468 7562 2e63 6f6d 2f56 4f4c 5454 524f  thub.com/VOLTTRO
+-00000470: 4e2f 766f 6c74 7472 6f6e 2d61 6374 7561  N/volttron-actua
+-00000480: 746f 720a 4465 7363 7269 7074 696f 6e2d  tor.Description-
+-00000490: 436f 6e74 656e 742d 5479 7065 3a20 7465  Content-Type: te
+-000004a0: 7874 2f6d 6172 6b64 6f77 6e0a 0a23 2076  xt/markdown..# v
+-000004b0: 6f6c 7474 726f 6e2d 6163 7475 6174 6f72  olttron-actuator
+-000004c0: 0a0a 5b21 5b50 6173 7369 6e67 3f5d 2868  ..[![Passing?](h
+-000004d0: 7474 7073 3a2f 2f67 6974 6875 622e 636f  ttps://github.co
+-000004e0: 6d2f 564f 4c54 5452 4f4e 2f76 6f6c 7474  m/VOLTTRON/voltt
+-000004f0: 726f 6e2d 6163 7475 6174 6f72 2f61 6374  ron-actuator/act
+-00000500: 696f 6e73 2f77 6f72 6b66 6c6f 7773 2f72  ions/workflows/r
+-00000510: 756e 2d74 6573 7473 2e79 6d6c 2f62 6164  un-tests.yml/bad
+-00000520: 6765 2e73 7667 295d 2868 7474 7073 3a2f  ge.svg)](https:/
+-00000530: 2f67 6974 6875 622e 636f 6d2f 564f 4c54  /github.com/VOLT
+-00000540: 5452 4f4e 2f76 6f6c 7474 726f 6e2d 6163  TRON/volttron-ac
+-00000550: 7475 6174 6f72 2f61 6374 696f 6e73 2f77  tuator/actions/w
+-00000560: 6f72 6b66 6c6f 7773 2f72 756e 2d74 6573  orkflows/run-tes
+-00000570: 7473 2e79 6d6c 290a 5b21 5b70 7970 6920  ts.yml).[![pypi 
+-00000580: 7665 7273 696f 6e5d 2868 7474 7073 3a2f  version](https:/
+-00000590: 2f69 6d67 2e73 6869 656c 6473 2e69 6f2f  /img.shields.io/
+-000005a0: 7079 7069 2f76 2f76 6f6c 7474 726f 6e2d  pypi/v/volttron-
+-000005b0: 6163 7475 6174 6f72 2e73 7667 295d 2868  actuator.svg)](h
+-000005c0: 7474 7073 3a2f 2f70 7970 692e 6f72 672f  ttps://pypi.org/
+-000005d0: 7072 6f6a 6563 742f 766f 6c74 7472 6f6e  project/volttron
+-000005e0: 2d61 6374 7561 746f 722f 290a 0a0a 5468  -actuator/)...Th
+-000005f0: 6520 4163 7475 6174 6f72 2041 6765 6e74  e Actuator Agent
+-00000600: 2069 7320 7573 6564 2074 6f20 6d61 6e61   is used to mana
+-00000610: 6765 2077 7269 7465 2061 6363 6573 7320  ge write access 
+-00000620: 746f 2064 6576 6963 6573 2e20 4f74 6865  to devices. Othe
+-00000630: 7220 6167 656e 7473 206d 6179 2072 6571  r agents may req
+-00000640: 7565 7374 2073 6368 6564 756c 6564 2074  uest scheduled t
+-00000650: 696d 6573 2c20 6361 6c6c 6564 2054 6173  imes, called Tas
+-00000660: 6b73 2c20 746f 2069 6e74 6572 6163 7420  ks, to interact 
+-00000670: 7769 7468 206f 6e65 206f 7220 6d6f 7265  with one or more
+-00000680: 2064 6576 6963 6573 2e0a 0a23 2320 5072   devices...## Pr
+-00000690: 6572 6571 7569 7369 7465 730a 0a2a 2050  erequisites..* P
+-000006a0: 7974 686f 6e20 332e 380a 0a23 2320 5079  ython 3.8..## Py
+-000006b0: 7468 6f6e 0a0a 3c64 6574 6169 6c73 3e0a  thon..<details>.
+-000006c0: 3c73 756d 6d61 7279 3e54 6f20 696e 7374  <summary>To inst
+-000006d0: 616c 6c20 5079 7468 6f6e 2033 2e38 2c20  all Python 3.8, 
+-000006e0: 7765 2072 6563 6f6d 6d65 6e64 2075 7369  we recommend usi
+-000006f0: 6e67 203c 6120 6872 6566 3d22 6874 7470  ng <a href="http
+-00000700: 733a 2f2f 6769 7468 7562 2e63 6f6d 2f70  s://github.com/p
+-00000710: 7965 6e76 2f70 7965 6e76 223e 3c63 6f64  yenv/pyenv"><cod
+-00000720: 653e 7079 656e 763c 2f63 6f64 653e 3c2f  e>pyenv</code></
+-00000730: 613e 2e3c 2f73 756d 6d61 7279 3e0a 0a60  a>.</summary>..`
+-00000740: 6060 6261 7368 0a23 2069 6e73 7461 6c6c  ``bash.# install
+-00000750: 2070 7965 6e76 0a67 6974 2063 6c6f 6e65   pyenv.git clone
+-00000760: 2068 7474 7073 3a2f 2f67 6974 6875 622e   https://github.
+-00000770: 636f 6d2f 7079 656e 762f 7079 656e 7620  com/pyenv/pyenv 
+-00000780: 7e2f 2e70 7965 6e76 0a0a 2320 7365 7475  ~/.pyenv..# setu
+-00000790: 7020 7079 656e 7620 2879 6f75 2073 686f  p pyenv (you sho
+-000007a0: 756c 6420 616c 736f 2070 7574 2074 6865  uld also put the
+-000007b0: 7365 2074 6872 6565 206c 696e 6573 2069  se three lines i
+-000007c0: 6e20 2e62 6173 6872 6320 6f72 2073 696d  n .bashrc or sim
+-000007d0: 696c 6172 290a 6578 706f 7274 2050 4154  ilar).export PAT
+-000007e0: 483d 2224 7b48 4f4d 457d 2f2e 7079 656e  H="${HOME}/.pyen
+-000007f0: 762f 6269 6e3a 247b 5041 5448 7d22 0a65  v/bin:${PATH}".e
+-00000800: 7870 6f72 7420 5059 454e 565f 524f 4f54  xport PYENV_ROOT
+-00000810: 3d22 247b 484f 4d45 7d2f 2e70 7965 6e76  ="${HOME}/.pyenv
+-00000820: 220a 6576 616c 2022 2428 7079 656e 7620  ".eval "$(pyenv 
+-00000830: 696e 6974 202d 2922 0a0a 2320 696e 7374  init -)"..# inst
+-00000840: 616c 6c20 5079 7468 6f6e 2033 2e38 0a70  all Python 3.8.p
+-00000850: 7965 6e76 2069 6e73 7461 6c6c 2033 2e38  yenv install 3.8
+-00000860: 2e31 300a 0a23 206d 616b 6520 6974 2061  .10..# make it a
+-00000870: 7661 696c 6162 6c65 2067 6c6f 6261 6c6c  vailable globall
+-00000880: 790a 7079 656e 7620 676c 6f62 616c 2073  y.pyenv global s
+-00000890: 7973 7465 6d20 332e 382e 3130 0a60 6060  ystem 3.8.10.```
+-000008a0: 0a3c 2f64 6574 6169 6c73 3e0a 0a23 2049  .</details>..# I
+-000008b0: 6e73 7461 6c6c 6174 696f 6e0a 0a43 7265  nstallation..Cre
+-000008c0: 6174 6520 616e 6420 6163 7469 7661 7465  ate and activate
+-000008d0: 2061 2076 6972 7475 616c 2065 6e76 6972   a virtual envir
+-000008e0: 6f6e 6d65 6e74 2e0a 0a60 6060 7368 656c  onment...```shel
+-000008f0: 6c0a 7079 7468 6f6e 202d 6d20 7665 6e76  l.python -m venv
+-00000900: 2065 6e76 0a73 6f75 7263 6520 656e 762f   env.source env/
+-00000910: 6269 6e2f 6163 7469 7661 7465 0a60 6060  bin/activate.```
+-00000920: 0a0a 496e 7374 616c 6c69 6e67 2076 6f6c  ..Installing vol
+-00000930: 7474 726f 6e2d 706c 6174 666f 726d 2d64  ttron-platform-d
+-00000940: 7269 7665 7220 7265 7175 6972 6573 2061  river requires a
+-00000950: 2072 756e 6e69 6e67 2076 6f6c 7474 726f   running volttro
+-00000960: 6e20 696e 7374 616e 6365 2e0a 0a60 6060  n instance...```
+-00000970: 7368 656c 6c0a 7069 7020 696e 7374 616c  shell.pip instal
+-00000980: 6c20 766f 6c74 7472 6f6e 0a0a 2320 5374  l volttron..# St
+-00000990: 6172 7420 706c 6174 666f 726d 2077 6974  art platform wit
+-000009a0: 6820 6f75 7470 7574 2067 6f69 6e67 2074  h output going t
+-000009b0: 6f20 766f 6c74 7472 6f6e 2e6c 6f67 0a76  o volttron.log.v
+-000009c0: 6f6c 7474 726f 6e20 2d76 7620 2d6c 2076  olttron -vv -l v
+-000009d0: 6f6c 7474 726f 6e2e 6c6f 6720 260a 6060  olttron.log &.``
+-000009e0: 600a 0a49 6e73 7461 6c6c 2061 6e64 2073  `..Install and s
+-000009f0: 7461 7274 2074 6865 2076 6f6c 7474 726f  tart the volttro
+-00000a00: 6e2d 6163 7475 6174 6f72 2e0a 0a60 6060  n-actuator...```
+-00000a10: 7368 656c 6c0a 7663 746c 2069 6e73 7461  shell.vctl insta
+-00000a20: 6c6c 2076 6f6c 7474 726f 6e2d 6163 7475  ll volttron-actu
+-00000a30: 6174 6f72 202d 2d61 6765 6e74 2d63 6f6e  ator --agent-con
+-00000a40: 6669 6720 3c70 6174 6820 746f 2061 6765  fig <path to age
+-00000a50: 6e74 2063 6f6e 6669 673e 202d 2d73 7461  nt config> --sta
+-00000a60: 7274 0a60 6060 0a0a 5669 6577 2074 6865  rt.```..View the
+-00000a70: 2073 7461 7475 7320 6f66 2074 6865 2069   status of the i
+-00000a80: 6e73 7461 6c6c 6564 2061 6765 6e74 0a0a  nstalled agent..
+-00000a90: 6060 6073 6865 6c6c 0a76 6374 6c20 7374  ```shell.vctl st
+-00000aa0: 6174 7573 0a60 6060 0a0a 2320 4465 7665  atus.```..# Deve
+-00000ab0: 6c6f 706d 656e 740a 0a50 6c65 6173 6520  lopment..Please 
+-00000ac0: 7365 6520 7468 6520 666f 6c6c 6f77 696e  see the followin
+-00000ad0: 6720 666f 7220 636f 6e74 7269 6275 7469  g for contributi
+-00000ae0: 6e67 2067 7569 6465 6c69 6e65 7320 5b63  ng guidelines [c
+-00000af0: 6f6e 7472 6962 7574 696e 675d 2868 7474  ontributing](htt
+-00000b00: 7073 3a2f 2f67 6974 6875 622e 636f 6d2f  ps://github.com/
+-00000b10: 6563 6c69 7073 652d 766f 6c74 7472 6f6e  eclipse-volttron
+-00000b20: 2f76 6f6c 7474 726f 6e2d 636f 7265 2f62  /volttron-core/b
+-00000b30: 6c6f 622f 6465 7665 6c6f 702f 434f 4e54  lob/develop/CONT
+-00000b40: 5249 4255 5449 4e47 2e6d 6429 2e0a 0a50  RIBUTING.md)...P
+-00000b50: 6c65 6173 6520 7365 6520 7468 6520 666f  lease see the fo
+-00000b60: 6c6c 6f77 696e 6720 6865 6c70 6675 6c20  llowing helpful 
+-00000b70: 6775 6964 6520 6162 6f75 7420 5b64 6576  guide about [dev
+-00000b80: 656c 6f70 696e 6720 6d6f 6475 6c61 7220  eloping modular 
+-00000b90: 564f 4c54 5452 4f4e 2061 6765 6e74 735d  VOLTTRON agents]
+-00000ba0: 2868 7474 7073 3a2f 2f67 6974 6875 622e  (https://github.
+-00000bb0: 636f 6d2f 6563 6c69 7073 652d 766f 6c74  com/eclipse-volt
+-00000bc0: 7472 6f6e 2f76 6f6c 7474 726f 6e2d 636f  tron/volttron-co
+-00000bd0: 7265 2f62 6c6f 622f 6465 7665 6c6f 702f  re/blob/develop/
+-00000be0: 4445 5645 4c4f 5049 4e47 5f4f 4e5f 4d4f  DEVELOPING_ON_MO
+-00000bf0: 4455 4c41 522e 6d64 290a 0a0a 2320 4469  DULAR.md)...# Di
+-00000c00: 7363 6c61 696d 6572 204e 6f74 6963 650a  sclaimer Notice.
+-00000c10: 0a54 6869 7320 6d61 7465 7269 616c 2077  .This material w
+-00000c20: 6173 2070 7265 7061 7265 6420 6173 2061  as prepared as a
+-00000c30: 6e20 6163 636f 756e 7420 6f66 2077 6f72  n account of wor
+-00000c40: 6b20 7370 6f6e 736f 7265 6420 6279 2061  k sponsored by a
+-00000c50: 6e20 6167 656e 6379 206f 6620 7468 650a  n agency of the.
+-00000c60: 556e 6974 6564 2053 7461 7465 7320 476f  United States Go
+-00000c70: 7665 726e 6d65 6e74 2e20 204e 6569 7468  vernment.  Neith
+-00000c80: 6572 2074 6865 2055 6e69 7465 6420 5374  er the United St
+-00000c90: 6174 6573 2047 6f76 6572 6e6d 656e 7420  ates Government 
+-00000ca0: 6e6f 7220 7468 6520 556e 6974 6564 0a53  nor the United.S
+-00000cb0: 7461 7465 7320 4465 7061 7274 6d65 6e74  tates Department
+-00000cc0: 206f 6620 456e 6572 6779 2c20 6e6f 7220   of Energy, nor 
+-00000cd0: 4261 7474 656c 6c65 2c20 6e6f 7220 616e  Battelle, nor an
+-00000ce0: 7920 6f66 2074 6865 6972 2065 6d70 6c6f  y of their emplo
+-00000cf0: 7965 6573 2c20 6e6f 7220 616e 790a 6a75  yees, nor any.ju
+-00000d00: 7269 7364 6963 7469 6f6e 206f 7220 6f72  risdiction or or
+-00000d10: 6761 6e69 7a61 7469 6f6e 2074 6861 7420  ganization that 
+-00000d20: 6861 7320 636f 6f70 6572 6174 6564 2069  has cooperated i
+-00000d30: 6e20 7468 6520 6465 7665 6c6f 706d 656e  n the developmen
+-00000d40: 7420 6f66 2074 6865 7365 0a6d 6174 6572  t of these.mater
+-00000d50: 6961 6c73 2c20 6d61 6b65 7320 616e 7920  ials, makes any 
+-00000d60: 7761 7272 616e 7479 2c20 6578 7072 6573  warranty, expres
+-00000d70: 7320 6f72 2069 6d70 6c69 6564 2c20 6f72  s or implied, or
+-00000d80: 2061 7373 756d 6573 2061 6e79 206c 6567   assumes any leg
+-00000d90: 616c 0a6c 6961 6269 6c69 7479 206f 7220  al.liability or 
+-00000da0: 7265 7370 6f6e 7369 6269 6c69 7479 2066  responsibility f
+-00000db0: 6f72 2074 6865 2061 6363 7572 6163 792c  or the accuracy,
+-00000dc0: 2063 6f6d 706c 6574 656e 6573 732c 206f   completeness, o
+-00000dd0: 7220 7573 6566 756c 6e65 7373 206f 7220  r usefulness or 
+-00000de0: 616e 790a 696e 666f 726d 6174 696f 6e2c  any.information,
+-00000df0: 2061 7070 6172 6174 7573 2c20 7072 6f64   apparatus, prod
+-00000e00: 7563 742c 2073 6f66 7477 6172 652c 206f  uct, software, o
+-00000e10: 7220 7072 6f63 6573 7320 6469 7363 6c6f  r process disclo
+-00000e20: 7365 642c 206f 7220 7265 7072 6573 656e  sed, or represen
+-00000e30: 7473 0a74 6861 7420 6974 7320 7573 6520  ts.that its use 
+-00000e40: 776f 756c 6420 6e6f 7420 696e 6672 696e  would not infrin
+-00000e50: 6765 2070 7269 7661 7465 6c79 206f 776e  ge privately own
+-00000e60: 6564 2072 6967 6874 732e 0a0a 5265 6665  ed rights...Refe
+-00000e70: 7265 6e63 6520 6865 7265 696e 2074 6f20  rence herein to 
+-00000e80: 616e 7920 7370 6563 6966 6963 2063 6f6d  any specific com
+-00000e90: 6d65 7263 6961 6c20 7072 6f64 7563 742c  mercial product,
+-00000ea0: 2070 726f 6365 7373 2c20 6f72 2073 6572   process, or ser
+-00000eb0: 7669 6365 2062 790a 7472 6164 6520 6e61  vice by.trade na
+-00000ec0: 6d65 2c20 7472 6164 656d 6172 6b2c 206d  me, trademark, m
+-00000ed0: 616e 7566 6163 7475 7265 722c 206f 7220  anufacturer, or 
+-00000ee0: 6f74 6865 7277 6973 6520 646f 6573 206e  otherwise does n
+-00000ef0: 6f74 206e 6563 6573 7361 7269 6c79 0a63  ot necessarily.c
+-00000f00: 6f6e 7374 6974 7574 6520 6f72 2069 6d70  onstitute or imp
+-00000f10: 6c79 2069 7473 2065 6e64 6f72 7365 6d65  ly its endorseme
+-00000f20: 6e74 2c20 7265 636f 6d6d 656e 6461 7469  nt, recommendati
+-00000f30: 6f6e 2c20 6f72 2066 6176 6f72 696e 6720  on, or favoring 
+-00000f40: 6279 2074 6865 2055 6e69 7465 640a 5374  by the United.St
+-00000f50: 6174 6573 2047 6f76 6572 6e6d 656e 7420  ates Government 
+-00000f60: 6f72 2061 6e79 2061 6765 6e63 7920 7468  or any agency th
+-00000f70: 6572 656f 662c 206f 7220 4261 7474 656c  ereof, or Battel
+-00000f80: 6c65 204d 656d 6f72 6961 6c20 496e 7374  le Memorial Inst
+-00000f90: 6974 7574 652e 2054 6865 0a76 6965 7773  itute. The.views
+-00000fa0: 2061 6e64 206f 7069 6e69 6f6e 7320 6f66   and opinions of
+-00000fb0: 2061 7574 686f 7273 2065 7870 7265 7373   authors express
+-00000fc0: 6564 2068 6572 6569 6e20 646f 206e 6f74  ed herein do not
+-00000fd0: 206e 6563 6573 7361 7269 6c79 2073 7461   necessarily sta
+-00000fe0: 7465 206f 720a 7265 666c 6563 7420 7468  te or.reflect th
+-00000ff0: 6f73 6520 6f66 2074 6865 2055 6e69 7465  ose of the Unite
+-00001000: 6420 5374 6174 6573 2047 6f76 6572 6e6d  d States Governm
+-00001010: 656e 7420 6f72 2061 6e79 2061 6765 6e63  ent or any agenc
+-00001020: 7920 7468 6572 656f 662e 0a0a            y thereof...
++00000170: 2d50 7974 686f 6e3a 203e 3d33 2e31 302c  -Python: >=3.10,
++00000180: 3c34 2e30 0a43 6c61 7373 6966 6965 723a  <4.0.Classifier:
++00000190: 2049 6e74 656e 6465 6420 4175 6469 656e   Intended Audien
++000001a0: 6365 203a 3a20 4465 7665 6c6f 7065 7273  ce :: Developers
++000001b0: 0a43 6c61 7373 6966 6965 723a 2049 6e74  .Classifier: Int
++000001c0: 656e 6465 6420 4175 6469 656e 6365 203a  ended Audience :
++000001d0: 3a20 496e 666f 726d 6174 696f 6e20 5465  : Information Te
++000001e0: 6368 6e6f 6c6f 6779 0a43 6c61 7373 6966  chnology.Classif
++000001f0: 6965 723a 2049 6e74 656e 6465 6420 4175  ier: Intended Au
++00000200: 6469 656e 6365 203a 3a20 4f74 6865 7220  dience :: Other 
++00000210: 4175 6469 656e 6365 0a43 6c61 7373 6966  Audience.Classif
++00000220: 6965 723a 2049 6e74 656e 6465 6420 4175  ier: Intended Au
++00000230: 6469 656e 6365 203a 3a20 5363 6965 6e63  dience :: Scienc
++00000240: 652f 5265 7365 6172 6368 0a43 6c61 7373  e/Research.Class
++00000250: 6966 6965 723a 204c 6963 656e 7365 203a  ifier: License :
++00000260: 3a20 4f53 4920 4170 7072 6f76 6564 203a  : OSI Approved :
++00000270: 3a20 4170 6163 6865 2053 6f66 7477 6172  : Apache Softwar
++00000280: 6520 4c69 6365 6e73 650a 436c 6173 7369  e License.Classi
++00000290: 6669 6572 3a20 5072 6f67 7261 6d6d 696e  fier: Programmin
++000002a0: 6720 4c61 6e67 7561 6765 203a 3a20 5079  g Language :: Py
++000002b0: 7468 6f6e 203a 3a20 330a 436c 6173 7369  thon :: 3.Classi
++000002c0: 6669 6572 3a20 5072 6f67 7261 6d6d 696e  fier: Programmin
++000002d0: 6720 4c61 6e67 7561 6765 203a 3a20 5079  g Language :: Py
++000002e0: 7468 6f6e 203a 3a20 332e 3130 0a43 6c61  thon :: 3.10.Cla
++000002f0: 7373 6966 6965 723a 2050 726f 6772 616d  ssifier: Program
++00000300: 6d69 6e67 204c 616e 6775 6167 6520 3a3a  ming Language ::
++00000310: 2050 7974 686f 6e20 3a3a 2033 2e31 310a   Python :: 3.11.
++00000320: 436c 6173 7369 6669 6572 3a20 5072 6f67  Classifier: Prog
++00000330: 7261 6d6d 696e 6720 4c61 6e67 7561 6765  ramming Language
++00000340: 203a 3a20 5079 7468 6f6e 203a 3a20 3320   :: Python :: 3 
++00000350: 3a3a 204f 6e6c 790a 5265 7175 6972 6573  :: Only.Requires
++00000360: 2d44 6973 743a 2074 7970 6573 2d74 7a6c  -Dist: types-tzl
++00000370: 6f63 616c 2028 3e3d 342e 322e 322e 322c  ocal (>=4.2.2.2,
++00000380: 3c35 2e30 2e30 2e30 290a 5265 7175 6972  <5.0.0.0).Requir
++00000390: 6573 2d44 6973 743a 2074 7a6c 6f63 616c  es-Dist: tzlocal
++000003a0: 2028 3e3d 342e 322c 3c35 2e30 290a 5265   (>=4.2,<5.0).Re
++000003b0: 7175 6972 6573 2d44 6973 743a 2076 6f6c  quires-Dist: vol
++000003c0: 7474 726f 6e20 283e 3d31 302e 302e 3272  ttron (>=10.0.2r
++000003d0: 6330 2c3c 3131 2e30 290a 5072 6f6a 6563  c0,<11.0).Projec
++000003e0: 742d 5552 4c3a 2052 6570 6f73 6974 6f72  t-URL: Repositor
++000003f0: 792c 2068 7474 7073 3a2f 2f67 6974 6875  y, https://githu
++00000400: 622e 636f 6d2f 564f 4c54 5452 4f4e 2f76  b.com/VOLTTRON/v
++00000410: 6f6c 7474 726f 6e2d 6163 7475 6174 6f72  olttron-actuator
++00000420: 0a44 6573 6372 6970 7469 6f6e 2d43 6f6e  .Description-Con
++00000430: 7465 6e74 2d54 7970 653a 2074 6578 742f  tent-Type: text/
++00000440: 6d61 726b 646f 776e 0a0a 2320 766f 6c74  markdown..# volt
++00000450: 7472 6f6e 2d61 6374 7561 746f 720a 0a5b  tron-actuator..[
++00000460: 215b 5061 7373 696e 673f 5d28 6874 7470  ![Passing?](http
++00000470: 733a 2f2f 6769 7468 7562 2e63 6f6d 2f65  s://github.com/e
++00000480: 636c 6970 7365 2d76 6f6c 7474 726f 6e2f  clipse-volttron/
++00000490: 766f 6c74 7472 6f6e 2d61 6374 7561 746f  volttron-actuato
++000004a0: 722f 6163 7469 6f6e 732f 776f 726b 666c  r/actions/workfl
++000004b0: 6f77 732f 7275 6e2d 7465 7374 732e 796d  ows/run-tests.ym
++000004c0: 6c2f 6261 6467 652e 7376 6729 5d28 6874  l/badge.svg)](ht
++000004d0: 7470 733a 2f2f 6769 7468 7562 2e63 6f6d  tps://github.com
++000004e0: 2f56 4f4c 5454 524f 4e2f 766f 6c74 7472  /VOLTTRON/volttr
++000004f0: 6f6e 2d61 6374 7561 746f 722f 6163 7469  on-actuator/acti
++00000500: 6f6e 732f 776f 726b 666c 6f77 732f 7275  ons/workflows/ru
++00000510: 6e2d 7465 7374 732e 796d 6c29 0a5b 215b  n-tests.yml).[![
++00000520: 7079 7069 2076 6572 7369 6f6e 5d28 6874  pypi version](ht
++00000530: 7470 733a 2f2f 696d 672e 7368 6965 6c64  tps://img.shield
++00000540: 732e 696f 2f70 7970 692f 762f 766f 6c74  s.io/pypi/v/volt
++00000550: 7472 6f6e 2d61 6374 7561 746f 722e 7376  tron-actuator.sv
++00000560: 6729 5d28 6874 7470 733a 2f2f 7079 7069  g)](https://pypi
++00000570: 2e6f 7267 2f70 726f 6a65 6374 2f76 6f6c  .org/project/vol
++00000580: 7474 726f 6e2d 6163 7475 6174 6f72 2f29  ttron-actuator/)
++00000590: 0a0a 0a54 6865 2041 6374 7561 746f 7220  ...The Actuator 
++000005a0: 4167 656e 7420 6973 2075 7365 6420 746f  Agent is used to
++000005b0: 206d 616e 6167 6520 7772 6974 6520 6163   manage write ac
++000005c0: 6365 7373 2074 6f20 6465 7669 6365 732e  cess to devices.
++000005d0: 204f 7468 6572 2061 6765 6e74 7320 6d61   Other agents ma
++000005e0: 7920 7265 7175 6573 7420 7363 6865 6475  y request schedu
++000005f0: 6c65 6420 7469 6d65 732c 2063 616c 6c65  led times, calle
++00000600: 6420 5461 736b 732c 2074 6f20 696e 7465  d Tasks, to inte
++00000610: 7261 6374 2077 6974 6820 6f6e 6520 6f72  ract with one or
++00000620: 206d 6f72 6520 6465 7669 6365 732e 0a0a   more devices...
++00000630: 2320 5265 7175 6972 6573 0a0a 2a20 7079  # Requires..* py
++00000640: 7468 6f6e 203e 3d20 332e 3130 0a2a 2076  thon >= 3.10.* v
++00000650: 6f6c 7474 726f 6e20 3e3d 2031 302e 300a  olttron >= 10.0.
++00000660: 2a20 747a 6c6f 6361 6c20 3e3d 2034 2e32  * tzlocal >= 4.2
++00000670: 0a2a 2074 7970 6573 2d74 7a6c 6f63 616c  .* types-tzlocal
++00000680: 203e 3d20 342e 322e 322e 320a 0a23 2044   >= 4.2.2.2..# D
++00000690: 6f63 756d 656e 7461 7469 6f6e 0a4d 6f72  ocumentation.Mor
++000006a0: 6520 6465 7461 696c 6564 2064 6f63 756d  e detailed docum
++000006b0: 656e 7461 7469 6f6e 2063 616e 2062 6520  entation can be 
++000006c0: 666f 756e 6420 6f6e 205b 5265 6164 5468  found on [ReadTh
++000006d0: 6544 6f63 735d 2868 7474 7073 3a2f 2f76  eDocs](https://v
++000006e0: 6f6c 7474 726f 6e2e 7265 6164 7468 6564  olttron.readthed
++000006f0: 6f63 732e 696f 2f65 6e2f 6d6f 6475 6c61  ocs.io/en/modula
++00000700: 722f 292e 2054 6865 2052 5354 2073 6f75  r/). The RST sou
++00000710: 7263 650a 6f66 2074 6865 2064 6f63 756d  rce.of the docum
++00000720: 656e 7461 7469 6f6e 2066 6f72 2074 6869  entation for thi
++00000730: 7320 636f 6d70 6f6e 656e 7420 6973 206c  s component is l
++00000740: 6f63 6174 6564 2069 6e20 7468 6520 2264  ocated in the "d
++00000750: 6f63 7322 2064 6972 6563 746f 7279 206f  ocs" directory o
++00000760: 6620 7468 6973 2072 6570 6f73 6974 6f72  f this repositor
++00000770: 792e 0a0a 2320 496e 7374 616c 6c61 7469  y...# Installati
++00000780: 6f6e 0a0a 4265 666f 7265 2069 6e73 7461  on..Before insta
++00000790: 6c6c 696e 672c 2056 4f4c 5454 524f 4e20  lling, VOLTTRON 
++000007a0: 7368 6f75 6c64 2062 6520 696e 7374 616c  should be instal
++000007b0: 6c65 6420 616e 6420 7275 6e6e 696e 672e  led and running.
++000007c0: 2020 4974 7320 7669 7274 7561 6c20 656e    Its virtual en
++000007d0: 7669 726f 6e6d 656e 7420 7368 6f75 6c64  vironment should
++000007e0: 2062 6520 6163 7469 7665 2e0a 496e 666f   be active..Info
++000007f0: 726d 6174 696f 6e20 6f6e 2068 6f77 2074  rmation on how t
++00000800: 6f20 696e 7374 616c 6c20 6f66 2074 6865  o install of the
++00000810: 2056 4f4c 5454 524f 4e20 706c 6174 666f   VOLTTRON platfo
++00000820: 726d 2063 616e 2062 6520 666f 756e 640a  rm can be found.
++00000830: 5b68 6572 655d 2868 7474 7073 3a2f 2f67  [here](https://g
++00000840: 6974 6875 622e 636f 6d2f 6563 6c69 7073  ithub.com/eclips
++00000850: 652d 766f 6c74 7472 6f6e 2f76 6f6c 7474  e-volttron/voltt
++00000860: 726f 6e2d 636f 7265 292e 0a0a 496e 7374  ron-core)...Inst
++00000870: 616c 6c20 616e 6420 7374 6172 7420 7468  all and start th
++00000880: 6520 766f 6c74 7472 6f6e 2d61 6374 7561  e volttron-actua
++00000890: 746f 722e 0a0a 6060 6073 6865 6c6c 0a76  tor...```shell.v
++000008a0: 6374 6c20 696e 7374 616c 6c20 766f 6c74  ctl install volt
++000008b0: 7472 6f6e 2d61 6374 7561 746f 7220 2d2d  tron-actuator --
++000008c0: 6167 656e 742d 636f 6e66 6967 203c 7061  agent-config <pa
++000008d0: 7468 2074 6f20 6167 656e 7420 636f 6e66  th to agent conf
++000008e0: 6967 3e20 2d2d 7374 6172 740a 6060 600a  ig> --start.```.
++000008f0: 0a56 6965 7720 7468 6520 7374 6174 7573  .View the status
++00000900: 206f 6620 7468 6520 696e 7374 616c 6c65   of the installe
++00000910: 6420 6167 656e 740a 0a60 6060 7368 656c  d agent..```shel
++00000920: 6c0a 7663 746c 2073 7461 7475 730a 6060  l.vctl status.``
++00000930: 600a 0a23 2044 6576 656c 6f70 6d65 6e74  `..# Development
++00000940: 0a0a 506c 6561 7365 2073 6565 2074 6865  ..Please see the
++00000950: 2066 6f6c 6c6f 7769 6e67 2066 6f72 2063   following for c
++00000960: 6f6e 7472 6962 7574 696e 6720 6775 6964  ontributing guid
++00000970: 656c 696e 6573 205b 636f 6e74 7269 6275  elines [contribu
++00000980: 7469 6e67 5d28 6874 7470 733a 2f2f 6769  ting](https://gi
++00000990: 7468 7562 2e63 6f6d 2f65 636c 6970 7365  thub.com/eclipse
++000009a0: 2d76 6f6c 7474 726f 6e2f 766f 6c74 7472  -volttron/volttr
++000009b0: 6f6e 2d63 6f72 652f 626c 6f62 2f64 6576  on-core/blob/dev
++000009c0: 656c 6f70 2f43 4f4e 5452 4942 5554 494e  elop/CONTRIBUTIN
++000009d0: 472e 6d64 292e 0a0a 506c 6561 7365 2073  G.md)...Please s
++000009e0: 6565 2074 6865 2066 6f6c 6c6f 7769 6e67  ee the following
++000009f0: 2068 656c 7066 756c 2067 7569 6465 2061   helpful guide a
++00000a00: 626f 7574 205b 6465 7665 6c6f 7069 6e67  bout [developing
++00000a10: 206d 6f64 756c 6172 2056 4f4c 5454 524f   modular VOLTTRO
++00000a20: 4e20 6167 656e 7473 5d28 6874 7470 733a  N agents](https:
++00000a30: 2f2f 6769 7468 7562 2e63 6f6d 2f65 636c  //github.com/ecl
++00000a40: 6970 7365 2d76 6f6c 7474 726f 6e2f 766f  ipse-volttron/vo
++00000a50: 6c74 7472 6f6e 2d63 6f72 652f 626c 6f62  lttron-core/blob
++00000a60: 2f64 6576 656c 6f70 2f44 4556 454c 4f50  /develop/DEVELOP
++00000a70: 494e 475f 4f4e 5f4d 4f44 554c 4152 2e6d  ING_ON_MODULAR.m
++00000a80: 6429 0a0a 0a23 2044 6973 636c 6169 6d65  d)...# Disclaime
++00000a90: 7220 4e6f 7469 6365 0a0a 5468 6973 206d  r Notice..This m
++00000aa0: 6174 6572 6961 6c20 7761 7320 7072 6570  aterial was prep
++00000ab0: 6172 6564 2061 7320 616e 2061 6363 6f75  ared as an accou
++00000ac0: 6e74 206f 6620 776f 726b 2073 706f 6e73  nt of work spons
++00000ad0: 6f72 6564 2062 7920 616e 2061 6765 6e63  ored by an agenc
++00000ae0: 7920 6f66 2074 6865 0a55 6e69 7465 6420  y of the.United 
++00000af0: 5374 6174 6573 2047 6f76 6572 6e6d 656e  States Governmen
++00000b00: 742e 2020 4e65 6974 6865 7220 7468 6520  t.  Neither the 
++00000b10: 556e 6974 6564 2053 7461 7465 7320 476f  United States Go
++00000b20: 7665 726e 6d65 6e74 206e 6f72 2074 6865  vernment nor the
++00000b30: 2055 6e69 7465 640a 5374 6174 6573 2044   United.States D
++00000b40: 6570 6172 746d 656e 7420 6f66 2045 6e65  epartment of Ene
++00000b50: 7267 792c 206e 6f72 2042 6174 7465 6c6c  rgy, nor Battell
++00000b60: 652c 206e 6f72 2061 6e79 206f 6620 7468  e, nor any of th
++00000b70: 6569 7220 656d 706c 6f79 6565 732c 206e  eir employees, n
++00000b80: 6f72 2061 6e79 0a6a 7572 6973 6469 6374  or any.jurisdict
++00000b90: 696f 6e20 6f72 206f 7267 616e 697a 6174  ion or organizat
++00000ba0: 696f 6e20 7468 6174 2068 6173 2063 6f6f  ion that has coo
++00000bb0: 7065 7261 7465 6420 696e 2074 6865 2064  perated in the d
++00000bc0: 6576 656c 6f70 6d65 6e74 206f 6620 7468  evelopment of th
++00000bd0: 6573 650a 6d61 7465 7269 616c 732c 206d  ese.materials, m
++00000be0: 616b 6573 2061 6e79 2077 6172 7261 6e74  akes any warrant
++00000bf0: 792c 2065 7870 7265 7373 206f 7220 696d  y, express or im
++00000c00: 706c 6965 642c 206f 7220 6173 7375 6d65  plied, or assume
++00000c10: 7320 616e 7920 6c65 6761 6c0a 6c69 6162  s any legal.liab
++00000c20: 696c 6974 7920 6f72 2072 6573 706f 6e73  ility or respons
++00000c30: 6962 696c 6974 7920 666f 7220 7468 6520  ibility for the 
++00000c40: 6163 6375 7261 6379 2c20 636f 6d70 6c65  accuracy, comple
++00000c50: 7465 6e65 7373 2c20 6f72 2075 7365 6675  teness, or usefu
++00000c60: 6c6e 6573 7320 6f72 2061 6e79 0a69 6e66  lness or any.inf
++00000c70: 6f72 6d61 7469 6f6e 2c20 6170 7061 7261  ormation, appara
++00000c80: 7475 732c 2070 726f 6475 6374 2c20 736f  tus, product, so
++00000c90: 6674 7761 7265 2c20 6f72 2070 726f 6365  ftware, or proce
++00000ca0: 7373 2064 6973 636c 6f73 6564 2c20 6f72  ss disclosed, or
++00000cb0: 2072 6570 7265 7365 6e74 730a 7468 6174   represents.that
++00000cc0: 2069 7473 2075 7365 2077 6f75 6c64 206e   its use would n
++00000cd0: 6f74 2069 6e66 7269 6e67 6520 7072 6976  ot infringe priv
++00000ce0: 6174 656c 7920 6f77 6e65 6420 7269 6768  ately owned righ
++00000cf0: 7473 2e0a 0a52 6566 6572 656e 6365 2068  ts...Reference h
++00000d00: 6572 6569 6e20 746f 2061 6e79 2073 7065  erein to any spe
++00000d10: 6369 6669 6320 636f 6d6d 6572 6369 616c  cific commercial
++00000d20: 2070 726f 6475 6374 2c20 7072 6f63 6573   product, proces
++00000d30: 732c 206f 7220 7365 7276 6963 6520 6279  s, or service by
++00000d40: 0a74 7261 6465 206e 616d 652c 2074 7261  .trade name, tra
++00000d50: 6465 6d61 726b 2c20 6d61 6e75 6661 6374  demark, manufact
++00000d60: 7572 6572 2c20 6f72 206f 7468 6572 7769  urer, or otherwi
++00000d70: 7365 2064 6f65 7320 6e6f 7420 6e65 6365  se does not nece
++00000d80: 7373 6172 696c 790a 636f 6e73 7469 7475  ssarily.constitu
++00000d90: 7465 206f 7220 696d 706c 7920 6974 7320  te or imply its 
++00000da0: 656e 646f 7273 656d 656e 742c 2072 6563  endorsement, rec
++00000db0: 6f6d 6d65 6e64 6174 696f 6e2c 206f 7220  ommendation, or 
++00000dc0: 6661 766f 7269 6e67 2062 7920 7468 6520  favoring by the 
++00000dd0: 556e 6974 6564 0a53 7461 7465 7320 476f  United.States Go
++00000de0: 7665 726e 6d65 6e74 206f 7220 616e 7920  vernment or any 
++00000df0: 6167 656e 6379 2074 6865 7265 6f66 2c20  agency thereof, 
++00000e00: 6f72 2042 6174 7465 6c6c 6520 4d65 6d6f  or Battelle Memo
++00000e10: 7269 616c 2049 6e73 7469 7475 7465 2e20  rial Institute. 
++00000e20: 5468 650a 7669 6577 7320 616e 6420 6f70  The.views and op
++00000e30: 696e 696f 6e73 206f 6620 6175 7468 6f72  inions of author
++00000e40: 7320 6578 7072 6573 7365 6420 6865 7265  s expressed here
++00000e50: 696e 2064 6f20 6e6f 7420 6e65 6365 7373  in do not necess
++00000e60: 6172 696c 7920 7374 6174 6520 6f72 0a72  arily state or.r
++00000e70: 6566 6c65 6374 2074 686f 7365 206f 6620  eflect those of 
++00000e80: 7468 6520 556e 6974 6564 2053 7461 7465  the United State
++00000e90: 7320 476f 7665 726e 6d65 6e74 206f 7220  s Government or 
++00000ea0: 616e 7920 6167 656e 6379 2074 6865 7265  any agency there
++00000eb0: 6f66 2e0a 0a                             of...
+```
+
