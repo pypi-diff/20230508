@@ -22522,3 +22522,75 @@ EOFError: EOF read where object expected
 [2023-05-08 23:18:47] INFO root fetch - main [MainThread]: End processing [discovery-transition-ds]: success
 [2023-05-08 23:18:47] INFO root fetch - main [MainThread]: End processing [fiddler-client]: success
 [2023-05-08 23:18:47] INFO root fetch - main [MainThread]: Store serial: [18022734]
+[2023-05-08 23:23:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18022734]
+[2023-05-08 23:23:57] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-08 23:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vegafusion-python-embed
+[2023-05-08 23:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-kit-annotation
+[2023-05-08 23:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-uri-generate-link-json
+[2023-05-08 23:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: click-web
+[2023-05-08 23:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: camerahub
+[2023-05-08 23:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vegafusion
+[2023-05-08 23:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vegafusion-jupyter
+[2023-05-08 23:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: customerio
+[2023-05-08 23:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: granular-engine
+[2023-05-08 23:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pepperize.cdk-serverless-cluster-from-snapshot
+[2023-05-08 23:23:57] INFO root fetch - processPackages [click-web]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-05-08 23:23:57] INFO root fetch - processPackages [certora-cli-alpha-kit-annotation]: New version: [20230508.21.18.137806] Old Version: [20230508.20.34.862914]
+[2023-05-08 23:23:57] INFO root fetch - processPackages [customerio]: New version: [2.1] Old Version: [2.0]
+[2023-05-08 23:23:57] INFO root fetch - processPackages [granular-engine]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-08 23:23:57] INFO root fetch - processPackages [vegafusion]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-05-08 23:23:57] INFO root fetch - processPackages [vegafusion-python-embed]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-05-08 23:23:57] INFO root fetch - processPackages [certora-cli-alpha-uri-generate-link-json]: New version: [20230508.21.19.138410] Old Version: [20230508.20.32.326977]
+[2023-05-08 23:23:57] INFO root fetch - processPackages [vegafusion-jupyter]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-05-08 23:23:57] INFO root fetch - processPackages [camerahub]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-08 23:23:57] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-08 23:23:57] INFO root fetch - processPackages [certora-cli-alpha-kit-annotation]: Downloading https://files.pythonhosted.org/packages/cf/8f/632403b190aed95f8f33c22c6c7544404d52f051987c313d47ab6d5c08e7/certora-cli-alpha-kit-annotation-20230508.20.34.862914.tar.gz
+[2023-05-08 23:23:57] INFO root fetch - processPackages [vegafusion]: Downloading https://files.pythonhosted.org/packages/93/f9/fd3d6858f9b5a274ed5920091ba8dcff3f346598e37a477b0a2d758f2a60/vegafusion-1.2.3.tar.gz
+[2023-05-08 23:23:57] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: executing diffoscope
+[2023-05-08 23:23:57] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz --markdown 20230508/p/pepperize.cdk-serverless-cluster-from-snapshot/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-08 23:23:57] INFO root fetch - processPackages [customerio]: Downloading https://files.pythonhosted.org/packages/09/5e/1a3cb6a4a3f55d1504f02793e0eff676bf58601c33852250cb85dd7ad5fd/customerio-2.0.tar.gz
+[2023-05-08 23:23:57] WARNING root fetch - processPackages [certora-cli-alpha-kit-annotation]: Skipping package: exceeds size limit 38483162>=10485760
+[2023-05-08 23:23:57] INFO root fetch - processPackages [certora-cli-alpha-kit-annotation]: Start processing: grocropclient
+[2023-05-08 23:23:57] INFO root fetch - processPackages [certora-cli-alpha-uri-generate-link-json]: Downloading https://files.pythonhosted.org/packages/47/cb/20e8032dd5f87757c0e5274a27083cf134f82a91a022feb4bec92ad170f3/certora-cli-alpha-uri-generate_link_json-20230508.20.32.326977.tar.gz
+[2023-05-08 23:23:57] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-kit-annotation] error
+[2023-05-08 23:23:57] INFO root fetch - processPackages [granular-engine]: Downloading https://files.pythonhosted.org/packages/54/26/2c86220d017e4372b0f5ba680dd11cce247d14de66f4ace64642ac6dc409/granular_engine-0.2.8.tar.gz
+[2023-05-08 23:23:57] INFO root fetch - processPackages [click-web]: Downloading https://files.pythonhosted.org/packages/05/45/d3269e43b9cd0002dc765a648b0098415ea427f1057d4fddf5825a2f1c58/click-web-0.8.0.tar.gz
+[2023-05-08 23:23:57] INFO root fetch - processPackages [vegafusion-jupyter]: Downloading https://files.pythonhosted.org/packages/8a/2c/4b880b62af58210243c8e2813245ab338d28232bc454ccc78deb23f077be/vegafusion-jupyter-1.2.3.tar.gz
+[2023-05-08 23:23:57] INFO root fetch - processPackages [camerahub]: Downloading https://files.pythonhosted.org/packages/1f/05/ce7482dd7d55541ee214da65ecb5938f222af58095bee62f16e637f1eed0/camerahub-0.9.7.tar.gz
+[2023-05-08 23:23:57] WARNING root fetch - processPackages [certora-cli-alpha-uri-generate-link-json]: Skipping package: exceeds size limit 38476268>=10485760
+[2023-05-08 23:23:57] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-uri-generate-link-json] error
+[2023-05-08 23:23:58] INFO root fetch - processPackages [grocropclient]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-08 23:23:58] INFO root fetch - processPackages [vegafusion-python-embed]: Downloading https://files.pythonhosted.org/packages/d8/d6/44d3ac60d3ef8048bf961a0b3708c67a4ea7ea168c7597ff20244ae0e090/vegafusion_python_embed-1.2.4.tar.gz
+[2023-05-08 23:23:58] INFO root fetch - processPackages [granular-engine]: executing diffoscope
+[2023-05-08 23:23:58] INFO root fetch - processPackages [granular-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/granular_engine-0.2.7.tar.gz tmp/granular_engine-0.2.8.tar.gz --markdown 20230508/g/granular-engine/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-05-08 23:23:58] INFO root fetch - processPackages [vegafusion]: Downloading https://files.pythonhosted.org/packages/10/c3/a1f2a96b218144595cffa851c80cdd096b27982a7c14f0cd18cad9ed22fa/vegafusion-1.2.4.tar.gz
+[2023-05-08 23:23:58] INFO root fetch - processPackages [customerio]: Downloading https://files.pythonhosted.org/packages/0a/8c/fdaee0e74eb7b51a509b4357d9f6a39f5c7164a368fa560b8f20755ddcb4/customerio-2.1.tar.gz
+[2023-05-08 23:23:58] INFO root fetch - processPackages [click-web]: Downloading https://files.pythonhosted.org/packages/fa/46/c3c4fd8f40d94a65a49d03a555541e535d1ba04a3198fc27ffd91ef0a5e4/click-web-0.8.1.tar.gz
+[2023-05-08 23:23:58] INFO root fetch - processPackages [vegafusion]: executing diffoscope
+[2023-05-08 23:23:58] INFO root fetch - processPackages [vegafusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vegafusion-1.2.3.tar.gz tmp/vegafusion-1.2.4.tar.gz --markdown 20230508/v/vegafusion/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-05-08 23:23:58] INFO root fetch - processPackages [vegafusion-jupyter]: Downloading https://files.pythonhosted.org/packages/dc/b5/29681286782d8fadd1258a8b7d45adcfc93fa167c285cd7fd504ed6a32a5/vegafusion-jupyter-1.2.4.tar.gz
+[2023-05-08 23:23:58] INFO root fetch - processPackages [vegafusion-python-embed]: executing diffoscope
+[2023-05-08 23:23:58] INFO root fetch - processPackages [vegafusion-python-embed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vegafusion_python_embed-1.2.3.tar.gz tmp/vegafusion_python_embed-1.2.4.tar.gz --markdown 20230508/v/vegafusion-python-embed/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-05-08 23:23:58] INFO root fetch - processPackages [customerio]: executing diffoscope
+[2023-05-08 23:23:58] INFO root fetch - processPackages [customerio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/customerio-2.0.tar.gz tmp/customerio-2.1.tar.gz --markdown 20230508/c/customerio/2.0-2.1/diff.md --exclude *.pyd
+[2023-05-08 23:23:58] INFO root fetch - processPackages [camerahub]: Downloading https://files.pythonhosted.org/packages/94/74/b0a2caca9cf5b6725997b75a9e904eabd5a2e28fc8d03a2c5b6973e7ed31/camerahub-0.9.8.tar.gz
+[2023-05-08 23:23:58] INFO root fetch - processPackages [grocropclient]: Downloading https://files.pythonhosted.org/packages/c6/66/bcb7465d4c97b660f2e3859058fae878e9e3f22653366998580f8a59428b/grocropclient-1.0.8.tar.gz
+[2023-05-08 23:23:58] INFO root fetch - processPackages [click-web]: executing diffoscope
+[2023-05-08 23:23:58] INFO root fetch - processPackages [click-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/click-web-0.8.0.tar.gz tmp/click-web-0.8.1.tar.gz --markdown 20230508/c/click-web/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-05-08 23:23:58] INFO root fetch - processPackages [camerahub]: executing diffoscope
+[2023-05-08 23:23:58] INFO root fetch - processPackages [camerahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camerahub-0.9.7.tar.gz tmp/camerahub-0.9.8.tar.gz --markdown 20230508/c/camerahub/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-08 23:23:58] INFO root fetch - processPackages [vegafusion-jupyter]: executing diffoscope
+[2023-05-08 23:23:58] INFO root fetch - processPackages [vegafusion-jupyter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vegafusion-jupyter-1.2.3.tar.gz tmp/vegafusion-jupyter-1.2.4.tar.gz --markdown 20230508/v/vegafusion-jupyter/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-05-08 23:23:58] INFO root fetch - processPackages [grocropclient]: Downloading https://files.pythonhosted.org/packages/f2/1a/bebf2afbb74ca453ef7aa9c824969b2e1c5ed80134f0f48c6cfdd09aa52e/grocropclient-1.0.9.tar.gz
+[2023-05-08 23:23:58] INFO root fetch - processPackages [grocropclient]: executing diffoscope
+[2023-05-08 23:23:58] INFO root fetch - processPackages [grocropclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grocropclient-1.0.8.tar.gz tmp/grocropclient-1.0.9.tar.gz --markdown 20230508/g/grocropclient/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-08 23:23:59] INFO root fetch - main [MainThread]: End processing [click-web]: success
+[2023-05-08 23:24:00] INFO root fetch - main [MainThread]: End processing [vegafusion]: success
+[2023-05-08 23:24:00] INFO root fetch - main [MainThread]: End processing [customerio]: success
+[2023-05-08 23:24:00] INFO root fetch - main [MainThread]: End processing [granular-engine]: success
+[2023-05-08 23:24:00] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
+[2023-05-08 23:24:00] INFO root fetch - main [MainThread]: End processing [grocropclient]: success
+[2023-05-08 23:24:00] INFO root fetch - main [MainThread]: End processing [camerahub]: success
+[2023-05-08 23:24:30] INFO root fetch - main [MainThread]: End processing [vegafusion-python-embed]: success
+[2023-05-08 23:25:37] INFO root fetch - main [MainThread]: End processing [vegafusion-jupyter]: success
+[2023-05-08 23:25:37] INFO root fetch - main [MainThread]: Store serial: [18022784]
