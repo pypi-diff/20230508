@@ -13936,3 +13936,132 @@ EOFError: EOF read where object expected
 [2023-05-08 16:10:15] INFO root fetch - main [MainThread]: End processing [hata]: success
 [2023-05-08 16:10:20] INFO root fetch - main [MainThread]: End processing [ooo-dev-tools]: success
 [2023-05-08 16:10:20] INFO root fetch - main [MainThread]: Store serial: [18017618]
+[2023-05-08 16:15:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18017618]
+[2023-05-08 16:15:31] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-08 16:15:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tg-botting
+[2023-05-08 16:15:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deeplc
+[2023-05-08 16:15:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: WebGrid
+[2023-05-08 16:15:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-algorand-sdk
+[2023-05-08 16:15:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dagknows
+[2023-05-08 16:15:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-crm-rest-api
+[2023-05-08 16:15:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: napalm-slx-os
+[2023-05-08 16:15:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ProtWave-VAE
+[2023-05-08 16:15:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kgheartbeat
+[2023-05-08 16:15:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dxsp
+[2023-05-08 16:15:31] INFO root fetch - processPackages [deeplc]: New version: [2.1.5] Old Version: [2.1.3]
+[2023-05-08 16:15:31] WARNING root fetch - processPackages [kgheartbeat]: Skipping, unable to determine old version
+[2023-05-08 16:15:31] INFO root fetch - processPackages [odoo14-addon-crm-rest-api]: New version: [14.0.1.0.1.dev1] Old Version: [14.0.1.0.0]
+[2023-05-08 16:15:31] INFO root fetch - processPackages [kgheartbeat]: Start processing: proventosweb
+[2023-05-08 16:15:31] INFO root fetch - processPackages [dagknows]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 16:15:31] INFO root fetch - main [MainThread]: End processing [kgheartbeat] error
+[2023-05-08 16:15:31] WARNING root fetch - processPackages [napalm-slx-os]: Skipping, unable to determine old version
+[2023-05-08 16:15:31] WARNING root fetch - processPackages [ProtWave-VAE]: Skipping, unable to determine old version
+[2023-05-08 16:15:31] INFO root fetch - processPackages [py-algorand-sdk]: New version: [2.2.0] Old Version: [2.1.2]
+[2023-05-08 16:15:31] INFO root fetch - processPackages [napalm-slx-os]: Start processing: fastflix
+[2023-05-08 16:15:31] INFO root fetch - processPackages [ProtWave-VAE]: Start processing: yetl-framework
+[2023-05-08 16:15:31] INFO root fetch - processPackages [tg-botting]: New version: [1.6.1.1] Old Version: [1.6.1]
+[2023-05-08 16:15:31] INFO root fetch - main [MainThread]: End processing [napalm-slx-os] error
+[2023-05-08 16:15:31] INFO root fetch - processPackages [dxsp]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-08 16:15:31] INFO root fetch - main [MainThread]: End processing [ProtWave-VAE] error
+[2023-05-08 16:15:31] INFO root fetch - processPackages [WebGrid]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-05-08 16:15:31] INFO root fetch - processPackages [proventosweb]: New version: [0.65] Old Version: [0.6]
+[2023-05-08 16:15:31] INFO root fetch - processPackages [fastflix]: New version: [5.5.5] Old Version: [5.5.4]
+[2023-05-08 16:15:31] INFO root fetch - processPackages [yetl-framework]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-05-08 16:15:31] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-05-08 16:15:31] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-2.0.8.tar.gz tmp/dxsp-2.0.9.tar.gz --markdown 20230508/d/dxsp/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-08 16:15:31] INFO root fetch - processPackages [deeplc]: Downloading https://files.pythonhosted.org/packages/c4/5e/73b5748773161de2852b613cd1718f4d78eef17d8664d7b3a742158495b6/deeplc-2.1.3.tar.gz
+[2023-05-08 16:15:31] WARNING root fetch - processPackages [deeplc]: Skipping package: exceeds size limit 77888664>=10485760
+[2023-05-08 16:15:31] INFO root fetch - processPackages [deeplc]: Start processing: pepperize.cdk-dynamodb-backup
+[2023-05-08 16:15:31] INFO root fetch - main [MainThread]: End processing [deeplc] error
+[2023-05-08 16:15:31] INFO root fetch - processPackages [odoo14-addon-crm-rest-api]: Downloading https://files.pythonhosted.org/packages/07/22/f1940b24d1f6f2df117c01500f68c16871897e04274f6522ff61cd6dd7d5/odoo14_addon_crm_rest_api-14.0.1.0.0-py3-none-any.whl
+[2023-05-08 16:15:31] INFO root fetch - processPackages [dagknows]: Downloading https://files.pythonhosted.org/packages/48/5b/85b4c3b7ec270fcce58d0f43343adf5bb53a4bcf74af45dbd3e3940c90b2/dagknows-0.0.8-py3-none-any.whl
+[2023-05-08 16:15:31] INFO root fetch - processPackages [proventosweb]: Downloading https://files.pythonhosted.org/packages/9d/90/c2543ce3f9078a544ccff395bbe1fc90d96e47bf03389056ae9dff088aa7/proventosweb-0.65.tar.gz
+[2023-05-08 16:15:31] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-08 16:15:31] INFO root fetch - processPackages [WebGrid]: Downloading https://files.pythonhosted.org/packages/b6/85/651c2b99fb6353740cd735f01b7069f234ac2fdb26d1eba7ab52731a7c20/WebGrid-0.5.3.tar.gz
+[2023-05-08 16:15:31] INFO root fetch - processPackages [py-algorand-sdk]: Downloading https://files.pythonhosted.org/packages/01/4e/61dac2820eae986ec6785f20368eef8a0186072e1bbab7dffdfccd727375/py-algorand-sdk-2.1.2.tar.gz
+[2023-05-08 16:15:32] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/98/4f/1a839ff7d1c4615711b37c3c03c9a1aeb0d76ceace1905a5b915a834c069/yetl-framework-1.2.7.tar.gz
+[2023-05-08 16:15:32] INFO root fetch - processPackages [fastflix]: Downloading https://files.pythonhosted.org/packages/ff/4c/90a17d329ea9e563b30e6d39e89d45b7845019c91ebc756630d75b15ee3f/fastflix-5.5.4-py3-none-any.whl
+[2023-05-08 16:15:32] INFO root fetch - processPackages [tg-botting]: Downloading https://files.pythonhosted.org/packages/cb/be/10552d8b66614cd4a505c17718002eef007b58a976d477038d42cb00d114/tg-botting-1.6.1.1.tar.gz
+[2023-05-08 16:15:32] INFO root fetch - processPackages [odoo14-addon-crm-rest-api]: Downloading https://files.pythonhosted.org/packages/9c/eb/5c0a4df612e0c477e2ed2c2b44347ac6db375c317332c4dc09b767785dac/odoo14_addon_crm_rest_api-14.0.1.0.1.dev1-py3-none-any.whl
+[2023-05-08 16:15:32] INFO root fetch - processPackages [yetl-framework]: executing diffoscope
+[2023-05-08 16:15:32] INFO root fetch - processPackages [yetl-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yetl-framework-1.2.6.tar.gz tmp/yetl-framework-1.2.7.tar.gz --markdown 20230508/y/yetl-framework/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2023-05-08 16:15:32] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Downloading https://files.pythonhosted.org/packages/32/bc/ac3dab87c351984ae6522bf91695811f7df3607fcbcf2e87e12ccdcae4e5/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz
+[2023-05-08 16:15:32] INFO root fetch - processPackages [proventosweb]: executing diffoscope
+[2023-05-08 16:15:32] INFO root fetch - processPackages [proventosweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proventosweb-0.6.tar.gz tmp/proventosweb-0.65.tar.gz --markdown 20230508/p/proventosweb/0.6-0.65/diff.md --exclude *.pyd
+[2023-05-08 16:15:32] INFO root fetch - processPackages [tg-botting]: executing diffoscope
+[2023-05-08 16:15:32] INFO root fetch - processPackages [tg-botting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tg-botting-1.6.1.tar.gz tmp/tg-botting-1.6.1.1.tar.gz --markdown 20230508/t/tg-botting/1.6.1-1.6.1.1/diff.md --exclude *.pyd
+[2023-05-08 16:15:32] INFO root fetch - processPackages [WebGrid]: Downloading https://files.pythonhosted.org/packages/de/5d/16eaffddd3348b57bcce70c0f206717235d59de2700970ab7a54f5b182b6/WebGrid-0.5.4.tar.gz
+[2023-05-08 16:15:32] INFO root fetch - processPackages [dagknows]: Downloading https://files.pythonhosted.org/packages/57/73/fdc53628716b16ae897344fbc1d98948616e9c3bbc4e3651b6f1332389fa/dagknows-0.0.9-py3-none-any.whl
+[2023-05-08 16:15:32] INFO root fetch - processPackages [odoo14-addon-crm-rest-api]: executing diffoscope
+[2023-05-08 16:15:32] INFO root fetch - processPackages [odoo14-addon-crm-rest-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_crm_rest_api-14.0.1.0.0-py3-none-any.whl.zip tmp/odoo14_addon_crm_rest_api-14.0.1.0.1.dev1-py3-none-any.whl.zip --markdown 20230508/o/odoo14-addon-crm-rest-api/14.0.1.0.0-14.0.1.0.1.dev1/diff.md --exclude *.pyd
+[2023-05-08 16:15:32] INFO root fetch - processPackages [dagknows]: executing diffoscope
+[2023-05-08 16:15:32] INFO root fetch - processPackages [dagknows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagknows-0.0.8-py3-none-any.whl.zip tmp/dagknows-0.0.9-py3-none-any.whl.zip --markdown 20230508/d/dagknows/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 16:15:32] INFO root fetch - processPackages [WebGrid]: executing diffoscope
+[2023-05-08 16:15:32] INFO root fetch - processPackages [WebGrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WebGrid-0.5.3.tar.gz tmp/WebGrid-0.5.4.tar.gz --markdown 20230508/W/WebGrid/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-05-08 16:15:32] INFO root fetch - processPackages [py-algorand-sdk]: Downloading https://files.pythonhosted.org/packages/fb/07/b13122c90f0ee8764e422bc656d936942b64283f62015b1bd7e4717f2428/py-algorand-sdk-2.2.0.tar.gz
+[2023-05-08 16:15:32] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Downloading https://files.pythonhosted.org/packages/87/60/cd337f65781a604c1d436fcd62f8ffdaff0bc80e00546a9c715fa9561007/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz
+[2023-05-08 16:15:32] INFO root fetch - processPackages [py-algorand-sdk]: executing diffoscope
+[2023-05-08 16:15:32] INFO root fetch - processPackages [py-algorand-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-algorand-sdk-2.1.2.tar.gz tmp/py-algorand-sdk-2.2.0.tar.gz --markdown 20230508/p/py-algorand-sdk/2.1.2-2.2.0/diff.md --exclude *.pyd
+[2023-05-08 16:15:32] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: executing diffoscope
+[2023-05-08 16:15:32] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz tmp/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz --markdown 20230508/p/pepperize.cdk-dynamodb-backup/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-08 16:15:32] INFO root fetch - processPackages [fastflix]: Downloading https://files.pythonhosted.org/packages/5d/e7/4b5f1228a46262c912b75a2f64644dbf45fb8794c82160a860154d6744f5/fastflix-5.5.5-py3-none-any.whl
+[2023-05-08 16:15:32] INFO root fetch - processPackages [fastflix]: executing diffoscope
+[2023-05-08 16:15:32] INFO root fetch - processPackages [fastflix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastflix-5.5.4-py3-none-any.whl.zip tmp/fastflix-5.5.5-py3-none-any.whl.zip --markdown 20230508/f/fastflix/5.5.4-5.5.5/diff.md --exclude *.pyd
+[2023-05-08 16:15:33] INFO root fetch - processPackages [dxsp]: Start processing: simplebox
+[2023-05-08 16:15:33] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-05-08 16:15:34] INFO root fetch - processPackages [simplebox]: New version: [0.0.1a144] Old Version: [0.0.1a143]
+[2023-05-08 16:15:34] INFO root fetch - processPackages [proventosweb]: Start processing: datavortex
+[2023-05-08 16:15:34] INFO root fetch - main [MainThread]: End processing [proventosweb]: success
+[2023-05-08 16:15:34] WARNING root fetch - processPackages [datavortex]: Skipping, unable to determine old version
+[2023-05-08 16:15:34] INFO root fetch - processPackages [datavortex]: Start processing: typeset-soren-n
+[2023-05-08 16:15:34] INFO root fetch - main [MainThread]: End processing [datavortex] error
+[2023-05-08 16:15:34] INFO root fetch - processPackages [odoo14-addon-crm-rest-api]: Start processing: xpydf
+[2023-05-08 16:15:34] INFO root fetch - main [MainThread]: End processing [odoo14-addon-crm-rest-api]: success
+[2023-05-08 16:15:34] INFO root fetch - processPackages [typeset-soren-n]: New version: [2.0.0] Old Version: [1.0.7]
+[2023-05-08 16:15:34] INFO root fetch - processPackages [xpydf]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-08 16:15:34] INFO root fetch - processPackages [tg-botting]: Start processing: cognite-sdk
+[2023-05-08 16:15:34] INFO root fetch - main [MainThread]: End processing [tg-botting]: success
+[2023-05-08 16:15:34] INFO root fetch - processPackages [simplebox]: Downloading https://files.pythonhosted.org/packages/a8/58/3498fb2f98cc4915c5a86f006de1ebaeef7bfa29ff231a8bea865bf9282b/simplebox-0.0.1a143-py3-none-any.whl
+[2023-05-08 16:15:34] INFO root fetch - processPackages [cognite-sdk]: New version: [6.1.4] Old Version: [6.1.3]
+[2023-05-08 16:15:34] INFO root fetch - processPackages [dagknows]: Start processing: coiled
+[2023-05-08 16:15:34] INFO root fetch - main [MainThread]: End processing [dagknows]: success
+[2023-05-08 16:15:34] INFO root fetch - processPackages [coiled]: New version: [0.6.2.dev9] Old Version: [0.6.2.dev6]
+[2023-05-08 16:15:34] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Start processing: analysisbykwok
+[2023-05-08 16:15:34] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-dynamodb-backup]: success
+[2023-05-08 16:15:34] INFO root fetch - processPackages [xpydf]: Downloading https://files.pythonhosted.org/packages/93/bd/a65cf4dc86e7ef96f02ada2ef667ea85d51fb9f06bcd890dba1df15ba1f7/xpydf-0.1.3.tar.gz
+[2023-05-08 16:15:34] INFO root fetch - processPackages [typeset-soren-n]: Downloading https://files.pythonhosted.org/packages/ca/e5/f880cbad08509db51a7acafdf445b0c12e43173b893252f2a0116c7c66a4/typeset_soren_n-1.0.7.tar.gz
+[2023-05-08 16:15:34] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-08 16:15:34] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.2.dev6.tar.gz tmp/coiled-0.6.2.dev9.tar.gz --markdown 20230508/c/coiled/0.6.2.dev6-0.6.2.dev9/diff.md --exclude *.pyd
+[2023-05-08 16:15:34] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/39/90/5c000268da9348cea1c661c330a0ef0cd9697daf61341035391f09cd34ad/cognite_sdk-6.1.4.tar.gz
+[2023-05-08 16:15:34] INFO root fetch - processPackages [analysisbykwok]: New version: [0.0.26] Old Version: [0.0.25]
+[2023-05-08 16:15:34] INFO root fetch - processPackages [yetl-framework]: Start processing: pylinalg
+[2023-05-08 16:15:34] INFO root fetch - main [MainThread]: End processing [yetl-framework]: success
+[2023-05-08 16:15:34] INFO root fetch - processPackages [simplebox]: Downloading https://files.pythonhosted.org/packages/5f/27/02e565a4a0d28fab1aa3a1dc6e9ff993ae5e96d1af48feb35ef800dd265f/simplebox-0.0.1a144-py3-none-any.whl
+[2023-05-08 16:15:34] INFO root fetch - processPackages [cognite-sdk]: executing diffoscope
+[2023-05-08 16:15:34] INFO root fetch - processPackages [cognite-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_sdk-6.1.3.tar.gz tmp/cognite_sdk-6.1.4.tar.gz --markdown 20230508/c/cognite-sdk/6.1.3-6.1.4/diff.md --exclude *.pyd
+[2023-05-08 16:15:34] INFO root fetch - processPackages [xpydf]: executing diffoscope
+[2023-05-08 16:15:34] INFO root fetch - processPackages [xpydf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xpydf-0.1.2.tar.gz tmp/xpydf-0.1.3.tar.gz --markdown 20230508/x/xpydf/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-08 16:15:34] INFO root fetch - processPackages [pylinalg]: New version: [0.4.0] Old Version: [0.3.4]
+[2023-05-08 16:15:34] INFO root fetch - processPackages [simplebox]: executing diffoscope
+[2023-05-08 16:15:34] INFO root fetch - processPackages [simplebox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplebox-0.0.1a143-py3-none-any.whl.zip tmp/simplebox-0.0.1a144-py3-none-any.whl.zip --markdown 20230508/s/simplebox/0.0.1a143-0.0.1a144/diff.md --exclude *.pyd
+[2023-05-08 16:15:34] INFO root fetch - processPackages [typeset-soren-n]: Downloading https://files.pythonhosted.org/packages/56/19/a19bef80214726bfb94c5d5b8d188d0a3dac25051abd6b0e80a33bf2b10d/typeset_soren_n-2.0.0-cp39-cp39-manylinux_2_17_s390x.manylinux2014_s390x.whl
+[2023-05-08 16:15:34] INFO root fetch - processPackages [analysisbykwok]: Downloading https://files.pythonhosted.org/packages/06/90/f1b861202f46ffddf784a43536f19ab9f7d9e88b9ed959db978201552158/analysisbykwok-0.0.26.tar.gz
+[2023-05-08 16:15:34] INFO root fetch - processPackages [pylinalg]: Downloading https://files.pythonhosted.org/packages/04/d4/2f592b688687ec57fbeb905fce50f61eb41626fdf7e1cb8b76bd533c2048/pylinalg-0.3.4.tar.gz
+[2023-05-08 16:15:34] INFO root fetch - processPackages [analysisbykwok]: executing diffoscope
+[2023-05-08 16:15:34] INFO root fetch - processPackages [analysisbykwok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/analysisbykwok-0.0.25.tar.gz tmp/analysisbykwok-0.0.26.tar.gz --markdown 20230508/a/analysisbykwok/0.0.25-0.0.26/diff.md --exclude *.pyd
+[2023-05-08 16:15:35] INFO root fetch - processPackages [typeset-soren-n]: executing diffoscope
+[2023-05-08 16:15:35] INFO root fetch - processPackages [typeset-soren-n]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typeset_soren_n-1.0.7.tar.gz tmp/typeset_soren_n-2.0.0-cp39-cp39-manylinux_2_17_s390x.manylinux2014_s390x.whl.zip --markdown 20230508/t/typeset-soren-n/1.0.7-2.0.0/diff.md --exclude *.pyd
+[2023-05-08 16:15:35] INFO root fetch - processPackages [pylinalg]: Downloading https://files.pythonhosted.org/packages/b0/3f/e09e3af8943354a0d66bc66686d2044afa136336397ebfa03ffe6a53a6de/pylinalg-0.4.0.tar.gz
+[2023-05-08 16:15:35] INFO root fetch - processPackages [pylinalg]: executing diffoscope
+[2023-05-08 16:15:35] INFO root fetch - processPackages [pylinalg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylinalg-0.3.4.tar.gz tmp/pylinalg-0.4.0.tar.gz --markdown 20230508/p/pylinalg/0.3.4-0.4.0/diff.md --exclude *.pyd
+[2023-05-08 16:15:35] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-08 16:15:36] INFO root fetch - main [MainThread]: End processing [py-algorand-sdk]: success
+[2023-05-08 16:15:36] INFO root fetch - main [MainThread]: End processing [WebGrid]: success
+[2023-05-08 16:15:36] INFO root fetch - main [MainThread]: End processing [analysisbykwok]: success
+[2023-05-08 16:15:36] INFO root fetch - main [MainThread]: End processing [simplebox]: success
+[2023-05-08 16:15:36] INFO root fetch - main [MainThread]: End processing [pylinalg]: success
+[2023-05-08 16:15:37] INFO root fetch - main [MainThread]: End processing [xpydf]: success
+[2023-05-08 16:15:38] INFO root fetch - main [MainThread]: End processing [typeset-soren-n]: success
+[2023-05-08 16:15:38] INFO root fetch - main [MainThread]: End processing [fastflix]: success
+[2023-05-08 16:15:38] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
+[2023-05-08 16:15:38] INFO root fetch - main [MainThread]: Store serial: [18017734]
