@@ -1508,3 +1508,40 @@
 [2023-05-08 02:40:12] INFO root fetch - main [MainThread]: End processing [nitric]: success
 [2023-05-08 02:40:12] INFO root fetch - main [MainThread]: End processing [cdk-monitoring-constructs]: success
 [2023-05-08 02:40:12] INFO root fetch - main [MainThread]: Store serial: [18010936]
+[2023-05-08 02:45:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18010936]
+[2023-05-08 02:45:20] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-08 02:45:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: constellate
+[2023-05-08 02:45:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rapidocr-openvinogpu
+[2023-05-08 02:45:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tdh-tcd
+[2023-05-08 02:45:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cercis
+[2023-05-08 02:45:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-comprehend-s3olap
+[2023-05-08 02:45:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tfds-nightly
+[2023-05-08 02:45:20] INFO root fetch - processPackages [rapidocr-openvinogpu]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-08 02:45:20] INFO root fetch - processPackages [tdh-tcd]: New version: [2.5.3] Old Version: [2.5.2]
+[2023-05-08 02:45:20] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-08 02:45:20] INFO root fetch - processPackages [cercis]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-08 02:45:20] INFO root fetch - processPackages [constellate]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-05-08 02:45:20] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202305070045] Old Version: [4.9.2.dev202305060044]
+[2023-05-08 02:45:20] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-05-08 02:45:20] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-05-08 02:45:20] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-05-08 02:45:21] INFO root fetch - processPackages [rapidocr-openvinogpu]: Downloading https://files.pythonhosted.org/packages/b7/31/0f3755ccba24ca55b1bef987364a23b301c2fb389924c9dd0a73a376c75e/rapidocr-openvinogpu-0.0.6.tar.gz
+[2023-05-08 02:45:21] WARNING root fetch - processPackages [rapidocr-openvinogpu]: Skipping package: exceeds size limit 50037152>=10485760
+[2023-05-08 02:45:21] INFO root fetch - main [MainThread]: End processing [rapidocr-openvinogpu] error
+[2023-05-08 02:45:21] INFO root fetch - processPackages [cercis]: Downloading https://files.pythonhosted.org/packages/0d/be/a988e01ce26e5b7969d54486fac0921b9c3fd3efa5a8f1f36f14494437f1/cercis-0.1.4.tar.gz
+[2023-05-08 02:45:21] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/34/9c/71117ac2a5a4c1229f032bdcc2ba258720a3dbfdbb556c0ef9693eb5712e/tfds-nightly-4.9.2.dev202305070045.tar.gz
+[2023-05-08 02:45:21] INFO root fetch - processPackages [tdh-tcd]: Downloading https://files.pythonhosted.org/packages/0d/36/5fa9b3fa0bb89d168cac3ec0370eab026eb79e1c00f31eda2492284c436d/tdh-tcd-2.5.3.tar.gz
+[2023-05-08 02:45:21] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-05-08 02:45:21] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202305060044.tar.gz tmp/tfds-nightly-4.9.2.dev202305070045.tar.gz --markdown 20230508/t/tfds-nightly/4.9.2.dev202305060044-4.9.2.dev202305070045/diff.md --exclude *.pyd
+[2023-05-08 02:45:21] INFO root fetch - processPackages [tdh-tcd]: executing diffoscope
+[2023-05-08 02:45:21] INFO root fetch - processPackages [tdh-tcd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdh-tcd-2.5.2.tar.gz tmp/tdh-tcd-2.5.3.tar.gz --markdown 20230508/t/tdh-tcd/2.5.2-2.5.3/diff.md --exclude *.pyd
+[2023-05-08 02:45:21] INFO root fetch - processPackages [cercis]: executing diffoscope
+[2023-05-08 02:45:21] INFO root fetch - processPackages [cercis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cercis-0.1.3.tar.gz tmp/cercis-0.1.4.tar.gz --markdown 20230508/c/cercis/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-08 02:45:21] INFO root fetch - processPackages [constellate]: Downloading https://files.pythonhosted.org/packages/86/24/8db016b183cbd1c209d0b3e9806da18cff1691ea7914876db4a544fdfba0/constellate-0.7.1-py2.py3-none-any.whl
+[2023-05-08 02:45:21] INFO root fetch - processPackages [constellate]: executing diffoscope
+[2023-05-08 02:45:21] INFO root fetch - processPackages [constellate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/constellate-0.7.0-py2.py3-none-any.whl.zip tmp/constellate-0.7.1-py2.py3-none-any.whl.zip --markdown 20230508/c/constellate/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-05-08 02:45:22] INFO root fetch - main [MainThread]: End processing [tdh-tcd]: success
+[2023-05-08 02:45:23] INFO root fetch - main [MainThread]: End processing [constellate]: success
+[2023-05-08 02:45:24] INFO root fetch - main [MainThread]: End processing [cercis]: success
+[2023-05-08 02:45:32] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-05-08 02:45:32] INFO root fetch - main [MainThread]: Store serial: [18010954]
