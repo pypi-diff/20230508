@@ -17845,3 +17845,81 @@ EOFError: EOF read where object expected
 [2023-05-08 19:14:03] INFO root fetch - main [MainThread]: End processing [cashews]: success
 [2023-05-08 19:14:05] INFO root fetch - main [MainThread]: End processing [knic-jupyter]: success
 [2023-05-08 19:14:05] INFO root fetch - main [MainThread]: Store serial: [18019918]
+[2023-05-08 19:19:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18019918]
+[2023-05-08 19:19:15] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-08 19:19:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: docassemble.base
+[2023-05-08 19:19:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: globox
+[2023-05-08 19:19:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neuralpit
+[2023-05-08 19:19:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: docassemble.demo
+[2023-05-08 19:19:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: docassemble.webapp
+[2023-05-08 19:19:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ix-aims
+[2023-05-08 19:19:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spare-scores
+[2023-05-08 19:19:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lol-site-scraper
+[2023-05-08 19:19:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: certora-cli-alpha-yuvalbd-rule-events-error-checking-part-two
+[2023-05-08 19:19:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: adsms
+[2023-05-08 19:19:15] INFO root fetch - processPackages [ix-aims]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-08 19:19:15] INFO root fetch - processPackages [adsms]: New version: [0.2] Old Version: [0.1]
+[2023-05-08 19:19:15] INFO root fetch - processPackages [docassemble.webapp]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-08 19:19:15] INFO root fetch - processPackages [certora-cli-alpha-yuvalbd-rule-events-error-checking-part-two]: New version: [20230508.7.43.27573] Old Version: [20230508.7.12.93347]
+[2023-05-08 19:19:15] INFO root fetch - processPackages [certora-cli-alpha-yuvalbd-rule-events-error-checking-part-two]: Downloading https://files.pythonhosted.org/packages/8c/6a/e54959507f9a03300127a7a13e298b090ea5d8a802d99857d877e4706976/certora-cli-alpha-yuvalbd-rule_events_error_checking_part_two-20230508.7.12.93347.tar.gz
+[2023-05-08 19:19:15] INFO root fetch - processPackages [docassemble.base]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-08 19:19:15] INFO root fetch - processPackages [neuralpit]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-08 19:19:15] INFO root fetch - processPackages [docassemble.webapp]: executing diffoscope
+[2023-05-08 19:19:15] WARNING root fetch - processPackages [lol-site-scraper]: Skipping, unable to determine old version
+[2023-05-08 19:19:15] INFO root fetch - processPackages [docassemble.webapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docassemble.webapp-1.4.8.tar.gz tmp/docassemble.webapp-1.4.9.tar.gz --markdown 20230508/d/docassemble.webapp/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-05-08 19:19:15] INFO root fetch - processPackages [lol-site-scraper]: Start processing: gpt-review
+[2023-05-08 19:19:15] INFO root fetch - processPackages [spare-scores]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 19:19:15] INFO root fetch - main [MainThread]: End processing [lol-site-scraper] error
+[2023-05-08 19:19:15] INFO root fetch - processPackages [ix-aims]: executing diffoscope
+[2023-05-08 19:19:15] INFO root fetch - processPackages [ix-aims]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ix_aims-0.1.3.tar.gz tmp/ix_aims-0.1.4.tar.gz --markdown 20230508/i/ix-aims/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-08 19:19:15] INFO root fetch - processPackages [globox]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-05-08 19:19:15] INFO root fetch - processPackages [gpt-review]: New version: [0.7.1rc481.post1] Old Version: [0.7.1]
+[2023-05-08 19:19:15] WARNING root fetch - processPackages [certora-cli-alpha-yuvalbd-rule-events-error-checking-part-two]: Skipping package: exceeds size limit 38474506>=10485760
+[2023-05-08 19:19:15] INFO root fetch - processPackages [certora-cli-alpha-yuvalbd-rule-events-error-checking-part-two]: Start processing: aikoai
+[2023-05-08 19:19:15] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-yuvalbd-rule-events-error-checking-part-two] error
+[2023-05-08 19:19:15] INFO root fetch - processPackages [adsms]: Downloading https://files.pythonhosted.org/packages/18/d1/f7d56a7e9de4be99f2b93a13b718d1e8f324ba6abc985fb24e1c9521e2c1/adsms-0.2.tar.gz
+[2023-05-08 19:19:15] WARNING root fetch - processPackages [aikoai]: Skipping, unable to determine old version
+[2023-05-08 19:19:15] INFO root fetch - processPackages [aikoai]: Start processing: localstack-core
+[2023-05-08 19:19:15] INFO root fetch - main [MainThread]: End processing [aikoai] error
+[2023-05-08 19:19:15] INFO root fetch - processPackages [docassemble.base]: Downloading https://files.pythonhosted.org/packages/49/6f/c82f5b1b26e0b12bdf1e565f9218b862142854979a0f01ea54c864ac7770/docassemble.base-1.4.8.tar.gz
+[2023-05-08 19:19:15] INFO root fetch - processPackages [docassemble.demo]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-08 19:19:15] INFO root fetch - processPackages [spare-scores]: Downloading https://files.pythonhosted.org/packages/13/a0/2b4ef9a977e973cc518b6288c73580a7eaae124ba25725b1fc8319df8c70/spare_scores-0.1.8.tar.gz
+[2023-05-08 19:19:15] INFO root fetch - processPackages [adsms]: executing diffoscope
+[2023-05-08 19:19:15] INFO root fetch - processPackages [adsms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adsms-0.1.tar.gz tmp/adsms-0.2.tar.gz --markdown 20230508/a/adsms/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-08 19:19:15] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230508101357] Old Version: [2.0.3.dev20230508080750]
+[2023-05-08 19:19:15] INFO root fetch - processPackages [globox]: Downloading https://files.pythonhosted.org/packages/f1/19/f582decc36aaeb213d68c2c12d607d3e2cf5957c9bfcb98c28023f5ae52a/globox-2.1.1.tar.gz
+[2023-05-08 19:19:15] WARNING root fetch - processPackages [docassemble.base]: Skipping package: exceeds size limit 10987248>=10485760
+[2023-05-08 19:19:15] INFO root fetch - processPackages [docassemble.base]: Start processing: arc-cli
+[2023-05-08 19:19:15] INFO root fetch - main [MainThread]: End processing [docassemble.base] error
+[2023-05-08 19:19:15] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-08 19:19:15] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.7.1.tar.gz tmp/gpt-review-0.7.1rc481.post1.tar.gz --markdown 20230508/g/gpt-review/0.7.1-0.7.1rc481.post1/diff.md --exclude *.pyd
+[2023-05-08 19:19:15] INFO root fetch - processPackages [neuralpit]: Downloading https://files.pythonhosted.org/packages/29/d3/e48d054eaed817f01261cc4ccad7841d68dbe3351579e0b50ebd488399ae/neuralpit-1.0.2.tar.gz
+[2023-05-08 19:19:15] INFO root fetch - processPackages [arc-cli]: New version: [8.3.0] Old Version: [8.2.0]
+[2023-05-08 19:19:15] INFO root fetch - processPackages [neuralpit]: executing diffoscope
+[2023-05-08 19:19:15] INFO root fetch - processPackages [neuralpit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuralpit-1.0.1.tar.gz tmp/neuralpit-1.0.2.tar.gz --markdown 20230508/n/neuralpit/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-08 19:19:15] INFO root fetch - processPackages [globox]: Downloading https://files.pythonhosted.org/packages/a5/d3/78a7b53bdefada85a685e5cfd99ee9b4fce1bda016c608f58204a1c9cb2a/globox-2.1.2.tar.gz
+[2023-05-08 19:19:15] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/e6/53/41abfd593048e60956a4ab0dd9a5b0450bf0127d2f0f07e238433e709e76/localstack-core-2.0.3.dev20230508101357.tar.gz
+[2023-05-08 19:19:15] INFO root fetch - processPackages [spare-scores]: Downloading https://files.pythonhosted.org/packages/c5/e1/d9b4f743aeb49481cd014a371146d6fb8c2973df513363470c9b7a0f7672/spare_scores-0.1.9.tar.gz
+[2023-05-08 19:19:15] INFO root fetch - processPackages [arc-cli]: Downloading https://files.pythonhosted.org/packages/50/77/f17c022139eecdddb44130ee25092fecd8d6bc58de8275402389f5a6153e/arc_cli-8.2.0.tar.gz
+[2023-05-08 19:19:15] INFO root fetch - processPackages [docassemble.demo]: executing diffoscope
+[2023-05-08 19:19:15] INFO root fetch - processPackages [docassemble.demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docassemble.demo-1.4.8.tar.gz tmp/docassemble.demo-1.4.9.tar.gz --markdown 20230508/d/docassemble.demo/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-05-08 19:19:15] INFO root fetch - processPackages [globox]: executing diffoscope
+[2023-05-08 19:19:15] INFO root fetch - processPackages [globox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/globox-2.1.1.tar.gz tmp/globox-2.1.2.tar.gz --markdown 20230508/g/globox/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-05-08 19:19:15] INFO root fetch - processPackages [spare-scores]: executing diffoscope
+[2023-05-08 19:19:15] INFO root fetch - processPackages [spare-scores]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spare_scores-0.1.8.tar.gz tmp/spare_scores-0.1.9.tar.gz --markdown 20230508/s/spare-scores/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 19:19:16] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-05-08 19:19:16] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230508080750.tar.gz tmp/localstack-core-2.0.3.dev20230508101357.tar.gz --markdown 20230508/l/localstack-core/2.0.3.dev20230508080750-2.0.3.dev20230508101357/diff.md --exclude *.pyd
+[2023-05-08 19:19:16] INFO root fetch - processPackages [arc-cli]: Downloading https://files.pythonhosted.org/packages/dc/44/fab274e4e18c897c6c5d736ad9620641342e98ac7da17ceae8db64418be7/arc_cli-8.3.0.tar.gz
+[2023-05-08 19:19:16] INFO root fetch - processPackages [arc-cli]: executing diffoscope
+[2023-05-08 19:19:16] INFO root fetch - processPackages [arc-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arc_cli-8.2.0.tar.gz tmp/arc_cli-8.3.0.tar.gz --markdown 20230508/a/arc-cli/8.2.0-8.3.0/diff.md --exclude *.pyd
+[2023-05-08 19:19:16] INFO root fetch - main [MainThread]: End processing [ix-aims]: success
+[2023-05-08 19:19:17] INFO root fetch - main [MainThread]: End processing [neuralpit]: success
+[2023-05-08 19:19:17] INFO root fetch - main [MainThread]: End processing [adsms]: success
+[2023-05-08 19:19:17] INFO root fetch - main [MainThread]: End processing [spare-scores]: success
+[2023-05-08 19:19:17] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-08 19:19:17] INFO root fetch - main [MainThread]: End processing [arc-cli]: success
+[2023-05-08 19:19:17] INFO root fetch - main [MainThread]: End processing [globox]: success
+[2023-05-08 19:19:24] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-05-08 19:19:25] INFO root fetch - main [MainThread]: End processing [docassemble.demo]: success
+[2023-05-08 19:19:26] INFO root fetch - main [MainThread]: End processing [docassemble.webapp]: success
+[2023-05-08 19:19:26] INFO root fetch - main [MainThread]: Store serial: [18019961]
