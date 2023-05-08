@@ -5814,3 +5814,37 @@
 [2023-05-08 07:36:36] INFO root fetch - main [MainThread]: End processing [discordia]: success
 [2023-05-08 07:36:41] INFO root fetch - main [MainThread]: End processing [webint]: success
 [2023-05-08 07:36:41] INFO root fetch - main [MainThread]: Store serial: [18013207]
+[2023-05-08 07:41:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18013207]
+[2023-05-08 07:41:49] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-08 07:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crazy-thursday
+[2023-05-08 07:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gs-api-client
+[2023-05-08 07:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bbm
+[2023-05-08 07:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mlbench
+[2023-05-08 07:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: popbill
+[2023-05-08 07:41:49] INFO root fetch - processPackages [bbm]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-08 07:41:49] INFO root fetch - processPackages [gs-api-client]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-05-08 07:41:49] WARNING root fetch - processPackages [mlbench]: Skipping, unable to determine old version
+[2023-05-08 07:41:49] INFO root fetch - main [MainThread]: End processing [mlbench] error
+[2023-05-08 07:41:49] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.5.8.1] Old Version: [2023.5.8.0]
+[2023-05-08 07:41:49] INFO root fetch - processPackages [popbill]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-08 07:41:49] INFO root fetch - processPackages [bbm]: Downloading https://files.pythonhosted.org/packages/85/8d/70b17d45aa64dad0c817a9c9d3469e1c4124737f1067390d637330dca0a7/bbm-0.0.6.tar.gz
+[2023-05-08 07:41:49] INFO root fetch - processPackages [gs-api-client]: Downloading https://files.pythonhosted.org/packages/bd/a3/4cb3bc594ca7d83da74142558581b078b91f94b539e8849ba849d837174b/gs_api_client-2.1.0.tar.gz
+[2023-05-08 07:41:50] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/20/3c/dfe70b75461235a8a2c8e9c256724341f07f2c18dca34238b51d358dfade/crazy-thursday-2023.5.8.0.tar.gz
+[2023-05-08 07:41:50] INFO root fetch - processPackages [popbill]: Downloading https://files.pythonhosted.org/packages/09/9c/b2fe6726132dc8e6be022215e5d8f6580729c5c16b39d4159780b5699292/popbill-1.8.0.tar.gz
+[2023-05-08 07:41:50] INFO root fetch - processPackages [bbm]: Downloading https://files.pythonhosted.org/packages/14/bf/24a943c909a390a9f65396a8e82761afd2ba378b92cbac209a34b4bf5c72/bbm-0.0.7.tar.gz
+[2023-05-08 07:41:50] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/3d/2a/de00ecc6358e16a5ae535591a95316d18e2059ade1b4104b18a1c30fa4eb/crazy-thursday-2023.5.8.1.tar.gz
+[2023-05-08 07:41:50] INFO root fetch - processPackages [gs-api-client]: Downloading https://files.pythonhosted.org/packages/16/2f/7f9419f98c9aca6b19b3f0f14b6a9284a77ff607426d9a576acb474660e6/gs_api_client-2.2.0.tar.gz
+[2023-05-08 07:41:50] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-05-08 07:41:50] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.5.8.0.tar.gz tmp/crazy-thursday-2023.5.8.1.tar.gz --markdown 20230508/c/crazy-thursday/2023.5.8.0-2023.5.8.1/diff.md --exclude *.pyd
+[2023-05-08 07:41:50] INFO root fetch - processPackages [bbm]: executing diffoscope
+[2023-05-08 07:41:50] INFO root fetch - processPackages [bbm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbm-0.0.6.tar.gz tmp/bbm-0.0.7.tar.gz --markdown 20230508/b/bbm/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-08 07:41:50] INFO root fetch - processPackages [popbill]: Downloading https://files.pythonhosted.org/packages/1c/06/402d4254be03987a19f2c7c8647c71444499ac1c9e1cc922a553ade03b8c/popbill-1.9.0.tar.gz
+[2023-05-08 07:41:50] INFO root fetch - processPackages [gs-api-client]: executing diffoscope
+[2023-05-08 07:41:50] INFO root fetch - processPackages [gs-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_api_client-2.1.0.tar.gz tmp/gs_api_client-2.2.0.tar.gz --markdown 20230508/g/gs-api-client/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-05-08 07:41:50] INFO root fetch - processPackages [popbill]: executing diffoscope
+[2023-05-08 07:41:50] INFO root fetch - processPackages [popbill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/popbill-1.8.0.tar.gz tmp/popbill-1.9.0.tar.gz --markdown 20230508/p/popbill/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-08 07:41:51] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-05-08 07:41:51] INFO root fetch - main [MainThread]: End processing [bbm]: success
+[2023-05-08 07:41:51] INFO root fetch - main [MainThread]: End processing [popbill]: success
+[2023-05-08 07:42:11] INFO root fetch - main [MainThread]: End processing [gs-api-client]: success
+[2023-05-08 07:42:11] INFO root fetch - main [MainThread]: Store serial: [18013225]
