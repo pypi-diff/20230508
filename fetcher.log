@@ -18836,3 +18836,75 @@ EOFError: EOF read where object expected
 [2023-05-08 20:12:26] INFO root fetch - main [MainThread]: End processing [Faker]: success
 [2023-05-08 20:12:29] INFO root fetch - main [MainThread]: End processing [django-admin-corporate]: success
 [2023-05-08 20:12:29] INFO root fetch - main [MainThread]: Store serial: [18020542]
+[2023-05-08 20:17:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18020542]
+[2023-05-08 20:17:39] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-08 20:17:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: open-space-toolkit-io
+[2023-05-08 20:17:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: project-structure
+[2023-05-08 20:17:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aars
+[2023-05-08 20:17:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: globals
+[2023-05-08 20:17:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: unpast
+[2023-05-08 20:17:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aikoai
+[2023-05-08 20:17:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: grismconf
+[2023-05-08 20:17:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tupa123
+[2023-05-08 20:17:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: unpast
+[2023-05-08 20:17:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: deepchem
+[2023-05-08 20:17:39] INFO root fetch - processPackages [aikoai]: New version: [2.2] Old Version: [2.1]
+[2023-05-08 20:17:39] INFO root fetch - processPackages [aars]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-05-08 20:17:39] INFO root fetch - processPackages [unpast]: New version: [0.1.0.7] Old Version: [0.1.0.6]
+[2023-05-08 20:17:39] INFO root fetch - processPackages [unpast]: New version: [0.1.0.7] Old Version: [0.1.0.6]
+[2023-05-08 20:17:39] INFO root fetch - processPackages [project-structure]: New version: [0.8.28b3] Old Version: [0.8.28b0]
+[2023-05-08 20:17:39] INFO root fetch - processPackages [globals]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-08 20:17:39] INFO root fetch - processPackages [tupa123]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-08 20:17:39] INFO root fetch - processPackages [unpast]: executing diffoscope
+[2023-05-08 20:17:39] INFO root fetch - processPackages [unpast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unpast-0.1.0.6.tar.gz tmp/unpast-0.1.0.7.tar.gz --markdown 20230508/u/unpast/0.1.0.6-0.1.0.7/diff.md --exclude *.pyd
+[2023-05-08 20:17:39] INFO root fetch - processPackages [open-space-toolkit-io]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-05-08 20:17:39] INFO root fetch - processPackages [grismconf]: New version: [1.40] Old Version: [1.39]
+[2023-05-08 20:17:39] INFO root fetch - processPackages [deepchem]: New version: [2.7.2.dev20230508181654] Old Version: [2.7.2.dev20230505163452]
+[2023-05-08 20:17:39] INFO root fetch - processPackages [unpast]: executing diffoscope
+[2023-05-08 20:17:39] INFO root fetch - processPackages [unpast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unpast-0.1.0.6.tar.gz tmp/unpast-0.1.0.7.tar.gz --markdown 20230508/u/unpast/0.1.0.6-0.1.0.7/diff.md --exclude *.pyd
+[2023-05-08 20:17:39] INFO root fetch - processPackages [aars]: Downloading https://files.pythonhosted.org/packages/2b/6a/6a6695f28a4466aef071aea58bcd2a73d03d55f8f040e9efd0a408f7567a/aars-0.7.0.tar.gz
+[2023-05-08 20:17:40] INFO root fetch - processPackages [aars]: executing diffoscope
+[2023-05-08 20:17:40] INFO root fetch - processPackages [aars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aars-0.6.0.tar.gz tmp/aars-0.7.0.tar.gz --markdown 20230508/a/aars/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-05-08 20:17:40] INFO root fetch - processPackages [globals]: Downloading https://files.pythonhosted.org/packages/ec/76/225730e46e196bee5f75688e9092d72fe4c645f6931fd5322075f3446941/globals-0.3.8.tar.gz
+[2023-05-08 20:17:40] INFO root fetch - processPackages [project-structure]: Downloading https://files.pythonhosted.org/packages/16/25/e8b9dd071b5a3bf8d9974a0eed663507c718c39d03dc68635473250aa12f/project-structure-0.8.28b0.tar.gz
+[2023-05-08 20:17:40] INFO root fetch - processPackages [tupa123]: Downloading https://files.pythonhosted.org/packages/4d/74/100456cfdbf0a5749d43171eceb1804488fab66eaca49766d4109826136a/tupa123-1.4.8.tar.gz
+[2023-05-08 20:17:40] INFO root fetch - processPackages [open-space-toolkit-io]: Downloading https://files.pythonhosted.org/packages/8e/f6/650a1117b8e780f5003f4ad8fb49f6987024b05cf55d805425a66234d12b/open_space_toolkit_io-0.5.0-py39-none-any.whl
+[2023-05-08 20:17:40] INFO root fetch - processPackages [grismconf]: Downloading https://files.pythonhosted.org/packages/9e/21/76d6ad47b59b0780494ee9db8507bc0c4ff0a6aae7f434e29db8548b95ed/grismconf-1.39.tar.gz
+[2023-05-08 20:17:40] INFO root fetch - processPackages [deepchem]: Downloading https://files.pythonhosted.org/packages/99/65/ed297a00e43ac575ef5dfd975981ccabffa60815df0b9d7dc1105d3d6967/deepchem-2.7.2.dev20230505163452.tar.gz
+[2023-05-08 20:17:40] INFO root fetch - processPackages [aikoai]: Downloading https://files.pythonhosted.org/packages/47/e6/27568b92f9f81bd368a1a504b79cad32c2a59699eb7f3cb09a0795c57ead/aikoai-2.2.tar.gz
+[2023-05-08 20:17:40] INFO root fetch - processPackages [project-structure]: Downloading https://files.pythonhosted.org/packages/25/e6/34239a3204a53444c43cba8a958a4fde1c3d86c1cbd34bc582b4484c2f86/project-structure-0.8.28b3.tar.gz
+[2023-05-08 20:17:40] INFO root fetch - processPackages [open-space-toolkit-io]: Downloading https://files.pythonhosted.org/packages/84/d9/5a8411b0c0d03d0b7d616d21f651e093d28cf19804da033a6db095dc37ff/open_space_toolkit_io-0.6.0-py39-none-any.whl
+[2023-05-08 20:17:40] INFO root fetch - processPackages [grismconf]: Downloading https://files.pythonhosted.org/packages/95/cf/2ade83aa0808f25774ab1c4e913ae2bfdbb452ef6fe68b2ce99bf3600163/grismconf-1.40-py3-none-any.whl
+[2023-05-08 20:17:40] INFO root fetch - processPackages [deepchem]: Downloading https://files.pythonhosted.org/packages/0d/c9/a26df4424fa861e12f2c0f5ab18125406fb9fffb048739ac02054138f137/deepchem-2.7.2.dev20230508181654.tar.gz
+[2023-05-08 20:17:40] INFO root fetch - processPackages [project-structure]: executing diffoscope
+[2023-05-08 20:17:40] INFO root fetch - processPackages [project-structure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/project-structure-0.8.28b0.tar.gz tmp/project-structure-0.8.28b3.tar.gz --markdown 20230508/p/project-structure/0.8.28b0-0.8.28b3/diff.md --exclude *.pyd
+[2023-05-08 20:17:40] INFO root fetch - processPackages [tupa123]: Downloading https://files.pythonhosted.org/packages/90/bd/9c842dbb304efa03dd9d793c2bf9c7a2e0c4d19148d77d0a580cd779d1b5/tupa123-1.4.9.tar.gz
+[2023-05-08 20:17:40] INFO root fetch - processPackages [aikoai]: executing diffoscope
+[2023-05-08 20:17:40] INFO root fetch - processPackages [aikoai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aikoai-2.1.tar.gz tmp/aikoai-2.2.tar.gz --markdown 20230508/a/aikoai/2.1-2.2/diff.md --exclude *.pyd
+[2023-05-08 20:17:40] INFO root fetch - processPackages [open-space-toolkit-io]: executing diffoscope
+[2023-05-08 20:17:40] INFO root fetch - processPackages [open-space-toolkit-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_space_toolkit_io-0.5.0-py39-none-any.whl.zip tmp/open_space_toolkit_io-0.6.0-py39-none-any.whl.zip --markdown 20230508/o/open-space-toolkit-io/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-05-08 20:17:40] INFO root fetch - processPackages [globals]: Downloading https://files.pythonhosted.org/packages/fa/6d/956f84c94339650655d9f782da75c09f6bc28aca8c2023003d60ec134862/globals-0.3.9.tar.gz
+[2023-05-08 20:17:40] INFO root fetch - processPackages [grismconf]: executing diffoscope
+[2023-05-08 20:17:40] INFO root fetch - processPackages [grismconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grismconf-1.39.tar.gz tmp/grismconf-1.40-py3-none-any.whl.zip --markdown 20230508/g/grismconf/1.39-1.40/diff.md --exclude *.pyd
+[2023-05-08 20:17:40] INFO root fetch - processPackages [tupa123]: executing diffoscope
+[2023-05-08 20:17:40] INFO root fetch - processPackages [tupa123]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tupa123-1.4.8.tar.gz tmp/tupa123-1.4.9.tar.gz --markdown 20230508/t/tupa123/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-05-08 20:17:40] INFO root fetch - processPackages [deepchem]: executing diffoscope
+[2023-05-08 20:17:40] INFO root fetch - processPackages [deepchem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepchem-2.7.2.dev20230505163452.tar.gz tmp/deepchem-2.7.2.dev20230508181654.tar.gz --markdown 20230508/d/deepchem/2.7.2.dev20230505163452-2.7.2.dev20230508181654/diff.md --exclude *.pyd
+[2023-05-08 20:17:40] INFO root fetch - processPackages [globals]: executing diffoscope
+[2023-05-08 20:17:40] INFO root fetch - processPackages [globals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/globals-0.3.8.tar.gz tmp/globals-0.3.9.tar.gz --markdown 20230508/g/globals/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-08 20:17:41] INFO root fetch - processPackages [unpast]: Start processing: python-framework
+[2023-05-08 20:17:41] INFO root fetch - main [MainThread]: End processing [unpast]: success
+[2023-05-08 20:17:41] INFO root fetch - processPackages [python-framework]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-08 20:17:41] INFO root fetch - main [MainThread]: End processing [unpast]: success
+[2023-05-08 20:17:41] INFO root fetch - processPackages [python-framework]: executing diffoscope
+[2023-05-08 20:17:41] INFO root fetch - processPackages [python-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_framework-0.4.8.tar.gz tmp/python_framework-0.4.9.tar.gz --markdown 20230508/p/python-framework/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-08 20:17:41] INFO root fetch - main [MainThread]: End processing [grismconf]: success
+[2023-05-08 20:17:42] INFO root fetch - main [MainThread]: End processing [tupa123]: success
+[2023-05-08 20:17:42] INFO root fetch - main [MainThread]: End processing [aars]: success
+[2023-05-08 20:17:42] INFO root fetch - main [MainThread]: End processing [globals]: success
+[2023-05-08 20:17:42] INFO root fetch - main [MainThread]: End processing [aikoai]: success
+[2023-05-08 20:17:43] INFO root fetch - main [MainThread]: End processing [python-framework]: success
+[2023-05-08 20:17:43] INFO root fetch - main [MainThread]: End processing [project-structure]: success
+[2023-05-08 20:17:43] INFO root fetch - main [MainThread]: End processing [deepchem]: success
+[2023-05-08 20:17:47] INFO root fetch - main [MainThread]: End processing [open-space-toolkit-io]: success
+[2023-05-08 20:17:47] INFO root fetch - main [MainThread]: Store serial: [18020583]
