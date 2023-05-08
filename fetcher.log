@@ -5341,3 +5341,55 @@
 [2023-05-08 06:41:39] INFO root fetch - main [MainThread]: End processing [pystools]: success
 [2023-05-08 06:41:39] INFO root fetch - main [MainThread]: End processing [autoxx]: success
 [2023-05-08 06:41:39] INFO root fetch - main [MainThread]: Store serial: [18012931]
+[2023-05-08 06:46:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18012931]
+[2023-05-08 06:46:48] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-08 06:46:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edman-web
+[2023-05-08 06:46:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ai-executor
+[2023-05-08 06:46:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: annofabcli
+[2023-05-08 06:46:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: libfwupdplugin1
+[2023-05-08 06:46:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hikari-yuyo
+[2023-05-08 06:46:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ospyata
+[2023-05-08 06:46:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autoxx
+[2023-05-08 06:46:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pystools
+[2023-05-08 06:46:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: opengpt4
+[2023-05-08 06:46:48] WARNING root fetch - processPackages [ai-executor]: Skipping, unable to determine old version
+[2023-05-08 06:46:48] WARNING root fetch - processPackages [libfwupdplugin1]: Skipping, unable to determine old version
+[2023-05-08 06:46:48] INFO root fetch - main [MainThread]: End processing [ai-executor] error
+[2023-05-08 06:46:48] INFO root fetch - main [MainThread]: End processing [libfwupdplugin1] error
+[2023-05-08 06:46:48] INFO root fetch - processPackages [hikari-yuyo]: New version: [1.9.1a1] Old Version: [1.9.0a1]
+[2023-05-08 06:46:48] ERROR root fetch - processPackages [autoxx]: Unable to get metadata: No such project 'autoxx'
+[2023-05-08 06:46:48] INFO root fetch - main [MainThread]: End processing [autoxx] error
+[2023-05-08 06:46:48] INFO root fetch - processPackages [ospyata]: New version: [3.1.3] Old Version: [3.1.1]
+[2023-05-08 06:46:48] INFO root fetch - processPackages [pystools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 06:46:48] INFO root fetch - processPackages [opengpt4]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-08 06:46:48] INFO root fetch - processPackages [edman-web]: New version: [2023.5.8] Old Version: [2023.4.5]
+[2023-05-08 06:46:48] INFO root fetch - processPackages [annofabcli]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-08 06:46:48] INFO root fetch - processPackages [pystools]: executing diffoscope
+[2023-05-08 06:46:48] INFO root fetch - processPackages [pystools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystools-0.0.8.tar.gz tmp/pystools-0.0.9.tar.gz --markdown 20230508/p/pystools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 06:46:48] INFO root fetch - processPackages [hikari-yuyo]: Downloading https://files.pythonhosted.org/packages/1c/73/32fc9673b8d6caca075ddb668365e3aa1106cc59f6f654a108dd3cbcd8d2/hikari-yuyo-1.9.0a1.tar.gz
+[2023-05-08 06:46:48] INFO root fetch - processPackages [opengpt4]: Downloading https://files.pythonhosted.org/packages/0c/d7/b21c2e210db1cb95fda42d9503a3a6aa75b174171dab56365c6d75db7065/opengpt4-0.1.0.tar.gz
+[2023-05-08 06:46:48] INFO root fetch - processPackages [ospyata]: Downloading https://files.pythonhosted.org/packages/64/e8/d85acbe6677e199907d003b33fd1af7fe062b2d1f007df8738ca3312e99a/ospyata-3.1.1.tar.gz
+[2023-05-08 06:46:48] INFO root fetch - processPackages [edman-web]: Downloading https://files.pythonhosted.org/packages/7e/5d/e977d290418a5ee3813ab4c3c67d1d8799d541c1e0380e74a615319f197e/edman_web-2023.4.5.tar.gz
+[2023-05-08 06:46:48] INFO root fetch - processPackages [annofabcli]: Downloading https://files.pythonhosted.org/packages/9b/30/c4b262939f47c9a5b879fd55c593b084bfaf1bd05e70454b77ae76dc4836/annofabcli-1.9.0.tar.gz
+[2023-05-08 06:46:48] INFO root fetch - processPackages [opengpt4]: Downloading https://files.pythonhosted.org/packages/5a/16/39b660ad83071714fc797782fc8da80bb758cc8d3d1012f151f40fa945d7/opengpt4-0.1.1.tar.gz
+[2023-05-08 06:46:48] INFO root fetch - processPackages [opengpt4]: executing diffoscope
+[2023-05-08 06:46:48] INFO root fetch - processPackages [opengpt4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opengpt4-0.1.0.tar.gz tmp/opengpt4-0.1.1.tar.gz --markdown 20230508/o/opengpt4/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-08 06:46:48] INFO root fetch - processPackages [ospyata]: Downloading https://files.pythonhosted.org/packages/53/7b/b39dd8e3e41d9a1f8f8bd9768789e7ea9e328ea2803a3a0ea4a5f0b6ff2a/ospyata-3.1.3.tar.gz
+[2023-05-08 06:46:48] INFO root fetch - processPackages [annofabcli]: Downloading https://files.pythonhosted.org/packages/f3/65/e480a62f8a5ee129f7a4ed0ec83f6f6dcd5418f8a620d1c17c801ffb6e80/annofabcli-1.9.1.tar.gz
+[2023-05-08 06:46:48] INFO root fetch - processPackages [edman-web]: Downloading https://files.pythonhosted.org/packages/1d/f8/19e7e817bd58bdcb3779517bb8f419e8e5100d49433571ccd3f51f434491/edman_web-2023.5.8.tar.gz
+[2023-05-08 06:46:48] INFO root fetch - processPackages [annofabcli]: executing diffoscope
+[2023-05-08 06:46:48] INFO root fetch - processPackages [annofabcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/annofabcli-1.9.0.tar.gz tmp/annofabcli-1.9.1.tar.gz --markdown 20230508/a/annofabcli/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-08 06:46:48] INFO root fetch - processPackages [ospyata]: executing diffoscope
+[2023-05-08 06:46:48] INFO root fetch - processPackages [ospyata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ospyata-3.1.1.tar.gz tmp/ospyata-3.1.3.tar.gz --markdown 20230508/o/ospyata/3.1.1-3.1.3/diff.md --exclude *.pyd
+[2023-05-08 06:46:48] INFO root fetch - processPackages [hikari-yuyo]: Downloading https://files.pythonhosted.org/packages/38/c1/0564a1baefa3a6c0538e4b894416ec1ea5e8ea0f5acd37bcfe6185089477/hikari-yuyo-1.9.1a1.tar.gz
+[2023-05-08 06:46:48] INFO root fetch - processPackages [edman-web]: executing diffoscope
+[2023-05-08 06:46:48] INFO root fetch - processPackages [edman-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edman_web-2023.4.5.tar.gz tmp/edman_web-2023.5.8.tar.gz --markdown 20230508/e/edman-web/2023.4.5-2023.5.8/diff.md --exclude *.pyd
+[2023-05-08 06:46:48] INFO root fetch - processPackages [hikari-yuyo]: executing diffoscope
+[2023-05-08 06:46:48] INFO root fetch - processPackages [hikari-yuyo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hikari-yuyo-1.9.0a1.tar.gz tmp/hikari-yuyo-1.9.1a1.tar.gz --markdown 20230508/h/hikari-yuyo/1.9.0a1-1.9.1a1/diff.md --exclude *.pyd
+[2023-05-08 06:46:49] INFO root fetch - main [MainThread]: End processing [pystools]: success
+[2023-05-08 06:46:49] INFO root fetch - main [MainThread]: End processing [ospyata]: success
+[2023-05-08 06:46:50] INFO root fetch - main [MainThread]: End processing [edman-web]: success
+[2023-05-08 06:46:50] INFO root fetch - main [MainThread]: End processing [opengpt4]: success
+[2023-05-08 06:46:51] INFO root fetch - main [MainThread]: End processing [annofabcli]: success
+[2023-05-08 06:46:51] INFO root fetch - main [MainThread]: End processing [hikari-yuyo]: success
+[2023-05-08 06:46:51] INFO root fetch - main [MainThread]: Store serial: [18012966]
