@@ -16372,3 +16372,70 @@ EOFError: EOF read where object expected
 [2023-05-08 17:55:24] INFO root fetch - main [MainThread]: End processing [pymad8]: success
 [2023-05-08 17:55:28] INFO root fetch - main [MainThread]: End processing [neo3-boa]: success
 [2023-05-08 17:55:28] INFO root fetch - main [MainThread]: Store serial: [18019067]
+[2023-05-08 18:00:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18019067]
+[2023-05-08 18:00:37] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-08 18:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: syssqlitedbpackageV1
+[2023-05-08 18:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mkdocs-ultralytics-plugin
+[2023-05-08 18:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oarepo-runtime
+[2023-05-08 18:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: feiticeiro-tec
+[2023-05-08 18:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kyeongmo230508AIL
+[2023-05-08 18:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: peleffy
+[2023-05-08 18:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fieldedge-utilities
+[2023-05-08 18:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hyperfetch
+[2023-05-08 18:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-azure
+[2023-05-08 18:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: carchive
+[2023-05-08 18:00:37] INFO root fetch - processPackages [peleffy]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-05-08 18:00:37] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-08 18:00:37] INFO root fetch - processPackages [syssqlitedbpackageV1]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-08 18:00:37] INFO root fetch - processPackages [feiticeiro-tec]: New version: [1.7.4] Old Version: [1.7.3]
+[2023-05-08 18:00:37] WARNING root fetch - processPackages [kyeongmo230508AIL]: Skipping, unable to determine old version
+[2023-05-08 18:00:37] INFO root fetch - processPackages [kyeongmo230508AIL]: Start processing: mkdocs-ultralytics-plugin
+[2023-05-08 18:00:37] INFO root fetch - main [MainThread]: End processing [kyeongmo230508AIL] error
+[2023-05-08 18:00:37] INFO root fetch - processPackages [oarepo-runtime]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-08 18:00:37] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-08 18:00:37] INFO root fetch - processPackages [carchive]: New version: [0.0.47] Old Version: [0.0.46]
+[2023-05-08 18:00:37] INFO root fetch - processPackages [hyperfetch]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-08 18:00:37] INFO root fetch - processPackages [fieldedge-utilities]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-08 18:00:37] INFO root fetch - processPackages [pulumi-azure]: New version: [5.9.0a1654522381] Old Version: [5.9.0a1654274095]
+[2023-05-08 18:00:37] INFO root fetch - processPackages [oarepo-runtime]: executing diffoscope
+[2023-05-08 18:00:37] INFO root fetch - processPackages [oarepo-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-runtime-1.2.8.tar.gz tmp/oarepo-runtime-1.2.9.tar.gz --markdown 20230508/o/oarepo-runtime/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-08 18:00:37] INFO root fetch - processPackages [syssqlitedbpackageV1]: Downloading https://files.pythonhosted.org/packages/9a/ca/135de35698d709ef6dd812eed9da25cdc6e416a8716265fd33b141809507/syssqlitedbpackageV1-1.2.0.tar.gz
+[2023-05-08 18:00:37] INFO root fetch - processPackages [feiticeiro-tec]: Downloading https://files.pythonhosted.org/packages/ba/f4/8bd9c8609cca6d9b3c38a95e11d2cce7873315fb886603b972b1eb9db8a5/feiticeiro_tec-1.7.3.tar.gz
+[2023-05-08 18:00:37] INFO root fetch - processPackages [carchive]: Downloading https://files.pythonhosted.org/packages/62/2f/662ec59c4de17369a88c433ff5345d2e5928bdc4b8426e1eadd7b416ee9f/carchive-0.0.46.tar.gz
+[2023-05-08 18:00:37] WARNING root fetch - processPackages [feiticeiro-tec]: Skipping package: exceeds size limit 42352460>=10485760
+[2023-05-08 18:00:37] INFO root fetch - main [MainThread]: End processing [feiticeiro-tec] error
+[2023-05-08 18:00:37] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: Downloading https://files.pythonhosted.org/packages/e6/7e/e1886fcf2f57de88f57427350a2c2443a7d3f1360422c385e1a92b706a98/mkdocs-ultralytics-plugin-0.0.4.tar.gz
+[2023-05-08 18:00:37] INFO root fetch - processPackages [peleffy]: Downloading https://files.pythonhosted.org/packages/b9/02/985dc8ea7d4e54c80534507082532311fc42c29ec4e7285792787ba0ed6a/peleffy-1.4.3.tar.gz
+[2023-05-08 18:00:37] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: Downloading https://files.pythonhosted.org/packages/e6/7e/e1886fcf2f57de88f57427350a2c2443a7d3f1360422c385e1a92b706a98/mkdocs-ultralytics-plugin-0.0.4.tar.gz
+[2023-05-08 18:00:37] INFO root fetch - processPackages [syssqlitedbpackageV1]: executing diffoscope
+[2023-05-08 18:00:37] INFO root fetch - processPackages [syssqlitedbpackageV1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syssqlitedbpackageV1-1.1.0.tar.gz tmp/syssqlitedbpackageV1-1.2.0.tar.gz --markdown 20230508/s/syssqlitedbpackageV1/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-08 18:00:37] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/95/6d/184badcdda1d8846e82c25063e340f60ddbf5b018a98c303e4bb5aa0a6ff/pulumi_azure-5.9.0a1654274095.tar.gz
+[2023-05-08 18:00:37] INFO root fetch - processPackages [hyperfetch]: Downloading https://files.pythonhosted.org/packages/86/b8/52bc489a6d157e4b3816d01dca7ac6cd6264d160fa46a9d1416de657977b/hyperfetch-1.0.8.tar.gz
+[2023-05-08 18:00:38] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: executing diffoscope
+[2023-05-08 18:00:38] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-ultralytics-plugin-0.0.3.tar.gz tmp/mkdocs-ultralytics-plugin-0.0.4.tar.gz --markdown 20230508/m/mkdocs-ultralytics-plugin/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-08 18:00:38] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: executing diffoscope
+[2023-05-08 18:00:38] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-ultralytics-plugin-0.0.3.tar.gz tmp/mkdocs-ultralytics-plugin-0.0.4.tar.gz --markdown 20230508/m/mkdocs-ultralytics-plugin/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-08 18:00:38] INFO root fetch - processPackages [carchive]: Downloading https://files.pythonhosted.org/packages/02/ea/b56422969726ecfbe372e1bda2f2e206658973e04ed52af5c205336d0a28/carchive-0.0.47.tar.gz
+[2023-05-08 18:00:38] INFO root fetch - processPackages [carchive]: executing diffoscope
+[2023-05-08 18:00:38] INFO root fetch - processPackages [carchive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carchive-0.0.46.tar.gz tmp/carchive-0.0.47.tar.gz --markdown 20230508/c/carchive/0.0.46-0.0.47/diff.md --exclude *.pyd
+[2023-05-08 18:00:38] INFO root fetch - processPackages [peleffy]: Downloading https://files.pythonhosted.org/packages/75/e1/9cb9af921371b258081ab9fd1c434d9133434de74b2a769716e146c1f29d/peleffy-1.4.4.tar.gz
+[2023-05-08 18:00:38] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/19/1b/87a51c6988d790ed8bfb430670a85c499af09d14d21430448a37baa7fb64/pulumi_azure-5.9.0a1654522381.tar.gz
+[2023-05-08 18:00:38] INFO root fetch - processPackages [hyperfetch]: Downloading https://files.pythonhosted.org/packages/52/63/9980e7ef444fa9cc15631fb1c0c24b36ec153c589ca9c0b399d82de0be31/hyperfetch-1.0.9.tar.gz
+[2023-05-08 18:00:38] INFO root fetch - processPackages [peleffy]: executing diffoscope
+[2023-05-08 18:00:38] INFO root fetch - processPackages [peleffy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peleffy-1.4.3.tar.gz tmp/peleffy-1.4.4.tar.gz --markdown 20230508/p/peleffy/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-05-08 18:00:38] INFO root fetch - processPackages [hyperfetch]: executing diffoscope
+[2023-05-08 18:00:38] INFO root fetch - processPackages [hyperfetch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperfetch-1.0.8.tar.gz tmp/hyperfetch-1.0.9.tar.gz --markdown 20230508/h/hyperfetch/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-08 18:00:38] INFO root fetch - main [MainThread]: End processing [syssqlitedbpackageV1]: success
+[2023-05-08 18:00:38] INFO root fetch - processPackages [pulumi-azure]: executing diffoscope
+[2023-05-08 18:00:38] INFO root fetch - processPackages [pulumi-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azure-5.9.0a1654274095.tar.gz tmp/pulumi_azure-5.9.0a1654522381.tar.gz --markdown 20230508/p/pulumi-azure/5.9.0a1654274095-5.9.0a1654522381/diff.md --exclude *.pyd
+[2023-05-08 18:00:39] INFO root fetch - main [MainThread]: End processing [mkdocs-ultralytics-plugin]: success
+[2023-05-08 18:00:39] INFO root fetch - main [MainThread]: End processing [mkdocs-ultralytics-plugin]: success
+[2023-05-08 18:00:39] INFO root fetch - main [MainThread]: End processing [carchive]: success
+[2023-05-08 18:00:39] INFO root fetch - main [MainThread]: End processing [oarepo-runtime]: success
+[2023-05-08 18:00:39] INFO root fetch - main [MainThread]: End processing [hyperfetch]: success
+[2023-05-08 18:00:40] INFO root fetch - main [MainThread]: End processing [peleffy]: success
+[2023-05-08 18:00:43] INFO root fetch - processPackages [fieldedge-utilities]: executing diffoscope
+[2023-05-08 18:00:43] INFO root fetch - processPackages [fieldedge-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fieldedge-utilities-0.9.4.tar.gz tmp/fieldedge-utilities-0.9.5.tar.gz --markdown 20230508/f/fieldedge-utilities/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-08 18:00:44] INFO root fetch - main [MainThread]: End processing [fieldedge-utilities]: success
+[2023-05-08 18:01:05] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
+[2023-05-08 18:01:05] INFO root fetch - main [MainThread]: Store serial: [18019098]
