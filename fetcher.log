@@ -9783,3 +9783,68 @@
 [2023-05-08 12:06:52] INFO root fetch - main [MainThread]: End processing [makejinja]: success
 [2023-05-08 12:06:53] INFO root fetch - main [MainThread]: End processing [ai-privacy-toolkit]: success
 [2023-05-08 12:06:53] INFO root fetch - main [MainThread]: Store serial: [18015492]
+[2023-05-08 12:11:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18015492]
+[2023-05-08 12:12:02] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-08 12:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eptools
+[2023-05-08 12:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: transcribe-anything
+[2023-05-08 12:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pssapi
+[2023-05-08 12:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dftrans
+[2023-05-08 12:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fusionsc
+[2023-05-08 12:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SqlAlchemy-Tools
+[2023-05-08 12:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dm-reverb-nightly
+[2023-05-08 12:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: calcutils
+[2023-05-08 12:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vwo-python-sdk
+[2023-05-08 12:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: madblog
+[2023-05-08 12:12:02] WARNING root fetch - processPackages [dftrans]: Skipping, unable to determine old version
+[2023-05-08 12:12:02] INFO root fetch - processPackages [dftrans]: Start processing: encord-active
+[2023-05-08 12:12:02] INFO root fetch - main [MainThread]: End processing [dftrans] error
+[2023-05-08 12:12:02] WARNING root fetch - processPackages [calcutils]: Skipping, unable to determine old version
+[2023-05-08 12:12:02] INFO root fetch - main [MainThread]: End processing [calcutils] error
+[2023-05-08 12:12:02] INFO root fetch - processPackages [dm-reverb-nightly]: New version: [0.9.0.dev20221207] Old Version: [0.9.0.dev20221206]
+[2023-05-08 12:12:02] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/b4/60/e92fdb2c772dd865b56f7c50bfc1c4bffe5431b4007700cd760900e7aaf2/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-08 12:12:02] WARNING root fetch - processPackages [pssapi]: Skipping, unable to determine old version
+[2023-05-08 12:12:02] INFO root fetch - main [MainThread]: End processing [pssapi] error
+[2023-05-08 12:12:02] INFO root fetch - processPackages [eptools]: New version: [8.5.8] Old Version: [8.5.6]
+[2023-05-08 12:12:02] INFO root fetch - processPackages [madblog]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-08 12:12:02] INFO root fetch - processPackages [fusionsc]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-05-08 12:12:02] INFO root fetch - processPackages [vwo-python-sdk]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-05-08 12:12:02] INFO root fetch - processPackages [SqlAlchemy-Tools]: New version: [0.2.0] Old Version: [0.1.1b0]
+[2023-05-08 12:12:02] INFO root fetch - processPackages [transcribe-anything]: New version: [2.3.4] Old Version: [2.3.3]
+[2023-05-08 12:12:02] INFO root fetch - processPackages [encord-active]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 12:12:02] INFO root fetch - processPackages [madblog]: Downloading https://files.pythonhosted.org/packages/ed/b3/2c5a42942bc6ea230ecddff4c9ebdb21887926eab799eac2ae2f7a4a9a6b/madblog-0.2.8.tar.gz
+[2023-05-08 12:12:02] INFO root fetch - processPackages [eptools]: Downloading https://files.pythonhosted.org/packages/d6/88/8d668d8a6cbb338e624478062f16da0e40a56135d970b652f67c66b40a07/eptools-8.5.6.tar.gz
+[2023-05-08 12:12:02] INFO root fetch - processPackages [SqlAlchemy-Tools]: Downloading https://files.pythonhosted.org/packages/37/53/7664d3a1925d10cf712b92de4f901ea85c6246c30a496b83b64d5fc32bb1/SqlAlchemy_Tools-0.1.1b0.tar.gz
+[2023-05-08 12:12:02] INFO root fetch - processPackages [fusionsc]: Downloading https://files.pythonhosted.org/packages/6b/4b/5708403096374ea86b1a65b7e3467aeb11a9f2219801f48aecf3a3c3905c/fusionsc-4.0.1.tar.gz
+[2023-05-08 12:12:02] INFO root fetch - processPackages [vwo-python-sdk]: Downloading https://files.pythonhosted.org/packages/43/9e/831877c33ce8e4f020b1efcae45cc76f3cf9f114301cf91c925dadedbad4/vwo-python-sdk-1.8.2.tar.gz
+[2023-05-08 12:12:02] INFO root fetch - processPackages [encord-active]: Downloading https://files.pythonhosted.org/packages/14/53/4cb3529f62b21b97e90761ad702d4e864b643e4772935fb9c464f8ab6758/encord-active-0.1.8.tar.gz
+[2023-05-08 12:12:02] INFO root fetch - processPackages [transcribe-anything]: Downloading https://files.pythonhosted.org/packages/8c/ac/5b756623bde0cf03d8773b71ddac9a4862b20dad663a15af9448869cd314/transcribe-anything-2.3.4.tar.gz
+[2023-05-08 12:12:03] WARNING root fetch - processPackages [fusionsc]: Skipping package: exceeds size limit 16405718>=10485760
+[2023-05-08 12:12:03] INFO root fetch - main [MainThread]: End processing [fusionsc] error
+[2023-05-08 12:12:03] INFO root fetch - processPackages [eptools]: Downloading https://files.pythonhosted.org/packages/ff/0b/715867fe1fe0146fffe79b53a746887f5ac82e666f7daad176d68858eab0/eptools-8.5.8.tar.gz
+[2023-05-08 12:12:03] INFO root fetch - processPackages [transcribe-anything]: executing diffoscope
+[2023-05-08 12:12:03] INFO root fetch - processPackages [transcribe-anything]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transcribe-anything-2.3.3.tar.gz tmp/transcribe-anything-2.3.4.tar.gz --markdown 20230508/t/transcribe-anything/2.3.3-2.3.4/diff.md --exclude *.pyd
+[2023-05-08 12:12:03] INFO root fetch - processPackages [madblog]: Downloading https://files.pythonhosted.org/packages/04/1d/afedf727ff86588e120b14288d3e4d4b69c63b58c662ea13511f25738baa/madblog-0.2.9.tar.gz
+[2023-05-08 12:12:03] INFO root fetch - processPackages [SqlAlchemy-Tools]: Downloading https://files.pythonhosted.org/packages/39/0e/f277900f956aa24a76014dcbaf3768bff72b624047b89c28a8e6a4caab30/SqlAlchemy_Tools-0.2.0.tar.gz
+[2023-05-08 12:12:03] INFO root fetch - processPackages [eptools]: executing diffoscope
+[2023-05-08 12:12:03] INFO root fetch - processPackages [eptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eptools-8.5.6.tar.gz tmp/eptools-8.5.8.tar.gz --markdown 20230508/e/eptools/8.5.6-8.5.8/diff.md --exclude *.pyd
+[2023-05-08 12:12:03] INFO root fetch - processPackages [vwo-python-sdk]: Downloading https://files.pythonhosted.org/packages/da/72/3c1b74f57b5b647b27a01d8c3a65b25ee7acc4aa566fa905f1dde110e5d2/vwo-python-sdk-1.9.0.tar.gz
+[2023-05-08 12:12:03] INFO root fetch - processPackages [vwo-python-sdk]: executing diffoscope
+[2023-05-08 12:12:03] INFO root fetch - processPackages [vwo-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vwo-python-sdk-1.8.2.tar.gz tmp/vwo-python-sdk-1.9.0.tar.gz --markdown 20230508/v/vwo-python-sdk/1.8.2-1.9.0/diff.md --exclude *.pyd
+[2023-05-08 12:12:03] INFO root fetch - processPackages [encord-active]: Downloading https://files.pythonhosted.org/packages/c3/14/4bad612dc1f21c818799f76b076d38fbaeeaedf2288d7c41c915b0cdce4d/encord-active-0.1.9.tar.gz
+[2023-05-08 12:12:03] INFO root fetch - processPackages [SqlAlchemy-Tools]: executing diffoscope
+[2023-05-08 12:12:03] INFO root fetch - processPackages [SqlAlchemy-Tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SqlAlchemy_Tools-0.1.1b0.tar.gz tmp/SqlAlchemy_Tools-0.2.0.tar.gz --markdown 20230508/S/SqlAlchemy-Tools/0.1.1b0-0.2.0/diff.md --exclude *.pyd
+[2023-05-08 12:12:03] INFO root fetch - processPackages [encord-active]: executing diffoscope
+[2023-05-08 12:12:03] INFO root fetch - processPackages [encord-active]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encord-active-0.1.8.tar.gz tmp/encord-active-0.1.9.tar.gz --markdown 20230508/e/encord-active/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 12:12:03] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/07/ba/e9ef4e61b606a17814023d4b0a99ebf04f48787449f89134eb770db70591/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-08 12:12:03] INFO root fetch - processPackages [madblog]: executing diffoscope
+[2023-05-08 12:12:03] INFO root fetch - processPackages [madblog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/madblog-0.2.8.tar.gz tmp/madblog-0.2.9.tar.gz --markdown 20230508/m/madblog/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-08 12:12:04] INFO root fetch - processPackages [dm-reverb-nightly]: executing diffoscope
+[2023-05-08 12:12:04] INFO root fetch - processPackages [dm-reverb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230508/d/dm-reverb-nightly/0.9.0.dev20221206-0.9.0.dev20221207/diff.md --exclude *.pyd
+[2023-05-08 12:12:04] INFO root fetch - main [MainThread]: End processing [SqlAlchemy-Tools]: success
+[2023-05-08 12:12:04] INFO root fetch - main [MainThread]: End processing [transcribe-anything]: success
+[2023-05-08 12:12:04] INFO root fetch - main [MainThread]: End processing [eptools]: success
+[2023-05-08 12:12:05] INFO root fetch - main [MainThread]: End processing [vwo-python-sdk]: success
+[2023-05-08 12:12:05] INFO root fetch - main [MainThread]: End processing [madblog]: success
+[2023-05-08 12:12:05] INFO root fetch - main [MainThread]: End processing [encord-active]: success
+[2023-05-08 12:13:01] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
+[2023-05-08 12:13:01] INFO root fetch - main [MainThread]: Store serial: [18015528]
