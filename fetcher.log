@@ -5784,3 +5784,33 @@
 [2023-05-08 07:31:25] INFO root fetch - main [MainThread]: End processing [cyberutils]: success
 [2023-05-08 07:31:25] INFO root fetch - main [MainThread]: End processing [halring]: success
 [2023-05-08 07:31:25] INFO root fetch - main [MainThread]: Store serial: [18013188]
+[2023-05-08 07:36:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18013188]
+[2023-05-08 07:36:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-08 07:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: discordia
+[2023-05-08 07:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: webint
+[2023-05-08 07:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: elixia
+[2023-05-08 07:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: export-ig
+[2023-05-08 07:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wcfhttp
+[2023-05-08 07:36:34] INFO root fetch - processPackages [webint]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 07:36:34] WARNING root fetch - processPackages [elixia]: Skipping, unable to determine old version
+[2023-05-08 07:36:34] INFO root fetch - main [MainThread]: End processing [elixia] error
+[2023-05-08 07:36:34] INFO root fetch - processPackages [discordia]: New version: [0.2] Old Version: [0.1]
+[2023-05-08 07:36:34] INFO root fetch - processPackages [export-ig]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-08 07:36:34] INFO root fetch - processPackages [wcfhttp]: New version: [37.1.25.0] Old Version: [3.7.0.30.25]
+[2023-05-08 07:36:34] INFO root fetch - processPackages [webint]: executing diffoscope
+[2023-05-08 07:36:34] INFO root fetch - processPackages [webint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webint-0.1.8.tar.gz tmp/webint-0.1.9.tar.gz --markdown 20230508/w/webint/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 07:36:34] INFO root fetch - processPackages [discordia]: Downloading https://files.pythonhosted.org/packages/36/49/ecca679d4022b6fd6031560518a412a4c316d328d5fe473ae5a0ff6a0166/discordia-0.1.tar.gz
+[2023-05-08 07:36:34] INFO root fetch - processPackages [export-ig]: Downloading https://files.pythonhosted.org/packages/20/9b/0a2ecf94c304c411c34c59d8031e2054f7962b9a184a530e17c0a1a0845d/export_ig-1.0.2.tar.gz
+[2023-05-08 07:36:34] INFO root fetch - processPackages [export-ig]: executing diffoscope
+[2023-05-08 07:36:34] INFO root fetch - processPackages [export-ig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/export_ig-1.0.1.tar.gz tmp/export_ig-1.0.2.tar.gz --markdown 20230508/e/export-ig/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-08 07:36:34] INFO root fetch - processPackages [wcfhttp]: Downloading https://files.pythonhosted.org/packages/b5/df/6c1b873eb3fdcd4628e3024e6f9b324c682c0b20ea8693132cfcc3f57779/wcfhttp-37.1.25.0.tar.gz
+[2023-05-08 07:36:34] INFO root fetch - processPackages [discordia]: Downloading https://files.pythonhosted.org/packages/18/26/b41649ab09f0ab7bf011b69e98243a773e591e82b56505fb5100720a972a/discordia-0.2.tar.gz
+[2023-05-08 07:36:34] INFO root fetch - processPackages [wcfhttp]: executing diffoscope
+[2023-05-08 07:36:34] INFO root fetch - processPackages [wcfhttp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wcfhttp-3.7.0.30.25.tar.gz tmp/wcfhttp-37.1.25.0.tar.gz --markdown 20230508/w/wcfhttp/3.7.0.30.25-37.1.25.0/diff.md --exclude *.pyd
+[2023-05-08 07:36:34] INFO root fetch - processPackages [discordia]: executing diffoscope
+[2023-05-08 07:36:34] INFO root fetch - processPackages [discordia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discordia-0.1.tar.gz tmp/discordia-0.2.tar.gz --markdown 20230508/d/discordia/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-08 07:36:35] INFO root fetch - main [MainThread]: End processing [export-ig]: success
+[2023-05-08 07:36:35] INFO root fetch - main [MainThread]: End processing [wcfhttp]: success
+[2023-05-08 07:36:36] INFO root fetch - main [MainThread]: End processing [discordia]: success
+[2023-05-08 07:36:41] INFO root fetch - main [MainThread]: End processing [webint]: success
+[2023-05-08 07:36:41] INFO root fetch - main [MainThread]: Store serial: [18013207]
