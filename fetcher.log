@@ -9725,3 +9725,61 @@
 [2023-05-08 12:01:17] INFO root fetch - main [MainThread]: End processing [docarray]: success
 [2023-05-08 12:01:41] INFO root fetch - main [MainThread]: End processing [xrootd]: success
 [2023-05-08 12:01:41] INFO root fetch - main [MainThread]: Store serial: [18015462]
+[2023-05-08 12:06:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18015462]
+[2023-05-08 12:06:50] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-08 12:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: approximate-cluster-identities
+[2023-05-08 12:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypswcracker
+[2023-05-08 12:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aioxmlrpc
+[2023-05-08 12:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TheSilent
+[2023-05-08 12:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CDSupdate
+[2023-05-08 12:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qtest-reporter
+[2023-05-08 12:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xcsv-plot-map
+[2023-05-08 12:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: makejinja
+[2023-05-08 12:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ai-privacy-toolkit
+[2023-05-08 12:06:50] WARNING root fetch - processPackages [approximate-cluster-identities]: Skipping, unable to determine old version
+[2023-05-08 12:06:50] INFO root fetch - main [MainThread]: End processing [approximate-cluster-identities] error
+[2023-05-08 12:06:50] INFO root fetch - processPackages [aioxmlrpc]: New version: [0.7.0] Old Version: [0.6.5]
+[2023-05-08 12:06:50] INFO root fetch - processPackages [qtest-reporter]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-08 12:06:50] WARNING root fetch - processPackages [pypswcracker]: Skipping, unable to determine old version
+[2023-05-08 12:06:50] INFO root fetch - processPackages [xcsv-plot-map]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-08 12:06:50] INFO root fetch - main [MainThread]: End processing [pypswcracker] error
+[2023-05-08 12:06:50] INFO root fetch - processPackages [CDSupdate]: New version: [1.2.1] Old Version: [1.1.0]
+[2023-05-08 12:06:50] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-08 12:06:50] INFO root fetch - processPackages [makejinja]: New version: [1.1.5b1] Old Version: [1.1.4]
+[2023-05-08 12:06:50] INFO root fetch - processPackages [ai-privacy-toolkit]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-08 12:06:50] INFO root fetch - processPackages [qtest-reporter]: Downloading https://files.pythonhosted.org/packages/04/4f/6b5d7ab9c2c2b09ed8220e61bc3f37ef86d50258c01f77c344f29d089820/qtest_reporter-0.0.1.tar.gz
+[2023-05-08 12:06:50] INFO root fetch - processPackages [aioxmlrpc]: Downloading https://files.pythonhosted.org/packages/02/3e/d5f899ac509fdacba957107e7599c0436940aa47a8c810156c44d9e1282b/aioxmlrpc-0.6.5.tar.gz
+[2023-05-08 12:06:50] INFO root fetch - processPackages [xcsv-plot-map]: Downloading https://files.pythonhosted.org/packages/39/f6/f212b5b8cfeaecfedf6795954b8d580f02fa3897ebb40bf638937b943362/xcsv_plot_map-0.3.0.tar.gz
+[2023-05-08 12:06:50] INFO root fetch - processPackages [CDSupdate]: Downloading https://files.pythonhosted.org/packages/f4/d6/4480e529ac1c410121c610a61ad9517de7e05746d4ed024eea5c3f65fccc/CDSupdate-1.1.0.tar.gz
+[2023-05-08 12:06:50] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-05-08 12:06:50] INFO root fetch - processPackages [makejinja]: Downloading https://files.pythonhosted.org/packages/67/68/a00119f7b0ac62afa0669c067d1fa638306c1528f8d3ccf82965b6baf7e4/makejinja-1.1.4.tar.gz
+[2023-05-08 12:06:50] INFO root fetch - processPackages [ai-privacy-toolkit]: Downloading https://files.pythonhosted.org/packages/b7/e2/81b221d70bbbb8fbaaa946e30de344c22ec8055bfbf3a11e7a6a0ebb3b10/ai-privacy-toolkit-0.1.0.tar.gz
+[2023-05-08 12:06:50] INFO root fetch - processPackages [aioxmlrpc]: Downloading https://files.pythonhosted.org/packages/da/56/2ebf95ba62c30d402231f400a3713dd68e859e44cc4deb2e087970fb5e5d/aioxmlrpc-0.7.0.tar.gz
+[2023-05-08 12:06:50] INFO root fetch - processPackages [qtest-reporter]: Downloading https://files.pythonhosted.org/packages/e2/8f/db21fc5f301609051b79179cee9d0c8b2ae32d0f7794ea93b4d5abd42c95/qtest_reporter-0.0.2.tar.gz
+[2023-05-08 12:06:50] INFO root fetch - processPackages [CDSupdate]: Downloading https://files.pythonhosted.org/packages/0e/b5/9938fed78673b5f639463709c91f8fae9aa23fcf8aeba1ab6d34d79f5807/CDSupdate-1.2.1.tar.gz
+[2023-05-08 12:06:50] INFO root fetch - processPackages [aioxmlrpc]: executing diffoscope
+[2023-05-08 12:06:50] INFO root fetch - processPackages [aioxmlrpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioxmlrpc-0.6.5.tar.gz tmp/aioxmlrpc-0.7.0.tar.gz --markdown 20230508/a/aioxmlrpc/0.6.5-0.7.0/diff.md --exclude *.pyd
+[2023-05-08 12:06:50] INFO root fetch - processPackages [xcsv-plot-map]: Downloading https://files.pythonhosted.org/packages/05/71/c7ba40a0f66b6b6b4458b009b03a8067eb74a96369c1cf510eb0b65ab7e9/xcsv_plot_map-0.4.0.tar.gz
+[2023-05-08 12:06:50] INFO root fetch - processPackages [makejinja]: Downloading https://files.pythonhosted.org/packages/f4/15/f970ab2e784258aeaec96a62420739dc6ddb044f9d8282c32d3e73bbbe22/makejinja-1.1.5b1.tar.gz
+[2023-05-08 12:06:50] INFO root fetch - processPackages [qtest-reporter]: executing diffoscope
+[2023-05-08 12:06:50] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-05-08 12:06:50] INFO root fetch - processPackages [qtest-reporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtest_reporter-0.0.1.tar.gz tmp/qtest_reporter-0.0.2.tar.gz --markdown 20230508/q/qtest-reporter/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-08 12:06:50] INFO root fetch - processPackages [CDSupdate]: executing diffoscope
+[2023-05-08 12:06:50] INFO root fetch - processPackages [CDSupdate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CDSupdate-1.1.0.tar.gz tmp/CDSupdate-1.2.1.tar.gz --markdown 20230508/C/CDSupdate/1.1.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-08 12:06:50] INFO root fetch - processPackages [ai-privacy-toolkit]: Downloading https://files.pythonhosted.org/packages/6b/85/bbc5b57eed76522dc4452b1d35c15c5260628f9bbc561743db50e6f77a71/ai-privacy-toolkit-0.2.0.tar.gz
+[2023-05-08 12:06:50] INFO root fetch - processPackages [xcsv-plot-map]: executing diffoscope
+[2023-05-08 12:06:50] INFO root fetch - processPackages [xcsv-plot-map]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xcsv_plot_map-0.3.0.tar.gz tmp/xcsv_plot_map-0.4.0.tar.gz --markdown 20230508/x/xcsv-plot-map/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-08 12:06:51] INFO root fetch - processPackages [makejinja]: executing diffoscope
+[2023-05-08 12:06:51] INFO root fetch - processPackages [makejinja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/makejinja-1.1.4.tar.gz tmp/makejinja-1.1.5b1.tar.gz --markdown 20230508/m/makejinja/1.1.4-1.1.5b1/diff.md --exclude *.pyd
+[2023-05-08 12:06:51] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-05-08 12:06:51] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230508/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-08 12:06:51] INFO root fetch - processPackages [ai-privacy-toolkit]: executing diffoscope
+[2023-05-08 12:06:51] INFO root fetch - processPackages [ai-privacy-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai-privacy-toolkit-0.1.0.tar.gz tmp/ai-privacy-toolkit-0.2.0.tar.gz --markdown 20230508/a/ai-privacy-toolkit/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-08 12:06:51] INFO root fetch - main [MainThread]: End processing [aioxmlrpc]: success
+[2023-05-08 12:06:52] INFO root fetch - main [MainThread]: End processing [CDSupdate]: success
+[2023-05-08 12:06:52] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-05-08 12:06:52] INFO root fetch - main [MainThread]: End processing [qtest-reporter]: success
+[2023-05-08 12:06:52] INFO root fetch - main [MainThread]: End processing [xcsv-plot-map]: success
+[2023-05-08 12:06:52] INFO root fetch - main [MainThread]: End processing [makejinja]: success
+[2023-05-08 12:06:53] INFO root fetch - main [MainThread]: End processing [ai-privacy-toolkit]: success
+[2023-05-08 12:06:53] INFO root fetch - main [MainThread]: Store serial: [18015492]
