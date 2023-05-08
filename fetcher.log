@@ -18408,3 +18408,96 @@ EOFError: EOF read where object expected
 [2023-05-08 19:51:07] INFO root fetch - main [MainThread]: End processing [botorch]: success
 [2023-05-08 19:51:18] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
 [2023-05-08 19:51:18] INFO root fetch - main [MainThread]: Store serial: [18020243]
+[2023-05-08 19:56:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18020243]
+[2023-05-08 19:56:31] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-08 19:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aikoai
+[2023-05-08 19:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: security-scanner
+[2023-05-08 19:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vimwiki-cli
+[2023-05-08 19:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bovine
+[2023-05-08 19:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: black-mirror-poc
+[2023-05-08 19:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mailsuite
+[2023-05-08 19:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: unpast
+[2023-05-08 19:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mojo-interop
+[2023-05-08 19:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: opensesame-extension-osweb
+[2023-05-08 19:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pycromanager
+[2023-05-08 19:56:31] INFO root fetch - processPackages [mojo-interop]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-08 19:56:31] WARNING root fetch - processPackages [unpast]: Skipping, unable to determine old version
+[2023-05-08 19:56:31] INFO root fetch - processPackages [unpast]: Start processing: fast-html
+[2023-05-08 19:56:31] INFO root fetch - main [MainThread]: End processing [unpast] error
+[2023-05-08 19:56:31] INFO root fetch - processPackages [opensesame-extension-osweb]: New version: [2.0.0.0a8] Old Version: [2.0.0.0a7]
+[2023-05-08 19:56:31] INFO root fetch - processPackages [aikoai]: New version: [2.1] Old Version: [1.1]
+[2023-05-08 19:56:31] ERROR root fetch - processPackages [black-mirror-poc]: Unable to get metadata: No such project 'black-mirror-poc'
+[2023-05-08 19:56:31] INFO root fetch - processPackages [black-mirror-poc]: Start processing: prefect-docker
+[2023-05-08 19:56:31] INFO root fetch - main [MainThread]: End processing [black-mirror-poc] error
+[2023-05-08 19:56:31] INFO root fetch - processPackages [bovine]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-08 19:56:31] WARNING root fetch - processPackages [security-scanner]: Skipping, unable to determine old version
+[2023-05-08 19:56:31] INFO root fetch - processPackages [security-scanner]: Start processing: unpast
+[2023-05-08 19:56:31] INFO root fetch - processPackages [mojo-interop]: executing diffoscope
+[2023-05-08 19:56:31] INFO root fetch - processPackages [vimwiki-cli]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-05-08 19:56:31] INFO root fetch - main [MainThread]: End processing [security-scanner] error
+[2023-05-08 19:56:31] INFO root fetch - processPackages [mojo-interop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_interop-0.0.6.tar.gz tmp/mojo_interop-0.0.7.tar.gz --markdown 20230508/m/mojo-interop/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-08 19:56:31] INFO root fetch - processPackages [pycromanager]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-08 19:56:31] INFO root fetch - processPackages [opensesame-extension-osweb]: executing diffoscope
+[2023-05-08 19:56:31] INFO root fetch - processPackages [opensesame-extension-osweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensesame_extension_osweb-2.0.0.0a7.tar.gz tmp/opensesame_extension_osweb-2.0.0.0a8.tar.gz --markdown 20230508/o/opensesame-extension-osweb/2.0.0.0a7-2.0.0.0a8/diff.md --exclude *.pyd
+[2023-05-08 19:56:31] INFO root fetch - processPackages [mailsuite]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-08 19:56:31] INFO root fetch - processPackages [fast-html]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-08 19:56:31] INFO root fetch - processPackages [unpast]: New version: [0.1.0.4] Old Version: [0.1.0.3]
+[2023-05-08 19:56:31] INFO root fetch - processPackages [prefect-docker]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-08 19:56:31] INFO root fetch - processPackages [aikoai]: Downloading https://files.pythonhosted.org/packages/d9/43/8099c6a692530ff6d72bd84af64ddec38bb49e36386b6c661efcd77f7f78/aikoai-1.1.tar.gz
+[2023-05-08 19:56:31] INFO root fetch - processPackages [unpast]: Downloading https://files.pythonhosted.org/packages/e0/b3/48d1081b84a238cc061c86db8b2944c0d9e69f04a978999be6ac8dc696ba/unpast-0.1.0.3.tar.gz
+[2023-05-08 19:56:31] INFO root fetch - processPackages [vimwiki-cli]: Downloading https://files.pythonhosted.org/packages/66/19/358fd88ff6980c8a5f53f52dd6d1894aa5e2551ace30ef076f65cbadc68b/vimwiki-cli-1.0.2.tar.gz
+[2023-05-08 19:56:31] INFO root fetch - processPackages [fast-html]: Downloading https://files.pythonhosted.org/packages/fb/df/c87d9e16bb541f84c33f922011a8465707866017e4e9f17cb6dbd8ca3ccf/fast_html-1.0.2.tar.gz
+[2023-05-08 19:56:31] INFO root fetch - processPackages [mailsuite]: Downloading https://files.pythonhosted.org/packages/26/f6/b8d0bc7731e81e4cfa44b2ca1620e710a7fa65a79b62114e18275025cab8/mailsuite-1.9.8.tar.gz
+[2023-05-08 19:56:31] INFO root fetch - processPackages [bovine]: Downloading https://files.pythonhosted.org/packages/15/76/bb26a9ef8e18dfe81f11c3768bb895dbe3b6e3ed7e06eb28406ae4381c99/bovine-0.1.3.tar.gz
+[2023-05-08 19:56:31] INFO root fetch - processPackages [prefect-docker]: Downloading https://files.pythonhosted.org/packages/0d/a0/6855fbb9e2fac975f2c147eabfdd81a56b001d40aef1b7f79a67b1e44494/prefect-docker-0.2.2.tar.gz
+[2023-05-08 19:56:31] INFO root fetch - processPackages [bovine]: Downloading https://files.pythonhosted.org/packages/c4/0b/e11e9f891a4518d450baaeae73a37d3646b5fa5f04767530a77a85010cab/bovine-0.1.4.tar.gz
+[2023-05-08 19:56:31] INFO root fetch - processPackages [aikoai]: Downloading https://files.pythonhosted.org/packages/f6/54/8ef79d2d062a45d3bf13aeb02bbdc987459f037e126351c26aa50272a8c3/aikoai-2.1.tar.gz
+[2023-05-08 19:56:31] INFO root fetch - processPackages [pycromanager]: executing diffoscope
+[2023-05-08 19:56:31] INFO root fetch - processPackages [pycromanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycromanager-0.8.0.tar.gz tmp/pycromanager-0.9.0.tar.gz --markdown 20230508/p/pycromanager/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-08 19:56:31] INFO root fetch - processPackages [bovine]: executing diffoscope
+[2023-05-08 19:56:31] INFO root fetch - processPackages [bovine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bovine-0.1.3.tar.gz tmp/bovine-0.1.4.tar.gz --markdown 20230508/b/bovine/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-08 19:56:31] INFO root fetch - processPackages [aikoai]: executing diffoscope
+[2023-05-08 19:56:31] INFO root fetch - processPackages [aikoai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aikoai-1.1.tar.gz tmp/aikoai-2.1.tar.gz --markdown 20230508/a/aikoai/1.1-2.1/diff.md --exclude *.pyd
+[2023-05-08 19:56:31] INFO root fetch - processPackages [unpast]: Downloading https://files.pythonhosted.org/packages/87/c6/0889416ecdc115b18e41d9bf7467ecdf22bc81d0fbbde13ffa3eca58819b/unpast-0.1.0.4.tar.gz
+[2023-05-08 19:56:31] INFO root fetch - processPackages [fast-html]: Downloading https://files.pythonhosted.org/packages/97/fd/d0b17745a40c3fc3d0a22ca0da4cf1aaf2ddb42f5e0cc326c0e9980883bd/fast_html-1.0.3.tar.gz
+[2023-05-08 19:56:31] INFO root fetch - processPackages [vimwiki-cli]: Downloading https://files.pythonhosted.org/packages/91/f8/8984e38de10544d1a325d02e41568d68d0395c57cd460d80dbaa7cd00062/vimwiki-cli-1.1.0.tar.gz
+[2023-05-08 19:56:31] INFO root fetch - processPackages [mailsuite]: Downloading https://files.pythonhosted.org/packages/ee/ff/e2ceed70b1920c8706e6174821b46f466599fbcf58618ca4b2622dee16da/mailsuite-1.9.9.tar.gz
+[2023-05-08 19:56:31] INFO root fetch - processPackages [prefect-docker]: Downloading https://files.pythonhosted.org/packages/9e/c9/e92feb80505644a4a5d51743db4df3ba51beb6561b3a2478aa08602805c8/prefect-docker-0.2.3.tar.gz
+[2023-05-08 19:56:31] INFO root fetch - processPackages [unpast]: executing diffoscope
+[2023-05-08 19:56:31] INFO root fetch - processPackages [unpast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unpast-0.1.0.3.tar.gz tmp/unpast-0.1.0.4.tar.gz --markdown 20230508/u/unpast/0.1.0.3-0.1.0.4/diff.md --exclude *.pyd
+[2023-05-08 19:56:31] INFO root fetch - processPackages [vimwiki-cli]: executing diffoscope
+[2023-05-08 19:56:31] INFO root fetch - processPackages [vimwiki-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vimwiki-cli-1.0.2.tar.gz tmp/vimwiki-cli-1.1.0.tar.gz --markdown 20230508/v/vimwiki-cli/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-05-08 19:56:31] INFO root fetch - processPackages [fast-html]: executing diffoscope
+[2023-05-08 19:56:31] INFO root fetch - processPackages [fast-html]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_html-1.0.2.tar.gz tmp/fast_html-1.0.3.tar.gz --markdown 20230508/f/fast-html/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-08 19:56:31] INFO root fetch - processPackages [mailsuite]: executing diffoscope
+[2023-05-08 19:56:31] INFO root fetch - processPackages [mailsuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mailsuite-1.9.8.tar.gz tmp/mailsuite-1.9.9.tar.gz --markdown 20230508/m/mailsuite/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-08 19:56:32] INFO root fetch - processPackages [prefect-docker]: executing diffoscope
+[2023-05-08 19:56:32] INFO root fetch - processPackages [prefect-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prefect-docker-0.2.2.tar.gz tmp/prefect-docker-0.2.3.tar.gz --markdown 20230508/p/prefect-docker/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-08 19:56:33] INFO root fetch - processPackages [pycromanager]: Start processing: imageryclient
+[2023-05-08 19:56:33] INFO root fetch - main [MainThread]: End processing [pycromanager]: success
+[2023-05-08 19:56:33] INFO root fetch - processPackages [imageryclient]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-08 19:56:33] INFO root fetch - processPackages [opensesame-extension-osweb]: Start processing: black-mirror-poc
+[2023-05-08 19:56:33] INFO root fetch - main [MainThread]: End processing [opensesame-extension-osweb]: success
+[2023-05-08 19:56:33] ERROR root fetch - processPackages [black-mirror-poc]: Unable to get metadata: No such project 'black-mirror-poc'
+[2023-05-08 19:56:33] INFO root fetch - processPackages [black-mirror-poc]: Start processing: motion-python
+[2023-05-08 19:56:33] INFO root fetch - main [MainThread]: End processing [black-mirror-poc] error
+[2023-05-08 19:56:33] INFO root fetch - processPackages [imageryclient]: Downloading https://files.pythonhosted.org/packages/89/b6/f408392f1a311abc1935da9140e2884ca5f836de7ec2c47f9c9be6a31f88/imageryclient-1.0.1.tar.gz
+[2023-05-08 19:56:33] INFO root fetch - processPackages [motion-python]: New version: [0.1.37] Old Version: [0.1.36]
+[2023-05-08 19:56:33] INFO root fetch - main [MainThread]: End processing [fast-html]: success
+[2023-05-08 19:56:33] INFO root fetch - processPackages [motion-python]: Downloading https://files.pythonhosted.org/packages/83/75/a6ed6646d83b3cab1e5ab5f9151b765550c37fb009cf5db8dfcef4317148/motion_python-0.1.36.tar.gz
+[2023-05-08 19:56:33] INFO root fetch - main [MainThread]: End processing [mailsuite]: success
+[2023-05-08 19:56:33] INFO root fetch - processPackages [imageryclient]: Downloading https://files.pythonhosted.org/packages/27/2a/2e21ab6f38ccb14688902531d369e41db849fe13bd1ee972989e522579c7/imageryclient-1.0.2.tar.gz
+[2023-05-08 19:56:33] INFO root fetch - processPackages [imageryclient]: executing diffoscope
+[2023-05-08 19:56:33] INFO root fetch - processPackages [imageryclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imageryclient-1.0.1.tar.gz tmp/imageryclient-1.0.2.tar.gz --markdown 20230508/i/imageryclient/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-08 19:56:33] INFO root fetch - main [MainThread]: End processing [vimwiki-cli]: success
+[2023-05-08 19:56:33] INFO root fetch - processPackages [motion-python]: Downloading https://files.pythonhosted.org/packages/1a/43/d58ad80a5207b38f757af502d8a5c97deac3e5dd77792dee517d1c17fef0/motion_python-0.1.37.tar.gz
+[2023-05-08 19:56:34] INFO root fetch - main [MainThread]: End processing [bovine]: success
+[2023-05-08 19:56:34] INFO root fetch - processPackages [motion-python]: executing diffoscope
+[2023-05-08 19:56:34] INFO root fetch - processPackages [motion-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motion_python-0.1.36.tar.gz tmp/motion_python-0.1.37.tar.gz --markdown 20230508/m/motion-python/0.1.36-0.1.37/diff.md --exclude *.pyd
+[2023-05-08 19:56:34] INFO root fetch - main [MainThread]: End processing [prefect-docker]: success
+[2023-05-08 19:56:34] INFO root fetch - main [MainThread]: End processing [aikoai]: success
+[2023-05-08 19:56:34] INFO root fetch - main [MainThread]: End processing [imageryclient]: success
+[2023-05-08 19:56:35] INFO root fetch - main [MainThread]: End processing [mojo-interop]: success
+[2023-05-08 19:56:35] INFO root fetch - main [MainThread]: End processing [unpast]: success
+[2023-05-08 19:56:35] INFO root fetch - main [MainThread]: End processing [motion-python]: success
+[2023-05-08 19:56:35] INFO root fetch - main [MainThread]: Store serial: [18020298]
