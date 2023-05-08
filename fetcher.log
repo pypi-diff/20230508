@@ -2501,3 +2501,27 @@
 [2023-05-08 04:14:21] INFO root fetch - main [MainThread]: End processing [souJpg-comm]: success
 [2023-05-08 04:14:21] INFO root fetch - main [MainThread]: End processing [souJpg-comm]: success
 [2023-05-08 04:14:21] INFO root fetch - main [MainThread]: Store serial: [18011512]
+[2023-05-08 04:19:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18011512]
+[2023-05-08 04:19:31] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-08 04:19:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: graph-z-c
+[2023-05-08 04:19:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-btripopen20220520-py2
+[2023-05-08 04:19:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-btripopen20220520
+[2023-05-08 04:19:31] INFO root fetch - processPackages [graph-z-c]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-08 04:19:31] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-08 04:19:31] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-08 04:19:32] INFO root fetch - processPackages [graph-z-c]: Downloading https://files.pythonhosted.org/packages/aa/8d/35f30221a1fcc9e67ac782097daea3ebd74a5d85aaf5f0b87d691c53c824/graph_z_c-0.0.1.tar.gz
+[2023-05-08 04:19:32] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Downloading https://files.pythonhosted.org/packages/22/db/55856f6d8870724d595ac9e131b5fb49d5acd414a50bd7142cebbc660f9d/alibabacloud_btripopen20220520-1.0.8.tar.gz
+[2023-05-08 04:19:32] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: Downloading https://files.pythonhosted.org/packages/de/a0/5d0af6d89a2c23444ae609a054c08a29d7641fc54acaf60d73a7d01fe4c2/alibabacloud_btripopen20220520_py2-1.0.8.tar.gz
+[2023-05-08 04:19:32] INFO root fetch - processPackages [graph-z-c]: Downloading https://files.pythonhosted.org/packages/00/77/0975b20578c6da2207f8f75236bb38b8472d8db1992e61def596412f62f1/graph_z_c-0.0.2.tar.gz
+[2023-05-08 04:19:32] INFO root fetch - processPackages [graph-z-c]: executing diffoscope
+[2023-05-08 04:19:32] INFO root fetch - processPackages [graph-z-c]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graph_z_c-0.0.1.tar.gz tmp/graph_z_c-0.0.2.tar.gz --markdown 20230508/g/graph-z-c/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-08 04:19:32] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Downloading https://files.pythonhosted.org/packages/9a/a2/11400c6b9d370d1b31aa09ba794773931b464f71096c6677a22ccfacd119/alibabacloud_btripopen20220520-1.0.9.tar.gz
+[2023-05-08 04:19:32] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: executing diffoscope
+[2023-05-08 04:19:32] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_btripopen20220520-1.0.8.tar.gz tmp/alibabacloud_btripopen20220520-1.0.9.tar.gz --markdown 20230508/a/alibabacloud-btripopen20220520/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-08 04:19:32] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: Downloading https://files.pythonhosted.org/packages/e4/c7/d4efe3620d3319b87755842b6ed1925259fd25ba21cce7089faa20c24d4b/alibabacloud_btripopen20220520_py2-1.0.9.tar.gz
+[2023-05-08 04:19:32] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: executing diffoscope
+[2023-05-08 04:19:32] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_btripopen20220520_py2-1.0.8.tar.gz tmp/alibabacloud_btripopen20220520_py2-1.0.9.tar.gz --markdown 20230508/a/alibabacloud-btripopen20220520-py2/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-08 04:19:33] INFO root fetch - main [MainThread]: End processing [graph-z-c]: success
+[2023-05-08 04:19:33] INFO root fetch - main [MainThread]: End processing [alibabacloud-btripopen20220520-py2]: success
+[2023-05-08 04:19:33] INFO root fetch - main [MainThread]: End processing [alibabacloud-btripopen20220520]: success
+[2023-05-08 04:19:33] INFO root fetch - main [MainThread]: Store serial: [18011527]
