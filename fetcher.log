@@ -9154,3 +9154,66 @@
 [2023-05-08 11:27:50] INFO root fetch - main [MainThread]: End processing [safe-eth-py-suraneti]: success
 [2023-05-08 11:27:52] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-05-08 11:27:52] INFO root fetch - main [MainThread]: Store serial: [18015162]
+[2023-05-08 11:32:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18015162]
+[2023-05-08 11:33:01] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-08 11:33:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hfmirror
+[2023-05-08 11:33:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pynocaptcha
+[2023-05-08 11:33:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edwh-locust-plugin
+[2023-05-08 11:33:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pqinput
+[2023-05-08 11:33:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: equal-odds
+[2023-05-08 11:33:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hikvision-isapi-cli
+[2023-05-08 11:33:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-simple-stats
+[2023-05-08 11:33:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rele
+[2023-05-08 11:33:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: optinist
+[2023-05-08 11:33:01] INFO root fetch - processPackages [hikvision-isapi-cli]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-08 11:33:01] INFO root fetch - processPackages [pynocaptcha]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-05-08 11:33:01] INFO root fetch - processPackages [edwh-locust-plugin]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-08 11:33:01] INFO root fetch - processPackages [rele]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-05-08 11:33:01] INFO root fetch - processPackages [equal-odds]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-08 11:33:01] INFO root fetch - processPackages [hfmirror]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-08 11:33:01] INFO root fetch - processPackages [optinist]: New version: [0.3.2] Old Version: [0.2.2]
+[2023-05-08 11:33:01] INFO root fetch - processPackages [pqinput]: New version: [0.0.31] Old Version: [0.0.3]
+[2023-05-08 11:33:01] INFO root fetch - processPackages [django-simple-stats]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-05-08 11:33:01] INFO root fetch - processPackages [hikvision-isapi-cli]: executing diffoscope
+[2023-05-08 11:33:01] INFO root fetch - processPackages [hikvision-isapi-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hikvision_isapi_cli-1.0.8.tar.gz tmp/hikvision_isapi_cli-1.0.9.tar.gz --markdown 20230508/h/hikvision-isapi-cli/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-08 11:33:01] INFO root fetch - processPackages [rele]: Downloading https://files.pythonhosted.org/packages/ed/2d/8c01775354c0a389d05d030bfa3b2f41b4f995991e9f92b9d7302bf113f0/rele-1.8.1.tar.gz
+[2023-05-08 11:33:01] INFO root fetch - processPackages [edwh-locust-plugin]: Downloading https://files.pythonhosted.org/packages/ac/88/6084758f4313b334ebe0e08e307b3d02f698cf0648efe1f900fae4101609/edwh_locust_plugin-0.1.0.tar.gz
+[2023-05-08 11:33:02] INFO root fetch - processPackages [equal-odds]: Downloading https://files.pythonhosted.org/packages/0d/bf/f33a50a1c2f0cf3a65547dc53f13cc87b79f7356408b42a7d13b6ed1e8c7/equal-odds-0.0.3.tar.gz
+[2023-05-08 11:33:02] INFO root fetch - processPackages [pynocaptcha]: Downloading https://files.pythonhosted.org/packages/c4/36/ba1e3a66abaa1ae3a8b884e2bf63db0088630c1d3e769730725b4695e8ea/pynocaptcha-1.4.4.tar.gz
+[2023-05-08 11:33:02] INFO root fetch - processPackages [pqinput]: Downloading https://files.pythonhosted.org/packages/6d/10/7158068585db2ec0add4ead67682720aca9f76f8d527a665fb43fc1ed439/pqinput-0.0.31.tar.gz
+[2023-05-08 11:33:02] INFO root fetch - processPackages [optinist]: Downloading https://files.pythonhosted.org/packages/fc/b0/32f25b4773a140b56d463001a66437002ce1bf8ea629649ff9c03e742597/optinist-0.2.2.tar.gz
+[2023-05-08 11:33:02] INFO root fetch - processPackages [hfmirror]: Downloading https://files.pythonhosted.org/packages/32/59/cb06bea0574b2cc966bf9b5c860d9153220daa1bb52122fd54514d27fb90/hfmirror-0.0.3.tar.gz
+[2023-05-08 11:33:02] INFO root fetch - processPackages [django-simple-stats]: Downloading https://files.pythonhosted.org/packages/a7/06/5b98177e476f592810db9363726e595229ed8b838188490b29fbf1929549/django-simple-stats-0.5.1.tar.gz
+[2023-05-08 11:33:02] INFO root fetch - processPackages [pqinput]: executing diffoscope
+[2023-05-08 11:33:02] INFO root fetch - processPackages [pqinput]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pqinput-0.0.3.tar.gz tmp/pqinput-0.0.31.tar.gz --markdown 20230508/p/pqinput/0.0.3-0.0.31/diff.md --exclude *.pyd
+[2023-05-08 11:33:02] INFO root fetch - processPackages [rele]: Downloading https://files.pythonhosted.org/packages/7f/14/927dd6d17266f198e10e105853ef8d590e720dca15feac751fccf7746159/rele-1.9.0.tar.gz
+[2023-05-08 11:33:02] INFO root fetch - processPackages [edwh-locust-plugin]: Downloading https://files.pythonhosted.org/packages/a1/e3/40a5742ff38510d8e8e2bf0cd8743e36faeb652e3db9325fa9c563538efe/edwh_locust_plugin-0.1.1.tar.gz
+[2023-05-08 11:33:02] INFO root fetch - processPackages [equal-odds]: Downloading https://files.pythonhosted.org/packages/62/c6/c262ee00554f27516453f374af36321d02ad99fc7c74744a001f611294d4/equal-odds-0.0.4.tar.gz
+[2023-05-08 11:33:02] INFO root fetch - processPackages [rele]: executing diffoscope
+[2023-05-08 11:33:02] INFO root fetch - processPackages [rele]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rele-1.8.1.tar.gz tmp/rele-1.9.0.tar.gz --markdown 20230508/r/rele/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-05-08 11:33:02] INFO root fetch - processPackages [pynocaptcha]: Downloading https://files.pythonhosted.org/packages/71/88/2276c117166ca793b50c8998a2fd7f6847748a07d2290ee99da638428be3/pynocaptcha-1.4.5.tar.gz
+[2023-05-08 11:33:02] INFO root fetch - processPackages [edwh-locust-plugin]: executing diffoscope
+[2023-05-08 11:33:02] INFO root fetch - processPackages [edwh-locust-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edwh_locust_plugin-0.1.0.tar.gz tmp/edwh_locust_plugin-0.1.1.tar.gz --markdown 20230508/e/edwh-locust-plugin/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-08 11:33:02] INFO root fetch - processPackages [django-simple-stats]: Downloading https://files.pythonhosted.org/packages/f9/b4/aafca7902030e9c7372e1e1ca481c409a84145c17bb808a4bc7a64e73e15/django-simple-stats-0.6.0.tar.gz
+[2023-05-08 11:33:02] INFO root fetch - processPackages [hfmirror]: Downloading https://files.pythonhosted.org/packages/67/86/eb688b4f9b8c6e39dbcb1f4ec3650727d08b7099ab59d2b798bcd4dee150/hfmirror-0.0.4.tar.gz
+[2023-05-08 11:33:02] INFO root fetch - processPackages [equal-odds]: executing diffoscope
+[2023-05-08 11:33:02] INFO root fetch - processPackages [equal-odds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/equal-odds-0.0.3.tar.gz tmp/equal-odds-0.0.4.tar.gz --markdown 20230508/e/equal-odds/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-08 11:33:02] INFO root fetch - processPackages [pynocaptcha]: executing diffoscope
+[2023-05-08 11:33:02] INFO root fetch - processPackages [pynocaptcha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynocaptcha-1.4.4.tar.gz tmp/pynocaptcha-1.4.5.tar.gz --markdown 20230508/p/pynocaptcha/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2023-05-08 11:33:02] INFO root fetch - processPackages [django-simple-stats]: executing diffoscope
+[2023-05-08 11:33:02] INFO root fetch - processPackages [django-simple-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-simple-stats-0.5.1.tar.gz tmp/django-simple-stats-0.6.0.tar.gz --markdown 20230508/d/django-simple-stats/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-05-08 11:33:02] INFO root fetch - processPackages [hfmirror]: executing diffoscope
+[2023-05-08 11:33:02] INFO root fetch - processPackages [hfmirror]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hfmirror-0.0.3.tar.gz tmp/hfmirror-0.0.4.tar.gz --markdown 20230508/h/hfmirror/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-08 11:33:03] INFO root fetch - processPackages [optinist]: Downloading https://files.pythonhosted.org/packages/df/6e/e23bfd8429d40d1b86cf80bd72ba1976ea1cd19ffe855e9dd273cc33b4ea/optinist-0.3.2.tar.gz
+[2023-05-08 11:33:04] INFO root fetch - main [MainThread]: End processing [pqinput]: success
+[2023-05-08 11:33:04] INFO root fetch - processPackages [optinist]: executing diffoscope
+[2023-05-08 11:33:04] INFO root fetch - processPackages [optinist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optinist-0.2.2.tar.gz tmp/optinist-0.3.2.tar.gz --markdown 20230508/o/optinist/0.2.2-0.3.2/diff.md --exclude *.pyd
+[2023-05-08 11:33:04] INFO root fetch - main [MainThread]: End processing [edwh-locust-plugin]: success
+[2023-05-08 11:33:04] INFO root fetch - main [MainThread]: End processing [pynocaptcha]: success
+[2023-05-08 11:33:04] INFO root fetch - main [MainThread]: End processing [rele]: success
+[2023-05-08 11:33:04] INFO root fetch - main [MainThread]: End processing [django-simple-stats]: success
+[2023-05-08 11:33:04] INFO root fetch - main [MainThread]: End processing [equal-odds]: success
+[2023-05-08 11:33:04] INFO root fetch - main [MainThread]: End processing [hfmirror]: success
+[2023-05-08 11:33:09] INFO root fetch - main [MainThread]: End processing [hikvision-isapi-cli]: success
+[2023-05-08 11:34:18] INFO root fetch - main [MainThread]: End processing [optinist]: success
+[2023-05-08 11:34:18] INFO root fetch - main [MainThread]: Store serial: [18015186]
