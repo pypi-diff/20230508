@@ -17535,3 +17535,125 @@ EOFError: EOF read where object expected
 [2023-05-08 18:56:38] INFO root fetch - main [MainThread]: End processing [edx-enterprise]: success
 [2023-05-08 18:56:58] INFO root fetch - main [MainThread]: End processing [melon-translate-client]: success
 [2023-05-08 18:56:58] INFO root fetch - main [MainThread]: Store serial: [18019728]
+[2023-05-08 19:02:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18019728]
+[2023-05-08 19:02:07] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-08 19:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arch_lint
+[2023-05-08 19:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: html-msg
+[2023-05-08 19:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypus
+[2023-05-08 19:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: compose-chart-export
+[2023-05-08 19:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lime-stable
+[2023-05-08 19:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-confluentcloud
+[2023-05-08 19:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pymenu-console
+[2023-05-08 19:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MinAtar
+[2023-05-08 19:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: neurotechdevkit
+[2023-05-08 19:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vector-marketdata
+[2023-05-08 19:02:07] WARNING root fetch - processPackages [html-msg]: Skipping, unable to determine old version
+[2023-05-08 19:02:07] INFO root fetch - processPackages [html-msg]: Start processing: special
+[2023-05-08 19:02:07] INFO root fetch - main [MainThread]: End processing [html-msg] error
+[2023-05-08 19:02:07] INFO root fetch - processPackages [arch_lint]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-05-08 19:02:08] INFO root fetch - processPackages [lime-stable]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-08 19:02:08] INFO root fetch - processPackages [arch_lint]: executing diffoscope
+[2023-05-08 19:02:08] INFO root fetch - processPackages [arch_lint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arch_lint-2.3.0.tar.gz tmp/arch_lint-2.4.0.tar.gz --markdown 20230508/a/arch_lint/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-05-08 19:02:08] INFO root fetch - processPackages [pypus]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-08 19:02:08] INFO root fetch - processPackages [compose-chart-export]: New version: [0.0.16rc1] Old Version: [0.0.16]
+[2023-05-08 19:02:08] WARNING root fetch - processPackages [vector-marketdata]: Skipping, unable to determine old version
+[2023-05-08 19:02:08] INFO root fetch - processPackages [vector-marketdata]: Start processing: cybrid-api-organization-python
+[2023-05-08 19:02:08] INFO root fetch - main [MainThread]: End processing [vector-marketdata] error
+[2023-05-08 19:02:08] INFO root fetch - processPackages [pymenu-console]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-08 19:02:08] INFO root fetch - processPackages [pulumi-confluentcloud]: New version: [1.9.0a1675887560] Old Version: [1.9.0]
+[2023-05-08 19:02:08] INFO root fetch - processPackages [neurotechdevkit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 19:02:08] INFO root fetch - processPackages [MinAtar]: New version: [1.0.13] Old Version: [1.0.12]
+[2023-05-08 19:02:08] INFO root fetch - processPackages [special]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-08 19:02:08] INFO root fetch - processPackages [lime-stable]: executing diffoscope
+[2023-05-08 19:02:08] INFO root fetch - processPackages [lime-stable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lime-stable-0.9.8.tar.gz tmp/lime-stable-0.9.9.tar.gz --markdown 20230508/l/lime-stable/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-08 19:02:08] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-08 19:02:08] INFO root fetch - processPackages [pypus]: Downloading https://files.pythonhosted.org/packages/aa/88/974b5f24bb094ea9cc37a847e94aa96606039a3da50b321724880f71a7c2/pypus-1.1.0.tar.gz
+[2023-05-08 19:02:08] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-05-08 19:02:08] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230508/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-08 19:02:08] INFO root fetch - processPackages [compose-chart-export]: Downloading https://files.pythonhosted.org/packages/dd/3d/bcd6cb180f8a340fae6ef72897043288e3bdda290ee49fce9720b4c9d54c/compose_chart_export-0.0.16-py3-none-any.whl
+[2023-05-08 19:02:08] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ee/5c/83ab7b1cf2467d8b22165c469862d15e131885dbf277da0d1bb686af03fe/pulumi_confluentcloud-1.9.0.tar.gz
+[2023-05-08 19:02:08] INFO root fetch - processPackages [pymenu-console]: Downloading https://files.pythonhosted.org/packages/d7/73/80ae63e5f6aa1299abcae6c8903e2708f973ad2ca04b221ea3cfbe389014/pymenu-console-0.1.6.tar.gz
+[2023-05-08 19:02:08] INFO root fetch - processPackages [neurotechdevkit]: Downloading https://files.pythonhosted.org/packages/f0/dc/4d7e217b3ae44189e6702a897df7c932d08f5db2f25ba39bf4d8dde75f9b/neurotechdevkit-0.0.8.tar.gz
+[2023-05-08 19:02:08] INFO root fetch - processPackages [special]: Downloading https://files.pythonhosted.org/packages/b4/9c/515b145553cf885800f1a2eece846cf9063f960f24f91ea9f1f49c2c3acf/special-0.1.4.tar.gz
+[2023-05-08 19:02:08] INFO root fetch - processPackages [MinAtar]: Downloading https://files.pythonhosted.org/packages/e4/53/aba834ac89011de78113309e68388c94539e03723634785932f1d989d16e/MinAtar-1.0.12-py3-none-any.whl
+[2023-05-08 19:02:08] WARNING root fetch - processPackages [special]: Skipping package: exceeds size limit 15108349>=10485760
+[2023-05-08 19:02:08] INFO root fetch - processPackages [special]: Start processing: pxpx
+[2023-05-08 19:02:08] INFO root fetch - main [MainThread]: End processing [special] error
+[2023-05-08 19:02:08] INFO root fetch - processPackages [pypus]: Downloading https://files.pythonhosted.org/packages/75/a1/d1c22ac637c8db9c735fd17823521784679d1be74a40ef079a58db53f4f9/pypus-1.2.0.tar.gz
+[2023-05-08 19:02:08] INFO root fetch - processPackages [pxpx]: New version: [3.3.0] Old Version: [3.2.0]
+[2023-05-08 19:02:08] INFO root fetch - processPackages [compose-chart-export]: Downloading https://files.pythonhosted.org/packages/10/03/c2e5ed60e85543904d587a2c1ec9f5f8b4d63c54d969e3ab01a59ff6c8b9/compose_chart_export-0.0.16rc1-py3-none-any.whl
+[2023-05-08 19:02:08] INFO root fetch - processPackages [pypus]: executing diffoscope
+[2023-05-08 19:02:08] INFO root fetch - processPackages [pypus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypus-1.1.0.tar.gz tmp/pypus-1.2.0.tar.gz --markdown 20230508/p/pypus/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-08 19:02:08] INFO root fetch - processPackages [pymenu-console]: Downloading https://files.pythonhosted.org/packages/95/85/3a0ab277bccd3bf32087eab04e16480929f11cedb916ff9b23a30a4e64be/pymenu-console-0.1.7.tar.gz
+[2023-05-08 19:02:08] INFO root fetch - processPackages [MinAtar]: Downloading https://files.pythonhosted.org/packages/27/30/fa6fbcf20222f4eb7cd15816c0c6418f58e3a35e510aeda5bb20458b1334/MinAtar-1.0.13.tar.gz
+[2023-05-08 19:02:08] INFO root fetch - processPackages [compose-chart-export]: executing diffoscope
+[2023-05-08 19:02:08] INFO root fetch - processPackages [compose-chart-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compose_chart_export-0.0.16-py3-none-any.whl.zip tmp/compose_chart_export-0.0.16rc1-py3-none-any.whl.zip --markdown 20230508/c/compose-chart-export/0.0.16-0.0.16rc1/diff.md --exclude *.pyd
+[2023-05-08 19:02:08] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ec/f6/4c3900e97797a3f84c4c58458a6334035e702bd96d9ed3ec48d8e6e20f4e/pulumi_confluentcloud-1.9.0a1675887560.tar.gz
+[2023-05-08 19:02:08] INFO root fetch - processPackages [pymenu-console]: executing diffoscope
+[2023-05-08 19:02:08] INFO root fetch - processPackages [pymenu-console]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymenu-console-0.1.6.tar.gz tmp/pymenu-console-0.1.7.tar.gz --markdown 20230508/p/pymenu-console/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-08 19:02:08] INFO root fetch - processPackages [pxpx]: Downloading https://files.pythonhosted.org/packages/05/c0/e87b05081349230f2821cd425e32ba5869b381aa651abfd8ae71de51eaa2/pxpx-3.2.0-py3-none-any.whl
+[2023-05-08 19:02:08] INFO root fetch - processPackages [MinAtar]: executing diffoscope
+[2023-05-08 19:02:08] INFO root fetch - processPackages [MinAtar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MinAtar-1.0.12-py3-none-any.whl.zip tmp/MinAtar-1.0.13.tar.gz --markdown 20230508/M/MinAtar/1.0.12-1.0.13/diff.md --exclude *.pyd
+[2023-05-08 19:02:08] INFO root fetch - processPackages [neurotechdevkit]: Downloading https://files.pythonhosted.org/packages/88/20/7a6c9b229544642d3a9e6cf604623d9b5fc1ac7ab3347de192c57f2269a6/neurotechdevkit-0.0.9.tar.gz
+[2023-05-08 19:02:08] INFO root fetch - processPackages [pulumi-confluentcloud]: executing diffoscope
+[2023-05-08 19:02:08] INFO root fetch - processPackages [pulumi-confluentcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_confluentcloud-1.9.0.tar.gz tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz --markdown 20230508/p/pulumi-confluentcloud/1.9.0-1.9.0a1675887560/diff.md --exclude *.pyd
+[2023-05-08 19:02:09] INFO root fetch - processPackages [pxpx]: Downloading https://files.pythonhosted.org/packages/63/7d/8e6eb918d286a04464e2e4cb33e1be4743252e8e6f89c97d0eec8845778f/pxpx-3.3.0-py3-none-any.whl
+[2023-05-08 19:02:09] INFO root fetch - processPackages [pxpx]: executing diffoscope
+[2023-05-08 19:02:09] INFO root fetch - processPackages [pxpx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pxpx-3.2.0-py3-none-any.whl.zip tmp/pxpx-3.3.0-py3-none-any.whl.zip --markdown 20230508/p/pxpx/3.2.0-3.3.0/diff.md --exclude *.pyd
+[2023-05-08 19:02:09] INFO root fetch - processPackages [neurotechdevkit]: executing diffoscope
+[2023-05-08 19:02:09] INFO root fetch - processPackages [neurotechdevkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurotechdevkit-0.0.8.tar.gz tmp/neurotechdevkit-0.0.9.tar.gz --markdown 20230508/n/neurotechdevkit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 19:02:09] INFO root fetch - processPackages [lime-stable]: Start processing: unpast
+[2023-05-08 19:02:09] INFO root fetch - main [MainThread]: End processing [lime-stable]: success
+[2023-05-08 19:02:09] WARNING root fetch - processPackages [unpast]: Skipping, unable to determine old version
+[2023-05-08 19:02:09] INFO root fetch - processPackages [unpast]: Start processing: cybrid-api-bank-python
+[2023-05-08 19:02:09] INFO root fetch - main [MainThread]: End processing [unpast] error
+[2023-05-08 19:02:09] INFO root fetch - processPackages [arch_lint]: Start processing: cybrid-api-id-python
+[2023-05-08 19:02:09] INFO root fetch - main [MainThread]: End processing [arch_lint]: success
+[2023-05-08 19:02:09] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-08 19:02:09] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-08 19:02:09] INFO root fetch - processPackages [cybrid-api-organization-python]: Start processing: klym-telemetry
+[2023-05-08 19:02:09] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-05-08 19:02:09] INFO root fetch - processPackages [klym-telemetry]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-08 19:02:09] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-05-08 19:02:09] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230508/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-08 19:02:10] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-05-08 19:02:10] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230508/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-08 19:02:10] INFO root fetch - processPackages [pypus]: Start processing: skelly-synchronize
+[2023-05-08 19:02:10] INFO root fetch - main [MainThread]: End processing [pypus]: success
+[2023-05-08 19:02:10] INFO root fetch - processPackages [skelly-synchronize]: New version: [2023.5.1011] Old Version: [2023.5.1010]
+[2023-05-08 19:02:10] INFO root fetch - processPackages [klym-telemetry]: executing diffoscope
+[2023-05-08 19:02:10] INFO root fetch - processPackages [klym-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klym-telemetry-0.1.5.tar.gz tmp/klym-telemetry-0.1.6.tar.gz --markdown 20230508/k/klym-telemetry/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-08 19:02:10] INFO root fetch - processPackages [skelly-synchronize]: executing diffoscope
+[2023-05-08 19:02:10] INFO root fetch - processPackages [skelly-synchronize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skelly_synchronize-2023.5.1010.tar.gz tmp/skelly_synchronize-2023.5.1011.tar.gz --markdown 20230508/s/skelly-synchronize/2023.5.1010-2023.5.1011/diff.md --exclude *.pyd
+[2023-05-08 19:02:10] INFO root fetch - processPackages [compose-chart-export]: Start processing: lightning-rod
+[2023-05-08 19:02:10] INFO root fetch - main [MainThread]: End processing [compose-chart-export]: success
+[2023-05-08 19:02:10] INFO root fetch - processPackages [MinAtar]: Start processing: riptide-cpp
+[2023-05-08 19:02:10] INFO root fetch - main [MainThread]: End processing [MinAtar]: success
+[2023-05-08 19:02:10] INFO root fetch - processPackages [lightning-rod]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-08 19:02:10] INFO root fetch - processPackages [pymenu-console]: Start processing: layrz-forms
+[2023-05-08 19:02:10] INFO root fetch - main [MainThread]: End processing [pymenu-console]: success
+[2023-05-08 19:02:10] INFO root fetch - processPackages [riptide-cpp]: New version: [1.9.0] Old Version: [1.8.9]
+[2023-05-08 19:02:10] INFO root fetch - processPackages [layrz-forms]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-08 19:02:10] INFO root fetch - processPackages [lightning-rod]: Downloading https://files.pythonhosted.org/packages/f5/73/f1684f6451e5c2b8cd0417fdf2f335aa6a7b711396d7cbefcbc0230a5f2c/lightning_rod-0.1.0.tar.gz
+[2023-05-08 19:02:10] INFO root fetch - processPackages [riptide-cpp]: Downloading https://files.pythonhosted.org/packages/db/fd/c4b17669c6c70a11070c05654d0b1d7e3cccd44508f35ffd5ed5c52b0059/riptide_cpp-1.8.9.tar.gz
+[2023-05-08 19:02:10] INFO root fetch - main [MainThread]: End processing [pxpx]: success
+[2023-05-08 19:02:10] INFO root fetch - processPackages [layrz-forms]: Downloading https://files.pythonhosted.org/packages/9a/ab/36eec76504e862cc12e95c94900bf138487bc6792ae1cce9569d5395b7b3/layrz-forms-1.0.4.tar.gz
+[2023-05-08 19:02:10] INFO root fetch - processPackages [lightning-rod]: Downloading https://files.pythonhosted.org/packages/d3/74/4e6a573563724f5c2ce09866537807f6e679011cc2f86dd9cbaba0bd4cd6/lightning_rod-0.2.0.tar.gz
+[2023-05-08 19:02:10] INFO root fetch - processPackages [lightning-rod]: executing diffoscope
+[2023-05-08 19:02:10] INFO root fetch - processPackages [lightning-rod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning_rod-0.1.0.tar.gz tmp/lightning_rod-0.2.0.tar.gz --markdown 20230508/l/lightning-rod/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-08 19:02:11] INFO root fetch - processPackages [layrz-forms]: Downloading https://files.pythonhosted.org/packages/b2/69/61de9d4aa707b75dd23fce74fff1d140ca9c9ab8b699ebc772b327108ffa/layrz-forms-1.0.5.tar.gz
+[2023-05-08 19:02:11] INFO root fetch - processPackages [layrz-forms]: executing diffoscope
+[2023-05-08 19:02:11] INFO root fetch - processPackages [layrz-forms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/layrz-forms-1.0.4.tar.gz tmp/layrz-forms-1.0.5.tar.gz --markdown 20230508/l/layrz-forms/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-08 19:02:11] INFO root fetch - main [MainThread]: End processing [skelly-synchronize]: success
+[2023-05-08 19:02:11] INFO root fetch - main [MainThread]: End processing [klym-telemetry]: success
+[2023-05-08 19:02:11] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-05-08 19:02:11] INFO root fetch - main [MainThread]: End processing [pulumi-confluentcloud]: success
+[2023-05-08 19:02:12] INFO root fetch - main [MainThread]: End processing [lightning-rod]: success
+[2023-05-08 19:02:12] INFO root fetch - main [MainThread]: End processing [layrz-forms]: success
+[2023-05-08 19:02:12] INFO root fetch - processPackages [riptide-cpp]: Downloading https://files.pythonhosted.org/packages/76/be/c8ec5af2c132d512e5ddcc7edf4ddbd661747c5c6daa3cd571e3b158f613/riptide_cpp-1.9.0.tar.gz
+[2023-05-08 19:02:12] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-05-08 19:02:14] INFO root fetch - processPackages [riptide-cpp]: executing diffoscope
+[2023-05-08 19:02:14] INFO root fetch - processPackages [riptide-cpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riptide_cpp-1.8.9.tar.gz tmp/riptide_cpp-1.9.0.tar.gz --markdown 20230508/r/riptide-cpp/1.8.9-1.9.0/diff.md --exclude *.pyd
+[2023-05-08 19:02:14] INFO root fetch - main [MainThread]: End processing [neurotechdevkit]: success
+[2023-05-08 19:03:00] INFO root fetch - main [MainThread]: End processing [riptide-cpp]: success
+[2023-05-08 19:03:00] INFO root fetch - main [MainThread]: Store serial: [18019797]
