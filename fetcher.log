@@ -14740,3 +14740,79 @@ EOFError: EOF read where object expected
 [2023-05-08 16:37:36] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
 [2023-05-08 16:37:36] INFO root fetch - main [MainThread]: End processing [hestia-earth-models]: success
 [2023-05-08 16:37:36] INFO root fetch - main [MainThread]: Store serial: [18018139]
+[2023-05-08 16:42:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18018139]
+[2023-05-08 16:42:46] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-08 16:42:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hestia-earth-models
+[2023-05-08 16:42:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inmanta-module-vyos
+[2023-05-08 16:42:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-client-generator
+[2023-05-08 16:42:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mastoposter
+[2023-05-08 16:42:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dbt-doc-py
+[2023-05-08 16:42:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: text-fabric
+[2023-05-08 16:42:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: periodic-element-properties
+[2023-05-08 16:42:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: UseAILib-Kkm
+[2023-05-08 16:42:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dl1-data-handler
+[2023-05-08 16:42:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: proteus-runtime
+[2023-05-08 16:42:46] INFO root fetch - processPackages [python-client-generator]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-05-08 16:42:46] WARNING root fetch - processPackages [mastoposter]: Skipping, unable to determine old version
+[2023-05-08 16:42:46] INFO root fetch - processPackages [proteus-runtime]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-08 16:42:46] INFO root fetch - processPackages [mastoposter]: Start processing: phasetorch
+[2023-05-08 16:42:46] INFO root fetch - main [MainThread]: End processing [mastoposter] error
+[2023-05-08 16:42:46] INFO root fetch - processPackages [hestia-earth-models]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-08 16:42:46] INFO root fetch - processPackages [dl1-data-handler]: New version: [0.10.9] Old Version: [0.10.8]
+[2023-05-08 16:42:46] WARNING root fetch - processPackages [UseAILib-Kkm]: Skipping, unable to determine old version
+[2023-05-08 16:42:46] INFO root fetch - processPackages [UseAILib-Kkm]: Start processing: heudiconv
+[2023-05-08 16:42:46] INFO root fetch - main [MainThread]: End processing [UseAILib-Kkm] error
+[2023-05-08 16:42:46] INFO root fetch - processPackages [inmanta-module-vyos]: New version: [3.0.4] Old Version: [3.0.3]
+[2023-05-08 16:42:46] INFO root fetch - processPackages [text-fabric]: New version: [9.5.2] Old Version: [9.4.4]
+[2023-05-08 16:42:46] INFO root fetch - processPackages [dbt-doc-py]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 16:42:46] INFO root fetch - processPackages [phasetorch]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-08 16:42:46] WARNING root fetch - processPackages [periodic-element-properties]: Skipping, unable to determine old version
+[2023-05-08 16:42:46] INFO root fetch - processPackages [heudiconv]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-08 16:42:46] INFO root fetch - processPackages [periodic-element-properties]: Start processing: hestia-earth-orchestrator
+[2023-05-08 16:42:46] INFO root fetch - main [MainThread]: End processing [periodic-element-properties] error
+[2023-05-08 16:42:46] INFO root fetch - processPackages [hestia-earth-models]: executing diffoscope
+[2023-05-08 16:42:46] INFO root fetch - processPackages [hestia-earth-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hestia-earth-models-0.9.0.tar.gz tmp/hestia-earth-models-0.9.1.tar.gz --markdown 20230508/h/hestia-earth-models/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-08 16:42:46] INFO root fetch - processPackages [dbt-doc-py]: executing diffoscope
+[2023-05-08 16:42:46] INFO root fetch - processPackages [dbt-doc-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-doc-py-0.1.8.tar.gz tmp/dbt-doc-py-0.1.9.tar.gz --markdown 20230508/d/dbt-doc-py/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 16:42:46] INFO root fetch - processPackages [text-fabric]: executing diffoscope
+[2023-05-08 16:42:46] INFO root fetch - processPackages [text-fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_fabric-9.4.4-py3-none-any.whl.zip tmp/text_fabric-9.5.2-py3-none-any.whl.zip --markdown 20230508/t/text-fabric/9.4.4-9.5.2/diff.md --exclude *.pyd
+[2023-05-08 16:42:46] INFO root fetch - processPackages [hestia-earth-orchestrator]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-08 16:42:46] INFO root fetch - processPackages [proteus-runtime]: Downloading https://files.pythonhosted.org/packages/93/28/d72c4aaa19ca486949e4b0f1d446ebd45eed9dd84cc961a9be9069a56491/proteus_runtime-0.2.8.tar.gz
+[2023-05-08 16:42:46] INFO root fetch - processPackages [python-client-generator]: Downloading https://files.pythonhosted.org/packages/09/db/d4d54c9ec5154b787867427aa61093226d4c5fa6849c29b79f5be2e02b7e/python_client_generator-1.1.3.tar.gz
+[2023-05-08 16:42:46] INFO root fetch - processPackages [heudiconv]: Downloading https://files.pythonhosted.org/packages/51/a3/2fd7b184110322ac2b307b0287bca325b8b23f53fd76b75e8416d4146591/heudiconv-0.8.0.tar.gz
+[2023-05-08 16:42:46] INFO root fetch - processPackages [dl1-data-handler]: Downloading https://files.pythonhosted.org/packages/13/13/dca11d03cbfc83394e13e393216a83b9b91c27db83c62371856a97f987d9/dl1_data_handler-0.10.8-py3-none-any.whl
+[2023-05-08 16:42:46] INFO root fetch - processPackages [inmanta-module-vyos]: Downloading https://files.pythonhosted.org/packages/bd/b6/a61a43b7406ed93a1a20412e505297dd83a59e50b539285836549db846d5/inmanta_module_vyos-3.0.3-py3-none-any.whl
+[2023-05-08 16:42:46] INFO root fetch - processPackages [phasetorch]: Downloading https://files.pythonhosted.org/packages/56/74/f88d1cd83a5a4401810ab144d2644da60e6ccfeacba45aa68b23f3d62cac/phasetorch-0.1.1.tar.gz
+[2023-05-08 16:42:46] INFO root fetch - processPackages [hestia-earth-orchestrator]: Downloading https://files.pythonhosted.org/packages/f9/76/bb159ad2c347b05e2595f86b3979cf52c86707d633bcb039b63e644c997b/hestia-earth-orchestrator-0.5.1.tar.gz
+[2023-05-08 16:42:46] INFO root fetch - processPackages [python-client-generator]: Downloading https://files.pythonhosted.org/packages/02/78/ab53d915dcd5a6ea73a76cf8e8336864d73beaa714d81cd8a829850211db/python_client_generator-1.1.4.tar.gz
+[2023-05-08 16:42:46] INFO root fetch - processPackages [phasetorch]: Downloading https://files.pythonhosted.org/packages/c7/8b/8360de8b74e4854a1b2f50fde45ec745ce2eee02898ec448aa5fb486e32a/phasetorch-0.1.2.tar.gz
+[2023-05-08 16:42:46] INFO root fetch - processPackages [proteus-runtime]: Downloading https://files.pythonhosted.org/packages/0e/b1/dd567093ce7a35e89ab7d89887be300efe9572cd0de898bd5389347b84fa/proteus_runtime-0.2.9.tar.gz
+[2023-05-08 16:42:46] INFO root fetch - processPackages [python-client-generator]: executing diffoscope
+[2023-05-08 16:42:46] INFO root fetch - processPackages [python-client-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_client_generator-1.1.3.tar.gz tmp/python_client_generator-1.1.4.tar.gz --markdown 20230508/p/python-client-generator/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-05-08 16:42:46] INFO root fetch - processPackages [inmanta-module-vyos]: Downloading https://files.pythonhosted.org/packages/15/ef/5e6d89b4f15cf371096531d20f2e38459e606a1d14eab6c62c8dee653724/inmanta_module_vyos-3.0.4-py3-none-any.whl
+[2023-05-08 16:42:46] INFO root fetch - processPackages [heudiconv]: Downloading https://files.pythonhosted.org/packages/c8/a2/5fbdba6a39ebe2257fa8df8bfb672ee3b6a4f840dfc772e510c40c225d02/heudiconv-0.9.0.tar.gz
+[2023-05-08 16:42:46] INFO root fetch - processPackages [dl1-data-handler]: Downloading https://files.pythonhosted.org/packages/74/d0/8499ef3c9c1a0ea46ba58788e644831b43e46097c11f9539467cda082820/dl1_data_handler-0.10.9-py3-none-any.whl
+[2023-05-08 16:42:46] INFO root fetch - processPackages [proteus-runtime]: executing diffoscope
+[2023-05-08 16:42:46] INFO root fetch - processPackages [proteus-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteus_runtime-0.2.8.tar.gz tmp/proteus_runtime-0.2.9.tar.gz --markdown 20230508/p/proteus-runtime/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-08 16:42:47] INFO root fetch - processPackages [phasetorch]: executing diffoscope
+[2023-05-08 16:42:47] INFO root fetch - processPackages [phasetorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phasetorch-0.1.1.tar.gz tmp/phasetorch-0.1.2.tar.gz --markdown 20230508/p/phasetorch/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-08 16:42:47] INFO root fetch - processPackages [inmanta-module-vyos]: executing diffoscope
+[2023-05-08 16:42:47] INFO root fetch - processPackages [inmanta-module-vyos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inmanta_module_vyos-3.0.3-py3-none-any.whl.zip tmp/inmanta_module_vyos-3.0.4-py3-none-any.whl.zip --markdown 20230508/i/inmanta-module-vyos/3.0.3-3.0.4/diff.md --exclude *.pyd
+[2023-05-08 16:42:47] INFO root fetch - processPackages [dl1-data-handler]: executing diffoscope
+[2023-05-08 16:42:47] INFO root fetch - processPackages [dl1-data-handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dl1_data_handler-0.10.8-py3-none-any.whl.zip tmp/dl1_data_handler-0.10.9-py3-none-any.whl.zip --markdown 20230508/d/dl1-data-handler/0.10.8-0.10.9/diff.md --exclude *.pyd
+[2023-05-08 16:42:47] INFO root fetch - processPackages [hestia-earth-orchestrator]: Downloading https://files.pythonhosted.org/packages/26/0c/b91c4da8670631acaabfb6c865da8081f9cdc1e9152a31cb287014b176d2/hestia-earth-orchestrator-0.5.2.tar.gz
+[2023-05-08 16:42:47] INFO root fetch - processPackages [heudiconv]: executing diffoscope
+[2023-05-08 16:42:47] INFO root fetch - processPackages [heudiconv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heudiconv-0.8.0.tar.gz tmp/heudiconv-0.9.0.tar.gz --markdown 20230508/h/heudiconv/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-08 16:42:47] INFO root fetch - processPackages [hestia-earth-orchestrator]: executing diffoscope
+[2023-05-08 16:42:47] INFO root fetch - processPackages [hestia-earth-orchestrator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hestia-earth-orchestrator-0.5.1.tar.gz tmp/hestia-earth-orchestrator-0.5.2.tar.gz --markdown 20230508/h/hestia-earth-orchestrator/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-08 16:42:47] INFO root fetch - main [MainThread]: End processing [dbt-doc-py]: success
+[2023-05-08 16:42:48] INFO root fetch - main [MainThread]: End processing [python-client-generator]: success
+[2023-05-08 16:42:48] INFO root fetch - main [MainThread]: End processing [proteus-runtime]: success
+[2023-05-08 16:42:48] INFO root fetch - main [MainThread]: End processing [inmanta-module-vyos]: success
+[2023-05-08 16:42:48] INFO root fetch - main [MainThread]: End processing [dl1-data-handler]: success
+[2023-05-08 16:42:49] INFO root fetch - main [MainThread]: End processing [phasetorch]: success
+[2023-05-08 16:42:49] INFO root fetch - main [MainThread]: End processing [hestia-earth-orchestrator]: success
+[2023-05-08 16:42:49] INFO root fetch - main [MainThread]: End processing [text-fabric]: success
+[2023-05-08 16:42:50] INFO root fetch - main [MainThread]: End processing [hestia-earth-models]: success
+[2023-05-08 16:42:51] INFO root fetch - main [MainThread]: End processing [heudiconv]: success
+[2023-05-08 16:42:51] INFO root fetch - main [MainThread]: Store serial: [18018181]
