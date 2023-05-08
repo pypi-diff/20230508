@@ -925,3 +925,72 @@
 [2023-05-08 02:03:16] INFO root fetch - main [MainThread]: End processing [transformgpt]: success
 [2023-05-08 02:03:17] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
 [2023-05-08 02:03:17] INFO root fetch - main [MainThread]: Store serial: [18010649]
+[2023-05-08 02:08:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18010649]
+[2023-05-08 02:08:27] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-08 02:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mct-nightly
+[2023-05-08 02:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchdatasets-nightly
+[2023-05-08 02:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaxkern-nightly
+[2023-05-08 02:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vidcardshare
+[2023-05-08 02:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dream-helpers
+[2023-05-08 02:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jaxutils-nightly
+[2023-05-08 02:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: plain-db
+[2023-05-08 02:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mongogettersetter
+[2023-05-08 02:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torchlayers-nightly
+[2023-05-08 02:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jais-search
+[2023-05-08 02:08:27] INFO root fetch - processPackages [vidcardshare]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-08 02:08:27] INFO root fetch - processPackages [dream-helpers]: New version: [0.0.276] Old Version: [0.0.275]
+[2023-05-08 02:08:27] INFO root fetch - processPackages [jais-search]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-08 02:08:27] INFO root fetch - processPackages [plain-db]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 02:08:27] INFO root fetch - processPackages [mongogettersetter]: New version: [1.3.8] Old Version: [1.3.7]
+[2023-05-08 02:08:27] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230507] Old Version: [0.0.8.dev20230506]
+[2023-05-08 02:08:27] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-05-08 02:08:27] INFO root fetch - processPackages [mct-nightly]: New version: [1.8.0.9042023.post411] Old Version: [1.8.0.9032023.post431]
+[2023-05-08 02:08:27] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1683417797] Old Version: [1683331372]
+[2023-05-08 02:08:27] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1683418026] Old Version: [1683331592]
+[2023-05-08 02:08:27] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-05-08 02:08:27] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/9c/b1/146a5ecb0fe5f0d09fcc65f45b90f88799d56a718883a53f0e1456030130/mct-nightly-1.8.0.9032023.post431.tar.gz
+[2023-05-08 02:08:27] INFO root fetch - processPackages [dream-helpers]: Downloading https://files.pythonhosted.org/packages/bc/c2/ede934ed7ff467a20bd4381e1439d89b3a87bf68f1089f84db8506385f5d/dream_helpers-0.0.275.tar.gz
+[2023-05-08 02:08:27] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-05-08 02:08:27] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230506.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230507.tar.gz --markdown 20230508/j/jaxutils-nightly/0.0.8.dev20230506-0.0.8.dev20230507/diff.md --exclude *.pyd
+[2023-05-08 02:08:27] INFO root fetch - processPackages [vidcardshare]: Downloading https://files.pythonhosted.org/packages/c7/15/e52bd2a3f8370885f10455fe6319d15ddad147e367e3108552e2f077b7ed/vidcardshare-0.1.0.tar.gz
+[2023-05-08 02:08:27] INFO root fetch - processPackages [jais-search]: Downloading https://files.pythonhosted.org/packages/62/7c/868e1f353bfef3b41b2442796b4563e3fc53b7508f783e4b719f7b61a23a/jais_search-0.1.0.tar.gz
+[2023-05-08 02:08:27] INFO root fetch - processPackages [mongogettersetter]: Downloading https://files.pythonhosted.org/packages/5b/26/a53e29d29d7d01bce0dfce5c92c6a082622fc7a2022f5aca156a44a4ea83/mongogettersetter-1.3.7.tar.gz
+[2023-05-08 02:08:27] INFO root fetch - processPackages [plain-db]: Downloading https://files.pythonhosted.org/packages/2c/a9/a582f5e79b912b68e0bc7a56969c29bb5d9bd88081c34ea2a057b482ceba/plain_db-0.0.8.tar.gz
+[2023-05-08 02:08:27] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-05-08 02:08:27] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/15/16/97490c39f95f97f1b8de896b5ed7cb784948f9a52a6891755c41f74302a8/mct-nightly-1.8.0.9042023.post411.tar.gz
+[2023-05-08 02:08:27] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/85/76/42c170ec18e65296ff5625fc31b8621ce6399ecb28a2fdd80995bf20bd60/torchlayers-nightly-1683418026.tar.gz
+[2023-05-08 02:08:27] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/17/fe/7532f476a13f8b42d9ed9a8e737019d3f3f927e3407defb841ce3c3bf6b3/torchdatasets-nightly-1683417797.tar.gz
+[2023-05-08 02:08:27] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-05-08 02:08:27] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230508/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-05-08 02:08:27] INFO root fetch - processPackages [dream-helpers]: Downloading https://files.pythonhosted.org/packages/87/a2/3f4789b75ec4d03747ab86dd515d505f70f24c54d1e4a6aa071b9fd36cb4/dream_helpers-0.0.276.tar.gz
+[2023-05-08 02:08:27] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-05-08 02:08:27] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.8.0.9032023.post431.tar.gz tmp/mct-nightly-1.8.0.9042023.post411.tar.gz --markdown 20230508/m/mct-nightly/1.8.0.9032023.post431-1.8.0.9042023.post411/diff.md --exclude *.pyd
+[2023-05-08 02:08:27] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-05-08 02:08:27] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1683331592.tar.gz tmp/torchlayers-nightly-1683418026.tar.gz --markdown 20230508/t/torchlayers-nightly/1683331592-1683418026/diff.md --exclude *.pyd
+[2023-05-08 02:08:27] INFO root fetch - processPackages [jais-search]: Downloading https://files.pythonhosted.org/packages/15/8b/36a6b7e60245630279c56845f470aebdfe08dd4aeb75594fbc6baabc89bf/jais_search-0.1.1.tar.gz
+[2023-05-08 02:08:27] INFO root fetch - processPackages [vidcardshare]: Downloading https://files.pythonhosted.org/packages/43/b9/ad159bba4a311a854a55149719bb738947206198e25d1aa94de8dec13c0c/vidcardshare-0.1.1.tar.gz
+[2023-05-08 02:08:27] INFO root fetch - processPackages [mongogettersetter]: Downloading https://files.pythonhosted.org/packages/6c/eb/9d3d7673f93efc485da639f59cd68d0aab658c72657f8845fc6ff83966d5/mongogettersetter-1.3.8.tar.gz
+[2023-05-08 02:08:27] INFO root fetch - processPackages [dream-helpers]: executing diffoscope
+[2023-05-08 02:08:27] INFO root fetch - processPackages [dream-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dream_helpers-0.0.275.tar.gz tmp/dream_helpers-0.0.276.tar.gz --markdown 20230508/d/dream-helpers/0.0.275-0.0.276/diff.md --exclude *.pyd
+[2023-05-08 02:08:27] INFO root fetch - processPackages [vidcardshare]: executing diffoscope
+[2023-05-08 02:08:27] INFO root fetch - processPackages [vidcardshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vidcardshare-0.1.0.tar.gz tmp/vidcardshare-0.1.1.tar.gz --markdown 20230508/v/vidcardshare/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-08 02:08:27] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-05-08 02:08:27] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1683331372.tar.gz tmp/torchdatasets-nightly-1683417797.tar.gz --markdown 20230508/t/torchdatasets-nightly/1683331372-1683417797/diff.md --exclude *.pyd
+[2023-05-08 02:08:27] INFO root fetch - processPackages [mongogettersetter]: executing diffoscope
+[2023-05-08 02:08:27] INFO root fetch - processPackages [mongogettersetter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongogettersetter-1.3.7.tar.gz tmp/mongogettersetter-1.3.8.tar.gz --markdown 20230508/m/mongogettersetter/1.3.7-1.3.8/diff.md --exclude *.pyd
+[2023-05-08 02:08:27] INFO root fetch - processPackages [jais-search]: executing diffoscope
+[2023-05-08 02:08:27] INFO root fetch - processPackages [jais-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jais_search-0.1.0.tar.gz tmp/jais_search-0.1.1.tar.gz --markdown 20230508/j/jais-search/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-08 02:08:27] INFO root fetch - processPackages [plain-db]: Downloading https://files.pythonhosted.org/packages/9c/d6/511e82c6c0a9ecfae5cd4b9b392c341c456669c56610a09433e43dcdb638/plain_db-0.0.9.tar.gz
+[2023-05-08 02:08:27] INFO root fetch - processPackages [plain-db]: executing diffoscope
+[2023-05-08 02:08:27] INFO root fetch - processPackages [plain-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plain_db-0.0.8.tar.gz tmp/plain_db-0.0.9.tar.gz --markdown 20230508/p/plain-db/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 02:08:28] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-05-08 02:08:28] INFO root fetch - main [MainThread]: End processing [dream-helpers]: success
+[2023-05-08 02:08:29] INFO root fetch - main [MainThread]: End processing [jais-search]: success
+[2023-05-08 02:08:29] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-05-08 02:08:29] INFO root fetch - main [MainThread]: End processing [vidcardshare]: success
+[2023-05-08 02:08:29] INFO root fetch - main [MainThread]: End processing [mongogettersetter]: success
+[2023-05-08 02:08:29] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-05-08 02:08:29] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-05-08 02:08:29] INFO root fetch - main [MainThread]: End processing [plain-db]: success
+[2023-05-08 02:08:33] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-05-08 02:08:33] INFO root fetch - main [MainThread]: Store serial: [18010683]
