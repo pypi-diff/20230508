@@ -7138,3 +7138,93 @@
 [2023-05-08 09:29:26] INFO root fetch - main [MainThread]: End processing [verbit-streaming-sdk]: success
 [2023-05-08 09:29:26] INFO root fetch - main [MainThread]: End processing [bioplotz]: success
 [2023-05-08 09:29:26] INFO root fetch - main [MainThread]: Store serial: [18014050]
+[2023-05-08 09:34:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18014050]
+[2023-05-08 09:34:34] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-08 09:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FHIRkit
+[2023-05-08 09:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: thalassa
+[2023-05-08 09:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tfq-nightly
+[2023-05-08 09:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gcscore
+[2023-05-08 09:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyrew
+[2023-05-08 09:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pybiolib
+[2023-05-08 09:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo13-addons-oca-stock-logistics-workflow
+[2023-05-08 09:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-rahav-cert-1987-update-regTest
+[2023-05-08 09:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cads-sdk
+[2023-05-08 09:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: SpatialGlue
+[2023-05-08 09:34:34] INFO root fetch - processPackages [FHIRkit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 09:34:34] WARNING root fetch - processPackages [thalassa]: Skipping, unable to determine old version
+[2023-05-08 09:34:34] INFO root fetch - processPackages [thalassa]: Start processing: Turk-game
+[2023-05-08 09:34:34] INFO root fetch - main [MainThread]: End processing [thalassa] error
+[2023-05-08 09:34:34] INFO root fetch - processPackages [gcscore]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 09:34:34] INFO root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: New version: [20230508.7.31.531418] Old Version: [20230507.9.47.577125]
+[2023-05-08 09:34:34] WARNING root fetch - processPackages [SpatialGlue]: Skipping, unable to determine old version
+[2023-05-08 09:34:34] INFO root fetch - processPackages [SpatialGlue]: Start processing: gcsaws
+[2023-05-08 09:34:34] INFO root fetch - main [MainThread]: End processing [SpatialGlue] error
+[2023-05-08 09:34:34] INFO root fetch - processPackages [pyrew]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-08 09:34:34] INFO root fetch - processPackages [odoo13-addons-oca-stock-logistics-workflow]: New version: [13.0.20230507.0] Old Version: [13.0.20220922.0]
+[2023-05-08 09:34:34] INFO root fetch - processPackages [cads-sdk]: New version: [0.0.17rc2] Old Version: [0.0.17rc1]
+[2023-05-08 09:34:34] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230507] Old Version: [0.7.3.dev20230506]
+[2023-05-08 09:34:34] INFO root fetch - processPackages [gcsaws]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-08 09:34:34] INFO root fetch - processPackages [pybiolib]: New version: [1.1.94] Old Version: [1.1.91]
+[2023-05-08 09:34:34] INFO root fetch - processPackages [gcscore]: executing diffoscope
+[2023-05-08 09:34:34] INFO root fetch - processPackages [gcscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcscore-0.0.8.tar.gz tmp/gcscore-0.0.9.tar.gz --markdown 20230508/g/gcscore/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 09:34:34] INFO root fetch - processPackages [Turk-game]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-08 09:34:34] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2023-05-08 09:34:34] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.91.tar.gz tmp/pybiolib-1.1.94.tar.gz --markdown 20230508/p/pybiolib/1.1.91-1.1.94/diff.md --exclude *.pyd
+[2023-05-08 09:34:34] INFO root fetch - processPackages [FHIRkit]: executing diffoscope
+[2023-05-08 09:34:34] INFO root fetch - processPackages [FHIRkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FHIRkit-0.0.8.tar.gz tmp/FHIRkit-0.0.9.tar.gz --markdown 20230508/F/FHIRkit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 09:34:34] INFO root fetch - processPackages [gcsaws]: executing diffoscope
+[2023-05-08 09:34:34] INFO root fetch - processPackages [gcsaws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcsaws-0.0.6.tar.gz tmp/gcsaws-0.0.7.tar.gz --markdown 20230508/g/gcsaws/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-08 09:34:34] INFO root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: Downloading https://files.pythonhosted.org/packages/87/0b/1de48786cb935491ef1ce4e49aec74b28fcd5830d4b9b2344b7fbb85792d/certora-cli-alpha-rahav-cert-1987_update_regTest-20230507.9.47.577125.tar.gz
+[2023-05-08 09:34:35] INFO root fetch - processPackages [pyrew]: Downloading https://files.pythonhosted.org/packages/64/69/8159a7dcf005a9e264127de535734128c82ba83ccbda77bb9d314ab042c4/pyrew-0.9.2.tar.gz
+[2023-05-08 09:34:35] INFO root fetch - processPackages [odoo13-addons-oca-stock-logistics-workflow]: Downloading https://files.pythonhosted.org/packages/ee/e5/e8166411cdb2ec2bf1ff5ee061359e955a3e3e29a9ca8c168b00805dd51f/odoo13_addons_oca_stock_logistics_workflow-13.0.20220922.0-py3-none-any.whl
+[2023-05-08 09:34:35] INFO root fetch - processPackages [cads-sdk]: Downloading https://files.pythonhosted.org/packages/94/5f/d054f8894bd49c124eea1e7f8ee6f629d182b85d0c270bca81aa27afaa7c/cads_sdk-0.0.17rc2-py3-none-any.whl
+[2023-05-08 09:34:35] INFO root fetch - processPackages [Turk-game]: Downloading https://files.pythonhosted.org/packages/91/d6/f3a3aebdf806636abc2690b50f74bb4e027448eff886603347fb7ee0291f/Turk_game-1.1.0.tar.gz
+[2023-05-08 09:34:35] WARNING root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: Skipping package: exceeds size limit 38472930>=10485760
+[2023-05-08 09:34:35] INFO root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: Start processing: Alpha-Rabbit
+[2023-05-08 09:34:35] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-rahav-cert-1987-update-regTest] error
+[2023-05-08 09:34:35] INFO root fetch - processPackages [Alpha-Rabbit]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-08 09:34:35] INFO root fetch - processPackages [cads-sdk]: executing diffoscope
+[2023-05-08 09:34:35] INFO root fetch - processPackages [cads-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cads_sdk-0.0.17rc1-py3-none-any.whl.zip tmp/cads_sdk-0.0.17rc2-py3-none-any.whl.zip --markdown 20230508/c/cads-sdk/0.0.17rc1-0.0.17rc2/diff.md --exclude *.pyd
+[2023-05-08 09:34:35] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/94/6d/573a40efa3260da34860db50ddf1e94d4756b873f6dec69e6b3fa83e3fb1/tfq_nightly-0.7.3.dev20230506-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-08 09:34:35] INFO root fetch - processPackages [Turk-game]: Downloading https://files.pythonhosted.org/packages/d8/7f/1a30692ec9744ed8c3db124f82242c785a68875e2e50252d35a29fb5bd5d/Turk_game-1.1.1.tar.gz
+[2023-05-08 09:34:35] INFO root fetch - processPackages [Alpha-Rabbit]: executing diffoscope
+[2023-05-08 09:34:35] INFO root fetch - processPackages [Alpha-Rabbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Alpha_Rabbit-1.3.8.tar.gz tmp/Alpha_Rabbit-1.3.9.tar.gz --markdown 20230508/A/Alpha-Rabbit/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-08 09:34:35] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10819848>=10485760
+[2023-05-08 09:34:35] INFO root fetch - processPackages [tfq-nightly]: Start processing: pytailor
+[2023-05-08 09:34:35] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-05-08 09:34:35] INFO root fetch - processPackages [pyrew]: Downloading https://files.pythonhosted.org/packages/25/f4/85ad85fa368ea3c50f78e6e1c9a087d9bb4ab751750c8f47ff390f1ada6c/pyrew-0.9.3.tar.gz
+[2023-05-08 09:34:35] INFO root fetch - processPackages [Turk-game]: executing diffoscope
+[2023-05-08 09:34:35] INFO root fetch - processPackages [Turk-game]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Turk_game-1.1.0.tar.gz tmp/Turk_game-1.1.1.tar.gz --markdown 20230508/T/Turk-game/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-08 09:34:35] INFO root fetch - processPackages [pytailor]: New version: [0.7.0] Old Version: [0.6.2]
+[2023-05-08 09:34:35] INFO root fetch - processPackages [odoo13-addons-oca-stock-logistics-workflow]: Downloading https://files.pythonhosted.org/packages/da/15/6f346eab3c6b71c5f27b7a4528198f92d6ed9308bbfb822f4faf373cbbea/odoo13_addons_oca_stock_logistics_workflow-13.0.20230507.0-py3-none-any.whl
+[2023-05-08 09:34:35] INFO root fetch - processPackages [pyrew]: executing diffoscope
+[2023-05-08 09:34:35] INFO root fetch - processPackages [pyrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrew-0.9.2.tar.gz tmp/pyrew-0.9.3.tar.gz --markdown 20230508/p/pyrew/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-08 09:34:35] INFO root fetch - processPackages [odoo13-addons-oca-stock-logistics-workflow]: executing diffoscope
+[2023-05-08 09:34:35] INFO root fetch - processPackages [odoo13-addons-oca-stock-logistics-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addons_oca_stock_logistics_workflow-13.0.20220922.0-py3-none-any.whl.zip tmp/odoo13_addons_oca_stock_logistics_workflow-13.0.20230507.0-py3-none-any.whl.zip --markdown 20230508/o/odoo13-addons-oca-stock-logistics-workflow/13.0.20220922.0-13.0.20230507.0/diff.md --exclude *.pyd
+[2023-05-08 09:34:35] INFO root fetch - processPackages [pytailor]: Downloading https://files.pythonhosted.org/packages/ad/59/211d8fa318406eb0cd017e9d6fc2cbc11a412354507265c73b2e515365cd/pytailor-0.6.2.tar.gz
+[2023-05-08 09:34:35] INFO root fetch - processPackages [pytailor]: Downloading https://files.pythonhosted.org/packages/8e/c0/f1fd74d12b5f57d7cf2fb1d4b550e51c6f29e357b50731d48305665a89bf/pytailor-0.7.0.tar.gz
+[2023-05-08 09:34:35] INFO root fetch - processPackages [pytailor]: executing diffoscope
+[2023-05-08 09:34:35] INFO root fetch - processPackages [pytailor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytailor-0.6.2.tar.gz tmp/pytailor-0.7.0.tar.gz --markdown 20230508/p/pytailor/0.6.2-0.7.0/diff.md --exclude *.pyd
+[2023-05-08 09:34:36] INFO root fetch - processPackages [gcsaws]: Start processing: yuna-db
+[2023-05-08 09:34:36] INFO root fetch - main [MainThread]: End processing [gcsaws]: success
+[2023-05-08 09:34:36] INFO root fetch - processPackages [gcscore]: Start processing: llmpool
+[2023-05-08 09:34:36] INFO root fetch - main [MainThread]: End processing [gcscore]: success
+[2023-05-08 09:34:36] INFO root fetch - processPackages [llmpool]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-08 09:34:36] INFO root fetch - processPackages [yuna-db]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-08 09:34:36] INFO root fetch - main [MainThread]: End processing [FHIRkit]: success
+[2023-05-08 09:34:36] INFO root fetch - processPackages [llmpool]: executing diffoscope
+[2023-05-08 09:34:36] INFO root fetch - processPackages [llmpool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmpool-0.0.3-py3-none-any.whl.zip tmp/llmpool-0.0.4-py3-none-any.whl.zip --markdown 20230508/l/llmpool/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-08 09:34:36] INFO root fetch - main [MainThread]: End processing [Alpha-Rabbit]: success
+[2023-05-08 09:34:36] INFO root fetch - processPackages [yuna-db]: Downloading https://files.pythonhosted.org/packages/fa/eb/c4723fbc7d55c8dcc26d949f79c1701a94e030bb3f3d00f25ffe2b9ecd29/yuna-db-0.2.2.tar.gz
+[2023-05-08 09:34:36] INFO root fetch - main [MainThread]: End processing [Turk-game]: success
+[2023-05-08 09:34:36] INFO root fetch - main [MainThread]: End processing [pyrew]: success
+[2023-05-08 09:34:36] INFO root fetch - main [MainThread]: End processing [odoo13-addons-oca-stock-logistics-workflow]: success
+[2023-05-08 09:34:37] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2023-05-08 09:34:37] INFO root fetch - processPackages [yuna-db]: Downloading https://files.pythonhosted.org/packages/47/ff/a1db81756a90d5a041a16eaeca636fd5f02bb2e14da5508d0656b25b2231/yuna-db-0.2.3.tar.gz
+[2023-05-08 09:34:37] INFO root fetch - main [MainThread]: End processing [cads-sdk]: success
+[2023-05-08 09:34:37] INFO root fetch - processPackages [yuna-db]: executing diffoscope
+[2023-05-08 09:34:37] INFO root fetch - processPackages [yuna-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yuna-db-0.2.2.tar.gz tmp/yuna-db-0.2.3.tar.gz --markdown 20230508/y/yuna-db/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-08 09:34:37] INFO root fetch - main [MainThread]: End processing [pytailor]: success
+[2023-05-08 09:34:37] INFO root fetch - main [MainThread]: End processing [llmpool]: success
+[2023-05-08 09:34:38] INFO root fetch - main [MainThread]: End processing [yuna-db]: success
+[2023-05-08 09:34:38] INFO root fetch - main [MainThread]: Store serial: [18014094]
