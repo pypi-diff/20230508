@@ -7632,3 +7632,126 @@
 [2023-05-08 10:06:08] INFO root fetch - main [MainThread]: End processing [cnki-html2json]: success
 [2023-05-08 10:06:38] INFO root fetch - main [MainThread]: End processing [NamasteiG]: success
 [2023-05-08 10:06:38] INFO root fetch - main [MainThread]: Store serial: [18014321]
+[2023-05-08 10:11:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18014321]
+[2023-05-08 10:11:47] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-08 10:11:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vaststream
+[2023-05-08 10:11:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qontract-reconcile
+[2023-05-08 10:11:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gcscore
+[2023-05-08 10:11:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: taichu-serve
+[2023-05-08 10:11:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyglove
+[2023-05-08 10:11:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: content-negotiation
+[2023-05-08 10:11:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autoxx
+[2023-05-08 10:11:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: socket-request
+[2023-05-08 10:11:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spaceone-api
+[2023-05-08 10:11:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: edwh-b2-plugin
+[2023-05-08 10:11:47] INFO root fetch - processPackages [taichu-serve]: New version: [2.0.9] Old Version: [2.0.23]
+[2023-05-08 10:11:47] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230507] Old Version: [0.3.1.dev20230506]
+[2023-05-08 10:11:47] INFO root fetch - processPackages [content-negotiation]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-08 10:11:47] INFO root fetch - processPackages [taichu-serve]: executing diffoscope
+[2023-05-08 10:11:47] INFO root fetch - processPackages [vaststream]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-05-08 10:11:47] INFO root fetch - processPackages [taichu-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taichu-serve-2.0.23.tar.gz tmp/taichu-serve-2.0.9.tar.gz --markdown 20230508/t/taichu-serve/2.0.23-2.0.9/diff.md --exclude *.pyd
+[2023-05-08 10:11:47] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-05-08 10:11:47] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230506.tar.gz tmp/pyglove-0.3.1.dev20230507.tar.gz --markdown 20230508/p/pyglove/0.3.1.dev20230506-0.3.1.dev20230507/diff.md --exclude *.pyd
+[2023-05-08 10:11:47] INFO root fetch - processPackages [autoxx]: New version: [0.0.11] Old Version: [0.0.10]
+[2023-05-08 10:11:47] INFO root fetch - processPackages [gcscore]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 10:11:47] INFO root fetch - processPackages [edwh-b2-plugin]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-08 10:11:47] INFO root fetch - processPackages [socket-request]: New version: [1.1.9] Old Version: [1.1.7]
+[2023-05-08 10:11:48] INFO root fetch - processPackages [spaceone-api]: New version: [1.9.7rc1] Old Version: [1.9.7.dev3]
+[2023-05-08 10:11:48] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-05-08 10:11:48] INFO root fetch - processPackages [autoxx]: Downloading https://files.pythonhosted.org/packages/a4/27/39a9324807d09ada112b3d714b4a1c9cf53168af98471686660373d559bb/autoxx-0.0.10.tar.gz
+[2023-05-08 10:11:48] INFO root fetch - processPackages [edwh-b2-plugin]: Downloading https://files.pythonhosted.org/packages/7f/38/d0e009a8ce5fbffb02dbfcdb2afc8b17c91e6048f03d825dff5e6750e9ca/edwh_b2_plugin-0.1.0.tar.gz
+[2023-05-08 10:11:48] INFO root fetch - processPackages [vaststream]: Downloading https://files.pythonhosted.org/packages/8d/9e/2608aa01d2d6766f9e796a776f29f4cba238bb072ab6115cdd655909ae06/vaststream-2.1.2-cp37-cp37m-manylinux1_x86_64.whl
+[2023-05-08 10:11:48] INFO root fetch - processPackages [content-negotiation]: Downloading https://files.pythonhosted.org/packages/74/57/67c41639274183aa75cd109f46310077bfd5aad3363f534c7d8c88d0f038/content-negotiation-1.1.1.tar.gz
+[2023-05-08 10:11:48] INFO root fetch - processPackages [socket-request]: Downloading https://files.pythonhosted.org/packages/f4/f4/338618772ac46dfcbca1955e5f13d1c6e1d4d3cba8c23aa32318c7095c8f/socket_request-1.1.7-py3-none-any.whl
+[2023-05-08 10:11:48] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/a4/2e/3c2505b736f0001519b2af2f82bb0b59a92be1f52920841a70ed6130f95f/spaceone_api-1.9.7.dev3-py3-none-any.whl
+[2023-05-08 10:11:48] WARNING root fetch - processPackages [vaststream]: Skipping package: exceeds size limit 11613601>=10485760
+[2023-05-08 10:11:48] INFO root fetch - processPackages [vaststream]: Start processing: localstack-core
+[2023-05-08 10:11:48] INFO root fetch - main [MainThread]: End processing [vaststream] error
+[2023-05-08 10:11:48] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230507200851] Old Version: [2.0.3.dev20230506132516]
+[2023-05-08 10:11:48] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-05-08 10:11:48] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230508/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-05-08 10:11:48] INFO root fetch - processPackages [edwh-b2-plugin]: Downloading https://files.pythonhosted.org/packages/e7/e6/d73990c4a19fca4308fe43de9d9de88c6db38e733658bfc234e83c882a13/edwh_b2_plugin-0.1.1.tar.gz
+[2023-05-08 10:11:48] INFO root fetch - processPackages [content-negotiation]: Downloading https://files.pythonhosted.org/packages/d8/03/f7de5b932ca2b4ccb5f500f26f24931539679c8fce10a6d85198d8f037e3/content-negotiation-1.1.2.tar.gz
+[2023-05-08 10:11:48] INFO root fetch - processPackages [gcscore]: executing diffoscope
+[2023-05-08 10:11:48] INFO root fetch - processPackages [gcscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcscore-0.0.8.tar.gz tmp/gcscore-0.0.9.tar.gz --markdown 20230508/g/gcscore/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 10:11:48] INFO root fetch - processPackages [autoxx]: Downloading https://files.pythonhosted.org/packages/00/89/d65520151fd7db3b5a2e90d457f76095abae22dd477bb3c065fbe3a2f4f0/autoxx-0.0.11.tar.gz
+[2023-05-08 10:11:48] INFO root fetch - processPackages [edwh-b2-plugin]: executing diffoscope
+[2023-05-08 10:11:48] INFO root fetch - processPackages [edwh-b2-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edwh_b2_plugin-0.1.0.tar.gz tmp/edwh_b2_plugin-0.1.1.tar.gz --markdown 20230508/e/edwh-b2-plugin/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-08 10:11:48] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-05-08 10:11:48] INFO root fetch - processPackages [content-negotiation]: executing diffoscope
+[2023-05-08 10:11:48] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230506132516.tar.gz tmp/localstack-core-2.0.3.dev20230507200851.tar.gz --markdown 20230508/l/localstack-core/2.0.3.dev20230506132516-2.0.3.dev20230507200851/diff.md --exclude *.pyd
+[2023-05-08 10:11:48] INFO root fetch - processPackages [content-negotiation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/content-negotiation-1.1.1.tar.gz tmp/content-negotiation-1.1.2.tar.gz --markdown 20230508/c/content-negotiation/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-08 10:11:48] INFO root fetch - processPackages [autoxx]: executing diffoscope
+[2023-05-08 10:11:48] INFO root fetch - processPackages [autoxx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoxx-0.0.10.tar.gz tmp/autoxx-0.0.11.tar.gz --markdown 20230508/a/autoxx/0.0.10-0.0.11/diff.md --exclude *.pyd
+[2023-05-08 10:11:48] INFO root fetch - processPackages [socket-request]: Downloading https://files.pythonhosted.org/packages/cd/e0/990864e0d546c17ee823f5e5cd230665faad39efc3ba65e139c89af01de8/socket_request-1.1.9-py3-none-any.whl
+[2023-05-08 10:11:48] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/de/af/8e93fe948b2016f1ee538eb2313082d5abc623499eca64d48ae30013a5ad/spaceone_api-1.9.7rc1-py3-none-any.whl
+[2023-05-08 10:11:48] INFO root fetch - processPackages [socket-request]: executing diffoscope
+[2023-05-08 10:11:48] INFO root fetch - processPackages [socket-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socket_request-1.1.7-py3-none-any.whl.zip tmp/socket_request-1.1.9-py3-none-any.whl.zip --markdown 20230508/s/socket-request/1.1.7-1.1.9/diff.md --exclude *.pyd
+[2023-05-08 10:11:49] INFO root fetch - processPackages [spaceone-api]: executing diffoscope
+[2023-05-08 10:11:49] INFO root fetch - processPackages [spaceone-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_api-1.9.7.dev3-py3-none-any.whl.zip tmp/spaceone_api-1.9.7rc1-py3-none-any.whl.zip --markdown 20230508/s/spaceone-api/1.9.7.dev3-1.9.7rc1/diff.md --exclude *.pyd
+[2023-05-08 10:11:49] INFO root fetch - processPackages [edwh-b2-plugin]: Start processing: dop-integration-libs
+[2023-05-08 10:11:49] INFO root fetch - main [MainThread]: End processing [edwh-b2-plugin]: success
+[2023-05-08 10:11:50] INFO root fetch - processPackages [content-negotiation]: Start processing: socket-request
+[2023-05-08 10:11:50] INFO root fetch - main [MainThread]: End processing [content-negotiation]: success
+[2023-05-08 10:11:50] INFO root fetch - processPackages [autoxx]: Start processing: ysf-test
+[2023-05-08 10:11:50] INFO root fetch - main [MainThread]: End processing [autoxx]: success
+[2023-05-08 10:11:50] INFO root fetch - processPackages [socket-request]: New version: [1.1.9] Old Version: [1.1.7]
+[2023-05-08 10:11:50] INFO root fetch - processPackages [dop-integration-libs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 10:11:50] INFO root fetch - processPackages [taichu-serve]: Start processing: vortex-api
+[2023-05-08 10:11:50] INFO root fetch - main [MainThread]: End processing [taichu-serve]: success
+[2023-05-08 10:11:50] INFO root fetch - processPackages [socket-request]: executing diffoscope
+[2023-05-08 10:11:50] INFO root fetch - processPackages [socket-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socket_request-1.1.7-py3-none-any.whl.zip tmp/socket_request-1.1.9-py3-none-any.whl.zip --markdown 20230508/s/socket-request/1.1.7-1.1.9/diff.md --exclude *.pyd
+[2023-05-08 10:11:50] INFO root fetch - processPackages [socket-request]: Start processing: phdu
+[2023-05-08 10:11:50] INFO root fetch - main [MainThread]: End processing [socket-request]: success
+[2023-05-08 10:11:50] INFO root fetch - processPackages [vortex-api]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-08 10:11:50] INFO root fetch - processPackages [gcscore]: Start processing: odoo-addon-sale-order-line-input
+[2023-05-08 10:11:50] INFO root fetch - main [MainThread]: End processing [gcscore]: success
+[2023-05-08 10:11:50] WARNING root fetch - processPackages [ysf-test]: Skipping, unable to determine old version
+[2023-05-08 10:11:50] INFO root fetch - processPackages [ysf-test]: Start processing: edwh-b2-plugin
+[2023-05-08 10:11:50] INFO root fetch - main [MainThread]: End processing [ysf-test] error
+[2023-05-08 10:11:50] INFO root fetch - processPackages [dop-integration-libs]: Downloading https://files.pythonhosted.org/packages/38/f1/bc23be91e084aa547e8c34ae1a7861c50b6e729c3885a6de0dd44e75ec72/dop_integration_libs-0.1.8.tar.gz
+[2023-05-08 10:11:50] INFO root fetch - processPackages [edwh-b2-plugin]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-08 10:11:50] INFO root fetch - processPackages [phdu]: New version: [1.9b1] Old Version: [1.8b3]
+[2023-05-08 10:11:50] INFO root fetch - processPackages [odoo-addon-sale-order-line-input]: New version: [15.0.1.0.1] Old Version: [15.0.1.0.0.3]
+[2023-05-08 10:11:50] INFO root fetch - processPackages [edwh-b2-plugin]: executing diffoscope
+[2023-05-08 10:11:50] INFO root fetch - processPackages [edwh-b2-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edwh_b2_plugin-0.1.0.tar.gz tmp/edwh_b2_plugin-0.1.1.tar.gz --markdown 20230508/e/edwh-b2-plugin/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-08 10:11:50] INFO root fetch - processPackages [vortex-api]: Downloading https://files.pythonhosted.org/packages/ce/ce/aeb458cd6a1053871bc3b5668b20bf0acb6eef13ca595cc86f045d7061cc/vortex_api-1.0.2.tar.gz
+[2023-05-08 10:11:50] INFO root fetch - processPackages [phdu]: Downloading https://files.pythonhosted.org/packages/5b/d5/cd4b95e71f18804b0273e3c38a92dd8786093ab89417d14fac6bda7634d3/phdu-1.8b3.tar.gz
+[2023-05-08 10:11:50] INFO root fetch - processPackages [odoo-addon-sale-order-line-input]: Downloading https://files.pythonhosted.org/packages/2f/69/34ac37188cdd87d0e687b4e8325d255b11304c2dfce7dc337c4666de6f91/odoo_addon_sale_order_line_input-15.0.1.0.0.3-py3-none-any.whl
+[2023-05-08 10:11:50] INFO root fetch - processPackages [dop-integration-libs]: Downloading https://files.pythonhosted.org/packages/e7/f0/39af1af4e964476dc9c3ae6c1ab240702fef5edc6306252ed5b3a40574c7/dop_integration_libs-0.1.9.tar.gz
+[2023-05-08 10:11:50] INFO root fetch - processPackages [vortex-api]: Downloading https://files.pythonhosted.org/packages/5f/de/4b68e86ea5b452e6736b6e343df4e54e42c582763dce41bf6ae72d13ff4a/vortex_api-1.0.3.tar.gz
+[2023-05-08 10:11:50] INFO root fetch - processPackages [dop-integration-libs]: executing diffoscope
+[2023-05-08 10:11:50] INFO root fetch - processPackages [dop-integration-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dop_integration_libs-0.1.8.tar.gz tmp/dop_integration_libs-0.1.9.tar.gz --markdown 20230508/d/dop-integration-libs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 10:11:50] INFO root fetch - processPackages [phdu]: Downloading https://files.pythonhosted.org/packages/7f/7e/07eaabe80d31f4eb493ec344ac90998de3897b7621a4d3713383f3539326/phdu-1.9b1.tar.gz
+[2023-05-08 10:11:50] INFO root fetch - processPackages [vortex-api]: executing diffoscope
+[2023-05-08 10:11:50] INFO root fetch - processPackages [vortex-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vortex_api-1.0.2.tar.gz tmp/vortex_api-1.0.3.tar.gz --markdown 20230508/v/vortex-api/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-08 10:11:50] INFO root fetch - processPackages [phdu]: executing diffoscope
+[2023-05-08 10:11:50] INFO root fetch - processPackages [phdu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phdu-1.8b3.tar.gz tmp/phdu-1.9b1.tar.gz --markdown 20230508/p/phdu/1.8b3-1.9b1/diff.md --exclude *.pyd
+[2023-05-08 10:11:51] INFO root fetch - processPackages [odoo-addon-sale-order-line-input]: Downloading https://files.pythonhosted.org/packages/58/1f/52c3db35a3326b14af5a691d891f8540fb272a94db53504df991057b8b13/odoo_addon_sale_order_line_input-15.0.1.0.1-py3-none-any.whl
+[2023-05-08 10:11:51] INFO root fetch - processPackages [odoo-addon-sale-order-line-input]: executing diffoscope
+[2023-05-08 10:11:51] INFO root fetch - processPackages [odoo-addon-sale-order-line-input]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_order_line_input-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_sale_order_line_input-15.0.1.0.1-py3-none-any.whl.zip --markdown 20230508/o/odoo-addon-sale-order-line-input/15.0.1.0.0.3-15.0.1.0.1/diff.md --exclude *.pyd
+[2023-05-08 10:11:51] INFO root fetch - processPackages [socket-request]: Start processing: alibabacloud-ccc20200701-py2
+[2023-05-08 10:11:51] INFO root fetch - main [MainThread]: End processing [socket-request]: success
+[2023-05-08 10:11:51] INFO root fetch - processPackages [alibabacloud-ccc20200701-py2]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-05-08 10:11:51] INFO root fetch - processPackages [edwh-b2-plugin]: Start processing: alibabacloud-ccc20200701
+[2023-05-08 10:11:51] INFO root fetch - main [MainThread]: End processing [edwh-b2-plugin]: success
+[2023-05-08 10:11:51] INFO root fetch - processPackages [alibabacloud-ccc20200701]: New version: [2.7.0] Old Version: [2.4.1]
+[2023-05-08 10:11:51] INFO root fetch - processPackages [alibabacloud-ccc20200701-py2]: Downloading https://files.pythonhosted.org/packages/c1/d6/3e0e0be36b25ed5c201357338b83145969796364de6049f39a96a1b25688/alibabacloud_ccc20200701_py2-2.4.0.tar.gz
+[2023-05-08 10:11:51] INFO root fetch - main [MainThread]: End processing [dop-integration-libs]: success
+[2023-05-08 10:11:51] INFO root fetch - processPackages [alibabacloud-ccc20200701]: Downloading https://files.pythonhosted.org/packages/74/f3/4a27ffb49ff6106c1e90417aba0122ab5b2e7cbd09d5792aad2455cda0db/alibabacloud_ccc20200701-2.4.1.tar.gz
+[2023-05-08 10:11:51] INFO root fetch - main [MainThread]: End processing [vortex-api]: success
+[2023-05-08 10:11:52] INFO root fetch - processPackages [alibabacloud-ccc20200701-py2]: Downloading https://files.pythonhosted.org/packages/4a/0d/8aa773cb797a5dc5ffbfac2c1f1d706ff5da84782e2e0766baaa310d2f80/alibabacloud_ccc20200701_py2-2.4.1.tar.gz
+[2023-05-08 10:11:52] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-order-line-input]: success
+[2023-05-08 10:11:52] INFO root fetch - processPackages [alibabacloud-ccc20200701-py2]: executing diffoscope
+[2023-05-08 10:11:52] INFO root fetch - processPackages [alibabacloud-ccc20200701-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ccc20200701_py2-2.4.0.tar.gz tmp/alibabacloud_ccc20200701_py2-2.4.1.tar.gz --markdown 20230508/a/alibabacloud-ccc20200701-py2/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-05-08 10:11:52] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
+[2023-05-08 10:11:52] INFO root fetch - processPackages [alibabacloud-ccc20200701]: Downloading https://files.pythonhosted.org/packages/d0/25/a7584571fb4acbdaac5a90572964a34eb31d1acc949e36c93c2bcc253d3c/alibabacloud_ccc20200701-2.7.0.tar.gz
+[2023-05-08 10:11:52] INFO root fetch - processPackages [alibabacloud-ccc20200701]: executing diffoscope
+[2023-05-08 10:11:52] INFO root fetch - processPackages [alibabacloud-ccc20200701]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ccc20200701-2.4.1.tar.gz tmp/alibabacloud_ccc20200701-2.7.0.tar.gz --markdown 20230508/a/alibabacloud-ccc20200701/2.4.1-2.7.0/diff.md --exclude *.pyd
+[2023-05-08 10:11:52] INFO root fetch - main [MainThread]: End processing [phdu]: success
+[2023-05-08 10:11:54] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-05-08 10:11:54] INFO root fetch - main [MainThread]: End processing [alibabacloud-ccc20200701-py2]: success
+[2023-05-08 10:11:54] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-05-08 10:11:55] INFO root fetch - main [MainThread]: End processing [alibabacloud-ccc20200701]: success
+[2023-05-08 10:11:58] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-05-08 10:11:58] INFO root fetch - main [MainThread]: Store serial: [18014380]
