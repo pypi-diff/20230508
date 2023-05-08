@@ -15889,3 +15889,78 @@ EOFError: EOF read where object expected
 [2023-05-08 17:28:39] INFO root fetch - main [MainThread]: End processing [splight-lib]: success
 [2023-05-08 17:28:41] INFO root fetch - main [MainThread]: End processing [gemd]: success
 [2023-05-08 17:28:41] INFO root fetch - main [MainThread]: Store serial: [18018788]
+[2023-05-08 17:33:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18018788]
+[2023-05-08 17:33:51] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-08 17:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: renovosolutions.aws-ses-smtp-credentials
+[2023-05-08 17:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openstg
+[2023-05-08 17:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: domolibrary
+[2023-05-08 17:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: napatrackmater
+[2023-05-08 17:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coiled
+[2023-05-08 17:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: camtono-derivatives
+[2023-05-08 17:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: audioviz
+[2023-05-08 17:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: renovosolutions.aws-cdk-one-time-event
+[2023-05-08 17:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: linc
+[2023-05-08 17:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: renovosolutions.aws-ses-smtp-credentials
+[2023-05-08 17:33:51] INFO root fetch - processPackages [renovosolutions.aws-ses-smtp-credentials]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-08 17:33:51] INFO root fetch - processPackages [audioviz]: New version: [0.1.8.dev1] Old Version: [0.1.8.dev0]
+[2023-05-08 17:33:51] INFO root fetch - processPackages [openstg]: New version: [1.2.0] Old Version: [1.12.1]
+[2023-05-08 17:33:51] INFO root fetch - processPackages [linc]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-05-08 17:33:51] INFO root fetch - processPackages [camtono-derivatives]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-08 17:33:51] INFO root fetch - processPackages [domolibrary]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 17:33:51] INFO root fetch - processPackages [renovosolutions.aws-ses-smtp-credentials]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-08 17:33:51] INFO root fetch - processPackages [napatrackmater]: New version: [3.5.6] Old Version: [3.5.5]
+[2023-05-08 17:33:51] INFO root fetch - processPackages [coiled]: New version: [0.6.3.dev4] Old Version: [0.6.3.dev3]
+[2023-05-08 17:33:51] INFO root fetch - processPackages [renovosolutions.aws-cdk-one-time-event]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-05-08 17:33:51] INFO root fetch - processPackages [openstg]: Downloading https://files.pythonhosted.org/packages/4b/da/5c88a1cbe57f2575d7875bb0196dda08e8a53b453d41048f25bafebb0bd9/openstg-1.12.1.tar.gz
+[2023-05-08 17:33:51] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-05-08 17:33:51] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.8.tar.gz tmp/domolibrary-0.1.9.tar.gz --markdown 20230508/d/domolibrary/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 17:33:51] INFO root fetch - processPackages [renovosolutions.aws-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/a6/f8/9128a0141a51f455fd03ad91705b7563d56faef0826b4d10389550f5601a/renovosolutions.aws-ses-smtp-credentials-0.0.98.tar.gz
+[2023-05-08 17:33:51] INFO root fetch - processPackages [renovosolutions.aws-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/a6/f8/9128a0141a51f455fd03ad91705b7563d56faef0826b4d10389550f5601a/renovosolutions.aws-ses-smtp-credentials-0.0.98.tar.gz
+[2023-05-08 17:33:51] INFO root fetch - processPackages [camtono-derivatives]: Downloading https://files.pythonhosted.org/packages/5e/b0/405a852a58ac0bfbf2a4a5f6eb05930fe22e5230c003cf1526eb69b10a15/camtono-derivatives-1.0.2.tar.gz
+[2023-05-08 17:33:51] INFO root fetch - processPackages [linc]: Downloading https://files.pythonhosted.org/packages/d3/d3/5b13e3f07e1be573ff9b5536162ece3220f3ba8ba32dab5d48cb8c12f66e/linc-1.4.0.tar.gz
+[2023-05-08 17:33:51] INFO root fetch - processPackages [renovosolutions.aws-cdk-one-time-event]: executing diffoscope
+[2023-05-08 17:33:51] INFO root fetch - processPackages [renovosolutions.aws-cdk-one-time-event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-one-time-event-2.1.98.tar.gz tmp/renovosolutions.aws-cdk-one-time-event-2.1.99.tar.gz --markdown 20230508/r/renovosolutions.aws-cdk-one-time-event/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-05-08 17:33:51] INFO root fetch - processPackages [audioviz]: Downloading https://files.pythonhosted.org/packages/69/09/038a77c4de5bd28de532c542c2feb0152d8c3a04b7502aef762a5d2c72f3/audioviz-0.1.8.dev1.tar.gz
+[2023-05-08 17:33:51] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/e8/8f/f1010bf8d14a4ae9c9635356ccd412408ba79bbddfa132937c18250261d4/napatrackmater-3.5.6.tar.gz
+[2023-05-08 17:33:51] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/18/2e/e0679574118a6aa9d941c1ca243a2f429a4dd7246ac18b3219ff7fcfaf1a/coiled-0.6.3.dev4.tar.gz
+[2023-05-08 17:33:51] INFO root fetch - processPackages [napatrackmater]: executing diffoscope
+[2023-05-08 17:33:51] INFO root fetch - processPackages [napatrackmater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napatrackmater-3.5.5.tar.gz tmp/napatrackmater-3.5.6.tar.gz --markdown 20230508/n/napatrackmater/3.5.5-3.5.6/diff.md --exclude *.pyd
+[2023-05-08 17:33:51] INFO root fetch - processPackages [audioviz]: executing diffoscope
+[2023-05-08 17:33:51] INFO root fetch - processPackages [audioviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audioviz-0.1.8.dev0.tar.gz tmp/audioviz-0.1.8.dev1.tar.gz --markdown 20230508/a/audioviz/0.1.8.dev0-0.1.8.dev1/diff.md --exclude *.pyd
+[2023-05-08 17:33:51] INFO root fetch - processPackages [openstg]: executing diffoscope
+[2023-05-08 17:33:51] INFO root fetch - processPackages [openstg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openstg-1.12.1.tar.gz tmp/openstg-1.2.0.tar.gz --markdown 20230508/o/openstg/1.12.1-1.2.0/diff.md --exclude *.pyd
+[2023-05-08 17:33:51] INFO root fetch - processPackages [linc]: Downloading https://files.pythonhosted.org/packages/d4/b2/ad23e90293bf921ce2f26f158832e505bd4c88652bb3af8016aafbd3e564/linc-1.5.0.tar.gz
+[2023-05-08 17:33:51] INFO root fetch - processPackages [renovosolutions.aws-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/4d/1b/51feb9e0c4c81efe14442b2a817b0ee3267935e1f1b0e7a71ded5bae4acc/renovosolutions.aws-ses-smtp-credentials-0.0.99.tar.gz
+[2023-05-08 17:33:51] INFO root fetch - processPackages [renovosolutions.aws-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/4d/1b/51feb9e0c4c81efe14442b2a817b0ee3267935e1f1b0e7a71ded5bae4acc/renovosolutions.aws-ses-smtp-credentials-0.0.99.tar.gz
+[2023-05-08 17:33:51] INFO root fetch - processPackages [linc]: executing diffoscope
+[2023-05-08 17:33:51] INFO root fetch - processPackages [linc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linc-1.4.0.tar.gz tmp/linc-1.5.0.tar.gz --markdown 20230508/l/linc/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-05-08 17:33:51] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-08 17:33:51] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.3.dev3.tar.gz tmp/coiled-0.6.3.dev4.tar.gz --markdown 20230508/c/coiled/0.6.3.dev3-0.6.3.dev4/diff.md --exclude *.pyd
+[2023-05-08 17:33:51] INFO root fetch - processPackages [camtono-derivatives]: Downloading https://files.pythonhosted.org/packages/37/48/a978ff2e13eeda16a4a7e4972c16c3977895a97f9b934d381bda12bf4b28/camtono-derivatives-1.0.3.tar.gz
+[2023-05-08 17:33:51] INFO root fetch - processPackages [renovosolutions.aws-ses-smtp-credentials]: executing diffoscope
+[2023-05-08 17:33:51] INFO root fetch - processPackages [renovosolutions.aws-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-ses-smtp-credentials-0.0.98.tar.gz tmp/renovosolutions.aws-ses-smtp-credentials-0.0.99.tar.gz --markdown 20230508/r/renovosolutions.aws-ses-smtp-credentials/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-08 17:33:51] INFO root fetch - processPackages [renovosolutions.aws-ses-smtp-credentials]: executing diffoscope
+[2023-05-08 17:33:51] INFO root fetch - processPackages [renovosolutions.aws-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-ses-smtp-credentials-0.0.98.tar.gz tmp/renovosolutions.aws-ses-smtp-credentials-0.0.99.tar.gz --markdown 20230508/r/renovosolutions.aws-ses-smtp-credentials/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-08 17:33:51] INFO root fetch - processPackages [camtono-derivatives]: executing diffoscope
+[2023-05-08 17:33:51] INFO root fetch - processPackages [camtono-derivatives]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camtono-derivatives-1.0.2.tar.gz tmp/camtono-derivatives-1.0.3.tar.gz --markdown 20230508/c/camtono-derivatives/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-08 17:33:53] INFO root fetch - processPackages [renovosolutions.aws-cdk-one-time-event]: Start processing: kkm230508-AILib
+[2023-05-08 17:33:53] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-one-time-event]: success
+[2023-05-08 17:33:53] INFO root fetch - processPackages [napatrackmater]: Start processing: osim-utils
+[2023-05-08 17:33:53] WARNING root fetch - processPackages [kkm230508-AILib]: Skipping, unable to determine old version
+[2023-05-08 17:33:53] INFO root fetch - main [MainThread]: End processing [napatrackmater]: success
+[2023-05-08 17:33:53] INFO root fetch - main [MainThread]: End processing [kkm230508-AILib] error
+[2023-05-08 17:33:53] INFO root fetch - main [MainThread]: End processing [openstg]: success
+[2023-05-08 17:33:53] INFO root fetch - processPackages [osim-utils]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-08 17:33:53] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-ses-smtp-credentials]: success
+[2023-05-08 17:33:53] INFO root fetch - processPackages [osim-utils]: Downloading https://files.pythonhosted.org/packages/c5/db/9c022c356276c933484228e8b15b8ab9dc8f11ab8e8df405be5544515e78/osim_utils-0.4.0.tar.gz
+[2023-05-08 17:33:53] INFO root fetch - main [MainThread]: End processing [camtono-derivatives]: success
+[2023-05-08 17:33:53] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-ses-smtp-credentials]: success
+[2023-05-08 17:33:53] INFO root fetch - main [MainThread]: End processing [linc]: success
+[2023-05-08 17:33:53] INFO root fetch - main [MainThread]: End processing [audioviz]: success
+[2023-05-08 17:33:53] INFO root fetch - processPackages [osim-utils]: Downloading https://files.pythonhosted.org/packages/7d/0e/25a0eebf03bf27f840450b010458a3b60fe4a922120e19a1254c8e0e96bc/osim_utils-0.4.1.tar.gz
+[2023-05-08 17:33:53] INFO root fetch - processPackages [osim-utils]: executing diffoscope
+[2023-05-08 17:33:53] INFO root fetch - processPackages [osim-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osim_utils-0.4.0.tar.gz tmp/osim_utils-0.4.1.tar.gz --markdown 20230508/o/osim-utils/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-08 17:33:54] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-08 17:33:54] INFO root fetch - main [MainThread]: End processing [osim-utils]: success
+[2023-05-08 17:34:25] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-05-08 17:34:25] INFO root fetch - main [MainThread]: Store serial: [18018837]
