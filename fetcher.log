@@ -10466,3 +10466,81 @@
 [2023-05-08 12:56:20] INFO root fetch - main [MainThread]: End processing [Scrapy]: success
 [2023-05-08 12:56:30] INFO root fetch - main [MainThread]: End processing [muffin-admin]: success
 [2023-05-08 12:56:30] INFO root fetch - main [MainThread]: Store serial: [18015815]
+[2023-05-08 13:01:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18015815]
+[2023-05-08 13:01:40] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-08 13:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sag-py-execution-time-decorator
+[2023-05-08 13:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yeref
+[2023-05-08 13:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edwh
+[2023-05-08 13:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bridgecrew
+[2023-05-08 13:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-uri-eradicate-certora-dir
+[2023-05-08 13:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: byozdemir-messager
+[2023-05-08 13:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ScrapeFinance
+[2023-05-08 13:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cagpaint
+[2023-05-08 13:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdktf-cdktf-provider-snowflake
+[2023-05-08 13:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdktf-cdktf-provider-tfe
+[2023-05-08 13:01:40] WARNING root fetch - processPackages [sag-py-execution-time-decorator]: Skipping, unable to determine old version
+[2023-05-08 13:01:40] INFO root fetch - processPackages [certora-cli-alpha-uri-eradicate-certora-dir]: New version: [20230508.10.58.458401] Old Version: [20230504.20.20.780525]
+[2023-05-08 13:01:40] INFO root fetch - processPackages [sag-py-execution-time-decorator]: Start processing: dftrans
+[2023-05-08 13:01:40] INFO root fetch - processPackages [yeref]: New version: [0.1.57] Old Version: [0.1.56]
+[2023-05-08 13:01:40] INFO root fetch - main [MainThread]: End processing [sag-py-execution-time-decorator] error
+[2023-05-08 13:01:40] INFO root fetch - processPackages [byozdemir-messager]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-08 13:01:40] WARNING root fetch - processPackages [ScrapeFinance]: Skipping, unable to determine old version
+[2023-05-08 13:01:40] INFO root fetch - processPackages [ScrapeFinance]: Start processing: pyrew
+[2023-05-08 13:01:40] INFO root fetch - processPackages [cagpaint]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-05-08 13:01:40] INFO root fetch - main [MainThread]: End processing [ScrapeFinance] error
+[2023-05-08 13:01:40] INFO root fetch - processPackages [edwh]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-08 13:01:40] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: New version: [6.0.2] Old Version: [6.0.1]
+[2023-05-08 13:01:40] INFO root fetch - processPackages [cdktf-cdktf-provider-tfe]: New version: [6.0.2] Old Version: [6.0.1]
+[2023-05-08 13:01:40] INFO root fetch - processPackages [pyrew]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-08 13:01:40] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-08 13:01:40] WARNING root fetch - processPackages [dftrans]: Skipping, unable to determine old version
+[2023-05-08 13:01:40] INFO root fetch - processPackages [dftrans]: Start processing: funasr-onnx
+[2023-05-08 13:01:40] INFO root fetch - main [MainThread]: End processing [dftrans] error
+[2023-05-08 13:01:40] INFO root fetch - processPackages [byozdemir-messager]: Downloading https://files.pythonhosted.org/packages/63/f6/59c4bcf522b727ef36282b943969e823346f0fe2ce531f20dd8f81dd6c2d/byozdemir-messager-0.0.1.tar.gz
+[2023-05-08 13:01:40] INFO root fetch - processPackages [cagpaint]: Downloading https://files.pythonhosted.org/packages/91/b6/f0b99edccc626d336bb3f358ad7281be34d25f5442fd4e45f344bdac15b2/cagpaint-0.1.7.tar.gz
+[2023-05-08 13:01:40] INFO root fetch - processPackages [edwh]: Downloading https://files.pythonhosted.org/packages/a1/b2/ffc583af9d774bfd7b622dbed69ea2357b3a1f9096658cf1202307626113/edwh-0.9.1.tar.gz
+[2023-05-08 13:01:40] INFO root fetch - processPackages [funasr-onnx]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-08 13:01:40] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-05-08 13:01:40] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230508/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-08 13:01:40] INFO root fetch - processPackages [pyrew]: executing diffoscope
+[2023-05-08 13:01:40] INFO root fetch - processPackages [pyrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrew-0.9.2.tar.gz tmp/pyrew-0.9.3.tar.gz --markdown 20230508/p/pyrew/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-08 13:01:40] WARNING root fetch - processPackages [edwh]: Skipping package: exceeds size limit 32547749>=10485760
+[2023-05-08 13:01:40] INFO root fetch - processPackages [edwh]: Start processing: minato
+[2023-05-08 13:01:40] INFO root fetch - main [MainThread]: End processing [edwh] error
+[2023-05-08 13:01:40] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: Downloading https://files.pythonhosted.org/packages/4f/d1/f65ca4f9ed3746ce2380838ce0cf87942867e515450fab5965ddd0f9e2c7/cdktf-cdktf-provider-snowflake-6.0.1.tar.gz
+[2023-05-08 13:01:40] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/9e/25/b09c370f5d9b7a99a4e501d20ab69224425f7c02a7db295c3a7629c1abff/yeref-0.1.57.tar.gz
+[2023-05-08 13:01:40] INFO root fetch - processPackages [certora-cli-alpha-uri-eradicate-certora-dir]: Downloading https://files.pythonhosted.org/packages/20/cf/029b978c57769426170aa8d687189d58a7dd29b8bc117f3bd147efc95bed/certora-cli-alpha-uri-eradicate_certora_dir-20230504.20.20.780525.tar.gz
+[2023-05-08 13:01:40] INFO root fetch - processPackages [cdktf-cdktf-provider-tfe]: Downloading https://files.pythonhosted.org/packages/ce/14/413fd152d625245fc52522104595ba5f3d01585d9f108101064cdee1573e/cdktf-cdktf-provider-tfe-6.0.1.tar.gz
+[2023-05-08 13:01:40] INFO root fetch - processPackages [funasr-onnx]: executing diffoscope
+[2023-05-08 13:01:40] INFO root fetch - processPackages [funasr-onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funasr_onnx-0.0.6.tar.gz tmp/funasr_onnx-0.0.7.tar.gz --markdown 20230508/f/funasr-onnx/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-08 13:01:40] INFO root fetch - processPackages [minato]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-05-08 13:01:40] INFO root fetch - processPackages [cagpaint]: Downloading https://files.pythonhosted.org/packages/45/d9/3bc7979d3910b18e83f9cc119f477b0de630b97d74bab0907526b68dfaaf/cagpaint-0.1.9.tar.gz
+[2023-05-08 13:01:40] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-05-08 13:01:40] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.1.56.tar.gz tmp/yeref-0.1.57.tar.gz --markdown 20230508/y/yeref/0.1.56-0.1.57/diff.md --exclude *.pyd
+[2023-05-08 13:01:40] WARNING root fetch - processPackages [certora-cli-alpha-uri-eradicate-certora-dir]: Skipping package: exceeds size limit 38471843>=10485760
+[2023-05-08 13:01:40] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-uri-eradicate-certora-dir] error
+[2023-05-08 13:01:40] INFO root fetch - processPackages [byozdemir-messager]: Downloading https://files.pythonhosted.org/packages/df/3e/b6f11ff11c4fe0dab91a5a24c10c2e1fd6c0c6c89743bc80ba8b4d4f08d2/byozdemir-messager-0.0.2.tar.gz
+[2023-05-08 13:01:40] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: Downloading https://files.pythonhosted.org/packages/25/dc/ab3e57ebcbb759086120b631e823e8fc4621cf56f53395fd0ed02c3195d4/cdktf-cdktf-provider-snowflake-6.0.2.tar.gz
+[2023-05-08 13:01:40] INFO root fetch - processPackages [cdktf-cdktf-provider-tfe]: Downloading https://files.pythonhosted.org/packages/52/cf/13ec9d623b37ea002d6a94a595d586b433f3a527696cff2be8ca9768473c/cdktf-cdktf-provider-tfe-6.0.2.tar.gz
+[2023-05-08 13:01:40] INFO root fetch - processPackages [cagpaint]: executing diffoscope
+[2023-05-08 13:01:40] INFO root fetch - processPackages [cagpaint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cagpaint-0.1.7.tar.gz tmp/cagpaint-0.1.9.tar.gz --markdown 20230508/c/cagpaint/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 13:01:40] INFO root fetch - processPackages [minato]: Downloading https://files.pythonhosted.org/packages/2b/07/94df24fe8c8e8b589443e2c6af0e3929852f16e0f3ae5a02f081beba9508/minato-0.8.2.tar.gz
+[2023-05-08 13:01:40] INFO root fetch - processPackages [byozdemir-messager]: executing diffoscope
+[2023-05-08 13:01:40] INFO root fetch - processPackages [byozdemir-messager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byozdemir-messager-0.0.1.tar.gz tmp/byozdemir-messager-0.0.2.tar.gz --markdown 20230508/b/byozdemir-messager/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-08 13:01:40] INFO root fetch - processPackages [cdktf-cdktf-provider-tfe]: executing diffoscope
+[2023-05-08 13:01:40] INFO root fetch - processPackages [cdktf-cdktf-provider-tfe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-tfe-6.0.1.tar.gz tmp/cdktf-cdktf-provider-tfe-6.0.2.tar.gz --markdown 20230508/c/cdktf-cdktf-provider-tfe/6.0.1-6.0.2/diff.md --exclude *.pyd
+[2023-05-08 13:01:40] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: executing diffoscope
+[2023-05-08 13:01:40] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-snowflake-6.0.1.tar.gz tmp/cdktf-cdktf-provider-snowflake-6.0.2.tar.gz --markdown 20230508/c/cdktf-cdktf-provider-snowflake/6.0.1-6.0.2/diff.md --exclude *.pyd
+[2023-05-08 13:01:41] INFO root fetch - processPackages [minato]: Downloading https://files.pythonhosted.org/packages/a8/eb/f77601014ed5abff8b428223bb1bdf453c0c334d4fd19df91f00ef0757d7/minato-0.9.0.tar.gz
+[2023-05-08 13:01:41] INFO root fetch - processPackages [minato]: executing diffoscope
+[2023-05-08 13:01:41] INFO root fetch - processPackages [minato]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minato-0.8.2.tar.gz tmp/minato-0.9.0.tar.gz --markdown 20230508/m/minato/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-08 13:01:42] INFO root fetch - main [MainThread]: End processing [pyrew]: success
+[2023-05-08 13:01:42] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-05-08 13:01:42] INFO root fetch - main [MainThread]: End processing [byozdemir-messager]: success
+[2023-05-08 13:01:42] INFO root fetch - main [MainThread]: End processing [funasr-onnx]: success
+[2023-05-08 13:01:42] INFO root fetch - main [MainThread]: End processing [minato]: success
+[2023-05-08 13:01:43] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-05-08 13:01:43] INFO root fetch - main [MainThread]: End processing [cagpaint]: success
+[2023-05-08 13:01:44] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-tfe]: success
+[2023-05-08 13:01:45] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-snowflake]: success
+[2023-05-08 13:01:45] INFO root fetch - main [MainThread]: Store serial: [18015858]
