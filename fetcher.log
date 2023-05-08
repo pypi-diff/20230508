@@ -22450,3 +22450,75 @@ EOFError: EOF read where object expected
 [2023-05-08 23:13:33] INFO root fetch - main [MainThread]: End processing [libcbm]: success
 [2023-05-08 23:13:34] INFO root fetch - main [MainThread]: End processing [tink]: success
 [2023-05-08 23:13:34] INFO root fetch - main [MainThread]: Store serial: [18022703]
+[2023-05-08 23:18:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18022703]
+[2023-05-08 23:18:43] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-08 23:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: habapp-rules
+[2023-05-08 23:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ovos-translate-plugin-deepl
+[2023-05-08 23:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pipcryptlibary
+[2023-05-08 23:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ntdsdotsqlite
+[2023-05-08 23:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-eric-kotlin1.8
+[2023-05-08 23:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pepperize.cdk-serverless-cluster-from-snapshot
+[2023-05-08 23:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fiddler-client
+[2023-05-08 23:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PlatitudeTerminal
+[2023-05-08 23:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: certora-cli-alpha-master
+[2023-05-08 23:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: discovery-transition-ds
+[2023-05-08 23:18:43] INFO root fetch - processPackages [ovos-translate-plugin-deepl]: New version: [0.0.1a2] Old Version: [0.0.1a1]
+[2023-05-08 23:18:43] INFO root fetch - processPackages [pipcryptlibary]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-08 23:18:43] INFO root fetch - processPackages [habapp-rules]: New version: [3.1.1] Old Version: [3.1.0]
+[2023-05-08 23:18:43] INFO root fetch - processPackages [ntdsdotsqlite]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-08 23:18:43] INFO root fetch - processPackages [certora-cli-alpha-eric-kotlin1.8]: New version: [20230508.21.16.928990] Old Version: [20230508.20.7.741514]
+[2023-05-08 23:18:43] INFO root fetch - processPackages [PlatitudeTerminal]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-08 23:18:43] INFO root fetch - processPackages [fiddler-client]: New version: [2.0.0.dev3] Old Version: [2.0.0.dev1]
+[2023-05-08 23:18:43] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230508.21.17.852013] Old Version: [20230508.20.32.816389]
+[2023-05-08 23:18:43] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-08 23:18:43] INFO root fetch - processPackages [discovery-transition-ds]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-05-08 23:18:43] INFO root fetch - processPackages [discovery-transition-ds]: executing diffoscope
+[2023-05-08 23:18:43] INFO root fetch - processPackages [discovery-transition-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discovery-transition-ds-4.9.8.tar.gz tmp/discovery-transition-ds-4.9.9.tar.gz --markdown 20230508/d/discovery-transition-ds/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-05-08 23:18:43] INFO root fetch - processPackages [habapp-rules]: Downloading https://files.pythonhosted.org/packages/ab/93/8796b872167cba2f41049f091592bc0f75c1454e35400fdd5ff3ced66174/habapp_rules-3.1.0.tar.gz
+[2023-05-08 23:18:43] INFO root fetch - processPackages [pipcryptlibary]: Downloading https://files.pythonhosted.org/packages/00/2b/9440ef7f0e6c3c07ce0b9d5d39f98fa40935f2dc9dc5c52edb553f259ecc/pipcryptlibary-1.0.0.tar.gz
+[2023-05-08 23:18:43] INFO root fetch - processPackages [ovos-translate-plugin-deepl]: Downloading https://files.pythonhosted.org/packages/5f/bd/206603ba555dd3a340315b8dbd5912d66f5b23676d0cc985b274f9cf1647/ovos_translate_plugin_deepl-0.0.1a2-py3-none-any.whl
+[2023-05-08 23:18:43] INFO root fetch - processPackages [ntdsdotsqlite]: Downloading https://files.pythonhosted.org/packages/38/3b/d6bdc8578d7a9b9102480536b957cc940b1fd02100192a1c1be001e5c021/ntdsdotsqlite-0.9.1.tar.gz
+[2023-05-08 23:18:43] INFO root fetch - processPackages [certora-cli-alpha-eric-kotlin1.8]: Downloading https://files.pythonhosted.org/packages/c9/37/f0aed573147f320677efac735ebb2d0019ecf5415d0883d2cb94fbc4c452/certora-cli-alpha-eric-kotlin1.8-20230508.20.7.741514.tar.gz
+[2023-05-08 23:18:43] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/9e/2d/4903e9ee58fc7b7afc38d63d850afacf67e7ee6bcf6023d45f42f10d5f8f/certora-cli-alpha-master-20230508.20.32.816389.tar.gz
+[2023-05-08 23:18:43] INFO root fetch - processPackages [PlatitudeTerminal]: Downloading https://files.pythonhosted.org/packages/f2/3c/3afbfcd1dd6b019c1ad76cfbfda7e51e08de1cebcb85a1d902abd7567890/PlatitudeTerminal-1.0.6.tar.gz
+[2023-05-08 23:18:43] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/41/ed/5efe219dc09a3767781b18e59998e46265479245ef5e56798033e654efe2/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz
+[2023-05-08 23:18:43] WARNING root fetch - processPackages [certora-cli-alpha-eric-kotlin1.8]: Skipping package: exceeds size limit 39212434>=10485760
+[2023-05-08 23:18:43] INFO root fetch - processPackages [certora-cli-alpha-eric-kotlin1.8]: Start processing: vegafusion-python-embed
+[2023-05-08 23:18:43] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-eric-kotlin1.8] error
+[2023-05-08 23:18:43] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/30/00/1548dbb10832fdf9889fc9aaf80d84a9ccf3625936d347bc4df3397c16c9/fiddler-client-2.0.0.dev1.tar.gz
+[2023-05-08 23:18:44] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 38475040>=10485760
+[2023-05-08 23:18:44] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-08 23:18:44] INFO root fetch - processPackages [ovos-translate-plugin-deepl]: executing diffoscope
+[2023-05-08 23:18:44] INFO root fetch - processPackages [ovos-translate-plugin-deepl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_translate_plugin_deepl-0.0.1a1-py3-none-any.whl.zip tmp/ovos_translate_plugin_deepl-0.0.1a2-py3-none-any.whl.zip --markdown 20230508/o/ovos-translate-plugin-deepl/0.0.1a1-0.0.1a2/diff.md --exclude *.pyd
+[2023-05-08 23:18:44] INFO root fetch - processPackages [pipcryptlibary]: Downloading https://files.pythonhosted.org/packages/13/ca/b96090e51215a2678b032fb88a93cc55a88b1bd4b12280afec39679ab0aa/pipcryptlibary-1.1.0.tar.gz
+[2023-05-08 23:18:44] INFO root fetch - processPackages [habapp-rules]: Downloading https://files.pythonhosted.org/packages/39/b7/88c218bdb2b9302fb9999f6256faa45a7e954db78f19dde1fc691d78e775/habapp_rules-3.1.1.tar.gz
+[2023-05-08 23:18:44] INFO root fetch - processPackages [ntdsdotsqlite]: Downloading https://files.pythonhosted.org/packages/c4/d0/6dff35b8bc3f5d5a478735521e80e203a17a4495fccc04fac95803e73373/ntdsdotsqlite-0.9.2.tar.gz
+[2023-05-08 23:18:44] INFO root fetch - processPackages [PlatitudeTerminal]: Downloading https://files.pythonhosted.org/packages/ac/cb/365a8e5adb342f95d8cfb6e0f9c52c0a1d012e9e2758fece0b41c56e0c31/PlatitudeTerminal-1.0.7.tar.gz
+[2023-05-08 23:18:44] INFO root fetch - processPackages [pipcryptlibary]: executing diffoscope
+[2023-05-08 23:18:44] INFO root fetch - processPackages [pipcryptlibary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipcryptlibary-1.0.0.tar.gz tmp/pipcryptlibary-1.1.0.tar.gz --markdown 20230508/p/pipcryptlibary/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-08 23:18:44] INFO root fetch - processPackages [habapp-rules]: executing diffoscope
+[2023-05-08 23:18:44] INFO root fetch - processPackages [habapp-rules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/habapp_rules-3.1.0.tar.gz tmp/habapp_rules-3.1.1.tar.gz --markdown 20230508/h/habapp-rules/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2023-05-08 23:18:44] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/0a/e1/974dfac343666db334bd3dc6b819d5e46e3769ce75e9baccd0067702f4ad/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz
+[2023-05-08 23:18:44] INFO root fetch - processPackages [ntdsdotsqlite]: executing diffoscope
+[2023-05-08 23:18:44] INFO root fetch - processPackages [ntdsdotsqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ntdsdotsqlite-0.9.1.tar.gz tmp/ntdsdotsqlite-0.9.2.tar.gz --markdown 20230508/n/ntdsdotsqlite/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-08 23:18:44] INFO root fetch - processPackages [PlatitudeTerminal]: executing diffoscope
+[2023-05-08 23:18:44] INFO root fetch - processPackages [PlatitudeTerminal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PlatitudeTerminal-1.0.6.tar.gz tmp/PlatitudeTerminal-1.0.7.tar.gz --markdown 20230508/P/PlatitudeTerminal/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-08 23:18:44] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: executing diffoscope
+[2023-05-08 23:18:44] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz --markdown 20230508/p/pepperize.cdk-serverless-cluster-from-snapshot/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-08 23:18:44] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/ac/b8/77b6cf424f1720a60926ac100e360f71965108b1656c1f739275b31c33af/fiddler-client-2.0.0.dev3.tar.gz
+[2023-05-08 23:18:44] INFO root fetch - processPackages [fiddler-client]: executing diffoscope
+[2023-05-08 23:18:44] INFO root fetch - processPackages [fiddler-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiddler-client-2.0.0.dev1.tar.gz tmp/fiddler-client-2.0.0.dev3.tar.gz --markdown 20230508/f/fiddler-client/2.0.0.dev1-2.0.0.dev3/diff.md --exclude *.pyd
+[2023-05-08 23:18:44] INFO root fetch - processPackages [vegafusion-python-embed]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-05-08 23:18:45] INFO root fetch - processPackages [vegafusion-python-embed]: Downloading https://files.pythonhosted.org/packages/e7/69/a52dab5cf2928dcc9206eb9af4e962ade4125ce4a5d64bc0214abcde9beb/vegafusion_python_embed-1.2.3.tar.gz
+[2023-05-08 23:18:45] INFO root fetch - main [MainThread]: End processing [ovos-translate-plugin-deepl]: success
+[2023-05-08 23:18:45] INFO root fetch - processPackages [vegafusion-python-embed]: Downloading https://files.pythonhosted.org/packages/28/a9/d7b28a16a8a8b5e771afd9fbe9b5e632350c5a6f8854a434b71ce25b4b90/vegafusion_python_embed-1.2.4-cp310-cp310-macosx_10_7_x86_64.whl
+[2023-05-08 23:18:45] INFO root fetch - main [MainThread]: End processing [PlatitudeTerminal]: success
+[2023-05-08 23:18:45] INFO root fetch - main [MainThread]: End processing [ntdsdotsqlite]: success
+[2023-05-08 23:18:45] WARNING root fetch - processPackages [vegafusion-python-embed]: Skipping package: exceeds size limit 15454090>=10485760
+[2023-05-08 23:18:45] INFO root fetch - main [MainThread]: End processing [vegafusion-python-embed] error
+[2023-05-08 23:18:45] INFO root fetch - main [MainThread]: End processing [pipcryptlibary]: success
+[2023-05-08 23:18:45] INFO root fetch - main [MainThread]: End processing [habapp-rules]: success
+[2023-05-08 23:18:46] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
+[2023-05-08 23:18:47] INFO root fetch - main [MainThread]: End processing [discovery-transition-ds]: success
+[2023-05-08 23:18:47] INFO root fetch - main [MainThread]: End processing [fiddler-client]: success
+[2023-05-08 23:18:47] INFO root fetch - main [MainThread]: Store serial: [18022734]
