@@ -20288,3 +20288,198 @@ EOFError: EOF read where object expected
 [2023-05-08 21:32:35] ERROR root fetch - processPackages [mkdocs-material]: Timeout during execution of pkgdiff
 [2023-05-08 21:32:35] INFO root fetch - main [MainThread]: End processing [mkdocs-material] error
 [2023-05-08 21:32:35] INFO root fetch - main [MainThread]: Store serial: [18021396]
+[2023-05-08 21:37:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18021396]
+[2023-05-08 21:37:45] INFO root fetch - main [MainThread]: Found 32 changed packages
+[2023-05-08 21:37:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: inorbit-edge
+[2023-05-08 21:37:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wds-client
+[2023-05-08 21:37:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eeeCalc
+[2023-05-08 21:37:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: omicscope
+[2023-05-08 21:37:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hauntedhouse
+[2023-05-08 21:37:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gimera
+[2023-05-08 21:37:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: llamatry
+[2023-05-08 21:37:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mypy-boto3-iotsitewise
+[2023-05-08 21:37:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mypy-boto3-guardduty
+[2023-05-08 21:37:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mypy-boto3-glue
+[2023-05-08 21:37:45] INFO root fetch - processPackages [inorbit-edge]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-05-08 21:37:45] INFO root fetch - processPackages [omicscope]: New version: [1.1.0] Old Version: [1.0.8]
+[2023-05-08 21:37:45] INFO root fetch - processPackages [wds-client]: New version: [0.2.80] Old Version: [0.2.8]
+[2023-05-08 21:37:45] INFO root fetch - processPackages [eeeCalc]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-08 21:37:45] INFO root fetch - processPackages [hauntedhouse]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-05-08 21:37:45] INFO root fetch - processPackages [llamatry]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-08 21:37:45] INFO root fetch - processPackages [gimera]: New version: [0.6.9] Old Version: [0.6.83]
+[2023-05-08 21:37:45] INFO root fetch - processPackages [mypy-boto3-glue]: New version: [1.26.8] Old Version: [1.26.74]
+[2023-05-08 21:37:45] INFO root fetch - processPackages [gimera]: Downloading https://files.pythonhosted.org/packages/e9/01/9bc5b34a45e09554f08de8d5cddefb44ea3d53da0cda8c4c184694acb29c/gimera-0.6.83.tar.gz
+[2023-05-08 21:37:45] INFO root fetch - processPackages [omicscope]: Downloading https://files.pythonhosted.org/packages/5c/0c/6ebc26a45d2ae0a244f9534002f10b8efe09587372e9e345ed0e11354d3a/omicscope-1.0.8.tar.gz
+[2023-05-08 21:37:45] INFO root fetch - processPackages [inorbit-edge]: Downloading https://files.pythonhosted.org/packages/6f/b9/911bfcf6b5f701486c58db88538677d44c0ba2dd233f94b4bc2f6cce1e18/inorbit_edge-1.9.1.tar.gz
+[2023-05-08 21:37:45] INFO root fetch - processPackages [hauntedhouse]: Downloading https://files.pythonhosted.org/packages/86/16/c4b41b0713808367613c1ed84d7de21a6774f1a3edec7c717acaab2c7ea8/hauntedhouse-0.0.7.tar.gz
+[2023-05-08 21:37:45] INFO root fetch - processPackages [eeeCalc]: Downloading https://files.pythonhosted.org/packages/c2/f7/1957521359a04e6de644527b973f4d47400bc86148c7b94639657ae54b0f/eeecalc-0.0.6.tar.gz
+[2023-05-08 21:37:45] INFO root fetch - processPackages [mypy-boto3-glue]: Downloading https://files.pythonhosted.org/packages/a3/fe/aeea927e2e60892b1c5af5181c8794c8e4f60291075f116147bb571e5233/mypy-boto3-glue-1.26.74.tar.gz
+[2023-05-08 21:37:45] INFO root fetch - processPackages [wds-client]: Downloading https://files.pythonhosted.org/packages/9c/6b/5445ae5e638eca55652b7b95ebe0ba3a7613ca52637e3df108420318d8f7/wds-client-0.2.80.tar.gz
+[2023-05-08 21:37:45] INFO root fetch - processPackages [llamatry]: Downloading https://files.pythonhosted.org/packages/ca/66/df2a8e15364219c011a38f2982ab573bd2725a5eda8489ccae446c086ba4/llamatry-0.1.4.tar.gz
+[2023-05-08 21:37:45] INFO root fetch - processPackages [mypy-boto3-iotsitewise]: New version: [1.26.96] Old Version: [1.26.130]
+[2023-05-08 21:37:46] INFO root fetch - processPackages [eeeCalc]: Downloading https://files.pythonhosted.org/packages/9a/bd/47b4e0305cdf04e9a959228402279e88eb50abec0d1c8f03a79a1a6fc826/eeecalc-0.0.7.tar.gz
+[2023-05-08 21:37:46] INFO root fetch - processPackages [llamatry]: executing diffoscope
+[2023-05-08 21:37:46] INFO root fetch - processPackages [llamatry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamatry-0.1.3.tar.gz tmp/llamatry-0.1.4.tar.gz --markdown 20230508/l/llamatry/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-08 21:37:46] INFO root fetch - processPackages [inorbit-edge]: Downloading https://files.pythonhosted.org/packages/44/57/557cc9e974461efb7fd4c05bf7378ad0b40a1fefdbe5c8727a18edeb702e/inorbit_edge-1.9.2.tar.gz
+[2023-05-08 21:37:46] INFO root fetch - processPackages [mypy-boto3-guardduty]: New version: [1.26.98] Old Version: [1.26.93]
+[2023-05-08 21:37:46] INFO root fetch - processPackages [hauntedhouse]: Downloading https://files.pythonhosted.org/packages/05/51/0c05df95d55a85c4e8a8e9837afa752031759b91708e510467ac31fdb290/hauntedhouse-0.0.9.tar.gz
+[2023-05-08 21:37:46] INFO root fetch - processPackages [gimera]: executing diffoscope
+[2023-05-08 21:37:46] INFO root fetch - processPackages [gimera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gimera-0.6.83.tar.gz tmp/gimera-0.6.9.tar.gz --markdown 20230508/g/gimera/0.6.83-0.6.9/diff.md --exclude *.pyd
+[2023-05-08 21:37:46] INFO root fetch - processPackages [wds-client]: executing diffoscope
+[2023-05-08 21:37:46] INFO root fetch - processPackages [wds-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wds-client-0.2.8.tar.gz tmp/wds-client-0.2.80.tar.gz --markdown 20230508/w/wds-client/0.2.8-0.2.80/diff.md --exclude *.pyd
+[2023-05-08 21:37:46] INFO root fetch - processPackages [mypy-boto3-iotsitewise]: Downloading https://files.pythonhosted.org/packages/97/cd/ddd5337c8cf185850aa4a60c0b1ef13dde37579a2789cf3fc435e99abeb2/mypy-boto3-iotsitewise-1.26.130.tar.gz
+[2023-05-08 21:37:46] INFO root fetch - processPackages [mypy-boto3-glue]: Downloading https://files.pythonhosted.org/packages/97/4a/54c0c20d613023210f11ad6e4f145beb1a141b57905d7857131ba52b2431/mypy-boto3-glue-1.26.8.tar.gz
+[2023-05-08 21:37:46] INFO root fetch - processPackages [inorbit-edge]: executing diffoscope
+[2023-05-08 21:37:46] INFO root fetch - processPackages [inorbit-edge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inorbit_edge-1.9.1.tar.gz tmp/inorbit_edge-1.9.2.tar.gz --markdown 20230508/i/inorbit-edge/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-05-08 21:37:46] INFO root fetch - processPackages [eeeCalc]: executing diffoscope
+[2023-05-08 21:37:46] INFO root fetch - processPackages [eeeCalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eeecalc-0.0.6.tar.gz tmp/eeecalc-0.0.7.tar.gz --markdown 20230508/e/eeeCalc/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-08 21:37:46] INFO root fetch - processPackages [hauntedhouse]: executing diffoscope
+[2023-05-08 21:37:46] INFO root fetch - processPackages [hauntedhouse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hauntedhouse-0.0.7.tar.gz tmp/hauntedhouse-0.0.9.tar.gz --markdown 20230508/h/hauntedhouse/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 21:37:46] INFO root fetch - processPackages [mypy-boto3-guardduty]: Downloading https://files.pythonhosted.org/packages/69/32/804723efc1f66e41c4d19c4d5c8525c1c65fa3b241edf4d699938bc887f8/mypy-boto3-guardduty-1.26.93.tar.gz
+[2023-05-08 21:37:46] INFO root fetch - processPackages [mypy-boto3-glue]: executing diffoscope
+[2023-05-08 21:37:46] INFO root fetch - processPackages [mypy-boto3-glue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-glue-1.26.74.tar.gz tmp/mypy-boto3-glue-1.26.8.tar.gz --markdown 20230508/m/mypy-boto3-glue/1.26.74-1.26.8/diff.md --exclude *.pyd
+[2023-05-08 21:37:46] INFO root fetch - processPackages [mypy-boto3-iotsitewise]: Downloading https://files.pythonhosted.org/packages/75/50/d1708133a98eac1be10fd8632e4e2d2d4b995edf77709787c1bd0fd6baf8/mypy-boto3-iotsitewise-1.26.96.tar.gz
+[2023-05-08 21:37:46] INFO root fetch - processPackages [mypy-boto3-guardduty]: Downloading https://files.pythonhosted.org/packages/74/78/0d6652c20113f19da49d0009595d2ed3ba89ca523b0242696f5aa4ff5e17/mypy-boto3-guardduty-1.26.98.tar.gz
+[2023-05-08 21:37:47] INFO root fetch - processPackages [mypy-boto3-iotsitewise]: executing diffoscope
+[2023-05-08 21:37:47] INFO root fetch - processPackages [mypy-boto3-iotsitewise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-iotsitewise-1.26.130.tar.gz tmp/mypy-boto3-iotsitewise-1.26.96.tar.gz --markdown 20230508/m/mypy-boto3-iotsitewise/1.26.130-1.26.96/diff.md --exclude *.pyd
+[2023-05-08 21:37:47] INFO root fetch - processPackages [mypy-boto3-guardduty]: executing diffoscope
+[2023-05-08 21:37:47] INFO root fetch - processPackages [mypy-boto3-guardduty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-guardduty-1.26.93.tar.gz tmp/mypy-boto3-guardduty-1.26.98.tar.gz --markdown 20230508/m/mypy-boto3-guardduty/1.26.93-1.26.98/diff.md --exclude *.pyd
+[2023-05-08 21:37:47] INFO root fetch - processPackages [gimera]: Start processing: tuneflow-py
+[2023-05-08 21:37:47] INFO root fetch - main [MainThread]: End processing [gimera]: success
+[2023-05-08 21:37:47] INFO root fetch - processPackages [llamatry]: Start processing: mypy-boto3-sts
+[2023-05-08 21:37:47] INFO root fetch - main [MainThread]: End processing [llamatry]: success
+[2023-05-08 21:37:47] INFO root fetch - processPackages [tuneflow-py]: New version: [0.8.0] Old Version: [0.7.2]
+[2023-05-08 21:37:47] INFO root fetch - processPackages [inorbit-edge]: Start processing: mypy-boto3
+[2023-05-08 21:37:47] INFO root fetch - main [MainThread]: End processing [inorbit-edge]: success
+[2023-05-08 21:37:47] INFO root fetch - processPackages [mypy-boto3-sts]: New version: [1.26.57] Old Version: [1.26.130]
+[2023-05-08 21:37:47] INFO root fetch - processPackages [mypy-boto3-sts]: Downloading https://files.pythonhosted.org/packages/b5/73/f59196e4ac39236291eeef81f569e1100636228e043989cab5f5a17585fa/mypy-boto3-sts-1.26.130.tar.gz
+[2023-05-08 21:37:47] INFO root fetch - processPackages [eeeCalc]: Start processing: boto3-stubs
+[2023-05-08 21:37:47] INFO root fetch - main [MainThread]: End processing [eeeCalc]: success
+[2023-05-08 21:37:47] INFO root fetch - processPackages [hauntedhouse]: Start processing: boto3-stubs-lite
+[2023-05-08 21:37:47] INFO root fetch - main [MainThread]: End processing [hauntedhouse]: success
+[2023-05-08 21:37:47] INFO root fetch - processPackages [tuneflow-py]: Downloading https://files.pythonhosted.org/packages/b7/e4/cc851e4607d04f977df6d5edbe31f4b0c31af1f5c6643c81cf0fc7d87ca2/tuneflow-py-0.8.0.tar.gz
+[2023-05-08 21:37:47] INFO root fetch - processPackages [boto3-stubs]: New version: [1.26.99] Old Version: [1.26.98]
+[2023-05-08 21:37:47] INFO root fetch - processPackages [boto3-stubs-lite]: New version: [1.26.99] Old Version: [1.26.98]
+[2023-05-08 21:37:47] INFO root fetch - processPackages [tuneflow-py]: executing diffoscope
+[2023-05-08 21:37:47] INFO root fetch - processPackages [tuneflow-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuneflow-py-0.7.2.tar.gz tmp/tuneflow-py-0.8.0.tar.gz --markdown 20230508/t/tuneflow-py/0.7.2-0.8.0/diff.md --exclude *.pyd
+[2023-05-08 21:37:47] INFO root fetch - processPackages [mypy-boto3-sts]: Downloading https://files.pythonhosted.org/packages/f8/a6/cbf4e083fd2decb92517326a5a1586258010916e06d55011a2dd4f5e5641/mypy-boto3-sts-1.26.57.tar.gz
+[2023-05-08 21:37:48] INFO root fetch - processPackages [wds-client]: Start processing: ukmon-meteortools
+[2023-05-08 21:37:48] INFO root fetch - main [MainThread]: End processing [wds-client]: success
+[2023-05-08 21:37:48] INFO root fetch - processPackages [ukmon-meteortools]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-08 21:37:48] INFO root fetch - processPackages [mypy-boto3]: New version: [1.26.99] Old Version: [1.26.98]
+[2023-05-08 21:37:48] INFO root fetch - processPackages [mypy-boto3-sts]: executing diffoscope
+[2023-05-08 21:37:48] INFO root fetch - processPackages [mypy-boto3-sts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-sts-1.26.130.tar.gz tmp/mypy-boto3-sts-1.26.57.tar.gz --markdown 20230508/m/mypy-boto3-sts/1.26.130-1.26.57/diff.md --exclude *.pyd
+[2023-05-08 21:37:48] INFO root fetch - processPackages [ukmon-meteortools]: executing diffoscope
+[2023-05-08 21:37:48] INFO root fetch - processPackages [ukmon-meteortools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ukmon_meteortools-2023.5.8.tar.gz tmp/ukmon_meteortools-2023.5.9.tar.gz --markdown 20230508/u/ukmon-meteortools/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-08 21:37:48] INFO root fetch - processPackages [boto3-stubs-lite]: Downloading https://files.pythonhosted.org/packages/03/38/d650a2736258e070c5460a889b9b8ba1ced51d29cf6b09c17f1582eb6e40/boto3-stubs-lite-1.26.98.tar.gz
+[2023-05-08 21:37:48] INFO root fetch - processPackages [mypy-boto3-iotsitewise]: Start processing: pyneoncli
+[2023-05-08 21:37:48] INFO root fetch - main [MainThread]: End processing [mypy-boto3-iotsitewise]: success
+[2023-05-08 21:37:48] INFO root fetch - processPackages [boto3-stubs]: Downloading https://files.pythonhosted.org/packages/5b/57/dabc8ee7c1ea46b18a76ac91d2886b6637914ee5505abaea53f246e0834f/boto3-stubs-1.26.98.tar.gz
+[2023-05-08 21:37:48] INFO root fetch - processPackages [pyneoncli]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-05-08 21:37:48] INFO root fetch - processPackages [mypy-boto3]: Downloading https://files.pythonhosted.org/packages/d5/b3/b7add8ef42166b4b6fe8070c7809196e841899fae0741fbab7f1135a68d0/mypy-boto3-1.26.98.tar.gz
+[2023-05-08 21:37:48] INFO root fetch - processPackages [mypy-boto3-guardduty]: Start processing: victorykit-paws
+[2023-05-08 21:37:48] INFO root fetch - main [MainThread]: End processing [mypy-boto3-guardduty]: success
+[2023-05-08 21:37:48] INFO root fetch - processPackages [pyneoncli]: Downloading https://files.pythonhosted.org/packages/d7/dc/8fcc35d48dedccef47fa8b9ccfd3d27c133d9ed35b725854bf24b3e6efd1/pyneoncli-0.0.4.tar.gz
+[2023-05-08 21:37:48] INFO root fetch - processPackages [mypy-boto3]: Downloading https://files.pythonhosted.org/packages/81/43/73d34fd042cd1ac9b681ac1fd409840a1e5f0082a2cc009605bd1dcf20f5/mypy-boto3-1.26.99.tar.gz
+[2023-05-08 21:37:48] INFO root fetch - processPackages [boto3-stubs-lite]: Downloading https://files.pythonhosted.org/packages/40/77/05b803ffd38643d059c7254b8adbf5dba05fb83975f15d0b8696d5a2a98b/boto3-stubs-lite-1.26.99.tar.gz
+[2023-05-08 21:37:48] INFO root fetch - processPackages [mypy-boto3]: executing diffoscope
+[2023-05-08 21:37:48] INFO root fetch - processPackages [mypy-boto3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-1.26.98.tar.gz tmp/mypy-boto3-1.26.99.tar.gz --markdown 20230508/m/mypy-boto3/1.26.98-1.26.99/diff.md --exclude *.pyd
+[2023-05-08 21:37:48] INFO root fetch - processPackages [boto3-stubs-lite]: executing diffoscope
+[2023-05-08 21:37:48] INFO root fetch - processPackages [boto3-stubs-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3-stubs-lite-1.26.98.tar.gz tmp/boto3-stubs-lite-1.26.99.tar.gz --markdown 20230508/b/boto3-stubs-lite/1.26.98-1.26.99/diff.md --exclude *.pyd
+[2023-05-08 21:37:48] WARNING root fetch - processPackages [victorykit-paws]: Skipping, unable to determine old version
+[2023-05-08 21:37:48] INFO root fetch - processPackages [victorykit-paws]: Start processing: langkit
+[2023-05-08 21:37:48] INFO root fetch - main [MainThread]: End processing [victorykit-paws] error
+[2023-05-08 21:37:48] INFO root fetch - processPackages [pyneoncli]: executing diffoscope
+[2023-05-08 21:37:48] INFO root fetch - processPackages [pyneoncli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyneoncli-0.0.2.tar.gz tmp/pyneoncli-0.0.4.tar.gz --markdown 20230508/p/pyneoncli/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-05-08 21:37:48] INFO root fetch - processPackages [boto3-stubs]: Downloading https://files.pythonhosted.org/packages/47/b8/8410b925ba42498e88d5a4524e93639247a1d0fadb51ec4e7e0130cbc6d8/boto3-stubs-1.26.99.tar.gz
+[2023-05-08 21:37:48] WARNING root fetch - processPackages [langkit]: Skipping, unable to determine old version
+[2023-05-08 21:37:48] INFO root fetch - processPackages [langkit]: Start processing: jax-fdm
+[2023-05-08 21:37:48] INFO root fetch - main [MainThread]: End processing [langkit] error
+[2023-05-08 21:37:48] INFO root fetch - processPackages [boto3-stubs]: executing diffoscope
+[2023-05-08 21:37:48] INFO root fetch - processPackages [boto3-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3-stubs-1.26.98.tar.gz tmp/boto3-stubs-1.26.99.tar.gz --markdown 20230508/b/boto3-stubs/1.26.98-1.26.99/diff.md --exclude *.pyd
+[2023-05-08 21:37:48] INFO root fetch - processPackages [jax-fdm]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-05-08 21:37:49] INFO root fetch - processPackages [jax-fdm]: Downloading https://files.pythonhosted.org/packages/83/29/4d1668581f2bac0f9a5dea0038104d693fb7f6a59471b4a7245ba71058c5/jax_fdm-0.6.0.tar.gz
+[2023-05-08 21:37:49] INFO root fetch - processPackages [jax-fdm]: Downloading https://files.pythonhosted.org/packages/74/68/1d8290e59a9de622cf9959e74a653dd64d894df200c20c96353162a200bd/jax_fdm-0.7.0.tar.gz
+[2023-05-08 21:37:49] INFO root fetch - processPackages [jax-fdm]: executing diffoscope
+[2023-05-08 21:37:49] INFO root fetch - processPackages [jax-fdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jax_fdm-0.6.0.tar.gz tmp/jax_fdm-0.7.0.tar.gz --markdown 20230508/j/jax-fdm/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-05-08 21:37:49] INFO root fetch - processPackages [mypy-boto3-sts]: Start processing: sorcerun
+[2023-05-08 21:37:49] INFO root fetch - main [MainThread]: End processing [mypy-boto3-sts]: success
+[2023-05-08 21:37:49] INFO root fetch - processPackages [pyneoncli]: Start processing: netbox-secrets
+[2023-05-08 21:37:49] INFO root fetch - main [MainThread]: End processing [pyneoncli]: success
+[2023-05-08 21:37:49] INFO root fetch - processPackages [mypy-boto3]: Start processing: PyPlumIO
+[2023-05-08 21:37:49] INFO root fetch - main [MainThread]: End processing [mypy-boto3]: success
+[2023-05-08 21:37:49] INFO root fetch - processPackages [sorcerun]: New version: [0.2.1] Old Version: [0.1.1]
+[2023-05-08 21:37:49] INFO root fetch - processPackages [netbox-secrets]: New version: [1.8.0] Old Version: [1.7.6]
+[2023-05-08 21:37:49] INFO root fetch - processPackages [PyPlumIO]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-08 21:37:50] INFO root fetch - processPackages [netbox-secrets]: executing diffoscope
+[2023-05-08 21:37:50] INFO root fetch - processPackages [netbox-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-secrets-1.7.6.tar.gz tmp/netbox-secrets-1.8.0.tar.gz --markdown 20230508/n/netbox-secrets/1.7.6-1.8.0/diff.md --exclude *.pyd
+[2023-05-08 21:37:50] INFO root fetch - processPackages [boto3-stubs-lite]: Start processing: mkdocs-exporter
+[2023-05-08 21:37:50] INFO root fetch - main [MainThread]: End processing [boto3-stubs-lite]: success
+[2023-05-08 21:37:50] INFO root fetch - processPackages [PyPlumIO]: executing diffoscope
+[2023-05-08 21:37:50] INFO root fetch - processPackages [PyPlumIO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyPlumIO-0.4.1.tar.gz tmp/PyPlumIO-0.4.2.tar.gz --markdown 20230508/P/PyPlumIO/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-08 21:37:50] INFO root fetch - processPackages [mkdocs-exporter]: New version: [1.0.0] Old Version: [0.0.2]
+[2023-05-08 21:37:50] INFO root fetch - processPackages [ukmon-meteortools]: Start processing: honeybee-energy
+[2023-05-08 21:37:50] INFO root fetch - main [MainThread]: End processing [ukmon-meteortools]: success
+[2023-05-08 21:37:50] INFO root fetch - processPackages [tuneflow-py]: Start processing: pyjourney
+[2023-05-08 21:37:50] INFO root fetch - main [MainThread]: End processing [tuneflow-py]: success
+[2023-05-08 21:37:50] INFO root fetch - processPackages [pyjourney]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-08 21:37:50] INFO root fetch - processPackages [sorcerun]: Downloading https://files.pythonhosted.org/packages/b7/e9/bfcad71e98f109a47da00a7719bfaa10c64483b8b2a1edacfcc2323491bb/sorcerun-0.1.1.tar.gz
+[2023-05-08 21:37:50] WARNING root fetch - processPackages [omicscope]: Skipping package: exceeds size limit 28796097>=10485760
+[2023-05-08 21:37:50] INFO root fetch - processPackages [omicscope]: Start processing: noteable-origami
+[2023-05-08 21:37:50] INFO root fetch - main [MainThread]: End processing [omicscope] error
+[2023-05-08 21:37:50] INFO root fetch - processPackages [pyjourney]: executing diffoscope
+[2023-05-08 21:37:50] INFO root fetch - processPackages [pyjourney]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjourney-0.1.1.tar.gz tmp/pyjourney-0.1.2.tar.gz --markdown 20230508/p/pyjourney/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-08 21:37:50] INFO root fetch - processPackages [honeybee-energy]: New version: [1.99.9] Old Version: [1.99.8]
+[2023-05-08 21:37:50] INFO root fetch - processPackages [noteable-origami]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 21:37:50] INFO root fetch - processPackages [mkdocs-exporter]: Downloading https://files.pythonhosted.org/packages/05/45/537215aa75e93544a78e3d1566d5006a9844326cc0bf3db99add08368029/mkdocs_exporter-1.0.0.tar.gz
+[2023-05-08 21:37:50] INFO root fetch - processPackages [mkdocs-exporter]: executing diffoscope
+[2023-05-08 21:37:50] INFO root fetch - processPackages [mkdocs-exporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_exporter-0.0.2.tar.gz tmp/mkdocs_exporter-1.0.0.tar.gz --markdown 20230508/m/mkdocs-exporter/0.0.2-1.0.0/diff.md --exclude *.pyd
+[2023-05-08 21:37:50] INFO root fetch - processPackages [sorcerun]: Downloading https://files.pythonhosted.org/packages/84/d3/1c9565121bb62fe12cc75f47f2aff8d2d04f36dc80bef053308d6088c571/sorcerun-0.2.1.tar.gz
+[2023-05-08 21:37:50] INFO root fetch - processPackages [honeybee-energy]: Downloading https://files.pythonhosted.org/packages/b1/ab/c8fb70e349d71cce95bac52782f7ea0659a6987ed84dd41c7fe2ef40806c/honeybee-energy-1.99.8.tar.gz
+[2023-05-08 21:37:50] INFO root fetch - processPackages [mypy-boto3-glue]: Start processing: eeeCalc
+[2023-05-08 21:37:50] INFO root fetch - main [MainThread]: End processing [mypy-boto3-glue]: success
+[2023-05-08 21:37:50] INFO root fetch - processPackages [noteable-origami]: Downloading https://files.pythonhosted.org/packages/0c/92/f5b5a17bb583fdce32e401cc77337788271177c1388d60111670ac4b92fc/noteable_origami-0.0.8.tar.gz
+[2023-05-08 21:37:50] INFO root fetch - processPackages [eeeCalc]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-08 21:37:50] INFO root fetch - processPackages [sorcerun]: executing diffoscope
+[2023-05-08 21:37:50] INFO root fetch - processPackages [sorcerun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sorcerun-0.1.1.tar.gz tmp/sorcerun-0.2.1.tar.gz --markdown 20230508/s/sorcerun/0.1.1-0.2.1/diff.md --exclude *.pyd
+[2023-05-08 21:37:50] INFO root fetch - processPackages [eeeCalc]: executing diffoscope
+[2023-05-08 21:37:50] INFO root fetch - processPackages [eeeCalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eeecalc-0.0.6.tar.gz tmp/eeecalc-0.0.7.tar.gz --markdown 20230508/e/eeeCalc/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-08 21:37:50] INFO root fetch - processPackages [honeybee-energy]: Downloading https://files.pythonhosted.org/packages/8d/5e/1bc90eeaf45799cc7d5cda125017c1e4e2cf0ef068cd3db60d971b9596ba/honeybee-energy-1.99.9.tar.gz
+[2023-05-08 21:37:50] INFO root fetch - processPackages [noteable-origami]: Downloading https://files.pythonhosted.org/packages/bc/8a/148c28e6da363c15abeb9e8e2b1c939b91abbcfa800f6a680eedc8237896/noteable_origami-0.0.9.tar.gz
+[2023-05-08 21:37:51] INFO root fetch - processPackages [honeybee-energy]: executing diffoscope
+[2023-05-08 21:37:51] INFO root fetch - processPackages [honeybee-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-energy-1.99.8.tar.gz tmp/honeybee-energy-1.99.9.tar.gz --markdown 20230508/h/honeybee-energy/1.99.8-1.99.9/diff.md --exclude *.pyd
+[2023-05-08 21:37:51] INFO root fetch - processPackages [noteable-origami]: executing diffoscope
+[2023-05-08 21:37:51] INFO root fetch - processPackages [noteable-origami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noteable_origami-0.0.8.tar.gz tmp/noteable_origami-0.0.9.tar.gz --markdown 20230508/n/noteable-origami/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 21:37:51] INFO root fetch - processPackages [pyjourney]: Start processing: leuci-map
+[2023-05-08 21:37:51] INFO root fetch - main [MainThread]: End processing [pyjourney]: success
+[2023-05-08 21:37:51] INFO root fetch - processPackages [leuci-map]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 21:37:51] INFO root fetch - processPackages [leuci-map]: executing diffoscope
+[2023-05-08 21:37:51] INFO root fetch - processPackages [leuci-map]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leuci-map-0.1.8.tar.gz tmp/leuci-map-0.1.9.tar.gz --markdown 20230508/l/leuci-map/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 21:37:51] INFO root fetch - processPackages [sorcerun]: Start processing: exondb
+[2023-05-08 21:37:51] INFO root fetch - main [MainThread]: End processing [sorcerun]: success
+[2023-05-08 21:37:51] INFO root fetch - processPackages [mkdocs-exporter]: Start processing: KeyloggerScreenshot
+[2023-05-08 21:37:51] INFO root fetch - main [MainThread]: End processing [mkdocs-exporter]: success
+[2023-05-08 21:37:51] WARNING root fetch - processPackages [exondb]: Skipping, unable to determine old version
+[2023-05-08 21:37:51] INFO root fetch - processPackages [exondb]: Start processing: pyjourney
+[2023-05-08 21:37:51] INFO root fetch - main [MainThread]: End processing [exondb] error
+[2023-05-08 21:37:51] INFO root fetch - processPackages [pyjourney]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-08 21:37:52] INFO root fetch - main [MainThread]: End processing [PyPlumIO]: success
+[2023-05-08 21:37:52] INFO root fetch - processPackages [KeyloggerScreenshot]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-08 21:37:52] INFO root fetch - main [MainThread]: End processing [eeeCalc]: success
+[2023-05-08 21:37:52] INFO root fetch - main [MainThread]: End processing [netbox-secrets]: success
+[2023-05-08 21:37:52] INFO root fetch - processPackages [pyjourney]: Downloading https://files.pythonhosted.org/packages/f0/21/31c9847fab5fda9f322220452d20c65b47f64de5d739d39227884d1ef909/pyjourney-0.1.3.tar.gz
+[2023-05-08 21:37:52] INFO root fetch - main [MainThread]: End processing [boto3-stubs]: success
+[2023-05-08 21:37:52] INFO root fetch - processPackages [KeyloggerScreenshot]: Downloading https://files.pythonhosted.org/packages/fb/55/0e98e2ece77d1b14faf623046a284040ab933cc947fabeba136d888a7000/KeyloggerScreenshot-0.4.0.tar.gz
+[2023-05-08 21:37:52] INFO root fetch - processPackages [pyjourney]: Downloading https://files.pythonhosted.org/packages/14/19/5a94f70f4b28c83184a0c40289eec48202a30a19922d811b64dcbb5f3264/pyjourney-0.1.4.tar.gz
+[2023-05-08 21:37:52] INFO root fetch - main [MainThread]: End processing [leuci-map]: success
+[2023-05-08 21:37:52] INFO root fetch - processPackages [KeyloggerScreenshot]: Downloading https://files.pythonhosted.org/packages/f3/df/5abe907cd6cb63e1bdac29b24980254d5a11df2c91ac78755ee5416fd1af/KeyloggerScreenshot-0.4.1.tar.gz
+[2023-05-08 21:37:52] INFO root fetch - processPackages [pyjourney]: executing diffoscope
+[2023-05-08 21:37:52] INFO root fetch - processPackages [pyjourney]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjourney-0.1.3.tar.gz tmp/pyjourney-0.1.4.tar.gz --markdown 20230508/p/pyjourney/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-08 21:37:52] INFO root fetch - processPackages [KeyloggerScreenshot]: executing diffoscope
+[2023-05-08 21:37:52] INFO root fetch - processPackages [KeyloggerScreenshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KeyloggerScreenshot-0.4.0.tar.gz tmp/KeyloggerScreenshot-0.4.1.tar.gz --markdown 20230508/K/KeyloggerScreenshot/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-08 21:37:52] INFO root fetch - main [MainThread]: End processing [noteable-origami]: success
+[2023-05-08 21:37:53] INFO root fetch - main [MainThread]: End processing [honeybee-energy]: success
+[2023-05-08 21:37:53] INFO root fetch - main [MainThread]: End processing [jax-fdm]: success
+[2023-05-08 21:37:53] INFO root fetch - main [MainThread]: End processing [pyjourney]: success
+[2023-05-08 21:37:53] INFO root fetch - main [MainThread]: End processing [KeyloggerScreenshot]: success
+[2023-05-08 21:37:53] INFO root fetch - main [MainThread]: Store serial: [18021549]
