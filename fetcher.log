@@ -10971,3 +10971,138 @@
 [2023-05-08 13:30:41] INFO root fetch - main [MainThread]: End processing [gns3-gui]: success
 [2023-05-08 13:32:28] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
 [2023-05-08 13:32:28] INFO root fetch - main [MainThread]: Store serial: [18016084]
+[2023-05-08 13:37:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18016084]
+[2023-05-08 13:37:37] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-08 13:37:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snowddl
+[2023-05-08 13:37:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yunhu
+[2023-05-08 13:37:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-usability
+[2023-05-08 13:37:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kopia
+[2023-05-08 13:37:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lime-stable
+[2023-05-08 13:37:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ga4gh.vrs
+[2023-05-08 13:37:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: goatl
+[2023-05-08 13:37:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: p-template-generator
+[2023-05-08 13:37:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openshift-python-wrapper
+[2023-05-08 13:37:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alphapulldown
+[2023-05-08 13:37:37] INFO root fetch - processPackages [alphapulldown]: New version: [0.30.5] Old Version: [0.30.4]
+[2023-05-08 13:37:37] INFO root fetch - processPackages [p-template-generator]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 13:37:37] INFO root fetch - processPackages [odoo-addon-account-usability]: New version: [16.0.1.0.3.2] Old Version: [16.0.1.0.3.1]
+[2023-05-08 13:37:37] INFO root fetch - processPackages [yunhu]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-08 13:37:37] INFO root fetch - processPackages [snowddl]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-08 13:37:37] INFO root fetch - processPackages [kopia]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-08 13:37:37] INFO root fetch - processPackages [openshift-python-wrapper]: New version: [4.9.9.12] Old Version: [4.9.7.12]
+[2023-05-08 13:37:37] INFO root fetch - processPackages [goatl]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-05-08 13:37:37] INFO root fetch - processPackages [ga4gh.vrs]: New version: [0.9.0a0] Old Version: [0.9.0.dev0]
+[2023-05-08 13:37:37] INFO root fetch - processPackages [lime-stable]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-08 13:37:37] INFO root fetch - processPackages [alphapulldown]: Downloading https://files.pythonhosted.org/packages/3a/99/ef35707ecc9b0d91ed18b2a4b7519cc79200b1a16e49302a6658a50825e3/alphapulldown-0.30.4.tar.gz
+[2023-05-08 13:37:37] INFO root fetch - processPackages [kopia]: Downloading https://files.pythonhosted.org/packages/b9/ce/cb248c09c3e05a04d983b201fe052e27749c0777ce228a05e9c645e9d065/kopia-0.1.4.tar.gz
+[2023-05-08 13:37:37] INFO root fetch - processPackages [openshift-python-wrapper]: Downloading https://files.pythonhosted.org/packages/9f/52/8943f0836c823ed0ab894348233d99a219025753e654fa494137828358f9/openshift-python-wrapper-4.9.7.12.tar.gz
+[2023-05-08 13:37:37] INFO root fetch - processPackages [odoo-addon-account-usability]: Downloading https://files.pythonhosted.org/packages/48/48/0fd14ec5e56ac5e11ec542682fe339aa5a5e2c8c61a87370822a6ca4eb3a/odoo_addon_account_usability-16.0.1.0.3.1-py3-none-any.whl
+[2023-05-08 13:37:37] INFO root fetch - processPackages [p-template-generator]: Downloading https://files.pythonhosted.org/packages/1c/df/a08a0d4221d9beca0d5fd6dda646c3a07951f26d77714cafa8a7c4b9c5cc/p-template-generator-0.1.8.tar.gz
+[2023-05-08 13:37:37] INFO root fetch - processPackages [ga4gh.vrs]: Downloading https://files.pythonhosted.org/packages/65/2c/92a2e3a545875fcb16abbf059b24d015f21064e117986e3cc73076207c81/ga4gh.vrs-0.9.0.dev0.tar.gz
+[2023-05-08 13:37:37] INFO root fetch - processPackages [lime-stable]: Downloading https://files.pythonhosted.org/packages/9b/2d/322b07b77aff36888e5222bda0bf4d62b9b966d482a135fea26e94f4b357/lime-stable-0.9.8.tar.gz
+[2023-05-08 13:37:37] INFO root fetch - processPackages [snowddl]: Downloading https://files.pythonhosted.org/packages/de/fb/cfd61d54e05e02fe6de2cc9e2c72dd3a952770c7781bfa63593b47647600/snowddl-0.9.8.tar.gz
+[2023-05-08 13:37:37] INFO root fetch - processPackages [yunhu]: Downloading https://files.pythonhosted.org/packages/a6/7f/0f2ef2e62714a605e21099e84de6ef3a56b108635d91660296777ea8eaf4/yunhu-0.0.4.tar.gz
+[2023-05-08 13:37:37] INFO root fetch - processPackages [yunhu]: executing diffoscope
+[2023-05-08 13:37:37] INFO root fetch - processPackages [yunhu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yunhu-0.0.3.tar.gz tmp/yunhu-0.0.4.tar.gz --markdown 20230508/y/yunhu/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-08 13:37:37] INFO root fetch - processPackages [kopia]: Downloading https://files.pythonhosted.org/packages/e4/ea/f8f1b85ccbcea808703c11d69c5100b560a357af95cc60e33431919e1c76/kopia-0.1.5.tar.gz
+[2023-05-08 13:37:37] INFO root fetch - processPackages [goatl]: Downloading https://files.pythonhosted.org/packages/9f/54/e5d9106ff6cb0d5a99aeebe4115e3b2bf18f1b03ae60080c64fb0c3f2cb4/goatl-0.6.5.tar.gz
+[2023-05-08 13:37:37] INFO root fetch - processPackages [goatl]: executing diffoscope
+[2023-05-08 13:37:37] INFO root fetch - processPackages [goatl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goatl-0.6.4.tar.gz tmp/goatl-0.6.5.tar.gz --markdown 20230508/g/goatl/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-05-08 13:37:37] INFO root fetch - processPackages [kopia]: executing diffoscope
+[2023-05-08 13:37:37] INFO root fetch - processPackages [kopia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kopia-0.1.4.tar.gz tmp/kopia-0.1.5.tar.gz --markdown 20230508/k/kopia/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-08 13:37:37] INFO root fetch - processPackages [openshift-python-wrapper]: Downloading https://files.pythonhosted.org/packages/e7/2c/25381b003b6e49919b5c98f68796af474a0b6fb3e28c46552a6949c6160a/openshift-python-wrapper-4.9.9.12.tar.gz
+[2023-05-08 13:37:37] INFO root fetch - processPackages [odoo-addon-account-usability]: Downloading https://files.pythonhosted.org/packages/11/a5/21d34bd12c87a864cb99a57085ced8b32e27c832cb7a38371135c516987f/odoo_addon_account_usability-16.0.1.0.3.2-py3-none-any.whl
+[2023-05-08 13:37:37] INFO root fetch - processPackages [lime-stable]: Downloading https://files.pythonhosted.org/packages/a3/88/4940908e003bc08dbc00ea92ef8b91f35daf8e9bce7d0f3e00551b160e56/lime-stable-0.9.9.tar.gz
+[2023-05-08 13:37:37] INFO root fetch - processPackages [odoo-addon-account-usability]: executing diffoscope
+[2023-05-08 13:37:37] INFO root fetch - processPackages [odoo-addon-account-usability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_usability-16.0.1.0.3.1-py3-none-any.whl.zip tmp/odoo_addon_account_usability-16.0.1.0.3.2-py3-none-any.whl.zip --markdown 20230508/o/odoo-addon-account-usability/16.0.1.0.3.1-16.0.1.0.3.2/diff.md --exclude *.pyd
+[2023-05-08 13:37:37] INFO root fetch - processPackages [alphapulldown]: Downloading https://files.pythonhosted.org/packages/3b/d4/d636c99a9e639c6e49b936648d5b67234024e67e16e4cb0a93a23c52154d/alphapulldown-0.30.5.tar.gz
+[2023-05-08 13:37:37] INFO root fetch - processPackages [snowddl]: Downloading https://files.pythonhosted.org/packages/30/b1/743904be3436bae396d5a7d758a63419ad2a611878e2b644c34e43e5266b/snowddl-0.9.9.tar.gz
+[2023-05-08 13:37:37] INFO root fetch - processPackages [alphapulldown]: executing diffoscope
+[2023-05-08 13:37:37] INFO root fetch - processPackages [alphapulldown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphapulldown-0.30.4.tar.gz tmp/alphapulldown-0.30.5.tar.gz --markdown 20230508/a/alphapulldown/0.30.4-0.30.5/diff.md --exclude *.pyd
+[2023-05-08 13:37:38] INFO root fetch - processPackages [openshift-python-wrapper]: executing diffoscope
+[2023-05-08 13:37:38] INFO root fetch - processPackages [openshift-python-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift-python-wrapper-4.9.7.12.tar.gz tmp/openshift-python-wrapper-4.9.9.12.tar.gz --markdown 20230508/o/openshift-python-wrapper/4.9.7.12-4.9.9.12/diff.md --exclude *.pyd
+[2023-05-08 13:37:38] WARNING root fetch - processPackages [ga4gh.vrs]: Skipping package: exceeds size limit 17087007>=10485760
+[2023-05-08 13:37:38] INFO root fetch - processPackages [ga4gh.vrs]: Start processing: renumics-spotlight
+[2023-05-08 13:37:38] INFO root fetch - main [MainThread]: End processing [ga4gh.vrs] error
+[2023-05-08 13:37:38] INFO root fetch - processPackages [renumics-spotlight]: New version: [1.0.0rc9] Old Version: [1.0.0rc8]
+[2023-05-08 13:37:38] INFO root fetch - processPackages [lime-stable]: executing diffoscope
+[2023-05-08 13:37:38] INFO root fetch - processPackages [lime-stable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lime-stable-0.9.8.tar.gz tmp/lime-stable-0.9.9.tar.gz --markdown 20230508/l/lime-stable/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-08 13:37:38] INFO root fetch - processPackages [snowddl]: executing diffoscope
+[2023-05-08 13:37:38] INFO root fetch - processPackages [snowddl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowddl-0.9.8.tar.gz tmp/snowddl-0.9.9.tar.gz --markdown 20230508/s/snowddl/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-08 13:37:38] INFO root fetch - processPackages [renumics-spotlight]: Downloading https://files.pythonhosted.org/packages/84/a2/dacf39f58ac29199ab9c18c4156a1b7eac36177ad2b91765ee63d26319a3/renumics_spotlight-1.0.0rc8-py3-none-any.whl
+[2023-05-08 13:37:38] INFO root fetch - processPackages [p-template-generator]: Downloading https://files.pythonhosted.org/packages/4d/c6/b1ba9d57550b94b120e03283c8ce61d054c3f089aed5ef88f169c30f97d8/p-template-generator-0.1.9.tar.gz
+[2023-05-08 13:37:38] INFO root fetch - processPackages [renumics-spotlight]: Downloading https://files.pythonhosted.org/packages/97/01/ab2a23348f7809e1576fac5dbf16c9eee4afe9e23b106b991af02039784f/renumics_spotlight-1.0.0rc9-py3-none-any.whl
+[2023-05-08 13:37:38] INFO root fetch - processPackages [renumics-spotlight]: executing diffoscope
+[2023-05-08 13:37:38] INFO root fetch - processPackages [renumics-spotlight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renumics_spotlight-1.0.0rc8-py3-none-any.whl.zip tmp/renumics_spotlight-1.0.0rc9-py3-none-any.whl.zip --markdown 20230508/r/renumics-spotlight/1.0.0rc8-1.0.0rc9/diff.md --exclude *.pyd
+[2023-05-08 13:37:39] INFO root fetch - processPackages [p-template-generator]: executing diffoscope
+[2023-05-08 13:37:39] INFO root fetch - processPackages [p-template-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-template-generator-0.1.8.tar.gz tmp/p-template-generator-0.1.9.tar.gz --markdown 20230508/p/p-template-generator/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 13:37:39] INFO root fetch - processPackages [yunhu]: Start processing: kopia
+[2023-05-08 13:37:39] INFO root fetch - main [MainThread]: End processing [yunhu]: success
+[2023-05-08 13:37:39] INFO root fetch - processPackages [kopia]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-08 13:37:39] INFO root fetch - processPackages [goatl]: Start processing: edwh
+[2023-05-08 13:37:39] INFO root fetch - main [MainThread]: End processing [goatl]: success
+[2023-05-08 13:37:39] INFO root fetch - processPackages [edwh]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-08 13:37:39] INFO root fetch - processPackages [kopia]: executing diffoscope
+[2023-05-08 13:37:39] INFO root fetch - processPackages [kopia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kopia-0.1.4.tar.gz tmp/kopia-0.1.5.tar.gz --markdown 20230508/k/kopia/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-08 13:37:39] INFO root fetch - processPackages [kopia]: Start processing: read-rapidpe
+[2023-05-08 13:37:39] INFO root fetch - main [MainThread]: End processing [kopia]: success
+[2023-05-08 13:37:39] INFO root fetch - processPackages [read-rapidpe]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-08 13:37:39] INFO root fetch - processPackages [read-rapidpe]: Downloading https://files.pythonhosted.org/packages/30/bf/fa49c5b94bf0476c1ac239261606ddb310e4b8bd8e8b0c6e5270f7de6c1e/read_rapidpe-0.2.2.tar.gz
+[2023-05-08 13:37:39] INFO root fetch - processPackages [odoo-addon-account-usability]: Start processing: brownian-stock
+[2023-05-08 13:37:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-usability]: success
+[2023-05-08 13:37:39] INFO root fetch - processPackages [brownian-stock]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 13:37:39] INFO root fetch - processPackages [edwh]: Downloading https://files.pythonhosted.org/packages/a1/b2/ffc583af9d774bfd7b622dbed69ea2357b3a1f9096658cf1202307626113/edwh-0.9.1.tar.gz
+[2023-05-08 13:37:39] INFO root fetch - processPackages [read-rapidpe]: executing diffoscope
+[2023-05-08 13:37:39] INFO root fetch - processPackages [read-rapidpe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/read_rapidpe-0.2.1.tar.gz tmp/read_rapidpe-0.2.2.tar.gz --markdown 20230508/r/read-rapidpe/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-08 13:37:39] WARNING root fetch - processPackages [edwh]: Skipping package: exceeds size limit 32547749>=10485760
+[2023-05-08 13:37:39] INFO root fetch - processPackages [edwh]: Start processing: inverse
+[2023-05-08 13:37:39] INFO root fetch - main [MainThread]: End processing [edwh] error
+[2023-05-08 13:37:39] INFO root fetch - processPackages [inverse]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 13:37:39] INFO root fetch - processPackages [brownian-stock]: executing diffoscope
+[2023-05-08 13:37:39] INFO root fetch - processPackages [brownian-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brownian-stock-0.0.8.tar.gz tmp/brownian-stock-0.0.9.tar.gz --markdown 20230508/b/brownian-stock/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 13:37:40] INFO root fetch - processPackages [inverse]: executing diffoscope
+[2023-05-08 13:37:40] INFO root fetch - processPackages [inverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inverse-0.0.8-py3-none-any.whl.zip tmp/inverse-0.0.9-py3-none-any.whl.zip --markdown 20230508/i/inverse/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 13:37:40] INFO root fetch - processPackages [p-template-generator]: Start processing: nico-font-tool
+[2023-05-08 13:37:40] INFO root fetch - main [MainThread]: End processing [p-template-generator]: success
+[2023-05-08 13:37:40] INFO root fetch - processPackages [nico-font-tool]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-08 13:37:40] INFO root fetch - processPackages [kopia]: Start processing: vl-datasets
+[2023-05-08 13:37:40] INFO root fetch - main [MainThread]: End processing [kopia]: success
+[2023-05-08 13:37:40] INFO root fetch - processPackages [vl-datasets]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-08 13:37:40] INFO root fetch - processPackages [nico-font-tool]: Downloading https://files.pythonhosted.org/packages/59/89/b158085863b58db7ca39085036f795532eedba7e7573a58178d9145570eb/nico-font-tool-0.0.1.tar.gz
+[2023-05-08 13:37:41] INFO root fetch - processPackages [vl-datasets]: Downloading https://files.pythonhosted.org/packages/0b/5f/3b3d4505db2cdf47362def51c1f776e1c5da622d281375aaae5d8da01c35/vl_datasets-0.0.2-py3.9-none-any.whl
+[2023-05-08 13:37:41] INFO root fetch - processPackages [lime-stable]: Start processing: simple-ai-server
+[2023-05-08 13:37:41] INFO root fetch - main [MainThread]: End processing [lime-stable]: success
+[2023-05-08 13:37:41] INFO root fetch - processPackages [simple-ai-server]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-08 13:37:41] INFO root fetch - processPackages [nico-font-tool]: Downloading https://files.pythonhosted.org/packages/f2/3e/45c931c798dc0f7b32ce3b71757b6db2c54251bef788072274d413a143fc/nico-font-tool-0.0.2.tar.gz
+[2023-05-08 13:37:41] INFO root fetch - processPackages [read-rapidpe]: Start processing: pyre-check-nightly
+[2023-05-08 13:37:41] INFO root fetch - main [MainThread]: End processing [read-rapidpe]: success
+[2023-05-08 13:37:41] INFO root fetch - processPackages [vl-datasets]: Downloading https://files.pythonhosted.org/packages/b3/5f/ec7ab97a9eb74a0da9967d3d2e4d87b820ae4ba580437f6213a7b64ca01a/vl_datasets-0.0.3-py3.9-none-any.whl
+[2023-05-08 13:37:41] INFO root fetch - processPackages [simple-ai-server]: Downloading https://files.pythonhosted.org/packages/25/6e/a17e97839beece7bc98158d0a7bdc63291055c9e776e8b2c67192302649d/simple_ai_server-0.2.0.tar.gz
+[2023-05-08 13:37:41] INFO root fetch - processPackages [nico-font-tool]: executing diffoscope
+[2023-05-08 13:37:41] INFO root fetch - processPackages [nico-font-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nico-font-tool-0.0.1.tar.gz tmp/nico-font-tool-0.0.2.tar.gz --markdown 20230508/n/nico-font-tool/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-08 13:37:41] INFO root fetch - processPackages [openshift-python-wrapper]: Start processing: sanydata
+[2023-05-08 13:37:41] INFO root fetch - main [MainThread]: End processing [openshift-python-wrapper]: success
+[2023-05-08 13:37:41] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101683544238] Old Version: [0.0.101683457825]
+[2023-05-08 13:37:41] INFO root fetch - processPackages [vl-datasets]: executing diffoscope
+[2023-05-08 13:37:41] INFO root fetch - processPackages [vl-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vl_datasets-0.0.2-py3.9-none-any.whl.zip tmp/vl_datasets-0.0.3-py3.9-none-any.whl.zip --markdown 20230508/v/vl-datasets/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-08 13:37:41] INFO root fetch - processPackages [sanydata]: New version: [3.2.9] Old Version: [3.2.8]
+[2023-05-08 13:37:41] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/68/b6/635f8056fde8b3ade2d1586b0e021d3b565961443e2a819d7b2038b11006/pyre-check-nightly-0.0.101683457825.tar.gz
+[2023-05-08 13:37:41] INFO root fetch - processPackages [simple-ai-server]: Downloading https://files.pythonhosted.org/packages/d4/68/bbc4be653e4c54dcd522d24d3f58fd913ef3e71a816c7132cdd79c4f50c4/simple_ai_server-0.2.1.tar.gz
+[2023-05-08 13:37:41] INFO root fetch - processPackages [sanydata]: Downloading https://files.pythonhosted.org/packages/34/5e/d24b4b53d4b630bb836d89ca53a893dea9028c990a6a70bdccfff7e56a55/sanydata-3.2.8.tar.gz
+[2023-05-08 13:37:41] INFO root fetch - processPackages [simple-ai-server]: executing diffoscope
+[2023-05-08 13:37:41] INFO root fetch - processPackages [simple-ai-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_ai_server-0.2.0.tar.gz tmp/simple_ai_server-0.2.1.tar.gz --markdown 20230508/s/simple-ai-server/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-08 13:37:41] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23284527>=10485760
+[2023-05-08 13:37:41] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-05-08 13:37:41] INFO root fetch - processPackages [sanydata]: Downloading https://files.pythonhosted.org/packages/b4/a0/e175e8e0daed4e876310821e904e398cc85d43189b0edbe9a9448059e72d/sanydata-3.2.9.tar.gz
+[2023-05-08 13:37:42] INFO root fetch - processPackages [sanydata]: executing diffoscope
+[2023-05-08 13:37:42] INFO root fetch - processPackages [sanydata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sanydata-3.2.8.tar.gz tmp/sanydata-3.2.9.tar.gz --markdown 20230508/s/sanydata/3.2.8-3.2.9/diff.md --exclude *.pyd
+[2023-05-08 13:37:42] INFO root fetch - main [MainThread]: End processing [inverse]: success
+[2023-05-08 13:37:42] INFO root fetch - main [MainThread]: End processing [brownian-stock]: success
+[2023-05-08 13:37:42] INFO root fetch - main [MainThread]: End processing [vl-datasets]: success
+[2023-05-08 13:37:42] INFO root fetch - main [MainThread]: End processing [nico-font-tool]: success
+[2023-05-08 13:37:43] INFO root fetch - main [MainThread]: End processing [alphapulldown]: success
+[2023-05-08 13:37:43] INFO root fetch - main [MainThread]: End processing [snowddl]: success
+[2023-05-08 13:37:43] INFO root fetch - main [MainThread]: End processing [sanydata]: success
+[2023-05-08 13:37:44] INFO root fetch - main [MainThread]: End processing [simple-ai-server]: success
+[2023-05-08 13:38:08] INFO root fetch - main [MainThread]: End processing [renumics-spotlight]: success
+[2023-05-08 13:38:08] INFO root fetch - main [MainThread]: Store serial: [18016152]
