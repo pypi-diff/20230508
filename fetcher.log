@@ -2087,3 +2087,60 @@
 [2023-05-08 03:32:46] INFO root fetch - main [MainThread]: End processing [pydal]: success
 [2023-05-08 03:32:47] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
 [2023-05-08 03:32:47] INFO root fetch - main [MainThread]: Store serial: [18011268]
+[2023-05-08 03:37:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18011268]
+[2023-05-08 03:37:55] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-08 03:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-lambda-layer-wget
+[2023-05-08 03:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-common
+[2023-05-08 03:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apidevtools
+[2023-05-08 03:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shady-island
+[2023-05-08 03:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-stdlib
+[2023-05-08 03:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pepperize.cdk-organizations
+[2023-05-08 03:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-numpy
+[2023-05-08 03:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: veevatools
+[2023-05-08 03:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: terminut
+[2023-05-08 03:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nbdev-pandas
+[2023-05-08 03:37:55] INFO root fetch - processPackages [apidevtools]: New version: [3.2.2] Old Version: [3.2.1]
+[2023-05-08 03:37:55] INFO root fetch - processPackages [shady-island]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 03:37:55] INFO root fetch - processPackages [cdk-lambda-layer-wget]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-08 03:37:55] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-08 03:37:55] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-08 03:37:55] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-08 03:37:55] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-05-08 03:37:55] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-08 03:37:55] WARNING root fetch - processPackages [terminut]: Skipping, unable to determine old version
+[2023-05-08 03:37:55] INFO root fetch - main [MainThread]: End processing [terminut] error
+[2023-05-08 03:37:55] INFO root fetch - processPackages [veevatools]: New version: [0.0.96] Old Version: [0.0.95]
+[2023-05-08 03:37:55] INFO root fetch - processPackages [apidevtools]: Downloading https://files.pythonhosted.org/packages/e2/55/13d192903c6398d1b95fb583b11986ebd18e2b4b98f35327b697c75f5348/apidevtools-3.2.1.tar.gz
+[2023-05-08 03:37:55] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-05-08 03:37:55] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230508/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-08 03:37:55] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-05-08 03:37:55] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230508/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-05-08 03:37:55] INFO root fetch - processPackages [shady-island]: Downloading https://files.pythonhosted.org/packages/ed/ae/a7a990a5b643750cce1402cad9e15fd73a9c16dc25acb3c8a49f79eb7a7d/shady-island-0.0.8.tar.gz
+[2023-05-08 03:37:55] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-05-08 03:37:55] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230508/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-08 03:37:55] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-05-08 03:37:55] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230508/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-08 03:37:55] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-05-08 03:37:55] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230508/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-08 03:37:56] INFO root fetch - processPackages [veevatools]: Downloading https://files.pythonhosted.org/packages/8e/36/10a48c06aea6b45c9a05030094deb876a472bf7a05f24252f7059a8433dc/veevatools-0.0.95.tar.gz
+[2023-05-08 03:37:56] INFO root fetch - processPackages [apidevtools]: Downloading https://files.pythonhosted.org/packages/c6/7e/0288da85b986836d8d4a86d6c6ad447a5268fb53d268cf53323335f5ad0e/apidevtools-3.2.2.tar.gz
+[2023-05-08 03:37:56] INFO root fetch - processPackages [cdk-lambda-layer-wget]: executing diffoscope
+[2023-05-08 03:37:56] INFO root fetch - processPackages [cdk-lambda-layer-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-wget-2.0.98.tar.gz tmp/cdk-lambda-layer-wget-2.0.99.tar.gz --markdown 20230508/c/cdk-lambda-layer-wget/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-08 03:37:56] INFO root fetch - processPackages [apidevtools]: executing diffoscope
+[2023-05-08 03:37:56] INFO root fetch - processPackages [apidevtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apidevtools-3.2.1.tar.gz tmp/apidevtools-3.2.2.tar.gz --markdown 20230508/a/apidevtools/3.2.1-3.2.2/diff.md --exclude *.pyd
+[2023-05-08 03:37:56] INFO root fetch - processPackages [veevatools]: Downloading https://files.pythonhosted.org/packages/dd/a4/efd3e2d598d25aa5f831d3d6c85343eebcef4b4f59477f29b5d9de2bd1db/veevatools-0.0.96.tar.gz
+[2023-05-08 03:37:56] INFO root fetch - processPackages [shady-island]: Downloading https://files.pythonhosted.org/packages/69/14/ae3dbf243e4cb1db1d1a6d89c5b0ab88ad11f64d1873591474d5e78d2c24/shady-island-0.0.9.tar.gz
+[2023-05-08 03:37:56] INFO root fetch - processPackages [veevatools]: executing diffoscope
+[2023-05-08 03:37:56] INFO root fetch - processPackages [veevatools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veevatools-0.0.95.tar.gz tmp/veevatools-0.0.96.tar.gz --markdown 20230508/v/veevatools/0.0.95-0.0.96/diff.md --exclude *.pyd
+[2023-05-08 03:37:56] INFO root fetch - processPackages [shady-island]: executing diffoscope
+[2023-05-08 03:37:56] INFO root fetch - processPackages [shady-island]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shady-island-0.0.8.tar.gz tmp/shady-island-0.0.9.tar.gz --markdown 20230508/s/shady-island/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 03:37:57] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-05-08 03:37:57] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-05-08 03:37:57] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-05-08 03:37:57] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
+[2023-05-08 03:37:58] INFO root fetch - main [MainThread]: End processing [veevatools]: success
+[2023-05-08 03:37:58] INFO root fetch - main [MainThread]: End processing [apidevtools]: success
+[2023-05-08 03:37:58] INFO root fetch - main [MainThread]: End processing [shady-island]: success
+[2023-05-08 03:37:58] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-05-08 03:37:58] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-05-08 03:37:58] INFO root fetch - main [MainThread]: Store serial: [18011301]
