@@ -5285,3 +5285,37 @@
 [2023-05-08 06:31:15] INFO root fetch - main [MainThread]: End processing [pmdsky-debug-py]: success
 [2023-05-08 06:31:18] INFO root fetch - main [MainThread]: End processing [pysnmp-lextudio]: success
 [2023-05-08 06:31:18] INFO root fetch - main [MainThread]: Store serial: [18012902]
+[2023-05-08 06:36:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18012902]
+[2023-05-08 06:36:27] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-08 06:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yubiconvert
+[2023-05-08 06:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pystools
+[2023-05-08 06:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: graia-ariadne
+[2023-05-08 06:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ekaros
+[2023-05-08 06:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: feiticeiro-tec
+[2023-05-08 06:36:27] INFO root fetch - processPackages [pystools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 06:36:27] INFO root fetch - processPackages [feiticeiro-tec]: New version: [1.2.7] Old Version: [1.1.7]
+[2023-05-08 06:36:27] INFO root fetch - processPackages [yubiconvert]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-08 06:36:27] INFO root fetch - processPackages [ekaros]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-08 06:36:27] INFO root fetch - processPackages [graia-ariadne]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-08 06:36:27] INFO root fetch - processPackages [feiticeiro-tec]: Downloading https://files.pythonhosted.org/packages/83/59/f5d3942d1e4b46e384a0365c9efed70c6e6b78b8144f594136bca6fed925/feiticeiro_tec-1.1.7.tar.gz
+[2023-05-08 06:36:27] WARNING root fetch - processPackages [feiticeiro-tec]: Skipping package: exceeds size limit 42352500>=10485760
+[2023-05-08 06:36:27] INFO root fetch - processPackages [pystools]: executing diffoscope
+[2023-05-08 06:36:27] INFO root fetch - processPackages [pystools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystools-0.0.8.tar.gz tmp/pystools-0.0.9.tar.gz --markdown 20230508/p/pystools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 06:36:27] INFO root fetch - main [MainThread]: End processing [feiticeiro-tec] error
+[2023-05-08 06:36:27] INFO root fetch - processPackages [yubiconvert]: Downloading https://files.pythonhosted.org/packages/be/62/46b30b0ea53d14b35b6a3a10332663ea9f94f52f788a5e77bb7577b22a8d/yubiconvert-1.0.2.tar.gz
+[2023-05-08 06:36:27] INFO root fetch - processPackages [ekaros]: Downloading https://files.pythonhosted.org/packages/0d/89/627cc03d8e3ec8f79eff242adf1ba85e960a4d7650701c35de22a60101e6/ekaros-0.1.7.tar.gz
+[2023-05-08 06:36:27] INFO root fetch - processPackages [graia-ariadne]: Downloading https://files.pythonhosted.org/packages/60/b4/316a9b17af0e3957086d83796a5938c0df1abdc0f2df85d4b6c107e77b85/graia-ariadne-0.9.8.tar.gz
+[2023-05-08 06:36:27] INFO root fetch - processPackages [yubiconvert]: Downloading https://files.pythonhosted.org/packages/85/7f/d1b317df30114ff4204c853e1db702ce3b1a5f99b4e4dda14f94f341cf70/yubiconvert-1.0.3.tar.gz
+[2023-05-08 06:36:27] INFO root fetch - processPackages [ekaros]: Downloading https://files.pythonhosted.org/packages/34/b4/dec09104ebf5b15c1c02b75165beb3820180c685fa84ee7777f10d6e4ef6/ekaros-0.1.8.tar.gz
+[2023-05-08 06:36:27] INFO root fetch - processPackages [yubiconvert]: executing diffoscope
+[2023-05-08 06:36:27] INFO root fetch - processPackages [yubiconvert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yubiconvert-1.0.2.tar.gz tmp/yubiconvert-1.0.3.tar.gz --markdown 20230508/y/yubiconvert/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-08 06:36:27] INFO root fetch - processPackages [graia-ariadne]: Downloading https://files.pythonhosted.org/packages/9e/91/4623982e59d2b2196b6d9552daa4e95aff6d935982d31c377d0460f38e7d/graia-ariadne-0.9.9.tar.gz
+[2023-05-08 06:36:27] INFO root fetch - processPackages [ekaros]: executing diffoscope
+[2023-05-08 06:36:27] INFO root fetch - processPackages [ekaros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ekaros-0.1.7.tar.gz tmp/ekaros-0.1.8.tar.gz --markdown 20230508/e/ekaros/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-08 06:36:27] INFO root fetch - processPackages [graia-ariadne]: executing diffoscope
+[2023-05-08 06:36:27] INFO root fetch - processPackages [graia-ariadne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graia-ariadne-0.9.8.tar.gz tmp/graia-ariadne-0.9.9.tar.gz --markdown 20230508/g/graia-ariadne/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-08 06:36:28] INFO root fetch - main [MainThread]: End processing [pystools]: success
+[2023-05-08 06:36:28] INFO root fetch - main [MainThread]: End processing [yubiconvert]: success
+[2023-05-08 06:36:28] INFO root fetch - main [MainThread]: End processing [ekaros]: success
+[2023-05-08 06:36:29] INFO root fetch - main [MainThread]: End processing [graia-ariadne]: success
+[2023-05-08 06:36:29] INFO root fetch - main [MainThread]: Store serial: [18012918]
