@@ -7490,3 +7490,79 @@
 [2023-05-08 09:55:41] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
 [2023-05-08 09:55:42] INFO root fetch - main [MainThread]: End processing [zillionare-backtest]: success
 [2023-05-08 09:55:42] INFO root fetch - main [MainThread]: Store serial: [18014242]
+[2023-05-08 10:00:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18014242]
+[2023-05-08 10:00:52] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-08 10:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: emnify-sdk
+[2023-05-08 10:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rmpy
+[2023-05-08 10:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qrdet
+[2023-05-08 10:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: inverse
+[2023-05-08 10:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iscp
+[2023-05-08 10:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qreader
+[2023-05-08 10:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: azdev
+[2023-05-08 10:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: HyperEvalSR
+[2023-05-08 10:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: calcure
+[2023-05-08 10:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sheetcloud
+[2023-05-08 10:00:52] INFO root fetch - processPackages [inverse]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 10:00:52] INFO root fetch - processPackages [inverse]: executing diffoscope
+[2023-05-08 10:00:52] INFO root fetch - processPackages [inverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inverse-0.0.8-py3-none-any.whl.zip tmp/inverse-0.0.9-py3-none-any.whl.zip --markdown 20230508/i/inverse/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 10:00:52] WARNING root fetch - processPackages [rmpy]: Skipping, unable to determine old version
+[2023-05-08 10:00:52] INFO root fetch - processPackages [rmpy]: Start processing: DoubleML
+[2023-05-08 10:00:52] INFO root fetch - main [MainThread]: End processing [rmpy] error
+[2023-05-08 10:00:52] INFO root fetch - processPackages [iscp]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-08 10:00:52] INFO root fetch - processPackages [emnify-sdk]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-05-08 10:00:52] INFO root fetch - processPackages [qreader]: New version: [2.8] Old Version: [2.7]
+[2023-05-08 10:00:52] INFO root fetch - processPackages [qrdet]: New version: [1.9] Old Version: [1.8]
+[2023-05-08 10:00:52] WARNING root fetch - processPackages [HyperEvalSR]: Skipping, unable to determine old version
+[2023-05-08 10:00:52] INFO root fetch - processPackages [HyperEvalSR]: Start processing: gcscore
+[2023-05-08 10:00:52] INFO root fetch - main [MainThread]: End processing [HyperEvalSR] error
+[2023-05-08 10:00:52] INFO root fetch - processPackages [sheetcloud]: New version: [0.1.0.post9] Old Version: [0.1.0.post8]
+[2023-05-08 10:00:52] INFO root fetch - processPackages [calcure]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-05-08 10:00:52] INFO root fetch - processPackages [azdev]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 10:00:52] INFO root fetch - processPackages [gcscore]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 10:00:52] INFO root fetch - processPackages [DoubleML]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-05-08 10:00:52] INFO root fetch - processPackages [gcscore]: executing diffoscope
+[2023-05-08 10:00:52] INFO root fetch - processPackages [gcscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcscore-0.0.8.tar.gz tmp/gcscore-0.0.9.tar.gz --markdown 20230508/g/gcscore/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 10:00:52] INFO root fetch - processPackages [emnify-sdk]: Downloading https://files.pythonhosted.org/packages/a8/04/373339e6c6b3b027e7a36ae85bcc4b13b0c9a869fcaa60799a0d92318a13/emnify-sdk-0.2.9.tar.gz
+[2023-05-08 10:00:52] INFO root fetch - processPackages [iscp]: Downloading https://files.pythonhosted.org/packages/be/bc/99dd2cf13cb66a7f07c52a02f726068a19d79ba8150b3a4713c5f8f4ef42/iscp-0.9.0-py3-none-any.whl
+[2023-05-08 10:00:52] INFO root fetch - processPackages [qreader]: Downloading https://files.pythonhosted.org/packages/7d/f8/87060a6e4ae467fbf22a2fd0912895629b14dcbd78cca129e3126982a643/qreader-2.7.tar.gz
+[2023-05-08 10:00:52] INFO root fetch - processPackages [qrdet]: Downloading https://files.pythonhosted.org/packages/55/a5/80fbf44cc1255c4ad7fc851c5efcf1912e95754a322a9d496d8d032b9757/qrdet-1.8.tar.gz
+[2023-05-08 10:00:52] INFO root fetch - processPackages [DoubleML]: Downloading https://files.pythonhosted.org/packages/38/c4/cc6cfd9f680ef08ccbf21fc8fc188a2bfe8d425817280fd7b6d6851caf34/DoubleML-0.6.0.tar.gz
+[2023-05-08 10:00:52] INFO root fetch - processPackages [calcure]: Downloading https://files.pythonhosted.org/packages/06/28/6c98e484807802b72f421abb842ddbcc217e9bc122d52f3bf6aba7c4e582/calcure-2.9.2.tar.gz
+[2023-05-08 10:00:52] INFO root fetch - processPackages [sheetcloud]: Downloading https://files.pythonhosted.org/packages/a9/7a/90eb25991e7d003cd44d3f7f4a09d9073351df3bfd07967fba64b1183489/sheetcloud-0.1.0.post9.tar.gz
+[2023-05-08 10:00:53] INFO root fetch - processPackages [azdev]: executing diffoscope
+[2023-05-08 10:00:53] INFO root fetch - processPackages [azdev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azdev-0.1.8.tar.gz tmp/azdev-0.1.9.tar.gz --markdown 20230508/a/azdev/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 10:00:53] INFO root fetch - processPackages [emnify-sdk]: Downloading https://files.pythonhosted.org/packages/7c/d8/4d08b8a4063bc2b3420ec1de93bff08217ed1655cde17a326d7892d5b305/emnify-sdk-0.3.0.tar.gz
+[2023-05-08 10:00:53] INFO root fetch - processPackages [calcure]: executing diffoscope
+[2023-05-08 10:00:53] INFO root fetch - processPackages [calcure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calcure-2.9.1.tar.gz tmp/calcure-2.9.2.tar.gz --markdown 20230508/c/calcure/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-05-08 10:00:53] INFO root fetch - processPackages [sheetcloud]: executing diffoscope
+[2023-05-08 10:00:53] INFO root fetch - processPackages [sheetcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sheetcloud-0.1.0.post8.tar.gz tmp/sheetcloud-0.1.0.post9.tar.gz --markdown 20230508/s/sheetcloud/0.1.0.post8-0.1.0.post9/diff.md --exclude *.pyd
+[2023-05-08 10:00:53] INFO root fetch - processPackages [qrdet]: Downloading https://files.pythonhosted.org/packages/a3/47/8be3c7abea952f9f420f8d707a00ff0dc05f1ae2ecce8675c24ebbf390b7/qrdet-1.9.tar.gz
+[2023-05-08 10:00:53] INFO root fetch - processPackages [emnify-sdk]: executing diffoscope
+[2023-05-08 10:00:53] INFO root fetch - processPackages [emnify-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emnify-sdk-0.2.9.tar.gz tmp/emnify-sdk-0.3.0.tar.gz --markdown 20230508/e/emnify-sdk/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-05-08 10:00:53] INFO root fetch - processPackages [DoubleML]: Downloading https://files.pythonhosted.org/packages/9a/3c/161e8f076f2d841aabb2c738f6624c400e0efe12fcc6a61c4aa7813f3480/DoubleML-0.6.1.tar.gz
+[2023-05-08 10:00:53] INFO root fetch - processPackages [qreader]: Downloading https://files.pythonhosted.org/packages/1e/26/b7161a55898d2043ae2512419c642cec690249c886297626c5ceb25c66a4/qreader-2.8.tar.gz
+[2023-05-08 10:00:53] INFO root fetch - processPackages [iscp]: Downloading https://files.pythonhosted.org/packages/e1/06/c7537c884e046bfd5c4ae7a2f671b852216876814d3de25b010ac31c4e66/iscp-0.9.1-py3-none-any.whl
+[2023-05-08 10:00:53] INFO root fetch - processPackages [qrdet]: executing diffoscope
+[2023-05-08 10:00:53] INFO root fetch - processPackages [qrdet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qrdet-1.8.tar.gz tmp/qrdet-1.9.tar.gz --markdown 20230508/q/qrdet/1.8-1.9/diff.md --exclude *.pyd
+[2023-05-08 10:00:53] INFO root fetch - processPackages [DoubleML]: executing diffoscope
+[2023-05-08 10:00:53] INFO root fetch - processPackages [DoubleML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DoubleML-0.6.0.tar.gz tmp/DoubleML-0.6.1.tar.gz --markdown 20230508/D/DoubleML/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-05-08 10:00:53] INFO root fetch - processPackages [qreader]: executing diffoscope
+[2023-05-08 10:00:53] INFO root fetch - processPackages [qreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qreader-2.7.tar.gz tmp/qreader-2.8.tar.gz --markdown 20230508/q/qreader/2.7-2.8/diff.md --exclude *.pyd
+[2023-05-08 10:00:53] INFO root fetch - processPackages [iscp]: executing diffoscope
+[2023-05-08 10:00:53] INFO root fetch - processPackages [iscp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iscp-0.9.0-py3-none-any.whl.zip tmp/iscp-0.9.1-py3-none-any.whl.zip --markdown 20230508/i/iscp/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-08 10:00:54] INFO root fetch - processPackages [gcscore]: Start processing: ersciyt
+[2023-05-08 10:00:54] INFO root fetch - main [MainThread]: End processing [gcscore]: success
+[2023-05-08 10:00:54] INFO root fetch - processPackages [ersciyt]: New version: [1.82] Old Version: [1.81]
+[2023-05-08 10:00:54] INFO root fetch - processPackages [ersciyt]: executing diffoscope
+[2023-05-08 10:00:54] INFO root fetch - processPackages [ersciyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ersciyt-1.81.tar.gz tmp/ersciyt-1.82.tar.gz --markdown 20230508/e/ersciyt/1.81-1.82/diff.md --exclude *.pyd
+[2023-05-08 10:00:54] INFO root fetch - main [MainThread]: End processing [sheetcloud]: success
+[2023-05-08 10:00:54] INFO root fetch - main [MainThread]: End processing [qrdet]: success
+[2023-05-08 10:00:54] INFO root fetch - main [MainThread]: End processing [emnify-sdk]: success
+[2023-05-08 10:00:54] INFO root fetch - main [MainThread]: End processing [calcure]: success
+[2023-05-08 10:00:54] INFO root fetch - main [MainThread]: End processing [qreader]: success
+[2023-05-08 10:00:54] INFO root fetch - main [MainThread]: End processing [azdev]: success
+[2023-05-08 10:00:55] INFO root fetch - main [MainThread]: End processing [inverse]: success
+[2023-05-08 10:00:55] INFO root fetch - main [MainThread]: End processing [iscp]: success
+[2023-05-08 10:00:55] INFO root fetch - main [MainThread]: End processing [ersciyt]: success
+[2023-05-08 10:00:56] INFO root fetch - main [MainThread]: End processing [DoubleML]: success
+[2023-05-08 10:00:56] INFO root fetch - main [MainThread]: Store serial: [18014280]
