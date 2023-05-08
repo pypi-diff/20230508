@@ -18908,3 +18908,102 @@ EOFError: EOF read where object expected
 [2023-05-08 20:17:43] INFO root fetch - main [MainThread]: End processing [deepchem]: success
 [2023-05-08 20:17:47] INFO root fetch - main [MainThread]: End processing [open-space-toolkit-io]: success
 [2023-05-08 20:17:47] INFO root fetch - main [MainThread]: Store serial: [18020583]
+[2023-05-08 20:22:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18020583]
+[2023-05-08 20:22:58] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-08 20:22:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zonesmart-utils
+[2023-05-08 20:22:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: security-scanner
+[2023-05-08 20:22:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unpast
+[2023-05-08 20:22:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-portfolio-analytics
+[2023-05-08 20:22:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: grismconf
+[2023-05-08 20:22:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eeeCalc
+[2023-05-08 20:22:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eeeCalc
+[2023-05-08 20:22:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eeeCalc
+[2023-05-08 20:22:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: eeeCalc
+[2023-05-08 20:22:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: unpast
+[2023-05-08 20:22:58] INFO root fetch - processPackages [grismconf]: New version: [1.40] Old Version: [1.39]
+[2023-05-08 20:22:58] INFO root fetch - processPackages [security-scanner]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-08 20:22:58] INFO root fetch - processPackages [unpast]: New version: [0.1.0.9] Old Version: [0.1.0.8]
+[2023-05-08 20:22:58] INFO root fetch - processPackages [unpast]: New version: [0.1.0.9] Old Version: [0.1.0.8]
+[2023-05-08 20:22:58] INFO root fetch - processPackages [zonesmart-utils]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-08 20:22:58] INFO root fetch - processPackages [grismconf]: executing diffoscope
+[2023-05-08 20:22:58] INFO root fetch - processPackages [grismconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grismconf-1.39.tar.gz tmp/grismconf-1.40-py3-none-any.whl.zip --markdown 20230508/g/grismconf/1.39-1.40/diff.md --exclude *.pyd
+[2023-05-08 20:22:58] INFO root fetch - processPackages [eeeCalc]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-08 20:22:58] INFO root fetch - processPackages [eeeCalc]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-08 20:22:58] INFO root fetch - processPackages [eeeCalc]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-08 20:22:58] WARNING root fetch - processPackages [py-portfolio-analytics]: Skipping, unable to determine old version
+[2023-05-08 20:22:58] INFO root fetch - processPackages [eeeCalc]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-08 20:22:58] INFO root fetch - processPackages [py-portfolio-analytics]: Start processing: cybrid-api-id-python
+[2023-05-08 20:22:58] INFO root fetch - main [MainThread]: End processing [py-portfolio-analytics] error
+[2023-05-08 20:22:58] ERROR root fetch - processPackages [unpast]: Unable to fetch info: No such project/version 'unpast' 0.1.0.8
+[2023-05-08 20:22:58] INFO root fetch - processPackages [unpast]: Start processing: cybrid-api-bank-python
+[2023-05-08 20:22:58] ERROR root fetch - processPackages [unpast]: Unable to fetch info: No such project/version 'unpast' 0.1.0.8
+[2023-05-08 20:22:58] INFO root fetch - main [MainThread]: End processing [unpast] error
+[2023-05-08 20:22:58] INFO root fetch - processPackages [unpast]: Start processing: cybrid-api-organization-python
+[2023-05-08 20:22:58] INFO root fetch - main [MainThread]: End processing [unpast] error
+[2023-05-08 20:22:58] INFO root fetch - processPackages [security-scanner]: Downloading https://files.pythonhosted.org/packages/6e/56/0302a5288cc0f4b585f17f40966a6e7c8691236bc1861b9ec64a03225955/security_scanner-0.0.1.tar.gz
+[2023-05-08 20:22:58] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-08 20:22:58] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-08 20:22:58] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-08 20:22:58] INFO root fetch - processPackages [eeeCalc]: Downloading https://files.pythonhosted.org/packages/89/c9/c34ba8195c1938e11ec9b68fdd1df074035c044c74f0782b05177598aa8a/eeecalc-0.0.3.tar.gz
+[2023-05-08 20:22:58] INFO root fetch - processPackages [eeeCalc]: Downloading https://files.pythonhosted.org/packages/89/c9/c34ba8195c1938e11ec9b68fdd1df074035c044c74f0782b05177598aa8a/eeecalc-0.0.3.tar.gz
+[2023-05-08 20:22:58] INFO root fetch - processPackages [eeeCalc]: Downloading https://files.pythonhosted.org/packages/89/c9/c34ba8195c1938e11ec9b68fdd1df074035c044c74f0782b05177598aa8a/eeecalc-0.0.3.tar.gz
+[2023-05-08 20:22:58] INFO root fetch - processPackages [eeeCalc]: Downloading https://files.pythonhosted.org/packages/89/c9/c34ba8195c1938e11ec9b68fdd1df074035c044c74f0782b05177598aa8a/eeecalc-0.0.3.tar.gz
+[2023-05-08 20:22:58] INFO root fetch - processPackages [zonesmart-utils]: Downloading https://files.pythonhosted.org/packages/a6/de/eb3aee680783045c374697f027a383449f31f650761e0f156c72e10dd538/zonesmart-utils-0.2.8.tar.gz
+[2023-05-08 20:22:58] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-05-08 20:22:58] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230508/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-08 20:22:58] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-05-08 20:22:58] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230508/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-08 20:22:58] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-05-08 20:22:58] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230508/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-08 20:22:58] INFO root fetch - processPackages [security-scanner]: Downloading https://files.pythonhosted.org/packages/de/18/358fc8684ce1e950777f926461c0f2a46fab998f758eeb666859223fa1ae/security_scanner-0.0.2.tar.gz
+[2023-05-08 20:22:58] INFO root fetch - processPackages [eeeCalc]: Downloading https://files.pythonhosted.org/packages/55/22/610ab39a8312ce28eaaad16b7ef00c2b9b3a3edd3402224b236a185b04f1/eeecalc-0.0.4.tar.gz
+[2023-05-08 20:22:58] INFO root fetch - processPackages [eeeCalc]: Downloading https://files.pythonhosted.org/packages/55/22/610ab39a8312ce28eaaad16b7ef00c2b9b3a3edd3402224b236a185b04f1/eeecalc-0.0.4.tar.gz
+[2023-05-08 20:22:58] INFO root fetch - processPackages [eeeCalc]: Downloading https://files.pythonhosted.org/packages/55/22/610ab39a8312ce28eaaad16b7ef00c2b9b3a3edd3402224b236a185b04f1/eeecalc-0.0.4.tar.gz
+[2023-05-08 20:22:58] INFO root fetch - processPackages [eeeCalc]: Downloading https://files.pythonhosted.org/packages/55/22/610ab39a8312ce28eaaad16b7ef00c2b9b3a3edd3402224b236a185b04f1/eeecalc-0.0.4.tar.gz
+[2023-05-08 20:22:58] INFO root fetch - processPackages [zonesmart-utils]: Downloading https://files.pythonhosted.org/packages/97/df/c7158743ee9dc52f2868b374fec1b5b59d1003822ebc82964de6ec1a82f7/zonesmart-utils-0.2.9.tar.gz
+[2023-05-08 20:22:58] INFO root fetch - processPackages [security-scanner]: executing diffoscope
+[2023-05-08 20:22:58] INFO root fetch - processPackages [security-scanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/security_scanner-0.0.1.tar.gz tmp/security_scanner-0.0.2.tar.gz --markdown 20230508/s/security-scanner/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-08 20:22:58] INFO root fetch - processPackages [eeeCalc]: executing diffoscope
+[2023-05-08 20:22:58] INFO root fetch - processPackages [eeeCalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eeecalc-0.0.3.tar.gz tmp/eeecalc-0.0.4.tar.gz --markdown 20230508/e/eeeCalc/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-08 20:22:58] INFO root fetch - processPackages [eeeCalc]: executing diffoscope
+[2023-05-08 20:22:58] INFO root fetch - processPackages [eeeCalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eeecalc-0.0.3.tar.gz tmp/eeecalc-0.0.4.tar.gz --markdown 20230508/e/eeeCalc/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-08 20:22:58] INFO root fetch - processPackages [eeeCalc]: executing diffoscope
+[2023-05-08 20:22:58] INFO root fetch - processPackages [eeeCalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eeecalc-0.0.3.tar.gz tmp/eeecalc-0.0.4.tar.gz --markdown 20230508/e/eeeCalc/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-08 20:22:58] INFO root fetch - processPackages [eeeCalc]: executing diffoscope
+[2023-05-08 20:22:58] INFO root fetch - processPackages [eeeCalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eeecalc-0.0.3.tar.gz tmp/eeecalc-0.0.4.tar.gz --markdown 20230508/e/eeeCalc/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-08 20:22:58] INFO root fetch - processPackages [zonesmart-utils]: executing diffoscope
+[2023-05-08 20:22:58] INFO root fetch - processPackages [zonesmart-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zonesmart-utils-0.2.8.tar.gz tmp/zonesmart-utils-0.2.9.tar.gz --markdown 20230508/z/zonesmart-utils/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-08 20:23:00] INFO root fetch - processPackages [grismconf]: Start processing: whisper-cpp-python
+[2023-05-08 20:23:00] INFO root fetch - main [MainThread]: End processing [grismconf]: success
+[2023-05-08 20:23:00] INFO root fetch - processPackages [whisper-cpp-python]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-08 20:23:00] INFO root fetch - processPackages [eeeCalc]: Start processing: xyz-school
+[2023-05-08 20:23:00] INFO root fetch - main [MainThread]: End processing [eeeCalc]: success
+[2023-05-08 20:23:00] INFO root fetch - processPackages [xyz-school]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 20:23:00] INFO root fetch - processPackages [security-scanner]: Start processing: robotframework-libdoc2testbench
+[2023-05-08 20:23:00] INFO root fetch - main [MainThread]: End processing [security-scanner]: success
+[2023-05-08 20:23:00] INFO root fetch - processPackages [robotframework-libdoc2testbench]: New version: [1.2b5] Old Version: [1.2b4]
+[2023-05-08 20:23:00] INFO root fetch - processPackages [eeeCalc]: Start processing: aikoai
+[2023-05-08 20:23:00] INFO root fetch - main [MainThread]: End processing [eeeCalc]: success
+[2023-05-08 20:23:00] INFO root fetch - processPackages [aikoai]: New version: [3.1] Old Version: [2.2]
+[2023-05-08 20:23:00] INFO root fetch - main [MainThread]: End processing [eeeCalc]: success
+[2023-05-08 20:23:00] INFO root fetch - processPackages [whisper-cpp-python]: executing diffoscope
+[2023-05-08 20:23:00] INFO root fetch - processPackages [whisper-cpp-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whisper_cpp_python-0.1.5.tar.gz tmp/whisper_cpp_python-0.1.6.tar.gz --markdown 20230508/w/whisper-cpp-python/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-08 20:23:00] INFO root fetch - processPackages [xyz-school]: executing diffoscope
+[2023-05-08 20:23:00] INFO root fetch - processPackages [xyz-school]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xyz_school-0.1.8-py3-none-any.whl.zip tmp/xyz_school-0.1.9-py3-none-any.whl.zip --markdown 20230508/x/xyz-school/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 20:23:00] INFO root fetch - main [MainThread]: End processing [eeeCalc]: success
+[2023-05-08 20:23:00] INFO root fetch - processPackages [robotframework-libdoc2testbench]: Downloading https://files.pythonhosted.org/packages/ca/d4/c9b2f185ec81ec921472ca3003f37797a8cf6d109c8f1fe5bd3fc21b28ae/robotframework-libdoc2testbench-1.2b4.tar.gz
+[2023-05-08 20:23:00] INFO root fetch - processPackages [aikoai]: Downloading https://files.pythonhosted.org/packages/ce/4a/5b61147282824e57eb670e1ec819aa4bc1f34af1fa437c7c3bf04174c8a2/aikoai-3.1.tar.gz
+[2023-05-08 20:23:00] INFO root fetch - processPackages [robotframework-libdoc2testbench]: Downloading https://files.pythonhosted.org/packages/8e/a3/6331c780976f40158067ed1e04be511df70788ffff129f622a64f94fb61c/robotframework-libdoc2testbench-1.2b5.tar.gz
+[2023-05-08 20:23:00] INFO root fetch - processPackages [aikoai]: executing diffoscope
+[2023-05-08 20:23:00] INFO root fetch - processPackages [aikoai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aikoai-2.2.tar.gz tmp/aikoai-3.1.tar.gz --markdown 20230508/a/aikoai/2.2-3.1/diff.md --exclude *.pyd
+[2023-05-08 20:23:00] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-05-08 20:23:00] INFO root fetch - processPackages [robotframework-libdoc2testbench]: executing diffoscope
+[2023-05-08 20:23:00] INFO root fetch - processPackages [robotframework-libdoc2testbench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-libdoc2testbench-1.2b4.tar.gz tmp/robotframework-libdoc2testbench-1.2b5.tar.gz --markdown 20230508/r/robotframework-libdoc2testbench/1.2b4-1.2b5/diff.md --exclude *.pyd
+[2023-05-08 20:23:01] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-05-08 20:23:01] INFO root fetch - main [MainThread]: End processing [xyz-school]: success
+[2023-05-08 20:23:01] INFO root fetch - main [MainThread]: End processing [zonesmart-utils]: success
+[2023-05-08 20:23:01] INFO root fetch - main [MainThread]: End processing [robotframework-libdoc2testbench]: success
+[2023-05-08 20:23:02] INFO root fetch - main [MainThread]: End processing [aikoai]: success
+[2023-05-08 20:23:03] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-05-08 20:23:04] INFO root fetch - main [MainThread]: End processing [whisper-cpp-python]: success
+[2023-05-08 20:23:04] INFO root fetch - main [MainThread]: Store serial: [18020649]
