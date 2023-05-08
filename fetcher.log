@@ -5848,3 +5848,48 @@
 [2023-05-08 07:41:51] INFO root fetch - main [MainThread]: End processing [popbill]: success
 [2023-05-08 07:42:11] INFO root fetch - main [MainThread]: End processing [gs-api-client]: success
 [2023-05-08 07:42:11] INFO root fetch - main [MainThread]: Store serial: [18013225]
+[2023-05-08 07:47:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18013225]
+[2023-05-08 07:47:21] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-08 07:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: robotslacker-testcli
+[2023-05-08 07:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: userfs
+[2023-05-08 07:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyhubble-vector
+[2023-05-08 07:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyldk
+[2023-05-08 07:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: webint
+[2023-05-08 07:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: general-text-classifier
+[2023-05-08 07:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spacetool
+[2023-05-08 07:47:21] WARNING root fetch - processPackages [pyhubble-vector]: Skipping, unable to determine old version
+[2023-05-08 07:47:21] INFO root fetch - main [MainThread]: End processing [pyhubble-vector] error
+[2023-05-08 07:47:21] INFO root fetch - processPackages [webint]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 07:47:21] INFO root fetch - processPackages [userfs]: New version: [1.0.0] Old Version: [0.2.1]
+[2023-05-08 07:47:21] INFO root fetch - processPackages [pyldk]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-05-08 07:47:21] INFO root fetch - processPackages [general-text-classifier]: New version: [0.1.25] Old Version: [0.1.24]
+[2023-05-08 07:47:21] INFO root fetch - processPackages [spacetool]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-08 07:47:21] INFO root fetch - processPackages [robotslacker-testcli]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 07:47:21] INFO root fetch - processPackages [webint]: executing diffoscope
+[2023-05-08 07:47:21] INFO root fetch - processPackages [webint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webint-0.1.8.tar.gz tmp/webint-0.1.9.tar.gz --markdown 20230508/w/webint/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 07:47:21] INFO root fetch - processPackages [general-text-classifier]: Downloading https://files.pythonhosted.org/packages/fd/a7/ece95a0342d4fb6c3764aba04e1aa1a3ca1646340d2e415f6861ec3c0dfe/general_text_classifier-0.1.24-py3-none-any.whl
+[2023-05-08 07:47:21] INFO root fetch - processPackages [spacetool]: Downloading https://files.pythonhosted.org/packages/53/f9/903115e9ac5b0e6ce44b3143d1439a1298617f2723b2e4736a33de0b460c/spacetool-1.0.5.tar.gz
+[2023-05-08 07:47:21] INFO root fetch - processPackages [userfs]: Downloading https://files.pythonhosted.org/packages/85/e1/22698bf45165ae3a61c46333e99c957bf5a4973e5abe961c1afae4b8d04e/userfs-1.0.0.tar.gz
+[2023-05-08 07:47:21] INFO root fetch - processPackages [pyldk]: Downloading https://files.pythonhosted.org/packages/f3/75/55235e414a898225610b7797376cbbec54c068a8f926881481aaf28d238d/pyldk-1.1.2-py3-none-win_amd64.whl
+[2023-05-08 07:47:21] INFO root fetch - processPackages [userfs]: executing diffoscope
+[2023-05-08 07:47:21] INFO root fetch - processPackages [userfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/userfs-0.2.1.tar.gz tmp/userfs-1.0.0.tar.gz --markdown 20230508/u/userfs/0.2.1-1.0.0/diff.md --exclude *.pyd
+[2023-05-08 07:47:21] INFO root fetch - processPackages [robotslacker-testcli]: Downloading https://files.pythonhosted.org/packages/57/71/45cf11c2c66e7969006d17b79832678705ed38a0df644acf7ca1110f208b/robotslacker-testcli-0.0.8.tar.gz
+[2023-05-08 07:47:21] INFO root fetch - processPackages [spacetool]: Downloading https://files.pythonhosted.org/packages/07/07/b6094041c931dcd7f5834c1bca14ccde7c4056daf256dca57d308d4c3d86/spacetool-1.0.6.tar.gz
+[2023-05-08 07:47:21] INFO root fetch - processPackages [general-text-classifier]: Downloading https://files.pythonhosted.org/packages/01/50/a5f2736f6d273eab677cc235dcf0981b0e7c6b3d135c3d2f928bc318178c/general_text_classifier-0.1.25-py3-none-any.whl
+[2023-05-08 07:47:21] INFO root fetch - processPackages [spacetool]: executing diffoscope
+[2023-05-08 07:47:21] INFO root fetch - processPackages [spacetool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacetool-1.0.5.tar.gz tmp/spacetool-1.0.6.tar.gz --markdown 20230508/s/spacetool/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-08 07:47:21] INFO root fetch - processPackages [general-text-classifier]: executing diffoscope
+[2023-05-08 07:47:21] INFO root fetch - processPackages [general-text-classifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/general_text_classifier-0.1.24-py3-none-any.whl.zip tmp/general_text_classifier-0.1.25-py3-none-any.whl.zip --markdown 20230508/g/general-text-classifier/0.1.24-0.1.25/diff.md --exclude *.pyd
+[2023-05-08 07:47:22] INFO root fetch - processPackages [pyldk]: Downloading https://files.pythonhosted.org/packages/10/c1/9df680c92e56d729e0b326b8f4f7cfa8889dee22566d66979df4b0543701/pyldk-1.1.3-py3-none-win_amd64.whl
+[2023-05-08 07:47:22] INFO root fetch - processPackages [pyldk]: executing diffoscope
+[2023-05-08 07:47:22] INFO root fetch - processPackages [pyldk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyldk-1.1.2-py3-none-win_amd64.whl.zip tmp/pyldk-1.1.3-py3-none-win_amd64.whl.zip --markdown 20230508/p/pyldk/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-05-08 07:47:22] INFO root fetch - processPackages [robotslacker-testcli]: Downloading https://files.pythonhosted.org/packages/49/c7/4e9f25562dae606566643edd46e0c7fdfcb015dd742780c7eeb381d4ae43/robotslacker-testcli-0.0.9.tar.gz
+[2023-05-08 07:47:22] INFO root fetch - main [MainThread]: End processing [userfs]: success
+[2023-05-08 07:47:22] INFO root fetch - main [MainThread]: End processing [general-text-classifier]: success
+[2023-05-08 07:47:22] INFO root fetch - main [MainThread]: End processing [spacetool]: success
+[2023-05-08 07:47:23] INFO root fetch - processPackages [robotslacker-testcli]: executing diffoscope
+[2023-05-08 07:47:23] INFO root fetch - processPackages [robotslacker-testcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotslacker-testcli-0.0.8.tar.gz tmp/robotslacker-testcli-0.0.9.tar.gz --markdown 20230508/r/robotslacker-testcli/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 07:47:23] INFO root fetch - main [MainThread]: End processing [pyldk]: success
+[2023-05-08 07:47:26] INFO root fetch - main [MainThread]: End processing [robotslacker-testcli]: success
+[2023-05-08 07:47:30] INFO root fetch - main [MainThread]: End processing [webint]: success
+[2023-05-08 07:47:30] INFO root fetch - main [MainThread]: Store serial: [18013250]
