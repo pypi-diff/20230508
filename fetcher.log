@@ -21566,3 +21566,139 @@ EOFError: EOF read where object expected
 [2023-05-08 22:23:15] INFO root fetch - main [MainThread]: End processing [nordea-analytics]: success
 [2023-05-08 22:23:16] INFO root fetch - main [MainThread]: End processing [openmsistream]: success
 [2023-05-08 22:23:16] INFO root fetch - main [MainThread]: Store serial: [18022156]
+[2023-05-08 22:28:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18022156]
+[2023-05-08 22:28:26] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-08 22:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cirq-ionq
+[2023-05-08 22:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: basic-math-operations
+[2023-05-08 22:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cirq-aqt
+[2023-05-08 22:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cirq-core
+[2023-05-08 22:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cirq-google
+[2023-05-08 22:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cirq-rigetti
+[2023-05-08 22:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cirq-web
+[2023-05-08 22:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cirq-pasqal
+[2023-05-08 22:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: volttron
+[2023-05-08 22:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cirq
+[2023-05-08 22:28:26] INFO root fetch - processPackages [basic-math-operations]: New version: [1.0.159] Old Version: [1.0.158]
+[2023-05-08 22:28:26] INFO root fetch - processPackages [volttron]: New version: [10.0.3a9] Old Version: [10.0.3a8]
+[2023-05-08 22:28:26] INFO root fetch - processPackages [cirq-core]: New version: [1.2.0.dev20230508202304] Old Version: [1.2.0.dev20230506011226]
+[2023-05-08 22:28:26] INFO root fetch - processPackages [cirq-rigetti]: New version: [1.2.0.dev20230508202304] Old Version: [1.2.0.dev20230506011226]
+[2023-05-08 22:28:26] INFO root fetch - processPackages [cirq-ionq]: New version: [1.2.0.dev20230508202304] Old Version: [1.2.0.dev20230506011226]
+[2023-05-08 22:28:26] INFO root fetch - processPackages [cirq-google]: New version: [1.2.0.dev20230508202304] Old Version: [1.2.0.dev20230506011226]
+[2023-05-08 22:28:26] INFO root fetch - processPackages [cirq-pasqal]: New version: [1.2.0.dev20230508202304] Old Version: [1.2.0.dev20230506011226]
+[2023-05-08 22:28:26] INFO root fetch - processPackages [cirq-aqt]: New version: [1.2.0.dev20230508202304] Old Version: [1.2.0.dev20230506011226]
+[2023-05-08 22:28:26] INFO root fetch - processPackages [cirq]: New version: [1.2.0.dev20230508202304] Old Version: [1.2.0.dev20230506011226]
+[2023-05-08 22:28:26] INFO root fetch - processPackages [cirq-web]: New version: [1.2.0.dev20230508202304] Old Version: [1.2.0.dev20230506011226]
+[2023-05-08 22:28:27] INFO root fetch - processPackages [basic-math-operations]: Downloading https://files.pythonhosted.org/packages/2b/98/564af6ec9d8ec1c6a5d39126d8d68a4b677d071e4b8ba4925b0f3a7c88d5/basic_math_operations-1.0.158.tar.gz
+[2023-05-08 22:28:27] INFO root fetch - processPackages [volttron]: executing diffoscope
+[2023-05-08 22:28:27] INFO root fetch - processPackages [volttron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volttron-10.0.3a8-py3-none-any.whl.zip tmp/volttron-10.0.3a9.tar.gz --markdown 20230508/v/volttron/10.0.3a8-10.0.3a9/diff.md --exclude *.pyd
+[2023-05-08 22:28:27] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/4b/f8/e4afd73d8e28f7330fef08d836800b421e149bebf4c6f12958e54825f7e0/cirq_core-1.2.0.dev20230506011226-py3-none-any.whl
+[2023-05-08 22:28:27] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/22/62/cfb76152ec5f77894d5d0f23f93f61d6615f70131f12176fc0d2b17d6aac/cirq_ionq-1.2.0.dev20230506011226-py3-none-any.whl
+[2023-05-08 22:28:27] INFO root fetch - processPackages [cirq-pasqal]: Downloading https://files.pythonhosted.org/packages/b3/46/20a91a54113a0e05230bbf9356cabd131cd3c0d481f73f0fe857e0525ea2/cirq_pasqal-1.2.0.dev20230506011226-py3-none-any.whl
+[2023-05-08 22:28:27] INFO root fetch - processPackages [cirq-google]: Downloading https://files.pythonhosted.org/packages/63/2b/2e29e38dcc8bfafc138d9b2ecdd2d212f9a999a247c065ad82067f4354e2/cirq_google-1.2.0.dev20230506011226-py3-none-any.whl
+[2023-05-08 22:28:27] INFO root fetch - processPackages [cirq-rigetti]: Downloading https://files.pythonhosted.org/packages/8e/c1/53466778f0b0fdb1a49ea69085ed62160ca0e02b31effd5805da0d6b7042/cirq_rigetti-1.2.0.dev20230506011226-py3-none-any.whl
+[2023-05-08 22:28:27] INFO root fetch - processPackages [cirq-aqt]: Downloading https://files.pythonhosted.org/packages/4d/48/c876043df2a4acf71e09bbeb5da601fd1ab216ed088816f898e6940909b6/cirq_aqt-1.2.0.dev20230506011226-py3-none-any.whl
+[2023-05-08 22:28:27] INFO root fetch - processPackages [cirq-web]: Downloading https://files.pythonhosted.org/packages/45/15/a11251fcca970feed2a6750240d3584ecad9fc762e25af6e2bba47ee730d/cirq_web-1.2.0.dev20230506011226-py3-none-any.whl
+[2023-05-08 22:28:27] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/b5/ea/af815ed29cc0136df03830bd3bbaa9fdb3c6114d064fd77c52ff2340bb88/cirq-1.2.0.dev20230506011226-py3-none-any.whl
+[2023-05-08 22:28:27] INFO root fetch - processPackages [basic-math-operations]: Downloading https://files.pythonhosted.org/packages/a9/74/43df30c380ea42ccf8799e9e7ccdd5f1ba7be4805517be754d4f91258856/basic_math_operations-1.0.159.tar.gz
+[2023-05-08 22:28:27] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/03/ab/ffb773ecab17717f6065713d514fe3072ea021d389512cbaa5563430d198/cirq_ionq-1.2.0.dev20230508202304-py3-none-any.whl
+[2023-05-08 22:28:27] INFO root fetch - processPackages [cirq-pasqal]: Downloading https://files.pythonhosted.org/packages/c4/88/f379d1721749394a807d23c7ac61d48e234ce9db124b0723a9c749343de2/cirq_pasqal-1.2.0.dev20230508202304-py3-none-any.whl
+[2023-05-08 22:28:27] INFO root fetch - processPackages [cirq-rigetti]: Downloading https://files.pythonhosted.org/packages/a3/62/397eb2036dc746b3ac7fbbea5548a07bc2df971facb9050ea1e080977c02/cirq_rigetti-1.2.0.dev20230508202304-py3-none-any.whl
+[2023-05-08 22:28:27] INFO root fetch - processPackages [basic-math-operations]: executing diffoscope
+[2023-05-08 22:28:27] INFO root fetch - processPackages [basic-math-operations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basic_math_operations-1.0.158.tar.gz tmp/basic_math_operations-1.0.159.tar.gz --markdown 20230508/b/basic-math-operations/1.0.158-1.0.159/diff.md --exclude *.pyd
+[2023-05-08 22:28:27] INFO root fetch - processPackages [cirq-aqt]: Downloading https://files.pythonhosted.org/packages/69/b7/0f862a38cda39a4f4f61b555683902d7a6fef74bd80c549ed4a2deb42e71/cirq_aqt-1.2.0.dev20230508202304-py3-none-any.whl
+[2023-05-08 22:28:27] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/38/c3/98cea90936459f28dd57f1a213af3befe329eeb0a380dc60ef955719fa28/cirq-1.2.0.dev20230508202304-py3-none-any.whl
+[2023-05-08 22:28:27] INFO root fetch - processPackages [cirq-google]: Downloading https://files.pythonhosted.org/packages/a9/5e/c025a632291a63f3b2ec5f87d8e23915b981acbaf6bf200ff2fb6fbae507/cirq_google-1.2.0.dev20230508202304-py3-none-any.whl
+[2023-05-08 22:28:27] INFO root fetch - processPackages [cirq-web]: Downloading https://files.pythonhosted.org/packages/40/32/282b7c062467913cf70a51592fe7c0dfbf35b0be7f72dde57c7c05177573/cirq_web-1.2.0.dev20230508202304-py3-none-any.whl
+[2023-05-08 22:28:27] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/b7/b9/4d42cf89e0eb297b75767783ae300cd01cd70421590d569735d2f040ecb4/cirq_core-1.2.0.dev20230508202304-py3-none-any.whl
+[2023-05-08 22:28:27] INFO root fetch - processPackages [cirq-pasqal]: executing diffoscope
+[2023-05-08 22:28:27] INFO root fetch - processPackages [cirq-pasqal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_pasqal-1.2.0.dev20230506011226-py3-none-any.whl.zip tmp/cirq_pasqal-1.2.0.dev20230508202304-py3-none-any.whl.zip --markdown 20230508/c/cirq-pasqal/1.2.0.dev20230506011226-1.2.0.dev20230508202304/diff.md --exclude *.pyd
+[2023-05-08 22:28:27] INFO root fetch - processPackages [cirq-ionq]: executing diffoscope
+[2023-05-08 22:28:27] INFO root fetch - processPackages [cirq-ionq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_ionq-1.2.0.dev20230506011226-py3-none-any.whl.zip tmp/cirq_ionq-1.2.0.dev20230508202304-py3-none-any.whl.zip --markdown 20230508/c/cirq-ionq/1.2.0.dev20230506011226-1.2.0.dev20230508202304/diff.md --exclude *.pyd
+[2023-05-08 22:28:27] INFO root fetch - processPackages [cirq-rigetti]: executing diffoscope
+[2023-05-08 22:28:27] INFO root fetch - processPackages [cirq-rigetti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_rigetti-1.2.0.dev20230506011226-py3-none-any.whl.zip tmp/cirq_rigetti-1.2.0.dev20230508202304-py3-none-any.whl.zip --markdown 20230508/c/cirq-rigetti/1.2.0.dev20230506011226-1.2.0.dev20230508202304/diff.md --exclude *.pyd
+[2023-05-08 22:28:27] INFO root fetch - processPackages [cirq-aqt]: executing diffoscope
+[2023-05-08 22:28:27] INFO root fetch - processPackages [cirq-aqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_aqt-1.2.0.dev20230506011226-py3-none-any.whl.zip tmp/cirq_aqt-1.2.0.dev20230508202304-py3-none-any.whl.zip --markdown 20230508/c/cirq-aqt/1.2.0.dev20230506011226-1.2.0.dev20230508202304/diff.md --exclude *.pyd
+[2023-05-08 22:28:27] INFO root fetch - processPackages [cirq]: executing diffoscope
+[2023-05-08 22:28:27] INFO root fetch - processPackages [cirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq-1.2.0.dev20230506011226-py3-none-any.whl.zip tmp/cirq-1.2.0.dev20230508202304-py3-none-any.whl.zip --markdown 20230508/c/cirq/1.2.0.dev20230506011226-1.2.0.dev20230508202304/diff.md --exclude *.pyd
+[2023-05-08 22:28:27] INFO root fetch - processPackages [cirq-google]: executing diffoscope
+[2023-05-08 22:28:27] INFO root fetch - processPackages [cirq-google]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_google-1.2.0.dev20230506011226-py3-none-any.whl.zip tmp/cirq_google-1.2.0.dev20230508202304-py3-none-any.whl.zip --markdown 20230508/c/cirq-google/1.2.0.dev20230506011226-1.2.0.dev20230508202304/diff.md --exclude *.pyd
+[2023-05-08 22:28:27] INFO root fetch - processPackages [cirq-web]: executing diffoscope
+[2023-05-08 22:28:27] INFO root fetch - processPackages [cirq-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_web-1.2.0.dev20230506011226-py3-none-any.whl.zip tmp/cirq_web-1.2.0.dev20230508202304-py3-none-any.whl.zip --markdown 20230508/c/cirq-web/1.2.0.dev20230506011226-1.2.0.dev20230508202304/diff.md --exclude *.pyd
+[2023-05-08 22:28:27] INFO root fetch - processPackages [cirq-core]: executing diffoscope
+[2023-05-08 22:28:27] INFO root fetch - processPackages [cirq-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_core-1.2.0.dev20230506011226-py3-none-any.whl.zip tmp/cirq_core-1.2.0.dev20230508202304-py3-none-any.whl.zip --markdown 20230508/c/cirq-core/1.2.0.dev20230506011226-1.2.0.dev20230508202304/diff.md --exclude *.pyd
+[2023-05-08 22:28:28] INFO root fetch - processPackages [volttron]: Start processing: skelly-viewer
+[2023-05-08 22:28:28] INFO root fetch - main [MainThread]: End processing [volttron]: success
+[2023-05-08 22:28:28] INFO root fetch - processPackages [skelly-viewer]: New version: [2023.5.1018] Old Version: [2023.3.1017]
+[2023-05-08 22:28:29] INFO root fetch - processPackages [skelly-viewer]: Downloading https://files.pythonhosted.org/packages/46/e7/f512c1c025fa5deeb06640a046bc565bc6143e6178715ea669864b745f24/skelly_viewer-2023.3.1017.tar.gz
+[2023-05-08 22:28:29] INFO root fetch - processPackages [cirq-pasqal]: Start processing: caikit-tgis-backend
+[2023-05-08 22:28:29] INFO root fetch - main [MainThread]: End processing [cirq-pasqal]: success
+[2023-05-08 22:28:29] INFO root fetch - processPackages [cirq]: Start processing: mysql-to-sqlite3
+[2023-05-08 22:28:29] INFO root fetch - main [MainThread]: End processing [cirq]: success
+[2023-05-08 22:28:29] INFO root fetch - processPackages [cirq-aqt]: Start processing: turbine-py
+[2023-05-08 22:28:29] INFO root fetch - main [MainThread]: End processing [cirq-aqt]: success
+[2023-05-08 22:28:29] INFO root fetch - processPackages [cirq-ionq]: Start processing: cdk-amazon-chime-resources
+[2023-05-08 22:28:29] INFO root fetch - main [MainThread]: End processing [cirq-ionq]: success
+[2023-05-08 22:28:29] INFO root fetch - processPackages [turbine-py]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-05-08 22:28:29] INFO root fetch - processPackages [caikit-tgis-backend]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-08 22:28:29] INFO root fetch - processPackages [mysql-to-sqlite3]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-08 22:28:29] INFO root fetch - processPackages [cdk-amazon-chime-resources]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-08 22:28:29] INFO root fetch - processPackages [cirq-rigetti]: Start processing: finalynx
+[2023-05-08 22:28:29] INFO root fetch - main [MainThread]: End processing [cirq-rigetti]: success
+[2023-05-08 22:28:29] INFO root fetch - processPackages [skelly-viewer]: Downloading https://files.pythonhosted.org/packages/76/5c/094d750a44a5ee08d169791399e6da670b1f4c59731243c5ef006c91c306/skelly_viewer-2023.5.1018.tar.gz
+[2023-05-08 22:28:29] INFO root fetch - processPackages [turbine-py]: executing diffoscope
+[2023-05-08 22:28:29] INFO root fetch - processPackages [turbine-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turbine-py-1.8.0.tar.gz tmp/turbine-py-1.8.1.tar.gz --markdown 20230508/t/turbine-py/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-05-08 22:28:29] INFO root fetch - processPackages [cdk-amazon-chime-resources]: Downloading https://files.pythonhosted.org/packages/15/ac/bee4d7971c4b31f5809d546f8f4d120d37a258cdbfb28775825c6a72b324/cdk-amazon-chime-resources-2.3.8.tar.gz
+[2023-05-08 22:28:29] INFO root fetch - processPackages [basic-math-operations]: Start processing: PyExpUtils-andnp
+[2023-05-08 22:28:29] INFO root fetch - main [MainThread]: End processing [basic-math-operations]: success
+[2023-05-08 22:28:29] WARNING root fetch - processPackages [cdk-amazon-chime-resources]: Skipping package: exceeds size limit 14200774>=10485760
+[2023-05-08 22:28:29] INFO root fetch - processPackages [cdk-amazon-chime-resources]: Start processing: aa-standingsrequests
+[2023-05-08 22:28:29] INFO root fetch - main [MainThread]: End processing [cdk-amazon-chime-resources] error
+[2023-05-08 22:28:29] INFO root fetch - processPackages [finalynx]: New version: [1.9.0] Old Version: [1.8.3]
+[2023-05-08 22:28:29] INFO root fetch - processPackages [caikit-tgis-backend]: Downloading https://files.pythonhosted.org/packages/e1/bf/5ac520061543dec6740681f4571bcdd26cb6cb8ab014c653820047236f8c/caikit-tgis-backend-0.1.1.tar.gz
+[2023-05-08 22:28:29] INFO root fetch - processPackages [mysql-to-sqlite3]: Downloading https://files.pythonhosted.org/packages/9e/28/d27e28209dd843b3f891ef41e235d3fc71546995892345924e7758ca4fc8/mysql-to-sqlite3-1.4.8.tar.gz
+[2023-05-08 22:28:29] INFO root fetch - processPackages [aa-standingsrequests]: New version: [1.3.0] Old Version: [1.2.2]
+[2023-05-08 22:28:29] INFO root fetch - processPackages [finalynx]: Downloading https://files.pythonhosted.org/packages/0b/ce/7d9789861d65035c37169ffa7e28f0a3236fe2e4bc410a15215629795d5b/finalynx-1.8.3.tar.gz
+[2023-05-08 22:28:29] INFO root fetch - processPackages [PyExpUtils-andnp]: New version: [4.0.0] Old Version: [3.4.0]
+[2023-05-08 22:28:29] INFO root fetch - processPackages [caikit-tgis-backend]: Downloading https://files.pythonhosted.org/packages/35/96/dce2ea661305d8a18def726d7d01bc2cc7145adc0c6f472f4dfb20cc0085/caikit-tgis-backend-0.1.2.tar.gz
+[2023-05-08 22:28:29] INFO root fetch - processPackages [aa-standingsrequests]: Downloading https://files.pythonhosted.org/packages/4f/09/407f3068562ae9ff658de51e025ad2115da15a9743ac10c106d6dc34e126/aa-standingsrequests-1.2.2.tar.gz
+[2023-05-08 22:28:29] INFO root fetch - processPackages [skelly-viewer]: executing diffoscope
+[2023-05-08 22:28:29] INFO root fetch - processPackages [skelly-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skelly_viewer-2023.3.1017.tar.gz tmp/skelly_viewer-2023.5.1018.tar.gz --markdown 20230508/s/skelly-viewer/2023.3.1017-2023.5.1018/diff.md --exclude *.pyd
+[2023-05-08 22:28:29] INFO root fetch - processPackages [caikit-tgis-backend]: executing diffoscope
+[2023-05-08 22:28:29] INFO root fetch - processPackages [caikit-tgis-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caikit-tgis-backend-0.1.1.tar.gz tmp/caikit-tgis-backend-0.1.2.tar.gz --markdown 20230508/c/caikit-tgis-backend/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-08 22:28:29] INFO root fetch - processPackages [mysql-to-sqlite3]: Downloading https://files.pythonhosted.org/packages/c6/36/e456c6959042232c3e1d36aa121f9c9def0c5e92529d35e0c2d26d44cf4b/mysql-to-sqlite3-1.4.9.tar.gz
+[2023-05-08 22:28:30] INFO root fetch - processPackages [PyExpUtils-andnp]: Downloading https://files.pythonhosted.org/packages/1a/53/77758560ce1cc7abf5fa89130962f5badc3aad1204d1643147ec0c144116/PyExpUtils-andnp-3.4.0.tar.gz
+[2023-05-08 22:28:30] INFO root fetch - processPackages [finalynx]: Downloading https://files.pythonhosted.org/packages/0c/5c/6e8a803447b750bb79f53721e3b0e06cd793162448b8c0df0421fb904c71/finalynx-1.9.0.tar.gz
+[2023-05-08 22:28:30] INFO root fetch - processPackages [aa-standingsrequests]: Downloading https://files.pythonhosted.org/packages/65/66/0d39406b9af362a4ecc6bf738033833da2e21f2913ae422289472e838d47/aa_standingsrequests-1.3.0.tar.gz
+[2023-05-08 22:28:30] INFO root fetch - processPackages [mysql-to-sqlite3]: executing diffoscope
+[2023-05-08 22:28:30] INFO root fetch - processPackages [mysql-to-sqlite3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysql-to-sqlite3-1.4.8.tar.gz tmp/mysql-to-sqlite3-1.4.9.tar.gz --markdown 20230508/m/mysql-to-sqlite3/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-05-08 22:28:30] INFO root fetch - processPackages [finalynx]: executing diffoscope
+[2023-05-08 22:28:30] INFO root fetch - processPackages [finalynx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finalynx-1.8.3.tar.gz tmp/finalynx-1.9.0.tar.gz --markdown 20230508/f/finalynx/1.8.3-1.9.0/diff.md --exclude *.pyd
+[2023-05-08 22:28:30] INFO root fetch - processPackages [aa-standingsrequests]: executing diffoscope
+[2023-05-08 22:28:30] INFO root fetch - processPackages [aa-standingsrequests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa-standingsrequests-1.2.2.tar.gz tmp/aa_standingsrequests-1.3.0.tar.gz --markdown 20230508/a/aa-standingsrequests/1.2.2-1.3.0/diff.md --exclude *.pyd
+[2023-05-08 22:28:30] INFO root fetch - processPackages [PyExpUtils-andnp]: Downloading https://files.pythonhosted.org/packages/4b/6c/aae0e30eafbc713746caace4cf128a30fcfde5b0248be14b19d1a0011bb7/PyExpUtils-andnp-4.0.0.tar.gz
+[2023-05-08 22:28:30] INFO root fetch - processPackages [PyExpUtils-andnp]: executing diffoscope
+[2023-05-08 22:28:30] INFO root fetch - processPackages [PyExpUtils-andnp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyExpUtils-andnp-3.4.0.tar.gz tmp/PyExpUtils-andnp-4.0.0.tar.gz --markdown 20230508/P/PyExpUtils-andnp/3.4.0-4.0.0/diff.md --exclude *.pyd
+[2023-05-08 22:28:30] INFO root fetch - processPackages [turbine-py]: Start processing: carchive
+[2023-05-08 22:28:30] INFO root fetch - main [MainThread]: End processing [turbine-py]: success
+[2023-05-08 22:28:30] INFO root fetch - processPackages [carchive]: New version: [0.0.53] Old Version: [0.0.52]
+[2023-05-08 22:28:30] INFO root fetch - processPackages [carchive]: Downloading https://files.pythonhosted.org/packages/be/24/afd21ee07e9f5bfb8bf4fbe1c6024c86685f5fed922d5cd0872c1895ad79/carchive-0.0.53.tar.gz
+[2023-05-08 22:28:31] INFO root fetch - processPackages [carchive]: executing diffoscope
+[2023-05-08 22:28:31] INFO root fetch - processPackages [carchive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carchive-0.0.52.tar.gz tmp/carchive-0.0.53.tar.gz --markdown 20230508/c/carchive/0.0.52-0.0.53/diff.md --exclude *.pyd
+[2023-05-08 22:28:31] INFO root fetch - processPackages [skelly-viewer]: Start processing: dclab
+[2023-05-08 22:28:31] INFO root fetch - main [MainThread]: End processing [skelly-viewer]: success
+[2023-05-08 22:28:31] INFO root fetch - main [MainThread]: End processing [caikit-tgis-backend]: success
+[2023-05-08 22:28:31] INFO root fetch - processPackages [dclab]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-08 22:28:31] INFO root fetch - processPackages [dclab]: Downloading https://files.pythonhosted.org/packages/7c/85/1e39b909a273589478001e4ea5a3df8fd5923e2dbc48bc5ded42f984a58f/dclab-0.9.0.tar.gz
+[2023-05-08 22:28:31] INFO root fetch - main [MainThread]: End processing [finalynx]: success
+[2023-05-08 22:28:31] INFO root fetch - main [MainThread]: End processing [cirq-google]: success
+[2023-05-08 22:28:32] INFO root fetch - main [MainThread]: End processing [PyExpUtils-andnp]: success
+[2023-05-08 22:28:32] INFO root fetch - main [MainThread]: End processing [cirq-web]: success
+[2023-05-08 22:28:32] INFO root fetch - processPackages [dclab]: Downloading https://files.pythonhosted.org/packages/b7/8f/20dd68d6e832776bab24a9ec17e74b4480bdf3b960f989ada95f9a4387cc/dclab-0.9.1.tar.gz
+[2023-05-08 22:28:32] INFO root fetch - main [MainThread]: End processing [mysql-to-sqlite3]: success
+[2023-05-08 22:28:32] INFO root fetch - processPackages [dclab]: executing diffoscope
+[2023-05-08 22:28:32] INFO root fetch - processPackages [dclab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dclab-0.9.0.tar.gz tmp/dclab-0.9.1.tar.gz --markdown 20230508/d/dclab/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-08 22:28:32] INFO root fetch - main [MainThread]: End processing [carchive]: success
+[2023-05-08 22:28:32] INFO root fetch - main [MainThread]: End processing [aa-standingsrequests]: success
+[2023-05-08 22:28:34] INFO root fetch - main [MainThread]: End processing [dclab]: success
+[2023-05-08 22:28:44] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
+[2023-05-08 22:28:44] INFO root fetch - main [MainThread]: Store serial: [18022218]
