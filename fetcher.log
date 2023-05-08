@@ -14579,3 +14579,164 @@ EOFError: EOF read where object expected
 [2023-05-08 16:32:12] INFO root fetch - main [MainThread]: End processing [carculator-utils]: success
 [2023-05-08 16:32:17] INFO root fetch - main [MainThread]: End processing [moleculekit]: success
 [2023-05-08 16:32:17] INFO root fetch - main [MainThread]: Store serial: [18018051]
+[2023-05-08 16:37:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18018051]
+[2023-05-08 16:37:28] INFO root fetch - main [MainThread]: Found 28 changed packages
+[2023-05-08 16:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: discovery-transition-ds
+[2023-05-08 16:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llmpool
+[2023-05-08 16:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: finetuner-stubs
+[2023-05-08 16:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: finetuner-commons
+[2023-05-08 16:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: renovosolutions.aws-cdk-managed-instance-role
+[2023-05-08 16:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bridgecrew
+[2023-05-08 16:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyqir
+[2023-05-08 16:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: prodigy-iaa
+[2023-05-08 16:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dbt-doc-py
+[2023-05-08 16:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: renovosolutions.aws-cdk-renovo-microapi
+[2023-05-08 16:37:28] INFO root fetch - processPackages [llmpool]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-08 16:37:28] INFO root fetch - processPackages [finetuner-commons]: New version: [0.9.3] Old Version: [0.13.5rc1]
+[2023-05-08 16:37:28] INFO root fetch - processPackages [discovery-transition-ds]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-05-08 16:37:28] INFO root fetch - processPackages [prodigy-iaa]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-08 16:37:28] INFO root fetch - processPackages [pyqir]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-05-08 16:37:28] INFO root fetch - processPackages [finetuner-stubs]: New version: [0.9.3] Old Version: [0.13.5rc1]
+[2023-05-08 16:37:28] INFO root fetch - processPackages [dbt-doc-py]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 16:37:28] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-microapi]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-08 16:37:28] INFO root fetch - processPackages [renovosolutions.aws-cdk-managed-instance-role]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-08 16:37:28] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-08 16:37:28] INFO root fetch - processPackages [llmpool]: Downloading https://files.pythonhosted.org/packages/a6/28/1e78b67ef25e613449536498fdd26697dcd1102a8ef99b6bbc95e5f6f221/llmpool-0.1.1-py3-none-any.whl
+[2023-05-08 16:37:28] INFO root fetch - processPackages [finetuner-commons]: Downloading https://files.pythonhosted.org/packages/07/09/3ae3271082fd9bcbeac3da4684c4d5aff1c1fe9f89b08d30bb1eb56493ba/finetuner_commons-0.13.5rc1-py3-none-any.whl
+[2023-05-08 16:37:28] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-05-08 16:37:28] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230508/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-08 16:37:28] INFO root fetch - processPackages [finetuner-stubs]: Downloading https://files.pythonhosted.org/packages/bd/9d/ce22dda6232c21de664071325111ff089f4340d6b7e5acc0d6005c3beea3/finetuner_stubs-0.13.5rc1-py3-none-any.whl
+[2023-05-08 16:37:28] INFO root fetch - processPackages [prodigy-iaa]: Downloading https://files.pythonhosted.org/packages/15/a6/d4850165d38fdb7051c6c8228c1cf919e56257fc03d207cac8e5ce2fca1f/prodigy_iaa-0.1.0.tar.gz
+[2023-05-08 16:37:28] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-microapi]: Downloading https://files.pythonhosted.org/packages/6f/a0/2f52bd9c495706f631a880c76be84f6c27df10c8da92047df14faa075df2/renovosolutions.aws-cdk-renovo-microapi-0.0.98.tar.gz
+[2023-05-08 16:37:28] INFO root fetch - processPackages [pyqir]: Downloading https://files.pythonhosted.org/packages/a6/6a/78bb10df614ead481f9e8dbe126e2a22c6b7e43bcdd6f605a243d3d4d09b/pyqir-0.8.1-cp37-abi3-win_amd64.whl
+[2023-05-08 16:37:28] INFO root fetch - processPackages [renovosolutions.aws-cdk-managed-instance-role]: Downloading https://files.pythonhosted.org/packages/37/c8/eb569b54d89274a86e4c3fcc095717e3f018268d2594329ea503d588fb4a/renovosolutions.aws-cdk-managed-instance-role-2.3.98.tar.gz
+[2023-05-08 16:37:28] INFO root fetch - processPackages [dbt-doc-py]: Downloading https://files.pythonhosted.org/packages/de/8d/7fe8baaa3ef5115ed44b58a7b8a8d7d45e4b7bdf293562a3ab12119945bf/dbt-doc-py-0.1.9.tar.gz
+[2023-05-08 16:37:28] INFO root fetch - processPackages [dbt-doc-py]: executing diffoscope
+[2023-05-08 16:37:28] INFO root fetch - processPackages [dbt-doc-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-doc-py-0.1.8.tar.gz tmp/dbt-doc-py-0.1.9.tar.gz --markdown 20230508/d/dbt-doc-py/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 16:37:28] INFO root fetch - processPackages [llmpool]: Downloading https://files.pythonhosted.org/packages/aa/6f/94056f9a5ad2cf9a465b3cd4b7f20a8418d43b35fc64759476c8fc031758/llmpool-0.1.2-py3-none-any.whl
+[2023-05-08 16:37:28] INFO root fetch - processPackages [finetuner-commons]: Downloading https://files.pythonhosted.org/packages/e1/c1/11430d37c19d8b297ea0e066a6e93ea1316ef71b4a98447a0f0eb51d465d/finetuner-commons-0.9.3.tar.gz
+[2023-05-08 16:37:28] INFO root fetch - processPackages [discovery-transition-ds]: executing diffoscope
+[2023-05-08 16:37:28] INFO root fetch - processPackages [discovery-transition-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discovery-transition-ds-4.9.8.tar.gz tmp/discovery-transition-ds-4.9.9.tar.gz --markdown 20230508/d/discovery-transition-ds/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-05-08 16:37:28] INFO root fetch - processPackages [finetuner-stubs]: Downloading https://files.pythonhosted.org/packages/ef/16/270441d5d09ae4589cc4559a4e500eceea41c57fc45893813e21f24b16dc/finetuner-stubs-0.9.3.tar.gz
+[2023-05-08 16:37:28] INFO root fetch - processPackages [llmpool]: executing diffoscope
+[2023-05-08 16:37:28] INFO root fetch - processPackages [llmpool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmpool-0.1.1-py3-none-any.whl.zip tmp/llmpool-0.1.2-py3-none-any.whl.zip --markdown 20230508/l/llmpool/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-08 16:37:28] INFO root fetch - processPackages [prodigy-iaa]: Downloading https://files.pythonhosted.org/packages/f5/31/3ff158f8df1190e12664b3d1ab16dc651f68903f886729fb2c32dc9b8e49/prodigy_iaa-0.1.1.tar.gz
+[2023-05-08 16:37:28] INFO root fetch - processPackages [pyqir]: Downloading https://files.pythonhosted.org/packages/b4/20/4276604f34e4df5e006394dff2f1b4f4d850e5bea02b67fc023d7794a1df/pyqir-0.8.2-cp37-abi3-win_amd64.whl
+[2023-05-08 16:37:28] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-microapi]: Downloading https://files.pythonhosted.org/packages/57/f9/c3ee155a2dd2e64c30a8b59d5136d31239e290b0f15a7aca86e087a84cb3/renovosolutions.aws-cdk-renovo-microapi-0.0.99.tar.gz
+[2023-05-08 16:37:28] INFO root fetch - processPackages [finetuner-commons]: executing diffoscope
+[2023-05-08 16:37:28] INFO root fetch - processPackages [finetuner-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finetuner_commons-0.13.5rc1-py3-none-any.whl.zip tmp/finetuner-commons-0.9.3.tar.gz --markdown 20230508/f/finetuner-commons/0.13.5rc1-0.9.3/diff.md --exclude *.pyd
+[2023-05-08 16:37:28] INFO root fetch - processPackages [prodigy-iaa]: executing diffoscope
+[2023-05-08 16:37:28] INFO root fetch - processPackages [prodigy-iaa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prodigy_iaa-0.1.0.tar.gz tmp/prodigy_iaa-0.1.1.tar.gz --markdown 20230508/p/prodigy-iaa/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-08 16:37:28] INFO root fetch - processPackages [renovosolutions.aws-cdk-managed-instance-role]: Downloading https://files.pythonhosted.org/packages/6d/b8/e0dc1374facc5520ac2f87dae6306cd5337310d5bc84025a715915e48584/renovosolutions.aws-cdk-managed-instance-role-2.3.99.tar.gz
+[2023-05-08 16:37:28] INFO root fetch - processPackages [finetuner-stubs]: executing diffoscope
+[2023-05-08 16:37:28] INFO root fetch - processPackages [finetuner-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finetuner_stubs-0.13.5rc1-py3-none-any.whl.zip tmp/finetuner-stubs-0.9.3.tar.gz --markdown 20230508/f/finetuner-stubs/0.13.5rc1-0.9.3/diff.md --exclude *.pyd
+[2023-05-08 16:37:28] INFO root fetch - processPackages [pyqir]: executing diffoscope
+[2023-05-08 16:37:28] INFO root fetch - processPackages [pyqir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqir-0.8.1-cp37-abi3-win_amd64.whl.zip tmp/pyqir-0.8.2-cp37-abi3-win_amd64.whl.zip --markdown 20230508/p/pyqir/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-05-08 16:37:28] INFO root fetch - processPackages [renovosolutions.aws-cdk-managed-instance-role]: executing diffoscope
+[2023-05-08 16:37:28] INFO root fetch - processPackages [renovosolutions.aws-cdk-managed-instance-role]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-managed-instance-role-2.3.98.tar.gz tmp/renovosolutions.aws-cdk-managed-instance-role-2.3.99.tar.gz --markdown 20230508/r/renovosolutions.aws-cdk-managed-instance-role/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-08 16:37:28] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-microapi]: executing diffoscope
+[2023-05-08 16:37:28] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-microapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-renovo-microapi-0.0.98.tar.gz tmp/renovosolutions.aws-cdk-renovo-microapi-0.0.99.tar.gz --markdown 20230508/r/renovosolutions.aws-cdk-renovo-microapi/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-08 16:37:29] INFO root fetch - processPackages [bridgecrew]: Start processing: hsipy
+[2023-05-08 16:37:29] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-05-08 16:37:29] INFO root fetch - processPackages [hsipy]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-08 16:37:29] INFO root fetch - processPackages [hsipy]: Downloading https://files.pythonhosted.org/packages/d5/d8/48aa85ed77e1aa2235347c737061589ef0848a99b427259d3509f1cbb480/hsipy-1.0.5.tar.gz
+[2023-05-08 16:37:30] INFO root fetch - processPackages [dbt-doc-py]: Start processing: fschat
+[2023-05-08 16:37:30] INFO root fetch - main [MainThread]: End processing [dbt-doc-py]: success
+[2023-05-08 16:37:30] INFO root fetch - processPackages [fschat]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-05-08 16:37:30] INFO root fetch - processPackages [finetuner-commons]: Start processing: cybrid-api-id-python
+[2023-05-08 16:37:30] INFO root fetch - main [MainThread]: End processing [finetuner-commons]: success
+[2023-05-08 16:37:30] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-08 16:37:30] INFO root fetch - processPackages [hsipy]: Downloading https://files.pythonhosted.org/packages/c0/06/528817c647c1e5651556a8a3e2af052345503cc853ab2b0ece795dab2816/hsipy-1.0.6.tar.gz
+[2023-05-08 16:37:30] INFO root fetch - processPackages [finetuner-stubs]: Start processing: cybrid-api-organization-python
+[2023-05-08 16:37:30] INFO root fetch - main [MainThread]: End processing [finetuner-stubs]: success
+[2023-05-08 16:37:30] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-05-08 16:37:30] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230508/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-08 16:37:30] INFO root fetch - processPackages [hsipy]: executing diffoscope
+[2023-05-08 16:37:30] INFO root fetch - processPackages [hsipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hsipy-1.0.5.tar.gz tmp/hsipy-1.0.6.tar.gz --markdown 20230508/h/hsipy/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-08 16:37:30] INFO root fetch - processPackages [prodigy-iaa]: Start processing: renovosolutions.aws-cdk-managed-instance-role
+[2023-05-08 16:37:30] INFO root fetch - main [MainThread]: End processing [prodigy-iaa]: success
+[2023-05-08 16:37:30] INFO root fetch - processPackages [fschat]: Downloading https://files.pythonhosted.org/packages/50/1c/a46f80270eb207f979520f652a9a1681b1c487ed20909c17545609fc42bb/fschat-0.2.7.tar.gz
+[2023-05-08 16:37:30] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-08 16:37:30] INFO root fetch - processPackages [renovosolutions.aws-cdk-managed-instance-role]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-08 16:37:30] INFO root fetch - processPackages [llmpool]: Start processing: llmpool
+[2023-05-08 16:37:30] INFO root fetch - main [MainThread]: End processing [llmpool]: success
+[2023-05-08 16:37:30] INFO root fetch - processPackages [llmpool]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-08 16:37:30] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-05-08 16:37:30] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230508/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-08 16:37:30] INFO root fetch - processPackages [fschat]: executing diffoscope
+[2023-05-08 16:37:30] INFO root fetch - processPackages [fschat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fschat-0.2.6.tar.gz tmp/fschat-0.2.7.tar.gz --markdown 20230508/f/fschat/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-05-08 16:37:30] INFO root fetch - processPackages [renovosolutions.aws-cdk-managed-instance-role]: executing diffoscope
+[2023-05-08 16:37:30] INFO root fetch - processPackages [renovosolutions.aws-cdk-managed-instance-role]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-managed-instance-role-2.3.98.tar.gz tmp/renovosolutions.aws-cdk-managed-instance-role-2.3.99.tar.gz --markdown 20230508/r/renovosolutions.aws-cdk-managed-instance-role/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-08 16:37:30] INFO root fetch - processPackages [llmpool]: executing diffoscope
+[2023-05-08 16:37:30] INFO root fetch - processPackages [llmpool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmpool-0.1.1-py3-none-any.whl.zip tmp/llmpool-0.1.2-py3-none-any.whl.zip --markdown 20230508/l/llmpool/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-08 16:37:30] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-microapi]: Start processing: cybrid-api-bank-python
+[2023-05-08 16:37:30] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-renovo-microapi]: success
+[2023-05-08 16:37:30] INFO root fetch - processPackages [renovosolutions.aws-cdk-managed-instance-role]: Start processing: ctlearn
+[2023-05-08 16:37:30] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-managed-instance-role]: success
+[2023-05-08 16:37:30] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-08 16:37:30] INFO root fetch - processPackages [ctlearn]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-05-08 16:37:30] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-05-08 16:37:30] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230508/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-08 16:37:30] INFO root fetch - processPackages [pyqir]: Start processing: renovosolutions.aws-cdk-aspects-security-group
+[2023-05-08 16:37:30] INFO root fetch - main [MainThread]: End processing [pyqir]: success
+[2023-05-08 16:37:30] INFO root fetch - processPackages [renovosolutions.aws-cdk-aspects-security-group]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-05-08 16:37:30] INFO root fetch - processPackages [ctlearn]: Downloading https://files.pythonhosted.org/packages/7a/27/2c11c89d6cb915ae6756aa6e28d0f1e05cbfebc4be16c054d4bc8adf3448/ctlearn-0.6.1-py3-none-any.whl
+[2023-05-08 16:37:30] INFO root fetch - processPackages [renovosolutions.aws-cdk-aspects-security-group]: executing diffoscope
+[2023-05-08 16:37:30] INFO root fetch - processPackages [renovosolutions.aws-cdk-aspects-security-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-aspects-security-group-2.1.98.tar.gz tmp/renovosolutions.aws-cdk-aspects-security-group-2.1.99.tar.gz --markdown 20230508/r/renovosolutions.aws-cdk-aspects-security-group/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-05-08 16:37:31] INFO root fetch - processPackages [ctlearn]: Downloading https://files.pythonhosted.org/packages/92/42/0800fcb15f7482e3fce85bcbcd31cd90e63e254598aacc188655cc052036/ctlearn-0.7.0-py3-none-any.whl
+[2023-05-08 16:37:31] INFO root fetch - processPackages [ctlearn]: executing diffoscope
+[2023-05-08 16:37:31] INFO root fetch - processPackages [ctlearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctlearn-0.6.1-py3-none-any.whl.zip tmp/ctlearn-0.7.0-py3-none-any.whl.zip --markdown 20230508/c/ctlearn/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-05-08 16:37:31] INFO root fetch - processPackages [hsipy]: Start processing: netorca-sdk
+[2023-05-08 16:37:31] INFO root fetch - main [MainThread]: End processing [hsipy]: success
+[2023-05-08 16:37:31] INFO root fetch - processPackages [netorca-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 16:37:31] INFO root fetch - processPackages [llmpool]: Start processing: renovosolutions.aws-cdk-aws-ipam
+[2023-05-08 16:37:31] INFO root fetch - main [MainThread]: End processing [llmpool]: success
+[2023-05-08 16:37:31] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-ipam]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-08 16:37:31] INFO root fetch - processPackages [netorca-sdk]: Downloading https://files.pythonhosted.org/packages/27/05/336984f7c58634cb8f02e301f6e805f99223c0083277573c15a08b65daa4/netorca_sdk-0.0.8.tar.gz
+[2023-05-08 16:37:32] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-ipam]: executing diffoscope
+[2023-05-08 16:37:32] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-ipam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-aws-ipam-0.1.98.tar.gz tmp/renovosolutions.aws-cdk-aws-ipam-0.1.99.tar.gz --markdown 20230508/r/renovosolutions.aws-cdk-aws-ipam/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-08 16:37:32] INFO root fetch - processPackages [cybrid-api-id-python]: Start processing: arcaflow-plugin-example
+[2023-05-08 16:37:32] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-05-08 16:37:32] WARNING root fetch - processPackages [arcaflow-plugin-example]: Skipping, unable to determine old version
+[2023-05-08 16:37:32] INFO root fetch - processPackages [arcaflow-plugin-example]: Start processing: ProtWave-VAE
+[2023-05-08 16:37:32] INFO root fetch - main [MainThread]: End processing [arcaflow-plugin-example] error
+[2023-05-08 16:37:32] WARNING root fetch - processPackages [ProtWave-VAE]: Skipping, unable to determine old version
+[2023-05-08 16:37:32] INFO root fetch - processPackages [ProtWave-VAE]: Start processing: renovosolutions.aws-cdk-multi-account-az-mapping
+[2023-05-08 16:37:32] INFO root fetch - main [MainThread]: End processing [ProtWave-VAE] error
+[2023-05-08 16:37:32] INFO root fetch - processPackages [renovosolutions.aws-cdk-managed-instance-role]: Start processing: dbt-doc-py
+[2023-05-08 16:37:32] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-managed-instance-role]: success
+[2023-05-08 16:37:32] INFO root fetch - processPackages [dbt-doc-py]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 16:37:32] INFO root fetch - processPackages [renovosolutions.aws-cdk-multi-account-az-mapping]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 16:37:32] INFO root fetch - processPackages [dbt-doc-py]: executing diffoscope
+[2023-05-08 16:37:32] INFO root fetch - processPackages [dbt-doc-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-doc-py-0.1.8.tar.gz tmp/dbt-doc-py-0.1.9.tar.gz --markdown 20230508/d/dbt-doc-py/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 16:37:32] INFO root fetch - processPackages [netorca-sdk]: Downloading https://files.pythonhosted.org/packages/04/f9/d6bae7241d181e2251d4906691b472dab5bf8e30a053a5d8fe581627f769/netorca_sdk-0.0.9.tar.gz
+[2023-05-08 16:37:32] INFO root fetch - processPackages [renovosolutions.aws-cdk-aspects-security-group]: Start processing: sick-json
+[2023-05-08 16:37:32] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-aspects-security-group]: success
+[2023-05-08 16:37:32] WARNING root fetch - processPackages [sick-json]: Skipping, unable to determine old version
+[2023-05-08 16:37:32] INFO root fetch - processPackages [sick-json]: Start processing: secrets-cli
+[2023-05-08 16:37:32] INFO root fetch - main [MainThread]: End processing [sick-json] error
+[2023-05-08 16:37:32] INFO root fetch - processPackages [netorca-sdk]: executing diffoscope
+[2023-05-08 16:37:32] INFO root fetch - processPackages [netorca-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netorca_sdk-0.0.8.tar.gz tmp/netorca_sdk-0.0.9.tar.gz --markdown 20230508/n/netorca-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 16:37:32] INFO root fetch - processPackages [renovosolutions.aws-cdk-multi-account-az-mapping]: Downloading https://files.pythonhosted.org/packages/42/81/6bd9b9a0e432b6fdd50bde835192e4750d21a37a1ad9cce202fe06def717/renovosolutions.aws-cdk-multi-account-az-mapping-0.0.8.tar.gz
+[2023-05-08 16:37:32] WARNING root fetch - processPackages [secrets-cli]: Skipping, unable to determine old version
+[2023-05-08 16:37:32] INFO root fetch - processPackages [secrets-cli]: Start processing: hestia-earth-models
+[2023-05-08 16:37:32] INFO root fetch - main [MainThread]: End processing [secrets-cli] error
+[2023-05-08 16:37:32] INFO root fetch - main [MainThread]: End processing [ctlearn]: success
+[2023-05-08 16:37:32] INFO root fetch - main [MainThread]: End processing [fschat]: success
+[2023-05-08 16:37:32] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-05-08 16:37:32] INFO root fetch - processPackages [hestia-earth-models]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-08 16:37:32] INFO root fetch - processPackages [renovosolutions.aws-cdk-multi-account-az-mapping]: Downloading https://files.pythonhosted.org/packages/ad/2d/b2d77cccec47654fd91542ab14949fab1f82f202256f15026fec9e25a299/renovosolutions.aws-cdk-multi-account-az-mapping-0.0.9.tar.gz
+[2023-05-08 16:37:33] INFO root fetch - processPackages [hestia-earth-models]: Downloading https://files.pythonhosted.org/packages/a2/61/d19a2d7e01e8a5e0035eea49d6f5bdd2e224d17d89fe9ef0012f7ff05723/hestia-earth-models-0.9.0.tar.gz
+[2023-05-08 16:37:33] INFO root fetch - processPackages [renovosolutions.aws-cdk-multi-account-az-mapping]: executing diffoscope
+[2023-05-08 16:37:33] INFO root fetch - processPackages [renovosolutions.aws-cdk-multi-account-az-mapping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-multi-account-az-mapping-0.0.8.tar.gz tmp/renovosolutions.aws-cdk-multi-account-az-mapping-0.0.9.tar.gz --markdown 20230508/r/renovosolutions.aws-cdk-multi-account-az-mapping/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 16:37:33] INFO root fetch - main [MainThread]: End processing [dbt-doc-py]: success
+[2023-05-08 16:37:33] INFO root fetch - processPackages [hestia-earth-models]: Downloading https://files.pythonhosted.org/packages/59/94/5b9b4317f8ae747ccffceb5debddd5d4f68a8aac6d6d53afb2ade6dbdfdb/hestia-earth-models-0.9.1.tar.gz
+[2023-05-08 16:37:33] INFO root fetch - main [MainThread]: End processing [netorca-sdk]: success
+[2023-05-08 16:37:33] INFO root fetch - processPackages [hestia-earth-models]: executing diffoscope
+[2023-05-08 16:37:33] INFO root fetch - processPackages [hestia-earth-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hestia-earth-models-0.9.0.tar.gz tmp/hestia-earth-models-0.9.1.tar.gz --markdown 20230508/h/hestia-earth-models/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-08 16:37:33] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-aws-ipam]: success
+[2023-05-08 16:37:33] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-multi-account-az-mapping]: success
+[2023-05-08 16:37:34] INFO root fetch - main [MainThread]: End processing [discovery-transition-ds]: success
+[2023-05-08 16:37:36] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-05-08 16:37:36] INFO root fetch - main [MainThread]: End processing [hestia-earth-models]: success
+[2023-05-08 16:37:36] INFO root fetch - main [MainThread]: Store serial: [18018139]
