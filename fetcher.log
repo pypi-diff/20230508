@@ -8952,3 +8952,122 @@
 [2023-05-08 11:17:03] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
 [2023-05-08 11:17:10] INFO root fetch - main [MainThread]: End processing [pineboo]: success
 [2023-05-08 11:17:10] INFO root fetch - main [MainThread]: Store serial: [18015044]
+[2023-05-08 11:22:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18015044]
+[2023-05-08 11:22:18] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-08 11:22:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pineboo
+[2023-05-08 11:22:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: balladeer
+[2023-05-08 11:22:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edwh-locust-plugin
+[2023-05-08 11:22:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: docxtpl
+[2023-05-08 11:22:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hikvision-isapi-cli
+[2023-05-08 11:22:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: birentechci
+[2023-05-08 11:22:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytranslations
+[2023-05-08 11:22:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bgnlp
+[2023-05-08 11:22:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qwak-core
+[2023-05-08 11:22:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: resolwe
+[2023-05-08 11:22:19] INFO root fetch - processPackages [pytranslations]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-08 11:22:19] INFO root fetch - processPackages [qwak-core]: New version: [0.0.53] Old Version: [0.0.52]
+[2023-05-08 11:22:19] INFO root fetch - processPackages [pineboo]: New version: [1.0.4.5] Old Version: [1.0.4.4]
+[2023-05-08 11:22:19] INFO root fetch - processPackages [bgnlp]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-05-08 11:22:19] WARNING root fetch - processPackages [edwh-locust-plugin]: Skipping, unable to determine old version
+[2023-05-08 11:22:19] INFO root fetch - processPackages [hikvision-isapi-cli]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-08 11:22:19] INFO root fetch - processPackages [birentechci]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 11:22:19] INFO root fetch - processPackages [edwh-locust-plugin]: Start processing: pineboo
+[2023-05-08 11:22:19] INFO root fetch - main [MainThread]: End processing [edwh-locust-plugin] error
+[2023-05-08 11:22:19] INFO root fetch - processPackages [docxtpl]: New version: [0.9.2] Old Version: [0.9.0]
+[2023-05-08 11:22:19] INFO root fetch - processPackages [balladeer]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-08 11:22:19] INFO root fetch - processPackages [resolwe]: New version: [9.0.0a4] Old Version: [9.0.0a3]
+[2023-05-08 11:22:19] INFO root fetch - processPackages [pineboo]: New version: [1.0.4.5] Old Version: [1.0.4.4]
+[2023-05-08 11:22:19] INFO root fetch - processPackages [birentechci]: executing diffoscope
+[2023-05-08 11:22:19] INFO root fetch - processPackages [birentechci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/birentechci-0.0.8.tar.gz tmp/birentechci-0.0.9.tar.gz --markdown 20230508/b/birentechci/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 11:22:19] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/69/a2/bf0f7f7d9a67877794d32266415b52bafc55e6c709cae9e04ac669d96cf1/qwak_core-0.0.52.tar.gz
+[2023-05-08 11:22:19] INFO root fetch - processPackages [pytranslations]: Downloading https://files.pythonhosted.org/packages/98/d8/35ab39221a2ca95e8b198f243c6733a568351fc9965fa178bd104f06a7cc/pytranslations-0.0.1.tar.gz
+[2023-05-08 11:22:19] INFO root fetch - processPackages [bgnlp]: Downloading https://files.pythonhosted.org/packages/a7/4c/48dacfcc8d587c055b17e7f9c0e1b5595caadd911ba97ee676822fcc289b/bgnlp-0.1.4.tar.gz
+[2023-05-08 11:22:19] INFO root fetch - processPackages [balladeer]: executing diffoscope
+[2023-05-08 11:22:19] INFO root fetch - processPackages [balladeer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/balladeer-0.8.0.tar.gz tmp/balladeer-0.9.0.tar.gz --markdown 20230508/b/balladeer/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-08 11:22:19] INFO root fetch - processPackages [docxtpl]: Downloading https://files.pythonhosted.org/packages/ee/99/ab29ed670ac8cec2073b821829ecd6b4c8b1cef4633e2d1a9123411b0375/docxtpl-0.9.0.tar.gz
+[2023-05-08 11:22:19] INFO root fetch - processPackages [hikvision-isapi-cli]: Downloading https://files.pythonhosted.org/packages/62/65/dc45c182127adc63695345ba0c96e0d1605874ad1fbf0cde7362c7b7db6c/hikvision_isapi_cli-1.0.8.tar.gz
+[2023-05-08 11:22:19] INFO root fetch - processPackages [resolwe]: Downloading https://files.pythonhosted.org/packages/27/39/5a1ef83e99306588743d0a561a08a825b4383fd5d466c4f3c8fa59dbdbdd/resolwe-9.0.0a3.tar.gz
+[2023-05-08 11:22:19] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/38/11/898805fac9e30725c2e3d1745c5850508af73ac8da3e09e036703fc4c7e9/pineboo-1.0.4.5.tar.gz
+[2023-05-08 11:22:19] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/38/11/898805fac9e30725c2e3d1745c5850508af73ac8da3e09e036703fc4c7e9/pineboo-1.0.4.5.tar.gz
+[2023-05-08 11:22:19] INFO root fetch - processPackages [bgnlp]: Downloading https://files.pythonhosted.org/packages/86/42/a55df57a0546790406f07afae1fd0f2330760610ea31d6ca00c1150f4f76/bgnlp-0.2.0.tar.gz
+[2023-05-08 11:22:19] INFO root fetch - processPackages [pytranslations]: Downloading https://files.pythonhosted.org/packages/25/9c/a0aca4c02e276f17049755c18a379461dcc4f105695e116c64692ceaf633/pytranslations-0.0.2.tar.gz
+[2023-05-08 11:22:19] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/05/50/6f635b7fef22ad9311f32f9b814dcc9d59a7705e42314d7c27820dc2517c/qwak_core-0.0.53.tar.gz
+[2023-05-08 11:22:19] INFO root fetch - processPackages [pytranslations]: executing diffoscope
+[2023-05-08 11:22:19] INFO root fetch - processPackages [pytranslations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytranslations-0.0.1.tar.gz tmp/pytranslations-0.0.2.tar.gz --markdown 20230508/p/pytranslations/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-08 11:22:19] INFO root fetch - processPackages [bgnlp]: executing diffoscope
+[2023-05-08 11:22:19] INFO root fetch - processPackages [bgnlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bgnlp-0.1.4.tar.gz tmp/bgnlp-0.2.0.tar.gz --markdown 20230508/b/bgnlp/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-05-08 11:22:19] INFO root fetch - processPackages [resolwe]: Downloading https://files.pythonhosted.org/packages/ca/ce/736f65f5bdceb20af592eebc6fdff8968ca39d39f2fa9bbbcb62c64ee673/resolwe-9.0.0a4.tar.gz
+[2023-05-08 11:22:19] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-05-08 11:22:19] INFO root fetch - processPackages [pineboo]: executing diffoscope
+[2023-05-08 11:22:19] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.52.tar.gz tmp/qwak_core-0.0.53.tar.gz --markdown 20230508/q/qwak-core/0.0.52-0.0.53/diff.md --exclude *.pyd
+[2023-05-08 11:22:19] INFO root fetch - processPackages [pineboo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pineboo-1.0.4.4.tar.gz tmp/pineboo-1.0.4.5.tar.gz --markdown 20230508/p/pineboo/1.0.4.4-1.0.4.5/diff.md --exclude *.pyd
+[2023-05-08 11:22:19] INFO root fetch - processPackages [docxtpl]: Downloading https://files.pythonhosted.org/packages/4b/34/2c0e12639f2d3e1edf9c6f38937f1eabae9c2ac7fd4a11254207db90a4c5/docxtpl-0.9.2.tar.gz
+[2023-05-08 11:22:19] INFO root fetch - processPackages [hikvision-isapi-cli]: Downloading https://files.pythonhosted.org/packages/2f/f1/42be6f10fabc7113d05dd9dec03b14f05a6c307f9ac9dac2b1fcdd43b794/hikvision_isapi_cli-1.0.9.tar.gz
+[2023-05-08 11:22:19] INFO root fetch - processPackages [pineboo]: executing diffoscope
+[2023-05-08 11:22:19] INFO root fetch - processPackages [pineboo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pineboo-1.0.4.4.tar.gz tmp/pineboo-1.0.4.5.tar.gz --markdown 20230508/p/pineboo/1.0.4.4-1.0.4.5/diff.md --exclude *.pyd
+[2023-05-08 11:22:19] INFO root fetch - processPackages [resolwe]: executing diffoscope
+[2023-05-08 11:22:19] INFO root fetch - processPackages [resolwe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolwe-9.0.0a3.tar.gz tmp/resolwe-9.0.0a4.tar.gz --markdown 20230508/r/resolwe/9.0.0a3-9.0.0a4/diff.md --exclude *.pyd
+[2023-05-08 11:22:20] INFO root fetch - processPackages [docxtpl]: executing diffoscope
+[2023-05-08 11:22:20] INFO root fetch - processPackages [docxtpl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docxtpl-0.9.0.tar.gz tmp/docxtpl-0.9.2.tar.gz --markdown 20230508/d/docxtpl/0.9.0-0.9.2/diff.md --exclude *.pyd
+[2023-05-08 11:22:20] INFO root fetch - processPackages [hikvision-isapi-cli]: executing diffoscope
+[2023-05-08 11:22:20] INFO root fetch - processPackages [hikvision-isapi-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hikvision_isapi_cli-1.0.8.tar.gz tmp/hikvision_isapi_cli-1.0.9.tar.gz --markdown 20230508/h/hikvision-isapi-cli/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-08 11:22:21] INFO root fetch - processPackages [balladeer]: Start processing: controlnet-aux-voltaml
+[2023-05-08 11:22:21] INFO root fetch - main [MainThread]: End processing [balladeer]: success
+[2023-05-08 11:22:21] INFO root fetch - processPackages [controlnet-aux-voltaml]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-08 11:22:21] INFO root fetch - processPackages [controlnet-aux-voltaml]: Downloading https://files.pythonhosted.org/packages/a6/91/d40ce345f1d38e17778d48573d1619bd91015c2016c4088954d704f5f0c4/controlnet_aux_voltaml-0.3.1.tar.gz
+[2023-05-08 11:22:21] INFO root fetch - processPackages [birentechci]: Start processing: edwh
+[2023-05-08 11:22:21] INFO root fetch - main [MainThread]: End processing [birentechci]: success
+[2023-05-08 11:22:21] INFO root fetch - processPackages [pytranslations]: Start processing: spanishconjugator
+[2023-05-08 11:22:21] INFO root fetch - main [MainThread]: End processing [pytranslations]: success
+[2023-05-08 11:22:21] INFO root fetch - processPackages [edwh]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-08 11:22:21] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-08 11:22:21] INFO root fetch - processPackages [controlnet-aux-voltaml]: Downloading https://files.pythonhosted.org/packages/f5/fe/427d7d2ce1ca97f1c4d6c9b54a6fc070d97fb34c769cba8269e661a375ed/controlnet_aux_voltaml-0.3.2.tar.gz
+[2023-05-08 11:22:21] INFO root fetch - processPackages [edwh]: Downloading https://files.pythonhosted.org/packages/a1/b2/ffc583af9d774bfd7b622dbed69ea2357b3a1f9096658cf1202307626113/edwh-0.9.1.tar.gz
+[2023-05-08 11:22:21] WARNING root fetch - processPackages [edwh]: Skipping package: exceeds size limit 32547749>=10485760
+[2023-05-08 11:22:21] INFO root fetch - processPackages [edwh]: Start processing: lib310-lite
+[2023-05-08 11:22:21] INFO root fetch - main [MainThread]: End processing [edwh] error
+[2023-05-08 11:22:21] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-08 11:22:21] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230508/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-08 11:22:21] INFO root fetch - processPackages [lib310-lite]: New version: [0.0.5.dev0] Old Version: [0.0.5]
+[2023-05-08 11:22:21] INFO root fetch - processPackages [controlnet-aux-voltaml]: executing diffoscope
+[2023-05-08 11:22:21] INFO root fetch - processPackages [controlnet-aux-voltaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/controlnet_aux_voltaml-0.3.1.tar.gz tmp/controlnet_aux_voltaml-0.3.2.tar.gz --markdown 20230508/c/controlnet-aux-voltaml/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-08 11:22:21] INFO root fetch - processPackages [lib310-lite]: Downloading https://files.pythonhosted.org/packages/42/da/c23425e783320969d1e1cf1b24c3940046b716e64cd029d533c22b111419/lib310_lite-0.0.5.tar.gz
+[2023-05-08 11:22:21] INFO root fetch - processPackages [bgnlp]: Start processing: qtest-reporter
+[2023-05-08 11:22:21] INFO root fetch - main [MainThread]: End processing [bgnlp]: success
+[2023-05-08 11:22:22] WARNING root fetch - processPackages [qtest-reporter]: Skipping, unable to determine old version
+[2023-05-08 11:22:22] INFO root fetch - processPackages [qtest-reporter]: Start processing: spotON_sdk
+[2023-05-08 11:22:22] INFO root fetch - main [MainThread]: End processing [qtest-reporter] error
+[2023-05-08 11:22:22] INFO root fetch - processPackages [docxtpl]: Start processing: spanishconjugator
+[2023-05-08 11:22:22] INFO root fetch - main [MainThread]: End processing [docxtpl]: success
+[2023-05-08 11:22:22] INFO root fetch - processPackages [spotON_sdk]: New version: [0.0.1.8] Old Version: [0.0.1.7]
+[2023-05-08 11:22:22] INFO root fetch - processPackages [lib310-lite]: Downloading https://files.pythonhosted.org/packages/20/f5/8216e901d36391cfdff5d910dfdc04ff865eb62fdf8abde4ec4db48694cc/lib310_lite-0.0.5.dev0.tar.gz
+[2023-05-08 11:22:22] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-08 11:22:22] INFO root fetch - processPackages [lib310-lite]: executing diffoscope
+[2023-05-08 11:22:22] INFO root fetch - processPackages [lib310-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib310_lite-0.0.5.tar.gz tmp/lib310_lite-0.0.5.dev0.tar.gz --markdown 20230508/l/lib310-lite/0.0.5-0.0.5.dev0/diff.md --exclude *.pyd
+[2023-05-08 11:22:22] INFO root fetch - processPackages [spotON_sdk]: Downloading https://files.pythonhosted.org/packages/b9/e2/d6ea9c14e1ab7d40ac8f3a3e1063192279e75555afaadb76e517e4a03c19/spotON_sdk-0.0.1.8.tar.gz
+[2023-05-08 11:22:22] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-08 11:22:22] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230508/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-08 11:22:22] INFO root fetch - processPackages [spotON_sdk]: executing diffoscope
+[2023-05-08 11:22:22] INFO root fetch - processPackages [spotON_sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotON_sdk-0.0.1.7.tar.gz tmp/spotON_sdk-0.0.1.8.tar.gz --markdown 20230508/s/spotON_sdk/0.0.1.7-0.0.1.8/diff.md --exclude *.pyd
+[2023-05-08 11:22:24] INFO root fetch - processPackages [lib310-lite]: Start processing: pineboo
+[2023-05-08 11:22:24] INFO root fetch - main [MainThread]: End processing [lib310-lite]: success
+[2023-05-08 11:22:24] INFO root fetch - processPackages [pineboo]: New version: [1.0.4.6] Old Version: [1.0.4.5]
+[2023-05-08 11:22:24] INFO root fetch - processPackages [spanishconjugator]: Start processing: tf-nightly-cpu-aws
+[2023-05-08 11:22:24] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-08 11:22:24] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-08 11:22:24] INFO root fetch - main [MainThread]: End processing [spotON_sdk]: success
+[2023-05-08 11:22:24] INFO root fetch - processPackages [tf-nightly-cpu-aws]: New version: [2.14.0.dev20230508] Old Version: [2.14.0.dev20230507]
+[2023-05-08 11:22:24] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/9f/d3/e75116e3066040e6f5ef899f464bcf93093dc2eef95bd0f4e9dc80377a95/pineboo-1.0.4.6.tar.gz
+[2023-05-08 11:22:24] INFO root fetch - processPackages [tf-nightly-cpu-aws]: Downloading https://files.pythonhosted.org/packages/38/a0/9faab0e9c10f866e5a83d3f56966eeb214429f6b73049248e9e0eade2d0b/tf_nightly_cpu_aws-2.14.0.dev20230507-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-05-08 11:22:25] WARNING root fetch - processPackages [tf-nightly-cpu-aws]: Skipping package: exceeds size limit 250758196>=10485760
+[2023-05-08 11:22:25] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu-aws] error
+[2023-05-08 11:22:25] INFO root fetch - processPackages [pineboo]: executing diffoscope
+[2023-05-08 11:22:25] INFO root fetch - processPackages [pineboo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pineboo-1.0.4.5.tar.gz tmp/pineboo-1.0.4.6.tar.gz --markdown 20230508/p/pineboo/1.0.4.5-1.0.4.6/diff.md --exclude *.pyd
+[2023-05-08 11:22:26] INFO root fetch - main [MainThread]: End processing [hikvision-isapi-cli]: success
+[2023-05-08 11:22:26] INFO root fetch - main [MainThread]: End processing [resolwe]: success
+[2023-05-08 11:22:26] INFO root fetch - main [MainThread]: End processing [controlnet-aux-voltaml]: success
+[2023-05-08 11:22:29] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-05-08 11:22:31] INFO root fetch - main [MainThread]: End processing [pineboo]: success
+[2023-05-08 11:22:31] INFO root fetch - main [MainThread]: End processing [pineboo]: success
+[2023-05-08 11:22:34] INFO root fetch - main [MainThread]: End processing [pineboo]: success
+[2023-05-08 11:22:34] INFO root fetch - main [MainThread]: Store serial: [18015122]
