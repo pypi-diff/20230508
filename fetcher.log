@@ -6378,3 +6378,79 @@
 [2023-05-08 08:46:10] INFO root fetch - processPackages [streetscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streetscope-0.3.6.tar.gz tmp/streetscope-0.3.7.tar.gz --markdown 20230508/s/streetscope/0.3.6-0.3.7/diff.md --exclude *.pyd
 [2023-05-08 08:46:11] INFO root fetch - main [MainThread]: End processing [streetscope]: success
 [2023-05-08 08:46:11] INFO root fetch - main [MainThread]: Store serial: [18013517]
+[2023-05-08 08:51:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18013517]
+[2023-05-08 08:51:19] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-08 08:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiofauna
+[2023-05-08 08:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jpylib-jyrgenn
+[2023-05-08 08:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dsdl
+[2023-05-08 08:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pocketrockit
+[2023-05-08 08:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gcscore
+[2023-05-08 08:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: redbrick-slicer
+[2023-05-08 08:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: parquet2lance
+[2023-05-08 08:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: toolstr
+[2023-05-08 08:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: escaper-utils
+[2023-05-08 08:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: common-test
+[2023-05-08 08:51:19] INFO root fetch - processPackages [common-test]: New version: [29.9.33] Old Version: [29.9.31]
+[2023-05-08 08:51:19] INFO root fetch - processPackages [dsdl]: New version: [0.1.9.4] Old Version: [0.1.9.3]
+[2023-05-08 08:51:19] INFO root fetch - processPackages [gcscore]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-08 08:51:19] INFO root fetch - processPackages [parquet2lance]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-08 08:51:19] INFO root fetch - processPackages [redbrick-slicer]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-08 08:51:19] INFO root fetch - processPackages [escaper-utils]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-05-08 08:51:19] INFO root fetch - processPackages [pocketrockit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 08:51:19] INFO root fetch - processPackages [jpylib-jyrgenn]: New version: [2023.508.846] Old Version: [2023.214.1627]
+[2023-05-08 08:51:19] INFO root fetch - processPackages [aiofauna]: New version: [0.1.5] Old Version: [0.1.2]
+[2023-05-08 08:51:20] INFO root fetch - processPackages [common-test]: executing diffoscope
+[2023-05-08 08:51:20] INFO root fetch - processPackages [common-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/common-test-29.9.31.tar.gz tmp/common-test-29.9.33.tar.gz --markdown 20230508/c/common-test/29.9.31-29.9.33/diff.md --exclude *.pyd
+[2023-05-08 08:51:20] INFO root fetch - processPackages [dsdl]: executing diffoscope
+[2023-05-08 08:51:20] INFO root fetch - processPackages [dsdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsdl-0.1.9.3.tar.gz tmp/dsdl-0.1.9.4.tar.gz --markdown 20230508/d/dsdl/0.1.9.3-0.1.9.4/diff.md --exclude *.pyd
+[2023-05-08 08:51:20] INFO root fetch - processPackages [redbrick-slicer]: Downloading https://files.pythonhosted.org/packages/1b/ed/83109c31a5dd0137f90cbe34b3e699940ce54e0db95864a97d39998ab777/redbrick-slicer-0.1.2.tar.gz
+[2023-05-08 08:51:20] INFO root fetch - processPackages [gcscore]: Downloading https://files.pythonhosted.org/packages/cf/a3/d33d96bf35c15cdd87dbb17473e16cf671d4781559a3b2c85dcf7a774bc9/gcscore-0.0.6.tar.gz
+[2023-05-08 08:51:20] INFO root fetch - processPackages [parquet2lance]: Downloading https://files.pythonhosted.org/packages/11/f1/c614d3d9c355c2eedc6dec0d752dff02db4224e23db67b6bcbc2e0b8f128/parquet2lance-0.0.5.tar.gz
+[2023-05-08 08:51:20] INFO root fetch - processPackages [jpylib-jyrgenn]: Downloading https://files.pythonhosted.org/packages/d2/78/9d62265001f87fb6a6598caefe284e87f4e2155779aac393fb4e7c4da92e/jpylib-jyrgenn-2023.214.1627.tar.gz
+[2023-05-08 08:51:20] INFO root fetch - processPackages [gcscore]: executing diffoscope
+[2023-05-08 08:51:20] INFO root fetch - processPackages [gcscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcscore-0.0.5.tar.gz tmp/gcscore-0.0.6.tar.gz --markdown 20230508/g/gcscore/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-08 08:51:20] INFO root fetch - processPackages [escaper-utils]: Downloading https://files.pythonhosted.org/packages/7d/c1/a7ab7610c577fac65344772c4e4dc5ca753a71e4b6dbc0f5ef1a962886d1/escaper_utils-2.9.8-py3-none-any.whl
+[2023-05-08 08:51:20] INFO root fetch - processPackages [parquet2lance]: executing diffoscope
+[2023-05-08 08:51:20] INFO root fetch - processPackages [parquet2lance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parquet2lance-0.0.4.tar.gz tmp/parquet2lance-0.0.5.tar.gz --markdown 20230508/p/parquet2lance/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-08 08:51:20] WARNING root fetch - processPackages [escaper-utils]: Skipping package: exceeds size limit 64284635>=10485760
+[2023-05-08 08:51:20] INFO root fetch - processPackages [escaper-utils]: Start processing: cameramodels
+[2023-05-08 08:51:20] INFO root fetch - main [MainThread]: End processing [escaper-utils] error
+[2023-05-08 08:51:20] INFO root fetch - processPackages [redbrick-slicer]: Downloading https://files.pythonhosted.org/packages/3e/81/23c002b89ba7f5946a4e6576e07908c5a6e3ec1bd244a9794392c4277e15/redbrick-slicer-0.1.3.tar.gz
+[2023-05-08 08:51:20] INFO root fetch - processPackages [aiofauna]: Downloading https://files.pythonhosted.org/packages/7d/d7/50a3bb07ef074f8eb89ce2431f0942d76d9c47ecfbf65d719cf6b59325b1/aiofauna-0.1.5.tar.gz
+[2023-05-08 08:51:20] INFO root fetch - processPackages [redbrick-slicer]: executing diffoscope
+[2023-05-08 08:51:20] INFO root fetch - processPackages [redbrick-slicer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redbrick-slicer-0.1.2.tar.gz tmp/redbrick-slicer-0.1.3.tar.gz --markdown 20230508/r/redbrick-slicer/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-08 08:51:20] INFO root fetch - processPackages [pocketrockit]: executing diffoscope
+[2023-05-08 08:51:20] INFO root fetch - processPackages [pocketrockit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pocketrockit-0.0.8.tar.gz tmp/pocketrockit-0.0.9.tar.gz --markdown 20230508/p/pocketrockit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 08:51:20] INFO root fetch - processPackages [cameramodels]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-08 08:51:20] INFO root fetch - processPackages [aiofauna]: executing diffoscope
+[2023-05-08 08:51:20] INFO root fetch - processPackages [aiofauna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiofauna-0.1.2.tar.gz tmp/aiofauna-0.1.5.tar.gz --markdown 20230508/a/aiofauna/0.1.2-0.1.5/diff.md --exclude *.pyd
+[2023-05-08 08:51:20] INFO root fetch - processPackages [jpylib-jyrgenn]: Downloading https://files.pythonhosted.org/packages/34/de/75e2124715c3618820303f4bd859cb97bcd4ed2062c49a5bc57f32ac34ba/jpylib-jyrgenn-2023.508.846.tar.gz
+[2023-05-08 08:51:20] INFO root fetch - processPackages [jpylib-jyrgenn]: executing diffoscope
+[2023-05-08 08:51:20] INFO root fetch - processPackages [jpylib-jyrgenn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jpylib-jyrgenn-2023.214.1627.tar.gz tmp/jpylib-jyrgenn-2023.508.846.tar.gz --markdown 20230508/j/jpylib-jyrgenn/2023.214.1627-2023.508.846/diff.md --exclude *.pyd
+[2023-05-08 08:51:20] INFO root fetch - processPackages [cameramodels]: Downloading https://files.pythonhosted.org/packages/24/ae/15d21430682d9f412465bc51a54f482d3600ea1862f8b4a38a9081c49b74/cameramodels-0.2.8.tar.gz
+[2023-05-08 08:51:20] INFO root fetch - processPackages [toolstr]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-08 08:51:20] INFO root fetch - processPackages [toolstr]: Downloading https://files.pythonhosted.org/packages/ca/94/2b1c3c5d9cf68e62a409ab385e93be5ae0a9836d30fee43459bd07cc2be2/toolstr-0.9.2.tar.gz
+[2023-05-08 08:51:20] INFO root fetch - processPackages [cameramodels]: Downloading https://files.pythonhosted.org/packages/8a/51/62bbe1bd43fe587dc969fc1d5de1b37ce84d90842b6d77e02e5c48c2d9cf/cameramodels-0.2.9.tar.gz
+[2023-05-08 08:51:21] INFO root fetch - processPackages [cameramodels]: executing diffoscope
+[2023-05-08 08:51:21] INFO root fetch - processPackages [cameramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cameramodels-0.2.8.tar.gz tmp/cameramodels-0.2.9.tar.gz --markdown 20230508/c/cameramodels/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-08 08:51:21] INFO root fetch - processPackages [toolstr]: Downloading https://files.pythonhosted.org/packages/21/cf/0001627311939373bfa6bcbd76534b042d040bf3fc5fc35c76741b1f015f/toolstr-0.9.3.tar.gz
+[2023-05-08 08:51:21] INFO root fetch - processPackages [toolstr]: executing diffoscope
+[2023-05-08 08:51:21] INFO root fetch - processPackages [toolstr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toolstr-0.9.2.tar.gz tmp/toolstr-0.9.3.tar.gz --markdown 20230508/t/toolstr/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-08 08:51:21] INFO root fetch - processPackages [dsdl]: Start processing: common-test
+[2023-05-08 08:51:21] INFO root fetch - main [MainThread]: End processing [dsdl]: success
+[2023-05-08 08:51:21] INFO root fetch - processPackages [common-test]: New version: [29.9.33.2] Old Version: [29.9.33.1]
+[2023-05-08 08:51:21] INFO root fetch - processPackages [common-test]: Downloading https://files.pythonhosted.org/packages/86/c9/f8abac272a43a30e11a09b2fcbe69e51e90d6df5a4a14980766588782b45/common-test-29.9.33.1.tar.gz
+[2023-05-08 08:51:21] INFO root fetch - main [MainThread]: End processing [pocketrockit]: success
+[2023-05-08 08:51:21] INFO root fetch - main [MainThread]: End processing [gcscore]: success
+[2023-05-08 08:51:22] INFO root fetch - main [MainThread]: End processing [parquet2lance]: success
+[2023-05-08 08:51:22] INFO root fetch - main [MainThread]: End processing [common-test]: success
+[2023-05-08 08:51:22] INFO root fetch - processPackages [common-test]: Downloading https://files.pythonhosted.org/packages/0e/d2/b312124c36aab516c86a0002e22a782b6c8fde025e787216e44806c6377b/common-test-29.9.33.2.tar.gz
+[2023-05-08 08:51:22] INFO root fetch - main [MainThread]: End processing [redbrick-slicer]: success
+[2023-05-08 08:51:22] INFO root fetch - main [MainThread]: End processing [cameramodels]: success
+[2023-05-08 08:51:22] INFO root fetch - processPackages [common-test]: executing diffoscope
+[2023-05-08 08:51:22] INFO root fetch - processPackages [common-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/common-test-29.9.33.1.tar.gz tmp/common-test-29.9.33.2.tar.gz --markdown 20230508/c/common-test/29.9.33.1-29.9.33.2/diff.md --exclude *.pyd
+[2023-05-08 08:51:22] INFO root fetch - main [MainThread]: End processing [aiofauna]: success
+[2023-05-08 08:51:22] INFO root fetch - main [MainThread]: End processing [jpylib-jyrgenn]: success
+[2023-05-08 08:51:23] INFO root fetch - main [MainThread]: End processing [toolstr]: success
+[2023-05-08 08:51:24] INFO root fetch - main [MainThread]: End processing [common-test]: success
+[2023-05-08 08:51:24] INFO root fetch - main [MainThread]: Store serial: [18013610]
