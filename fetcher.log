@@ -5418,3 +5418,82 @@
 [2023-05-08 06:52:02] INFO root fetch - main [MainThread]: End processing [json-urley]: success
 [2023-05-08 06:52:08] INFO root fetch - main [MainThread]: End processing [prettyqt]: success
 [2023-05-08 06:52:08] INFO root fetch - main [MainThread]: Store serial: [18012982]
+[2023-05-08 06:57:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18012982]
+[2023-05-08 06:57:17] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-08 06:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypipr
+[2023-05-08 06:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ODtools
+[2023-05-08 06:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libfwupdplugin1
+[2023-05-08 06:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yartsu
+[2023-05-08 06:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: policyengine-canada
+[2023-05-08 06:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: radiotrace
+[2023-05-08 06:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pypipr
+[2023-05-08 06:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: krx-rigger
+[2023-05-08 06:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ai-dashboard
+[2023-05-08 06:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pypipr
+[2023-05-08 06:57:17] INFO root fetch - processPackages [krx-rigger]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 06:57:17] INFO root fetch - processPackages [ODtools]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-05-08 06:57:17] INFO root fetch - processPackages [policyengine-canada]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-08 06:57:17] INFO root fetch - processPackages [ai-dashboard]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-08 06:57:17] INFO root fetch - processPackages [radiotrace]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-08 06:57:17] INFO root fetch - processPackages [libfwupdplugin1]: New version: [2.0.0] Old Version: [1.0.0]
+[2023-05-08 06:57:17] INFO root fetch - processPackages [pypipr]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 06:57:17] INFO root fetch - processPackages [yartsu]: New version: [23.5.1b1] Old Version: [22.6b5]
+[2023-05-08 06:57:17] INFO root fetch - processPackages [pypipr]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 06:57:17] INFO root fetch - processPackages [pypipr]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 06:57:17] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2023-05-08 06:57:17] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-0.1.8.tar.gz tmp/pypipr-0.1.9.tar.gz --markdown 20230508/p/pypipr/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 06:57:17] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2023-05-08 06:57:17] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2023-05-08 06:57:17] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-0.1.8.tar.gz tmp/pypipr-0.1.9.tar.gz --markdown 20230508/p/pypipr/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 06:57:17] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-0.1.8.tar.gz tmp/pypipr-0.1.9.tar.gz --markdown 20230508/p/pypipr/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 06:57:17] INFO root fetch - processPackages [libfwupdplugin1]: Downloading https://files.pythonhosted.org/packages/ca/a6/6da50934f07ea1b70df6c3517f3295806dbbf63f79b1fc81b11acc38f155/libfwupdplugin1-1.0.0.tar.gz
+[2023-05-08 06:57:17] INFO root fetch - processPackages [ai-dashboard]: Downloading https://files.pythonhosted.org/packages/f7/c9/8a8ea0f9058b88b147c64cb5750bcef7e33f21837a93c7f63dd0fbf9ea8a/AI%20Dashboard-0.2.8.tar.gz
+[2023-05-08 06:57:17] INFO root fetch - processPackages [krx-rigger]: Downloading https://files.pythonhosted.org/packages/f5/db/3e1e60a78dac55ea1c8f6e91278d097da33c504123772800e605a8ad0d16/krx_rigger-0.0.8.tar.gz
+[2023-05-08 06:57:17] INFO root fetch - processPackages [yartsu]: Downloading https://files.pythonhosted.org/packages/2f/ea/7368d41917405fe4a4ea2711e3e35c51ea93d12626d9ebcd9377ee7d8fc8/yartsu-22.6b5.tar.gz
+[2023-05-08 06:57:17] INFO root fetch - processPackages [radiotrace]: Downloading https://files.pythonhosted.org/packages/0c/9a/1b24ab23dbc9da8d5c80ab270c354f36a7da90945a5f67fd26dcdba6359b/radiotrace-0.2.0.tar.gz
+[2023-05-08 06:57:17] INFO root fetch - processPackages [policyengine-canada]: Downloading https://files.pythonhosted.org/packages/28/4b/01a629b9dfc11172c45bc99a7aa9efe756417158eab74625e8861959eca2/policyengine-canada-0.8.0.tar.gz
+[2023-05-08 06:57:17] INFO root fetch - processPackages [libfwupdplugin1]: Downloading https://files.pythonhosted.org/packages/d0/b4/6ad255dc8e509787293a264c5eaa3cfde15fa5c7e9e70640a50decec2237/libfwupdplugin1-2.0.0.tar.gz
+[2023-05-08 06:57:17] INFO root fetch - processPackages [ODtools]: executing diffoscope
+[2023-05-08 06:57:17] INFO root fetch - processPackages [ODtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ODtools-2.1.8.tar.gz tmp/ODtools-2.1.9.tar.gz --markdown 20230508/O/ODtools/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-05-08 06:57:17] INFO root fetch - processPackages [libfwupdplugin1]: executing diffoscope
+[2023-05-08 06:57:17] INFO root fetch - processPackages [libfwupdplugin1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libfwupdplugin1-1.0.0.tar.gz tmp/libfwupdplugin1-2.0.0.tar.gz --markdown 20230508/l/libfwupdplugin1/1.0.0-2.0.0/diff.md --exclude *.pyd
+[2023-05-08 06:57:17] INFO root fetch - processPackages [radiotrace]: Downloading https://files.pythonhosted.org/packages/b4/09/11d508b4c92584a9d5e2ce3d7b282f6e025b50e89147f685a90a6e0022a1/radiotrace-0.3.0.tar.gz
+[2023-05-08 06:57:17] INFO root fetch - processPackages [krx-rigger]: Downloading https://files.pythonhosted.org/packages/59/05/8106984d0c358e894bf27eb839baf0d02ad718ef80496d507d7e3149ab83/krx_rigger-0.0.9.tar.gz
+[2023-05-08 06:57:17] INFO root fetch - processPackages [radiotrace]: executing diffoscope
+[2023-05-08 06:57:17] INFO root fetch - processPackages [radiotrace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radiotrace-0.2.0.tar.gz tmp/radiotrace-0.3.0.tar.gz --markdown 20230508/r/radiotrace/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-08 06:57:17] INFO root fetch - processPackages [yartsu]: Downloading https://files.pythonhosted.org/packages/5d/93/6708492f230b7d0d9ca8d7e986dde205d6a6f9de35d56596fd501744a61e/yartsu-23.5.1b1.tar.gz
+[2023-05-08 06:57:17] INFO root fetch - processPackages [krx-rigger]: executing diffoscope
+[2023-05-08 06:57:17] INFO root fetch - processPackages [krx-rigger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krx_rigger-0.0.8.tar.gz tmp/krx_rigger-0.0.9.tar.gz --markdown 20230508/k/krx-rigger/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 06:57:17] INFO root fetch - processPackages [ai-dashboard]: Downloading https://files.pythonhosted.org/packages/45/56/800549ee00ce58dd51dbd0af3be4a6b4d03e48fe2caf412056921ec5be6e/AI%20Dashboard-0.2.9.tar.gz
+[2023-05-08 06:57:17] INFO root fetch - processPackages [policyengine-canada]: Downloading https://files.pythonhosted.org/packages/40/22/555a719f4eeb35f27888de983fc27df67a98895889b7ce3bcef8998f9116/policyengine-canada-0.9.0.tar.gz
+[2023-05-08 06:57:17] INFO root fetch - processPackages [policyengine-canada]: executing diffoscope
+[2023-05-08 06:57:17] INFO root fetch - processPackages [policyengine-canada]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-canada-0.8.0.tar.gz tmp/policyengine-canada-0.9.0.tar.gz --markdown 20230508/p/policyengine-canada/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-08 06:57:17] INFO root fetch - processPackages [yartsu]: executing diffoscope
+[2023-05-08 06:57:17] INFO root fetch - processPackages [yartsu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yartsu-22.6b5.tar.gz tmp/yartsu-23.5.1b1.tar.gz --markdown 20230508/y/yartsu/22.6b5-23.5.1b1/diff.md --exclude *.pyd
+[2023-05-08 06:57:17] INFO root fetch - processPackages [ai-dashboard]: executing diffoscope
+[2023-05-08 06:57:17] INFO root fetch - processPackages [ai-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AI Dashboard-0.2.8.tar.gz tmp/AI Dashboard-0.2.9.tar.gz --markdown 20230508/a/ai-dashboard/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-08 06:57:18] INFO root fetch - processPackages [pypipr]: Start processing: read-rapidpe
+[2023-05-08 06:57:18] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2023-05-08 06:57:18] INFO root fetch - processPackages [pypipr]: Start processing: pcb-parser
+[2023-05-08 06:57:18] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2023-05-08 06:57:18] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2023-05-08 06:57:18] INFO root fetch - processPackages [pcb-parser]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 06:57:18] INFO root fetch - processPackages [read-rapidpe]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-08 06:57:18] INFO root fetch - main [MainThread]: End processing [libfwupdplugin1]: success
+[2023-05-08 06:57:18] INFO root fetch - processPackages [read-rapidpe]: Downloading https://files.pythonhosted.org/packages/bd/79/2c582862545313ba12b4b15d5aa8673e46efb2cc7d55b9db98c782fdbbbc/read_rapidpe-0.2.0.tar.gz
+[2023-05-08 06:57:19] INFO root fetch - processPackages [pcb-parser]: Downloading https://files.pythonhosted.org/packages/38/77/45f14145e5d95fb0f176430a2c3d3b67194d326845df0e711b4fd71a423e/pcb-parser-0.0.8.tar.gz
+[2023-05-08 06:57:19] INFO root fetch - processPackages [read-rapidpe]: Downloading https://files.pythonhosted.org/packages/4b/b6/88e33aa1bbd0b37c111939ca6cc761c9f505c31876d4d1ef576a5a2a68a6/read_rapidpe-0.2.1.tar.gz
+[2023-05-08 06:57:19] INFO root fetch - main [MainThread]: End processing [krx-rigger]: success
+[2023-05-08 06:57:19] INFO root fetch - main [MainThread]: End processing [policyengine-canada]: success
+[2023-05-08 06:57:19] INFO root fetch - main [MainThread]: End processing [radiotrace]: success
+[2023-05-08 06:57:19] INFO root fetch - main [MainThread]: End processing [ODtools]: success
+[2023-05-08 06:57:19] INFO root fetch - processPackages [read-rapidpe]: executing diffoscope
+[2023-05-08 06:57:19] INFO root fetch - processPackages [read-rapidpe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/read_rapidpe-0.2.0.tar.gz tmp/read_rapidpe-0.2.1.tar.gz --markdown 20230508/r/read-rapidpe/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-08 06:57:19] INFO root fetch - processPackages [pcb-parser]: Downloading https://files.pythonhosted.org/packages/03/3b/ce1ae85650133b6b1b20b1836ec8f2e8af3eff340b4d76c76aad3377ee10/pcb-parser-0.0.9.tar.gz
+[2023-05-08 06:57:19] INFO root fetch - main [MainThread]: End processing [ai-dashboard]: success
+[2023-05-08 06:57:19] INFO root fetch - processPackages [pcb-parser]: executing diffoscope
+[2023-05-08 06:57:19] INFO root fetch - processPackages [pcb-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pcb-parser-0.0.8.tar.gz tmp/pcb-parser-0.0.9.tar.gz --markdown 20230508/p/pcb-parser/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 06:57:19] INFO root fetch - main [MainThread]: End processing [yartsu]: success
+[2023-05-08 06:57:20] INFO root fetch - main [MainThread]: End processing [pcb-parser]: success
+[2023-05-08 06:57:20] INFO root fetch - main [MainThread]: End processing [read-rapidpe]: success
+[2023-05-08 06:57:20] INFO root fetch - main [MainThread]: Store serial: [18013023]
