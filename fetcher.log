@@ -5497,3 +5497,79 @@
 [2023-05-08 06:57:20] INFO root fetch - main [MainThread]: End processing [pcb-parser]: success
 [2023-05-08 06:57:20] INFO root fetch - main [MainThread]: End processing [read-rapidpe]: success
 [2023-05-08 06:57:20] INFO root fetch - main [MainThread]: Store serial: [18013023]
+[2023-05-08 07:02:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18013023]
+[2023-05-08 07:02:29] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-08 07:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: always-updates
+[2023-05-08 07:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chompjs
+[2023-05-08 07:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: m-abac-anhnt
+[2023-05-08 07:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: libfwupdplugin1
+[2023-05-08 07:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: policyengine-canada
+[2023-05-08 07:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: madai
+[2023-05-08 07:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: m-scheduler-partitioning
+[2023-05-08 07:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ai-dashboard
+[2023-05-08 07:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tflite-runtime-nightly
+[2023-05-08 07:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: RadioTrace
+[2023-05-08 07:02:29] INFO root fetch - processPackages [chompjs]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-05-08 07:02:29] INFO root fetch - processPackages [m-abac-anhnt]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-08 07:02:29] INFO root fetch - processPackages [libfwupdplugin1]: New version: [9.0.0] Old Version: [2.0.0]
+[2023-05-08 07:02:29] INFO root fetch - processPackages [madai]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-08 07:02:29] INFO root fetch - processPackages [ai-dashboard]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-08 07:02:29] INFO root fetch - processPackages [m-scheduler-partitioning]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-08 07:02:29] INFO root fetch - processPackages [policyengine-canada]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-08 07:02:29] INFO root fetch - processPackages [RadioTrace]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-08 07:02:29] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-05-08 07:02:29] INFO root fetch - processPackages [policyengine-canada]: executing diffoscope
+[2023-05-08 07:02:29] INFO root fetch - processPackages [policyengine-canada]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-canada-0.8.0.tar.gz tmp/policyengine-canada-0.9.0.tar.gz --markdown 20230508/p/policyengine-canada/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-08 07:02:29] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.14.0.dev20230507] Old Version: [2.14.0.dev20230505]
+[2023-05-08 07:02:29] INFO root fetch - processPackages [chompjs]: Downloading https://files.pythonhosted.org/packages/24/72/22660aba976ba8e31aee62be5e69666df895286c535635660d4b925029fc/chompjs-1.1.9.tar.gz
+[2023-05-08 07:02:29] INFO root fetch - processPackages [ai-dashboard]: executing diffoscope
+[2023-05-08 07:02:29] INFO root fetch - processPackages [ai-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AI Dashboard-0.2.8.tar.gz tmp/AI Dashboard-0.2.9.tar.gz --markdown 20230508/a/ai-dashboard/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-08 07:02:29] INFO root fetch - processPackages [madai]: Downloading https://files.pythonhosted.org/packages/50/d7/fb0369862cabd0d2d170d5768001371be7cc5abd35838751978bb6776a83/madai-0.1.0.tar.gz
+[2023-05-08 07:02:29] INFO root fetch - processPackages [libfwupdplugin1]: Downloading https://files.pythonhosted.org/packages/2c/26/5100db7c46eaf7c52865c7414759512849c0f55d73c18c5e377344000f7f/libfwupdplugin1-9.0.0.tar.gz
+[2023-05-08 07:02:29] INFO root fetch - processPackages [m-abac-anhnt]: Downloading https://files.pythonhosted.org/packages/69/9a/175ba13dcc24e8d5f3d60b94b2fa5da297fde9618cd77d0dcc8a103c11fe/m-abac-anhnt-1.0.6.tar.gz
+[2023-05-08 07:02:29] INFO root fetch - processPackages [m-scheduler-partitioning]: Downloading https://files.pythonhosted.org/packages/9d/39/825339013d1b1d479aedc6f7870bc52638343b39fb580fb9e18c7c5e79c4/m_scheduler_partitioning-0.1.7.tar.gz
+[2023-05-08 07:02:29] INFO root fetch - processPackages [RadioTrace]: Downloading https://files.pythonhosted.org/packages/5d/d5/3a57f85f65d8d77ddbb1685180d3ce56a70a6fbc7abff5b1f76d6b7f8a81/RadioTrace-0.4.0.tar.gz
+[2023-05-08 07:02:29] INFO root fetch - processPackages [libfwupdplugin1]: executing diffoscope
+[2023-05-08 07:02:29] INFO root fetch - processPackages [libfwupdplugin1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libfwupdplugin1-2.0.0.tar.gz tmp/libfwupdplugin1-9.0.0.tar.gz --markdown 20230508/l/libfwupdplugin1/2.0.0-9.0.0/diff.md --exclude *.pyd
+[2023-05-08 07:02:29] INFO root fetch - processPackages [m-abac-anhnt]: executing diffoscope
+[2023-05-08 07:02:29] INFO root fetch - processPackages [m-abac-anhnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m-abac-anhnt-1.0.5.tar.gz tmp/m-abac-anhnt-1.0.6.tar.gz --markdown 20230508/m/m-abac-anhnt/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-08 07:02:29] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/b4/a0/680653370e5ec82907b1cc2d29834e78193b23ee58ba7e5bcfde58e043e1/tflite_runtime_nightly-2.14.0.dev20230505-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-08 07:02:29] INFO root fetch - processPackages [RadioTrace]: executing diffoscope
+[2023-05-08 07:02:29] INFO root fetch - processPackages [RadioTrace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radiotrace-0.3.0.tar.gz tmp/RadioTrace-0.4.0.tar.gz --markdown 20230508/R/RadioTrace/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-08 07:02:29] INFO root fetch - processPackages [chompjs]: Downloading https://files.pythonhosted.org/packages/69/11/5aa85c8b31fce1a29e49f7c7daf021828b967abe7209c82eb0e761da269f/chompjs-1.2.0.tar.gz
+[2023-05-08 07:02:29] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-05-08 07:02:29] INFO root fetch - processPackages [madai]: Downloading https://files.pythonhosted.org/packages/df/df/be07d5693ed79c6cd96074f6c291b3e944db9531c72a4003cf52be3d7344/madai-0.1.1.tar.gz
+[2023-05-08 07:02:29] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230508/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-05-08 07:02:29] INFO root fetch - processPackages [chompjs]: executing diffoscope
+[2023-05-08 07:02:29] INFO root fetch - processPackages [madai]: executing diffoscope
+[2023-05-08 07:02:29] INFO root fetch - processPackages [chompjs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chompjs-1.1.9.tar.gz tmp/chompjs-1.2.0.tar.gz --markdown 20230508/c/chompjs/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-05-08 07:02:29] INFO root fetch - processPackages [madai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/madai-0.1.0.tar.gz tmp/madai-0.1.1.tar.gz --markdown 20230508/m/madai/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-08 07:02:29] INFO root fetch - processPackages [m-scheduler-partitioning]: Downloading https://files.pythonhosted.org/packages/76/40/741ba6bdff39920818185045f088a131f520fd4033f492a031376417478d/m_scheduler_partitioning-0.1.8.tar.gz
+[2023-05-08 07:02:29] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/2d/38/45c6146e0702aa7b426b34f94fe5e9dad5ddadd8d144b9bed607b1f58974/tflite_runtime_nightly-2.14.0.dev20230507-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-08 07:02:29] INFO root fetch - processPackages [m-scheduler-partitioning]: executing diffoscope
+[2023-05-08 07:02:29] INFO root fetch - processPackages [m-scheduler-partitioning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m_scheduler_partitioning-0.1.7.tar.gz tmp/m_scheduler_partitioning-0.1.8.tar.gz --markdown 20230508/m/m-scheduler-partitioning/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-08 07:02:30] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2023-05-08 07:02:30] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.14.0.dev20230505-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/tflite_runtime_nightly-2.14.0.dev20230507-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230508/t/tflite-runtime-nightly/2.14.0.dev20230505-2.14.0.dev20230507/diff.md --exclude *.pyd
+[2023-05-08 07:02:30] INFO root fetch - processPackages [policyengine-canada]: Start processing: dialogy
+[2023-05-08 07:02:30] INFO root fetch - main [MainThread]: End processing [policyengine-canada]: success
+[2023-05-08 07:02:30] INFO root fetch - processPackages [dialogy]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-05-08 07:02:31] INFO root fetch - processPackages [dialogy]: Downloading https://files.pythonhosted.org/packages/03/cf/6f3e6e209a3d9033074fd39484a21f673d6508d83fdea925bdaef96d23f3/dialogy-2.0.4.tar.gz
+[2023-05-08 07:02:31] INFO root fetch - processPackages [libfwupdplugin1]: Start processing: cyberdrop-dl
+[2023-05-08 07:02:31] INFO root fetch - main [MainThread]: End processing [libfwupdplugin1]: success
+[2023-05-08 07:02:31] INFO root fetch - main [MainThread]: End processing [ai-dashboard]: success
+[2023-05-08 07:02:31] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.16] Old Version: [4.2.15]
+[2023-05-08 07:02:31] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-05-08 07:02:31] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-05-08 07:02:31] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.15.tar.gz tmp/cyberdrop-dl-4.2.16.tar.gz --markdown 20230508/c/cyberdrop-dl/4.2.15-4.2.16/diff.md --exclude *.pyd
+[2023-05-08 07:02:31] INFO root fetch - main [MainThread]: End processing [madai]: success
+[2023-05-08 07:02:31] INFO root fetch - processPackages [dialogy]: Downloading https://files.pythonhosted.org/packages/34/11/40ca4073adde57359962f273b76beca90494d9871a194b1c8e61a52cd0b4/dialogy-2.0.5.tar.gz
+[2023-05-08 07:02:31] INFO root fetch - main [MainThread]: End processing [RadioTrace]: success
+[2023-05-08 07:02:31] INFO root fetch - main [MainThread]: End processing [m-abac-anhnt]: success
+[2023-05-08 07:02:31] INFO root fetch - processPackages [dialogy]: executing diffoscope
+[2023-05-08 07:02:31] INFO root fetch - processPackages [dialogy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dialogy-2.0.4.tar.gz tmp/dialogy-2.0.5.tar.gz --markdown 20230508/d/dialogy/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-05-08 07:02:31] INFO root fetch - main [MainThread]: End processing [m-scheduler-partitioning]: success
+[2023-05-08 07:02:31] INFO root fetch - main [MainThread]: End processing [chompjs]: success
+[2023-05-08 07:02:32] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2023-05-08 07:02:32] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-05-08 07:02:32] INFO root fetch - main [MainThread]: End processing [dialogy]: success
+[2023-05-08 07:02:32] INFO root fetch - main [MainThread]: Store serial: [18013065]
