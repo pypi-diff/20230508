@@ -1433,3 +1433,33 @@
 [2023-05-08 02:29:44] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
 [2023-05-08 02:29:45] INFO root fetch - main [MainThread]: End processing [cdktf-proxmox]: success
 [2023-05-08 02:29:45] INFO root fetch - main [MainThread]: Store serial: [18010900]
+[2023-05-08 02:34:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18010900]
+[2023-05-08 02:34:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-08 02:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: everdrop-aws-cdk-constructs
+[2023-05-08 02:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlink
+[2023-05-08 02:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdklabs.cdk-enterprise-iac
+[2023-05-08 02:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ipfskvs
+[2023-05-08 02:34:53] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 02:34:53] INFO root fetch - processPackages [streamlink]: New version: [5.5.1] Old Version: [5.5.0]
+[2023-05-08 02:34:53] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-08 02:34:53] INFO root fetch - processPackages [ipfskvs]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-08 02:34:54] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/b1/1b/a3b30c74002ec25b8304d84e5eec007892dead22b4b23a7206f508f96eea/everdrop-aws-cdk-constructs-0.0.8.tar.gz
+[2023-05-08 02:34:54] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Downloading https://files.pythonhosted.org/packages/26/1b/2d98082d5a50de544ac5b0df408479fcedd8e3cbc7361e0cb0e9f362a0af/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz
+[2023-05-08 02:34:54] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/cd/57/3add87540af9765045ed2b13533f5a4a8a6608a58b259a8279e90f9a37f6/everdrop-aws-cdk-constructs-0.0.9.tar.gz
+[2023-05-08 02:34:54] INFO root fetch - processPackages [streamlink]: Downloading https://files.pythonhosted.org/packages/75/90/b49714c67d71e3c62798cb7560581afca8f11180c8960365861114b9b048/streamlink-5.5.0.tar.gz
+[2023-05-08 02:34:54] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: executing diffoscope
+[2023-05-08 02:34:54] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/everdrop-aws-cdk-constructs-0.0.8.tar.gz tmp/everdrop-aws-cdk-constructs-0.0.9.tar.gz --markdown 20230508/e/everdrop-aws-cdk-constructs/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 02:34:54] INFO root fetch - processPackages [ipfskvs]: Downloading https://files.pythonhosted.org/packages/23/87/22ed6670cfa9d068fbe35835392775658ea16ba02315fa5b5d13dac33342/ipfskvs-0.1.5.tar.gz
+[2023-05-08 02:34:54] INFO root fetch - processPackages [streamlink]: Downloading https://files.pythonhosted.org/packages/57/8d/30e20ff0ed25a55e1414df5ea9dfa044fb0b60cebba29a6c82150234e0ac/streamlink-5.5.1.tar.gz
+[2023-05-08 02:34:54] INFO root fetch - processPackages [ipfskvs]: executing diffoscope
+[2023-05-08 02:34:54] INFO root fetch - processPackages [ipfskvs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipfskvs-0.1.4.tar.gz tmp/ipfskvs-0.1.5.tar.gz --markdown 20230508/i/ipfskvs/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-08 02:34:54] INFO root fetch - processPackages [streamlink]: executing diffoscope
+[2023-05-08 02:34:54] INFO root fetch - processPackages [streamlink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlink-5.5.0.tar.gz tmp/streamlink-5.5.1.tar.gz --markdown 20230508/s/streamlink/5.5.0-5.5.1/diff.md --exclude *.pyd
+[2023-05-08 02:34:55] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Downloading https://files.pythonhosted.org/packages/68/b7/1bc76974269d07601c13aaa5489dbaf5bfced52da0839a380231163281b2/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz
+[2023-05-08 02:34:55] INFO root fetch - main [MainThread]: End processing [everdrop-aws-cdk-constructs]: success
+[2023-05-08 02:34:55] INFO root fetch - main [MainThread]: End processing [ipfskvs]: success
+[2023-05-08 02:34:56] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: executing diffoscope
+[2023-05-08 02:34:56] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz --markdown 20230508/c/cdklabs.cdk-enterprise-iac/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-08 02:34:58] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-enterprise-iac]: success
+[2023-05-08 02:34:59] INFO root fetch - main [MainThread]: End processing [streamlink]: success
+[2023-05-08 02:34:59] INFO root fetch - main [MainThread]: Store serial: [18010916]
