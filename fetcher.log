@@ -2525,3 +2525,30 @@
 [2023-05-08 04:19:33] INFO root fetch - main [MainThread]: End processing [alibabacloud-btripopen20220520-py2]: success
 [2023-05-08 04:19:33] INFO root fetch - main [MainThread]: End processing [alibabacloud-btripopen20220520]: success
 [2023-05-08 04:19:33] INFO root fetch - main [MainThread]: Store serial: [18011527]
+[2023-05-08 04:24:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18011527]
+[2023-05-08 04:24:43] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-08 04:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-cr-constructs
+[2023-05-08 04:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-certbot-dns-route53
+[2023-05-08 04:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-certbot-dns-route53
+[2023-05-08 04:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: graph-z-c
+[2023-05-08 04:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: easy-gpt-utils
+[2023-05-08 04:24:43] INFO root fetch - processPackages [cdk-cr-constructs]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-05-08 04:24:43] WARNING root fetch - processPackages [easy-gpt-utils]: Skipping, unable to determine old version
+[2023-05-08 04:24:43] INFO root fetch - main [MainThread]: End processing [easy-gpt-utils] error
+[2023-05-08 04:24:43] INFO root fetch - processPackages [graph-z-c]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-08 04:24:43] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-05-08 04:24:43] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-05-08 04:24:43] INFO root fetch - processPackages [cdk-cr-constructs]: Downloading https://files.pythonhosted.org/packages/fe/58/3e435ab85ca79a785db1238624c29b48fc60946bcbae9b2813fd45cb0a41/cdk-cr-constructs-2.1.98.tar.gz
+[2023-05-08 04:24:43] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2023-05-08 04:24:43] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.1.98.tar.gz tmp/cdk-certbot-dns-route53-2.1.99.tar.gz --markdown 20230508/c/cdk-certbot-dns-route53/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-05-08 04:24:43] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2023-05-08 04:24:43] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.1.98.tar.gz tmp/cdk-certbot-dns-route53-2.1.99.tar.gz --markdown 20230508/c/cdk-certbot-dns-route53/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-05-08 04:24:43] INFO root fetch - processPackages [graph-z-c]: Downloading https://files.pythonhosted.org/packages/4c/60/226f53fc331f4341bb3dc618787742a51d4080efa0b1c15f0653b41b6a75/graph_z_c-0.0.3.tar.gz
+[2023-05-08 04:24:43] INFO root fetch - processPackages [graph-z-c]: executing diffoscope
+[2023-05-08 04:24:43] INFO root fetch - processPackages [graph-z-c]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graph_z_c-0.0.2.tar.gz tmp/graph_z_c-0.0.3.tar.gz --markdown 20230508/g/graph-z-c/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-08 04:24:44] WARNING root fetch - processPackages [cdk-cr-constructs]: Skipping package: exceeds size limit 12826336>=10485760
+[2023-05-08 04:24:44] INFO root fetch - main [MainThread]: End processing [cdk-cr-constructs] error
+[2023-05-08 04:24:44] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2023-05-08 04:24:44] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2023-05-08 04:25:15] INFO root fetch - main [MainThread]: End processing [graph-z-c]: success
+[2023-05-08 04:25:15] INFO root fetch - main [MainThread]: Store serial: [18011554]
