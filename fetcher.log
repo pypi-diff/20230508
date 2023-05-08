@@ -20786,3 +20786,160 @@ EOFError: EOF read where object expected
 [2023-05-08 21:53:59] INFO root fetch - main [MainThread]: End processing [open-space-toolkit-mathematics]: success
 [2023-05-08 21:55:28] INFO root fetch - main [MainThread]: End processing [openvds]: success
 [2023-05-08 21:55:28] INFO root fetch - main [MainThread]: Store serial: [18021721]
+[2023-05-08 22:01:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18021721]
+[2023-05-08 22:01:07] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-05-08 22:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: canopy-platform
+[2023-05-08 22:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xknx
+[2023-05-08 22:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bcirisktools
+[2023-05-08 22:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xia-compiler-openapi
+[2023-05-08 22:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: helix.catalog-sdk
+[2023-05-08 22:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: exondb
+[2023-05-08 22:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: threadsafe-shell
+[2023-05-08 22:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stactools
+[2023-05-08 22:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: monoqueue
+[2023-05-08 22:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: domolibrary
+[2023-05-08 22:01:07] INFO root fetch - processPackages [canopy-platform]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-05-08 22:01:07] INFO root fetch - processPackages [threadsafe-shell]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-08 22:01:07] INFO root fetch - processPackages [monoqueue]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-08 22:01:07] INFO root fetch - processPackages [bcirisktools]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-08 22:01:07] INFO root fetch - processPackages [xia-compiler-openapi]: New version: [0.1.5] Old Version: [0.1.3]
+[2023-05-08 22:01:07] INFO root fetch - processPackages [helix.catalog-sdk]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-08 22:01:07] INFO root fetch - processPackages [stactools]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-05-08 22:01:07] INFO root fetch - processPackages [exondb]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-05-08 22:01:07] INFO root fetch - processPackages [xknx]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-05-08 22:01:07] INFO root fetch - processPackages [domolibrary]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 22:01:07] INFO root fetch - processPackages [monoqueue]: Downloading https://files.pythonhosted.org/packages/6e/f1/e01613a26c23776dbce4beb22f7794a758d57100fa3cec7c002fb2ad7635/monoqueue-1.0.0.tar.gz
+[2023-05-08 22:01:07] INFO root fetch - processPackages [threadsafe-shell]: Downloading https://files.pythonhosted.org/packages/9d/1f/318157d09413006d8b4836ec4d15ae234ea3031d4afab8f6eee45f7e736b/threadsafe_shell-1.0.0.tar.gz
+[2023-05-08 22:01:07] INFO root fetch - processPackages [helix.catalog-sdk]: Downloading https://files.pythonhosted.org/packages/86/70/958ba10bd5e3034a77178ad3d07c133e0e90625c5c98160c9e680213fab1/helix.catalog-sdk-0.2.8.tar.gz
+[2023-05-08 22:01:07] INFO root fetch - processPackages [xknx]: Downloading https://files.pythonhosted.org/packages/2c/20/4a1dd050eb0440be4315e22cb2a18c282db281bc23a91172838252006d87/xknx-2.8.0.tar.gz
+[2023-05-08 22:01:07] INFO root fetch - processPackages [xia-compiler-openapi]: Downloading https://files.pythonhosted.org/packages/35/7c/2a56b8061cdfa19cfbf4696406e2c098a92c13a76e6eafaade9a1533a095/xia_compiler_openapi-0.1.3-cp39-none-win_amd64.whl
+[2023-05-08 22:01:07] INFO root fetch - processPackages [bcirisktools]: Downloading https://files.pythonhosted.org/packages/c8/5c/1955664ed75ab8a4b03b5e1c909ab11dc1431a987f32174ccb1984d3b220/bcirisktools-0.2.7.tar.gz
+[2023-05-08 22:01:07] INFO root fetch - processPackages [stactools]: Downloading https://files.pythonhosted.org/packages/8e/b1/0934152c98d132806663109fe50e20c131f516bcae27d51524abbbb5d6d3/stactools-0.4.6.tar.gz
+[2023-05-08 22:01:07] INFO root fetch - processPackages [exondb]: Downloading https://files.pythonhosted.org/packages/2b/f4/5ac92937f9e0e18658bdb07d00439c6fab319caabca2eb8782739971cbfc/exondb-0.3.8.tar.gz
+[2023-05-08 22:01:07] INFO root fetch - processPackages [canopy-platform]: executing diffoscope
+[2023-05-08 22:01:07] INFO root fetch - processPackages [canopy-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canopy-platform-0.0.7.tar.gz tmp/canopy-platform-0.0.9.tar.gz --markdown 20230508/c/canopy-platform/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 22:01:07] INFO root fetch - processPackages [exondb]: executing diffoscope
+[2023-05-08 22:01:07] INFO root fetch - processPackages [exondb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exondb-0.3.7.tar.gz tmp/exondb-0.3.8.tar.gz --markdown 20230508/e/exondb/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-05-08 22:01:07] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-05-08 22:01:07] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.8.tar.gz tmp/domolibrary-0.1.9.tar.gz --markdown 20230508/d/domolibrary/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 22:01:07] INFO root fetch - processPackages [monoqueue]: Downloading https://files.pythonhosted.org/packages/fc/a3/1555595e7631705dd4ea051d979e3f13aa2e073862653093fe5865335ad2/monoqueue-1.0.1.tar.gz
+[2023-05-08 22:01:07] INFO root fetch - processPackages [threadsafe-shell]: Downloading https://files.pythonhosted.org/packages/c3/5a/1a3e390593a488c00724ec224d2f7ec0b75f1398494507e419cfb7d21afa/threadsafe_shell-1.1.0.tar.gz
+[2023-05-08 22:01:07] INFO root fetch - processPackages [bcirisktools]: Downloading https://files.pythonhosted.org/packages/b8/34/8c4b5cfed555fb0112264aca0da600dff58f10810ad1ca2f59deab3b3a6c/bcirisktools-0.2.8.tar.gz
+[2023-05-08 22:01:07] INFO root fetch - processPackages [xia-compiler-openapi]: Downloading https://files.pythonhosted.org/packages/ae/c6/05c86226c901343d97171e85ae3357710315bb49446dfdf0c4dd68049e9e/xia_compiler_openapi-0.1.5-cp39-none-win_amd64.whl
+[2023-05-08 22:01:07] INFO root fetch - processPackages [stactools]: Downloading https://files.pythonhosted.org/packages/6a/24/93477be650d0694481975eeefa3336298470f3c5c05bc4757a3285d0a305/stactools-0.4.7.tar.gz
+[2023-05-08 22:01:07] INFO root fetch - processPackages [xknx]: Downloading https://files.pythonhosted.org/packages/13/d7/c6d1636743067c51da463f46cd4cd48078d50745e12d8b685111abc67e79/xknx-2.9.0.tar.gz
+[2023-05-08 22:01:07] INFO root fetch - processPackages [helix.catalog-sdk]: Downloading https://files.pythonhosted.org/packages/62/b2/4643b6ff42e12454f04b0cf8c3a547e8b5d6b149eaa71d49bccdbf596ebe/helix.catalog-sdk-0.2.9.tar.gz
+[2023-05-08 22:01:07] INFO root fetch - processPackages [monoqueue]: executing diffoscope
+[2023-05-08 22:01:07] INFO root fetch - processPackages [monoqueue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monoqueue-1.0.0.tar.gz tmp/monoqueue-1.0.1.tar.gz --markdown 20230508/m/monoqueue/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-08 22:01:07] INFO root fetch - processPackages [bcirisktools]: executing diffoscope
+[2023-05-08 22:01:07] INFO root fetch - processPackages [bcirisktools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcirisktools-0.2.7.tar.gz tmp/bcirisktools-0.2.8.tar.gz --markdown 20230508/b/bcirisktools/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-05-08 22:01:07] INFO root fetch - processPackages [threadsafe-shell]: executing diffoscope
+[2023-05-08 22:01:07] INFO root fetch - processPackages [threadsafe-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threadsafe_shell-1.0.0.tar.gz tmp/threadsafe_shell-1.1.0.tar.gz --markdown 20230508/t/threadsafe-shell/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-08 22:01:07] INFO root fetch - processPackages [stactools]: executing diffoscope
+[2023-05-08 22:01:07] INFO root fetch - processPackages [stactools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stactools-0.4.6.tar.gz tmp/stactools-0.4.7.tar.gz --markdown 20230508/s/stactools/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-05-08 22:01:07] INFO root fetch - processPackages [xknx]: executing diffoscope
+[2023-05-08 22:01:07] INFO root fetch - processPackages [xknx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xknx-2.8.0.tar.gz tmp/xknx-2.9.0.tar.gz --markdown 20230508/x/xknx/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-05-08 22:01:08] INFO root fetch - processPackages [xia-compiler-openapi]: executing diffoscope
+[2023-05-08 22:01:08] INFO root fetch - processPackages [xia-compiler-openapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_compiler_openapi-0.1.3-cp39-none-win_amd64.whl.zip tmp/xia_compiler_openapi-0.1.5-cp39-none-win_amd64.whl.zip --markdown 20230508/x/xia-compiler-openapi/0.1.3-0.1.5/diff.md --exclude *.pyd
+[2023-05-08 22:01:08] INFO root fetch - processPackages [helix.catalog-sdk]: executing diffoscope
+[2023-05-08 22:01:08] INFO root fetch - processPackages [helix.catalog-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helix.catalog-sdk-0.2.8.tar.gz tmp/helix.catalog-sdk-0.2.9.tar.gz --markdown 20230508/h/helix.catalog-sdk/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-08 22:01:09] INFO root fetch - processPackages [exondb]: Start processing: skailarrestframework
+[2023-05-08 22:01:09] INFO root fetch - main [MainThread]: End processing [exondb]: success
+[2023-05-08 22:01:09] WARNING root fetch - processPackages [skailarrestframework]: Skipping, unable to determine old version
+[2023-05-08 22:01:09] INFO root fetch - processPackages [skailarrestframework]: Start processing: lbt-dragonfly
+[2023-05-08 22:01:09] INFO root fetch - main [MainThread]: End processing [skailarrestframework] error
+[2023-05-08 22:01:09] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-05-08 22:01:09] INFO root fetch - processPackages [threadsafe-shell]: Start processing: evals-nightly
+[2023-05-08 22:01:09] INFO root fetch - main [MainThread]: End processing [threadsafe-shell]: success
+[2023-05-08 22:01:09] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2023-05-08 22:01:09] INFO root fetch - processPackages [evals-nightly]: New version: [1.0.3.dev20230508] Old Version: [1.0.3.dev20230505]
+[2023-05-08 22:01:09] INFO root fetch - processPackages [monoqueue]: Start processing: robocorp-excel
+[2023-05-08 22:01:09] INFO root fetch - main [MainThread]: End processing [monoqueue]: success
+[2023-05-08 22:01:09] INFO root fetch - processPackages [robocorp-excel]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-08 22:01:09] INFO root fetch - processPackages [stactools]: Start processing: TPOT2
+[2023-05-08 22:01:09] INFO root fetch - main [MainThread]: End processing [stactools]: success
+[2023-05-08 22:01:09] INFO root fetch - processPackages [TPOT2]: New version: [0.1.2a0] Old Version: [0.1.1a0]
+[2023-05-08 22:01:09] INFO root fetch - processPackages [bcirisktools]: Start processing: bit-field
+[2023-05-08 22:01:09] INFO root fetch - main [MainThread]: End processing [bcirisktools]: success
+[2023-05-08 22:01:09] INFO root fetch - processPackages [xia-compiler-openapi]: Start processing: robocorp-workitems
+[2023-05-08 22:01:09] INFO root fetch - main [MainThread]: End processing [xia-compiler-openapi]: success
+[2023-05-08 22:01:09] INFO root fetch - processPackages [bit-field]: New version: [1.0.0] Old Version: [0.4.0]
+[2023-05-08 22:01:09] WARNING root fetch - processPackages [robocorp-workitems]: Skipping, unable to determine old version
+[2023-05-08 22:01:09] INFO root fetch - processPackages [robocorp-workitems]: Start processing: certora-cli-alpha-thomas-library-tests
+[2023-05-08 22:01:09] INFO root fetch - main [MainThread]: End processing [robocorp-workitems] error
+[2023-05-08 22:01:09] INFO root fetch - processPackages [canopy-platform]: Start processing: xknxproject
+[2023-05-08 22:01:09] INFO root fetch - main [MainThread]: End processing [canopy-platform]: success
+[2023-05-08 22:01:09] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/dc/e1/f14fea155ccb2569c11a2de850a87b52e6396b2539b0a241dbfd7b1e65ec/evals-nightly-1.0.3.dev20230505.tar.gz
+[2023-05-08 22:01:09] INFO root fetch - processPackages [helix.catalog-sdk]: Start processing: chatplayground
+[2023-05-08 22:01:09] INFO root fetch - main [MainThread]: End processing [helix.catalog-sdk]: success
+[2023-05-08 22:01:09] INFO root fetch - processPackages [robocorp-excel]: Downloading https://files.pythonhosted.org/packages/98/2b/0a798b1fae1cc65996e00ee1da2337d5b02d70360d9ec2408fd8317fdbda/robocorp_excel-0.2.0.tar.gz
+[2023-05-08 22:01:09] INFO root fetch - processPackages [chatplayground]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-08 22:01:09] INFO root fetch - processPackages [certora-cli-alpha-thomas-library-tests]: New version: [20230508.19.57.649887] Old Version: [20230506.0.28.534068]
+[2023-05-08 22:01:09] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2023-05-08 22:01:09] INFO root fetch - processPackages [TPOT2]: Downloading https://files.pythonhosted.org/packages/b3/bb/28f359bab2a1c6d5d23702ba4a8a630f84e0279e1679c3e0ccd536912c55/TPOT2-0.1.1a0.tar.gz
+[2023-05-08 22:01:09] INFO root fetch - processPackages [xknxproject]: New version: [3.1.0] Old Version: [3.0.0]
+[2023-05-08 22:01:09] INFO root fetch - processPackages [bit-field]: Downloading https://files.pythonhosted.org/packages/fb/ff/b519dd23053426d7c681e329e9c6276d64963c15f0f4217301fefbd0c5c0/bit_field-0.4.0.tar.gz
+[2023-05-08 22:01:09] INFO root fetch - processPackages [chatplayground]: executing diffoscope
+[2023-05-08 22:01:09] INFO root fetch - processPackages [chatplayground]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatplayground-1.0.1.tar.gz tmp/chatplayground-1.0.2.tar.gz --markdown 20230508/c/chatplayground/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-08 22:01:09] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-05-08 22:01:09] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230508/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-05-08 22:01:09] INFO root fetch - processPackages [certora-cli-alpha-thomas-library-tests]: Downloading https://files.pythonhosted.org/packages/3e/7f/368526fa8bd7fbaf9dd490305b6ae8578803de8924ff4269a8027e5651db/certora-cli-alpha-thomas-library-tests-20230506.0.28.534068.tar.gz
+[2023-05-08 22:01:09] INFO root fetch - processPackages [xknxproject]: Downloading https://files.pythonhosted.org/packages/22/e1/8995bbca37c1d8193c2c2e7665421beed01b3d8525d7aacb42d095a22241/xknxproject-3.0.0.tar.gz
+[2023-05-08 22:01:10] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/1b/57/e0bff1d7b42649414b0f49611317859c382a17fe0d33c66e3ee810dfda84/evals-nightly-1.0.3.dev20230508.tar.gz
+[2023-05-08 22:01:10] INFO root fetch - processPackages [robocorp-excel]: Downloading https://files.pythonhosted.org/packages/6a/57/b185c25f5e4203d2bb05baf92a2ce1ea01601ed43519ebadb449bf17e162/robocorp_excel-0.3.0.tar.gz
+[2023-05-08 22:01:10] INFO root fetch - processPackages [bit-field]: Downloading https://files.pythonhosted.org/packages/ba/f1/01aea18cd40a6c598d528f29a79a8f452e8d46d14f42ebfe2c8cc64a711d/bit_field-1.0.0.tar.gz
+[2023-05-08 22:01:10] INFO root fetch - processPackages [evals-nightly]: executing diffoscope
+[2023-05-08 22:01:10] INFO root fetch - processPackages [evals-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evals-nightly-1.0.3.dev20230505.tar.gz tmp/evals-nightly-1.0.3.dev20230508.tar.gz --markdown 20230508/e/evals-nightly/1.0.3.dev20230505-1.0.3.dev20230508/diff.md --exclude *.pyd
+[2023-05-08 22:01:10] INFO root fetch - processPackages [robocorp-excel]: executing diffoscope
+[2023-05-08 22:01:10] INFO root fetch - processPackages [robocorp-excel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robocorp_excel-0.2.0.tar.gz tmp/robocorp_excel-0.3.0.tar.gz --markdown 20230508/r/robocorp-excel/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-08 22:01:10] INFO root fetch - processPackages [bit-field]: executing diffoscope
+[2023-05-08 22:01:10] INFO root fetch - processPackages [bit-field]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bit_field-0.4.0.tar.gz tmp/bit_field-1.0.0.tar.gz --markdown 20230508/b/bit-field/0.4.0-1.0.0/diff.md --exclude *.pyd
+[2023-05-08 22:01:10] WARNING root fetch - processPackages [certora-cli-alpha-thomas-library-tests]: Skipping package: exceeds size limit 38473059>=10485760
+[2023-05-08 22:01:10] INFO root fetch - processPackages [certora-cli-alpha-thomas-library-tests]: Start processing: dataknobs
+[2023-05-08 22:01:10] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-thomas-library-tests] error
+[2023-05-08 22:01:10] INFO root fetch - processPackages [TPOT2]: Downloading https://files.pythonhosted.org/packages/e4/74/006b6f42aaef219ba71adabcf811cf58301ed839e5d2abe6a5c1738d8279/TPOT2-0.1.2a0.tar.gz
+[2023-05-08 22:01:10] INFO root fetch - processPackages [xknxproject]: Downloading https://files.pythonhosted.org/packages/23/09/3a85684ba08d42fa23205ae0b3426b2f99c30ae9788231a7aa0d370c2016/xknxproject-3.1.0.tar.gz
+[2023-05-08 22:01:10] INFO root fetch - processPackages [dataknobs]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-08 22:01:10] INFO root fetch - processPackages [xknxproject]: executing diffoscope
+[2023-05-08 22:01:10] INFO root fetch - processPackages [xknxproject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xknxproject-3.0.0.tar.gz tmp/xknxproject-3.1.0.tar.gz --markdown 20230508/x/xknxproject/3.0.0-3.1.0/diff.md --exclude *.pyd
+[2023-05-08 22:01:10] INFO root fetch - processPackages [TPOT2]: executing diffoscope
+[2023-05-08 22:01:10] INFO root fetch - processPackages [TPOT2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TPOT2-0.1.1a0.tar.gz tmp/TPOT2-0.1.2a0.tar.gz --markdown 20230508/T/TPOT2/0.1.1a0-0.1.2a0/diff.md --exclude *.pyd
+[2023-05-08 22:01:10] INFO root fetch - processPackages [dataknobs]: Downloading https://files.pythonhosted.org/packages/5b/36/ffbdaa1781cd5ac9d2e5dc6b2861d073c3c4291ae11c3f79e2ddb468ea95/dataknobs-0.0.4.tar.gz
+[2023-05-08 22:01:10] INFO root fetch - processPackages [dataknobs]: Downloading https://files.pythonhosted.org/packages/dd/c2/9b054768760fadf455b7ebfddfb5bb86121b19eec49ffde035aa7a320d0f/dataknobs-0.0.5.tar.gz
+[2023-05-08 22:01:10] INFO root fetch - processPackages [chatplayground]: Start processing: tsdat
+[2023-05-08 22:01:10] INFO root fetch - main [MainThread]: End processing [chatplayground]: success
+[2023-05-08 22:01:10] INFO root fetch - processPackages [dataknobs]: executing diffoscope
+[2023-05-08 22:01:10] INFO root fetch - processPackages [dataknobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataknobs-0.0.4.tar.gz tmp/dataknobs-0.0.5.tar.gz --markdown 20230508/d/dataknobs/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-08 22:01:10] INFO root fetch - processPackages [tsdat]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-08 22:01:11] INFO root fetch - processPackages [tsdat]: executing diffoscope
+[2023-05-08 22:01:11] INFO root fetch - processPackages [tsdat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsdat-0.5.8.tar.gz tmp/tsdat-0.5.9.tar.gz --markdown 20230508/t/tsdat/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-08 22:01:11] INFO root fetch - processPackages [lbt-dragonfly]: Start processing: oking
+[2023-05-08 22:01:11] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-05-08 22:01:11] INFO root fetch - processPackages [oking]: New version: [4.1.99] Old Version: [4.1.98]
+[2023-05-08 22:01:11] INFO root fetch - processPackages [bit-field]: Start processing: sphinxcontrib-bitfield
+[2023-05-08 22:01:11] INFO root fetch - main [MainThread]: End processing [bit-field]: success
+[2023-05-08 22:01:11] INFO root fetch - processPackages [oking]: Downloading https://files.pythonhosted.org/packages/10/e0/bc03eb0f51c985363e25571936de0258a0f3e5e43f8525986b708e4f2e81/oking-4.1.98.tar.gz
+[2023-05-08 22:01:11] WARNING root fetch - processPackages [oking]: Skipping package: exceeds size limit 82479280>=10485760
+[2023-05-08 22:01:11] INFO root fetch - processPackages [oking]: Start processing: aerosol-functions
+[2023-05-08 22:01:11] INFO root fetch - main [MainThread]: End processing [oking] error
+[2023-05-08 22:01:11] INFO root fetch - processPackages [sphinxcontrib-bitfield]: New version: [1.0.0] Old Version: [0.4.2]
+[2023-05-08 22:01:11] INFO root fetch - processPackages [sphinxcontrib-bitfield]: Downloading https://files.pythonhosted.org/packages/dd/d9/148e13aab5514266d4b8971996671f7ae6cb47dc617ba87652c05e609a06/sphinxcontrib-bitfield-0.4.2.tar.gz
+[2023-05-08 22:01:11] INFO root fetch - processPackages [aerosol-functions]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 22:01:11] INFO root fetch - main [MainThread]: End processing [xknxproject]: success
+[2023-05-08 22:01:12] INFO root fetch - main [MainThread]: End processing [robocorp-excel]: success
+[2023-05-08 22:01:12] INFO root fetch - processPackages [aerosol-functions]: Downloading https://files.pythonhosted.org/packages/55/d9/67fe3b843ee12576e12bf24b03d40598cc459b98d058dda33d549ad1f55f/aerosol-functions-0.0.8.tar.gz
+[2023-05-08 22:01:12] INFO root fetch - main [MainThread]: End processing [TPOT2]: success
+[2023-05-08 22:01:12] INFO root fetch - processPackages [sphinxcontrib-bitfield]: Downloading https://files.pythonhosted.org/packages/26/fe/039fce7015761fdc1f483bbbfd9112e9592737d523eca59493c4b328e9b0/sphinxcontrib-bitfield-1.0.0.tar.gz
+[2023-05-08 22:01:12] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-05-08 22:01:12] INFO root fetch - main [MainThread]: End processing [tsdat]: success
+[2023-05-08 22:01:12] INFO root fetch - processPackages [aerosol-functions]: Downloading https://files.pythonhosted.org/packages/c5/a6/067c63afe777d94ab1cc46f0cdeb12ab79159cb6f6f7e0286b09547f08c0/aerosol-functions-0.0.9.tar.gz
+[2023-05-08 22:01:12] INFO root fetch - main [MainThread]: End processing [xknx]: success
+[2023-05-08 22:01:12] INFO root fetch - processPackages [sphinxcontrib-bitfield]: executing diffoscope
+[2023-05-08 22:01:12] INFO root fetch - processPackages [sphinxcontrib-bitfield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinxcontrib-bitfield-0.4.2.tar.gz tmp/sphinxcontrib-bitfield-1.0.0.tar.gz --markdown 20230508/s/sphinxcontrib-bitfield/0.4.2-1.0.0/diff.md --exclude *.pyd
+[2023-05-08 22:01:12] INFO root fetch - processPackages [aerosol-functions]: executing diffoscope
+[2023-05-08 22:01:12] INFO root fetch - processPackages [aerosol-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aerosol-functions-0.0.8.tar.gz tmp/aerosol-functions-0.0.9.tar.gz --markdown 20230508/a/aerosol-functions/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 22:01:13] INFO root fetch - main [MainThread]: End processing [sphinxcontrib-bitfield]: success
+[2023-05-08 22:01:13] INFO root fetch - main [MainThread]: End processing [dataknobs]: success
+[2023-05-08 22:01:13] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
+[2023-05-08 22:01:14] INFO root fetch - main [MainThread]: End processing [aerosol-functions]: success
+[2023-05-08 22:01:14] INFO root fetch - main [MainThread]: Store serial: [18021833]
