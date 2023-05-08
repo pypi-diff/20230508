@@ -8467,3 +8467,136 @@
 [2023-05-08 10:54:26] INFO root fetch - main [MainThread]: End processing [lightning-template]: success
 [2023-05-08 10:54:26] INFO root fetch - main [MainThread]: End processing [easy-pil]: success
 [2023-05-08 10:54:26] INFO root fetch - main [MainThread]: Store serial: [18014781]
+[2023-05-08 10:59:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18014781]
+[2023-05-08 10:59:35] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-08 10:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MCTThermalFace
+[2023-05-08 10:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simple-slice-viewer
+[2023-05-08 10:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yunhu
+[2023-05-08 10:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: raga-cli
+[2023-05-08 10:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: monotonic-derivative
+[2023-05-08 10:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: modelbase-pde
+[2023-05-08 10:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: VUnit-helpers
+[2023-05-08 10:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: text-fabric
+[2023-05-08 10:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hestia-earth-distribution
+[2023-05-08 10:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nonebot-plugin-penguin
+[2023-05-08 10:59:35] INFO root fetch - processPackages [simple-slice-viewer]: New version: [0.97] Old Version: [0.96]
+[2023-05-08 10:59:35] INFO root fetch - processPackages [MCTThermalFace]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-08 10:59:35] INFO root fetch - processPackages [yunhu]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-08 10:59:35] INFO root fetch - processPackages [monotonic-derivative]: New version: [0.5] Old Version: [0.4]
+[2023-05-08 10:59:35] WARNING root fetch - processPackages [VUnit-helpers]: Skipping, unable to determine old version
+[2023-05-08 10:59:35] INFO root fetch - processPackages [modelbase-pde]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-08 10:59:35] INFO root fetch - processPackages [raga-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 10:59:35] INFO root fetch - processPackages [VUnit-helpers]: Start processing: annofabapi
+[2023-05-08 10:59:35] INFO root fetch - main [MainThread]: End processing [VUnit-helpers] error
+[2023-05-08 10:59:35] INFO root fetch - processPackages [hestia-earth-distribution]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 10:59:35] INFO root fetch - processPackages [nonebot-plugin-penguin]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-08 10:59:35] INFO root fetch - processPackages [text-fabric]: New version: [9.5.2] Old Version: [9.4.4]
+[2023-05-08 10:59:35] INFO root fetch - processPackages [annofabapi]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-08 10:59:35] INFO root fetch - processPackages [MCTThermalFace]: Downloading https://files.pythonhosted.org/packages/f1/75/8d7ebf7dffee1ebadb6840c47c43b5b6bf5ae6cea576b47e4aa679ced458/MCTThermalFace-0.1.0.tar.gz
+[2023-05-08 10:59:35] INFO root fetch - processPackages [yunhu]: Downloading https://files.pythonhosted.org/packages/d7/45/61a0c7ef43c85f667dbf9bba6d80ef5f25d84fedbf06009183b493c667f4/yunhu-0.0.1.tar.gz
+[2023-05-08 10:59:35] INFO root fetch - processPackages [hestia-earth-distribution]: Downloading https://files.pythonhosted.org/packages/8a/f7/0f10e6ec3cb925176c82376f5d1e36f6da2f3ea0d3c38b0148bb0bddbb67/hestia-earth-distribution-0.0.8.tar.gz
+[2023-05-08 10:59:35] INFO root fetch - processPackages [simple-slice-viewer]: Downloading https://files.pythonhosted.org/packages/0e/63/d60e4cb33feecef31c0849dbdbd6782b9e5175f3ecfe5aa422c9d83b954a/simple-slice-viewer-0.96.tar.gz
+[2023-05-08 10:59:35] INFO root fetch - processPackages [monotonic-derivative]: Downloading https://files.pythonhosted.org/packages/35/00/4c92e1c1ea447c995a11af07c3b571a9603b5dfaa14c36bb6879c56de13a/monotonic%20derivative-0.5.tar.gz
+[2023-05-08 10:59:35] INFO root fetch - processPackages [raga-cli]: Downloading https://files.pythonhosted.org/packages/c1/53/cc5efcf41c4c05eaf29e5d7b8e275ee146724fb17f1e1bfe092f13ca72ff/raga-cli-0.1.8.tar.gz
+[2023-05-08 10:59:35] INFO root fetch - processPackages [text-fabric]: Downloading https://files.pythonhosted.org/packages/bb/80/b9db47ad2d39859a5c2276e27c56daae0db451a130db8305340dfe7dd7ee/text_fabric-9.4.4-py3-none-any.whl
+[2023-05-08 10:59:35] INFO root fetch - processPackages [annofabapi]: Downloading https://files.pythonhosted.org/packages/c0/2e/1365f767b7a7259c910e2e4ef75dbad4c903cccdbcf4cbe439c189481a66/annofabapi-0.9.0.tar.gz
+[2023-05-08 10:59:35] INFO root fetch - processPackages [nonebot-plugin-penguin]: Downloading https://files.pythonhosted.org/packages/7a/e4/a876b68b388e50b91a0a9907da469816cfba469fa2a298cd6d108dd25d59/nonebot_plugin_penguin-0.0.1.tar.gz
+[2023-05-08 10:59:35] INFO root fetch - processPackages [modelbase-pde]: Downloading https://files.pythonhosted.org/packages/5c/59/5861b5c70be3aeb4268489375dec91311e9d959b61761240e09d06f77cb7/modelbase_pde-0.2.8.tar.gz
+[2023-05-08 10:59:35] INFO root fetch - processPackages [monotonic-derivative]: executing diffoscope
+[2023-05-08 10:59:35] INFO root fetch - processPackages [monotonic-derivative]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monotonic derivative-0.4.tar.gz tmp/monotonic derivative-0.5.tar.gz --markdown 20230508/m/monotonic-derivative/0.4-0.5/diff.md --exclude *.pyd
+[2023-05-08 10:59:35] INFO root fetch - processPackages [MCTThermalFace]: Downloading https://files.pythonhosted.org/packages/7c/cd/dc54fb5d9239a72ca53741a0c1fcab7001413c6fedb79e3e48b51232b35a/MCTThermalFace-0.1.1.tar.gz
+[2023-05-08 10:59:35] INFO root fetch - processPackages [raga-cli]: Downloading https://files.pythonhosted.org/packages/3e/dd/43266982ab7fcc72f99fde19db03705a244869f669ae7ae096cbfc9ed3e7/raga-cli-0.1.9.tar.gz
+[2023-05-08 10:59:35] INFO root fetch - processPackages [simple-slice-viewer]: Downloading https://files.pythonhosted.org/packages/1c/7d/0a377593a87f33e4cd54ecc7edd2e7db0e48e64191c164324a9e7f4904b1/simple-slice-viewer-0.97.tar.gz
+[2023-05-08 10:59:35] INFO root fetch - processPackages [raga-cli]: executing diffoscope
+[2023-05-08 10:59:35] INFO root fetch - processPackages [raga-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-cli-0.1.8.tar.gz tmp/raga-cli-0.1.9.tar.gz --markdown 20230508/r/raga-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 10:59:35] INFO root fetch - processPackages [MCTThermalFace]: executing diffoscope
+[2023-05-08 10:59:35] INFO root fetch - processPackages [MCTThermalFace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MCTThermalFace-0.1.0.tar.gz tmp/MCTThermalFace-0.1.1.tar.gz --markdown 20230508/M/MCTThermalFace/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-08 10:59:35] INFO root fetch - processPackages [yunhu]: Downloading https://files.pythonhosted.org/packages/b8/70/353dc8b97d8195e57a638ac034a6895b53e0efd433f0768f7e80f4b048b2/yunhu-0.0.2.tar.gz
+[2023-05-08 10:59:35] INFO root fetch - processPackages [hestia-earth-distribution]: Downloading https://files.pythonhosted.org/packages/65/e4/d8546fd6a5d86ac709edcb59989d2f56da2b6747ec39ce4ad5713544cd10/hestia-earth-distribution-0.0.9.tar.gz
+[2023-05-08 10:59:36] INFO root fetch - processPackages [annofabapi]: Downloading https://files.pythonhosted.org/packages/ab/d0/a384d57146d424feef92dc9261a602f02b7a71aefb343552eae1ab9de6a2/annofabapi-0.9.1.tar.gz
+[2023-05-08 10:59:36] INFO root fetch - processPackages [modelbase-pde]: Downloading https://files.pythonhosted.org/packages/da/99/ce4549084291c96034b1371a5b3279256a81b7a6fceb0ea0674ff329433a/modelbase_pde-0.2.9.tar.gz
+[2023-05-08 10:59:36] INFO root fetch - processPackages [simple-slice-viewer]: executing diffoscope
+[2023-05-08 10:59:36] INFO root fetch - processPackages [simple-slice-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple-slice-viewer-0.96.tar.gz tmp/simple-slice-viewer-0.97.tar.gz --markdown 20230508/s/simple-slice-viewer/0.96-0.97/diff.md --exclude *.pyd
+[2023-05-08 10:59:36] INFO root fetch - processPackages [nonebot-plugin-penguin]: Downloading https://files.pythonhosted.org/packages/b9/9d/0ce5b15a5001e4ba134a9a4911b005aa0c9d75a866bc9767a2a1b0f88729/nonebot_plugin_penguin-0.0.2.tar.gz
+[2023-05-08 10:59:36] INFO root fetch - processPackages [yunhu]: executing diffoscope
+[2023-05-08 10:59:36] INFO root fetch - processPackages [yunhu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yunhu-0.0.1.tar.gz tmp/yunhu-0.0.2.tar.gz --markdown 20230508/y/yunhu/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-08 10:59:36] INFO root fetch - processPackages [hestia-earth-distribution]: executing diffoscope
+[2023-05-08 10:59:36] INFO root fetch - processPackages [hestia-earth-distribution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hestia-earth-distribution-0.0.8.tar.gz tmp/hestia-earth-distribution-0.0.9.tar.gz --markdown 20230508/h/hestia-earth-distribution/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 10:59:36] INFO root fetch - processPackages [annofabapi]: executing diffoscope
+[2023-05-08 10:59:36] INFO root fetch - processPackages [annofabapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/annofabapi-0.9.0.tar.gz tmp/annofabapi-0.9.1.tar.gz --markdown 20230508/a/annofabapi/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-08 10:59:36] INFO root fetch - processPackages [modelbase-pde]: executing diffoscope
+[2023-05-08 10:59:36] INFO root fetch - processPackages [modelbase-pde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbase_pde-0.2.8.tar.gz tmp/modelbase_pde-0.2.9.tar.gz --markdown 20230508/m/modelbase-pde/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-08 10:59:36] INFO root fetch - processPackages [nonebot-plugin-penguin]: executing diffoscope
+[2023-05-08 10:59:36] INFO root fetch - processPackages [nonebot-plugin-penguin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_penguin-0.0.1.tar.gz tmp/nonebot_plugin_penguin-0.0.2.tar.gz --markdown 20230508/n/nonebot-plugin-penguin/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-08 10:59:36] INFO root fetch - processPackages [text-fabric]: Downloading https://files.pythonhosted.org/packages/5a/68/601e800ea7b082fabb89c3c0c122fd9fa13b4da75c0bdfbafa945139092a/text_fabric-9.5.2-py3-none-any.whl
+[2023-05-08 10:59:37] INFO root fetch - processPackages [monotonic-derivative]: Start processing: xia-compiler-openapi
+[2023-05-08 10:59:37] INFO root fetch - main [MainThread]: End processing [monotonic-derivative]: success
+[2023-05-08 10:59:37] INFO root fetch - processPackages [xia-compiler-openapi]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-08 10:59:37] INFO root fetch - processPackages [MCTThermalFace]: Start processing: octo-api-client
+[2023-05-08 10:59:37] INFO root fetch - main [MainThread]: End processing [MCTThermalFace]: success
+[2023-05-08 10:59:37] INFO root fetch - processPackages [octo-api-client]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-05-08 10:59:37] INFO root fetch - processPackages [xia-compiler-openapi]: Downloading https://files.pythonhosted.org/packages/37/51/2152a80633f4c8e2ec910d623a222db8bfde39c9e73598812395bfca8238/xia_compiler_openapi-0.1.2-cp39-none-win_amd64.whl
+[2023-05-08 10:59:37] INFO root fetch - processPackages [raga-cli]: Start processing: birentechci
+[2023-05-08 10:59:37] INFO root fetch - main [MainThread]: End processing [raga-cli]: success
+[2023-05-08 10:59:37] INFO root fetch - processPackages [birentechci]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 10:59:37] INFO root fetch - processPackages [octo-api-client]: Downloading https://files.pythonhosted.org/packages/99/6b/2005881671d36b3abbca9311191bb7e8b4a16fe0ad84d74dfd31af0aae56/octo_api_client-1.1.3.tar.gz
+[2023-05-08 10:59:37] INFO root fetch - processPackages [yunhu]: Start processing: wiretap
+[2023-05-08 10:59:37] INFO root fetch - main [MainThread]: End processing [yunhu]: success
+[2023-05-08 10:59:37] INFO root fetch - processPackages [wiretap]: New version: [3.1.0] Old Version: [3.0.1]
+[2023-05-08 10:59:37] INFO root fetch - processPackages [birentechci]: Downloading https://files.pythonhosted.org/packages/7b/de/0960257c410e07160e8d15f098b69170b953a038c255d8ec6d359ee7be81/birentechci-0.0.8.tar.gz
+[2023-05-08 10:59:37] INFO root fetch - processPackages [xia-compiler-openapi]: Downloading https://files.pythonhosted.org/packages/ff/97/53da39a0c0c62730a9450ba87f17d1d5a0fedeeff00652e343e61709b32c/xia_compiler_openapi-0.1.3-cp39-none-macosx_11_0_x86_64.whl
+[2023-05-08 10:59:37] INFO root fetch - processPackages [xia-compiler-openapi]: executing diffoscope
+[2023-05-08 10:59:37] INFO root fetch - processPackages [xia-compiler-openapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_compiler_openapi-0.1.2-cp39-none-win_amd64.whl.zip tmp/xia_compiler_openapi-0.1.3-cp39-none-macosx_11_0_x86_64.whl.zip --markdown 20230508/x/xia-compiler-openapi/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-08 10:59:37] INFO root fetch - processPackages [wiretap]: Downloading https://files.pythonhosted.org/packages/48/ce/f103d01dec400bb78a7bf4b094ccace7a2abd95626f08e9e0400280e3ac7/wiretap-3.0.1-py3-none-any.whl
+[2023-05-08 10:59:37] INFO root fetch - processPackages [octo-api-client]: Downloading https://files.pythonhosted.org/packages/68/df/6c9c5caba261ea4df1e68bc7d4eb2202d0724ad308df810bbcc919d518ad/octo_api_client-1.1.4.tar.gz
+[2023-05-08 10:59:37] INFO root fetch - processPackages [octo-api-client]: executing diffoscope
+[2023-05-08 10:59:37] INFO root fetch - processPackages [octo-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octo_api_client-1.1.3.tar.gz tmp/octo_api_client-1.1.4.tar.gz --markdown 20230508/o/octo-api-client/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-05-08 10:59:37] INFO root fetch - processPackages [wiretap]: Downloading https://files.pythonhosted.org/packages/8f/43/1aa28e43558958d5fa45fbec89c61f38012eae1f50898ed0e11a30e4e0a7/wiretap-3.1.0-py3-none-any.whl
+[2023-05-08 10:59:37] INFO root fetch - processPackages [birentechci]: Downloading https://files.pythonhosted.org/packages/4f/f9/f3d66a557192c24b59cc958b87d1c2910008be4a71f24410b923f42157a9/birentechci-0.0.9.tar.gz
+[2023-05-08 10:59:37] INFO root fetch - processPackages [wiretap]: executing diffoscope
+[2023-05-08 10:59:37] INFO root fetch - processPackages [wiretap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiretap-3.0.1-py3-none-any.whl.zip tmp/wiretap-3.1.0-py3-none-any.whl.zip --markdown 20230508/w/wiretap/3.0.1-3.1.0/diff.md --exclude *.pyd
+[2023-05-08 10:59:38] INFO root fetch - processPackages [birentechci]: executing diffoscope
+[2023-05-08 10:59:38] INFO root fetch - processPackages [birentechci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/birentechci-0.0.8.tar.gz tmp/birentechci-0.0.9.tar.gz --markdown 20230508/b/birentechci/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 10:59:38] INFO root fetch - processPackages [modelbase-pde]: Start processing: funasr
+[2023-05-08 10:59:38] INFO root fetch - main [MainThread]: End processing [modelbase-pde]: success
+[2023-05-08 10:59:38] INFO root fetch - processPackages [text-fabric]: executing diffoscope
+[2023-05-08 10:59:38] INFO root fetch - processPackages [text-fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_fabric-9.4.4-py3-none-any.whl.zip tmp/text_fabric-9.5.2-py3-none-any.whl.zip --markdown 20230508/t/text-fabric/9.4.4-9.5.2/diff.md --exclude *.pyd
+[2023-05-08 10:59:38] INFO root fetch - processPackages [funasr]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-05-08 10:59:38] INFO root fetch - processPackages [simple-slice-viewer]: Start processing: houdini-package-manager
+[2023-05-08 10:59:38] INFO root fetch - main [MainThread]: End processing [simple-slice-viewer]: success
+[2023-05-08 10:59:38] INFO root fetch - processPackages [houdini-package-manager]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-05-08 10:59:38] INFO root fetch - processPackages [funasr]: Downloading https://files.pythonhosted.org/packages/d7/31/fa6ba233a049ea18b88ceca38170cab17d003f9add4ef6aef475848189db/funasr-0.4.8.tar.gz
+[2023-05-08 10:59:38] INFO root fetch - processPackages [houdini-package-manager]: Downloading https://files.pythonhosted.org/packages/81/92/884766c653bc4d2c1507abf1df8ceda05d0eab3a79049b85e7411ee6ca44/houdini_package_manager-0.0.1.tar.gz
+[2023-05-08 10:59:38] INFO root fetch - processPackages [funasr]: executing diffoscope
+[2023-05-08 10:59:38] INFO root fetch - processPackages [funasr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funasr-0.4.7.tar.gz tmp/funasr-0.4.8.tar.gz --markdown 20230508/f/funasr/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-05-08 10:59:38] INFO root fetch - processPackages [annofabapi]: Start processing: aiddl-core
+[2023-05-08 10:59:38] INFO root fetch - main [MainThread]: End processing [annofabapi]: success
+[2023-05-08 10:59:38] INFO root fetch - processPackages [aiddl-core]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-08 10:59:38] INFO root fetch - processPackages [houdini-package-manager]: Downloading https://files.pythonhosted.org/packages/2a/e4/f181d6d782cd2ade4c7e33df2134f054fff31dd654b5b2a47db15d48f54b/houdini_package_manager-0.1.0.tar.gz
+[2023-05-08 10:59:38] INFO root fetch - processPackages [houdini-package-manager]: executing diffoscope
+[2023-05-08 10:59:38] INFO root fetch - processPackages [houdini-package-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/houdini_package_manager-0.0.1.tar.gz tmp/houdini_package_manager-0.1.0.tar.gz --markdown 20230508/h/houdini-package-manager/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-05-08 10:59:38] INFO root fetch - processPackages [aiddl-core]: Downloading https://files.pythonhosted.org/packages/ef/0c/75bde566649c4497d1a11e83b2b74bff4f5d3f767c8f80ed373c22cd487e/aiddl_core-0.3.0.tar.gz
+[2023-05-08 10:59:39] INFO root fetch - processPackages [wiretap]: Start processing: pm4pyminimal
+[2023-05-08 10:59:39] INFO root fetch - main [MainThread]: End processing [wiretap]: success
+[2023-05-08 10:59:39] INFO root fetch - processPackages [pm4pyminimal]: New version: [2.7.4] Old Version: [2.7.3]
+[2023-05-08 10:59:39] INFO root fetch - processPackages [aiddl-core]: Downloading https://files.pythonhosted.org/packages/28/6d/ee404029388546685d64a6d9fbcf4613d3988055a9903a3b37eaceda1eac/aiddl_core-0.3.1.tar.gz
+[2023-05-08 10:59:39] INFO root fetch - processPackages [aiddl-core]: executing diffoscope
+[2023-05-08 10:59:39] INFO root fetch - processPackages [aiddl-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiddl_core-0.3.0.tar.gz tmp/aiddl_core-0.3.1.tar.gz --markdown 20230508/a/aiddl-core/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-08 10:59:39] INFO root fetch - processPackages [octo-api-client]: Start processing: pyrew
+[2023-05-08 10:59:39] INFO root fetch - main [MainThread]: End processing [octo-api-client]: success
+[2023-05-08 10:59:39] INFO root fetch - processPackages [pyrew]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-08 10:59:39] INFO root fetch - processPackages [pm4pyminimal]: Downloading https://files.pythonhosted.org/packages/44/ca/b71210c9e871f9d6fced4e31767efd61f34f5f36b0da3136aa7322b15d8f/pm4pyminimal-2.7.3.tar.gz
+[2023-05-08 10:59:39] INFO root fetch - processPackages [pyrew]: executing diffoscope
+[2023-05-08 10:59:39] INFO root fetch - processPackages [pyrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrew-0.9.2.tar.gz tmp/pyrew-0.9.3.tar.gz --markdown 20230508/p/pyrew/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-08 10:59:39] WARNING root fetch - processPackages [pm4pyminimal]: Skipping package: exceeds size limit 28630293>=10485760
+[2023-05-08 10:59:39] INFO root fetch - main [MainThread]: End processing [pm4pyminimal] error
+[2023-05-08 10:59:39] INFO root fetch - main [MainThread]: End processing [birentechci]: success
+[2023-05-08 10:59:40] INFO root fetch - main [MainThread]: End processing [houdini-package-manager]: success
+[2023-05-08 10:59:40] INFO root fetch - main [MainThread]: End processing [xia-compiler-openapi]: success
+[2023-05-08 10:59:40] INFO root fetch - main [MainThread]: End processing [pyrew]: success
+[2023-05-08 10:59:40] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-penguin]: success
+[2023-05-08 10:59:41] INFO root fetch - main [MainThread]: End processing [aiddl-core]: success
+[2023-05-08 10:59:41] INFO root fetch - main [MainThread]: End processing [text-fabric]: success
+[2023-05-08 10:59:42] INFO root fetch - main [MainThread]: End processing [funasr]: success
+[2023-05-08 11:00:05] INFO root fetch - main [MainThread]: End processing [hestia-earth-distribution]: success
+[2023-05-08 11:00:05] INFO root fetch - main [MainThread]: Store serial: [18014843]
