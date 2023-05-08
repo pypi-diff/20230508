@@ -1856,3 +1856,66 @@
 [2023-05-08 03:11:50] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.85.tar.gz tmp/cdk-sops-secrets-1.2.9.tar.gz --markdown 20230508/c/cdk-sops-secrets/1.2.85-1.2.9/diff.md --exclude *.pyd
 [2023-05-08 03:11:52] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
 [2023-05-08 03:11:52] INFO root fetch - main [MainThread]: Store serial: [18011109]
+[2023-05-08 03:16:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18011109]
+[2023-05-08 03:17:01] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-08 03:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yatl
+[2023-05-08 03:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: get-all-files
+[2023-05-08 03:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ctdd
+[2023-05-08 03:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-lambda-subminute
+[2023-05-08 03:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: finance-ml
+[2023-05-08 03:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yatl
+[2023-05-08 03:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: forust
+[2023-05-08 03:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-lambda-layer-curl
+[2023-05-08 03:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: uintel
+[2023-05-08 03:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bibverse
+[2023-05-08 03:17:01] INFO root fetch - processPackages [finance-ml]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-08 03:17:01] INFO root fetch - processPackages [ctdd]: New version: [0.0.2a2] Old Version: [0.0.2a1]
+[2023-05-08 03:17:01] INFO root fetch - processPackages [get-all-files]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-08 03:17:01] INFO root fetch - processPackages [yatl]: New version: [20230507.3] Old Version: [20230507.2]
+[2023-05-08 03:17:01] INFO root fetch - processPackages [yatl]: New version: [20230507.3] Old Version: [20230507.2]
+[2023-05-08 03:17:01] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-08 03:17:01] INFO root fetch - processPackages [forust]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-08 03:17:01] INFO root fetch - processPackages [uintel]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-08 03:17:01] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-08 03:17:01] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/e5/12/963a9c9137cb30feaf66b7d9cb7a08a6ea591ebef038343c3b132f84bba7/cdk_lambda_subminute-2.0.98.tar.gz
+[2023-05-08 03:17:01] WARNING root fetch - processPackages [bibverse]: Skipping, unable to determine old version
+[2023-05-08 03:17:01] INFO root fetch - main [MainThread]: End processing [bibverse] error
+[2023-05-08 03:17:01] INFO root fetch - processPackages [uintel]: executing diffoscope
+[2023-05-08 03:17:01] INFO root fetch - processPackages [uintel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uintel-0.3.8.tar.gz tmp/uintel-0.3.9.tar.gz --markdown 20230508/u/uintel/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-08 03:17:01] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-05-08 03:17:01] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230508/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-08 03:17:01] INFO root fetch - processPackages [yatl]: Downloading https://files.pythonhosted.org/packages/5b/b2/d3b87546aad5f19dde2ac9e293c5727a28d033bfe10854d22b43a0d50e22/yatl-20230507.2-py3-none-any.whl
+[2023-05-08 03:17:01] INFO root fetch - processPackages [yatl]: Downloading https://files.pythonhosted.org/packages/5b/b2/d3b87546aad5f19dde2ac9e293c5727a28d033bfe10854d22b43a0d50e22/yatl-20230507.2-py3-none-any.whl
+[2023-05-08 03:17:01] INFO root fetch - processPackages [get-all-files]: Downloading https://files.pythonhosted.org/packages/b5/02/4466d331df0e670ee29cd91a714722815f7d6a1514367ae9064eefb9f8c0/get_all_files-0.1.0.tar.gz
+[2023-05-08 03:17:01] INFO root fetch - processPackages [ctdd]: Downloading https://files.pythonhosted.org/packages/c6/cb/ee61abdbb35d07d7cf81eff73cb3dd0f485bd6640ad0e9beda7eb4eeddb3/ctdd-0.0.2a1.tar.gz
+[2023-05-08 03:17:01] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/72/85/0d48595efd9bc93c2b767982602157ef78a97896735d1d14075242ba3a9f/cdk_lambda_subminute-2.0.99.tar.gz
+[2023-05-08 03:17:01] INFO root fetch - processPackages [finance-ml]: Downloading https://files.pythonhosted.org/packages/07/eb/1f7ce8d465cb83862403c97178ff968131136bde68a313d1e07a24a49c85/finance_ml-0.0.3.tar.gz
+[2023-05-08 03:17:01] INFO root fetch - processPackages [finance-ml]: executing diffoscope
+[2023-05-08 03:17:01] INFO root fetch - processPackages [finance-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finance_ml-0.0.2.tar.gz tmp/finance_ml-0.0.3.tar.gz --markdown 20230508/f/finance-ml/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-08 03:17:01] INFO root fetch - processPackages [get-all-files]: Downloading https://files.pythonhosted.org/packages/d1/7c/d283ad0b2d8fefdec5147e90d4572c1e9c9ff4458b6cd7ec0e4335070677/get_all_files-0.2.0.tar.gz
+[2023-05-08 03:17:01] INFO root fetch - processPackages [forust]: Downloading https://files.pythonhosted.org/packages/24/a8/6389f1824b72d1083eb5b74ccf98529b52a7d531eaaa861274b312f5206f/forust-0.2.5.tar.gz
+[2023-05-08 03:17:01] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-05-08 03:17:01] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230508/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-08 03:17:01] INFO root fetch - processPackages [yatl]: Downloading https://files.pythonhosted.org/packages/bd/3b/723a667a24512a299e1e139608e787c3b24b7819302c15c7aac09c3bec68/yatl-20230507.3.tar.gz
+[2023-05-08 03:17:01] INFO root fetch - processPackages [yatl]: Downloading https://files.pythonhosted.org/packages/bd/3b/723a667a24512a299e1e139608e787c3b24b7819302c15c7aac09c3bec68/yatl-20230507.3.tar.gz
+[2023-05-08 03:17:01] INFO root fetch - processPackages [ctdd]: Downloading https://files.pythonhosted.org/packages/b5/8e/65174452961c066061c95af64ac045ea8a458ebf332331baecf4258030fc/ctdd-0.0.2a2.tar.gz
+[2023-05-08 03:17:01] INFO root fetch - processPackages [forust]: executing diffoscope
+[2023-05-08 03:17:01] INFO root fetch - processPackages [forust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forust-0.2.4.tar.gz tmp/forust-0.2.5.tar.gz --markdown 20230508/f/forust/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-08 03:17:01] INFO root fetch - processPackages [get-all-files]: executing diffoscope
+[2023-05-08 03:17:01] INFO root fetch - processPackages [get-all-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/get_all_files-0.1.0.tar.gz tmp/get_all_files-0.2.0.tar.gz --markdown 20230508/g/get-all-files/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-08 03:17:01] INFO root fetch - processPackages [yatl]: executing diffoscope
+[2023-05-08 03:17:01] INFO root fetch - processPackages [yatl]: executing diffoscope
+[2023-05-08 03:17:01] INFO root fetch - processPackages [yatl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yatl-20230507.2-py3-none-any.whl.zip tmp/yatl-20230507.3.tar.gz --markdown 20230508/y/yatl/20230507.2-20230507.3/diff.md --exclude *.pyd
+[2023-05-08 03:17:01] INFO root fetch - processPackages [yatl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yatl-20230507.2-py3-none-any.whl.zip tmp/yatl-20230507.3.tar.gz --markdown 20230508/y/yatl/20230507.2-20230507.3/diff.md --exclude *.pyd
+[2023-05-08 03:17:01] INFO root fetch - processPackages [ctdd]: executing diffoscope
+[2023-05-08 03:17:01] INFO root fetch - processPackages [ctdd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctdd-0.0.2a1.tar.gz tmp/ctdd-0.0.2a2.tar.gz --markdown 20230508/c/ctdd/0.0.2a1-0.0.2a2/diff.md --exclude *.pyd
+[2023-05-08 03:17:02] INFO root fetch - main [MainThread]: End processing [uintel]: success
+[2023-05-08 03:17:03] INFO root fetch - main [MainThread]: End processing [finance-ml]: success
+[2023-05-08 03:17:03] INFO root fetch - main [MainThread]: End processing [yatl]: success
+[2023-05-08 03:17:03] INFO root fetch - main [MainThread]: End processing [get-all-files]: success
+[2023-05-08 03:17:03] INFO root fetch - main [MainThread]: End processing [yatl]: success
+[2023-05-08 03:17:03] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-05-08 03:17:03] INFO root fetch - main [MainThread]: End processing [ctdd]: success
+[2023-05-08 03:17:03] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-05-08 03:17:05] INFO root fetch - main [MainThread]: End processing [forust]: success
+[2023-05-08 03:17:05] INFO root fetch - main [MainThread]: Store serial: [18011142]
