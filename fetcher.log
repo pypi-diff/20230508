@@ -21966,3 +21966,122 @@ EOFError: EOF read where object expected
 [2023-05-08 22:44:26] INFO root fetch - main [MainThread]: End processing [tecton]: success
 [2023-05-08 22:44:51] INFO root fetch - main [MainThread]: End processing [tfp-causalimpact]: success
 [2023-05-08 22:44:51] INFO root fetch - main [MainThread]: Store serial: [18022369]
+[2023-05-08 22:49:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18022369]
+[2023-05-08 22:50:00] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-08 22:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-httpdbg
+[2023-05-08 22:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: abmap
+[2023-05-08 22:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tumfl
+[2023-05-08 22:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ax-platform
+[2023-05-08 22:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: some-hoes
+[2023-05-08 22:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: splight-lib
+[2023-05-08 22:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hydromass
+[2023-05-08 22:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: python-gdcm
+[2023-05-08 22:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nkt-tools
+[2023-05-08 22:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: struct-gpt
+[2023-05-08 22:50:00] INFO root fetch - processPackages [abmap]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-08 22:50:00] INFO root fetch - processPackages [tumfl]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-08 22:50:00] INFO root fetch - processPackages [hydromass]: New version: [0.5] Old Version: [0.4]
+[2023-05-08 22:50:00] INFO root fetch - processPackages [ax-platform]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-08 22:50:00] INFO root fetch - processPackages [splight-lib]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-08 22:50:00] WARNING root fetch - processPackages [pytest-httpdbg]: Skipping, unable to determine old version
+[2023-05-08 22:50:00] INFO root fetch - processPackages [struct-gpt]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-05-08 22:50:00] INFO root fetch - processPackages [pytest-httpdbg]: Start processing: FuncsForSPO
+[2023-05-08 22:50:00] INFO root fetch - processPackages [nkt-tools]: New version: [0.0.2] Old Version: [0.0.1b0]
+[2023-05-08 22:50:00] INFO root fetch - main [MainThread]: End processing [pytest-httpdbg] error
+[2023-05-08 22:50:00] WARNING root fetch - processPackages [some-hoes]: Skipping, unable to determine old version
+[2023-05-08 22:50:00] INFO root fetch - processPackages [some-hoes]: Start processing: pybet
+[2023-05-08 22:50:00] INFO root fetch - main [MainThread]: End processing [some-hoes] error
+[2023-05-08 22:50:00] INFO root fetch - processPackages [python-gdcm]: New version: [3.0.9.1] Old Version: [3.0.9.0]
+[2023-05-08 22:50:00] INFO root fetch - processPackages [FuncsForSPO]: New version: [4.41.4] Old Version: [4.41.3]
+[2023-05-08 22:50:00] INFO root fetch - processPackages [pybet]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-05-08 22:50:00] INFO root fetch - processPackages [splight-lib]: executing diffoscope
+[2023-05-08 22:50:00] INFO root fetch - processPackages [splight-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight-lib-2.3.8.tar.gz tmp/splight-lib-2.3.9.tar.gz --markdown 20230508/s/splight-lib/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-08 22:50:00] INFO root fetch - processPackages [abmap]: Downloading https://files.pythonhosted.org/packages/bd/64/b88a755f0af7deb6a6f1356f9db6ba79419308d42f520d6e1ab4e2e133cd/abmap-0.1.0.tar.gz
+[2023-05-08 22:50:01] INFO root fetch - processPackages [hydromass]: Downloading https://files.pythonhosted.org/packages/2a/6d/92f8ce501bc0981e378d0183167b9061492a458c4467ecc4f878299665fa/hydromass-0.4.tar.gz
+[2023-05-08 22:50:01] INFO root fetch - processPackages [FuncsForSPO]: Downloading https://files.pythonhosted.org/packages/fe/c6/ba3e77ab721a46137e1bd6a6c70b6f0970173601656ffd2bb2cdd24c4d1f/FuncsForSPO-4.41.4.tar.gz
+[2023-05-08 22:50:01] INFO root fetch - processPackages [ax-platform]: Downloading https://files.pythonhosted.org/packages/ff/dd/dea40f9e710c1c588ff9cc804c8f12c8497d064149c29eca3f4e2983f236/ax-platform-0.3.1.tar.gz
+[2023-05-08 22:50:01] INFO root fetch - processPackages [struct-gpt]: Downloading https://files.pythonhosted.org/packages/25/8e/f82a1bcca97ff0a45c4a6ab6af9c20cf0df8266517c9dc98505759558c28/struct_gpt-2.2.1.tar.gz
+[2023-05-08 22:50:01] INFO root fetch - processPackages [pybet]: Downloading https://files.pythonhosted.org/packages/ee/0b/ac9616576f5fa957f057e8f76357e0938a6456f540c846db6048cca08d54/pybet-0.6.1.tar.gz
+[2023-05-08 22:50:01] INFO root fetch - processPackages [python-gdcm]: Downloading https://files.pythonhosted.org/packages/23/34/56e4e91ee48bd96292fe8d460e9cae3878dd8364c590cdb99bb633bd6ac7/python-gdcm-3.0.9.0.tar.gz
+[2023-05-08 22:50:01] INFO root fetch - processPackages [nkt-tools]: Downloading https://files.pythonhosted.org/packages/f1/61/83f0ec3c052843242d09bada3756d0d2a921208ef4d5a4a7fbd29555836b/nkt_tools-0.0.2-py3-none-any.whl
+[2023-05-08 22:50:01] INFO root fetch - processPackages [abmap]: Downloading https://files.pythonhosted.org/packages/48/f5/881b7d589ca5db60f22ed51b5bb127784901788cb29561ed2a55620f9623/abmap-0.1.1.tar.gz
+[2023-05-08 22:50:01] INFO root fetch - processPackages [tumfl]: Downloading https://files.pythonhosted.org/packages/22/52/1eb5f385d2d23f000c449a5d4834548804a243d84ac9fc84a589c10e01ef/tumfl-0.1.3.tar.gz
+[2023-05-08 22:50:01] INFO root fetch - processPackages [FuncsForSPO]: executing diffoscope
+[2023-05-08 22:50:01] INFO root fetch - processPackages [FuncsForSPO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FuncsForSPO-4.41.3.tar.gz tmp/FuncsForSPO-4.41.4.tar.gz --markdown 20230508/F/FuncsForSPO/4.41.3-4.41.4/diff.md --exclude *.pyd
+[2023-05-08 22:50:01] INFO root fetch - processPackages [hydromass]: Downloading https://files.pythonhosted.org/packages/3a/8d/debfe6e7898b6da1043d9564d0a7aa0779d90bc6fe55d48a6cdb4063a83e/hydromass-0.5.tar.gz
+[2023-05-08 22:50:01] INFO root fetch - processPackages [struct-gpt]: Downloading https://files.pythonhosted.org/packages/43/ec/6a4540d05d4fa94bb991a2774db308e7bcd86c2dd5f18ff0a920e07b0eb8/struct_gpt-2.2.2.tar.gz
+[2023-05-08 22:50:01] INFO root fetch - processPackages [nkt-tools]: executing diffoscope
+[2023-05-08 22:50:01] INFO root fetch - processPackages [nkt-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nkt_tools-0.0.1b0.tar.gz tmp/nkt_tools-0.0.2-py3-none-any.whl.zip --markdown 20230508/n/nkt-tools/0.0.1b0-0.0.2/diff.md --exclude *.pyd
+[2023-05-08 22:50:01] INFO root fetch - processPackages [pybet]: Downloading https://files.pythonhosted.org/packages/98/20/48db7c524bd93bd09a3dde0cab2676cebca9c2df5b6e50e5b836ab2daaea/pybet-0.6.2.tar.gz
+[2023-05-08 22:50:01] INFO root fetch - processPackages [abmap]: executing diffoscope
+[2023-05-08 22:50:01] INFO root fetch - processPackages [abmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abmap-0.1.0.tar.gz tmp/abmap-0.1.1.tar.gz --markdown 20230508/a/abmap/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-08 22:50:01] INFO root fetch - processPackages [tumfl]: executing diffoscope
+[2023-05-08 22:50:01] INFO root fetch - processPackages [tumfl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tumfl-0.1.2.tar.gz tmp/tumfl-0.1.3.tar.gz --markdown 20230508/t/tumfl/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-08 22:50:01] INFO root fetch - processPackages [struct-gpt]: executing diffoscope
+[2023-05-08 22:50:01] INFO root fetch - processPackages [struct-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/struct_gpt-2.2.1.tar.gz tmp/struct_gpt-2.2.2.tar.gz --markdown 20230508/s/struct-gpt/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-05-08 22:50:01] INFO root fetch - processPackages [hydromass]: executing diffoscope
+[2023-05-08 22:50:01] INFO root fetch - processPackages [hydromass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydromass-0.4.tar.gz tmp/hydromass-0.5.tar.gz --markdown 20230508/h/hydromass/0.4-0.5/diff.md --exclude *.pyd
+[2023-05-08 22:50:01] INFO root fetch - processPackages [pybet]: executing diffoscope
+[2023-05-08 22:50:01] INFO root fetch - processPackages [pybet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybet-0.6.1.tar.gz tmp/pybet-0.6.2.tar.gz --markdown 20230508/p/pybet/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-05-08 22:50:01] INFO root fetch - processPackages [ax-platform]: Downloading https://files.pythonhosted.org/packages/c6/1b/2b3d72b73196707a2093b160b4992142776a74bb883253a8ee5065e2f996/ax-platform-0.3.2.tar.gz
+[2023-05-08 22:50:02] INFO root fetch - processPackages [python-gdcm]: Downloading https://files.pythonhosted.org/packages/5b/a4/34d12e408f3928ad1fe2adcadeb00faa67a83a3b9eaceaa40e3ee626403d/python-gdcm-3.0.9.1.tar.gz
+[2023-05-08 22:50:02] INFO root fetch - processPackages [ax-platform]: executing diffoscope
+[2023-05-08 22:50:02] INFO root fetch - processPackages [ax-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ax-platform-0.3.1.tar.gz tmp/ax-platform-0.3.2.tar.gz --markdown 20230508/a/ax-platform/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-08 22:50:02] INFO root fetch - processPackages [nkt-tools]: Start processing: daniel-cavazos-sdk
+[2023-05-08 22:50:02] INFO root fetch - main [MainThread]: End processing [nkt-tools]: success
+[2023-05-08 22:50:02] INFO root fetch - processPackages [daniel-cavazos-sdk]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-08 22:50:02] INFO root fetch - processPackages [daniel-cavazos-sdk]: Downloading https://files.pythonhosted.org/packages/3b/0a/febe06458e2c0de7f98a3f5826b998e2c4e9be7d96de4a25c7739718fc6e/daniel-cavazos-sdk-0.0.1.tar.gz
+[2023-05-08 22:50:02] INFO root fetch - processPackages [abmap]: Start processing: maelstrom-evolution
+[2023-05-08 22:50:02] INFO root fetch - main [MainThread]: End processing [abmap]: success
+[2023-05-08 22:50:02] WARNING root fetch - processPackages [maelstrom-evolution]: Skipping, unable to determine old version
+[2023-05-08 22:50:02] INFO root fetch - processPackages [maelstrom-evolution]: Start processing: gradio-client
+[2023-05-08 22:50:02] INFO root fetch - main [MainThread]: End processing [maelstrom-evolution] error
+[2023-05-08 22:50:02] INFO root fetch - processPackages [python-gdcm]: executing diffoscope
+[2023-05-08 22:50:02] INFO root fetch - processPackages [python-gdcm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-gdcm-3.0.9.0.tar.gz tmp/python-gdcm-3.0.9.1.tar.gz --markdown 20230508/p/python-gdcm/3.0.9.0-3.0.9.1/diff.md --exclude *.pyd
+[2023-05-08 22:50:03] INFO root fetch - processPackages [struct-gpt]: Start processing: code-loader
+[2023-05-08 22:50:03] INFO root fetch - main [MainThread]: End processing [struct-gpt]: success
+[2023-05-08 22:50:03] INFO root fetch - processPackages [code-loader]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-08 22:50:03] INFO root fetch - processPackages [gradio-client]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-08 22:50:03] INFO root fetch - processPackages [tumfl]: Start processing: pulumi-minio
+[2023-05-08 22:50:03] INFO root fetch - main [MainThread]: End processing [tumfl]: success
+[2023-05-08 22:50:03] INFO root fetch - processPackages [code-loader]: executing diffoscope
+[2023-05-08 22:50:03] INFO root fetch - processPackages [code-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/code-loader-0.2.8.tar.gz tmp/code-loader-0.2.9.tar.gz --markdown 20230508/c/code-loader/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-08 22:50:03] INFO root fetch - processPackages [daniel-cavazos-sdk]: Downloading https://files.pythonhosted.org/packages/8a/20/a0940ba1c6f3ef29bed71fbc6b64d7207263da90abc1ef96be54e482a8b4/daniel-cavazos-sdk-0.0.2.tar.gz
+[2023-05-08 22:50:03] INFO root fetch - processPackages [pulumi-minio]: New version: [0.9.1a1682440158] Old Version: [0.9.1a1681933919]
+[2023-05-08 22:50:03] INFO root fetch - processPackages [splight-lib]: Start processing: REMLA23-team09-lib
+[2023-05-08 22:50:03] INFO root fetch - main [MainThread]: End processing [splight-lib]: success
+[2023-05-08 22:50:03] INFO root fetch - processPackages [pybet]: Start processing: ConcurrentDatabase
+[2023-05-08 22:50:03] INFO root fetch - main [MainThread]: End processing [pybet]: success
+[2023-05-08 22:50:03] INFO root fetch - processPackages [gradio-client]: Downloading https://files.pythonhosted.org/packages/6b/d6/9826786524d89705fc055af4765dddcdd86cfb7095dcbcd1a388671b3393/gradio_client-0.2.0.tar.gz
+[2023-05-08 22:50:03] WARNING root fetch - processPackages [REMLA23-team09-lib]: Skipping, unable to determine old version
+[2023-05-08 22:50:03] INFO root fetch - processPackages [REMLA23-team09-lib]: Start processing: netunicorn-base
+[2023-05-08 22:50:03] INFO root fetch - main [MainThread]: End processing [REMLA23-team09-lib] error
+[2023-05-08 22:50:03] INFO root fetch - processPackages [daniel-cavazos-sdk]: executing diffoscope
+[2023-05-08 22:50:03] INFO root fetch - processPackages [daniel-cavazos-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daniel-cavazos-sdk-0.0.1.tar.gz tmp/daniel-cavazos-sdk-0.0.2.tar.gz --markdown 20230508/d/daniel-cavazos-sdk/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-08 22:50:03] INFO root fetch - processPackages [ConcurrentDatabase]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-08 22:50:03] INFO root fetch - processPackages [pulumi-minio]: Downloading https://files.pythonhosted.org/packages/ff/08/d2cadf5bfe93247a9689d335d5a90c90c3437bae7996f31d22e6a1e18bc8/pulumi_minio-0.9.1a1681933919.tar.gz
+[2023-05-08 22:50:03] INFO root fetch - processPackages [netunicorn-base]: New version: [0.3.0] Old Version: [0.2.5]
+[2023-05-08 22:50:03] INFO root fetch - processPackages [gradio-client]: Downloading https://files.pythonhosted.org/packages/ba/28/efe113dc19431e662cde8f29ea3322ff75e1c5760be100f62d3b0562f732/gradio_client-0.2.1.tar.gz
+[2023-05-08 22:50:03] INFO root fetch - processPackages [pulumi-minio]: Downloading https://files.pythonhosted.org/packages/15/55/586e40a427bb324461e4077406c21f75ad5bd1d406ec365a59f65e7790bd/pulumi_minio-0.9.1a1682440158.tar.gz
+[2023-05-08 22:50:03] INFO root fetch - processPackages [netunicorn-base]: Downloading https://files.pythonhosted.org/packages/31/6c/a05ec9893e8da076cf944eea097344701599fb8fabbf7890ccb1d0eb1180/netunicorn-base-0.2.5.tar.gz
+[2023-05-08 22:50:03] INFO root fetch - processPackages [ConcurrentDatabase]: Downloading https://files.pythonhosted.org/packages/64/a4/da8ed669a00c8d5a1942de90419e0cd8a052c95e82b9846903223bbf9dd9/ConcurrentDatabase-0.0.6.tar.gz
+[2023-05-08 22:50:03] INFO root fetch - main [MainThread]: End processing [FuncsForSPO]: success
+[2023-05-08 22:50:03] INFO root fetch - processPackages [pulumi-minio]: executing diffoscope
+[2023-05-08 22:50:03] INFO root fetch - processPackages [pulumi-minio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_minio-0.9.1a1681933919.tar.gz tmp/pulumi_minio-0.9.1a1682440158.tar.gz --markdown 20230508/p/pulumi-minio/0.9.1a1681933919-0.9.1a1682440158/diff.md --exclude *.pyd
+[2023-05-08 22:50:03] INFO root fetch - processPackages [ConcurrentDatabase]: executing diffoscope
+[2023-05-08 22:50:03] INFO root fetch - processPackages [ConcurrentDatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ConcurrentDatabase-0.0.5.tar.gz tmp/ConcurrentDatabase-0.0.6.tar.gz --markdown 20230508/C/ConcurrentDatabase/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-08 22:50:03] INFO root fetch - processPackages [gradio-client]: executing diffoscope
+[2023-05-08 22:50:03] INFO root fetch - processPackages [gradio-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gradio_client-0.2.0.tar.gz tmp/gradio_client-0.2.1.tar.gz --markdown 20230508/g/gradio-client/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-08 22:50:04] INFO root fetch - processPackages [netunicorn-base]: Downloading https://files.pythonhosted.org/packages/25/fd/5f046c277c7dc22ee54f46f01fcca95768bdb6428d76e577aec71b0c4c64/netunicorn-base-0.3.0.tar.gz
+[2023-05-08 22:50:04] INFO root fetch - main [MainThread]: End processing [code-loader]: success
+[2023-05-08 22:50:04] INFO root fetch - main [MainThread]: End processing [daniel-cavazos-sdk]: success
+[2023-05-08 22:50:04] INFO root fetch - processPackages [netunicorn-base]: executing diffoscope
+[2023-05-08 22:50:04] INFO root fetch - processPackages [netunicorn-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netunicorn-base-0.2.5.tar.gz tmp/netunicorn-base-0.3.0.tar.gz --markdown 20230508/n/netunicorn-base/0.2.5-0.3.0/diff.md --exclude *.pyd
+[2023-05-08 22:50:05] INFO root fetch - main [MainThread]: End processing [gradio-client]: success
+[2023-05-08 22:50:05] INFO root fetch - main [MainThread]: End processing [ConcurrentDatabase]: success
+[2023-05-08 22:50:05] INFO root fetch - main [MainThread]: End processing [netunicorn-base]: success
+[2023-05-08 22:50:05] INFO root fetch - main [MainThread]: End processing [hydromass]: success
+[2023-05-08 22:50:05] INFO root fetch - main [MainThread]: End processing [pulumi-minio]: success
+[2023-05-08 22:50:14] INFO root fetch - main [MainThread]: End processing [ax-platform]: success
+[2023-05-08 22:50:28] INFO root fetch - main [MainThread]: End processing [python-gdcm]: success
+[2023-05-08 22:50:28] INFO root fetch - main [MainThread]: Store serial: [18022483]
