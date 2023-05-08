@@ -10018,3 +10018,68 @@
 [2023-05-08 12:29:03] INFO root fetch - main [MainThread]: End processing [odoo13-addon-ddmrp-adjustment]: success
 [2023-05-08 12:29:09] INFO root fetch - main [MainThread]: End processing [codepeers]: success
 [2023-05-08 12:29:09] INFO root fetch - main [MainThread]: Store serial: [18015606]
+[2023-05-08 12:34:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18015606]
+[2023-05-08 12:34:19] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-08 12:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pysangkom
+[2023-05-08 12:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: thankyou
+[2023-05-08 12:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spotON_sdk
+[2023-05-08 12:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-private-bucket
+[2023-05-08 12:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: NodeGraphQt
+[2023-05-08 12:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: inverse
+[2023-05-08 12:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jsonpage
+[2023-05-08 12:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mydatatable
+[2023-05-08 12:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: findmyorder
+[2023-05-08 12:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dxsp
+[2023-05-08 12:34:19] INFO root fetch - processPackages [pysangkom]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-08 12:34:19] INFO root fetch - processPackages [thankyou]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-08 12:34:19] INFO root fetch - processPackages [spotON_sdk]: New version: [0.0.2.0] Old Version: [0.0.1.9]
+[2023-05-08 12:34:19] INFO root fetch - processPackages [NodeGraphQt]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-08 12:34:19] INFO root fetch - processPackages [inverse]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 12:34:19] INFO root fetch - processPackages [jsonpage]: New version: [20230426] Old Version: [20230425]
+[2023-05-08 12:34:19] WARNING root fetch - processPackages [mydatatable]: Skipping, unable to determine old version
+[2023-05-08 12:34:19] INFO root fetch - processPackages [mydatatable]: Start processing: pysangkom
+[2023-05-08 12:34:19] INFO root fetch - main [MainThread]: End processing [mydatatable] error
+[2023-05-08 12:34:19] INFO root fetch - processPackages [findmyorder]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-05-08 12:34:19] INFO root fetch - processPackages [dxsp]: New version: [2.0.7] Old Version: [2.0.6]
+[2023-05-08 12:34:19] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-08 12:34:19] INFO root fetch - processPackages [pysangkom]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-08 12:34:19] INFO root fetch - processPackages [inverse]: executing diffoscope
+[2023-05-08 12:34:19] INFO root fetch - processPackages [inverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inverse-0.0.8-py3-none-any.whl.zip tmp/inverse-0.0.9-py3-none-any.whl.zip --markdown 20230508/i/inverse/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 12:34:19] INFO root fetch - processPackages [pysangkom]: Downloading https://files.pythonhosted.org/packages/ad/9a/061ce29483848576338451279a787c3afced4b4d14a4d575308a7b4a1580/pysangkom-1.0.2.tar.gz
+[2023-05-08 12:34:19] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: executing diffoscope
+[2023-05-08 12:34:19] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz --markdown 20230508/p/pepperize.cdk-private-bucket/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-08 12:34:19] INFO root fetch - processPackages [pysangkom]: Downloading https://files.pythonhosted.org/packages/ad/9a/061ce29483848576338451279a787c3afced4b4d14a4d575308a7b4a1580/pysangkom-1.0.2.tar.gz
+[2023-05-08 12:34:19] ERROR root fetch - processPackages [jsonpage]: Unable to fetch info: No such project/version 'jsonpage' 20230425
+[2023-05-08 12:34:19] INFO root fetch - main [MainThread]: End processing [jsonpage] error
+[2023-05-08 12:34:19] INFO root fetch - processPackages [spotON_sdk]: Downloading https://files.pythonhosted.org/packages/78/d0/896d5c6868ac74dce7d8e4fb6a50cbfe88ebbf65246357d5d0651be259c0/spotON_sdk-0.0.2.0.tar.gz
+[2023-05-08 12:34:19] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/1e/f6/c90b4e33193c226f8c480d2cbacc1e90c82f0d6bfc7a747593181b08603c/findmyorder-1.3.6.tar.gz
+[2023-05-08 12:34:19] INFO root fetch - processPackages [NodeGraphQt]: Downloading https://files.pythonhosted.org/packages/2f/66/e2b439ee3aea2d4978fbb50dba0a7cc4fb68cae4e1f0fbbd5ddc914a855a/NodeGraphQt-0.5.8.tar.gz
+[2023-05-08 12:34:19] INFO root fetch - processPackages [spotON_sdk]: executing diffoscope
+[2023-05-08 12:34:19] INFO root fetch - processPackages [spotON_sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotON_sdk-0.0.1.9.tar.gz tmp/spotON_sdk-0.0.2.0.tar.gz --markdown 20230508/s/spotON_sdk/0.0.1.9-0.0.2.0/diff.md --exclude *.pyd
+[2023-05-08 12:34:19] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/81/30/b1ec318b93726a33048d22f20469e8204180e4a78cbd3b2bcd64ea55a88e/dxsp-2.0.7.tar.gz
+[2023-05-08 12:34:19] INFO root fetch - processPackages [thankyou]: Downloading https://files.pythonhosted.org/packages/1b/93/27381d497812a6415e6e57eb20a90d20d14c22427d4c3f931fa18330f879/thankyou-0.0.3.tar.gz
+[2023-05-08 12:34:19] INFO root fetch - processPackages [pysangkom]: Downloading https://files.pythonhosted.org/packages/25/f6/8f4e743384c0ee2b081cec8d82b8b050620acfe8174503ef596f2b7516c9/pysangkom-1.0.3.tar.gz
+[2023-05-08 12:34:19] INFO root fetch - processPackages [pysangkom]: Downloading https://files.pythonhosted.org/packages/25/f6/8f4e743384c0ee2b081cec8d82b8b050620acfe8174503ef596f2b7516c9/pysangkom-1.0.3.tar.gz
+[2023-05-08 12:34:19] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-05-08 12:34:19] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.3.5.tar.gz tmp/findmyorder-1.3.6.tar.gz --markdown 20230508/f/findmyorder/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-05-08 12:34:19] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-05-08 12:34:19] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-2.0.6.tar.gz tmp/dxsp-2.0.7.tar.gz --markdown 20230508/d/dxsp/2.0.6-2.0.7/diff.md --exclude *.pyd
+[2023-05-08 12:34:19] INFO root fetch - processPackages [thankyou]: executing diffoscope
+[2023-05-08 12:34:19] INFO root fetch - processPackages [thankyou]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thankyou-0.0.2.tar.gz tmp/thankyou-0.0.3.tar.gz --markdown 20230508/t/thankyou/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-08 12:34:19] INFO root fetch - processPackages [NodeGraphQt]: Downloading https://files.pythonhosted.org/packages/1f/48/5fe80b2270d3bdc73a08cea022870804051753879125b61be73ad76388d6/NodeGraphQt-0.5.9.tar.gz
+[2023-05-08 12:34:19] INFO root fetch - processPackages [pysangkom]: executing diffoscope
+[2023-05-08 12:34:19] INFO root fetch - processPackages [pysangkom]: executing diffoscope
+[2023-05-08 12:34:19] INFO root fetch - processPackages [pysangkom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysangkom-1.0.2.tar.gz tmp/pysangkom-1.0.3.tar.gz --markdown 20230508/p/pysangkom/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-08 12:34:19] INFO root fetch - processPackages [pysangkom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysangkom-1.0.2.tar.gz tmp/pysangkom-1.0.3.tar.gz --markdown 20230508/p/pysangkom/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-08 12:34:19] INFO root fetch - processPackages [NodeGraphQt]: executing diffoscope
+[2023-05-08 12:34:19] INFO root fetch - processPackages [NodeGraphQt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NodeGraphQt-0.5.8.tar.gz tmp/NodeGraphQt-0.5.9.tar.gz --markdown 20230508/N/NodeGraphQt/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-08 12:34:20] INFO root fetch - main [MainThread]: End processing [spotON_sdk]: success
+[2023-05-08 12:34:21] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-05-08 12:34:21] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-05-08 12:34:21] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-private-bucket]: success
+[2023-05-08 12:34:21] INFO root fetch - main [MainThread]: End processing [pysangkom]: success
+[2023-05-08 12:34:21] INFO root fetch - main [MainThread]: End processing [thankyou]: success
+[2023-05-08 12:34:21] INFO root fetch - main [MainThread]: End processing [pysangkom]: success
+[2023-05-08 12:34:21] INFO root fetch - main [MainThread]: End processing [inverse]: success
+[2023-05-08 12:34:23] INFO root fetch - main [MainThread]: End processing [NodeGraphQt]: success
+[2023-05-08 12:34:23] INFO root fetch - main [MainThread]: Store serial: [18015637]
