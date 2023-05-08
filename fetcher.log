@@ -8850,3 +8850,105 @@
 [2023-05-08 11:10:46] INFO root fetch - main [MainThread]: End processing [returnn]: success
 [2023-05-08 11:11:46] INFO root fetch - main [MainThread]: End processing [pydevd-pycharm]: success
 [2023-05-08 11:11:47] INFO root fetch - main [MainThread]: Store serial: [18014987]
+[2023-05-08 11:16:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18014987]
+[2023-05-08 11:16:56] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-08 11:16:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: release-verchk-vijkan
+[2023-05-08 11:16:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hikari-bot
+[2023-05-08 11:16:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ykenan-fragments
+[2023-05-08 11:16:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pwl-chat-python
+[2023-05-08 11:16:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: loadmemory
+[2023-05-08 11:16:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: modelbase
+[2023-05-08 11:16:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: classification-transformers
+[2023-05-08 11:16:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdot
+[2023-05-08 11:16:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qtt
+[2023-05-08 11:16:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: streetscope
+[2023-05-08 11:16:56] INFO root fetch - processPackages [loadmemory]: New version: [0.1.1] Old Version: [0.1]
+[2023-05-08 11:16:56] INFO root fetch - processPackages [ykenan-fragments]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-08 11:16:56] WARNING root fetch - processPackages [release-verchk-vijkan]: Skipping, unable to determine old version
+[2023-05-08 11:16:56] INFO root fetch - processPackages [release-verchk-vijkan]: Start processing: Alpha-Rabbit
+[2023-05-08 11:16:56] INFO root fetch - main [MainThread]: End processing [release-verchk-vijkan] error
+[2023-05-08 11:16:56] INFO root fetch - processPackages [pwl-chat-python]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-05-08 11:16:56] INFO root fetch - processPackages [hikari-bot]: New version: [0.3.9.3] Old Version: [0.3.9.2]
+[2023-05-08 11:16:56] INFO root fetch - processPackages [modelbase]: New version: [1rc2] Old Version: [1.9.3]
+[2023-05-08 11:16:56] INFO root fetch - processPackages [qtt]: New version: [1.4.0] Old Version: [1.3.1]
+[2023-05-08 11:16:56] INFO root fetch - processPackages [streetscope]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-05-08 11:16:56] INFO root fetch - processPackages [cdot]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-08 11:16:56] WARNING root fetch - processPackages [classification-transformers]: Skipping, unable to determine old version
+[2023-05-08 11:16:56] INFO root fetch - processPackages [classification-transformers]: Start processing: hikari-bot
+[2023-05-08 11:16:56] INFO root fetch - main [MainThread]: End processing [classification-transformers] error
+[2023-05-08 11:16:56] INFO root fetch - processPackages [Alpha-Rabbit]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-08 11:16:56] INFO root fetch - processPackages [hikari-bot]: New version: [0.3.9.3] Old Version: [0.3.9.2]
+[2023-05-08 11:16:56] INFO root fetch - processPackages [Alpha-Rabbit]: executing diffoscope
+[2023-05-08 11:16:56] INFO root fetch - processPackages [Alpha-Rabbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Alpha_Rabbit-1.3.8.tar.gz tmp/Alpha_Rabbit-1.3.9.tar.gz --markdown 20230508/A/Alpha-Rabbit/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-08 11:16:56] INFO root fetch - processPackages [hikari-bot]: Downloading https://files.pythonhosted.org/packages/17/e5/215c4450d1e1a10e6813cc2012d87e6b6ff2d2e9d13238c8073e624553a7/hikari_bot-0.3.9.2.tar.gz
+[2023-05-08 11:16:56] INFO root fetch - processPackages [hikari-bot]: Downloading https://files.pythonhosted.org/packages/17/e5/215c4450d1e1a10e6813cc2012d87e6b6ff2d2e9d13238c8073e624553a7/hikari_bot-0.3.9.2.tar.gz
+[2023-05-08 11:16:56] INFO root fetch - processPackages [ykenan-fragments]: Downloading https://files.pythonhosted.org/packages/99/66/f279f6c3a5d29a12a2bd6e9cb129c4643c4628284df670a870de7ae32a33/ykenan_fragments-1.1.8.tar.gz
+[2023-05-08 11:16:56] INFO root fetch - processPackages [loadmemory]: Downloading https://files.pythonhosted.org/packages/da/31/3fd62e0f09d406faa4f0a8fd185e86f0a58cb47d653a5565761997e160a7/loadmemory-0.1.tar.gz
+[2023-05-08 11:16:56] INFO root fetch - processPackages [qtt]: Downloading https://files.pythonhosted.org/packages/7f/bb/d8a50760da45b52ff53ae7c957762cbb82d87d0bdf4af4c4ccee11393744/qtt-1.3.1.tar.gz
+[2023-05-08 11:16:56] INFO root fetch - processPackages [cdot]: Downloading https://files.pythonhosted.org/packages/be/ef/d1dd63a51af2549d654554fd9aee97436ad7cca17ccce573cd94a1114469/cdot-0.2.8.tar.gz
+[2023-05-08 11:16:56] INFO root fetch - processPackages [streetscope]: Downloading https://files.pythonhosted.org/packages/99/7f/3dc178404dfec301db0e36e6d8f9dbd5869354e7a762489fe174cd1c03fd/streetscope-0.3.8.tar.gz
+[2023-05-08 11:16:57] INFO root fetch - processPackages [pwl-chat-python]: Downloading https://files.pythonhosted.org/packages/e2/cf/ddcc2882706cdd5a5e233448ae36a68cbeed5f1a1da71683e124e8e91735/pwl-chat-python-1.3.5.tar.gz
+[2023-05-08 11:16:57] INFO root fetch - processPackages [pwl-chat-python]: executing diffoscope
+[2023-05-08 11:16:57] INFO root fetch - processPackages [pwl-chat-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pwl-chat-python-1.3.4.tar.gz tmp/pwl-chat-python-1.3.5.tar.gz --markdown 20230508/p/pwl-chat-python/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-05-08 11:16:57] WARNING root fetch - processPackages [qtt]: Skipping package: exceeds size limit 43284621>=10485760
+[2023-05-08 11:16:57] INFO root fetch - processPackages [qtt]: Start processing: gcbinspy
+[2023-05-08 11:16:57] INFO root fetch - main [MainThread]: End processing [qtt] error
+[2023-05-08 11:16:57] INFO root fetch - processPackages [ykenan-fragments]: Downloading https://files.pythonhosted.org/packages/a5/c3/79c12ebe0bbac70dea05a5de4e34e6b137c37094c1cfdcea61a44c1947a5/ykenan_fragments-1.1.9.tar.gz
+[2023-05-08 11:16:57] INFO root fetch - processPackages [hikari-bot]: Downloading https://files.pythonhosted.org/packages/7e/c4/dca112c71d6fe5b69e2c95cfd6dc1ee2c3dbbe9eeeed804f0fa7bd4a7918/hikari_bot-0.3.9.3.tar.gz
+[2023-05-08 11:16:57] INFO root fetch - processPackages [hikari-bot]: Downloading https://files.pythonhosted.org/packages/7e/c4/dca112c71d6fe5b69e2c95cfd6dc1ee2c3dbbe9eeeed804f0fa7bd4a7918/hikari_bot-0.3.9.3.tar.gz
+[2023-05-08 11:16:57] INFO root fetch - processPackages [streetscope]: executing diffoscope
+[2023-05-08 11:16:57] INFO root fetch - processPackages [streetscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streetscope-0.3.7.tar.gz tmp/streetscope-0.3.8.tar.gz --markdown 20230508/s/streetscope/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-05-08 11:16:57] INFO root fetch - processPackages [ykenan-fragments]: executing diffoscope
+[2023-05-08 11:16:57] INFO root fetch - processPackages [ykenan-fragments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ykenan_fragments-1.1.8.tar.gz tmp/ykenan_fragments-1.1.9.tar.gz --markdown 20230508/y/ykenan-fragments/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-08 11:16:57] INFO root fetch - processPackages [gcbinspy]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-08 11:16:57] INFO root fetch - processPackages [loadmemory]: Downloading https://files.pythonhosted.org/packages/19/b8/f5a15f2258f4148e19e09e98a83dec07a33efbbf2e30d2810e30fb662c66/loadmemory-0.1.1.tar.gz
+[2023-05-08 11:16:57] INFO root fetch - processPackages [hikari-bot]: executing diffoscope
+[2023-05-08 11:16:57] INFO root fetch - processPackages [hikari-bot]: executing diffoscope
+[2023-05-08 11:16:57] INFO root fetch - processPackages [hikari-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hikari_bot-0.3.9.2.tar.gz tmp/hikari_bot-0.3.9.3.tar.gz --markdown 20230508/h/hikari-bot/0.3.9.2-0.3.9.3/diff.md --exclude *.pyd
+[2023-05-08 11:16:57] INFO root fetch - processPackages [hikari-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hikari_bot-0.3.9.2.tar.gz tmp/hikari_bot-0.3.9.3.tar.gz --markdown 20230508/h/hikari-bot/0.3.9.2-0.3.9.3/diff.md --exclude *.pyd
+[2023-05-08 11:16:57] INFO root fetch - processPackages [loadmemory]: executing diffoscope
+[2023-05-08 11:16:57] INFO root fetch - processPackages [loadmemory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loadmemory-0.1.tar.gz tmp/loadmemory-0.1.1.tar.gz --markdown 20230508/l/loadmemory/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-05-08 11:16:57] INFO root fetch - processPackages [cdot]: Downloading https://files.pythonhosted.org/packages/db/ee/f890f3499ba1dd982d79757a7800fee7e82c526f3041e920b36e92033727/cdot-0.2.9.tar.gz
+[2023-05-08 11:16:57] INFO root fetch - processPackages [modelbase]: executing diffoscope
+[2023-05-08 11:16:57] INFO root fetch - processPackages [modelbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbase-1.9.3.tar.gz tmp/modelbase-1rc2.tar.gz --markdown 20230508/m/modelbase/1.9.3-1rc2/diff.md --exclude *.pyd
+[2023-05-08 11:16:57] INFO root fetch - processPackages [gcbinspy]: Downloading https://files.pythonhosted.org/packages/d7/a2/3259e3525a32274ca8cc57cf586544ea27c74079d3420ff2c0d6facd8784/gcbinspy-0.0.3.tar.gz
+[2023-05-08 11:16:57] INFO root fetch - processPackages [cdot]: executing diffoscope
+[2023-05-08 11:16:57] INFO root fetch - processPackages [cdot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdot-0.2.8.tar.gz tmp/cdot-0.2.9.tar.gz --markdown 20230508/c/cdot/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-08 11:16:57] INFO root fetch - processPackages [gcbinspy]: Downloading https://files.pythonhosted.org/packages/8e/a7/3131c4b97aa2f597c7f24b5244e20172a359e01c3abc95a540c55cb17ae9/gcbinspy-0.0.4.tar.gz
+[2023-05-08 11:16:57] INFO root fetch - processPackages [gcbinspy]: executing diffoscope
+[2023-05-08 11:16:57] INFO root fetch - processPackages [gcbinspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcbinspy-0.0.3.tar.gz tmp/gcbinspy-0.0.4.tar.gz --markdown 20230508/g/gcbinspy/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-08 11:16:58] INFO root fetch - processPackages [Alpha-Rabbit]: Start processing: text-fabric
+[2023-05-08 11:16:58] INFO root fetch - main [MainThread]: End processing [Alpha-Rabbit]: success
+[2023-05-08 11:16:58] INFO root fetch - processPackages [text-fabric]: New version: [9.5.2] Old Version: [9.4.4]
+[2023-05-08 11:16:58] INFO root fetch - processPackages [pwl-chat-python]: Start processing: tbp-nightly
+[2023-05-08 11:16:58] INFO root fetch - main [MainThread]: End processing [pwl-chat-python]: success
+[2023-05-08 11:16:58] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-05-08 11:16:58] INFO root fetch - processPackages [text-fabric]: executing diffoscope
+[2023-05-08 11:16:58] INFO root fetch - processPackages [text-fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_fabric-9.4.4-py3-none-any.whl.zip tmp/text_fabric-9.5.2-py3-none-any.whl.zip --markdown 20230508/t/text-fabric/9.4.4-9.5.2/diff.md --exclude *.pyd
+[2023-05-08 11:16:58] INFO root fetch - processPackages [ykenan-fragments]: Start processing: pineboo
+[2023-05-08 11:16:58] INFO root fetch - main [MainThread]: End processing [ykenan-fragments]: success
+[2023-05-08 11:16:58] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2023-05-08 11:16:58] INFO root fetch - processPackages [pineboo]: New version: [1.0.4.4] Old Version: [1.0.4.3]
+[2023-05-08 11:16:58] INFO root fetch - processPackages [streetscope]: Start processing: bicleaner-ai
+[2023-05-08 11:16:58] INFO root fetch - main [MainThread]: End processing [streetscope]: success
+[2023-05-08 11:16:58] INFO root fetch - processPackages [pineboo]: executing diffoscope
+[2023-05-08 11:16:58] INFO root fetch - processPackages [pineboo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pineboo-1.0.4.3.tar.gz tmp/pineboo-1.0.4.4.tar.gz --markdown 20230508/p/pineboo/1.0.4.3-1.0.4.4/diff.md --exclude *.pyd
+[2023-05-08 11:16:58] INFO root fetch - processPackages [bicleaner-ai]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-05-08 11:16:59] INFO root fetch - main [MainThread]: End processing [loadmemory]: success
+[2023-05-08 11:16:59] INFO root fetch - main [MainThread]: End processing [cdot]: success
+[2023-05-08 11:16:59] INFO root fetch - processPackages [bicleaner-ai]: Downloading https://files.pythonhosted.org/packages/ae/ba/a6f3d6f2ec88ed30fdc2c5953f8c4740f2c1f48eed7b052e8bc23297e047/bicleaner-ai-2.2.0.tar.gz
+[2023-05-08 11:16:59] INFO root fetch - main [MainThread]: End processing [modelbase]: success
+[2023-05-08 11:16:59] INFO root fetch - main [MainThread]: End processing [gcbinspy]: success
+[2023-05-08 11:16:59] INFO root fetch - processPackages [bicleaner-ai]: Downloading https://files.pythonhosted.org/packages/76/2c/31792cb4a109a50d6c407682e773fe8bbda597f5e633a5bdbde52ff61c0c/bicleaner-ai-2.2.1.tar.gz
+[2023-05-08 11:16:59] INFO root fetch - processPackages [bicleaner-ai]: executing diffoscope
+[2023-05-08 11:16:59] INFO root fetch - processPackages [bicleaner-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bicleaner-ai-2.2.0.tar.gz tmp/bicleaner-ai-2.2.1.tar.gz --markdown 20230508/b/bicleaner-ai/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-05-08 11:16:59] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2023-05-08 11:17:00] INFO root fetch - main [MainThread]: End processing [hikari-bot]: success
+[2023-05-08 11:17:00] INFO root fetch - main [MainThread]: End processing [hikari-bot]: success
+[2023-05-08 11:17:00] INFO root fetch - main [MainThread]: End processing [bicleaner-ai]: success
+[2023-05-08 11:17:01] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-05-08 11:17:01] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230508/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-05-08 11:17:01] INFO root fetch - main [MainThread]: End processing [text-fabric]: success
+[2023-05-08 11:17:03] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-05-08 11:17:10] INFO root fetch - main [MainThread]: End processing [pineboo]: success
+[2023-05-08 11:17:10] INFO root fetch - main [MainThread]: Store serial: [18015044]
