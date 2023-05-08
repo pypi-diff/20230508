@@ -3252,3 +3252,102 @@
 [2023-05-08 05:02:32] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ciam]: success
 [2023-05-08 05:02:32] INFO root fetch - main [MainThread]: End processing [SAPsim]: success
 [2023-05-08 05:02:32] INFO root fetch - main [MainThread]: Store serial: [18011894]
+[2023-05-08 05:07:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18011894]
+[2023-05-08 05:07:41] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-08 05:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kogi
+[2023-05-08 05:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: longalpha-utils
+[2023-05-08 05:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymaibool
+[2023-05-08 05:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: azure-mgmt-cosmosdb
+[2023-05-08 05:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bitcoin-explorer
+[2023-05-08 05:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: azure-mgmt-recoveryservicesbackup
+[2023-05-08 05:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: LaminB-ID
+[2023-05-08 05:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tencentcloud-sdk-python-cis
+[2023-05-08 05:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tencentcloud-sdk-python-ckafka
+[2023-05-08 05:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tencentcloud-sdk-python-clb
+[2023-05-08 05:07:41] INFO root fetch - processPackages [longalpha-utils]: New version: [0.45] Old Version: [0.43]
+[2023-05-08 05:07:41] INFO root fetch - processPackages [azure-mgmt-recoveryservicesbackup]: New version: [6.0.0] Old Version: [5.2.0]
+[2023-05-08 05:07:41] WARNING root fetch - processPackages [pymaibool]: Skipping, unable to determine old version
+[2023-05-08 05:07:41] INFO root fetch - processPackages [kogi]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-05-08 05:07:41] INFO root fetch - processPackages [pymaibool]: Start processing: voxel-model-vizualizer
+[2023-05-08 05:07:41] INFO root fetch - main [MainThread]: End processing [pymaibool] error
+[2023-05-08 05:07:41] WARNING root fetch - processPackages [LaminB-ID]: Skipping, unable to determine old version
+[2023-05-08 05:07:41] INFO root fetch - processPackages [LaminB-ID]: Start processing: wale-sdk
+[2023-05-08 05:07:41] INFO root fetch - processPackages [azure-mgmt-cosmosdb]: New version: [9.2.0] Old Version: [9.1.0b2]
+[2023-05-08 05:07:41] INFO root fetch - main [MainThread]: End processing [LaminB-ID] error
+[2023-05-08 05:07:41] INFO root fetch - processPackages [bitcoin-explorer]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-08 05:07:41] WARNING root fetch - processPackages [voxel-model-vizualizer]: Skipping, unable to determine old version
+[2023-05-08 05:07:41] INFO root fetch - processPackages [voxel-model-vizualizer]: Start processing: jsonformer
+[2023-05-08 05:07:41] INFO root fetch - main [MainThread]: End processing [voxel-model-vizualizer] error
+[2023-05-08 05:07:41] INFO root fetch - processPackages [wale-sdk]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-08 05:07:41] INFO root fetch - processPackages [tencentcloud-sdk-python-clb]: New version: [3.0.886] Old Version: [3.0.885]
+[2023-05-08 05:07:42] INFO root fetch - processPackages [longalpha-utils]: Downloading https://files.pythonhosted.org/packages/ff/a1/b5f093185a9e53b1a03ea40c06a4e0388698ec840e242720c283aa81496f/longalpha_utils-0.43.tar.gz
+[2023-05-08 05:07:42] INFO root fetch - processPackages [azure-mgmt-recoveryservicesbackup]: Downloading https://files.pythonhosted.org/packages/83/99/92e4cc5095fcb487c448dd905026b11024f479dee254915fe876d94c9075/azure-mgmt-recoveryservicesbackup-5.2.0.zip
+[2023-05-08 05:07:42] INFO root fetch - processPackages [tencentcloud-sdk-python-ckafka]: New version: [3.0.886] Old Version: [3.0.885]
+[2023-05-08 05:07:42] INFO root fetch - processPackages [jsonformer]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-08 05:07:42] INFO root fetch - processPackages [azure-mgmt-cosmosdb]: Downloading https://files.pythonhosted.org/packages/0d/3e/d70b409e5af0bd1c3939d64c3711cb3ce8e4505b69e21e0a274b9c316b7b/azure-mgmt-cosmosdb-9.1.0b2.zip
+[2023-05-08 05:07:42] INFO root fetch - processPackages [kogi]: Downloading https://files.pythonhosted.org/packages/47/9f/b5cb1a0e639217ca256a53974095e55cf7fe40f4b7ab14e9cd2fbc4c8d61/kogi-0.4.4.tar.gz
+[2023-05-08 05:07:42] INFO root fetch - processPackages [tencentcloud-sdk-python-clb]: Downloading https://files.pythonhosted.org/packages/08/e1/1fbfc8117ff8496b297072086442162d242c1d71b6a088be000aa8cec205/tencentcloud-sdk-python-clb-3.0.885.tar.gz
+[2023-05-08 05:07:42] INFO root fetch - processPackages [wale-sdk]: Downloading https://files.pythonhosted.org/packages/34/e1/95bc659ce21ff87a53b305bbf935e7fb5de46062b1d987a59a45033c493d/wale-sdk-0.1.0.tar.gz
+[2023-05-08 05:07:42] INFO root fetch - processPackages [tencentcloud-sdk-python-cis]: New version: [3.0.886] Old Version: [3.0.885]
+[2023-05-08 05:07:42] INFO root fetch - processPackages [longalpha-utils]: Downloading https://files.pythonhosted.org/packages/d7/f4/4f35547006fa4ed3d31e66b48769c60fee8dae7f5b3c925b68b834a1d865/longalpha_utils-0.45.tar.gz
+[2023-05-08 05:07:42] INFO root fetch - processPackages [tencentcloud-sdk-python-ckafka]: Downloading https://files.pythonhosted.org/packages/de/05/179635ba86769cad739db7ee5c0ead7ebbf5d20678c71d1f3f199a261858/tencentcloud-sdk-python-ckafka-3.0.885.tar.gz
+[2023-05-08 05:07:42] INFO root fetch - processPackages [jsonformer]: Downloading https://files.pythonhosted.org/packages/ad/02/6d5fc9a92ffbd0c9485b25db693143e87d10a801494db76292b9c25e0f9c/jsonformer-0.8.0.tar.gz
+[2023-05-08 05:07:42] INFO root fetch - processPackages [azure-mgmt-cosmosdb]: Downloading https://files.pythonhosted.org/packages/e9/5d/599d62ea130315e49c5a7450e487613eb328d9572b4533e8ff696a0cd6c6/azure-mgmt-cosmosdb-9.2.0.zip
+[2023-05-08 05:07:42] INFO root fetch - processPackages [longalpha-utils]: executing diffoscope
+[2023-05-08 05:07:42] INFO root fetch - processPackages [longalpha-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/longalpha_utils-0.43.tar.gz tmp/longalpha_utils-0.45.tar.gz --markdown 20230508/l/longalpha-utils/0.43-0.45/diff.md --exclude *.pyd
+[2023-05-08 05:07:42] INFO root fetch - processPackages [bitcoin-explorer]: executing diffoscope
+[2023-05-08 05:07:42] INFO root fetch - processPackages [bitcoin-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitcoin_explorer-1.2.8-cp39-none-win_amd64.whl.zip tmp/bitcoin_explorer-1.2.9-cp39-none-win_amd64.whl.zip --markdown 20230508/b/bitcoin-explorer/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-08 05:07:42] INFO root fetch - processPackages [azure-mgmt-recoveryservicesbackup]: Downloading https://files.pythonhosted.org/packages/38/3a/9e604acfe62dbd2af81ee3f2562da0bb86685843f5e2c33e6503d5ad43f0/azure-mgmt-recoveryservicesbackup-6.0.0.zip
+[2023-05-08 05:07:42] INFO root fetch - processPackages [azure-mgmt-cosmosdb]: executing diffoscope
+[2023-05-08 05:07:42] INFO root fetch - processPackages [azure-mgmt-cosmosdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-cosmosdb-9.1.0b2.zip tmp/azure-mgmt-cosmosdb-9.2.0.zip --markdown 20230508/a/azure-mgmt-cosmosdb/9.1.0b2-9.2.0/diff.md --exclude *.pyd
+[2023-05-08 05:07:42] INFO root fetch - processPackages [tencentcloud-sdk-python-cis]: Downloading https://files.pythonhosted.org/packages/eb/da/03e27f53abfeba46de1542dad5c5f4db1a73060da276424cfb71a53cfbcc/tencentcloud-sdk-python-cis-3.0.885.tar.gz
+[2023-05-08 05:07:42] INFO root fetch - processPackages [azure-mgmt-recoveryservicesbackup]: executing diffoscope
+[2023-05-08 05:07:42] INFO root fetch - processPackages [azure-mgmt-recoveryservicesbackup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-recoveryservicesbackup-5.2.0.zip tmp/azure-mgmt-recoveryservicesbackup-6.0.0.zip --markdown 20230508/a/azure-mgmt-recoveryservicesbackup/5.2.0-6.0.0/diff.md --exclude *.pyd
+[2023-05-08 05:07:42] INFO root fetch - processPackages [tencentcloud-sdk-python-clb]: Downloading https://files.pythonhosted.org/packages/1a/c6/a612edfdb3e8a488e061931bd866f048ae7ff1775cfe734b43c30c856bdb/tencentcloud-sdk-python-clb-3.0.886.tar.gz
+[2023-05-08 05:07:42] INFO root fetch - processPackages [tencentcloud-sdk-python-ckafka]: Downloading https://files.pythonhosted.org/packages/35/09/c0f648341dc67b3e31fc3b4b7bc4220b2c7d304eec88f1a7ac3ba31aed95/tencentcloud-sdk-python-ckafka-3.0.886.tar.gz
+[2023-05-08 05:07:42] INFO root fetch - processPackages [tencentcloud-sdk-python-clb]: executing diffoscope
+[2023-05-08 05:07:42] INFO root fetch - processPackages [tencentcloud-sdk-python-clb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-clb-3.0.885.tar.gz tmp/tencentcloud-sdk-python-clb-3.0.886.tar.gz --markdown 20230508/t/tencentcloud-sdk-python-clb/3.0.885-3.0.886/diff.md --exclude *.pyd
+[2023-05-08 05:07:42] INFO root fetch - processPackages [jsonformer]: Downloading https://files.pythonhosted.org/packages/a1/38/467fab98670c64f404083bd94f69549e623bc128a733e7315a58870b6741/jsonformer-0.9.0.tar.gz
+[2023-05-08 05:07:42] INFO root fetch - processPackages [tencentcloud-sdk-python-ckafka]: executing diffoscope
+[2023-05-08 05:07:42] INFO root fetch - processPackages [tencentcloud-sdk-python-ckafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ckafka-3.0.885.tar.gz tmp/tencentcloud-sdk-python-ckafka-3.0.886.tar.gz --markdown 20230508/t/tencentcloud-sdk-python-ckafka/3.0.885-3.0.886/diff.md --exclude *.pyd
+[2023-05-08 05:07:42] INFO root fetch - processPackages [jsonformer]: executing diffoscope
+[2023-05-08 05:07:42] INFO root fetch - processPackages [jsonformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonformer-0.8.0.tar.gz tmp/jsonformer-0.9.0.tar.gz --markdown 20230508/j/jsonformer/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-08 05:07:42] INFO root fetch - processPackages [kogi]: Downloading https://files.pythonhosted.org/packages/3b/7d/81748099a8455b17e57a5a50d7599a2660d04db0e7b27981aa529d96f256/kogi-0.4.5.tar.gz
+[2023-05-08 05:07:42] INFO root fetch - processPackages [tencentcloud-sdk-python-cis]: Downloading https://files.pythonhosted.org/packages/be/65/c2cd993e128e58f4096cebee98603955c60a4ee81e674c34953c6e27761e/tencentcloud-sdk-python-cis-3.0.886.tar.gz
+[2023-05-08 05:07:43] INFO root fetch - processPackages [wale-sdk]: Downloading https://files.pythonhosted.org/packages/2e/0c/f12d7b3fecd65aef543eec4d1c4934d758c31524b32dffd5aa04759b75b7/wale-sdk-0.1.1.tar.gz
+[2023-05-08 05:07:43] INFO root fetch - processPackages [kogi]: executing diffoscope
+[2023-05-08 05:07:43] INFO root fetch - processPackages [kogi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kogi-0.4.4.tar.gz tmp/kogi-0.4.5.tar.gz --markdown 20230508/k/kogi/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-05-08 05:07:43] INFO root fetch - processPackages [tencentcloud-sdk-python-cis]: executing diffoscope
+[2023-05-08 05:07:43] INFO root fetch - processPackages [tencentcloud-sdk-python-cis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cis-3.0.885.tar.gz tmp/tencentcloud-sdk-python-cis-3.0.886.tar.gz --markdown 20230508/t/tencentcloud-sdk-python-cis/3.0.885-3.0.886/diff.md --exclude *.pyd
+[2023-05-08 05:07:43] INFO root fetch - processPackages [wale-sdk]: executing diffoscope
+[2023-05-08 05:07:43] INFO root fetch - processPackages [wale-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wale-sdk-0.1.0.tar.gz tmp/wale-sdk-0.1.1.tar.gz --markdown 20230508/w/wale-sdk/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-08 05:07:43] INFO root fetch - processPackages [longalpha-utils]: Start processing: authcaptureproxy
+[2023-05-08 05:07:43] INFO root fetch - main [MainThread]: End processing [longalpha-utils]: success
+[2023-05-08 05:07:43] INFO root fetch - processPackages [authcaptureproxy]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-05-08 05:07:43] INFO root fetch - processPackages [authcaptureproxy]: executing diffoscope
+[2023-05-08 05:07:43] INFO root fetch - processPackages [authcaptureproxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authcaptureproxy-1.1.4.tar.gz tmp/authcaptureproxy-1.1.5.tar.gz --markdown 20230508/a/authcaptureproxy/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-05-08 05:07:43] INFO root fetch - processPackages [bitcoin-explorer]: Start processing: analogvnn
+[2023-05-08 05:07:43] INFO root fetch - main [MainThread]: End processing [bitcoin-explorer]: success
+[2023-05-08 05:07:44] INFO root fetch - processPackages [analogvnn]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-08 05:07:44] INFO root fetch - processPackages [jsonformer]: Start processing: tencentcloud-sdk-python-cloudaudit
+[2023-05-08 05:07:44] INFO root fetch - main [MainThread]: End processing [jsonformer]: success
+[2023-05-08 05:07:44] INFO root fetch - processPackages [analogvnn]: Downloading https://files.pythonhosted.org/packages/3c/40/e9afae82e2c879a0524b9c97eff3b95854245801f70d5e9bf89c7b5096e1/analogvnn-1.0.1.tar.gz
+[2023-05-08 05:07:44] INFO root fetch - main [MainThread]: End processing [wale-sdk]: success
+[2023-05-08 05:07:44] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cis]: success
+[2023-05-08 05:07:44] INFO root fetch - processPackages [analogvnn]: Downloading https://files.pythonhosted.org/packages/06/81/3412d2b6945753d466980c4d23b934c106e007f192f10f1c101f3d2249b3/analogvnn-1.0.2.tar.gz
+[2023-05-08 05:07:44] INFO root fetch - processPackages [analogvnn]: executing diffoscope
+[2023-05-08 05:07:44] INFO root fetch - processPackages [analogvnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/analogvnn-1.0.1.tar.gz tmp/analogvnn-1.0.2.tar.gz --markdown 20230508/a/analogvnn/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-08 05:07:44] INFO root fetch - processPackages [tencentcloud-sdk-python-cloudaudit]: New version: [3.0.886] Old Version: [3.0.885]
+[2023-05-08 05:07:45] INFO root fetch - main [MainThread]: End processing [authcaptureproxy]: success
+[2023-05-08 05:07:45] INFO root fetch - processPackages [tencentcloud-sdk-python-cloudaudit]: Downloading https://files.pythonhosted.org/packages/0d/fd/5b0ae41da5713e5c7b08a17cf7930ebc82e7aae228194717e4d409fcb51c/tencentcloud-sdk-python-cloudaudit-3.0.885.tar.gz
+[2023-05-08 05:07:45] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ckafka]: success
+[2023-05-08 05:07:45] INFO root fetch - processPackages [tencentcloud-sdk-python-cloudaudit]: Downloading https://files.pythonhosted.org/packages/24/8d/26549cb3d5c57fada918147570de75574634ac0098dc6fc899614f3cd630/tencentcloud-sdk-python-cloudaudit-3.0.886.tar.gz
+[2023-05-08 05:07:45] INFO root fetch - processPackages [tencentcloud-sdk-python-cloudaudit]: executing diffoscope
+[2023-05-08 05:07:45] INFO root fetch - processPackages [tencentcloud-sdk-python-cloudaudit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cloudaudit-3.0.885.tar.gz tmp/tencentcloud-sdk-python-cloudaudit-3.0.886.tar.gz --markdown 20230508/t/tencentcloud-sdk-python-cloudaudit/3.0.885-3.0.886/diff.md --exclude *.pyd
+[2023-05-08 05:07:46] INFO root fetch - main [MainThread]: End processing [analogvnn]: success
+[2023-05-08 05:07:46] INFO root fetch - main [MainThread]: End processing [kogi]: success
+[2023-05-08 05:07:46] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-clb]: success
+[2023-05-08 05:07:46] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cloudaudit]: success
+[2023-05-08 05:07:47] INFO root fetch - main [MainThread]: End processing [azure-mgmt-cosmosdb]: success
+[2023-05-08 05:07:47] INFO root fetch - main [MainThread]: End processing [azure-mgmt-recoveryservicesbackup]: success
+[2023-05-08 05:07:47] INFO root fetch - main [MainThread]: Store serial: [18011972]
