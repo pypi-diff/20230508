@@ -13370,3 +13370,91 @@ EOFError: EOF read where object expected
 [2023-05-08 15:38:32] INFO root fetch - main [MainThread]: End processing [isimip-qc]: success
 [2023-05-08 15:38:33] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
 [2023-05-08 15:38:33] INFO root fetch - main [MainThread]: Store serial: [18017274]
+[2023-05-08 15:43:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18017274]
+[2023-05-08 15:43:42] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-08 15:43:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyscisci
+[2023-05-08 15:43:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: request-validator-galaxy
+[2023-05-08 15:43:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lcacollect-config
+[2023-05-08 15:43:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: policyengine-canada
+[2023-05-08 15:43:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-or-disableAutoGenAssertFiltering
+[2023-05-08 15:43:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: deeplc
+[2023-05-08 15:43:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qoqo-qiskit
+[2023-05-08 15:43:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: resotoclient
+[2023-05-08 15:43:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xmesh
+[2023-05-08 15:43:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rmpy
+[2023-05-08 15:43:42] INFO root fetch - processPackages [pyscisci]: New version: [0.8.5] Old Version: [0.8.11]
+[2023-05-08 15:43:42] INFO root fetch - processPackages [policyengine-canada]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-08 15:43:42] INFO root fetch - processPackages [certora-cli-alpha-or-disableAutoGenAssertFiltering]: New version: [20230508.7.43.757649] Old Version: [20230508.13.40.267174]
+[2023-05-08 15:43:42] INFO root fetch - processPackages [deeplc]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-05-08 15:43:42] INFO root fetch - processPackages [lcacollect-config]: New version: [1.4.0] Old Version: [1.3.3]
+[2023-05-08 15:43:42] INFO root fetch - processPackages [resotoclient]: New version: [1.4.0] Old Version: [1.3.1]
+[2023-05-08 15:43:42] WARNING root fetch - processPackages [request-validator-galaxy]: Skipping, unable to determine old version
+[2023-05-08 15:43:42] INFO root fetch - processPackages [request-validator-galaxy]: Start processing: serdeserb
+[2023-05-08 15:43:42] INFO root fetch - main [MainThread]: End processing [request-validator-galaxy] error
+[2023-05-08 15:43:42] WARNING root fetch - processPackages [rmpy]: Skipping, unable to determine old version
+[2023-05-08 15:43:42] INFO root fetch - processPackages [rmpy]: Start processing: langchain-serve
+[2023-05-08 15:43:42] INFO root fetch - main [MainThread]: End processing [rmpy] error
+[2023-05-08 15:43:42] WARNING root fetch - processPackages [qoqo-qiskit]: Skipping, unable to determine old version
+[2023-05-08 15:43:42] INFO root fetch - processPackages [qoqo-qiskit]: Start processing: qtest-reporter
+[2023-05-08 15:43:42] INFO root fetch - main [MainThread]: End processing [qoqo-qiskit] error
+[2023-05-08 15:43:42] INFO root fetch - processPackages [xmesh]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-05-08 15:43:42] INFO root fetch - processPackages [policyengine-canada]: executing diffoscope
+[2023-05-08 15:43:42] INFO root fetch - processPackages [policyengine-canada]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-canada-0.8.0.tar.gz tmp/policyengine-canada-0.9.0.tar.gz --markdown 20230508/p/policyengine-canada/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-08 15:43:42] INFO root fetch - processPackages [qtest-reporter]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-08 15:43:42] INFO root fetch - processPackages [pyscisci]: Downloading https://files.pythonhosted.org/packages/61/09/d346a8dcb7593adbc6cb8d6004984bf72be8190d3601683b25a1f42a69ca/pyscisci-0.8.11.tar.gz
+[2023-05-08 15:43:42] INFO root fetch - processPackages [certora-cli-alpha-or-disableAutoGenAssertFiltering]: Downloading https://files.pythonhosted.org/packages/46/b8/b9d4e09bdc7a8027277cf62d75498f2b5bd9735f2a6620f0a613e802caef/certora-cli-alpha-or-disableAutoGenAssertFiltering-20230508.13.40.267174.tar.gz
+[2023-05-08 15:43:42] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-05-08 15:43:42] INFO root fetch - processPackages [deeplc]: Downloading https://files.pythonhosted.org/packages/19/8a/f66c614935e0cf09bc3449d4403601e73a63bbdc5373865f52e01d7fe344/deeplc-2.1.2.tar.gz
+[2023-05-08 15:43:42] INFO root fetch - processPackages [qtest-reporter]: executing diffoscope
+[2023-05-08 15:43:42] INFO root fetch - processPackages [qtest-reporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtest_reporter-0.0.4.tar.gz tmp/qtest_reporter-0.0.5.tar.gz --markdown 20230508/q/qtest-reporter/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-08 15:43:42] WARNING root fetch - processPackages [deeplc]: Skipping package: exceeds size limit 77888631>=10485760
+[2023-05-08 15:43:42] INFO root fetch - processPackages [deeplc]: Start processing: findmyorder
+[2023-05-08 15:43:42] INFO root fetch - main [MainThread]: End processing [deeplc] error
+[2023-05-08 15:43:42] INFO root fetch - processPackages [findmyorder]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-05-08 15:43:42] INFO root fetch - processPackages [resotoclient]: Downloading https://files.pythonhosted.org/packages/c9/46/d28774d6a68c4b197a45d212291ea5e8b89538a956ff6db8c8b41853d7bd/resotoclient-1.3.1.tar.gz
+[2023-05-08 15:43:42] INFO root fetch - processPackages [xmesh]: Downloading https://files.pythonhosted.org/packages/e2/43/93f8182b6675527945b26a882b83f187875e2e7dc513be20225da237f4fa/xmesh-0.3.1.tar.gz
+[2023-05-08 15:43:42] WARNING root fetch - processPackages [certora-cli-alpha-or-disableAutoGenAssertFiltering]: Skipping package: exceeds size limit 38474652>=10485760
+[2023-05-08 15:43:42] INFO root fetch - processPackages [certora-cli-alpha-or-disableAutoGenAssertFiltering]: Start processing: cloudnetpy
+[2023-05-08 15:43:42] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-or-disableAutoGenAssertFiltering] error
+[2023-05-08 15:43:42] WARNING root fetch - processPackages [serdeserb]: Skipping, unable to determine old version
+[2023-05-08 15:43:42] INFO root fetch - processPackages [serdeserb]: Start processing: cloudnetpy-qc
+[2023-05-08 15:43:42] INFO root fetch - main [MainThread]: End processing [serdeserb] error
+[2023-05-08 15:43:42] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-05-08 15:43:42] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.3.5.tar.gz tmp/findmyorder-1.3.6.tar.gz --markdown 20230508/f/findmyorder/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-05-08 15:43:42] INFO root fetch - processPackages [cloudnetpy-qc]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-05-08 15:43:42] INFO root fetch - processPackages [lcacollect-config]: Downloading https://files.pythonhosted.org/packages/99/4f/3df6296842b646086c99b9748c9a54f592656c8ab8248cfeaef16b9f92c1/lcacollect_config-1.3.3.tar.gz
+[2023-05-08 15:43:42] INFO root fetch - processPackages [pyscisci]: Downloading https://files.pythonhosted.org/packages/65/6e/ad0650638d9c60bd5af5be9a63eb9d5a08793efb16d73b845d2b1b969ed6/pyscisci-0.8.5-py2.py3-none-any.whl
+[2023-05-08 15:43:42] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/b7/44/08a32d4d65d7aed7bf8a2e8d59c7c72ac5c5538be8c3e735a588d5ccf69b/langchain-serve-0.0.9.dev22.tar.gz
+[2023-05-08 15:43:42] INFO root fetch - processPackages [cloudnetpy]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-05-08 15:43:42] INFO root fetch - processPackages [resotoclient]: Downloading https://files.pythonhosted.org/packages/5b/bf/91c800c1ce88610bb829bb5c5effd347afaad997deec7edc2cc3fcc52986/resotoclient-1.4.0.tar.gz
+[2023-05-08 15:43:42] INFO root fetch - processPackages [cloudnetpy-qc]: executing diffoscope
+[2023-05-08 15:43:42] INFO root fetch - processPackages [cloudnetpy-qc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudnetpy_qc-1.9.3.tar.gz tmp/cloudnetpy_qc-1.9.4.tar.gz --markdown 20230508/c/cloudnetpy-qc/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-05-08 15:43:42] INFO root fetch - processPackages [pyscisci]: executing diffoscope
+[2023-05-08 15:43:42] INFO root fetch - processPackages [pyscisci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscisci-0.8.11.tar.gz tmp/pyscisci-0.8.5-py2.py3-none-any.whl.zip --markdown 20230508/p/pyscisci/0.8.11-0.8.5/diff.md --exclude *.pyd
+[2023-05-08 15:43:42] INFO root fetch - processPackages [xmesh]: Downloading https://files.pythonhosted.org/packages/1d/7d/2928d5280728bc5e4cff69fc4b6ab6b05d5907866bda5a84a6a09715cde2/xmesh-0.4.0.tar.gz
+[2023-05-08 15:43:42] INFO root fetch - processPackages [cloudnetpy]: Downloading https://files.pythonhosted.org/packages/9c/f5/740f77e4140aebd398cec0e90a35ab89249c74a2128282651e3e52d69176/cloudnetpy-1.9.3.tar.gz
+[2023-05-08 15:43:42] INFO root fetch - processPackages [resotoclient]: executing diffoscope
+[2023-05-08 15:43:42] INFO root fetch - processPackages [resotoclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resotoclient-1.3.1.tar.gz tmp/resotoclient-1.4.0.tar.gz --markdown 20230508/r/resotoclient/1.3.1-1.4.0/diff.md --exclude *.pyd
+[2023-05-08 15:43:42] INFO root fetch - processPackages [lcacollect-config]: Downloading https://files.pythonhosted.org/packages/14/77/59878ed966431ee66827543ee4dc7f41edbb95500118a6ddc91b26d218cf/lcacollect_config-1.4.0.tar.gz
+[2023-05-08 15:43:43] INFO root fetch - processPackages [lcacollect-config]: executing diffoscope
+[2023-05-08 15:43:43] INFO root fetch - processPackages [lcacollect-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lcacollect_config-1.3.3.tar.gz tmp/lcacollect_config-1.4.0.tar.gz --markdown 20230508/l/lcacollect-config/1.3.3-1.4.0/diff.md --exclude *.pyd
+[2023-05-08 15:43:43] INFO root fetch - processPackages [xmesh]: executing diffoscope
+[2023-05-08 15:43:43] WARNING root fetch - processPackages [cloudnetpy]: Skipping package: exceeds size limit 16683885>=10485760
+[2023-05-08 15:43:43] INFO root fetch - processPackages [xmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xmesh-0.3.1.tar.gz tmp/xmesh-0.4.0.tar.gz --markdown 20230508/x/xmesh/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-05-08 15:43:43] INFO root fetch - processPackages [cloudnetpy]: Start processing: umjunsik
+[2023-05-08 15:43:43] INFO root fetch - main [MainThread]: End processing [cloudnetpy] error
+[2023-05-08 15:43:43] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/51/a3/7492d3c89e7181c3fb783593129a3de459021071c2e7075f0050494b2de4/langchain-serve-0.0.9.dev9.tar.gz
+[2023-05-08 15:43:43] WARNING root fetch - processPackages [umjunsik]: Skipping, unable to determine old version
+[2023-05-08 15:43:43] INFO root fetch - main [MainThread]: End processing [umjunsik] error
+[2023-05-08 15:43:43] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-05-08 15:43:43] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230508/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-05-08 15:43:43] INFO root fetch - main [MainThread]: End processing [policyengine-canada]: success
+[2023-05-08 15:43:44] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-05-08 15:43:44] INFO root fetch - main [MainThread]: End processing [qtest-reporter]: success
+[2023-05-08 15:43:44] INFO root fetch - main [MainThread]: End processing [resotoclient]: success
+[2023-05-08 15:43:44] INFO root fetch - main [MainThread]: End processing [lcacollect-config]: success
+[2023-05-08 15:43:44] INFO root fetch - main [MainThread]: End processing [xmesh]: success
+[2023-05-08 15:43:45] INFO root fetch - main [MainThread]: End processing [pyscisci]: success
+[2023-05-08 15:43:45] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-05-08 15:43:47] INFO root fetch - main [MainThread]: End processing [cloudnetpy-qc]: success
+[2023-05-08 15:43:47] INFO root fetch - main [MainThread]: Store serial: [18017338]
