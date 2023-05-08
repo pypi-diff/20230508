@@ -20943,3 +20943,77 @@ EOFError: EOF read where object expected
 [2023-05-08 22:01:13] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
 [2023-05-08 22:01:14] INFO root fetch - main [MainThread]: End processing [aerosol-functions]: success
 [2023-05-08 22:01:14] INFO root fetch - main [MainThread]: Store serial: [18021833]
+[2023-05-08 22:06:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18021833]
+[2023-05-08 22:06:23] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-08 22:06:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aerosol-functions
+[2023-05-08 22:06:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: panfeed
+[2023-05-08 22:06:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plixkws
+[2023-05-08 22:06:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lamineml
+[2023-05-08 22:06:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datanalyse
+[2023-05-08 22:06:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lusid-sdk
+[2023-05-08 22:06:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbsite
+[2023-05-08 22:06:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lusid-sdk-preview
+[2023-05-08 22:06:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: threefive
+[2023-05-08 22:06:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kaplanmeier
+[2023-05-08 22:06:24] INFO root fetch - processPackages [lamineml]: New version: [0.8] Old Version: [0.7]
+[2023-05-08 22:06:24] INFO root fetch - processPackages [threefive]: New version: [2.3.9] Old Version: [2.3.83]
+[2023-05-08 22:06:24] INFO root fetch - processPackages [aerosol-functions]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 22:06:24] WARNING root fetch - processPackages [plixkws]: Skipping, unable to determine old version
+[2023-05-08 22:06:24] INFO root fetch - processPackages [plixkws]: Start processing: router-log-preprocessor
+[2023-05-08 22:06:24] INFO root fetch - main [MainThread]: End processing [plixkws] error
+[2023-05-08 22:06:24] INFO root fetch - processPackages [kaplanmeier]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 22:06:24] INFO root fetch - processPackages [panfeed]: New version: [1.3.0] Old Version: [1.2.1]
+[2023-05-08 22:06:24] INFO root fetch - processPackages [lamineml]: executing diffoscope
+[2023-05-08 22:06:24] INFO root fetch - processPackages [threefive]: executing diffoscope
+[2023-05-08 22:06:24] INFO root fetch - processPackages [lamineml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamineml-0.7.tar.gz tmp/lamineml-0.8.tar.gz --markdown 20230508/l/lamineml/0.7-0.8/diff.md --exclude *.pyd
+[2023-05-08 22:06:24] INFO root fetch - processPackages [threefive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threefive-2.3.83.tar.gz tmp/threefive-2.3.9.tar.gz --markdown 20230508/t/threefive/2.3.83-2.3.9/diff.md --exclude *.pyd
+[2023-05-08 22:06:24] INFO root fetch - processPackages [datanalyse]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-08 22:06:24] INFO root fetch - processPackages [nbsite]: New version: [0.8.0rc9] Old Version: [0.8.0rc8]
+[2023-05-08 22:06:24] INFO root fetch - processPackages [lusid-sdk]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-05-08 22:06:24] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-05-08 22:06:24] INFO root fetch - processPackages [router-log-preprocessor]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-08 22:06:24] INFO root fetch - processPackages [kaplanmeier]: Downloading https://files.pythonhosted.org/packages/3c/1f/08476eb2ec3e516eb0f0af0168b3c122a31c421fb34729f3661d25c97d6e/kaplanmeier-0.1.8.tar.gz
+[2023-05-08 22:06:24] INFO root fetch - processPackages [panfeed]: Downloading https://files.pythonhosted.org/packages/c0/c3/d5e04f53099bea19581d76193ab1ec3cb60e49f3bcf71926a935a7495dc4/panfeed-1.2.1.tar.gz
+[2023-05-08 22:06:24] INFO root fetch - processPackages [nbsite]: Downloading https://files.pythonhosted.org/packages/d8/77/7a773de2f4564f3e9b8c5f3550f287afaec9d423d1400de69ed30bcf6770/nbsite-0.8.0rc8.tar.gz
+[2023-05-08 22:06:24] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/49/7a/a2c137408aeb27bd4c7f6dd83e907217e3962f825b96448437c4cfa4e0ea/lusid-sdk-preview-1.0.91.tar.gz
+[2023-05-08 22:06:24] INFO root fetch - processPackages [router-log-preprocessor]: Downloading https://files.pythonhosted.org/packages/f2/9b/db3acf157be16edc075da77f4a4ce00c842c14cd9380df3d3bacf071658f/router_log_preprocessor-0.1.5.tar.gz
+[2023-05-08 22:06:24] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/be/34/7662f651750d07513450337ca9275481d00381ada330eaaa7e365fdde135/lusid-sdk-1.0.91.tar.gz
+[2023-05-08 22:06:24] INFO root fetch - processPackages [datanalyse]: Downloading https://files.pythonhosted.org/packages/0a/d0/5d17917d4b30f061dff479e717ab45df12b94ba6f696cf9324c5f1d625f3/datanalyse-0.0.3.tar.gz
+[2023-05-08 22:06:24] INFO root fetch - processPackages [aerosol-functions]: executing diffoscope
+[2023-05-08 22:06:24] INFO root fetch - processPackages [aerosol-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aerosol-functions-0.0.8.tar.gz tmp/aerosol-functions-0.0.9.tar.gz --markdown 20230508/a/aerosol-functions/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 22:06:24] INFO root fetch - processPackages [nbsite]: Downloading https://files.pythonhosted.org/packages/89/00/df63ef46b2f3732468f4ef3acbe06bcfab442ca275dc0c175fcad6a4cb4c/nbsite-0.8.0rc9.tar.gz
+[2023-05-08 22:06:24] INFO root fetch - processPackages [datanalyse]: executing diffoscope
+[2023-05-08 22:06:24] INFO root fetch - processPackages [datanalyse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datanalyse-0.0.2.tar.gz tmp/datanalyse-0.0.3.tar.gz --markdown 20230508/d/datanalyse/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-08 22:06:24] INFO root fetch - processPackages [kaplanmeier]: Downloading https://files.pythonhosted.org/packages/f1/71/cb32cac90d1d7da2d9d088df2747a78bdbc7e98a5b960d8c73fd1ba7e68a/kaplanmeier-0.1.9.tar.gz
+[2023-05-08 22:06:24] INFO root fetch - processPackages [panfeed]: Downloading https://files.pythonhosted.org/packages/85/05/62a12f2747b58fba16c29cec2dd84ef8001609c7851c53473f2bb4be8a07/panfeed-1.3.0.tar.gz
+[2023-05-08 22:06:24] INFO root fetch - processPackages [kaplanmeier]: executing diffoscope
+[2023-05-08 22:06:24] INFO root fetch - processPackages [kaplanmeier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaplanmeier-0.1.8.tar.gz tmp/kaplanmeier-0.1.9.tar.gz --markdown 20230508/k/kaplanmeier/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 22:06:24] INFO root fetch - processPackages [router-log-preprocessor]: Downloading https://files.pythonhosted.org/packages/38/9e/38bf16921a1a18f05e7a71793cbd6ec9cc52adfb83447a04857495107c32/router_log_preprocessor-0.1.6.tar.gz
+[2023-05-08 22:06:24] INFO root fetch - processPackages [nbsite]: executing diffoscope
+[2023-05-08 22:06:24] INFO root fetch - processPackages [nbsite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbsite-0.8.0rc8.tar.gz tmp/nbsite-0.8.0rc9.tar.gz --markdown 20230508/n/nbsite/0.8.0rc8-0.8.0rc9/diff.md --exclude *.pyd
+[2023-05-08 22:06:24] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/98/81/36672596a28f997865bee76ba030a446e52a68b56b9e297ed56f9a8fb301/lusid-sdk-preview-1.0.98.tar.gz
+[2023-05-08 22:06:24] INFO root fetch - processPackages [panfeed]: executing diffoscope
+[2023-05-08 22:06:24] INFO root fetch - processPackages [panfeed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panfeed-1.2.1.tar.gz tmp/panfeed-1.3.0.tar.gz --markdown 20230508/p/panfeed/1.2.1-1.3.0/diff.md --exclude *.pyd
+[2023-05-08 22:06:24] INFO root fetch - processPackages [router-log-preprocessor]: executing diffoscope
+[2023-05-08 22:06:24] INFO root fetch - processPackages [router-log-preprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/router_log_preprocessor-0.1.5.tar.gz tmp/router_log_preprocessor-0.1.6.tar.gz --markdown 20230508/r/router-log-preprocessor/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-08 22:06:25] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/14/c8/523a5d4f9c0dcabd6883ffe308d0ecf41ed93c1f7e1cdc4baced16ec67c6/lusid-sdk-1.0.98.tar.gz
+[2023-05-08 22:06:25] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2023-05-08 22:06:25] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-1.0.91.tar.gz tmp/lusid-sdk-1.0.98.tar.gz --markdown 20230508/l/lusid-sdk/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-05-08 22:06:25] INFO root fetch - processPackages [lamineml]: Start processing: misura
+[2023-05-08 22:06:25] INFO root fetch - main [MainThread]: End processing [lamineml]: success
+[2023-05-08 22:06:25] INFO root fetch - processPackages [misura]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-05-08 22:06:25] INFO root fetch - processPackages [misura]: executing diffoscope
+[2023-05-08 22:06:25] INFO root fetch - processPackages [misura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misura-1.5.1.tar.gz tmp/misura-1.5.2.tar.gz --markdown 20230508/m/misura/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-05-08 22:06:25] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2023-05-08 22:06:25] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.0.91.tar.gz tmp/lusid-sdk-preview-1.0.98.tar.gz --markdown 20230508/l/lusid-sdk-preview/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-05-08 22:06:25] INFO root fetch - main [MainThread]: End processing [datanalyse]: success
+[2023-05-08 22:06:26] INFO root fetch - main [MainThread]: End processing [threefive]: success
+[2023-05-08 22:06:26] INFO root fetch - main [MainThread]: End processing [kaplanmeier]: success
+[2023-05-08 22:06:26] INFO root fetch - main [MainThread]: End processing [router-log-preprocessor]: success
+[2023-05-08 22:06:26] INFO root fetch - main [MainThread]: End processing [panfeed]: success
+[2023-05-08 22:06:26] INFO root fetch - main [MainThread]: End processing [misura]: success
+[2023-05-08 22:06:27] INFO root fetch - main [MainThread]: End processing [nbsite]: success
+[2023-05-08 22:06:29] INFO root fetch - main [MainThread]: End processing [aerosol-functions]: success
+[2023-05-08 22:06:47] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2023-05-08 22:06:55] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2023-05-08 22:06:55] INFO root fetch - main [MainThread]: Store serial: [18021871]
