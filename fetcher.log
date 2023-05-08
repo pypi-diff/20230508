@@ -2552,3 +2552,49 @@
 [2023-05-08 04:24:44] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
 [2023-05-08 04:25:15] INFO root fetch - main [MainThread]: End processing [graph-z-c]: success
 [2023-05-08 04:25:15] INFO root fetch - main [MainThread]: Store serial: [18011554]
+[2023-05-08 04:30:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18011554]
+[2023-05-08 04:30:24] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-08 04:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finance-ml
+[2023-05-08 04:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbus-signature-pyparsing
+[2023-05-08 04:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cagraph
+[2023-05-08 04:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: html2info
+[2023-05-08 04:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk8s-plus-24
+[2023-05-08 04:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iam-actions
+[2023-05-08 04:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ykenan-fragments
+[2023-05-08 04:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cagraph
+[2023-05-08 04:30:24] WARNING root fetch - processPackages [cagraph]: Skipping, unable to determine old version
+[2023-05-08 04:30:24] INFO root fetch - main [MainThread]: End processing [cagraph] error
+[2023-05-08 04:30:24] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-05-08 04:30:24] WARNING root fetch - processPackages [cagraph]: Skipping, unable to determine old version
+[2023-05-08 04:30:24] INFO root fetch - main [MainThread]: End processing [cagraph] error
+[2023-05-08 04:30:24] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230507] Old Version: [1.2.20230506]
+[2023-05-08 04:30:24] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/61/fd/341ee13486880c693e40dcfa1c392676afb73632bc824de1f5a33591736a/cdk8s-plus-24-2.7.8.tar.gz
+[2023-05-08 04:30:24] INFO root fetch - processPackages [finance-ml]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-08 04:30:24] INFO root fetch - processPackages [dbus-signature-pyparsing]: New version: [0.4.1] Old Version: [0.4]
+[2023-05-08 04:30:24] INFO root fetch - processPackages [ykenan-fragments]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-05-08 04:30:24] INFO root fetch - processPackages [html2info]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-05-08 04:30:24] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-05-08 04:30:24] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230506.tar.gz tmp/iam_actions-1.2.20230507.tar.gz --markdown 20230508/i/iam-actions/1.2.20230506-1.2.20230507/diff.md --exclude *.pyd
+[2023-05-08 04:30:24] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/bf/09/a12dca2b452b7dcf2baa4614cc7fdd7aed5784b316bc66d6da559c8c792a/cdk8s-plus-24-2.7.9.tar.gz
+[2023-05-08 04:30:25] INFO root fetch - processPackages [dbus-signature-pyparsing]: Downloading https://files.pythonhosted.org/packages/f0/f6/9373cbe38f2bb71e6bc3f24c246e1fbd3ebcb2cf16a7a5bd0c4b2a3e234f/dbus-signature-pyparsing-0.4.tar.gz
+[2023-05-08 04:30:25] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-05-08 04:30:25] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.7.8.tar.gz tmp/cdk8s-plus-24-2.7.9.tar.gz --markdown 20230508/c/cdk8s-plus-24/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-05-08 04:30:25] INFO root fetch - processPackages [ykenan-fragments]: Downloading https://files.pythonhosted.org/packages/4b/30/0a02de04bf8941b70ee1ed9634688c7c27222cf5b8999b69e5b3651a0260/ykenan_fragments-1.1.6.tar.gz
+[2023-05-08 04:30:25] INFO root fetch - processPackages [finance-ml]: Downloading https://files.pythonhosted.org/packages/49/5d/bd6f63be72bf7909373c9163b2a9a79296617518ef35e8b8a9bb76a6952d/finance_ml-0.0.4.tar.gz
+[2023-05-08 04:30:25] INFO root fetch - processPackages [html2info]: Downloading https://files.pythonhosted.org/packages/c4/18/48a94e598852fd1c027913a01919a0f7147828b2fa705d177acb4261dc3d/html2info-0.2.0.tar.gz
+[2023-05-08 04:30:25] INFO root fetch - processPackages [ykenan-fragments]: executing diffoscope
+[2023-05-08 04:30:25] INFO root fetch - processPackages [ykenan-fragments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ykenan_fragments-1.1.5.tar.gz tmp/ykenan_fragments-1.1.6.tar.gz --markdown 20230508/y/ykenan-fragments/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-05-08 04:30:25] INFO root fetch - processPackages [finance-ml]: executing diffoscope
+[2023-05-08 04:30:25] INFO root fetch - processPackages [finance-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finance_ml-0.0.3.tar.gz tmp/finance_ml-0.0.4.tar.gz --markdown 20230508/f/finance-ml/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-08 04:30:25] INFO root fetch - processPackages [html2info]: executing diffoscope
+[2023-05-08 04:30:25] INFO root fetch - processPackages [html2info]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/html2info-0.1.9.tar.gz tmp/html2info-0.2.0.tar.gz --markdown 20230508/h/html2info/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-05-08 04:30:25] INFO root fetch - processPackages [dbus-signature-pyparsing]: Downloading https://files.pythonhosted.org/packages/c3/36/0b3b99b6c5fb7c6e1ea2f1ee40d49db199805ab3e9431ae6710f9e01470d/dbus-signature-pyparsing-0.4.1.tar.gz
+[2023-05-08 04:30:25] INFO root fetch - processPackages [dbus-signature-pyparsing]: executing diffoscope
+[2023-05-08 04:30:25] INFO root fetch - processPackages [dbus-signature-pyparsing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbus-signature-pyparsing-0.4.tar.gz tmp/dbus-signature-pyparsing-0.4.1.tar.gz --markdown 20230508/d/dbus-signature-pyparsing/0.4-0.4.1/diff.md --exclude *.pyd
+[2023-05-08 04:30:26] INFO root fetch - main [MainThread]: End processing [dbus-signature-pyparsing]: success
+[2023-05-08 04:30:26] INFO root fetch - main [MainThread]: End processing [html2info]: success
+[2023-05-08 04:30:26] INFO root fetch - main [MainThread]: End processing [ykenan-fragments]: success
+[2023-05-08 04:30:26] INFO root fetch - main [MainThread]: End processing [finance-ml]: success
+[2023-05-08 04:30:27] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-05-08 04:30:28] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-05-08 04:30:28] INFO root fetch - main [MainThread]: Store serial: [18011578]
