@@ -1919,3 +1919,55 @@
 [2023-05-08 03:17:03] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
 [2023-05-08 03:17:05] INFO root fetch - main [MainThread]: End processing [forust]: success
 [2023-05-08 03:17:05] INFO root fetch - main [MainThread]: Store serial: [18011142]
+[2023-05-08 03:22:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18011142]
+[2023-05-08 03:22:14] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-08 03:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: appshwnd
+[2023-05-08 03:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyagrum-nightly
+[2023-05-08 03:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-organizations
+[2023-05-08 03:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bioregistry
+[2023-05-08 03:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scotthsieh-projen-statemachine
+[2023-05-08 03:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: not1mm
+[2023-05-08 03:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kube-api
+[2023-05-08 03:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-gitlab-runner
+[2023-05-08 03:22:14] WARNING root fetch - processPackages [appshwnd]: Skipping, unable to determine old version
+[2023-05-08 03:22:14] INFO root fetch - main [MainThread]: End processing [appshwnd] error
+[2023-05-08 03:22:14] INFO root fetch - processPackages [not1mm]: New version: [23.5.7] Old Version: [23.5.6]
+[2023-05-08 03:22:14] INFO root fetch - processPackages [kube-api]: New version: [0.1.61] Old Version: [0.1.60]
+[2023-05-08 03:22:14] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-08 03:22:14] INFO root fetch - processPackages [bioregistry]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-08 03:22:14] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-05-08 03:22:14] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Downloading https://files.pythonhosted.org/packages/75/2e/d50f8b081603ac850ec9b5d5d5206498a7d302b7a6ea31adbd59cb01a4ae/scotthsieh_projen_statemachine-2.0.98.tar.gz
+[2023-05-08 03:22:14] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-05-08 03:22:14] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-05-08 03:22:14] INFO root fetch - processPackages [pyagrum-nightly]: New version: [1.7.1.9.dev202305081682913970] Old Version: [1.7.1.9.dev202305071682913970]
+[2023-05-08 03:22:14] INFO root fetch - processPackages [kube-api]: Downloading https://files.pythonhosted.org/packages/b1/ee/163fb04e988add3aeed583418e17ccca1f4ae4245c308505b7a12dcba1eb/kube_api-0.1.61.tar.gz
+[2023-05-08 03:22:14] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/00/40/016cdb2fb9e28fe1b601ce7542603c38b93a78a9a0d77a0309e559d58a1c/cdk-gitlab-runner-2.1.98.tar.gz
+[2023-05-08 03:22:14] INFO root fetch - processPackages [not1mm]: Downloading https://files.pythonhosted.org/packages/09/64/0b378a9eab0584e197c88b6325831b8392ba8fa1017b6566141249059f0e/not1mm-23.5.7.tar.gz
+[2023-05-08 03:22:14] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/4e/f6/973ccd4316a05888c3eb85264c9bad233e8f486e3bd1d3ed06d5c5e3504c/bioregistry-0.9.8.tar.gz
+[2023-05-08 03:22:14] INFO root fetch - processPackages [kube-api]: executing diffoscope
+[2023-05-08 03:22:14] INFO root fetch - processPackages [kube-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kube_api-0.1.60.tar.gz tmp/kube_api-0.1.61.tar.gz --markdown 20230508/k/kube-api/0.1.60-0.1.61/diff.md --exclude *.pyd
+[2023-05-08 03:22:15] INFO root fetch - processPackages [not1mm]: executing diffoscope
+[2023-05-08 03:22:15] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/f1/2e/e23557c262b9d19b0062525f4d22c7d369c76a997019659b8498b05d471e/pyAgrum_nightly-1.7.1.9.dev202305071682913970-cp39-cp39-win_amd64.whl
+[2023-05-08 03:22:15] INFO root fetch - processPackages [not1mm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/not1mm-23.5.6.tar.gz tmp/not1mm-23.5.7.tar.gz --markdown 20230508/n/not1mm/23.5.6-23.5.7/diff.md --exclude *.pyd
+[2023-05-08 03:22:15] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-05-08 03:22:15] INFO root fetch - processPackages [bioregistry]: executing diffoscope
+[2023-05-08 03:22:15] INFO root fetch - processPackages [bioregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioregistry-0.9.7.tar.gz tmp/bioregistry-0.9.8.tar.gz --markdown 20230508/b/bioregistry/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-08 03:22:15] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Downloading https://files.pythonhosted.org/packages/8d/5b/2a5beec8e0ad27c9cbe9feb5d73fadf98cf28ce1a01ad03f7abb00f14071/scotthsieh_projen_statemachine-2.0.99.tar.gz
+[2023-05-08 03:22:15] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-05-08 03:22:15] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230508/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-05-08 03:22:15] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/89/96/8e14acbbed72ce7cf16a2f829e722ff9189610a1fe440e7d52bb6185d401/cdk-gitlab-runner-2.1.99.tar.gz
+[2023-05-08 03:22:15] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: executing diffoscope
+[2023-05-08 03:22:15] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scotthsieh_projen_statemachine-2.0.98.tar.gz tmp/scotthsieh_projen_statemachine-2.0.99.tar.gz --markdown 20230508/s/scotthsieh-projen-statemachine/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-08 03:22:15] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2023-05-08 03:22:15] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.1.98.tar.gz tmp/cdk-gitlab-runner-2.1.99.tar.gz --markdown 20230508/c/cdk-gitlab-runner/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-05-08 03:22:15] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/a0/1c/a35a307990210371e6112e82d588323e1207866988cef539b7e63a6c65d8/pyAgrum_nightly-1.7.1.9.dev202305081682913970-cp39-cp39-win_amd64.whl
+[2023-05-08 03:22:16] INFO root fetch - main [MainThread]: End processing [kube-api]: success
+[2023-05-08 03:22:16] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-05-08 03:22:16] INFO root fetch - main [MainThread]: End processing [scotthsieh-projen-statemachine]: success
+[2023-05-08 03:22:16] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2023-05-08 03:22:16] INFO root fetch - processPackages [pyagrum-nightly]: executing diffoscope
+[2023-05-08 03:22:16] INFO root fetch - processPackages [pyagrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.7.1.9.dev202305071682913970-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.7.1.9.dev202305081682913970-cp39-cp39-win_amd64.whl.zip --markdown 20230508/p/pyagrum-nightly/1.7.1.9.dev202305071682913970-1.7.1.9.dev202305081682913970/diff.md --exclude *.pyd
+[2023-05-08 03:22:17] INFO root fetch - main [MainThread]: End processing [not1mm]: success
+[2023-05-08 03:22:17] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
+[2023-05-08 03:22:21] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
+[2023-05-08 03:22:21] INFO root fetch - main [MainThread]: Store serial: [18011201]
