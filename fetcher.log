@@ -22778,3 +22778,59 @@ EOFError: EOF read where object expected
 [2023-05-08 23:41:41] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
 [2023-05-08 23:41:55] INFO root fetch - main [MainThread]: End processing [acstools]: success
 [2023-05-08 23:41:55] INFO root fetch - main [MainThread]: Store serial: [18022898]
+[2023-05-08 23:46:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18022898]
+[2023-05-08 23:47:04] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-08 23:47:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: discovery-transition-ds
+[2023-05-08 23:47:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: salespyforce
+[2023-05-08 23:47:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ultralytics
+[2023-05-08 23:47:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pinecone-cli
+[2023-05-08 23:47:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: matviz
+[2023-05-08 23:47:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dvc-data
+[2023-05-08 23:47:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fluidsdk
+[2023-05-08 23:47:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gpt-review
+[2023-05-08 23:47:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: blaster-server
+[2023-05-08 23:47:04] WARNING root fetch - processPackages [salespyforce]: Skipping, unable to determine old version
+[2023-05-08 23:47:04] INFO root fetch - main [MainThread]: End processing [salespyforce] error
+[2023-05-08 23:47:04] INFO root fetch - processPackages [pinecone-cli]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-05-08 23:47:04] INFO root fetch - processPackages [fluidsdk]: New version: [0.3] Old Version: [0.2]
+[2023-05-08 23:47:04] INFO root fetch - processPackages [discovery-transition-ds]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-05-08 23:47:04] INFO root fetch - processPackages [gpt-review]: New version: [0.7.2rc483.post1] Old Version: [0.7.2]
+[2023-05-08 23:47:04] INFO root fetch - processPackages [matviz]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-08 23:47:04] INFO root fetch - processPackages [dvc-data]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-08 23:47:04] INFO root fetch - processPackages [ultralytics]: New version: [8.0.96] Old Version: [8.0.95]
+[2023-05-08 23:47:05] INFO root fetch - processPackages [dvc-data]: executing diffoscope
+[2023-05-08 23:47:05] INFO root fetch - processPackages [dvc-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-data-0.8.0.tar.gz tmp/dvc-data-0.9.0.tar.gz --markdown 20230508/d/dvc-data/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-08 23:47:05] INFO root fetch - processPackages [blaster-server]: New version: [0.0.428b0] Old Version: [0.0.428]
+[2023-05-08 23:47:05] INFO root fetch - processPackages [discovery-transition-ds]: executing diffoscope
+[2023-05-08 23:47:05] INFO root fetch - processPackages [discovery-transition-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discovery-transition-ds-4.9.8.tar.gz tmp/discovery-transition-ds-4.9.9.tar.gz --markdown 20230508/d/discovery-transition-ds/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-05-08 23:47:05] INFO root fetch - processPackages [fluidsdk]: Downloading https://files.pythonhosted.org/packages/73/d3/c361a24f791fd24820377ac15f30c6352bae6475cd4bd2278c4db1c88b08/fluidsdk-0.2.tar.gz
+[2023-05-08 23:47:05] INFO root fetch - processPackages [pinecone-cli]: Downloading https://files.pythonhosted.org/packages/f7/9f/17edfa99ddcd61f85f8eacad3b38b4d322fc2818ecf94c400596c3554e14/pinecone_cli-0.5.2-py3-none-any.whl
+[2023-05-08 23:47:05] INFO root fetch - processPackages [matviz]: Downloading https://files.pythonhosted.org/packages/bb/d1/74e2e9c8d657080ecef9ed48d0e9b48c1c615fc97faaf9f8b3c5cce50e0c/matviz-0.0.7.tar.gz
+[2023-05-08 23:47:05] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/2a/c9/667e217ef4e1df67644418ca782492bf76ac24a74d29138bcf9f5cadf904/ultralytics-8.0.95.tar.gz
+[2023-05-08 23:47:05] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/5c/1e/8240f8d0fbf09ca3756d02aaa23d36ac1e738894165a8e12fc77ddfa8e02/gpt-review-0.7.2.tar.gz
+[2023-05-08 23:47:05] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-08 23:47:05] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.7.2.tar.gz tmp/gpt-review-0.7.2rc483.post1.tar.gz --markdown 20230508/g/gpt-review/0.7.2-0.7.2rc483.post1/diff.md --exclude *.pyd
+[2023-05-08 23:47:05] INFO root fetch - processPackages [blaster-server]: Downloading https://files.pythonhosted.org/packages/a7/c8/0ad8e5523331aad243c93a02f8dae7d50870f4400687ea10cd7ca4428cc0/blaster-server-0.0.428b0.tar.gz
+[2023-05-08 23:47:05] INFO root fetch - processPackages [fluidsdk]: Downloading https://files.pythonhosted.org/packages/a4/c7/e812a61d2147b2817f5d1858248dd1dfeeae9609a5015fc335ae10af311f/fluidsdk-0.3.tar.gz
+[2023-05-08 23:47:05] INFO root fetch - processPackages [pinecone-cli]: Downloading https://files.pythonhosted.org/packages/1a/f0/f031051cd92e3bebe4a001ab18000208cc1816f4dc6b38c6ff8ec0a973f7/pinecone_cli-0.5.3-py3-none-any.whl
+[2023-05-08 23:47:05] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/b1/9f/958d11b74dfcee617aa748e5c9f8f3fbc6769bb78c9ba2f96a6f193fc052/ultralytics-8.0.96.tar.gz
+[2023-05-08 23:47:05] INFO root fetch - processPackages [fluidsdk]: executing diffoscope
+[2023-05-08 23:47:05] INFO root fetch - processPackages [fluidsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluidsdk-0.2.tar.gz tmp/fluidsdk-0.3.tar.gz --markdown 20230508/f/fluidsdk/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-08 23:47:05] INFO root fetch - processPackages [matviz]: Downloading https://files.pythonhosted.org/packages/34/7c/19a27b9dda7ae6e853663441d565922df4012a2081bb466d6bc599b9c9fd/matviz-0.0.8.tar.gz
+[2023-05-08 23:47:05] INFO root fetch - processPackages [pinecone-cli]: executing diffoscope
+[2023-05-08 23:47:05] INFO root fetch - processPackages [pinecone-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinecone_cli-0.5.2-py3-none-any.whl.zip tmp/pinecone_cli-0.5.3-py3-none-any.whl.zip --markdown 20230508/p/pinecone-cli/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-05-08 23:47:05] INFO root fetch - processPackages [blaster-server]: executing diffoscope
+[2023-05-08 23:47:05] INFO root fetch - processPackages [blaster-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blaster-server-0.0.428.tar.gz tmp/blaster-server-0.0.428b0.tar.gz --markdown 20230508/b/blaster-server/0.0.428-0.0.428b0/diff.md --exclude *.pyd
+[2023-05-08 23:47:05] INFO root fetch - processPackages [ultralytics]: executing diffoscope
+[2023-05-08 23:47:05] INFO root fetch - processPackages [ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics-8.0.95.tar.gz tmp/ultralytics-8.0.96.tar.gz --markdown 20230508/u/ultralytics/8.0.95-8.0.96/diff.md --exclude *.pyd
+[2023-05-08 23:47:05] INFO root fetch - processPackages [matviz]: executing diffoscope
+[2023-05-08 23:47:05] INFO root fetch - processPackages [matviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matviz-0.0.7.tar.gz tmp/matviz-0.0.8.tar.gz --markdown 20230508/m/matviz/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-08 23:47:06] INFO root fetch - main [MainThread]: End processing [dvc-data]: success
+[2023-05-08 23:47:06] INFO root fetch - main [MainThread]: End processing [pinecone-cli]: success
+[2023-05-08 23:47:06] INFO root fetch - main [MainThread]: End processing [fluidsdk]: success
+[2023-05-08 23:47:07] INFO root fetch - main [MainThread]: End processing [matviz]: success
+[2023-05-08 23:47:07] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-08 23:47:07] INFO root fetch - main [MainThread]: End processing [blaster-server]: success
+[2023-05-08 23:47:07] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
+[2023-05-08 23:47:09] INFO root fetch - main [MainThread]: End processing [discovery-transition-ds]: success
+[2023-05-08 23:47:09] INFO root fetch - main [MainThread]: Store serial: [18022945]
