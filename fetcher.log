@@ -9217,3 +9217,185 @@
 [2023-05-08 11:33:09] INFO root fetch - main [MainThread]: End processing [hikvision-isapi-cli]: success
 [2023-05-08 11:34:18] INFO root fetch - main [MainThread]: End processing [optinist]: success
 [2023-05-08 11:34:18] INFO root fetch - main [MainThread]: Store serial: [18015186]
+[2023-05-08 11:39:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18015186]
+[2023-05-08 11:39:46] INFO root fetch - main [MainThread]: Found 30 changed packages
+[2023-05-08 11:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spotON_sdk
+[2023-05-08 11:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dlt
+[2023-05-08 11:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: commonroad-crime
+[2023-05-08 11:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pynocaptcha
+[2023-05-08 11:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gardener-cicd-base
+[2023-05-08 11:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gardener-cicd-cli
+[2023-05-08 11:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gardener-cicd-dso
+[2023-05-08 11:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gardener-cicd-libs
+[2023-05-08 11:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gardener-cicd-whd
+[2023-05-08 11:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gardener-oci
+[2023-05-08 11:39:46] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2050.0] Old Version: [1.2049.0]
+[2023-05-08 11:39:46] INFO root fetch - processPackages [spotON_sdk]: New version: [0.0.1.9] Old Version: [0.0.1.8]
+[2023-05-08 11:39:46] INFO root fetch - processPackages [dlt]: New version: [0.2.6a2] Old Version: [0.2.6a1]
+[2023-05-08 11:39:46] INFO root fetch - processPackages [commonroad-crime]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-08 11:39:46] INFO root fetch - processPackages [pynocaptcha]: New version: [1.4.6] Old Version: [1.4.5]
+[2023-05-08 11:39:46] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2050.0] Old Version: [1.2049.0]
+[2023-05-08 11:39:47] INFO root fetch - processPackages [gardener-cicd-libs]: New version: [1.2050.0] Old Version: [1.2049.0]
+[2023-05-08 11:39:47] INFO root fetch - processPackages [gardener-cicd-whd]: New version: [1.2050.0] Old Version: [1.2049.0]
+[2023-05-08 11:39:47] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2050.0] Old Version: [1.2049.0]
+[2023-05-08 11:39:47] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2023-05-08 11:39:47] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/78/f4/f02dab5c18a52e72e4280ffbea1f829e11cf9c25e18f9a5dda1fc1e62ad3/gardener-cicd-cli-1.2049.0.tar.gz
+[2023-05-08 11:39:47] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/9a/95/2f49ecf9ad691b6ba47c88d688a5b1f8f17ff8f3a27f612a09dbbab86388/gardener-cicd-dso-1.2049.0.tar.gz
+[2023-05-08 11:39:47] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/16/e0/00c67f0d7c69edc988c2b3b980ad6e047c316c49cf27040d72596198ef85/gardener-cicd-base-1.2049.0.tar.gz
+[2023-05-08 11:39:47] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/1b/fc/389acc57839b4abdf4acbcf4e278a5ffe696b2d22410e5406eb62ff072a9/gardener-cicd-whd-1.2049.0.tar.gz
+[2023-05-08 11:39:47] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/8c/5e/7f661a3327c40d645c5c04c7948f9b55cc1048c5542d45e660415a823de0/gardener-cicd-libs-1.2049.0.tar.gz
+[2023-05-08 11:39:47] INFO root fetch - processPackages [spotON_sdk]: Downloading https://files.pythonhosted.org/packages/ed/c8/54525c65bb40e27f4541a5a9f7d0e2d0d6feacf145f6843ccac6c9f9f3a2/spotON_sdk-0.0.1.9.tar.gz
+[2023-05-08 11:39:47] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/65/8d/87469d533eb661d280b5bb3eb778421053cbe6438908abdc1d79b2921522/gardener-oci-1.998.0.tar.gz
+[2023-05-08 11:39:47] INFO root fetch - processPackages [pynocaptcha]: Downloading https://files.pythonhosted.org/packages/ac/5a/b4470d2a245b8263f5d3af9ebd1f9d158ca6e3872e4acf277bd740afdee6/pynocaptcha-1.4.6.tar.gz
+[2023-05-08 11:39:47] INFO root fetch - processPackages [spotON_sdk]: executing diffoscope
+[2023-05-08 11:39:47] INFO root fetch - processPackages [spotON_sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotON_sdk-0.0.1.8.tar.gz tmp/spotON_sdk-0.0.1.9.tar.gz --markdown 20230508/s/spotON_sdk/0.0.1.8-0.0.1.9/diff.md --exclude *.pyd
+[2023-05-08 11:39:47] INFO root fetch - processPackages [dlt]: executing diffoscope
+[2023-05-08 11:39:47] INFO root fetch - processPackages [dlt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlt-0.2.6a1.tar.gz tmp/dlt-0.2.6a2.tar.gz --markdown 20230508/d/dlt/0.2.6a1-0.2.6a2/diff.md --exclude *.pyd
+[2023-05-08 11:39:47] INFO root fetch - processPackages [pynocaptcha]: executing diffoscope
+[2023-05-08 11:39:47] INFO root fetch - processPackages [pynocaptcha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynocaptcha-1.4.5.tar.gz tmp/pynocaptcha-1.4.6.tar.gz --markdown 20230508/p/pynocaptcha/1.4.5-1.4.6/diff.md --exclude *.pyd
+[2023-05-08 11:39:47] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/c8/90/b0bd3c20d0b645f4c416bbedefc8b6348c55cb3a71d729cac50c41bc2466/gardener-cicd-cli-1.2050.0.tar.gz
+[2023-05-08 11:39:47] INFO root fetch - processPackages [commonroad-crime]: Downloading https://files.pythonhosted.org/packages/84/7c/07bd107bcaad587df7e5700f165b322049619f56c969e6d76d431cb080aa/commonroad-crime-0.2.4.tar.gz
+[2023-05-08 11:39:47] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/96/92/90738343203039e8ae62450a5bb7a0979e0122eb1f580af96d51f6e0538e/gardener-cicd-dso-1.2050.0.tar.gz
+[2023-05-08 11:39:47] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2023-05-08 11:39:47] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-cli-1.2049.0.tar.gz tmp/gardener-cicd-cli-1.2050.0.tar.gz --markdown 20230508/g/gardener-cicd-cli/1.2049.0-1.2050.0/diff.md --exclude *.pyd
+[2023-05-08 11:39:47] INFO root fetch - processPackages [commonroad-crime]: executing diffoscope
+[2023-05-08 11:39:47] INFO root fetch - processPackages [commonroad-crime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commonroad-crime-0.2.3.tar.gz tmp/commonroad-crime-0.2.4.tar.gz --markdown 20230508/c/commonroad-crime/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-08 11:39:47] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/4d/21/2ec87605608b4216ef538e963cf35ecc5395df56d37b9f493734bd3f622d/gardener-cicd-whd-1.2050.0.tar.gz
+[2023-05-08 11:39:47] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2023-05-08 11:39:47] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-dso-1.2049.0.tar.gz tmp/gardener-cicd-dso-1.2050.0.tar.gz --markdown 20230508/g/gardener-cicd-dso/1.2049.0-1.2050.0/diff.md --exclude *.pyd
+[2023-05-08 11:39:47] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/97/77/ab6f56870ad459a3ff3b417aba02c7afa972e5963abc5805ba729d8cfee0/gardener-cicd-libs-1.2050.0.tar.gz
+[2023-05-08 11:39:47] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/f8/de/c6930b025944729e4655e337193e76592dfc15653c0cde84790cb8650df4/gardener-oci-1.999.0.tar.gz
+[2023-05-08 11:39:47] INFO root fetch - processPackages [gardener-cicd-whd]: executing diffoscope
+[2023-05-08 11:39:47] INFO root fetch - processPackages [gardener-cicd-whd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-whd-1.2049.0.tar.gz tmp/gardener-cicd-whd-1.2050.0.tar.gz --markdown 20230508/g/gardener-cicd-whd/1.2049.0-1.2050.0/diff.md --exclude *.pyd
+[2023-05-08 11:39:47] INFO root fetch - processPackages [gardener-cicd-libs]: executing diffoscope
+[2023-05-08 11:39:47] INFO root fetch - processPackages [gardener-cicd-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-libs-1.2049.0.tar.gz tmp/gardener-cicd-libs-1.2050.0.tar.gz --markdown 20230508/g/gardener-cicd-libs/1.2049.0-1.2050.0/diff.md --exclude *.pyd
+[2023-05-08 11:39:47] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2023-05-08 11:39:47] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20230508/g/gardener-oci/1.998.0-1.999.0/diff.md --exclude *.pyd
+[2023-05-08 11:39:47] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/2c/00/a56ecb241a62e9b27f536bbcf2bbcb2b683463524d6d2ed6a92a764db124/gardener-cicd-base-1.2050.0.tar.gz
+[2023-05-08 11:39:47] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2023-05-08 11:39:47] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-base-1.2049.0.tar.gz tmp/gardener-cicd-base-1.2050.0.tar.gz --markdown 20230508/g/gardener-cicd-base/1.2049.0-1.2050.0/diff.md --exclude *.pyd
+[2023-05-08 11:39:48] INFO root fetch - processPackages [pynocaptcha]: Start processing: finetune-evaluation-harness
+[2023-05-08 11:39:48] INFO root fetch - main [MainThread]: End processing [pynocaptcha]: success
+[2023-05-08 11:39:48] WARNING root fetch - processPackages [finetune-evaluation-harness]: Skipping, unable to determine old version
+[2023-05-08 11:39:48] INFO root fetch - processPackages [finetune-evaluation-harness]: Start processing: gcscore
+[2023-05-08 11:39:48] INFO root fetch - main [MainThread]: End processing [finetune-evaluation-harness] error
+[2023-05-08 11:39:48] INFO root fetch - processPackages [gcscore]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 11:39:49] INFO root fetch - processPackages [spotON_sdk]: Start processing: odoo-addon-purchase-order-uninvoiced-amount
+[2023-05-08 11:39:49] INFO root fetch - main [MainThread]: End processing [spotON_sdk]: success
+[2023-05-08 11:39:49] INFO root fetch - processPackages [odoo-addon-purchase-order-uninvoiced-amount]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.2]
+[2023-05-08 11:39:49] INFO root fetch - processPackages [gcscore]: executing diffoscope
+[2023-05-08 11:39:49] INFO root fetch - processPackages [gcscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcscore-0.0.8.tar.gz tmp/gcscore-0.0.9.tar.gz --markdown 20230508/g/gcscore/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 11:39:49] INFO root fetch - processPackages [gardener-cicd-whd]: Start processing: system-calls
+[2023-05-08 11:39:49] INFO root fetch - main [MainThread]: End processing [gardener-cicd-whd]: success
+[2023-05-08 11:39:49] INFO root fetch - processPackages [gardener-cicd-cli]: Start processing: phdu
+[2023-05-08 11:39:49] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2023-05-08 11:39:49] INFO root fetch - processPackages [phdu]: New version: [1.9b3] Old Version: [1.9b2]
+[2023-05-08 11:39:49] INFO root fetch - processPackages [system-calls]: New version: [6.4.0] Old Version: [5.19.0]
+[2023-05-08 11:39:49] INFO root fetch - processPackages [odoo-addon-purchase-order-uninvoiced-amount]: Downloading https://files.pythonhosted.org/packages/b5/99/b164aac89fa6a1f204ff9ff8c2c0dffb94e867830a6a616a7306f80af4dd/odoo_addon_purchase_order_uninvoiced_amount-15.0.1.0.0.2-py3-none-any.whl
+[2023-05-08 11:39:49] INFO root fetch - processPackages [system-calls]: Downloading https://files.pythonhosted.org/packages/67/9e/5ad4473ce2831409a8f4833189d7ce64ca5782db148da6b4ce66f4e1dbe9/system-calls-5.19.0.tar.gz
+[2023-05-08 11:39:49] INFO root fetch - processPackages [gardener-oci]: Start processing: nexus-api
+[2023-05-08 11:39:49] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2023-05-08 11:39:49] INFO root fetch - processPackages [phdu]: Downloading https://files.pythonhosted.org/packages/fe/9b/4a9350050dc6b19a2ad84be522b7592d0a126a30f24a4d723681a0d31998/phdu-1.9b3.tar.gz
+[2023-05-08 11:39:49] INFO root fetch - processPackages [gardener-cicd-base]: Start processing: nexus-extensibility
+[2023-05-08 11:39:49] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2023-05-08 11:39:49] INFO root fetch - processPackages [nexus-api]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2023-05-08 11:39:49] INFO root fetch - processPackages [nexus-extensibility]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2023-05-08 11:39:49] INFO root fetch - processPackages [odoo-addon-purchase-order-uninvoiced-amount]: Downloading https://files.pythonhosted.org/packages/c2/2b/78cd27f23c38fe4720a9373660fbbbe79405107c3a12ddb3af810f85d25b/odoo_addon_purchase_order_uninvoiced_amount-16.0.1.0.0.2-py3-none-any.whl
+[2023-05-08 11:39:49] INFO root fetch - processPackages [odoo-addon-purchase-order-uninvoiced-amount]: executing diffoscope
+[2023-05-08 11:39:49] INFO root fetch - processPackages [odoo-addon-purchase-order-uninvoiced-amount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_order_uninvoiced_amount-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_purchase_order_uninvoiced_amount-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230508/o/odoo-addon-purchase-order-uninvoiced-amount/15.0.1.0.0.2-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-05-08 11:39:49] INFO root fetch - processPackages [phdu]: executing diffoscope
+[2023-05-08 11:39:49] INFO root fetch - processPackages [phdu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phdu-1.9b2.tar.gz tmp/phdu-1.9b3.tar.gz --markdown 20230508/p/phdu/1.9b2-1.9b3/diff.md --exclude *.pyd
+[2023-05-08 11:39:49] INFO root fetch - processPackages [system-calls]: Downloading https://files.pythonhosted.org/packages/65/3c/3b0cc3604b533f35e964185ad252ad9628095704594797670c44f699da40/system-calls-6.4.0.tar.gz
+[2023-05-08 11:39:49] INFO root fetch - processPackages [nexus-api]: Downloading https://files.pythonhosted.org/packages/47/b2/945c763bb6f1342aaa2c8b7332d3553915ec2bb874f05768d649c5432866/nexus_api-2.0.0b8-py3-none-any.whl
+[2023-05-08 11:39:49] INFO root fetch - processPackages [gardener-cicd-dso]: Start processing: dissect.util
+[2023-05-08 11:39:49] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2023-05-08 11:39:49] INFO root fetch - processPackages [nexus-extensibility]: Downloading https://files.pythonhosted.org/packages/d8/b7/6489396aa641e7ed8f1102dfb4a82f76ea2df4288f0e39724b0c16b8f0f8/nexus_extensibility-2.0.0b8-py3-none-any.whl
+[2023-05-08 11:39:49] INFO root fetch - processPackages [system-calls]: executing diffoscope
+[2023-05-08 11:39:49] INFO root fetch - processPackages [dissect.util]: New version: [3.8.dev1] Old Version: [3.7.dev1]
+[2023-05-08 11:39:49] INFO root fetch - processPackages [system-calls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/system-calls-5.19.0.tar.gz tmp/system-calls-6.4.0.tar.gz --markdown 20230508/s/system-calls/5.19.0-6.4.0/diff.md --exclude *.pyd
+[2023-05-08 11:39:49] INFO root fetch - processPackages [dissect.util]: Downloading https://files.pythonhosted.org/packages/6d/2a/87196c82664ade210c2b36dca211833e0780186ce293193249090292cc27/dissect.util-3.7.dev1.tar.gz
+[2023-05-08 11:39:50] INFO root fetch - processPackages [nexus-api]: Downloading https://files.pythonhosted.org/packages/64/35/f59185cf98144efab1e91756ad313821d29cc4d3dc8f0009b534c8d4cabf/nexus_api-2.0.0b9-py3-none-any.whl
+[2023-05-08 11:39:50] INFO root fetch - processPackages [nexus-extensibility]: Downloading https://files.pythonhosted.org/packages/b2/6d/23c38c9a56668c811a793b51e09e88bd684bfe8d75be235e3b7d2d5cc64f/nexus_extensibility-2.0.0b9-py3-none-any.whl
+[2023-05-08 11:39:50] INFO root fetch - processPackages [nexus-api]: executing diffoscope
+[2023-05-08 11:39:50] INFO root fetch - processPackages [nexus-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nexus_api-2.0.0b8-py3-none-any.whl.zip tmp/nexus_api-2.0.0b9-py3-none-any.whl.zip --markdown 20230508/n/nexus-api/2.0.0b8-2.0.0b9/diff.md --exclude *.pyd
+[2023-05-08 11:39:50] INFO root fetch - processPackages [commonroad-crime]: Start processing: gcscore
+[2023-05-08 11:39:50] INFO root fetch - main [MainThread]: End processing [commonroad-crime]: success
+[2023-05-08 11:39:50] INFO root fetch - processPackages [nexus-extensibility]: executing diffoscope
+[2023-05-08 11:39:50] INFO root fetch - processPackages [nexus-extensibility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nexus_extensibility-2.0.0b8-py3-none-any.whl.zip tmp/nexus_extensibility-2.0.0b9-py3-none-any.whl.zip --markdown 20230508/n/nexus-extensibility/2.0.0b8-2.0.0b9/diff.md --exclude *.pyd
+[2023-05-08 11:39:50] INFO root fetch - processPackages [dissect.util]: Downloading https://files.pythonhosted.org/packages/cf/b3/f5f6d54c24dad488a7b394365274383e0664a0236613595ec0c06624591e/dissect.util-3.8.dev1.tar.gz
+[2023-05-08 11:39:50] INFO root fetch - processPackages [gcscore]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 11:39:50] INFO root fetch - processPackages [gcscore]: executing diffoscope
+[2023-05-08 11:39:50] INFO root fetch - processPackages [gcscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcscore-0.0.8.tar.gz tmp/gcscore-0.0.9.tar.gz --markdown 20230508/g/gcscore/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 11:39:50] INFO root fetch - processPackages [dissect.util]: executing diffoscope
+[2023-05-08 11:39:50] INFO root fetch - processPackages [dissect.util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.util-3.7.dev1.tar.gz tmp/dissect.util-3.8.dev1.tar.gz --markdown 20230508/d/dissect.util/3.7.dev1-3.8.dev1/diff.md --exclude *.pyd
+[2023-05-08 11:39:50] INFO root fetch - processPackages [gcscore]: Start processing: questdb-connect
+[2023-05-08 11:39:50] INFO root fetch - main [MainThread]: End processing [gcscore]: success
+[2023-05-08 11:39:50] INFO root fetch - processPackages [questdb-connect]: New version: [0.0.39] Old Version: [0.0.38]
+[2023-05-08 11:39:50] INFO root fetch - processPackages [questdb-connect]: Downloading https://files.pythonhosted.org/packages/3c/62/5e7b7a512fa53760e701202b50799dedd400c8ba151637047c5a60604400/questdb-connect-0.0.39.tar.gz
+[2023-05-08 11:39:50] INFO root fetch - processPackages [questdb-connect]: executing diffoscope
+[2023-05-08 11:39:50] INFO root fetch - processPackages [questdb-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/questdb-connect-0.0.38.tar.gz tmp/questdb-connect-0.0.39.tar.gz --markdown 20230508/q/questdb-connect/0.0.38-0.0.39/diff.md --exclude *.pyd
+[2023-05-08 11:39:50] INFO root fetch - processPackages [odoo-addon-purchase-order-uninvoiced-amount]: Start processing: rolling-in-the-deep
+[2023-05-08 11:39:50] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-order-uninvoiced-amount]: success
+[2023-05-08 11:39:51] INFO root fetch - processPackages [rolling-in-the-deep]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-08 11:39:51] INFO root fetch - processPackages [phdu]: Start processing: wagtail-humanitarian-icons
+[2023-05-08 11:39:51] INFO root fetch - main [MainThread]: End processing [phdu]: success
+[2023-05-08 11:39:51] INFO root fetch - processPackages [wagtail-humanitarian-icons]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-08 11:39:51] INFO root fetch - processPackages [rolling-in-the-deep]: Downloading https://files.pythonhosted.org/packages/1f/04/a8ca116b81bfe344cc2f6a742ae90fa3eaa35f7dc26e32efbe10a00fb371/rolling-in-the-deep-0.1.1.tar.gz
+[2023-05-08 11:39:51] INFO root fetch - processPackages [gardener-cicd-libs]: Start processing: oa-structural-variants
+[2023-05-08 11:39:51] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
+[2023-05-08 11:39:51] WARNING root fetch - processPackages [oa-structural-variants]: Skipping, unable to determine old version
+[2023-05-08 11:39:51] INFO root fetch - processPackages [oa-structural-variants]: Start processing: lib310-lite
+[2023-05-08 11:39:51] INFO root fetch - main [MainThread]: End processing [oa-structural-variants] error
+[2023-05-08 11:39:51] INFO root fetch - processPackages [lib310-lite]: New version: [0.0.5.dev1] Old Version: [0.0.5.dev0]
+[2023-05-08 11:39:51] INFO root fetch - processPackages [wagtail-humanitarian-icons]: Downloading https://files.pythonhosted.org/packages/1b/4b/2eaf40b229a83a5296065f0e3aca832c5f5404eb7b552db9e187ee1a05b0/wagtail-humanitarian-icons-1.0.0.tar.gz
+[2023-05-08 11:39:51] INFO root fetch - processPackages [nexus-extensibility]: Start processing: cg
+[2023-05-08 11:39:51] INFO root fetch - main [MainThread]: End processing [nexus-extensibility]: success
+[2023-05-08 11:39:51] INFO root fetch - processPackages [cg]: New version: [29.8.0] Old Version: [29.7.1]
+[2023-05-08 11:39:51] INFO root fetch - processPackages [rolling-in-the-deep]: Downloading https://files.pythonhosted.org/packages/2e/17/4aea750380563bb421d9fafabd1655f87850a45a2050a65b5d9010fa799d/rolling-in-the-deep-0.1.2.tar.gz
+[2023-05-08 11:39:51] INFO root fetch - processPackages [lib310-lite]: Downloading https://files.pythonhosted.org/packages/31/79/8f7e65effaeeb15d8dc8d5692e981f8286994fcd5d7f0d303dcfa641b7bf/lib310_lite-0.0.5.dev1.tar.gz
+[2023-05-08 11:39:51] INFO root fetch - processPackages [wagtail-humanitarian-icons]: Downloading https://files.pythonhosted.org/packages/48/5d/4831eccea9f1c8bd4a62bfc7d2725943c28e8fc2f0931cf9da36f1950180/wagtail-humanitarian-icons-1.0.1.tar.gz
+[2023-05-08 11:39:51] INFO root fetch - processPackages [rolling-in-the-deep]: executing diffoscope
+[2023-05-08 11:39:51] INFO root fetch - processPackages [rolling-in-the-deep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rolling-in-the-deep-0.1.1.tar.gz tmp/rolling-in-the-deep-0.1.2.tar.gz --markdown 20230508/r/rolling-in-the-deep/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-08 11:39:51] INFO root fetch - processPackages [wagtail-humanitarian-icons]: executing diffoscope
+[2023-05-08 11:39:51] INFO root fetch - processPackages [wagtail-humanitarian-icons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-humanitarian-icons-1.0.0.tar.gz tmp/wagtail-humanitarian-icons-1.0.1.tar.gz --markdown 20230508/w/wagtail-humanitarian-icons/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-08 11:39:51] INFO root fetch - processPackages [lib310-lite]: executing diffoscope
+[2023-05-08 11:39:51] INFO root fetch - processPackages [lib310-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib310_lite-0.0.5.dev0.tar.gz tmp/lib310_lite-0.0.5.dev1.tar.gz --markdown 20230508/l/lib310-lite/0.0.5.dev0-0.0.5.dev1/diff.md --exclude *.pyd
+[2023-05-08 11:39:51] INFO root fetch - processPackages [dissect.util]: Start processing: pineboo
+[2023-05-08 11:39:51] INFO root fetch - main [MainThread]: End processing [dissect.util]: success
+[2023-05-08 11:39:51] INFO root fetch - processPackages [pineboo]: New version: [1.0.4.6] Old Version: [1.0.4.5]
+[2023-05-08 11:39:51] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/eb/68/39d47efe0b58ed9f5a401c6cea5ebb8e7ede72416816f02df321d038c1ea/cg-29.8.0.tar.gz
+[2023-05-08 11:39:51] INFO root fetch - processPackages [pineboo]: executing diffoscope
+[2023-05-08 11:39:51] INFO root fetch - processPackages [pineboo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pineboo-1.0.4.5.tar.gz tmp/pineboo-1.0.4.6.tar.gz --markdown 20230508/p/pineboo/1.0.4.5-1.0.4.6/diff.md --exclude *.pyd
+[2023-05-08 11:39:52] INFO root fetch - processPackages [gcscore]: Start processing: nonmouse
+[2023-05-08 11:39:52] INFO root fetch - main [MainThread]: End processing [gcscore]: success
+[2023-05-08 11:39:52] WARNING root fetch - processPackages [nonmouse]: Skipping, unable to determine old version
+[2023-05-08 11:39:52] INFO root fetch - processPackages [nonmouse]: Start processing: docarray
+[2023-05-08 11:39:52] INFO root fetch - main [MainThread]: End processing [nonmouse] error
+[2023-05-08 11:39:52] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-05-08 11:39:52] INFO root fetch - processPackages [nexus-api]: Start processing: gcscore
+[2023-05-08 11:39:52] INFO root fetch - main [MainThread]: End processing [nexus-api]: success
+[2023-05-08 11:39:52] INFO root fetch - processPackages [gcscore]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 11:39:52] INFO root fetch - processPackages [questdb-connect]: Start processing: odoo-addon-l10n-es-pos
+[2023-05-08 11:39:52] INFO root fetch - main [MainThread]: End processing [questdb-connect]: success
+[2023-05-08 11:39:52] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-05-08 11:39:52] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230508/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-05-08 11:39:52] INFO root fetch - processPackages [gcscore]: executing diffoscope
+[2023-05-08 11:39:52] INFO root fetch - processPackages [gcscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcscore-0.0.8.tar.gz tmp/gcscore-0.0.9.tar.gz --markdown 20230508/g/gcscore/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 11:39:52] INFO root fetch - processPackages [odoo-addon-l10n-es-pos]: New version: [15.0.2.0.1] Old Version: [15.0.2.0.0.1]
+[2023-05-08 11:39:52] INFO root fetch - processPackages [odoo-addon-l10n-es-pos]: Downloading https://files.pythonhosted.org/packages/d6/c8/c2f936fff594d8243147c18ba94965e8c43df45becc3ca3581a96fba3917/odoo_addon_l10n_es_pos-15.0.2.0.0.1-py3-none-any.whl
+[2023-05-08 11:39:52] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-05-08 11:39:52] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-29.7.1.tar.gz tmp/cg-29.8.0.tar.gz --markdown 20230508/c/cg/29.7.1-29.8.0/diff.md --exclude *.pyd
+[2023-05-08 11:39:52] INFO root fetch - main [MainThread]: End processing [system-calls]: success
+[2023-05-08 11:39:53] INFO root fetch - processPackages [odoo-addon-l10n-es-pos]: Downloading https://files.pythonhosted.org/packages/71/45/c011dc2789691f328fbd3eb2d2c5b603e9267aa457b7d23ffed5a46c5f02/odoo_addon_l10n_es_pos-15.0.2.0.1-py3-none-any.whl
+[2023-05-08 11:39:53] INFO root fetch - processPackages [odoo-addon-l10n-es-pos]: executing diffoscope
+[2023-05-08 11:39:53] INFO root fetch - processPackages [odoo-addon-l10n-es-pos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_pos-15.0.2.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_pos-15.0.2.0.1-py3-none-any.whl.zip --markdown 20230508/o/odoo-addon-l10n-es-pos/15.0.2.0.0.1-15.0.2.0.1/diff.md --exclude *.pyd
+[2023-05-08 11:39:53] INFO root fetch - main [MainThread]: End processing [wagtail-humanitarian-icons]: success
+[2023-05-08 11:39:53] INFO root fetch - main [MainThread]: End processing [lib310-lite]: success
+[2023-05-08 11:39:53] INFO root fetch - main [MainThread]: End processing [rolling-in-the-deep]: success
+[2023-05-08 11:39:53] INFO root fetch - main [MainThread]: End processing [gcscore]: success
+[2023-05-08 11:39:54] INFO root fetch - main [MainThread]: End processing [dlt]: success
+[2023-05-08 11:39:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-pos]: success
+[2023-05-08 11:39:56] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-05-08 11:40:01] INFO root fetch - main [MainThread]: End processing [pineboo]: success
+[2023-05-08 11:40:04] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-05-08 11:40:04] INFO root fetch - main [MainThread]: Store serial: [18015281]
