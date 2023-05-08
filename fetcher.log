@@ -5573,3 +5573,71 @@
 [2023-05-08 07:02:32] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
 [2023-05-08 07:02:32] INFO root fetch - main [MainThread]: End processing [dialogy]: success
 [2023-05-08 07:02:32] INFO root fetch - main [MainThread]: Store serial: [18013065]
+[2023-05-08 07:07:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18013065]
+[2023-05-08 07:07:41] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-08 07:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ai-executor
+[2023-05-08 07:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dovesnap
+[2023-05-08 07:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bagbag
+[2023-05-08 07:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llmpool
+[2023-05-08 07:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: detabase
+[2023-05-08 07:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tdxpy
+[2023-05-08 07:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pybsc
+[2023-05-08 07:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rapid-pe
+[2023-05-08 07:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: multi-model-server
+[2023-05-08 07:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qctrl-release-noter
+[2023-05-08 07:07:41] INFO root fetch - processPackages [pybsc]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 07:07:41] INFO root fetch - processPackages [detabase]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-08 07:07:41] INFO root fetch - processPackages [dovesnap]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-08 07:07:41] INFO root fetch - processPackages [qctrl-release-noter]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-08 07:07:41] WARNING root fetch - processPackages [llmpool]: Skipping, unable to determine old version
+[2023-05-08 07:07:41] INFO root fetch - processPackages [llmpool]: Start processing: streamlink-serverless
+[2023-05-08 07:07:41] INFO root fetch - main [MainThread]: End processing [llmpool] error
+[2023-05-08 07:07:41] INFO root fetch - processPackages [tdxpy]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-05-08 07:07:41] INFO root fetch - processPackages [bagbag]: New version: [0.58.9] Old Version: [0.58.8]
+[2023-05-08 07:07:41] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230508] Old Version: [0.1.1.dev20230507]
+[2023-05-08 07:07:41] INFO root fetch - processPackages [multi-model-server]: New version: [1.1.8b20230508] Old Version: [1.1.8b20230507]
+[2023-05-08 07:07:41] INFO root fetch - processPackages [streamlink-serverless]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 07:07:41] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/0f/4b/a368500002c0b24fb6caa7ab046d3dfaa5ba0a70f547f11f5fb6569fc298/bagbag-0.58.8.tar.gz
+[2023-05-08 07:07:41] WARNING root fetch - processPackages [ai-executor]: Skipping, unable to determine old version
+[2023-05-08 07:07:41] INFO root fetch - main [MainThread]: End processing [ai-executor] error
+[2023-05-08 07:07:41] INFO root fetch - processPackages [dovesnap]: Downloading https://files.pythonhosted.org/packages/a2/e6/f71cf28b24aab659174dc91de5032583ee9b55bbb695aa2609c50821945a/dovesnap-1.1.8.tar.gz
+[2023-05-08 07:07:41] INFO root fetch - processPackages [detabase]: Downloading https://files.pythonhosted.org/packages/08/c0/fdbf57a884004043bdfb3da40cfafd250af0961873e61f7f74f7ea1d2986/detabase-0.2.6.tar.gz
+[2023-05-08 07:07:41] INFO root fetch - processPackages [pybsc]: Downloading https://files.pythonhosted.org/packages/4c/84/9e3a3825c438d492327d2d26030c752a0617d74be15354c4ef2f30f04252/pybsc-0.1.8.tar.gz
+[2023-05-08 07:07:41] INFO root fetch - processPackages [multi-model-server]: Downloading https://files.pythonhosted.org/packages/b4/7e/40e12451199e4811137bdfa49e6e67dc7af300541ad2c1e4943d8edb97b4/multi_model_server-1.1.8b20230508-py2.py3-none-any.whl
+[2023-05-08 07:07:41] INFO root fetch - processPackages [tdxpy]: Downloading https://files.pythonhosted.org/packages/b6/47/ba8bfa60b4cdc1a4a5819befd01a7904bec6ad629d91dd161141071dd74b/tdxpy-0.1.9.tar.gz
+[2023-05-08 07:07:41] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/47/c0/761a1ecb053d3fc8cee8afa779ede9faae65c8b4b67cf72c84ec26626b5b/rapid_pe-0.1.1.dev20230508.tar.gz
+[2023-05-08 07:07:41] INFO root fetch - processPackages [qctrl-release-noter]: Downloading https://files.pythonhosted.org/packages/8d/b0/33aa5498292afed6db201c1982ffa4c4417d05a6224f9d8ba7a9f09d45ac/qctrl_release_noter-0.8.0.tar.gz
+[2023-05-08 07:07:41] INFO root fetch - processPackages [streamlink-serverless]: Downloading https://files.pythonhosted.org/packages/f4/69/e3e142be5d3593c1d6a272ce94c57e2901afd267b86a3f2a39962f38dbea/streamlink-serverless-0.0.8.tar.gz
+[2023-05-08 07:07:42] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-05-08 07:07:42] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.58.8.tar.gz tmp/bagbag-0.58.9.tar.gz --markdown 20230508/b/bagbag/0.58.8-0.58.9/diff.md --exclude *.pyd
+[2023-05-08 07:07:42] INFO root fetch - processPackages [detabase]: executing diffoscope
+[2023-05-08 07:07:42] INFO root fetch - processPackages [detabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/detabase-0.2.5.tar.gz tmp/detabase-0.2.6.tar.gz --markdown 20230508/d/detabase/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-08 07:07:42] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-05-08 07:07:42] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230507.tar.gz tmp/rapid_pe-0.1.1.dev20230508.tar.gz --markdown 20230508/r/rapid-pe/0.1.1.dev20230507-0.1.1.dev20230508/diff.md --exclude *.pyd
+[2023-05-08 07:07:42] INFO root fetch - processPackages [dovesnap]: Downloading https://files.pythonhosted.org/packages/e1/3f/3f251da63cfc71584b48cba0dbbb080aa6b7eac6453e0e14a07aeb519b04/dovesnap-1.1.9.tar.gz
+[2023-05-08 07:07:42] INFO root fetch - processPackages [qctrl-release-noter]: Downloading https://files.pythonhosted.org/packages/af/eb/5647b92e5f16900f4f3e6e02009600972ca6c82cd63a42c8808d28402b55/qctrl_release_noter-0.9.0.tar.gz
+[2023-05-08 07:07:42] INFO root fetch - processPackages [dovesnap]: executing diffoscope
+[2023-05-08 07:07:42] INFO root fetch - processPackages [dovesnap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dovesnap-1.1.8.tar.gz tmp/dovesnap-1.1.9.tar.gz --markdown 20230508/d/dovesnap/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-08 07:07:42] INFO root fetch - processPackages [tdxpy]: Downloading https://files.pythonhosted.org/packages/01/b2/228aa0695b68a5d9a7f2bd512ae0c9bc34a0317533e9445bc015232d2481/tdxpy-0.2.0.tar.gz
+[2023-05-08 07:07:42] INFO root fetch - processPackages [streamlink-serverless]: Downloading https://files.pythonhosted.org/packages/38/68/27939e4527aa4f820fff11a0801161189ae3d676ebeb80bf700ba94779ee/streamlink-serverless-0.0.9.tar.gz
+[2023-05-08 07:07:42] INFO root fetch - processPackages [pybsc]: Downloading https://files.pythonhosted.org/packages/72/ea/f5c8c967877d087400945f3bfbd6823fec098b13acdde1a60899e9d4e406/pybsc-0.1.9.tar.gz
+[2023-05-08 07:07:42] INFO root fetch - processPackages [qctrl-release-noter]: executing diffoscope
+[2023-05-08 07:07:42] INFO root fetch - processPackages [qctrl-release-noter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qctrl_release_noter-0.8.0.tar.gz tmp/qctrl_release_noter-0.9.0.tar.gz --markdown 20230508/q/qctrl-release-noter/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-08 07:07:42] INFO root fetch - processPackages [tdxpy]: executing diffoscope
+[2023-05-08 07:07:42] INFO root fetch - processPackages [tdxpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdxpy-0.1.9.tar.gz tmp/tdxpy-0.2.0.tar.gz --markdown 20230508/t/tdxpy/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-05-08 07:07:42] INFO root fetch - processPackages [pybsc]: executing diffoscope
+[2023-05-08 07:07:42] INFO root fetch - processPackages [pybsc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybsc-0.1.8.tar.gz tmp/pybsc-0.1.9.tar.gz --markdown 20230508/p/pybsc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 07:07:42] INFO root fetch - processPackages [streamlink-serverless]: executing diffoscope
+[2023-05-08 07:07:42] INFO root fetch - processPackages [streamlink-serverless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlink-serverless-0.0.8.tar.gz tmp/streamlink-serverless-0.0.9.tar.gz --markdown 20230508/s/streamlink-serverless/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 07:07:43] INFO root fetch - processPackages [multi-model-server]: executing diffoscope
+[2023-05-08 07:07:43] INFO root fetch - processPackages [multi-model-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_model_server-1.1.8b20230507-py2.py3-none-any.whl.zip tmp/multi_model_server-1.1.8b20230508-py2.py3-none-any.whl.zip --markdown 20230508/m/multi-model-server/1.1.8b20230507-1.1.8b20230508/diff.md --exclude *.pyd
+[2023-05-08 07:07:43] INFO root fetch - main [MainThread]: End processing [detabase]: success
+[2023-05-08 07:07:43] INFO root fetch - main [MainThread]: End processing [dovesnap]: success
+[2023-05-08 07:07:43] INFO root fetch - main [MainThread]: End processing [qctrl-release-noter]: success
+[2023-05-08 07:07:44] INFO root fetch - main [MainThread]: End processing [pybsc]: success
+[2023-05-08 07:07:44] INFO root fetch - main [MainThread]: End processing [tdxpy]: success
+[2023-05-08 07:07:44] INFO root fetch - main [MainThread]: End processing [streamlink-serverless]: success
+[2023-05-08 07:07:45] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-05-08 07:07:46] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-05-08 07:10:30] INFO root fetch - main [MainThread]: End processing [multi-model-server]: success
+[2023-05-08 07:10:30] INFO root fetch - main [MainThread]: Store serial: [18013099]
