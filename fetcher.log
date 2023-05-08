@@ -9929,3 +9929,92 @@
 [2023-05-08 12:23:33] INFO root fetch - main [MainThread]: End processing [opensesame-extension-osweb]: success
 [2023-05-08 12:23:50] INFO root fetch - main [MainThread]: End processing [muffin-admin]: success
 [2023-05-08 12:23:50] INFO root fetch - main [MainThread]: Store serial: [18015568]
+[2023-05-08 12:28:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18015568]
+[2023-05-08 12:28:58] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-08 12:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: codepeers
+[2023-05-08 12:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pybiolib
+[2023-05-08 12:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lightwave
+[2023-05-08 12:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pysangkom
+[2023-05-08 12:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qjob
+[2023-05-08 12:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: d22d
+[2023-05-08 12:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: coiled
+[2023-05-08 12:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ipython-ngql
+[2023-05-08 12:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pysangkom
+[2023-05-08 12:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-pistoke
+[2023-05-08 12:28:58] INFO root fetch - processPackages [codepeers]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-08 12:28:58] INFO root fetch - processPackages [pysangkom]: New version: [1.0.1] Old Version: [1.0]
+[2023-05-08 12:28:58] INFO root fetch - processPackages [lightwave]: New version: [0.23] Old Version: [0.22]
+[2023-05-08 12:28:58] INFO root fetch - processPackages [qjob]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-05-08 12:28:58] INFO root fetch - processPackages [django-pistoke]: New version: [0.8rc2] Old Version: [0.8rc10]
+[2023-05-08 12:28:58] INFO root fetch - processPackages [d22d]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-08 12:28:59] INFO root fetch - processPackages [ipython-ngql]: New version: [0.5] Old Version: [0.4]
+[2023-05-08 12:28:59] INFO root fetch - processPackages [pysangkom]: New version: [1.0.1] Old Version: [1.0]
+[2023-05-08 12:28:59] INFO root fetch - processPackages [pybiolib]: New version: [1.1.94] Old Version: [1.1.91]
+[2023-05-08 12:28:59] INFO root fetch - processPackages [coiled]: New version: [0.6.2.dev9] Old Version: [0.6.2.dev6]
+[2023-05-08 12:28:59] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2023-05-08 12:28:59] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.91.tar.gz tmp/pybiolib-1.1.94.tar.gz --markdown 20230508/p/pybiolib/1.1.91-1.1.94/diff.md --exclude *.pyd
+[2023-05-08 12:28:59] INFO root fetch - processPackages [pysangkom]: Downloading https://files.pythonhosted.org/packages/61/97/1534c821183cd8f7baf3372af08161b8077abde545a7952d78a5a4663ac9/pysangkom-1.0.tar.gz
+[2023-05-08 12:28:59] INFO root fetch - processPackages [pysangkom]: Downloading https://files.pythonhosted.org/packages/61/97/1534c821183cd8f7baf3372af08161b8077abde545a7952d78a5a4663ac9/pysangkom-1.0.tar.gz
+[2023-05-08 12:28:59] INFO root fetch - processPackages [codepeers]: Downloading https://files.pythonhosted.org/packages/f6/b6/081cbcb542c4335a5c17b83a2dccae27b6384a6fd3c103da90074af94487/codepeers-0.1.0-py3-none-any.whl
+[2023-05-08 12:28:59] INFO root fetch - processPackages [django-pistoke]: Downloading https://files.pythonhosted.org/packages/cd/47/0011f56d6e329144e5e5b8587dbefc07a3b73be83242da9c141e03c57879/django-pistoke-0.8rc10.tar.gz
+[2023-05-08 12:28:59] INFO root fetch - processPackages [qjob]: Downloading https://files.pythonhosted.org/packages/6c/06/77768f02a52fd1ff3499b82334ededc8e8355da4bc58ee2f47b1c17f70f9/qjob-0.5.3.tar.gz
+[2023-05-08 12:28:59] INFO root fetch - processPackages [d22d]: Downloading https://files.pythonhosted.org/packages/b7/f9/4cd117dca51f3865ee87ba6add9d0b956c526ca2470418a83c649ff39e45/d22d-1.1.8.tar.gz
+[2023-05-08 12:28:59] INFO root fetch - processPackages [ipython-ngql]: Downloading https://files.pythonhosted.org/packages/1e/fb/106e173f5b5339251e00027d6fd1c99f6f9b4abdef6dd4fec88d5a902172/ipython-ngql-0.4.tar.gz
+[2023-05-08 12:28:59] INFO root fetch - processPackages [lightwave]: Downloading https://files.pythonhosted.org/packages/a3/e6/6285f9821087566b9a35e6baf37b332e5bd4a9c806cd6019652dd05bc4a9/lightwave-0.23.tar.gz
+[2023-05-08 12:28:59] INFO root fetch - processPackages [pysangkom]: Downloading https://files.pythonhosted.org/packages/05/e6/1b70fab4d01d4d47904970de61dfa02364280ddbf9918d146c1c0863dfbd/pysangkom-1.0.1.tar.gz
+[2023-05-08 12:28:59] INFO root fetch - processPackages [pysangkom]: Downloading https://files.pythonhosted.org/packages/05/e6/1b70fab4d01d4d47904970de61dfa02364280ddbf9918d146c1c0863dfbd/pysangkom-1.0.1.tar.gz
+[2023-05-08 12:28:59] INFO root fetch - processPackages [lightwave]: executing diffoscope
+[2023-05-08 12:28:59] INFO root fetch - processPackages [lightwave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightwave-0.22.tar.gz tmp/lightwave-0.23.tar.gz --markdown 20230508/l/lightwave/0.22-0.23/diff.md --exclude *.pyd
+[2023-05-08 12:28:59] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-08 12:28:59] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.2.dev6.tar.gz tmp/coiled-0.6.2.dev9.tar.gz --markdown 20230508/c/coiled/0.6.2.dev6-0.6.2.dev9/diff.md --exclude *.pyd
+[2023-05-08 12:28:59] INFO root fetch - processPackages [ipython-ngql]: Downloading https://files.pythonhosted.org/packages/52/ff/0f1413f4d56f9d8157d0b48859ca774903e676098cc392db7f87bb6c2033/ipython-ngql-0.5.tar.gz
+[2023-05-08 12:28:59] INFO root fetch - processPackages [django-pistoke]: Downloading https://files.pythonhosted.org/packages/53/c5/efb73b057b1152eaef0f449470d37d714c2a5bbe5132a93573a4db9c5bbe/django-pistoke-0.8rc2.tar.gz
+[2023-05-08 12:28:59] INFO root fetch - processPackages [qjob]: Downloading https://files.pythonhosted.org/packages/a3/f4/6451d5d22c65529204e775b546cbe0260af2339f66edb0d46e2a6a1e08f6/qjob-0.5.4.tar.gz
+[2023-05-08 12:28:59] INFO root fetch - processPackages [codepeers]: Downloading https://files.pythonhosted.org/packages/0e/aa/1cb9f7189474488b9c4ffaa822f6be2e3a471ff4e6913c45be8ac4f090d6/codepeers-0.1.1-py3-none-any.whl
+[2023-05-08 12:28:59] INFO root fetch - processPackages [pysangkom]: executing diffoscope
+[2023-05-08 12:28:59] INFO root fetch - processPackages [pysangkom]: executing diffoscope
+[2023-05-08 12:28:59] INFO root fetch - processPackages [django-pistoke]: executing diffoscope
+[2023-05-08 12:28:59] INFO root fetch - processPackages [pysangkom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysangkom-1.0.tar.gz tmp/pysangkom-1.0.1.tar.gz --markdown 20230508/p/pysangkom/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-08 12:28:59] INFO root fetch - processPackages [pysangkom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysangkom-1.0.tar.gz tmp/pysangkom-1.0.1.tar.gz --markdown 20230508/p/pysangkom/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-08 12:28:59] INFO root fetch - processPackages [django-pistoke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pistoke-0.8rc10.tar.gz tmp/django-pistoke-0.8rc2.tar.gz --markdown 20230508/d/django-pistoke/0.8rc10-0.8rc2/diff.md --exclude *.pyd
+[2023-05-08 12:28:59] INFO root fetch - processPackages [d22d]: Downloading https://files.pythonhosted.org/packages/a1/cb/e8baff572b49635f42380e7902a20ea4384a1c680384caa47b7e26a1ebfd/d22d-1.1.9.tar.gz
+[2023-05-08 12:28:59] INFO root fetch - processPackages [qjob]: executing diffoscope
+[2023-05-08 12:28:59] INFO root fetch - processPackages [qjob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qjob-0.5.3.tar.gz tmp/qjob-0.5.4.tar.gz --markdown 20230508/q/qjob/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-05-08 12:28:59] INFO root fetch - processPackages [ipython-ngql]: executing diffoscope
+[2023-05-08 12:28:59] INFO root fetch - processPackages [ipython-ngql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipython-ngql-0.4.tar.gz tmp/ipython-ngql-0.5.tar.gz --markdown 20230508/i/ipython-ngql/0.4-0.5/diff.md --exclude *.pyd
+[2023-05-08 12:28:59] INFO root fetch - processPackages [codepeers]: executing diffoscope
+[2023-05-08 12:28:59] INFO root fetch - processPackages [codepeers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codepeers-0.1.0-py3-none-any.whl.zip tmp/codepeers-0.1.1-py3-none-any.whl.zip --markdown 20230508/c/codepeers/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-08 12:28:59] INFO root fetch - processPackages [d22d]: executing diffoscope
+[2023-05-08 12:28:59] INFO root fetch - processPackages [d22d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d22d-1.1.8.tar.gz tmp/d22d-1.1.9.tar.gz --markdown 20230508/d/d22d/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-08 12:29:01] INFO root fetch - processPackages [lightwave]: Start processing: pepperize.cdk-private-bucket
+[2023-05-08 12:29:01] INFO root fetch - main [MainThread]: End processing [lightwave]: success
+[2023-05-08 12:29:01] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-08 12:29:01] INFO root fetch - processPackages [pysangkom]: Start processing: ramodels
+[2023-05-08 12:29:01] INFO root fetch - main [MainThread]: End processing [pysangkom]: success
+[2023-05-08 12:29:01] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-05-08 12:29:01] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e7/b6/4073de848e06d760b3ef30686b0684410fc4bb899faf50e7ef4a0b2fac85/pepperize.cdk-private-bucket-0.0.98.tar.gz
+[2023-05-08 12:29:01] INFO root fetch - processPackages [pybiolib]: Start processing: odoo13-addon-ddmrp-adjustment
+[2023-05-08 12:29:01] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2023-05-08 12:29:01] INFO root fetch - main [MainThread]: End processing [ipython-ngql]: success
+[2023-05-08 12:29:01] INFO root fetch - main [MainThread]: End processing [qjob]: success
+[2023-05-08 12:29:01] INFO root fetch - main [MainThread]: End processing [pysangkom]: success
+[2023-05-08 12:29:01] INFO root fetch - processPackages [odoo13-addon-ddmrp-adjustment]: New version: [13.0.1.1.0] Old Version: [13.0.1.0.1.dev3]
+[2023-05-08 12:29:01] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-05-08 12:29:01] INFO root fetch - main [MainThread]: End processing [d22d]: success
+[2023-05-08 12:29:01] INFO root fetch - processPackages [odoo13-addon-ddmrp-adjustment]: Downloading https://files.pythonhosted.org/packages/f3/bb/ccc2cc92036f33ff734d3beb302dd44b464be649ae616c53d48e79d78704/odoo13_addon_ddmrp_adjustment-13.0.1.0.1.dev3-py3-none-any.whl
+[2023-05-08 12:29:01] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e3/22/68d054109f3033e215b3e2bb124cce096ee16c91911cef45f98e5a69d1ca/pepperize.cdk-private-bucket-0.0.99.tar.gz
+[2023-05-08 12:29:01] INFO root fetch - main [MainThread]: End processing [django-pistoke]: success
+[2023-05-08 12:29:01] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-05-08 12:29:02] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: executing diffoscope
+[2023-05-08 12:29:02] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz --markdown 20230508/p/pepperize.cdk-private-bucket/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-08 12:29:02] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-05-08 12:29:02] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230508/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-05-08 12:29:02] INFO root fetch - processPackages [odoo13-addon-ddmrp-adjustment]: Downloading https://files.pythonhosted.org/packages/89/a4/baf587558cddaf11619fb51f9ed5bf292412ee440f660875d42743898713/odoo13_addon_ddmrp_adjustment-13.0.1.1.0-py3-none-any.whl
+[2023-05-08 12:29:02] INFO root fetch - processPackages [odoo13-addon-ddmrp-adjustment]: executing diffoscope
+[2023-05-08 12:29:02] INFO root fetch - processPackages [odoo13-addon-ddmrp-adjustment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_ddmrp_adjustment-13.0.1.0.1.dev3-py3-none-any.whl.zip tmp/odoo13_addon_ddmrp_adjustment-13.0.1.1.0-py3-none-any.whl.zip --markdown 20230508/o/odoo13-addon-ddmrp-adjustment/13.0.1.0.1.dev3-13.0.1.1.0/diff.md --exclude *.pyd
+[2023-05-08 12:29:02] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-08 12:29:03] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-private-bucket]: success
+[2023-05-08 12:29:03] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-05-08 12:29:03] INFO root fetch - main [MainThread]: End processing [odoo13-addon-ddmrp-adjustment]: success
+[2023-05-08 12:29:09] INFO root fetch - main [MainThread]: End processing [codepeers]: success
+[2023-05-08 12:29:09] INFO root fetch - main [MainThread]: Store serial: [18015606]
