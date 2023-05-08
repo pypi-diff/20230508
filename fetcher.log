@@ -2229,3 +2229,50 @@
 [2023-05-08 03:43:11] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
 [2023-05-08 03:43:11] INFO root fetch - main [MainThread]: End processing [webconsole]: success
 [2023-05-08 03:43:11] INFO root fetch - main [MainThread]: Store serial: [18011341]
+[2023-05-08 03:48:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18011341]
+[2023-05-08 03:48:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-08 03:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: proactive-jupyter-kernel
+[2023-05-08 03:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-django
+[2023-05-08 03:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: terminut
+[2023-05-08 03:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-apl
+[2023-05-08 03:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: auptitcafe
+[2023-05-08 03:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spPersist
+[2023-05-08 03:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openai-api-call
+[2023-05-08 03:48:20] INFO root fetch - processPackages [auptitcafe]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-08 03:48:20] INFO root fetch - processPackages [terminut]: New version: [0.0.0.2] Old Version: [0.0.0.1]
+[2023-05-08 03:48:20] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.760] Old Version: [0.0.759]
+[2023-05-08 03:48:20] INFO root fetch - processPackages [spPersist]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 03:48:20] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-05-08 03:48:20] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-08 03:48:20] INFO root fetch - processPackages [openai-api-call]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-08 03:48:20] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/cc/ac/bfd85c5260a614f33589b6fd6d52c86547f0195c5c9a52a033e687abc1e4/sppersist-0.1.8.tar.gz
+[2023-05-08 03:48:20] INFO root fetch - processPackages [terminut]: Downloading https://files.pythonhosted.org/packages/e7/7c/2fdfb1a9cb2a14d4e02d20d2d9ed72d8c525eed83fd8c929e93339fb898b/terminut-0.0.0.1.tar.gz
+[2023-05-08 03:48:20] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/2f/bc/886004d2f6edca874f61f16aaba9985e6b38f5c62e3a9638165dad1ae89e/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip
+[2023-05-08 03:48:20] INFO root fetch - processPackages [auptitcafe]: Downloading https://files.pythonhosted.org/packages/d3/27/971e8e4106aa490e16c6acf9d257439d0a18b7255882090aee917fbed917/auptitcafe-0.1.2.tar.gz
+[2023-05-08 03:48:20] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-05-08 03:48:20] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230508/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-08 03:48:20] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/8d/2c/5fb0ef13b9341335160c92029986490de495427c90ec859a8f7beda4914a/nbdev-apl-0.0.760.tar.gz
+[2023-05-08 03:48:20] INFO root fetch - processPackages [auptitcafe]: executing diffoscope
+[2023-05-08 03:48:20] INFO root fetch - processPackages [auptitcafe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auptitcafe-0.1.1.tar.gz tmp/auptitcafe-0.1.2.tar.gz --markdown 20230508/a/auptitcafe/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-08 03:48:21] INFO root fetch - processPackages [openai-api-call]: Downloading https://files.pythonhosted.org/packages/9f/3c/22ad77a57ec8513ddfc2c3cfc44624f18c3e4387d48e5829a0124ee725df/openai_api_call-0.3.8.tar.gz
+[2023-05-08 03:48:21] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-05-08 03:48:21] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sppersist-0.1.8.tar.gz tmp/sppersist-0.1.9.tar.gz --markdown 20230508/s/spPersist/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 03:48:21] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-05-08 03:48:21] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.759.tar.gz tmp/nbdev-apl-0.0.760.tar.gz --markdown 20230508/n/nbdev-apl/0.0.759-0.0.760/diff.md --exclude *.pyd
+[2023-05-08 03:48:21] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/b1/93/020f781eacfc72831423f0159f4e4e5afdb02a21db391853b68ce7631de6/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip
+[2023-05-08 03:48:21] INFO root fetch - processPackages [terminut]: Downloading https://files.pythonhosted.org/packages/cb/0f/e83f6f1d08bc4ce0155150c95aa91390b646bbab90fa86987de545955709/terminut-0.0.0.2.tar.gz
+[2023-05-08 03:48:21] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-05-08 03:48:21] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230508/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-05-08 03:48:21] INFO root fetch - processPackages [terminut]: executing diffoscope
+[2023-05-08 03:48:21] INFO root fetch - processPackages [terminut]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terminut-0.0.0.1.tar.gz tmp/terminut-0.0.0.2.tar.gz --markdown 20230508/t/terminut/0.0.0.1-0.0.0.2/diff.md --exclude *.pyd
+[2023-05-08 03:48:21] INFO root fetch - processPackages [openai-api-call]: Downloading https://files.pythonhosted.org/packages/22/f2/bba4086a08a2bfb6f2686ded38d4a862ee6bc55a895be1aed2deb41a5653/openai_api_call-0.3.9.tar.gz
+[2023-05-08 03:48:21] INFO root fetch - processPackages [openai-api-call]: executing diffoscope
+[2023-05-08 03:48:21] INFO root fetch - processPackages [openai-api-call]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_api_call-0.3.8.tar.gz tmp/openai_api_call-0.3.9.tar.gz --markdown 20230508/o/openai-api-call/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-08 03:48:22] INFO root fetch - main [MainThread]: End processing [auptitcafe]: success
+[2023-05-08 03:48:22] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-05-08 03:48:22] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-05-08 03:48:22] INFO root fetch - main [MainThread]: End processing [terminut]: success
+[2023-05-08 03:48:22] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-05-08 03:48:22] INFO root fetch - main [MainThread]: End processing [openai-api-call]: success
+[2023-05-08 03:48:23] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-05-08 03:48:23] INFO root fetch - main [MainThread]: Store serial: [18011364]
