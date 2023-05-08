@@ -10792,3 +10792,93 @@
 [2023-05-08 13:19:59] INFO root fetch - main [MainThread]: End processing [cognite-gql-pygen]: success
 [2023-05-08 13:20:01] INFO root fetch - main [MainThread]: End processing [openrl]: success
 [2023-05-08 13:20:01] INFO root fetch - main [MainThread]: Store serial: [18015986]
+[2023-05-08 13:25:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18015986]
+[2023-05-08 13:25:10] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-08 13:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sag-py-execution-time-decorator
+[2023-05-08 13:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: git-pw
+[2023-05-08 13:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tensordict-nightly
+[2023-05-08 13:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: elf-rss
+[2023-05-08 13:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: blueapps
+[2023-05-08 13:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-ddmrp-coverage-days
+[2023-05-08 13:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tb-nightly
+[2023-05-08 13:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-gereon-cert-2041-convert-to-lists
+[2023-05-08 13:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torchtnt-nightly
+[2023-05-08 13:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyvium
+[2023-05-08 13:25:10] INFO root fetch - processPackages [git-pw]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-05-08 13:25:10] INFO root fetch - processPackages [tensordict-nightly]: New version: [2023.5.7] Old Version: [2023.5.6]
+[2023-05-08 13:25:10] INFO root fetch - processPackages [sag-py-execution-time-decorator]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-05-08 13:25:10] INFO root fetch - processPackages [pyvium]: New version: [0.1.9b0] Old Version: [0.1.8b0]
+[2023-05-08 13:25:10] INFO root fetch - processPackages [elf-rss]: New version: [2.6.9] Old Version: [2.6.8]
+[2023-05-08 13:25:10] INFO root fetch - processPackages [certora-cli-alpha-gereon-cert-2041-convert-to-lists]: New version: [20230508.9.58.38987] Old Version: [20230508.9.39.715318]
+[2023-05-08 13:25:10] INFO root fetch - processPackages [odoo-addon-ddmrp-coverage-days]: New version: [15.0.1.2.0] Old Version: [15.0.1.1.0.2]
+[2023-05-08 13:25:10] INFO root fetch - processPackages [blueapps]: New version: [4.7.0rc1] Old Version: [4.7.0rc0]
+[2023-05-08 13:25:10] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.5.7] Old Version: [2023.5.6]
+[2023-05-08 13:25:10] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-05-08 13:25:10] INFO root fetch - processPackages [certora-cli-alpha-gereon-cert-2041-convert-to-lists]: Downloading https://files.pythonhosted.org/packages/d4/27/0dba7d6700ea4537bd7341893c1b87f44c88fb039def47e276f253b85e71/certora-cli-alpha-gereon-cert-2041-convert-to-lists-20230508.9.39.715318.tar.gz
+[2023-05-08 13:25:10] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2023-05-08 13:25:10] WARNING root fetch - processPackages [certora-cli-alpha-gereon-cert-2041-convert-to-lists]: Skipping package: exceeds size limit 38481962>=10485760
+[2023-05-08 13:25:10] INFO root fetch - processPackages [certora-cli-alpha-gereon-cert-2041-convert-to-lists]: Start processing: edwh
+[2023-05-08 13:25:10] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-gereon-cert-2041-convert-to-lists] error
+[2023-05-08 13:25:10] INFO root fetch - processPackages [edwh]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-08 13:25:10] INFO root fetch - processPackages [pyvium]: executing diffoscope
+[2023-05-08 13:25:10] INFO root fetch - processPackages [pyvium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvium-0.1.8b0.tar.gz tmp/pyvium-0.1.9b0.tar.gz --markdown 20230508/p/pyvium/0.1.8b0-0.1.9b0/diff.md --exclude *.pyd
+[2023-05-08 13:25:10] INFO root fetch - processPackages [sag-py-execution-time-decorator]: Downloading https://files.pythonhosted.org/packages/7b/e2/cc46449e72177111039d44d3971e0f953b00fd7a8f9e09e95ab998d17744/sag-py-execution-time-decorator-0.1.0.tar.gz
+[2023-05-08 13:25:10] INFO root fetch - processPackages [git-pw]: Downloading https://files.pythonhosted.org/packages/13/70/ca4b384f959ae8cf7fe0412af0833658ba8e099cdffa892d1a810e51bd17/git-pw-2.4.0.tar.gz
+[2023-05-08 13:25:10] INFO root fetch - processPackages [blueapps]: Downloading https://files.pythonhosted.org/packages/10/03/cd1eab34afc827162d8d92c204ee5df9b9a4d966e8d4b35fef2b15435b41/blueapps-4.7.0rc0.tar.gz
+[2023-05-08 13:25:10] INFO root fetch - processPackages [elf-rss]: Downloading https://files.pythonhosted.org/packages/3e/75/a4e0b69cb25d056f992c0e3b3610eb7e2494b635c1ed764dad4b09716af3/ELF_RSS-2.6.8.tar.gz
+[2023-05-08 13:25:10] INFO root fetch - processPackages [edwh]: Downloading https://files.pythonhosted.org/packages/a1/b2/ffc583af9d774bfd7b622dbed69ea2357b3a1f9096658cf1202307626113/edwh-0.9.1.tar.gz
+[2023-05-08 13:25:10] INFO root fetch - processPackages [odoo-addon-ddmrp-coverage-days]: Downloading https://files.pythonhosted.org/packages/e7/57/fd35b553b2efdb96bef8bada7549928a4c220278e764b12154250678c0c3/odoo_addon_ddmrp_coverage_days-15.0.1.1.0.2-py3-none-any.whl
+[2023-05-08 13:25:10] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/49/06/0f9b4978734a91c186262ef4651425478e2300581c4e8952da7283024146/tensordict_nightly-2023.5.7-py39-none-any.whl
+[2023-05-08 13:25:10] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/aa/e7/de3a79135fdc6bfe5e2c7ef2c5aa2ef64baca2f35b7377f427db5fbc35f1/torchtnt-nightly-2023.5.7.tar.gz
+[2023-05-08 13:25:10] WARNING root fetch - processPackages [edwh]: Skipping package: exceeds size limit 32547749>=10485760
+[2023-05-08 13:25:10] INFO root fetch - processPackages [edwh]: Start processing: kopia
+[2023-05-08 13:25:10] INFO root fetch - main [MainThread]: End processing [edwh] error
+[2023-05-08 13:25:10] INFO root fetch - processPackages [kopia]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-08 13:25:10] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2023-05-08 13:25:10] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2023-05-08 13:25:10] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2023.5.6-py39-none-any.whl.zip tmp/tensordict_nightly-2023.5.7-py39-none-any.whl.zip --markdown 20230508/t/tensordict-nightly/2023.5.6-2023.5.7/diff.md --exclude *.pyd
+[2023-05-08 13:25:10] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-05-08 13:25:10] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.5.6.tar.gz tmp/torchtnt-nightly-2023.5.7.tar.gz --markdown 20230508/t/torchtnt-nightly/2023.5.6-2023.5.7/diff.md --exclude *.pyd
+[2023-05-08 13:25:10] INFO root fetch - processPackages [sag-py-execution-time-decorator]: Downloading https://files.pythonhosted.org/packages/5f/f8/99e0bae132931bb60d700e1914b0a13c3b7e201fba1e167f7b1f8c883330/sag-py-execution-time-decorator-1.0.0.tar.gz
+[2023-05-08 13:25:10] INFO root fetch - processPackages [blueapps]: Downloading https://files.pythonhosted.org/packages/67/92/fd2e41921c1267668df8fd1291bef6af3d1f3576d652017a93179a9691d7/blueapps-4.7.0rc1.tar.gz
+[2023-05-08 13:25:10] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-05-08 13:25:10] INFO root fetch - processPackages [sag-py-execution-time-decorator]: executing diffoscope
+[2023-05-08 13:25:10] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230508/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-05-08 13:25:10] INFO root fetch - processPackages [sag-py-execution-time-decorator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sag-py-execution-time-decorator-0.1.0.tar.gz tmp/sag-py-execution-time-decorator-1.0.0.tar.gz --markdown 20230508/s/sag-py-execution-time-decorator/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-05-08 13:25:10] INFO root fetch - processPackages [git-pw]: Downloading https://files.pythonhosted.org/packages/03/9e/3362931cc765afd4ed22220b2ffe303cd9db9f3f4bb94b3ff05414d85efa/git-pw-2.4.1.tar.gz
+[2023-05-08 13:25:10] INFO root fetch - processPackages [odoo-addon-ddmrp-coverage-days]: Downloading https://files.pythonhosted.org/packages/b6/94/a33ba84924552d536b63a8496bff4e85c9c02ba7d206082a3c7f92730f0c/odoo_addon_ddmrp_coverage_days-15.0.1.2.0-py3-none-any.whl
+[2023-05-08 13:25:10] INFO root fetch - processPackages [kopia]: executing diffoscope
+[2023-05-08 13:25:10] INFO root fetch - processPackages [kopia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kopia-0.1.1.tar.gz tmp/kopia-0.1.2.tar.gz --markdown 20230508/k/kopia/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-08 13:25:10] INFO root fetch - processPackages [blueapps]: executing diffoscope
+[2023-05-08 13:25:10] INFO root fetch - processPackages [blueapps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blueapps-4.7.0rc0.tar.gz tmp/blueapps-4.7.0rc1.tar.gz --markdown 20230508/b/blueapps/4.7.0rc0-4.7.0rc1/diff.md --exclude *.pyd
+[2023-05-08 13:25:10] INFO root fetch - processPackages [elf-rss]: Downloading https://files.pythonhosted.org/packages/70/59/5e0d1330a8cfbe4f1140944026566b8b2b3a33dbc4968f545b440466be90/ELF_RSS-2.6.9.tar.gz
+[2023-05-08 13:25:10] INFO root fetch - processPackages [git-pw]: executing diffoscope
+[2023-05-08 13:25:10] INFO root fetch - processPackages [git-pw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git-pw-2.4.0.tar.gz tmp/git-pw-2.4.1.tar.gz --markdown 20230508/g/git-pw/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-05-08 13:25:10] INFO root fetch - processPackages [odoo-addon-ddmrp-coverage-days]: executing diffoscope
+[2023-05-08 13:25:10] INFO root fetch - processPackages [odoo-addon-ddmrp-coverage-days]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp_coverage_days-15.0.1.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_ddmrp_coverage_days-15.0.1.2.0-py3-none-any.whl.zip --markdown 20230508/o/odoo-addon-ddmrp-coverage-days/15.0.1.1.0.2-15.0.1.2.0/diff.md --exclude *.pyd
+[2023-05-08 13:25:11] INFO root fetch - processPackages [elf-rss]: executing diffoscope
+[2023-05-08 13:25:11] INFO root fetch - processPackages [elf-rss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ELF_RSS-2.6.8.tar.gz tmp/ELF_RSS-2.6.9.tar.gz --markdown 20230508/e/elf-rss/2.6.8-2.6.9/diff.md --exclude *.pyd
+[2023-05-08 13:25:12] INFO root fetch - processPackages [kopia]: Start processing: pyoptas
+[2023-05-08 13:25:12] INFO root fetch - main [MainThread]: End processing [kopia]: success
+[2023-05-08 13:25:12] WARNING root fetch - processPackages [pyoptas]: Skipping, unable to determine old version
+[2023-05-08 13:25:12] INFO root fetch - processPackages [pyoptas]: Start processing: byozdemir-sendmessage
+[2023-05-08 13:25:12] INFO root fetch - main [MainThread]: End processing [pyoptas] error
+[2023-05-08 13:25:12] WARNING root fetch - processPackages [byozdemir-sendmessage]: Skipping, unable to determine old version
+[2023-05-08 13:25:12] INFO root fetch - processPackages [byozdemir-sendmessage]: Start processing: torchrl-nightly
+[2023-05-08 13:25:12] INFO root fetch - main [MainThread]: End processing [byozdemir-sendmessage] error
+[2023-05-08 13:25:12] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-05-08 13:25:12] INFO root fetch - main [MainThread]: End processing [sag-py-execution-time-decorator]: success
+[2023-05-08 13:25:12] INFO root fetch - main [MainThread]: End processing [elf-rss]: success
+[2023-05-08 13:25:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp-coverage-days]: success
+[2023-05-08 13:25:12] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2023-05-08 13:25:13] INFO root fetch - processPackages [torchrl-nightly]: New version: [2023.5.8] Old Version: [2023.5.7]
+[2023-05-08 13:25:13] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/60/0f/13dbc5d1c1faa0d2564263d5cbfc6be5c8b378f842a5403b7569eb063d4f/torchrl_nightly-2023.5.7-cp39-cp39-win_amd64.whl
+[2023-05-08 13:25:13] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/9b/10/4b66d52d2668a96e96a77bb6e67da9ca3d61997b5507b756bf3f6ce277ab/torchrl_nightly-2023.5.8-cp38-cp38-macosx_10_15_x86_64.whl
+[2023-05-08 13:25:13] INFO root fetch - main [MainThread]: End processing [git-pw]: success
+[2023-05-08 13:25:13] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2023-05-08 13:25:13] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2023.5.7-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2023.5.8-cp38-cp38-macosx_10_15_x86_64.whl.zip --markdown 20230508/t/torchrl-nightly/2023.5.7-2023.5.8/diff.md --exclude *.pyd
+[2023-05-08 13:25:14] INFO root fetch - main [MainThread]: End processing [pyvium]: success
+[2023-05-08 13:25:14] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-05-08 13:25:14] INFO root fetch - main [MainThread]: End processing [blueapps]: success
+[2023-05-08 13:25:18] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2023-05-08 13:25:18] INFO root fetch - main [MainThread]: Store serial: [18016036]
