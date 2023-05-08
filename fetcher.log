@@ -2648,3 +2648,63 @@
 [2023-05-08 04:35:41] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
 [2023-05-08 04:35:43] INFO root fetch - main [MainThread]: End processing [hostphot]: success
 [2023-05-08 04:35:43] INFO root fetch - main [MainThread]: Store serial: [18011608]
+[2023-05-08 04:40:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18011608]
+[2023-05-08 04:40:53] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-08 04:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: antchain-ak-ee637c8293f64104af9686dc12e0cd18
+[2023-05-08 04:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aitomatic
+[2023-05-08 04:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ansible-butler
+[2023-05-08 04:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cagraph
+[2023-05-08 04:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openai-api-call
+[2023-05-08 04:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nvosscript
+[2023-05-08 04:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ApiLogicServer
+[2023-05-08 04:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: circuitpython-ArrowLine
+[2023-05-08 04:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: getmonitorresolution
+[2023-05-08 04:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bandplot
+[2023-05-08 04:40:53] INFO root fetch - processPackages [antchain-ak-ee637c8293f64104af9686dc12e0cd18]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-08 04:40:53] INFO root fetch - processPackages [bandplot]: New version: [0.1.4.2] Old Version: [0.1.4.1]
+[2023-05-08 04:40:53] INFO root fetch - processPackages [ansible-butler]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-08 04:40:53] INFO root fetch - processPackages [nvosscript]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-05-08 04:40:53] INFO root fetch - processPackages [cagraph]: New version: [0.0.5] Old Version: [0.0.1]
+[2023-05-08 04:40:53] WARNING root fetch - processPackages [getmonitorresolution]: Skipping, unable to determine old version
+[2023-05-08 04:40:53] INFO root fetch - processPackages [openai-api-call]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-08 04:40:53] INFO root fetch - main [MainThread]: End processing [getmonitorresolution] error
+[2023-05-08 04:40:53] INFO root fetch - processPackages [circuitpython-ArrowLine]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-08 04:40:53] INFO root fetch - processPackages [ApiLogicServer]: New version: [8.4.0] Old Version: [8.3.6]
+[2023-05-08 04:40:53] WARNING root fetch - processPackages [aitomatic]: Skipping, unable to determine old version
+[2023-05-08 04:40:53] INFO root fetch - main [MainThread]: End processing [aitomatic] error
+[2023-05-08 04:40:54] INFO root fetch - processPackages [antchain-ak-ee637c8293f64104af9686dc12e0cd18]: Downloading https://files.pythonhosted.org/packages/87/ef/f657ecc3cab04cb8a0934377069c98214a19a86d3e3f0644c2739b577f83/antchain_ak_ee637c8293f64104af9686dc12e0cd18-1.0.1.tar.gz
+[2023-05-08 04:40:54] INFO root fetch - processPackages [openai-api-call]: executing diffoscope
+[2023-05-08 04:40:54] INFO root fetch - processPackages [openai-api-call]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_api_call-0.3.8.tar.gz tmp/openai_api_call-0.3.9.tar.gz --markdown 20230508/o/openai-api-call/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-08 04:40:54] INFO root fetch - processPackages [bandplot]: Downloading https://files.pythonhosted.org/packages/5c/01/e9b1d13036d83ea9ae8fbdb59bb5251ea0728fe80cc39ce8589ab1104532/bandplot-0.1.4.1-py3-none-any.whl
+[2023-05-08 04:40:54] INFO root fetch - processPackages [ApiLogicServer]: Downloading https://files.pythonhosted.org/packages/ee/f9/562f34c11cf6f51cb5ac7387dad06197bef716db38b32d321272492e070d/ApiLogicServer-8.3.6.tar.gz
+[2023-05-08 04:40:54] INFO root fetch - processPackages [circuitpython-ArrowLine]: Downloading https://files.pythonhosted.org/packages/06/15/07b73337d25d761145e95b4348423acf3af0d49e76ad6ac92cc68be8f721/circuitpython-ArrowLine-1.0.0.tar.gz
+[2023-05-08 04:40:54] INFO root fetch - processPackages [nvosscript]: Downloading https://files.pythonhosted.org/packages/d6/cf/ddceeaa065508aa0299bbab36249f2848e2fe2ba24c3cd58836363ff57ad/nvosscript-1.2.6.tar.gz
+[2023-05-08 04:40:54] INFO root fetch - processPackages [ansible-butler]: Downloading https://files.pythonhosted.org/packages/fc/3f/cad0a992820dc29fa6bc67ce8e248cf5e0bc12418bc838fdc636cfb8b085/ansible-butler-1.0.9.tar.gz
+[2023-05-08 04:40:54] INFO root fetch - processPackages [cagraph]: Downloading https://files.pythonhosted.org/packages/39/97/ebac8f7ff4bf1262a82e8ba72746c7ca5f98993d54febebc67fb19be34e4/cagraph-0.0.5.tar.gz
+[2023-05-08 04:40:54] INFO root fetch - processPackages [antchain-ak-ee637c8293f64104af9686dc12e0cd18]: Downloading https://files.pythonhosted.org/packages/b2/e7/108ba321d919b0480c8a8d1d94ca9afb00d8819f8ad356900391aed0f661/antchain_ak_ee637c8293f64104af9686dc12e0cd18-1.0.2.tar.gz
+[2023-05-08 04:40:54] INFO root fetch - processPackages [ansible-butler]: executing diffoscope
+[2023-05-08 04:40:54] INFO root fetch - processPackages [ansible-butler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible-butler-1.0.8.tar.gz tmp/ansible-butler-1.0.9.tar.gz --markdown 20230508/a/ansible-butler/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-08 04:40:54] INFO root fetch - processPackages [circuitpython-ArrowLine]: executing diffoscope
+[2023-05-08 04:40:54] INFO root fetch - processPackages [circuitpython-ArrowLine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circuitpython-ArrowLine-1.0.0.tar.gz tmp/circuitpython-ArrowLine-1.0.1.tar.gz --markdown 20230508/c/circuitpython-ArrowLine/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-08 04:40:54] INFO root fetch - processPackages [antchain-ak-ee637c8293f64104af9686dc12e0cd18]: executing diffoscope
+[2023-05-08 04:40:54] INFO root fetch - processPackages [antchain-ak-ee637c8293f64104af9686dc12e0cd18]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_ak_ee637c8293f64104af9686dc12e0cd18-1.0.1.tar.gz tmp/antchain_ak_ee637c8293f64104af9686dc12e0cd18-1.0.2.tar.gz --markdown 20230508/a/antchain-ak-ee637c8293f64104af9686dc12e0cd18/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-08 04:40:54] INFO root fetch - processPackages [nvosscript]: Downloading https://files.pythonhosted.org/packages/55/7b/f4342ffb74f411b4e4386e0d15e5f4f3b2a8ed546eefd796f33eb8452ec7/nvosscript-1.2.7.tar.gz
+[2023-05-08 04:40:54] INFO root fetch - processPackages [bandplot]: Downloading https://files.pythonhosted.org/packages/ae/23/d7ed48009ded0479b4e81b7c974dcd832643633055f5d4bb7da71a6ff9f5/bandplot-0.1.4.2-py3-none-any.whl
+[2023-05-08 04:40:54] INFO root fetch - processPackages [nvosscript]: executing diffoscope
+[2023-05-08 04:40:54] INFO root fetch - processPackages [nvosscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvosscript-1.2.6.tar.gz tmp/nvosscript-1.2.7.tar.gz --markdown 20230508/n/nvosscript/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2023-05-08 04:40:54] INFO root fetch - processPackages [bandplot]: executing diffoscope
+[2023-05-08 04:40:54] INFO root fetch - processPackages [bandplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bandplot-0.1.4.1-py3-none-any.whl.zip tmp/bandplot-0.1.4.2-py3-none-any.whl.zip --markdown 20230508/b/bandplot/0.1.4.1-0.1.4.2/diff.md --exclude *.pyd
+[2023-05-08 04:40:54] INFO root fetch - processPackages [cagraph]: executing diffoscope
+[2023-05-08 04:40:54] INFO root fetch - processPackages [cagraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cagraph-0.0.1-py3-none-any.whl.zip tmp/cagraph-0.0.5.tar.gz --markdown 20230508/c/cagraph/0.0.1-0.0.5/diff.md --exclude *.pyd
+[2023-05-08 04:40:55] INFO root fetch - main [MainThread]: End processing [antchain-ak-ee637c8293f64104af9686dc12e0cd18]: success
+[2023-05-08 04:40:55] INFO root fetch - main [MainThread]: End processing [openai-api-call]: success
+[2023-05-08 04:40:55] INFO root fetch - main [MainThread]: End processing [ansible-butler]: success
+[2023-05-08 04:40:55] INFO root fetch - main [MainThread]: End processing [nvosscript]: success
+[2023-05-08 04:40:55] INFO root fetch - main [MainThread]: End processing [bandplot]: success
+[2023-05-08 04:40:55] INFO root fetch - main [MainThread]: End processing [circuitpython-ArrowLine]: success
+[2023-05-08 04:40:56] INFO root fetch - processPackages [ApiLogicServer]: Downloading https://files.pythonhosted.org/packages/01/54/131fcade1d4e6405cf6a3edbdec3dd1eddfb2e4a33fb1b88354650093930/ApiLogicServer-8.4.0.tar.gz
+[2023-05-08 04:40:56] INFO root fetch - processPackages [ApiLogicServer]: executing diffoscope
+[2023-05-08 04:40:56] INFO root fetch - processPackages [ApiLogicServer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ApiLogicServer-8.3.6.tar.gz tmp/ApiLogicServer-8.4.0.tar.gz --markdown 20230508/A/ApiLogicServer/8.3.6-8.4.0/diff.md --exclude *.pyd
+[2023-05-08 04:40:56] INFO root fetch - main [MainThread]: End processing [cagraph]: success
+[2023-05-08 04:41:04] INFO root fetch - main [MainThread]: End processing [ApiLogicServer]: success
+[2023-05-08 04:41:04] INFO root fetch - main [MainThread]: Store serial: [18011642]
