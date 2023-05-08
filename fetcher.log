@@ -9655,3 +9655,73 @@
 [2023-05-08 11:56:02] INFO root fetch - main [MainThread]: End processing [fschat]: success
 [2023-05-08 11:56:04] INFO root fetch - main [MainThread]: End processing [hikvision-isapi-cli]: success
 [2023-05-08 11:56:04] INFO root fetch - main [MainThread]: Store serial: [18015426]
+[2023-05-08 12:01:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18015426]
+[2023-05-08 12:01:12] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-08 12:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: navalmartin-mir-vision-utils
+[2023-05-08 12:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: perceiver-io
+[2023-05-08 12:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo13-addon-ddmrp
+[2023-05-08 12:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo13-addon-ddmrp-sale
+[2023-05-08 12:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: soccer-poisson
+[2023-05-08 12:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: docarray
+[2023-05-08 12:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-gereon-cert-2041-convert-to-lists
+[2023-05-08 12:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: enhanceezqq
+[2023-05-08 12:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xrootd
+[2023-05-08 12:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sample-git-diffs
+[2023-05-08 12:01:13] INFO root fetch - processPackages [odoo13-addon-ddmrp-sale]: New version: [13.0.1.2.0] Old Version: [13.0.1.1.0]
+[2023-05-08 12:01:13] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 12:01:13] INFO root fetch - processPackages [perceiver-io]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-05-08 12:01:13] INFO root fetch - processPackages [certora-cli-alpha-gereon-cert-2041-convert-to-lists]: New version: [20230508.9.58.38987] Old Version: [20230508.9.39.715318]
+[2023-05-08 12:01:13] INFO root fetch - processPackages [soccer-poisson]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 12:01:13] INFO root fetch - processPackages [odoo13-addon-ddmrp]: New version: [13.0.1.9.1.dev1] Old Version: [13.0.1.9.0]
+[2023-05-08 12:01:13] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-05-08 12:01:13] WARNING root fetch - processPackages [enhanceezqq]: Skipping, unable to determine old version
+[2023-05-08 12:01:13] INFO root fetch - processPackages [enhanceezqq]: Start processing: jina
+[2023-05-08 12:01:13] INFO root fetch - main [MainThread]: End processing [enhanceezqq] error
+[2023-05-08 12:01:13] INFO root fetch - processPackages [sample-git-diffs]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-08 12:01:13] INFO root fetch - processPackages [soccer-poisson]: executing diffoscope
+[2023-05-08 12:01:13] INFO root fetch - processPackages [soccer-poisson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soccer_poisson-0.1.8.tar.gz tmp/soccer_poisson-0.1.9.tar.gz --markdown 20230508/s/soccer-poisson/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 12:01:13] INFO root fetch - processPackages [xrootd]: New version: [5.5.5] Old Version: [5.5.4]
+[2023-05-08 12:01:13] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-05-08 12:01:13] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230508/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-05-08 12:01:13] INFO root fetch - processPackages [odoo13-addon-ddmrp]: executing diffoscope
+[2023-05-08 12:01:13] INFO root fetch - processPackages [odoo13-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_ddmrp-13.0.1.9.0-py3-none-any.whl.zip tmp/odoo13_addon_ddmrp-13.0.1.9.1.dev1-py3-none-any.whl.zip --markdown 20230508/o/odoo13-addon-ddmrp/13.0.1.9.0-13.0.1.9.1.dev1/diff.md --exclude *.pyd
+[2023-05-08 12:01:13] INFO root fetch - processPackages [certora-cli-alpha-gereon-cert-2041-convert-to-lists]: Downloading https://files.pythonhosted.org/packages/d4/27/0dba7d6700ea4537bd7341893c1b87f44c88fb039def47e276f253b85e71/certora-cli-alpha-gereon-cert-2041-convert-to-lists-20230508.9.39.715318.tar.gz
+[2023-05-08 12:01:13] INFO root fetch - processPackages [odoo13-addon-ddmrp-sale]: Downloading https://files.pythonhosted.org/packages/da/b0/b51c8ceb340edbd17683a07124c68a80bb23e0808a719cdf081b7df8a0f1/odoo13_addon_ddmrp_sale-13.0.1.1.0-py3-none-any.whl
+[2023-05-08 12:01:13] WARNING root fetch - processPackages [certora-cli-alpha-gereon-cert-2041-convert-to-lists]: Skipping package: exceeds size limit 38481962>=10485760
+[2023-05-08 12:01:13] INFO root fetch - processPackages [certora-cli-alpha-gereon-cert-2041-convert-to-lists]: Start processing: batframes
+[2023-05-08 12:01:13] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-gereon-cert-2041-convert-to-lists] error
+[2023-05-08 12:01:13] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2023-05-08 12:01:13] INFO root fetch - processPackages [perceiver-io]: Downloading https://files.pythonhosted.org/packages/30/d3/3fe1bc64dae68898688704d55b10787c04e8ae22f6eb450e586ee1a8603f/perceiver-io-0.8.2.tar.gz
+[2023-05-08 12:01:13] INFO root fetch - processPackages [sample-git-diffs]: Downloading https://files.pythonhosted.org/packages/30/a7/dbdf59e9e1d7fe36be951f1ed9c7b80689fb095a46559cb142e24b1467a9/sample-git-diffs-0.2.3.tar.gz
+[2023-05-08 12:01:13] INFO root fetch - processPackages [xrootd]: Downloading https://files.pythonhosted.org/packages/2c/91/c03d649236b3af7720b2ea5561abfbbf3baed3722da485cfea07e565cf57/xrootd-5.5.4.tar.gz
+[2023-05-08 12:01:13] WARNING root fetch - processPackages [batframes]: Skipping, unable to determine old version
+[2023-05-08 12:01:13] INFO root fetch - main [MainThread]: End processing [batframes] error
+[2023-05-08 12:01:13] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: Downloading https://files.pythonhosted.org/packages/10/43/0faf2ce040c31ec3d5fbec3455704388d1de1f395388b47123317288da72/navalmartin_mir_vision_utils-0.0.8.tar.gz
+[2023-05-08 12:01:13] INFO root fetch - processPackages [odoo13-addon-ddmrp-sale]: Downloading https://files.pythonhosted.org/packages/bd/20/b37ba7f89bc213134e4199aed609b25725de28a4e584c4f35f01ede3abc5/odoo13_addon_ddmrp_sale-13.0.1.2.0-py3-none-any.whl
+[2023-05-08 12:01:13] INFO root fetch - processPackages [jina]: Downloading https://files.pythonhosted.org/packages/f0/3b/7e6b8b6de74c936b09ce9a4d7440511734efe64633b3418e61b667257994/jina-3.9.3.dev8.tar.gz
+[2023-05-08 12:01:13] INFO root fetch - processPackages [odoo13-addon-ddmrp-sale]: executing diffoscope
+[2023-05-08 12:01:13] INFO root fetch - processPackages [odoo13-addon-ddmrp-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_ddmrp_sale-13.0.1.1.0-py3-none-any.whl.zip tmp/odoo13_addon_ddmrp_sale-13.0.1.2.0-py3-none-any.whl.zip --markdown 20230508/o/odoo13-addon-ddmrp-sale/13.0.1.1.0-13.0.1.2.0/diff.md --exclude *.pyd
+[2023-05-08 12:01:13] INFO root fetch - processPackages [sample-git-diffs]: Downloading https://files.pythonhosted.org/packages/c6/a5/becb79711a5e7ad358ccbf4b33fa28d39fc25f3c845d87cdba709ec1059c/sample-git-diffs-0.2.4.tar.gz
+[2023-05-08 12:01:13] INFO root fetch - processPackages [xrootd]: Downloading https://files.pythonhosted.org/packages/6c/76/715ff90c868fdacc0149b5c065439181c991d8b0cfdc69a15b6fba4ade27/xrootd-5.5.5.tar.gz
+[2023-05-08 12:01:13] INFO root fetch - processPackages [perceiver-io]: Downloading https://files.pythonhosted.org/packages/66/a9/c0b3bfe871bc5e586b36eee2363c85a7c7fa530509c245c45bc1ca048b34/perceiver-io-0.9.0.tar.gz
+[2023-05-08 12:01:13] INFO root fetch - processPackages [sample-git-diffs]: executing diffoscope
+[2023-05-08 12:01:13] INFO root fetch - processPackages [sample-git-diffs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sample-git-diffs-0.2.3.tar.gz tmp/sample-git-diffs-0.2.4.tar.gz --markdown 20230508/s/sample-git-diffs/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-08 12:01:13] WARNING root fetch - processPackages [perceiver-io]: Skipping package: exceeds size limit 15401978>=10485760
+[2023-05-08 12:01:13] INFO root fetch - main [MainThread]: End processing [perceiver-io] error
+[2023-05-08 12:01:13] INFO root fetch - processPackages [jina]: Downloading https://files.pythonhosted.org/packages/89/60/0658aa50da9055ade2f42bd6cecdfa0abdf69ce7f7bd063c628105106538/jina-3.9.3.dev9.tar.gz
+[2023-05-08 12:01:13] INFO root fetch - processPackages [xrootd]: executing diffoscope
+[2023-05-08 12:01:13] INFO root fetch - processPackages [xrootd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xrootd-5.5.4.tar.gz tmp/xrootd-5.5.5.tar.gz --markdown 20230508/x/xrootd/5.5.4-5.5.5/diff.md --exclude *.pyd
+[2023-05-08 12:01:13] INFO root fetch - processPackages [jina]: executing diffoscope
+[2023-05-08 12:01:13] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20230508/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2023-05-08 12:01:14] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: Downloading https://files.pythonhosted.org/packages/33/82/0632f8ba98948950c674aefdba1e9cae6ee975dd3eedc20360ba647945ff/navalmartin_mir_vision_utils-0.0.9.tar.gz
+[2023-05-08 12:01:14] INFO root fetch - main [MainThread]: End processing [soccer-poisson]: success
+[2023-05-08 12:01:14] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: executing diffoscope
+[2023-05-08 12:01:14] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navalmartin_mir_vision_utils-0.0.8.tar.gz tmp/navalmartin_mir_vision_utils-0.0.9.tar.gz --markdown 20230508/n/navalmartin-mir-vision-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 12:01:14] INFO root fetch - main [MainThread]: End processing [odoo13-addon-ddmrp-sale]: success
+[2023-05-08 12:01:14] INFO root fetch - main [MainThread]: End processing [sample-git-diffs]: success
+[2023-05-08 12:01:14] INFO root fetch - main [MainThread]: End processing [odoo13-addon-ddmrp]: success
+[2023-05-08 12:01:15] INFO root fetch - main [MainThread]: End processing [navalmartin-mir-vision-utils]: success
+[2023-05-08 12:01:16] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2023-05-08 12:01:17] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-05-08 12:01:41] INFO root fetch - main [MainThread]: End processing [xrootd]: success
+[2023-05-08 12:01:41] INFO root fetch - main [MainThread]: Store serial: [18015462]
