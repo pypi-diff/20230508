@@ -9399,3 +9399,108 @@
 [2023-05-08 11:40:01] INFO root fetch - main [MainThread]: End processing [pineboo]: success
 [2023-05-08 11:40:04] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-05-08 11:40:04] INFO root fetch - main [MainThread]: Store serial: [18015281]
+[2023-05-08 11:45:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18015281]
+[2023-05-08 11:45:13] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-08 11:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-htmx-viewsets
+[2023-05-08 11:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-gereon-cert-2041-convert-to-lists
+[2023-05-08 11:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: restring
+[2023-05-08 11:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-omer-CERT-945-inside-assert-the-assumptions-are-not-affect-assert-cast
+[2023-05-08 11:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyplanpro
+[2023-05-08 11:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: docarray
+[2023-05-08 11:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hugchat
+[2023-05-08 11:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: video-reuse-detector
+[2023-05-08 11:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qtest-reporter
+[2023-05-08 11:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyprodop
+[2023-05-08 11:45:13] INFO root fetch - processPackages [restring]: New version: [0.1.3] Old Version: [0.1.20]
+[2023-05-08 11:45:13] INFO root fetch - processPackages [pyplanpro]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-08 11:45:13] WARNING root fetch - processPackages [qtest-reporter]: Skipping, unable to determine old version
+[2023-05-08 11:45:13] INFO root fetch - processPackages [django-htmx-viewsets]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 11:45:13] INFO root fetch - processPackages [qtest-reporter]: Start processing: xcsv-plot
+[2023-05-08 11:45:13] INFO root fetch - main [MainThread]: End processing [qtest-reporter] error
+[2023-05-08 11:45:13] INFO root fetch - processPackages [certora-cli-alpha-gereon-cert-2041-convert-to-lists]: New version: [20230508.9.39.715318] Old Version: [20230508.7.38.231013]
+[2023-05-08 11:45:13] INFO root fetch - processPackages [video-reuse-detector]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-08 11:45:13] INFO root fetch - processPackages [certora-cli-alpha-omer-CERT-945-inside-assert-the-assumptions-are-not-affect-assert-cast]: New version: [20230508.9.40.291183] Old Version: [20230503.14.27.373731]
+[2023-05-08 11:45:13] INFO root fetch - processPackages [hugchat]: New version: [0.0.5.6] Old Version: [0.0.5.5]
+[2023-05-08 11:45:13] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-05-08 11:45:13] INFO root fetch - processPackages [xcsv-plot]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-08 11:45:13] WARNING root fetch - processPackages [pyprodop]: Skipping, unable to determine old version
+[2023-05-08 11:45:13] INFO root fetch - processPackages [pyprodop]: Start processing: mlrun
+[2023-05-08 11:45:13] INFO root fetch - main [MainThread]: End processing [pyprodop] error
+[2023-05-08 11:45:13] INFO root fetch - processPackages [mlrun]: New version: [1.4.0rc2] Old Version: [1.4.0rc1]
+[2023-05-08 11:45:13] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-05-08 11:45:13] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230508/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-05-08 11:45:13] INFO root fetch - processPackages [pyplanpro]: Downloading https://files.pythonhosted.org/packages/71/2b/b93e52b9f0c3896e1163b26e70e9d6ea1ea390db664c86e038d082cfc64b/pyplanpro-0.0.5.tar.gz
+[2023-05-08 11:45:13] INFO root fetch - processPackages [mlrun]: executing diffoscope
+[2023-05-08 11:45:13] INFO root fetch - processPackages [mlrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlrun-1.4.0rc1-py3-none-any.whl.zip tmp/mlrun-1.4.0rc2-py3-none-any.whl.zip --markdown 20230508/m/mlrun/1.4.0rc1-1.4.0rc2/diff.md --exclude *.pyd
+[2023-05-08 11:45:13] INFO root fetch - processPackages [restring]: Downloading https://files.pythonhosted.org/packages/80/00/de60b2d8c4369abda0a9131e5f23349df1a76c65c1e2bf59d1c7b8006107/restring-0.1.20.tar.gz
+[2023-05-08 11:45:13] INFO root fetch - processPackages [xcsv-plot]: Downloading https://files.pythonhosted.org/packages/72/74/18f6bcc09f520565709a3c62d15739001a81084416102f2130a9e9f9825f/xcsv_plot-0.3.0.tar.gz
+[2023-05-08 11:45:13] INFO root fetch - processPackages [certora-cli-alpha-gereon-cert-2041-convert-to-lists]: Downloading https://files.pythonhosted.org/packages/ad/96/27df2483b9a333536fba11820e9f39ab5788c58f93c7b8bcefbe3c9ce55f/certora-cli-alpha-gereon-cert-2041-convert-to-lists-20230508.7.38.231013.tar.gz
+[2023-05-08 11:45:13] INFO root fetch - processPackages [certora-cli-alpha-omer-CERT-945-inside-assert-the-assumptions-are-not-affect-assert-cast]: Downloading https://files.pythonhosted.org/packages/1a/83/88bb733e817eeadf8b9d4da9959728f36c3ab077cfac169b6d7bda01800e/certora-cli-alpha-omer-CERT-945-inside-assert-the-assumptions-are-not-affect-assert_cast-20230503.14.27.373731.tar.gz
+[2023-05-08 11:45:13] INFO root fetch - processPackages [video-reuse-detector]: Downloading https://files.pythonhosted.org/packages/a5/35/8329f41275eeffd91f82f3565b5095140a489678a284ea9b1f1bf89d1936/video_reuse_detector-0.1.3.tar.gz
+[2023-05-08 11:45:13] WARNING root fetch - processPackages [certora-cli-alpha-gereon-cert-2041-convert-to-lists]: Skipping package: exceeds size limit 38481176>=10485760
+[2023-05-08 11:45:13] INFO root fetch - processPackages [certora-cli-alpha-gereon-cert-2041-convert-to-lists]: Start processing: nanomock
+[2023-05-08 11:45:13] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-gereon-cert-2041-convert-to-lists] error
+[2023-05-08 11:45:13] WARNING root fetch - processPackages [certora-cli-alpha-omer-CERT-945-inside-assert-the-assumptions-are-not-affect-assert-cast]: Skipping package: exceeds size limit 38384055>=10485760
+[2023-05-08 11:45:13] INFO root fetch - processPackages [certora-cli-alpha-omer-CERT-945-inside-assert-the-assumptions-are-not-affect-assert-cast]: Start processing: argus-api
+[2023-05-08 11:45:13] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-omer-CERT-945-inside-assert-the-assumptions-are-not-affect-assert-cast] error
+[2023-05-08 11:45:13] INFO root fetch - processPackages [nanomock]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 11:45:13] INFO root fetch - processPackages [hugchat]: Downloading https://files.pythonhosted.org/packages/00/e7/e95e76e624fcda1e77b1f516e2664021bf9150d534c6bb8cac2c10484485/hugchat-0.0.5.6.tar.gz
+[2023-05-08 11:45:13] INFO root fetch - processPackages [django-htmx-viewsets]: Downloading https://files.pythonhosted.org/packages/72/69/53ca8e351fd075636a38195ba1eb46e14b2b8f88764e0e583a6380c5939e/django-htmx-viewsets-0.0.9.tar.gz
+[2023-05-08 11:45:13] INFO root fetch - processPackages [nanomock]: executing diffoscope
+[2023-05-08 11:45:13] INFO root fetch - processPackages [nanomock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanomock-0.0.8.tar.gz tmp/nanomock-0.0.9.tar.gz --markdown 20230508/n/nanomock/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 11:45:13] INFO root fetch - processPackages [argus-api]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-05-08 11:45:13] INFO root fetch - processPackages [pyplanpro]: Downloading https://files.pythonhosted.org/packages/f3/b5/b43330a563fefaa7f4bd3a8e2af15477c345707c343f69a13f02495e96a7/pyplanpro-0.0.6.tar.gz
+[2023-05-08 11:45:14] INFO root fetch - processPackages [hugchat]: executing diffoscope
+[2023-05-08 11:45:14] INFO root fetch - processPackages [hugchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hugchat-0.0.5.5.tar.gz tmp/hugchat-0.0.5.6.tar.gz --markdown 20230508/h/hugchat/0.0.5.5-0.0.5.6/diff.md --exclude *.pyd
+[2023-05-08 11:45:14] INFO root fetch - processPackages [pyplanpro]: executing diffoscope
+[2023-05-08 11:45:14] INFO root fetch - processPackages [pyplanpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyplanpro-0.0.5.tar.gz tmp/pyplanpro-0.0.6.tar.gz --markdown 20230508/p/pyplanpro/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-08 11:45:14] INFO root fetch - processPackages [django-htmx-viewsets]: executing diffoscope
+[2023-05-08 11:45:14] INFO root fetch - processPackages [django-htmx-viewsets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-htmx-viewsets-0.0.8.tar.gz tmp/django-htmx-viewsets-0.0.9.tar.gz --markdown 20230508/d/django-htmx-viewsets/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 11:45:14] INFO root fetch - processPackages [restring]: Downloading https://files.pythonhosted.org/packages/26/71/1440ad73e2d65a1f4c715a12d9cc3a2269897b1576457ddcfb28998a2dc2/restring-0.1.3.tar.gz
+[2023-05-08 11:45:14] INFO root fetch - processPackages [xcsv-plot]: Downloading https://files.pythonhosted.org/packages/ec/97/f8426c9de48eb6ef59a82e7a4d4bf43da34e2fd1a2b44de173bdd2eda165/xcsv_plot-0.4.0.tar.gz
+[2023-05-08 11:45:14] INFO root fetch - processPackages [argus-api]: Downloading https://files.pythonhosted.org/packages/7c/a9/0de0fe925190dbfbc41478bcfc14f296a31afc53fc179db5e58b7c11ff0c/argus_api-3.8.0.tar.gz
+[2023-05-08 11:45:14] INFO root fetch - processPackages [xcsv-plot]: executing diffoscope
+[2023-05-08 11:45:14] INFO root fetch - processPackages [xcsv-plot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xcsv_plot-0.3.0.tar.gz tmp/xcsv_plot-0.4.0.tar.gz --markdown 20230508/x/xcsv-plot/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-08 11:45:14] INFO root fetch - processPackages [restring]: executing diffoscope
+[2023-05-08 11:45:14] INFO root fetch - processPackages [restring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/restring-0.1.20.tar.gz tmp/restring-0.1.3.tar.gz --markdown 20230508/r/restring/0.1.20-0.1.3/diff.md --exclude *.pyd
+[2023-05-08 11:45:14] INFO root fetch - processPackages [video-reuse-detector]: Downloading https://files.pythonhosted.org/packages/67/6f/911f9d89809fff780ac4bb364e0e4dbf4e6090d33bbf3145cd13e6103e22/video_reuse_detector-0.1.4.tar.gz
+[2023-05-08 11:45:14] INFO root fetch - processPackages [video-reuse-detector]: executing diffoscope
+[2023-05-08 11:45:14] INFO root fetch - processPackages [video-reuse-detector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/video_reuse_detector-0.1.3.tar.gz tmp/video_reuse_detector-0.1.4.tar.gz --markdown 20230508/v/video-reuse-detector/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-08 11:45:14] INFO root fetch - processPackages [argus-api]: Downloading https://files.pythonhosted.org/packages/48/2f/dc8867bfe5957610794f3fd60f0d1e3aa2212100eb22b8938d8f2c8a29cd/argus_api-3.9.0.tar.gz
+[2023-05-08 11:45:14] INFO root fetch - processPackages [argus-api]: executing diffoscope
+[2023-05-08 11:45:14] INFO root fetch - processPackages [argus-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argus_api-3.8.0.tar.gz tmp/argus_api-3.9.0.tar.gz --markdown 20230508/a/argus-api/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-05-08 11:45:15] INFO root fetch - processPackages [hugchat]: Start processing: segnn-jax
+[2023-05-08 11:45:15] INFO root fetch - main [MainThread]: End processing [hugchat]: success
+[2023-05-08 11:45:15] INFO root fetch - processPackages [segnn-jax]: New version: [0.6] Old Version: [0.5]
+[2023-05-08 11:45:15] INFO root fetch - processPackages [xcsv-plot]: Start processing: sry
+[2023-05-08 11:45:15] INFO root fetch - main [MainThread]: End processing [xcsv-plot]: success
+[2023-05-08 11:45:15] INFO root fetch - processPackages [sry]: New version: [0.0.2.1] Old Version: [0.0.2]
+[2023-05-08 11:45:15] INFO root fetch - processPackages [sry]: executing diffoscope
+[2023-05-08 11:45:15] INFO root fetch - processPackages [sry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sry-0.0.2.tar.gz tmp/sry-0.0.2.1-py3-none-any.whl.zip --markdown 20230508/s/sry/0.0.2-0.0.2.1/diff.md --exclude *.pyd
+[2023-05-08 11:45:15] INFO root fetch - processPackages [segnn-jax]: Downloading https://files.pythonhosted.org/packages/d2/8d/1266098121ef120fa1fa5d5ad463bdda63351f6349a8662d5c25907ee6d5/segnn_jax-0.5.tar.gz
+[2023-05-08 11:45:16] INFO root fetch - processPackages [django-htmx-viewsets]: Start processing: wiretap
+[2023-05-08 11:45:16] INFO root fetch - main [MainThread]: End processing [django-htmx-viewsets]: success
+[2023-05-08 11:45:16] INFO root fetch - processPackages [wiretap]: New version: [3.1.0] Old Version: [3.0.1]
+[2023-05-08 11:45:16] INFO root fetch - processPackages [docarray]: Start processing: pythonsdk
+[2023-05-08 11:45:16] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-05-08 11:45:16] INFO root fetch - processPackages [wiretap]: executing diffoscope
+[2023-05-08 11:45:16] INFO root fetch - processPackages [wiretap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiretap-3.0.1-py3-none-any.whl.zip tmp/wiretap-3.1.0-py3-none-any.whl.zip --markdown 20230508/w/wiretap/3.0.1-3.1.0/diff.md --exclude *.pyd
+[2023-05-08 11:45:16] INFO root fetch - processPackages [segnn-jax]: Downloading https://files.pythonhosted.org/packages/0c/92/21183192d1fcfe66cbfa5a744966dd459edef7b3d1abc4dbffdb810d4f93/segnn_jax-0.6.tar.gz
+[2023-05-08 11:45:16] INFO root fetch - main [MainThread]: End processing [pyplanpro]: success
+[2023-05-08 11:45:16] INFO root fetch - processPackages [pythonsdk]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-05-08 11:45:16] INFO root fetch - processPackages [segnn-jax]: executing diffoscope
+[2023-05-08 11:45:16] INFO root fetch - processPackages [segnn-jax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/segnn_jax-0.5.tar.gz tmp/segnn_jax-0.6.tar.gz --markdown 20230508/s/segnn-jax/0.5-0.6/diff.md --exclude *.pyd
+[2023-05-08 11:45:16] INFO root fetch - main [MainThread]: End processing [video-reuse-detector]: success
+[2023-05-08 11:45:16] INFO root fetch - processPackages [pythonsdk]: Downloading https://files.pythonhosted.org/packages/c2/d8/f3f96eec7ab4ef99665eefe203703e6a9a35e2a76533d321231cb9bde1f7/pythonsdk-0.5.0.tar.gz
+[2023-05-08 11:45:16] INFO root fetch - main [MainThread]: End processing [nanomock]: success
+[2023-05-08 11:45:16] INFO root fetch - processPackages [pythonsdk]: Downloading https://files.pythonhosted.org/packages/e9/82/8a31a448a31607222c1d080f7bd3993733f9bb8fb0e19d16a1d408fe2d8d/pythonsdk-0.6.0.tar.gz
+[2023-05-08 11:45:17] INFO root fetch - main [MainThread]: End processing [sry]: success
+[2023-05-08 11:45:17] INFO root fetch - processPackages [pythonsdk]: executing diffoscope
+[2023-05-08 11:45:17] INFO root fetch - processPackages [pythonsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythonsdk-0.5.0.tar.gz tmp/pythonsdk-0.6.0.tar.gz --markdown 20230508/p/pythonsdk/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-05-08 11:45:17] INFO root fetch - main [MainThread]: End processing [wiretap]: success
+[2023-05-08 11:45:18] INFO root fetch - main [MainThread]: End processing [segnn-jax]: success
+[2023-05-08 11:45:18] INFO root fetch - main [MainThread]: End processing [restring]: success
+[2023-05-08 11:45:19] INFO root fetch - main [MainThread]: End processing [pythonsdk]: success
+[2023-05-08 11:45:19] INFO root fetch - main [MainThread]: End processing [mlrun]: success
+[2023-05-08 11:45:30] INFO root fetch - main [MainThread]: End processing [argus-api]: success
+[2023-05-08 11:45:30] INFO root fetch - main [MainThread]: Store serial: [18015333]
