@@ -5036,3 +5036,39 @@
 [2023-05-08 06:13:27] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-trp]: success
 [2023-05-08 06:13:46] INFO root fetch - main [MainThread]: End processing [ajenti.plugin.cron]: success
 [2023-05-08 06:13:46] INFO root fetch - main [MainThread]: Store serial: [18012761]
+[2023-05-08 06:18:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18012761]
+[2023-05-08 06:18:55] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-08 06:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytip
+[2023-05-08 06:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: toml-sort
+[2023-05-08 06:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: m-abac-anhnt
+[2023-05-08 06:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ykenan-fragments
+[2023-05-08 06:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-trtc
+[2023-05-08 06:18:55] INFO root fetch - processPackages [pytip]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-05-08 06:18:55] INFO root fetch - processPackages [m-abac-anhnt]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-08 06:18:55] INFO root fetch - processPackages [ykenan-fragments]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-05-08 06:18:55] INFO root fetch - processPackages [toml-sort]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-08 06:18:55] INFO root fetch - processPackages [tencentcloud-sdk-python-trtc]: New version: [3.0.886] Old Version: [3.0.885]
+[2023-05-08 06:18:55] INFO root fetch - processPackages [pytip]: Downloading https://files.pythonhosted.org/packages/03/c5/afd59ffe426bbd1757ae0225cab02d87cc479242a96691dad6ba70c64462/pytip-0.1.1-py2.py3-none-any.whl
+[2023-05-08 06:18:55] INFO root fetch - processPackages [ykenan-fragments]: executing diffoscope
+[2023-05-08 06:18:55] INFO root fetch - processPackages [ykenan-fragments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ykenan_fragments-1.1.6.tar.gz tmp/ykenan_fragments-1.1.7.tar.gz --markdown 20230508/y/ykenan-fragments/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-05-08 06:18:55] INFO root fetch - processPackages [m-abac-anhnt]: Downloading https://files.pythonhosted.org/packages/20/82/ce22169b028d75271aac4cef911c24f3a57a641dc238ac9737d0733fb141/m-abac-anhnt-1.0.4.tar.gz
+[2023-05-08 06:18:55] INFO root fetch - processPackages [toml-sort]: Downloading https://files.pythonhosted.org/packages/76/37/c6d0b79da8fe138d4838f2cdb7c74b9fa5c9cb9db8f12dceb7074889ab18/toml-sort-0.8.0.tar.gz
+[2023-05-08 06:18:55] INFO root fetch - processPackages [tencentcloud-sdk-python-trtc]: Downloading https://files.pythonhosted.org/packages/d6/a4/0614c15334310aa898fb030fb98486f7e7a99ada199fb56e29546fdec1c9/tencentcloud-sdk-python-trtc-3.0.885.tar.gz
+[2023-05-08 06:18:55] INFO root fetch - processPackages [pytip]: Downloading https://files.pythonhosted.org/packages/47/c1/30bbe55ce69e6e8beb501b14580e76f67ec4bfb1bc9af4e4d3b62f2d95d5/pytip-0.1.3-py2.py3-none-any.whl
+[2023-05-08 06:18:55] INFO root fetch - processPackages [m-abac-anhnt]: Downloading https://files.pythonhosted.org/packages/f6/5c/0e04852c2af6514b94d799ca7b35269e5b98d61d095f5581fd4d93f408eb/m-abac-anhnt-1.0.5.tar.gz
+[2023-05-08 06:18:56] INFO root fetch - processPackages [pytip]: executing diffoscope
+[2023-05-08 06:18:56] INFO root fetch - processPackages [pytip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytip-0.1.1-py2.py3-none-any.whl.zip tmp/pytip-0.1.3-py2.py3-none-any.whl.zip --markdown 20230508/p/pytip/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-05-08 06:18:56] INFO root fetch - processPackages [m-abac-anhnt]: executing diffoscope
+[2023-05-08 06:18:56] INFO root fetch - processPackages [m-abac-anhnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m-abac-anhnt-1.0.4.tar.gz tmp/m-abac-anhnt-1.0.5.tar.gz --markdown 20230508/m/m-abac-anhnt/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-08 06:18:56] INFO root fetch - processPackages [toml-sort]: Downloading https://files.pythonhosted.org/packages/3f/08/3b2974ddf0d1d4dc3fc40aef2cc10248496e34cdc1efcaae99378e654b7f/toml-sort-0.9.0.tar.gz
+[2023-05-08 06:18:56] INFO root fetch - processPackages [tencentcloud-sdk-python-trtc]: Downloading https://files.pythonhosted.org/packages/d3/5c/ffa7088ef24442f5a5173e0938ffa6ad6f6d6995c27951f4a74ed3b079b2/tencentcloud-sdk-python-trtc-3.0.886.tar.gz
+[2023-05-08 06:18:56] INFO root fetch - processPackages [tencentcloud-sdk-python-trtc]: executing diffoscope
+[2023-05-08 06:18:56] INFO root fetch - processPackages [tencentcloud-sdk-python-trtc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-trtc-3.0.885.tar.gz tmp/tencentcloud-sdk-python-trtc-3.0.886.tar.gz --markdown 20230508/t/tencentcloud-sdk-python-trtc/3.0.885-3.0.886/diff.md --exclude *.pyd
+[2023-05-08 06:18:56] INFO root fetch - processPackages [toml-sort]: executing diffoscope
+[2023-05-08 06:18:56] INFO root fetch - processPackages [toml-sort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toml-sort-0.8.0.tar.gz tmp/toml-sort-0.9.0.tar.gz --markdown 20230508/t/toml-sort/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-08 06:18:56] INFO root fetch - main [MainThread]: End processing [ykenan-fragments]: success
+[2023-05-08 06:18:57] INFO root fetch - main [MainThread]: End processing [pytip]: success
+[2023-05-08 06:18:57] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-trtc]: success
+[2023-05-08 06:18:57] INFO root fetch - main [MainThread]: End processing [m-abac-anhnt]: success
+[2023-05-08 06:18:57] INFO root fetch - main [MainThread]: End processing [toml-sort]: success
+[2023-05-08 06:18:57] INFO root fetch - main [MainThread]: Store serial: [18012775]
