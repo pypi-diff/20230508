@@ -1057,3 +1057,115 @@
 [2023-05-08 02:13:44] INFO root fetch - processPackages [openbb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_nightly-3.0.0rc2.dev20230425.tar.gz tmp/openbb_nightly-3.0.0rc2.dev20230426.tar.gz --markdown 20230508/o/openbb-nightly/3.0.0rc2.dev20230425-3.0.0rc2.dev20230426/diff.md --exclude *.pyd
 [2023-05-08 02:13:58] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
 [2023-05-08 02:13:58] INFO root fetch - main [MainThread]: Store serial: [18010712]
+[2023-05-08 02:19:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18010712]
+[2023-05-08 02:19:07] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-08 02:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytorch-ignite
+[2023-05-08 02:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-skylight
+[2023-05-08 02:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: atlas-finance
+[2023-05-08 02:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: amdgpu-stats
+[2023-05-08 02:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xcpcio-board-spider
+[2023-05-08 02:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdktf-gitlab-runner
+[2023-05-08 02:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torchmultimodal-nightly
+[2023-05-08 02:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-amazon-chime-resources
+[2023-05-08 02:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdklabs.appsync-utils
+[2023-05-08 02:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jais-search
+[2023-05-08 02:19:07] INFO root fetch - processPackages [atlas-finance]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-05-08 02:19:07] INFO root fetch - processPackages [amdgpu-stats]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 02:19:07] INFO root fetch - processPackages [xcpcio-board-spider]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 02:19:07] INFO root fetch - processPackages [cdk-skylight]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-05-08 02:19:07] INFO root fetch - processPackages [cdktf-gitlab-runner]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-08 02:19:07] INFO root fetch - processPackages [cdklabs.appsync-utils]: New version: [0.0.9] Old Version: [0.0.82]
+[2023-05-08 02:19:07] INFO root fetch - processPackages [jais-search]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-08 02:19:07] INFO root fetch - processPackages [cdk-amazon-chime-resources]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-08 02:19:07] INFO root fetch - processPackages [torchmultimodal-nightly]: New version: [2023.5.7] Old Version: [2023.5.6]
+[2023-05-08 02:19:07] INFO root fetch - processPackages [pytorch-ignite]: New version: [0.5.0.dev20230508] Old Version: [0.5.0.dev20230507]
+[2023-05-08 02:19:07] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/8a/6e/f1c520e407ce3adf90b51d2d1ca84d283a08c808fc00c9deeff4f4734d82/cdktf-gitlab-runner-0.0.98.tar.gz
+[2023-05-08 02:19:07] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/86/f2/01b58f6183b48ce1105016a7f5045925a49464b8c20408459bd101fe5f25/cdk-skylight-1.1.98.tar.gz
+[2023-05-08 02:19:07] INFO root fetch - processPackages [cdk-amazon-chime-resources]: Downloading https://files.pythonhosted.org/packages/15/ac/bee4d7971c4b31f5809d546f8f4d120d37a258cdbfb28775825c6a72b324/cdk-amazon-chime-resources-2.3.8.tar.gz
+[2023-05-08 02:19:07] INFO root fetch - processPackages [xcpcio-board-spider]: executing diffoscope
+[2023-05-08 02:19:07] INFO root fetch - processPackages [xcpcio-board-spider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xcpcio_board_spider-0.0.8.tar.gz tmp/xcpcio_board_spider-0.0.9.tar.gz --markdown 20230508/x/xcpcio-board-spider/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 02:19:07] WARNING root fetch - processPackages [cdk-amazon-chime-resources]: Skipping package: exceeds size limit 14200774>=10485760
+[2023-05-08 02:19:07] INFO root fetch - processPackages [cdk-amazon-chime-resources]: Start processing: cdklabs.cdk-hyperledger-fabric-network
+[2023-05-08 02:19:07] INFO root fetch - main [MainThread]: End processing [cdk-amazon-chime-resources] error
+[2023-05-08 02:19:07] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: New version: [0.8.99] Old Version: [0.8.98]
+[2023-05-08 02:19:07] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/a5/75/99be014562d98fc8c46bc2fd069c0489b9cd6888617bc1d45fc3cc2229ee/cdklabs.appsync-utils-0.0.82.tar.gz
+[2023-05-08 02:19:07] INFO root fetch - processPackages [atlas-finance]: Downloading https://files.pythonhosted.org/packages/d8/8c/e740ac5dd34a8324cd2256966bec163990ef27ff2ea635717cebf3fdc96b/atlas-finance-2.0.3.macosx-13-arm64.tar.gz
+[2023-05-08 02:19:07] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/9b/c8/ddb4d2575b42b36bf1ebf5daccec9c3c53a9ac9cadaeffb66bed93dc3bab/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz
+[2023-05-08 02:19:07] INFO root fetch - processPackages [jais-search]: Downloading https://files.pythonhosted.org/packages/01/26/47fd7e9eb76a60ea2ca0da47cb1ef89573abbefff8b369d56ec7a2a1f387/jais_search-0.1.2.tar.gz
+[2023-05-08 02:19:07] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/59/49/3e035cb98d5f97f79c174e211129a2dbe596df70c5df50ac701242fabea2/cdk-skylight-1.1.99.tar.gz
+[2023-05-08 02:19:07] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/59/f2/0d7ab5ec05a2b43bd92c00fd237afddb1e2770c7edaf03b1f7ddef6c0793/cdktf-gitlab-runner-0.0.99.tar.gz
+[2023-05-08 02:19:07] INFO root fetch - processPackages [torchmultimodal-nightly]: Downloading https://files.pythonhosted.org/packages/e1/26/8852c8501a181253c4a99b262f52185c5bbeffdefe17838eff3f7e142990/torchmultimodal_nightly-2023.5.7-py39-none-any.whl
+[2023-05-08 02:19:07] INFO root fetch - processPackages [atlas-finance]: executing diffoscope
+[2023-05-08 02:19:07] INFO root fetch - processPackages [atlas-finance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atlas-finance-2.0.2.win-amd64.zip tmp/atlas-finance-2.0.3.macosx-13-arm64.tar.gz --markdown 20230508/a/atlas-finance/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-05-08 02:19:07] INFO root fetch - processPackages [jais-search]: executing diffoscope
+[2023-05-08 02:19:07] INFO root fetch - processPackages [jais-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jais_search-0.1.1.tar.gz tmp/jais_search-0.1.2.tar.gz --markdown 20230508/j/jais-search/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-08 02:19:07] INFO root fetch - processPackages [cdk-skylight]: executing diffoscope
+[2023-05-08 02:19:07] INFO root fetch - processPackages [cdk-skylight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-skylight-1.1.98.tar.gz tmp/cdk-skylight-1.1.99.tar.gz --markdown 20230508/c/cdk-skylight/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-05-08 02:19:07] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/9b/a9/cdd4784c01378d317e12749405ca702700d64a770ad49eabb7bfd8784223/cdklabs.appsync-utils-0.0.9.tar.gz
+[2023-05-08 02:19:07] INFO root fetch - processPackages [cdktf-gitlab-runner]: executing diffoscope
+[2023-05-08 02:19:07] INFO root fetch - processPackages [cdktf-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-gitlab-runner-0.0.98.tar.gz tmp/cdktf-gitlab-runner-0.0.99.tar.gz --markdown 20230508/c/cdktf-gitlab-runner/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-08 02:19:07] INFO root fetch - processPackages [amdgpu-stats]: executing diffoscope
+[2023-05-08 02:19:07] INFO root fetch - processPackages [amdgpu-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amdgpu_stats-0.1.8.tar.gz tmp/amdgpu_stats-0.1.9.tar.gz --markdown 20230508/a/amdgpu-stats/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 02:19:07] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/56/40/cbf52f4213018f2d82f0aad0f2fa90e69c2923704c1905bd7e090d3accf2/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz
+[2023-05-08 02:19:07] INFO root fetch - processPackages [torchmultimodal-nightly]: executing diffoscope
+[2023-05-08 02:19:07] INFO root fetch - processPackages [torchmultimodal-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchmultimodal_nightly-2023.5.6-py39-none-any.whl.zip tmp/torchmultimodal_nightly-2023.5.7-py39-none-any.whl.zip --markdown 20230508/t/torchmultimodal-nightly/2023.5.6-2023.5.7/diff.md --exclude *.pyd
+[2023-05-08 02:19:07] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/f1/a6/baf837e4bfddc4ace79f4e1d25e26c0f96a760fc3ec39556383826d75c65/pytorch-ignite-0.5.0.dev20230508.tar.gz
+[2023-05-08 02:19:07] INFO root fetch - processPackages [cdklabs.appsync-utils]: executing diffoscope
+[2023-05-08 02:19:07] INFO root fetch - processPackages [cdklabs.appsync-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.appsync-utils-0.0.82.tar.gz tmp/cdklabs.appsync-utils-0.0.9.tar.gz --markdown 20230508/c/cdklabs.appsync-utils/0.0.82-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 02:19:07] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: executing diffoscope
+[2023-05-08 02:19:07] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz --markdown 20230508/c/cdklabs.cdk-hyperledger-fabric-network/0.8.98-0.8.99/diff.md --exclude *.pyd
+[2023-05-08 02:19:07] INFO root fetch - processPackages [pytorch-ignite]: executing diffoscope
+[2023-05-08 02:19:07] INFO root fetch - processPackages [pytorch-ignite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-ignite-0.5.0.dev20230507.tar.gz tmp/pytorch-ignite-0.5.0.dev20230508.tar.gz --markdown 20230508/p/pytorch-ignite/0.5.0.dev20230507-0.5.0.dev20230508/diff.md --exclude *.pyd
+[2023-05-08 02:19:08] INFO root fetch - processPackages [xcpcio-board-spider]: Start processing: ipfskvs
+[2023-05-08 02:19:08] INFO root fetch - main [MainThread]: End processing [xcpcio-board-spider]: success
+[2023-05-08 02:19:08] INFO root fetch - processPackages [ipfskvs]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-08 02:19:09] INFO root fetch - processPackages [jais-search]: Start processing: threadsafevariable
+[2023-05-08 02:19:09] INFO root fetch - main [MainThread]: End processing [jais-search]: success
+[2023-05-08 02:19:09] INFO root fetch - processPackages [ipfskvs]: Downloading https://files.pythonhosted.org/packages/3a/49/a2e4274103e16a5ca8e469616477832ec602aff7d8e2954c24d26613d40e/ipfskvs-0.1.4.tar.gz
+[2023-05-08 02:19:09] INFO root fetch - processPackages [threadsafevariable]: New version: [20230507.1] Old Version: [1.2]
+[2023-05-08 02:19:09] INFO root fetch - processPackages [ipfskvs]: executing diffoscope
+[2023-05-08 02:19:09] INFO root fetch - processPackages [ipfskvs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipfskvs-0.1.3.tar.gz tmp/ipfskvs-0.1.4.tar.gz --markdown 20230508/i/ipfskvs/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-08 02:19:09] INFO root fetch - processPackages [cdk-skylight]: Start processing: rover-arm
+[2023-05-08 02:19:09] INFO root fetch - main [MainThread]: End processing [cdk-skylight]: success
+[2023-05-08 02:19:09] INFO root fetch - processPackages [rover-arm]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-05-08 02:19:09] INFO root fetch - processPackages [threadsafevariable]: Downloading https://files.pythonhosted.org/packages/05/b5/d33fdeafb08f3ee0948c65813b8e373e094c012fc89c597f50c978f41b55/threadsafevariable-1.2.tar.gz
+[2023-05-08 02:19:09] INFO root fetch - processPackages [amdgpu-stats]: Start processing: onnx-weekly
+[2023-05-08 02:19:09] INFO root fetch - main [MainThread]: End processing [amdgpu-stats]: success
+[2023-05-08 02:19:09] INFO root fetch - processPackages [onnx-weekly]: New version: [1.15.0.dev20230508] Old Version: [1.15.0.dev20230501]
+[2023-05-08 02:19:09] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Start processing: complex-curve-fit-gui
+[2023-05-08 02:19:09] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-hyperledger-fabric-network]: success
+[2023-05-08 02:19:09] INFO root fetch - processPackages [rover-arm]: Downloading https://files.pythonhosted.org/packages/6e/85/78850a7a5cd04eead0553a29374eae2dbcf17760beb8241fc5a7f7cc7cf0/rover_arm-1.1.5.tar.gz
+[2023-05-08 02:19:09] INFO root fetch - processPackages [complex-curve-fit-gui]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-05-08 02:19:09] INFO root fetch - processPackages [cdklabs.appsync-utils]: Start processing: llamatry
+[2023-05-08 02:19:09] INFO root fetch - main [MainThread]: End processing [cdklabs.appsync-utils]: success
+[2023-05-08 02:19:09] INFO root fetch - processPackages [threadsafevariable]: Downloading https://files.pythonhosted.org/packages/5b/4d/b85162a28c4c6e3e0e4e4b5071b8110be3c4ef330a151e18622a9b13004a/threadsafevariable-20230507.1.tar.gz
+[2023-05-08 02:19:09] INFO root fetch - processPackages [atlas-finance]: Start processing: gopro-video-sync
+[2023-05-08 02:19:09] INFO root fetch - main [MainThread]: End processing [atlas-finance]: success
+[2023-05-08 02:19:09] INFO root fetch - main [MainThread]: End processing [cdktf-gitlab-runner]: success
+[2023-05-08 02:19:09] WARNING root fetch - processPackages [llamatry]: Skipping, unable to determine old version
+[2023-05-08 02:19:09] INFO root fetch - main [MainThread]: End processing [llamatry] error
+[2023-05-08 02:19:09] INFO root fetch - processPackages [onnx-weekly]: Downloading https://files.pythonhosted.org/packages/e8/cc/b8f996bf70f003c4a5283c1ef008696bcf704fce13e72d46673230abab28/onnx-weekly-1.15.0.dev20230501.tar.gz
+[2023-05-08 02:19:09] INFO root fetch - processPackages [threadsafevariable]: executing diffoscope
+[2023-05-08 02:19:09] INFO root fetch - processPackages [threadsafevariable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threadsafevariable-1.2.tar.gz tmp/threadsafevariable-20230507.1.tar.gz --markdown 20230508/t/threadsafevariable/1.2-20230507.1/diff.md --exclude *.pyd
+[2023-05-08 02:19:09] INFO root fetch - processPackages [gopro-video-sync]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-08 02:19:09] INFO root fetch - processPackages [complex-curve-fit-gui]: Downloading https://files.pythonhosted.org/packages/3e/80/7eb8d73038ff44c4df168f092e3dd9fe9ebebdbe6635f07f2a1d2c874af6/complex_curve_fit_gui-1.1.6.tar.gz
+[2023-05-08 02:19:09] INFO root fetch - main [MainThread]: End processing [torchmultimodal-nightly]: success
+[2023-05-08 02:19:09] INFO root fetch - processPackages [rover-arm]: Downloading https://files.pythonhosted.org/packages/df/26/625641b5f7988449318299a8d9d46654fbb9b88d73436812499bd451f069/rover_arm-1.1.6.tar.gz
+[2023-05-08 02:19:09] INFO root fetch - processPackages [gopro-video-sync]: Downloading https://files.pythonhosted.org/packages/f8/c1/7f995d4aad0e02580d4c6c90b3239e08fd26f124066d7c6ff02c53cee793/gopro-video-sync-0.0.2.tar.gz
+[2023-05-08 02:19:09] WARNING root fetch - processPackages [onnx-weekly]: Skipping package: exceeds size limit 11358320>=10485760
+[2023-05-08 02:19:09] INFO root fetch - main [MainThread]: End processing [onnx-weekly] error
+[2023-05-08 02:19:09] INFO root fetch - processPackages [complex-curve-fit-gui]: Downloading https://files.pythonhosted.org/packages/5c/5a/58d337c66ffb2076345b185d3c8b39e8b19cc3c87e0b4b798de78f565e5e/complex_curve_fit_gui-1.1.7.tar.gz
+[2023-05-08 02:19:09] INFO root fetch - main [MainThread]: End processing [pytorch-ignite]: success
+[2023-05-08 02:19:09] INFO root fetch - processPackages [complex-curve-fit-gui]: executing diffoscope
+[2023-05-08 02:19:09] INFO root fetch - processPackages [complex-curve-fit-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/complex_curve_fit_gui-1.1.6.tar.gz tmp/complex_curve_fit_gui-1.1.7.tar.gz --markdown 20230508/c/complex-curve-fit-gui/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-05-08 02:19:10] INFO root fetch - processPackages [gopro-video-sync]: Downloading https://files.pythonhosted.org/packages/c2/55/2aee105865ea75175d1fb50d525b38a9b977934c22d4a4e7e4dc4cd4ac6e/gopro-video-sync-0.0.3.tar.gz
+[2023-05-08 02:19:10] INFO root fetch - processPackages [rover-arm]: executing diffoscope
+[2023-05-08 02:19:10] INFO root fetch - processPackages [rover-arm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rover_arm-1.1.5.tar.gz tmp/rover_arm-1.1.6.tar.gz --markdown 20230508/r/rover-arm/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-05-08 02:19:10] INFO root fetch - processPackages [gopro-video-sync]: executing diffoscope
+[2023-05-08 02:19:10] INFO root fetch - processPackages [gopro-video-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gopro-video-sync-0.0.2.tar.gz tmp/gopro-video-sync-0.0.3.tar.gz --markdown 20230508/g/gopro-video-sync/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-08 02:19:10] INFO root fetch - main [MainThread]: End processing [ipfskvs]: success
+[2023-05-08 02:19:10] INFO root fetch - main [MainThread]: End processing [threadsafevariable]: success
+[2023-05-08 02:19:10] INFO root fetch - main [MainThread]: End processing [complex-curve-fit-gui]: success
+[2023-05-08 02:19:11] INFO root fetch - main [MainThread]: End processing [gopro-video-sync]: success
+[2023-05-08 02:19:12] INFO root fetch - main [MainThread]: End processing [rover-arm]: success
+[2023-05-08 02:19:12] INFO root fetch - main [MainThread]: Store serial: [18010769]
