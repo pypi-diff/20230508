@@ -18016,3 +18016,74 @@ EOFError: EOF read where object expected
 [2023-05-08 19:24:40] INFO root fetch - main [MainThread]: End processing [tight-loops]: success
 [2023-05-08 19:24:40] INFO root fetch - main [MainThread]: End processing [meter-gear]: success
 [2023-05-08 19:24:40] INFO root fetch - main [MainThread]: Store serial: [18020017]
+[2023-05-08 19:29:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18020017]
+[2023-05-08 19:29:49] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-08 19:29:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oldschool-management-tools
+[2023-05-08 19:29:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aikoai
+[2023-05-08 19:29:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: varbox
+[2023-05-08 19:29:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crazy-thursday
+[2023-05-08 19:29:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: klym-telemetry
+[2023-05-08 19:29:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gradio
+[2023-05-08 19:29:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hotkeynet
+[2023-05-08 19:29:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: robotframework-browser
+[2023-05-08 19:29:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mkdocs-exporter
+[2023-05-08 19:29:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ntdsdotsqlite
+[2023-05-08 19:29:49] INFO root fetch - processPackages [klym-telemetry]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-08 19:29:49] WARNING root fetch - processPackages [mkdocs-exporter]: Skipping, unable to determine old version
+[2023-05-08 19:29:49] INFO root fetch - processPackages [mkdocs-exporter]: Start processing: circuitbrew
+[2023-05-08 19:29:49] WARNING root fetch - processPackages [aikoai]: Skipping, unable to determine old version
+[2023-05-08 19:29:49] INFO root fetch - main [MainThread]: End processing [mkdocs-exporter] error
+[2023-05-08 19:29:49] INFO root fetch - processPackages [aikoai]: Start processing: unpast
+[2023-05-08 19:29:49] INFO root fetch - main [MainThread]: End processing [aikoai] error
+[2023-05-08 19:29:49] WARNING root fetch - processPackages [ntdsdotsqlite]: Skipping, unable to determine old version
+[2023-05-08 19:29:49] INFO root fetch - processPackages [varbox]: New version: [2.2] Old Version: [2.1]
+[2023-05-08 19:29:49] INFO root fetch - processPackages [ntdsdotsqlite]: Start processing: edx-event-bus-kafka
+[2023-05-08 19:29:49] INFO root fetch - main [MainThread]: End processing [ntdsdotsqlite] error
+[2023-05-08 19:29:49] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.5.8.1] Old Version: [2023.5.8.0]
+[2023-05-08 19:29:49] INFO root fetch - processPackages [oldschool-management-tools]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-08 19:29:49] INFO root fetch - processPackages [robotframework-browser]: New version: [9.0.2] Old Version: [9.0.1]
+[2023-05-08 19:29:49] WARNING root fetch - processPackages [hotkeynet]: Skipping, unable to determine old version
+[2023-05-08 19:29:49] INFO root fetch - processPackages [hotkeynet]: Start processing: leuci-map
+[2023-05-08 19:29:49] INFO root fetch - main [MainThread]: End processing [hotkeynet] error
+[2023-05-08 19:29:49] WARNING root fetch - processPackages [circuitbrew]: Skipping, unable to determine old version
+[2023-05-08 19:29:49] INFO root fetch - main [MainThread]: End processing [circuitbrew] error
+[2023-05-08 19:29:49] WARNING root fetch - processPackages [unpast]: Skipping, unable to determine old version
+[2023-05-08 19:29:49] INFO root fetch - main [MainThread]: End processing [unpast] error
+[2023-05-08 19:29:49] INFO root fetch - processPackages [edx-event-bus-kafka]: New version: [3.9.6] Old Version: [3.9.5]
+[2023-05-08 19:29:49] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-05-08 19:29:49] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.5.8.0.tar.gz tmp/crazy-thursday-2023.5.8.1.tar.gz --markdown 20230508/c/crazy-thursday/2023.5.8.0-2023.5.8.1/diff.md --exclude *.pyd
+[2023-05-08 19:29:49] INFO root fetch - processPackages [varbox]: Downloading https://files.pythonhosted.org/packages/a0/f9/451066213f9649cf1d8223661964389bdd5ad74ea343d07a28fcd070b2a8/varbox-2.2.tar.gz
+[2023-05-08 19:29:50] INFO root fetch - processPackages [gradio]: New version: [3.9.1] Old Version: [3.9]
+[2023-05-08 19:29:50] INFO root fetch - processPackages [klym-telemetry]: Downloading https://files.pythonhosted.org/packages/6e/e0/5fdef556f805902ac755b38144d37496fb2fccf6d58c0bf6058b13bf5b92/klym-telemetry-0.1.7.tar.gz
+[2023-05-08 19:29:50] INFO root fetch - processPackages [oldschool-management-tools]: Downloading https://files.pythonhosted.org/packages/53/da/691a02cb044bc0805242a133f539e09e86f7ae2f9b3741dbc0f8b1cba850/oldschool_management_tools-0.1.5.tar.gz
+[2023-05-08 19:29:50] INFO root fetch - processPackages [leuci-map]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 19:29:50] INFO root fetch - processPackages [robotframework-browser]: Downloading https://files.pythonhosted.org/packages/c7/d2/62113ec1f0fc7df63c2554cd7da97407ec2cc6f1be18645f8f132e811c67/robotframework-browser-9.0.1.tar.gz
+[2023-05-08 19:29:50] INFO root fetch - processPackages [edx-event-bus-kafka]: Downloading https://files.pythonhosted.org/packages/a1/02/5aef553dc68d2dfaf2ab03cf3b34b741c350e815e00447d234f0a034facc/edx_event_bus_kafka-3.9.5.tar.gz
+[2023-05-08 19:29:50] INFO root fetch - processPackages [varbox]: executing diffoscope
+[2023-05-08 19:29:50] INFO root fetch - processPackages [varbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/varbox-2.1.tar.gz tmp/varbox-2.2.tar.gz --markdown 20230508/v/varbox/2.1-2.2/diff.md --exclude *.pyd
+[2023-05-08 19:29:50] INFO root fetch - processPackages [klym-telemetry]: executing diffoscope
+[2023-05-08 19:29:50] INFO root fetch - processPackages [klym-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klym-telemetry-0.1.6.tar.gz tmp/klym-telemetry-0.1.7.tar.gz --markdown 20230508/k/klym-telemetry/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-08 19:29:50] INFO root fetch - processPackages [gradio]: Downloading https://files.pythonhosted.org/packages/b2/2d/f8dc88b392cdaac54b5bf6b56af321211f705494f4a0b2a1589717c06ff5/gradio-3.9.tar.gz
+[2023-05-08 19:29:50] INFO root fetch - processPackages [leuci-map]: Downloading https://files.pythonhosted.org/packages/d7/f9/d814c86bcb6551942e72559977ffd7788e9a2d159c055fc5698defcc15da/leuci-map-0.1.8.tar.gz
+[2023-05-08 19:29:50] WARNING root fetch - processPackages [gradio]: Skipping package: exceeds size limit 12444246>=10485760
+[2023-05-08 19:29:50] INFO root fetch - main [MainThread]: End processing [gradio] error
+[2023-05-08 19:29:50] INFO root fetch - processPackages [oldschool-management-tools]: Downloading https://files.pythonhosted.org/packages/0d/26/b36a9ed7fd4893c1107d00614bc2f3c311a90a2d93296edf2bd148b05d6b/oldschool_management_tools-0.1.6.tar.gz
+[2023-05-08 19:29:50] INFO root fetch - processPackages [robotframework-browser]: Downloading https://files.pythonhosted.org/packages/be/8d/390a87957941e7175ae2631504ea65babd8e9f6420115642184816aa59c5/robotframework-browser-9.0.2.tar.gz
+[2023-05-08 19:29:50] INFO root fetch - processPackages [robotframework-browser]: executing diffoscope
+[2023-05-08 19:29:50] INFO root fetch - processPackages [robotframework-browser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-browser-9.0.1.tar.gz tmp/robotframework-browser-9.0.2.tar.gz --markdown 20230508/r/robotframework-browser/9.0.1-9.0.2/diff.md --exclude *.pyd
+[2023-05-08 19:29:50] INFO root fetch - processPackages [oldschool-management-tools]: executing diffoscope
+[2023-05-08 19:29:50] INFO root fetch - processPackages [oldschool-management-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oldschool_management_tools-0.1.5.tar.gz tmp/oldschool_management_tools-0.1.6.tar.gz --markdown 20230508/o/oldschool-management-tools/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-08 19:29:50] INFO root fetch - processPackages [edx-event-bus-kafka]: Downloading https://files.pythonhosted.org/packages/b5/e4/3bb0a23517f1d6f51446556552b7ef78bb0c187bee23664f076578c2727a/edx_event_bus_kafka-3.9.6.tar.gz
+[2023-05-08 19:29:50] INFO root fetch - processPackages [leuci-map]: Downloading https://files.pythonhosted.org/packages/ef/bd/8215fa42b8399ed3a3bbe6d8cb906b7c7f4767bbb786d85e8172c4dbf877/leuci-map-0.1.9.tar.gz
+[2023-05-08 19:29:50] INFO root fetch - processPackages [leuci-map]: executing diffoscope
+[2023-05-08 19:29:50] INFO root fetch - processPackages [leuci-map]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leuci-map-0.1.8.tar.gz tmp/leuci-map-0.1.9.tar.gz --markdown 20230508/l/leuci-map/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 19:29:50] INFO root fetch - processPackages [edx-event-bus-kafka]: executing diffoscope
+[2023-05-08 19:29:50] INFO root fetch - processPackages [edx-event-bus-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx_event_bus_kafka-3.9.5.tar.gz tmp/edx_event_bus_kafka-3.9.6.tar.gz --markdown 20230508/e/edx-event-bus-kafka/3.9.5-3.9.6/diff.md --exclude *.pyd
+[2023-05-08 19:29:51] INFO root fetch - main [MainThread]: End processing [varbox]: success
+[2023-05-08 19:29:51] INFO root fetch - main [MainThread]: End processing [klym-telemetry]: success
+[2023-05-08 19:29:51] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-05-08 19:29:51] INFO root fetch - main [MainThread]: End processing [oldschool-management-tools]: success
+[2023-05-08 19:29:51] INFO root fetch - main [MainThread]: End processing [leuci-map]: success
+[2023-05-08 19:29:51] INFO root fetch - main [MainThread]: End processing [robotframework-browser]: success
+[2023-05-08 19:29:52] INFO root fetch - main [MainThread]: End processing [edx-event-bus-kafka]: success
+[2023-05-08 19:29:52] INFO root fetch - main [MainThread]: Store serial: [18020064]
