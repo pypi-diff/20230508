@@ -13458,3 +13458,66 @@ EOFError: EOF read where object expected
 [2023-05-08 15:43:45] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
 [2023-05-08 15:43:47] INFO root fetch - main [MainThread]: End processing [cloudnetpy-qc]: success
 [2023-05-08 15:43:47] INFO root fetch - main [MainThread]: Store serial: [18017338]
+[2023-05-08 15:48:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18017338]
+[2023-05-08 15:48:57] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-08 15:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: joern-lib
+[2023-05-08 15:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inmanta-module-rest
+[2023-05-08 15:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tbtool2
+[2023-05-08 15:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dxsp
+[2023-05-08 15:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdktf
+[2023-05-08 15:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hordelib
+[2023-05-08 15:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: umjunsik
+[2023-05-08 15:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: getsmarter-api-clients
+[2023-05-08 15:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: py-auth-micro
+[2023-05-08 15:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PyStorCLI2
+[2023-05-08 15:48:57] INFO root fetch - processPackages [py-auth-micro]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-08 15:48:57] INFO root fetch - processPackages [umjunsik]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-05-08 15:48:57] INFO root fetch - processPackages [inmanta-module-rest]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-08 15:48:57] INFO root fetch - processPackages [getsmarter-api-clients]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-08 15:48:57] WARNING root fetch - processPackages [tbtool2]: Skipping, unable to determine old version
+[2023-05-08 15:48:57] INFO root fetch - main [MainThread]: End processing [tbtool2] error
+[2023-05-08 15:48:57] INFO root fetch - processPackages [PyStorCLI2]: New version: [0.6.4.dev26] Old Version: [0.6.3.dev1]
+[2023-05-08 15:48:57] INFO root fetch - processPackages [hordelib]: New version: [0.9.5] Old Version: [0.9.2]
+[2023-05-08 15:48:57] INFO root fetch - processPackages [dxsp]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-08 15:48:57] INFO root fetch - processPackages [joern-lib]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-05-08 15:48:57] INFO root fetch - processPackages [cdktf]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-08 15:48:57] INFO root fetch - processPackages [PyStorCLI2]: executing diffoscope
+[2023-05-08 15:48:57] INFO root fetch - processPackages [PyStorCLI2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyStorCLI2-0.6.3.dev1.tar.gz tmp/PyStorCLI2-0.6.4.dev26.tar.gz --markdown 20230508/P/PyStorCLI2/0.6.3.dev1-0.6.4.dev26/diff.md --exclude *.pyd
+[2023-05-08 15:48:57] INFO root fetch - processPackages [umjunsik]: Downloading https://files.pythonhosted.org/packages/4f/b0/2c761e82d85b6fe6a229fb493a1ef557360b3d757b91feae4aab73d4fcb8/umjunsik-2.0.1.tar.gz
+[2023-05-08 15:48:57] INFO root fetch - processPackages [hordelib]: executing diffoscope
+[2023-05-08 15:48:57] INFO root fetch - processPackages [hordelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hordelib-0.9.2.tar.gz tmp/hordelib-0.9.5.tar.gz --markdown 20230508/h/hordelib/0.9.2-0.9.5/diff.md --exclude *.pyd
+[2023-05-08 15:48:57] INFO root fetch - processPackages [getsmarter-api-clients]: Downloading https://files.pythonhosted.org/packages/2f/7a/97396cf37c70037d995a63e2ec63b05baccac59e49492c8c17f038c10f72/getsmarter-api-clients-0.5.1.tar.gz
+[2023-05-08 15:48:57] INFO root fetch - processPackages [py-auth-micro]: Downloading https://files.pythonhosted.org/packages/c5/64/57d415441552515db0d9fa6db56f46b5e9a1b2fe6f24c62230a3b85d4697/py_auth_micro-0.1.1.tar.gz
+[2023-05-08 15:48:57] INFO root fetch - processPackages [joern-lib]: Downloading https://files.pythonhosted.org/packages/b8/6d/949d48236fbf7ae5d82795d754f869e505dfcefe0085e98a19a24c7eb817/joern_lib-0.8.0.tar.gz
+[2023-05-08 15:48:57] INFO root fetch - processPackages [inmanta-module-rest]: Downloading https://files.pythonhosted.org/packages/ce/2d/0cb9405696097c0085f9547c0f47f265a1072cfab828202166625d00c6cb/inmanta_module_rest-0.2.8-py3-none-any.whl
+[2023-05-08 15:48:57] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/a6/52/02504273a0905268f5acc079a5790a52900be2e2f0755b86e115eb4322dc/dxsp-2.0.9.tar.gz
+[2023-05-08 15:48:57] INFO root fetch - processPackages [cdktf]: Downloading https://files.pythonhosted.org/packages/87/b3/c146d54086d890741cc9d05c63504e1386b268ef8cbc52d9aa78c1080aa3/cdktf-0.9.3.tar.gz
+[2023-05-08 15:48:57] INFO root fetch - processPackages [py-auth-micro]: executing diffoscope
+[2023-05-08 15:48:57] INFO root fetch - processPackages [py-auth-micro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_auth_micro-0.1.0.tar.gz tmp/py_auth_micro-0.1.1.tar.gz --markdown 20230508/p/py-auth-micro/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-08 15:48:57] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-05-08 15:48:57] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-2.0.8.tar.gz tmp/dxsp-2.0.9.tar.gz --markdown 20230508/d/dxsp/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-08 15:48:58] INFO root fetch - processPackages [umjunsik]: Downloading https://files.pythonhosted.org/packages/f2/3c/7e25da46d7c096996f7030ad97e6bfefb5c41c732551eeb2940c0f604b3a/umjunsik-2.0.2.tar.gz
+[2023-05-08 15:48:58] INFO root fetch - processPackages [getsmarter-api-clients]: Downloading https://files.pythonhosted.org/packages/68/bf/fcf6c16b86ee264188e69722a8f6ef6523099bf0be73201098b5503337e3/getsmarter-api-clients-0.5.2.tar.gz
+[2023-05-08 15:48:58] INFO root fetch - processPackages [joern-lib]: Downloading https://files.pythonhosted.org/packages/21/90/1f06e3f88333c1f0d69465bd426137c7b968f714c1886564dde52e23fd4c/joern_lib-0.8.1.tar.gz
+[2023-05-08 15:48:58] INFO root fetch - processPackages [umjunsik]: executing diffoscope
+[2023-05-08 15:48:58] INFO root fetch - processPackages [umjunsik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/umjunsik-2.0.1.tar.gz tmp/umjunsik-2.0.2.tar.gz --markdown 20230508/u/umjunsik/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-05-08 15:48:58] INFO root fetch - processPackages [getsmarter-api-clients]: executing diffoscope
+[2023-05-08 15:48:58] INFO root fetch - processPackages [getsmarter-api-clients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getsmarter-api-clients-0.5.1.tar.gz tmp/getsmarter-api-clients-0.5.2.tar.gz --markdown 20230508/g/getsmarter-api-clients/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-08 15:48:58] INFO root fetch - processPackages [joern-lib]: executing diffoscope
+[2023-05-08 15:48:58] INFO root fetch - processPackages [joern-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/joern_lib-0.8.0.tar.gz tmp/joern_lib-0.8.1.tar.gz --markdown 20230508/j/joern-lib/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-05-08 15:48:58] INFO root fetch - processPackages [inmanta-module-rest]: Downloading https://files.pythonhosted.org/packages/41/3a/8329ea3d13fedaec16798087c208b2679e0ee8917e069b8546d4f0801d1a/inmanta_module_rest-0.2.9-py3-none-any.whl
+[2023-05-08 15:48:58] INFO root fetch - processPackages [cdktf]: Downloading https://files.pythonhosted.org/packages/80/8d/cbc9ef418f046a8c17f614889aba72b6e668540a2966498bef6f1dbb3a10/cdktf-0.9.4.tar.gz
+[2023-05-08 15:48:58] INFO root fetch - processPackages [cdktf]: executing diffoscope
+[2023-05-08 15:48:58] INFO root fetch - processPackages [cdktf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-0.9.3.tar.gz tmp/cdktf-0.9.4.tar.gz --markdown 20230508/c/cdktf/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-08 15:48:58] INFO root fetch - processPackages [inmanta-module-rest]: executing diffoscope
+[2023-05-08 15:48:58] INFO root fetch - processPackages [inmanta-module-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inmanta_module_rest-0.2.8-py3-none-any.whl.zip tmp/inmanta_module_rest-0.2.9-py3-none-any.whl.zip --markdown 20230508/i/inmanta-module-rest/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-08 15:48:59] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-05-08 15:48:59] INFO root fetch - main [MainThread]: End processing [joern-lib]: success
+[2023-05-08 15:48:59] INFO root fetch - main [MainThread]: End processing [py-auth-micro]: success
+[2023-05-08 15:48:59] INFO root fetch - main [MainThread]: End processing [umjunsik]: success
+[2023-05-08 15:48:59] INFO root fetch - main [MainThread]: End processing [getsmarter-api-clients]: success
+[2023-05-08 15:48:59] INFO root fetch - main [MainThread]: End processing [inmanta-module-rest]: success
+[2023-05-08 15:49:01] INFO root fetch - main [MainThread]: End processing [cdktf]: success
+[2023-05-08 15:49:04] INFO root fetch - main [MainThread]: End processing [PyStorCLI2]: success
+[2023-05-08 15:49:09] INFO root fetch - main [MainThread]: End processing [hordelib]: success
+[2023-05-08 15:49:09] INFO root fetch - main [MainThread]: Store serial: [18017374]
