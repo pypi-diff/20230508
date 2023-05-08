@@ -21702,3 +21702,95 @@ EOFError: EOF read where object expected
 [2023-05-08 22:28:34] INFO root fetch - main [MainThread]: End processing [dclab]: success
 [2023-05-08 22:28:44] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
 [2023-05-08 22:28:44] INFO root fetch - main [MainThread]: Store serial: [18022218]
+[2023-05-08 22:33:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18022218]
+[2023-05-08 22:33:54] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-08 22:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snake-eyes-parser
+[2023-05-08 22:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rattail-corepos
+[2023-05-08 22:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coiled
+[2023-05-08 22:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tailbone-corepos
+[2023-05-08 22:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: budgetcli
+[2023-05-08 22:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: keypact
+[2023-05-08 22:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-eric-kotlin1.8
+[2023-05-08 22:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: daniel-cavazos-sdk
+[2023-05-08 22:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: panel
+[2023-05-08 22:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spotON_sdk
+[2023-05-08 22:33:54] INFO root fetch - processPackages [tailbone-corepos]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 22:33:54] WARNING root fetch - processPackages [snake-eyes-parser]: Skipping, unable to determine old version
+[2023-05-08 22:33:54] INFO root fetch - processPackages [snake-eyes-parser]: Start processing: certora-cli-alpha-jtoman-gmx-init
+[2023-05-08 22:33:54] INFO root fetch - processPackages [keypact]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-08 22:33:54] INFO root fetch - main [MainThread]: End processing [snake-eyes-parser] error
+[2023-05-08 22:33:54] INFO root fetch - processPackages [spotON_sdk]: New version: [0.0.2.2] Old Version: [0.0.2.1]
+[2023-05-08 22:33:54] INFO root fetch - processPackages [rattail-corepos]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 22:33:54] INFO root fetch - processPackages [budgetcli]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-05-08 22:33:54] WARNING root fetch - processPackages [daniel-cavazos-sdk]: Skipping, unable to determine old version
+[2023-05-08 22:33:54] INFO root fetch - processPackages [certora-cli-alpha-eric-kotlin1.8]: New version: [20230508.20.7.741514] Old Version: [20230508.20.31.837858]
+[2023-05-08 22:33:54] INFO root fetch - processPackages [daniel-cavazos-sdk]: Start processing: certora-cli-alpha-uri-generate-link-json
+[2023-05-08 22:33:54] INFO root fetch - main [MainThread]: End processing [daniel-cavazos-sdk] error
+[2023-05-08 22:33:54] INFO root fetch - processPackages [panel]: New version: [1.0.0rc6] Old Version: [1.0.0rc5]
+[2023-05-08 22:33:54] INFO root fetch - processPackages [coiled]: New version: [0.6.3.dev9] Old Version: [0.6.3.dev8]
+[2023-05-08 22:33:54] INFO root fetch - processPackages [certora-cli-alpha-jtoman-gmx-init]: New version: [20230508.20.32.152965] Old Version: [20230508.17.11.702876]
+[2023-05-08 22:33:54] INFO root fetch - processPackages [certora-cli-alpha-uri-generate-link-json]: New version: [20230508.17.9.160015] Old Version: [20230508.14.24.748618]
+[2023-05-08 22:33:54] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-08 22:33:54] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.3.dev8.tar.gz tmp/coiled-0.6.3.dev9.tar.gz --markdown 20230508/c/coiled/0.6.3.dev8-0.6.3.dev9/diff.md --exclude *.pyd
+[2023-05-08 22:33:54] INFO root fetch - processPackages [certora-cli-alpha-eric-kotlin1.8]: Downloading https://files.pythonhosted.org/packages/ca/8f/10ddd0d96ed512ae77eea42b87143783e30d02dbeee28ef838e22973fac3/certora-cli-alpha-eric-kotlin1.8-20230508.20.31.837858.tar.gz
+[2023-05-08 22:33:54] INFO root fetch - processPackages [spotON_sdk]: Downloading https://files.pythonhosted.org/packages/96/06/4232f95410ae4439253507a1bcb4369d2b75dc161bbd341a818790c6a109/spotON_sdk-0.0.2.2.tar.gz
+[2023-05-08 22:33:54] INFO root fetch - processPackages [tailbone-corepos]: Downloading https://files.pythonhosted.org/packages/ca/82/e37f1b36ceb241180e4f1a55e84e8ea76bc50d565301a41b7af88304450e/tailbone-corepos-0.1.8.tar.gz
+[2023-05-08 22:33:54] INFO root fetch - processPackages [rattail-corepos]: Downloading https://files.pythonhosted.org/packages/13/06/8b16a48ef3a7e6294bd301a140fc276b19a777623c2e5f2949c5ea9c8204/rattail_corepos-0.1.8.tar.gz
+[2023-05-08 22:33:54] INFO root fetch - processPackages [keypact]: Downloading https://files.pythonhosted.org/packages/57/d1/b81a61f6c0bb0a204a8e272580d2a3a062fc20af38f82b3ede02bdea6e81/keypact-0.2.4.tar.gz
+[2023-05-08 22:33:54] INFO root fetch - processPackages [certora-cli-alpha-jtoman-gmx-init]: Downloading https://files.pythonhosted.org/packages/d6/12/1dd16b0e039a80582639e2a96a8ff2d910b641b2188ac869279e579b9d69/certora-cli-alpha-jtoman-gmx-init-20230508.17.11.702876.tar.gz
+[2023-05-08 22:33:54] INFO root fetch - processPackages [certora-cli-alpha-uri-generate-link-json]: Downloading https://files.pythonhosted.org/packages/22/f7/e0f87e355c8de7e592a8126e4574efc7a59c2ee890f15b2607452bdb0dee/certora-cli-alpha-uri-generate_link_json-20230508.14.24.748618.tar.gz
+[2023-05-08 22:33:54] INFO root fetch - processPackages [panel]: Downloading https://files.pythonhosted.org/packages/59/88/15e8b06e1486308c2ecb7ac9fa6bdbb83ade691727a7cb02ec5bae316bfd/panel-1.0.0rc5.tar.gz
+[2023-05-08 22:33:54] WARNING root fetch - processPackages [certora-cli-alpha-jtoman-gmx-init]: Skipping package: exceeds size limit 38474480>=10485760
+[2023-05-08 22:33:54] INFO root fetch - processPackages [certora-cli-alpha-jtoman-gmx-init]: Start processing: certora-cli-alpha-master
+[2023-05-08 22:33:54] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-jtoman-gmx-init] error
+[2023-05-08 22:33:54] WARNING root fetch - processPackages [certora-cli-alpha-uri-generate-link-json]: Skipping package: exceeds size limit 38475325>=10485760
+[2023-05-08 22:33:54] INFO root fetch - processPackages [certora-cli-alpha-uri-generate-link-json]: Start processing: jax-lorax
+[2023-05-08 22:33:54] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-uri-generate-link-json] error
+[2023-05-08 22:33:54] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230508.17.7.543390] Old Version: [20230508.14.24.31170]
+[2023-05-08 22:33:54] INFO root fetch - processPackages [keypact]: executing diffoscope
+[2023-05-08 22:33:54] INFO root fetch - processPackages [keypact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keypact-0.2.3.tar.gz tmp/keypact-0.2.4.tar.gz --markdown 20230508/k/keypact/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-08 22:33:54] WARNING root fetch - processPackages [panel]: Skipping package: exceeds size limit 23195542>=10485760
+[2023-05-08 22:33:54] INFO root fetch - processPackages [panel]: Start processing: datanalyse
+[2023-05-08 22:33:54] INFO root fetch - main [MainThread]: End processing [panel] error
+[2023-05-08 22:33:54] WARNING root fetch - processPackages [certora-cli-alpha-eric-kotlin1.8]: Skipping package: exceeds size limit 39212992>=10485760
+[2023-05-08 22:33:54] INFO root fetch - processPackages [certora-cli-alpha-eric-kotlin1.8]: Start processing: struct-gpt
+[2023-05-08 22:33:54] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-eric-kotlin1.8] error
+[2023-05-08 22:33:54] INFO root fetch - processPackages [datanalyse]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-08 22:33:54] INFO root fetch - processPackages [struct-gpt]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-05-08 22:33:54] INFO root fetch - processPackages [spotON_sdk]: executing diffoscope
+[2023-05-08 22:33:54] INFO root fetch - processPackages [spotON_sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotON_sdk-0.0.2.1.tar.gz tmp/spotON_sdk-0.0.2.2.tar.gz --markdown 20230508/s/spotON_sdk/0.0.2.1-0.0.2.2/diff.md --exclude *.pyd
+[2023-05-08 22:33:54] INFO root fetch - processPackages [budgetcli]: Downloading https://files.pythonhosted.org/packages/9c/59/cebe754a1dabebc5ae4361f226d1f9b2482d5d47ebf06c442e9b58e452fb/budgetcli-1.1.3.tar.gz
+[2023-05-08 22:33:54] WARNING root fetch - processPackages [jax-lorax]: Skipping, unable to determine old version
+[2023-05-08 22:33:54] INFO root fetch - processPackages [jax-lorax]: Start processing: ovos-translate-plugin-deepl
+[2023-05-08 22:33:54] INFO root fetch - main [MainThread]: End processing [jax-lorax] error
+[2023-05-08 22:33:54] INFO root fetch - processPackages [datanalyse]: executing diffoscope
+[2023-05-08 22:33:54] INFO root fetch - processPackages [datanalyse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datanalyse-0.0.2.tar.gz tmp/datanalyse-0.0.3.tar.gz --markdown 20230508/d/datanalyse/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-08 22:33:55] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/3a/3a/47fba6b6031a2c71753b88beeaa4523c1f95fdcf89f05b7faa971de67d82/certora-cli-alpha-master-20230508.14.24.31170.tar.gz
+[2023-05-08 22:33:55] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 38474349>=10485760
+[2023-05-08 22:33:55] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-08 22:33:55] INFO root fetch - processPackages [ovos-translate-plugin-deepl]: New version: [0.0.1a1] Old Version: [0.0.0a2]
+[2023-05-08 22:33:55] INFO root fetch - processPackages [budgetcli]: executing diffoscope
+[2023-05-08 22:33:55] INFO root fetch - processPackages [budgetcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/budgetcli-1.1.2.tar.gz tmp/budgetcli-1.1.3.tar.gz --markdown 20230508/b/budgetcli/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-05-08 22:33:55] INFO root fetch - processPackages [rattail-corepos]: Downloading https://files.pythonhosted.org/packages/0a/1b/f80b71641dcccb204bd092bf6e83e8e001a2d55250cf6e9b4d7233a22f9f/rattail_corepos-0.1.9.tar.gz
+[2023-05-08 22:33:55] INFO root fetch - processPackages [struct-gpt]: Downloading https://files.pythonhosted.org/packages/4b/28/cdc5bb119f2847b76526374833d91295940560925d4539df64de826b853b/struct_gpt-2.1.1.tar.gz
+[2023-05-08 22:33:55] INFO root fetch - processPackages [tailbone-corepos]: Downloading https://files.pythonhosted.org/packages/4b/87/ba181b4a081cfd532608c0b575f7e2ec2809c3ca8cd1bf94aff8396eee4d/tailbone-corepos-0.1.9.tar.gz
+[2023-05-08 22:33:55] INFO root fetch - processPackages [rattail-corepos]: executing diffoscope
+[2023-05-08 22:33:55] INFO root fetch - processPackages [rattail-corepos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rattail_corepos-0.1.8.tar.gz tmp/rattail_corepos-0.1.9.tar.gz --markdown 20230508/r/rattail-corepos/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 22:33:55] INFO root fetch - processPackages [struct-gpt]: executing diffoscope
+[2023-05-08 22:33:55] INFO root fetch - processPackages [struct-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/struct_gpt-2.1.0.tar.gz tmp/struct_gpt-2.1.1.tar.gz --markdown 20230508/s/struct-gpt/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-05-08 22:33:55] INFO root fetch - processPackages [ovos-translate-plugin-deepl]: Downloading https://files.pythonhosted.org/packages/2c/f0/7fb5fc82b9293b40a9e2640e08f51040c49e8f4b507e86df6cee0ea50a36/ovos_translate_plugin_deepl-0.0.0a2-py3-none-any.whl
+[2023-05-08 22:33:55] INFO root fetch - processPackages [tailbone-corepos]: executing diffoscope
+[2023-05-08 22:33:55] INFO root fetch - processPackages [tailbone-corepos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tailbone-corepos-0.1.8.tar.gz tmp/tailbone-corepos-0.1.9.tar.gz --markdown 20230508/t/tailbone-corepos/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 22:33:55] INFO root fetch - processPackages [ovos-translate-plugin-deepl]: Downloading https://files.pythonhosted.org/packages/3e/7a/5559c08c25770c5132311ad6d6b018f360cd0dd97226d163cdacc87b5ba2/ovos_translate_plugin_deepl-0.0.1a1-py3-none-any.whl
+[2023-05-08 22:33:55] INFO root fetch - processPackages [ovos-translate-plugin-deepl]: executing diffoscope
+[2023-05-08 22:33:55] INFO root fetch - processPackages [ovos-translate-plugin-deepl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_translate_plugin_deepl-0.0.0a2-py3-none-any.whl.zip tmp/ovos_translate_plugin_deepl-0.0.1a1-py3-none-any.whl.zip --markdown 20230508/o/ovos-translate-plugin-deepl/0.0.0a2-0.0.1a1/diff.md --exclude *.pyd
+[2023-05-08 22:33:56] INFO root fetch - main [MainThread]: End processing [keypact]: success
+[2023-05-08 22:33:56] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-08 22:33:56] INFO root fetch - main [MainThread]: End processing [spotON_sdk]: success
+[2023-05-08 22:33:56] INFO root fetch - main [MainThread]: End processing [datanalyse]: success
+[2023-05-08 22:33:56] INFO root fetch - main [MainThread]: End processing [struct-gpt]: success
+[2023-05-08 22:33:56] INFO root fetch - main [MainThread]: End processing [rattail-corepos]: success
+[2023-05-08 22:33:56] INFO root fetch - main [MainThread]: End processing [budgetcli]: success
+[2023-05-08 22:33:56] INFO root fetch - main [MainThread]: End processing [tailbone-corepos]: success
+[2023-05-08 22:33:56] INFO root fetch - main [MainThread]: End processing [ovos-translate-plugin-deepl]: success
+[2023-05-08 22:33:56] INFO root fetch - main [MainThread]: Store serial: [18022273]
