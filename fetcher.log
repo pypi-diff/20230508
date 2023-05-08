@@ -17396,3 +17396,142 @@ EOFError: EOF read where object expected
 [2023-05-08 18:51:19] INFO root fetch - main [MainThread]: End processing [pcleaner]: success
 [2023-05-08 18:51:20] INFO root fetch - main [MainThread]: End processing [wikimedia-spicerack]: success
 [2023-05-08 18:51:20] INFO root fetch - main [MainThread]: Store serial: [18019654]
+[2023-05-08 18:56:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18019654]
+[2023-05-08 18:56:30] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-08 18:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: melon-translate
+[2023-05-08 18:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: melon-translate-client
+[2023-05-08 18:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scgpt
+[2023-05-08 18:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TPython
+[2023-05-08 18:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pcleaner
+[2023-05-08 18:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kfp-tekton
+[2023-05-08 18:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jaxip
+[2023-05-08 18:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: klym-telemetry
+[2023-05-08 18:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: HumanCursor
+[2023-05-08 18:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: JBPhD
+[2023-05-08 18:56:30] INFO root fetch - processPackages [melon-translate]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-08 18:56:30] INFO root fetch - processPackages [TPython]: New version: [1.8.1] Old Version: [1.8]
+[2023-05-08 18:56:30] INFO root fetch - processPackages [kfp-tekton]: New version: [1.6.6] Old Version: [1.6.5]
+[2023-05-08 18:56:30] INFO root fetch - processPackages [jaxip]: New version: [0.5.7] Old Version: [0.5.6]
+[2023-05-08 18:56:30] INFO root fetch - processPackages [pcleaner]: New version: [1.7.3] Old Version: [1.7.2]
+[2023-05-08 18:56:30] INFO root fetch - processPackages [scgpt]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-08 18:56:30] INFO root fetch - processPackages [klym-telemetry]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-08 18:56:30] INFO root fetch - processPackages [JBPhD]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-05-08 18:56:30] INFO root fetch - processPackages [HumanCursor]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-08 18:56:30] INFO root fetch - processPackages [melon-translate-client]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-08 18:56:30] INFO root fetch - processPackages [melon-translate]: Downloading https://files.pythonhosted.org/packages/9e/cc/3d89d2471cdb3ff942123f108ce1b819d7316951000a2102d7b4e29f566b/melon_translate-0.9.3.tar.gz
+[2023-05-08 18:56:30] INFO root fetch - processPackages [kfp-tekton]: Downloading https://files.pythonhosted.org/packages/9e/65/661918436724afb44301414e7c40fd585bba30f90389943d94df53dee02c/kfp-tekton-1.6.5.tar.gz
+[2023-05-08 18:56:30] INFO root fetch - processPackages [scgpt]: Downloading https://files.pythonhosted.org/packages/20/b3/b2ccdb20e6aef6630d8fcd0fe5bef85a20513def473d4544a7cf2ad2c59b/scGPT-0.1.0.tar.gz
+[2023-05-08 18:56:30] INFO root fetch - processPackages [JBPhD]: Downloading https://files.pythonhosted.org/packages/28/3f/8ac30319703f538ab89e70ebc29cc72584049c91ac38c1729b077924657a/JBPhD-2.0.1-py3-none-any.whl
+[2023-05-08 18:56:30] INFO root fetch - processPackages [pcleaner]: Downloading https://files.pythonhosted.org/packages/dc/3e/e42e0691aa49b0e3d5176eee10531f7469cda78e2b586120528a27f33759/pcleaner-1.7.3.tar.gz
+[2023-05-08 18:56:30] INFO root fetch - processPackages [melon-translate-client]: Downloading https://files.pythonhosted.org/packages/79/71/832c30fbd7bead9860acef7010438ce5d68db95f78cfd238adc993e8da22/melon_translate_client-0.9.3.tar.gz
+[2023-05-08 18:56:30] INFO root fetch - processPackages [HumanCursor]: Downloading https://files.pythonhosted.org/packages/76/68/0c334b22eb927f7ecb38d413eff1395a1aa8c197129dffa33a527f96e0aa/HumanCursor-0.0.8.tar.gz
+[2023-05-08 18:56:30] INFO root fetch - processPackages [TPython]: Downloading https://files.pythonhosted.org/packages/ed/72/4628196058a12e976f778843c02b82b70473141d9f642edc7e3d3341f41f/TPython-1.8-py2.py3-none-any.whl
+[2023-05-08 18:56:30] INFO root fetch - processPackages [klym-telemetry]: Downloading https://files.pythonhosted.org/packages/45/6b/db3d48e67ed862963a646f67ff5b1f07262cf4297bf950ccbd824afb0e6b/klym-telemetry-0.1.6.tar.gz
+[2023-05-08 18:56:30] INFO root fetch - processPackages [HumanCursor]: executing diffoscope
+[2023-05-08 18:56:30] INFO root fetch - processPackages [HumanCursor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HumanCursor-0.0.7.tar.gz tmp/HumanCursor-0.0.8.tar.gz --markdown 20230508/H/HumanCursor/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-08 18:56:30] INFO root fetch - processPackages [klym-telemetry]: executing diffoscope
+[2023-05-08 18:56:30] INFO root fetch - processPackages [klym-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klym-telemetry-0.1.5.tar.gz tmp/klym-telemetry-0.1.6.tar.gz --markdown 20230508/k/klym-telemetry/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-08 18:56:30] INFO root fetch - processPackages [pcleaner]: executing diffoscope
+[2023-05-08 18:56:30] INFO root fetch - processPackages [pcleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pcleaner-1.7.2.tar.gz tmp/pcleaner-1.7.3.tar.gz --markdown 20230508/p/pcleaner/1.7.2-1.7.3/diff.md --exclude *.pyd
+[2023-05-08 18:56:30] INFO root fetch - processPackages [jaxip]: Downloading https://files.pythonhosted.org/packages/e4/00/5ba3ec35bc5202b8fe5e1180f981eef3e450f37c09d6434a18e8325afd10/jaxip-0.5.7.tar.gz
+[2023-05-08 18:56:30] INFO root fetch - processPackages [TPython]: Downloading https://files.pythonhosted.org/packages/ce/1d/62fa4ac46bc88af93e70177e941f896d708b352d80796e6ace2ee761fa17/TPython-1.8.1-py2.py3-none-any.whl
+[2023-05-08 18:56:30] INFO root fetch - processPackages [jaxip]: executing diffoscope
+[2023-05-08 18:56:30] INFO root fetch - processPackages [jaxip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxip-0.5.6.tar.gz tmp/jaxip-0.5.7.tar.gz --markdown 20230508/j/jaxip/0.5.6-0.5.7/diff.md --exclude *.pyd
+[2023-05-08 18:56:30] INFO root fetch - processPackages [kfp-tekton]: Downloading https://files.pythonhosted.org/packages/c4/0d/e2236d7a919439bf936463605b357f396d5de8b272e4049502ffb69b10f8/kfp-tekton-1.6.6.tar.gz
+[2023-05-08 18:56:30] INFO root fetch - processPackages [scgpt]: Downloading https://files.pythonhosted.org/packages/86/6d/3e7cf7052afe93f432fc318c93b82c60749422d6c25a115623e2b7a5e5bf/scGPT-0.1.1.tar.gz
+[2023-05-08 18:56:30] INFO root fetch - processPackages [TPython]: executing diffoscope
+[2023-05-08 18:56:30] INFO root fetch - processPackages [TPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TPython-1.8-py2.py3-none-any.whl.zip tmp/TPython-1.8.1-py2.py3-none-any.whl.zip --markdown 20230508/T/TPython/1.8-1.8.1/diff.md --exclude *.pyd
+[2023-05-08 18:56:30] INFO root fetch - processPackages [melon-translate-client]: Downloading https://files.pythonhosted.org/packages/b7/b9/f6bb1a9604fd21b6d1f04a39cbabfa2bd365fb891a4bd908f8fd079832ca/melon_translate_client-0.9.4.tar.gz
+[2023-05-08 18:56:30] INFO root fetch - processPackages [kfp-tekton]: executing diffoscope
+[2023-05-08 18:56:30] INFO root fetch - processPackages [kfp-tekton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfp-tekton-1.6.5.tar.gz tmp/kfp-tekton-1.6.6.tar.gz --markdown 20230508/k/kfp-tekton/1.6.5-1.6.6/diff.md --exclude *.pyd
+[2023-05-08 18:56:30] INFO root fetch - processPackages [scgpt]: executing diffoscope
+[2023-05-08 18:56:30] INFO root fetch - processPackages [scgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scGPT-0.1.0.tar.gz tmp/scGPT-0.1.1.tar.gz --markdown 20230508/s/scgpt/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-08 18:56:31] INFO root fetch - processPackages [JBPhD]: Downloading https://files.pythonhosted.org/packages/5a/32/3eb4bb0e0c1dc288115081667ca26eb5aeecb9aab52ea6918d3de0bf2c25/JBPhD-2.0.2-py3-none-any.whl
+[2023-05-08 18:56:31] INFO root fetch - processPackages [melon-translate-client]: executing diffoscope
+[2023-05-08 18:56:31] INFO root fetch - processPackages [melon-translate-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/melon_translate_client-0.9.3.tar.gz tmp/melon_translate_client-0.9.4.tar.gz --markdown 20230508/m/melon-translate-client/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-08 18:56:31] INFO root fetch - processPackages [JBPhD]: executing diffoscope
+[2023-05-08 18:56:31] INFO root fetch - processPackages [JBPhD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JBPhD-2.0.1-py3-none-any.whl.zip tmp/JBPhD-2.0.2-py3-none-any.whl.zip --markdown 20230508/J/JBPhD/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-05-08 18:56:31] INFO root fetch - processPackages [melon-translate]: Downloading https://files.pythonhosted.org/packages/99/60/57469d69aee6ce37fc5e45b2cce9342abccbd970d8c556e49fa195076399/melon_translate-0.9.4.tar.gz
+[2023-05-08 18:56:31] INFO root fetch - processPackages [melon-translate]: executing diffoscope
+[2023-05-08 18:56:31] INFO root fetch - processPackages [melon-translate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/melon_translate-0.9.3.tar.gz tmp/melon_translate-0.9.4.tar.gz --markdown 20230508/m/melon-translate/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-08 18:56:32] INFO root fetch - processPackages [TPython]: Start processing: x-transformers
+[2023-05-08 18:56:32] INFO root fetch - main [MainThread]: End processing [TPython]: success
+[2023-05-08 18:56:32] INFO root fetch - processPackages [x-transformers]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-05-08 18:56:32] INFO root fetch - processPackages [klym-telemetry]: Start processing: certora-cli-alpha-roy-CERT-1955-assertHits
+[2023-05-08 18:56:32] INFO root fetch - main [MainThread]: End processing [klym-telemetry]: success
+[2023-05-08 18:56:32] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-assertHits]: New version: [20230508.16.53.306931] Old Version: [20230508.15.38.428722]
+[2023-05-08 18:56:32] INFO root fetch - processPackages [x-transformers]: executing diffoscope
+[2023-05-08 18:56:32] INFO root fetch - processPackages [x-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/x-transformers-1.9.1.tar.gz tmp/x-transformers-1.9.2.tar.gz --markdown 20230508/x/x-transformers/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-05-08 18:56:32] INFO root fetch - processPackages [HumanCursor]: Start processing: pycyclops
+[2023-05-08 18:56:32] INFO root fetch - main [MainThread]: End processing [HumanCursor]: success
+[2023-05-08 18:56:32] INFO root fetch - processPackages [pycyclops]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 18:56:32] INFO root fetch - processPackages [kfp-tekton]: Start processing: pyatlan
+[2023-05-08 18:56:32] INFO root fetch - main [MainThread]: End processing [kfp-tekton]: success
+[2023-05-08 18:56:32] INFO root fetch - processPackages [pyatlan]: New version: [0.0.27] Old Version: [0.0.26]
+[2023-05-08 18:56:32] INFO root fetch - processPackages [pcleaner]: Start processing: python-fast-grpc
+[2023-05-08 18:56:32] INFO root fetch - main [MainThread]: End processing [pcleaner]: success
+[2023-05-08 18:56:32] INFO root fetch - processPackages [python-fast-grpc]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-08 18:56:32] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-assertHits]: Downloading https://files.pythonhosted.org/packages/95/03/9ab35c0a3521985208069098228f4e0b9a9fc6580dec00fbcdaa13a89475/certora-cli-alpha-roy-CERT-1955-assertHits-20230508.15.38.428722.tar.gz
+[2023-05-08 18:56:32] WARNING root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-assertHits]: Skipping package: exceeds size limit 38475429>=10485760
+[2023-05-08 18:56:32] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-assertHits]: Start processing: pep508-rs
+[2023-05-08 18:56:32] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-roy-CERT-1955-assertHits] error
+[2023-05-08 18:56:32] INFO root fetch - processPackages [pycyclops]: Downloading https://files.pythonhosted.org/packages/f4/bb/2f5e6d5836c21b65c66b83c9a5aa420e99fde04952dfb4441af7346a9551/pycyclops-0.1.8.tar.gz
+[2023-05-08 18:56:32] INFO root fetch - processPackages [pyatlan]: Downloading https://files.pythonhosted.org/packages/33/d9/c2bce4b51e98dc5a330458e858f7db63179ee85462ed4d376a28153e8990/pyatlan-0.0.26.tar.gz
+[2023-05-08 18:56:32] INFO root fetch - processPackages [pep508-rs]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-05-08 18:56:32] INFO root fetch - processPackages [python-fast-grpc]: Downloading https://files.pythonhosted.org/packages/d7/c2/76d65783c397afda73f3edd3ad14e1a6e24acf3faf77b32f88de6dbcb46e/python_fast_grpc-0.1.0.tar.gz
+[2023-05-08 18:56:32] INFO root fetch - processPackages [pep508-rs]: Downloading https://files.pythonhosted.org/packages/5c/1c/f859e7d6443c5610f831177df2aff2936018364d319a40fddf77838de5b4/pep508_rs-0.1.5.tar.gz
+[2023-05-08 18:56:32] INFO root fetch - processPackages [JBPhD]: Start processing: rispack
+[2023-05-08 18:56:32] INFO root fetch - main [MainThread]: End processing [JBPhD]: success
+[2023-05-08 18:56:32] INFO root fetch - processPackages [pyatlan]: Downloading https://files.pythonhosted.org/packages/fe/67/20cef18103ddb8dcd4191b4e3291eccff44f661e5b2264b360a6fb38c125/pyatlan-0.0.27.tar.gz
+[2023-05-08 18:56:32] INFO root fetch - processPackages [python-fast-grpc]: Downloading https://files.pythonhosted.org/packages/11/a6/c1cef276e5f32617ec46bf3bd33cbe110307d4fa22a355cbdc7408f662a4/python_fast_grpc-0.1.1.tar.gz
+[2023-05-08 18:56:32] INFO root fetch - processPackages [pyatlan]: executing diffoscope
+[2023-05-08 18:56:32] INFO root fetch - processPackages [pyatlan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyatlan-0.0.26.tar.gz tmp/pyatlan-0.0.27.tar.gz --markdown 20230508/p/pyatlan/0.0.26-0.0.27/diff.md --exclude *.pyd
+[2023-05-08 18:56:32] INFO root fetch - processPackages [rispack]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-08 18:56:33] INFO root fetch - processPackages [python-fast-grpc]: executing diffoscope
+[2023-05-08 18:56:33] INFO root fetch - processPackages [python-fast-grpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_fast_grpc-0.1.0.tar.gz tmp/python_fast_grpc-0.1.1.tar.gz --markdown 20230508/p/python-fast-grpc/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-08 18:56:33] INFO root fetch - processPackages [pep508-rs]: Downloading https://files.pythonhosted.org/packages/1d/2e/1eadd0590412dcca3ba6b33653f8d8bbf742de38a9fa22e5aa61d3dce959/pep508_rs-0.2.0.tar.gz
+[2023-05-08 18:56:33] INFO root fetch - processPackages [pycyclops]: Downloading https://files.pythonhosted.org/packages/11/1b/e44a11b4db8509af2a75b2521e48cdf9665c8a2a621381e31ef9a9ef246c/pycyclops-0.1.9.tar.gz
+[2023-05-08 18:56:33] INFO root fetch - processPackages [pep508-rs]: executing diffoscope
+[2023-05-08 18:56:33] INFO root fetch - processPackages [pep508-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pep508_rs-0.1.5.tar.gz tmp/pep508_rs-0.2.0.tar.gz --markdown 20230508/p/pep508-rs/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-05-08 18:56:33] INFO root fetch - processPackages [rispack]: Downloading https://files.pythonhosted.org/packages/89/d3/a8ff3cc138d943aefb2064d4fee6c69bb751bbe6e250edfec5cf14f12b21/rispack-0.9.3.tar.gz
+[2023-05-08 18:56:33] INFO root fetch - processPackages [pycyclops]: executing diffoscope
+[2023-05-08 18:56:33] INFO root fetch - processPackages [pycyclops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycyclops-0.1.8.tar.gz tmp/pycyclops-0.1.9.tar.gz --markdown 20230508/p/pycyclops/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 18:56:33] INFO root fetch - processPackages [rispack]: Downloading https://files.pythonhosted.org/packages/0c/f6/2d766d480a5e0091966cf7be06e34744f9db2037d3a823a01ddba6805f72/rispack-0.9.4.tar.gz
+[2023-05-08 18:56:33] INFO root fetch - processPackages [rispack]: executing diffoscope
+[2023-05-08 18:56:33] INFO root fetch - processPackages [rispack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rispack-0.9.3.tar.gz tmp/rispack-0.9.4.tar.gz --markdown 20230508/r/rispack/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-08 18:56:34] INFO root fetch - processPackages [x-transformers]: Start processing: steamcrawl
+[2023-05-08 18:56:34] INFO root fetch - main [MainThread]: End processing [x-transformers]: success
+[2023-05-08 18:56:34] INFO root fetch - processPackages [python-fast-grpc]: Start processing: edx-enterprise
+[2023-05-08 18:56:34] INFO root fetch - main [MainThread]: End processing [python-fast-grpc]: success
+[2023-05-08 18:56:34] INFO root fetch - processPackages [steamcrawl]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-08 18:56:34] INFO root fetch - processPackages [edx-enterprise]: New version: [3.9.9] Old Version: [3.9.7]
+[2023-05-08 18:56:34] INFO root fetch - processPackages [jaxip]: Start processing: pythesyncer
+[2023-05-08 18:56:34] INFO root fetch - main [MainThread]: End processing [jaxip]: success
+[2023-05-08 18:56:34] INFO root fetch - processPackages [melon-translate]: Start processing: arch_lint
+[2023-05-08 18:56:34] INFO root fetch - main [MainThread]: End processing [melon-translate]: success
+[2023-05-08 18:56:34] INFO root fetch - processPackages [pythesyncer]: New version: [23.5.9.0] Old Version: [23.5.7.22]
+[2023-05-08 18:56:34] INFO root fetch - main [MainThread]: End processing [pep508-rs]: success
+[2023-05-08 18:56:34] INFO root fetch - main [MainThread]: End processing [scgpt]: success
+[2023-05-08 18:56:34] INFO root fetch - processPackages [edx-enterprise]: executing diffoscope
+[2023-05-08 18:56:34] INFO root fetch - processPackages [edx-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-enterprise-3.9.7.tar.gz tmp/edx-enterprise-3.9.9.tar.gz --markdown 20230508/e/edx-enterprise/3.9.7-3.9.9/diff.md --exclude *.pyd
+[2023-05-08 18:56:34] INFO root fetch - processPackages [steamcrawl]: Downloading https://files.pythonhosted.org/packages/14/e8/2cac244e185c5afd3f0c6d0491ddd68e543b891a7a4c2191a72fc1eaed20/steamcrawl-0.1.8.tar.gz
+[2023-05-08 18:56:34] INFO root fetch - processPackages [arch_lint]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-05-08 18:56:34] INFO root fetch - processPackages [pythesyncer]: Downloading https://files.pythonhosted.org/packages/79/79/06bd052cc51b6d923a4093dc29be7e4aa62ae94a3065154843cb121acdfb/pythesyncer-23.5.7.22.tar.gz
+[2023-05-08 18:56:34] INFO root fetch - processPackages [steamcrawl]: executing diffoscope
+[2023-05-08 18:56:34] INFO root fetch - processPackages [steamcrawl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steamcrawl-0.1.7.tar.gz tmp/steamcrawl-0.1.8.tar.gz --markdown 20230508/s/steamcrawl/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-08 18:56:34] INFO root fetch - processPackages [arch_lint]: Downloading https://files.pythonhosted.org/packages/d2/8f/91613974c921983321ef6849215304783b9f6195a26ac11e2ca9b8b0a227/arch_lint-2.3.0.tar.gz
+[2023-05-08 18:56:35] INFO root fetch - processPackages [pythesyncer]: Downloading https://files.pythonhosted.org/packages/17/a6/11d66cb30a259f6eef8fa902b8a4cfac97c0930f4edcd37a0aa522aa19c4/pythesyncer-23.5.9.0.tar.gz
+[2023-05-08 18:56:35] INFO root fetch - processPackages [pythesyncer]: executing diffoscope
+[2023-05-08 18:56:35] INFO root fetch - processPackages [pythesyncer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythesyncer-23.5.7.22.tar.gz tmp/pythesyncer-23.5.9.0.tar.gz --markdown 20230508/p/pythesyncer/23.5.7.22-23.5.9.0/diff.md --exclude *.pyd
+[2023-05-08 18:56:35] INFO root fetch - processPackages [arch_lint]: Downloading https://files.pythonhosted.org/packages/4d/2d/1e1511cf35ef54931adfcbc09993cd40f8c11b8c1504a2b5cb491d02e17d/arch_lint-2.4.0.tar.gz
+[2023-05-08 18:56:35] INFO root fetch - processPackages [arch_lint]: executing diffoscope
+[2023-05-08 18:56:35] INFO root fetch - processPackages [arch_lint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arch_lint-2.3.0.tar.gz tmp/arch_lint-2.4.0.tar.gz --markdown 20230508/a/arch_lint/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-05-08 18:56:35] INFO root fetch - main [MainThread]: End processing [rispack]: success
+[2023-05-08 18:56:36] INFO root fetch - main [MainThread]: End processing [pythesyncer]: success
+[2023-05-08 18:56:36] INFO root fetch - main [MainThread]: End processing [steamcrawl]: success
+[2023-05-08 18:56:36] INFO root fetch - main [MainThread]: End processing [arch_lint]: success
+[2023-05-08 18:56:37] INFO root fetch - main [MainThread]: End processing [pyatlan]: success
+[2023-05-08 18:56:38] INFO root fetch - main [MainThread]: End processing [pycyclops]: success
+[2023-05-08 18:56:38] INFO root fetch - main [MainThread]: End processing [edx-enterprise]: success
+[2023-05-08 18:56:58] INFO root fetch - main [MainThread]: End processing [melon-translate-client]: success
+[2023-05-08 18:56:58] INFO root fetch - main [MainThread]: Store serial: [18019728]
