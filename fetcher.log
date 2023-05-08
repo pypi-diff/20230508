@@ -10721,3 +10721,74 @@
 [2023-05-08 13:14:23] INFO root fetch - main [MainThread]: End processing [pyvium]: success
 [2023-05-08 13:14:48] INFO root fetch - main [MainThread]: End processing [inverse]: success
 [2023-05-08 13:14:48] INFO root fetch - main [MainThread]: Store serial: [18015937]
+[2023-05-08 13:19:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18015937]
+[2023-05-08 13:19:57] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-08 13:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: approximate-cluster-identities
+[2023-05-08 13:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cognite-gql-pygen
+[2023-05-08 13:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-fragments
+[2023-05-08 13:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Jlab
+[2023-05-08 13:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyoptas
+[2023-05-08 13:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kopia
+[2023-05-08 13:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyacmi
+[2023-05-08 13:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hfmirror
+[2023-05-08 13:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: yunhu
+[2023-05-08 13:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: byozdemir-messager
+[2023-05-08 13:19:57] INFO root fetch - processPackages [approximate-cluster-identities]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-08 13:19:57] INFO root fetch - processPackages [cognite-gql-pygen]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-08 13:19:57] WARNING root fetch - processPackages [byozdemir-messager]: Skipping, unable to determine old version
+[2023-05-08 13:19:57] INFO root fetch - processPackages [byozdemir-messager]: Start processing: approximate-cluster-identities
+[2023-05-08 13:19:57] INFO root fetch - main [MainThread]: End processing [byozdemir-messager] error
+[2023-05-08 13:19:57] WARNING root fetch - processPackages [pyacmi]: Skipping, unable to determine old version
+[2023-05-08 13:19:57] INFO root fetch - processPackages [pyacmi]: Start processing: openrl
+[2023-05-08 13:19:57] INFO root fetch - main [MainThread]: End processing [pyacmi] error
+[2023-05-08 13:19:57] INFO root fetch - processPackages [hfmirror]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-08 13:19:57] WARNING root fetch - processPackages [django-fragments]: Skipping, unable to determine old version
+[2023-05-08 13:19:57] INFO root fetch - processPackages [django-fragments]: Start processing: certora-cli-alpha-assaf-TACBifAlias
+[2023-05-08 13:19:57] INFO root fetch - main [MainThread]: End processing [django-fragments] error
+[2023-05-08 13:19:57] INFO root fetch - processPackages [kopia]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-08 13:19:57] INFO root fetch - processPackages [Jlab]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-08 13:19:57] INFO root fetch - processPackages [approximate-cluster-identities]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-08 13:19:57] INFO root fetch - processPackages [yunhu]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-08 13:19:57] WARNING root fetch - processPackages [pyoptas]: Skipping, unable to determine old version
+[2023-05-08 13:19:57] INFO root fetch - processPackages [pyoptas]: Start processing: qtest-reporter
+[2023-05-08 13:19:57] INFO root fetch - main [MainThread]: End processing [pyoptas] error
+[2023-05-08 13:19:57] WARNING root fetch - processPackages [certora-cli-alpha-assaf-TACBifAlias]: Skipping, unable to determine old version
+[2023-05-08 13:19:57] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-assaf-TACBifAlias] error
+[2023-05-08 13:19:57] INFO root fetch - processPackages [qtest-reporter]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-08 13:19:57] INFO root fetch - processPackages [openrl]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 13:19:57] INFO root fetch - processPackages [cognite-gql-pygen]: Downloading https://files.pythonhosted.org/packages/9a/c2/e69803e4c4a44416f5206e132e30fd93bde8ae9f0501aaf395e85289803a/cognite_gql_pygen-0.4.1.tar.gz
+[2023-05-08 13:19:57] INFO root fetch - processPackages [qtest-reporter]: executing diffoscope
+[2023-05-08 13:19:57] INFO root fetch - processPackages [qtest-reporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtest_reporter-0.0.1.tar.gz tmp/qtest_reporter-0.0.2.tar.gz --markdown 20230508/q/qtest-reporter/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-08 13:19:57] INFO root fetch - processPackages [kopia]: Downloading https://files.pythonhosted.org/packages/3a/3e/129eb6d167038c4db7997ae5d4b3b34d7298af823e96f917733fd60363e7/kopia-0.1.2.tar.gz
+[2023-05-08 13:19:57] INFO root fetch - processPackages [hfmirror]: Downloading https://files.pythonhosted.org/packages/4e/e7/e09fb31022712769ee41f9028f3048a771670c18a8b1b917ed46c650771b/hfmirror-0.0.5.tar.gz
+[2023-05-08 13:19:57] INFO root fetch - processPackages [yunhu]: Downloading https://files.pythonhosted.org/packages/99/72/50a4b9876c2588ead74684d555ec177214945e57a45fe748bb5893148add/yunhu-0.0.3.tar.gz
+[2023-05-08 13:19:57] INFO root fetch - processPackages [hfmirror]: executing diffoscope
+[2023-05-08 13:19:57] INFO root fetch - processPackages [hfmirror]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hfmirror-0.0.4.tar.gz tmp/hfmirror-0.0.5.tar.gz --markdown 20230508/h/hfmirror/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-08 13:19:57] INFO root fetch - processPackages [yunhu]: executing diffoscope
+[2023-05-08 13:19:57] INFO root fetch - processPackages [yunhu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yunhu-0.0.2.tar.gz tmp/yunhu-0.0.3.tar.gz --markdown 20230508/y/yunhu/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-08 13:19:57] INFO root fetch - processPackages [approximate-cluster-identities]: Downloading https://files.pythonhosted.org/packages/95/02/4b65edc964e38e9ea644a0b454c88e1f02b1718d003ee9c9e1cb4bbc3ca5/approximate_cluster_identities-0.1.2.tar.gz
+[2023-05-08 13:19:57] INFO root fetch - processPackages [approximate-cluster-identities]: Downloading https://files.pythonhosted.org/packages/95/02/4b65edc964e38e9ea644a0b454c88e1f02b1718d003ee9c9e1cb4bbc3ca5/approximate_cluster_identities-0.1.2.tar.gz
+[2023-05-08 13:19:57] INFO root fetch - processPackages [Jlab]: executing diffoscope
+[2023-05-08 13:19:57] INFO root fetch - processPackages [Jlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Jlab-1.1.8.tar.gz tmp/Jlab-1.1.9.tar.gz --markdown 20230508/J/Jlab/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-08 13:19:57] INFO root fetch - processPackages [kopia]: executing diffoscope
+[2023-05-08 13:19:57] INFO root fetch - processPackages [kopia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kopia-0.1.1.tar.gz tmp/kopia-0.1.2.tar.gz --markdown 20230508/k/kopia/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-08 13:19:57] INFO root fetch - processPackages [cognite-gql-pygen]: Downloading https://files.pythonhosted.org/packages/35/36/694561562e1ad1398d1bd4f6924ef30bfe14f0d3e9ff804292a1aaa63e14/cognite_gql_pygen-0.4.2.tar.gz
+[2023-05-08 13:19:57] INFO root fetch - processPackages [approximate-cluster-identities]: executing diffoscope
+[2023-05-08 13:19:57] INFO root fetch - processPackages [approximate-cluster-identities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/approximate_cluster_identities-0.1.1.tar.gz tmp/approximate_cluster_identities-0.1.2.tar.gz --markdown 20230508/a/approximate-cluster-identities/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-08 13:19:57] INFO root fetch - processPackages [approximate-cluster-identities]: executing diffoscope
+[2023-05-08 13:19:57] INFO root fetch - processPackages [approximate-cluster-identities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/approximate_cluster_identities-0.1.1.tar.gz tmp/approximate_cluster_identities-0.1.2.tar.gz --markdown 20230508/a/approximate-cluster-identities/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-08 13:19:57] INFO root fetch - processPackages [openrl]: Downloading https://files.pythonhosted.org/packages/c5/72/7a0be3fe2ba8c6d5af55ae8bfea781ee309952310492824825f9649a52ad/openrl-0.0.9.tar.gz
+[2023-05-08 13:19:57] INFO root fetch - processPackages [cognite-gql-pygen]: executing diffoscope
+[2023-05-08 13:19:57] INFO root fetch - processPackages [cognite-gql-pygen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_gql_pygen-0.4.1.tar.gz tmp/cognite_gql_pygen-0.4.2.tar.gz --markdown 20230508/c/cognite-gql-pygen/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-08 13:19:58] INFO root fetch - processPackages [openrl]: executing diffoscope
+[2023-05-08 13:19:58] INFO root fetch - processPackages [openrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openrl-0.0.8.tar.gz tmp/openrl-0.0.9.tar.gz --markdown 20230508/o/openrl/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 13:19:58] INFO root fetch - main [MainThread]: End processing [qtest-reporter]: success
+[2023-05-08 13:19:59] INFO root fetch - main [MainThread]: End processing [yunhu]: success
+[2023-05-08 13:19:59] INFO root fetch - main [MainThread]: End processing [hfmirror]: success
+[2023-05-08 13:19:59] INFO root fetch - main [MainThread]: End processing [Jlab]: success
+[2023-05-08 13:19:59] INFO root fetch - main [MainThread]: End processing [kopia]: success
+[2023-05-08 13:19:59] INFO root fetch - main [MainThread]: End processing [approximate-cluster-identities]: success
+[2023-05-08 13:19:59] INFO root fetch - main [MainThread]: End processing [approximate-cluster-identities]: success
+[2023-05-08 13:19:59] INFO root fetch - main [MainThread]: End processing [cognite-gql-pygen]: success
+[2023-05-08 13:20:01] INFO root fetch - main [MainThread]: End processing [openrl]: success
+[2023-05-08 13:20:01] INFO root fetch - main [MainThread]: Store serial: [18015986]
