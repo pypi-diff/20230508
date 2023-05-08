@@ -7946,3 +7946,87 @@
 [2023-05-08 10:27:42] INFO root fetch - main [MainThread]: End processing [xj-enroll]: success
 [2023-05-08 10:27:42] INFO root fetch - main [MainThread]: End processing [jax-chacha-prng]: success
 [2023-05-08 10:27:42] INFO root fetch - main [MainThread]: Store serial: [18014525]
+[2023-05-08 10:32:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18014525]
+[2023-05-08 10:32:51] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-08 10:32:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycti
+[2023-05-08 10:32:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycti
+[2023-05-08 10:32:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: umjunsik
+[2023-05-08 10:32:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pycti
+[2023-05-08 10:32:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-iot-core-certificates
+[2023-05-08 10:32:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: allianceauth-corptools
+[2023-05-08 10:32:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ysf-test
+[2023-05-08 10:32:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: socket-request
+[2023-05-08 10:32:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyubx2
+[2023-05-08 10:32:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: acryl-datahub
+[2023-05-08 10:32:51] WARNING root fetch - processPackages [umjunsik]: Skipping, unable to determine old version
+[2023-05-08 10:32:51] INFO root fetch - processPackages [umjunsik]: Start processing: acryl-datahub-airflow-plugin
+[2023-05-08 10:32:51] INFO root fetch - main [MainThread]: End processing [umjunsik] error
+[2023-05-08 10:32:51] INFO root fetch - processPackages [cdk-iot-core-certificates]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-08 10:32:51] INFO root fetch - processPackages [ysf-test]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-08 10:32:51] INFO root fetch - processPackages [allianceauth-corptools]: New version: [2.5.5] Old Version: [2.5.4]
+[2023-05-08 10:32:51] INFO root fetch - processPackages [pycti]: New version: [5.7.post574] Old Version: [5.7.post573]
+[2023-05-08 10:32:51] INFO root fetch - processPackages [socket-request]: New version: [1.1.9] Old Version: [1.1.7]
+[2023-05-08 10:32:51] INFO root fetch - processPackages [pycti]: New version: [5.7.post574] Old Version: [5.7.post573]
+[2023-05-08 10:32:51] INFO root fetch - processPackages [pycti]: New version: [5.7.post574] Old Version: [5.7.post573]
+[2023-05-08 10:32:51] INFO root fetch - processPackages [pyubx2]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-08 10:32:51] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-05-08 10:32:51] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-05-08 10:32:51] INFO root fetch - processPackages [socket-request]: executing diffoscope
+[2023-05-08 10:32:51] INFO root fetch - processPackages [socket-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socket_request-1.1.7-py3-none-any.whl.zip tmp/socket_request-1.1.9-py3-none-any.whl.zip --markdown 20230508/s/socket-request/1.1.7-1.1.9/diff.md --exclude *.pyd
+[2023-05-08 10:32:52] INFO root fetch - processPackages [pycti]: Downloading https://files.pythonhosted.org/packages/9e/cc/8ddec2a95d32e99b62599926192d7d597d4bed2cb6a4954d14d5d8af2ca0/pycti-5.7.post573.tar.gz
+[2023-05-08 10:32:52] INFO root fetch - processPackages [pycti]: Downloading https://files.pythonhosted.org/packages/9e/cc/8ddec2a95d32e99b62599926192d7d597d4bed2cb6a4954d14d5d8af2ca0/pycti-5.7.post573.tar.gz
+[2023-05-08 10:32:52] INFO root fetch - processPackages [pycti]: Downloading https://files.pythonhosted.org/packages/9e/cc/8ddec2a95d32e99b62599926192d7d597d4bed2cb6a4954d14d5d8af2ca0/pycti-5.7.post573.tar.gz
+[2023-05-08 10:32:52] INFO root fetch - processPackages [allianceauth-corptools]: Downloading https://files.pythonhosted.org/packages/83/e5/98d982c0b116ceca6d4e245f12dab453b4e251c0bd5dcca0096e6dbd93a6/allianceauth-corptools-2.5.4.tar.gz
+[2023-05-08 10:32:52] INFO root fetch - processPackages [ysf-test]: Downloading https://files.pythonhosted.org/packages/00/8b/f05778589fe8ffac5571fa9058c60e3e2d764bc73c1c272d42f576798d82/ysf-test-0.0.3.tar.gz
+[2023-05-08 10:32:52] INFO root fetch - processPackages [pyubx2]: Downloading https://files.pythonhosted.org/packages/f2/9f/9f6f21654c17948189768ad01305c6b5acbead228fe5545d17173d555468/pyubx2-1.2.8.tar.gz
+[2023-05-08 10:32:52] INFO root fetch - processPackages [cdk-iot-core-certificates]: Downloading https://files.pythonhosted.org/packages/6b/a2/09804c54ce120860700a78e0577c2363c8faa1a7203c79ab86bc34096d00/cdk-iot-core-certificates-1.0.4.tar.gz
+[2023-05-08 10:32:52] INFO root fetch - processPackages [ysf-test]: executing diffoscope
+[2023-05-08 10:32:52] INFO root fetch - processPackages [ysf-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ysf_test-0.0.2.tar.gz tmp/ysf-test-0.0.3.tar.gz --markdown 20230508/y/ysf-test/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-08 10:32:52] INFO root fetch - processPackages [cdk-iot-core-certificates]: executing diffoscope
+[2023-05-08 10:32:52] INFO root fetch - processPackages [cdk-iot-core-certificates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-iot-core-certificates-1.0.3.tar.gz tmp/cdk-iot-core-certificates-1.0.4.tar.gz --markdown 20230508/c/cdk-iot-core-certificates/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-08 10:32:52] INFO root fetch - processPackages [pycti]: Downloading https://files.pythonhosted.org/packages/fb/db/4ad8acfdcd61c8eb8975d3f02e84c2c73c30b78773f660e53e9ecf9d292d/pycti-5.7.post574.tar.gz
+[2023-05-08 10:32:52] INFO root fetch - processPackages [pycti]: Downloading https://files.pythonhosted.org/packages/fb/db/4ad8acfdcd61c8eb8975d3f02e84c2c73c30b78773f660e53e9ecf9d292d/pycti-5.7.post574.tar.gz
+[2023-05-08 10:32:52] INFO root fetch - processPackages [pycti]: Downloading https://files.pythonhosted.org/packages/fb/db/4ad8acfdcd61c8eb8975d3f02e84c2c73c30b78773f660e53e9ecf9d292d/pycti-5.7.post574.tar.gz
+[2023-05-08 10:32:52] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2023-05-08 10:32:52] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20230508/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-05-08 10:32:52] INFO root fetch - processPackages [pycti]: executing diffoscope
+[2023-05-08 10:32:52] INFO root fetch - processPackages [pycti]: executing diffoscope
+[2023-05-08 10:32:52] INFO root fetch - processPackages [pycti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycti-5.7.post573.tar.gz tmp/pycti-5.7.post574.tar.gz --markdown 20230508/p/pycti/5.7.post573-5.7.post574/diff.md --exclude *.pyd
+[2023-05-08 10:32:52] INFO root fetch - processPackages [pycti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycti-5.7.post573.tar.gz tmp/pycti-5.7.post574.tar.gz --markdown 20230508/p/pycti/5.7.post573-5.7.post574/diff.md --exclude *.pyd
+[2023-05-08 10:32:52] INFO root fetch - processPackages [pycti]: executing diffoscope
+[2023-05-08 10:32:52] INFO root fetch - processPackages [pycti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycti-5.7.post573.tar.gz tmp/pycti-5.7.post574.tar.gz --markdown 20230508/p/pycti/5.7.post573-5.7.post574/diff.md --exclude *.pyd
+[2023-05-08 10:32:52] INFO root fetch - processPackages [pyubx2]: Downloading https://files.pythonhosted.org/packages/d6/9e/b86798e51a6e76aa7507a405905a8fe30562608f9ff78aa4d0558f918c1d/pyubx2-1.2.9.tar.gz
+[2023-05-08 10:32:52] INFO root fetch - processPackages [allianceauth-corptools]: Downloading https://files.pythonhosted.org/packages/1d/15/63124b3b2569ce920617818f7d04bb724f349948bb03ad906becf791014b/allianceauth-corptools-2.5.5.tar.gz
+[2023-05-08 10:32:52] INFO root fetch - processPackages [allianceauth-corptools]: executing diffoscope
+[2023-05-08 10:32:52] INFO root fetch - processPackages [allianceauth-corptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/allianceauth-corptools-2.5.4.tar.gz tmp/allianceauth-corptools-2.5.5.tar.gz --markdown 20230508/a/allianceauth-corptools/2.5.4-2.5.5/diff.md --exclude *.pyd
+[2023-05-08 10:32:52] INFO root fetch - processPackages [pyubx2]: executing diffoscope
+[2023-05-08 10:32:52] INFO root fetch - processPackages [pyubx2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyubx2-1.2.8.tar.gz tmp/pyubx2-1.2.9.tar.gz --markdown 20230508/p/pyubx2/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-08 10:32:53] INFO root fetch - processPackages [ysf-test]: Start processing: lesscode-py
+[2023-05-08 10:32:53] INFO root fetch - main [MainThread]: End processing [ysf-test]: success
+[2023-05-08 10:32:53] INFO root fetch - processPackages [lesscode-py]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-08 10:32:53] INFO root fetch - processPackages [lesscode-py]: executing diffoscope
+[2023-05-08 10:32:53] INFO root fetch - processPackages [lesscode-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode-py-0.3.8.tar.gz tmp/lesscode-py-0.3.9.tar.gz --markdown 20230508/l/lesscode-py/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-08 10:32:53] INFO root fetch - processPackages [socket-request]: Start processing: nonebot-plugin-csgo-case-simulator
+[2023-05-08 10:32:53] INFO root fetch - main [MainThread]: End processing [socket-request]: success
+[2023-05-08 10:32:53] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2023-05-08 10:32:53] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20230508/a/acryl-datahub/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-05-08 10:32:53] INFO root fetch - processPackages [nonebot-plugin-csgo-case-simulator]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-08 10:32:53] INFO root fetch - processPackages [nonebot-plugin-csgo-case-simulator]: executing diffoscope
+[2023-05-08 10:32:53] INFO root fetch - processPackages [nonebot-plugin-csgo-case-simulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-csgo-case-simulator-0.1.7.tar.gz tmp/nonebot-plugin-csgo-case-simulator-0.1.8.tar.gz --markdown 20230508/n/nonebot-plugin-csgo-case-simulator/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-08 10:32:54] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Start processing: aiontutil
+[2023-05-08 10:32:54] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2023-05-08 10:32:54] WARNING root fetch - processPackages [aiontutil]: Skipping, unable to determine old version
+[2023-05-08 10:32:54] INFO root fetch - processPackages [aiontutil]: Start processing: pytranslations
+[2023-05-08 10:32:54] INFO root fetch - main [MainThread]: End processing [aiontutil] error
+[2023-05-08 10:32:54] WARNING root fetch - processPackages [pytranslations]: Skipping, unable to determine old version
+[2023-05-08 10:32:54] INFO root fetch - main [MainThread]: End processing [pytranslations] error
+[2023-05-08 10:32:54] INFO root fetch - main [MainThread]: End processing [cdk-iot-core-certificates]: success
+[2023-05-08 10:32:55] INFO root fetch - main [MainThread]: End processing [lesscode-py]: success
+[2023-05-08 10:32:55] INFO root fetch - main [MainThread]: End processing [pyubx2]: success
+[2023-05-08 10:32:55] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-csgo-case-simulator]: success
+[2023-05-08 10:32:56] INFO root fetch - main [MainThread]: End processing [allianceauth-corptools]: success
+[2023-05-08 10:32:57] INFO root fetch - main [MainThread]: End processing [pycti]: success
+[2023-05-08 10:32:57] INFO root fetch - main [MainThread]: End processing [pycti]: success
+[2023-05-08 10:32:57] INFO root fetch - main [MainThread]: End processing [pycti]: success
+[2023-05-08 10:33:00] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2023-05-08 10:33:00] INFO root fetch - main [MainThread]: Store serial: [18014576]
