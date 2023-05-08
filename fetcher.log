@@ -9601,3 +9601,57 @@
 [2023-05-08 11:50:44] INFO root fetch - main [MainThread]: End processing [hikari]: success
 [2023-05-08 11:50:49] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2023-05-08 11:50:49] INFO root fetch - main [MainThread]: Store serial: [18015394]
+[2023-05-08 11:55:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18015394]
+[2023-05-08 11:55:59] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-08 11:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fschat
+[2023-05-08 11:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hikvision-isapi-cli
+[2023-05-08 11:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shttst
+[2023-05-08 11:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dataplicity
+[2023-05-08 11:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pysangkom
+[2023-05-08 11:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shafara-tool-kit
+[2023-05-08 11:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dtsdk
+[2023-05-08 11:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-assaf-TACBifAlias
+[2023-05-08 11:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wiretap
+[2023-05-08 11:55:59] INFO root fetch - processPackages [shttst]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 11:55:59] INFO root fetch - processPackages [dataplicity]: New version: [0.5.9a5] Old Version: [0.5.9a4]
+[2023-05-08 11:55:59] INFO root fetch - processPackages [shafara-tool-kit]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-08 11:55:59] WARNING root fetch - processPackages [pysangkom]: Skipping, unable to determine old version
+[2023-05-08 11:55:59] INFO root fetch - processPackages [dtsdk]: New version: [2.0.0] Old Version: [1.1.0]
+[2023-05-08 11:55:59] INFO root fetch - main [MainThread]: End processing [pysangkom] error
+[2023-05-08 11:55:59] WARNING root fetch - processPackages [certora-cli-alpha-assaf-TACBifAlias]: Skipping, unable to determine old version
+[2023-05-08 11:55:59] INFO root fetch - processPackages [hikvision-isapi-cli]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-08 11:55:59] INFO root fetch - processPackages [wiretap]: New version: [3.1.2] Old Version: [3.1.1]
+[2023-05-08 11:55:59] INFO root fetch - processPackages [fschat]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-08 11:55:59] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-assaf-TACBifAlias] error
+[2023-05-08 11:55:59] INFO root fetch - processPackages [hikvision-isapi-cli]: executing diffoscope
+[2023-05-08 11:55:59] INFO root fetch - processPackages [hikvision-isapi-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hikvision_isapi_cli-1.0.8.tar.gz tmp/hikvision_isapi_cli-1.0.9.tar.gz --markdown 20230508/h/hikvision-isapi-cli/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-08 11:55:59] INFO root fetch - processPackages [wiretap]: Downloading https://files.pythonhosted.org/packages/ce/e4/9fce7b2c94f4511de8d8dd477023ac24feebf7e019950c83c3e00e3c739b/wiretap-3.1.1-py3-none-any.whl
+[2023-05-08 11:55:59] INFO root fetch - processPackages [dataplicity]: Downloading https://files.pythonhosted.org/packages/ef/55/51d0f967e475001f99b73eb9ff910341b5f4e3c0a8b008f0651338bde6ae/dataplicity-0.5.9a4.tar.gz
+[2023-05-08 11:55:59] INFO root fetch - processPackages [dtsdk]: Downloading https://files.pythonhosted.org/packages/15/be/855dd901fe4407ed6d63e845014ef03a6ee6a03742e79b7b49fc6cdc299c/dtsdk-1.1.0.tar.gz
+[2023-05-08 11:55:59] INFO root fetch - processPackages [shafara-tool-kit]: Downloading https://files.pythonhosted.org/packages/e7/d3/9a893c0c04f6a1f94eb431063ce5853b8f224cf63b6bd41424fd8fe62800/shafara_tool_kit-0.2.2.tar.gz
+[2023-05-08 11:55:59] INFO root fetch - processPackages [fschat]: Downloading https://files.pythonhosted.org/packages/1f/26/271993b09429799af3b3018964d0850e87ed3ab45e2b22fc020f21aeaa3f/fschat-0.2.5.tar.gz
+[2023-05-08 11:55:59] INFO root fetch - processPackages [shttst]: Downloading https://files.pythonhosted.org/packages/7f/6f/258f5f5fdadc573a37cbc9687f7ad07557c1ecbc84ab91f8ef59c4f4b8b7/shttst-0.0.9.tar.gz
+[2023-05-08 11:55:59] INFO root fetch - processPackages [shafara-tool-kit]: executing diffoscope
+[2023-05-08 11:55:59] INFO root fetch - processPackages [shafara-tool-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shafara_tool_kit-0.2.1.tar.gz tmp/shafara_tool_kit-0.2.2.tar.gz --markdown 20230508/s/shafara-tool-kit/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-08 11:55:59] INFO root fetch - processPackages [wiretap]: Downloading https://files.pythonhosted.org/packages/b3/6f/c0604c0ba92637eef5ea3f576dc01abd45d7b07034986ca8128160f550dc/wiretap-3.1.2-py3-none-any.whl
+[2023-05-08 11:55:59] INFO root fetch - processPackages [shttst]: executing diffoscope
+[2023-05-08 11:55:59] INFO root fetch - processPackages [shttst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shttst-0.0.8.tar.gz tmp/shttst-0.0.9.tar.gz --markdown 20230508/s/shttst/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 11:55:59] INFO root fetch - processPackages [fschat]: Downloading https://files.pythonhosted.org/packages/fa/df/eec6518fdd462e232374b1c821978c2ff501cd8ff34b2843680f3e64a658/fschat-0.2.6.tar.gz
+[2023-05-08 11:55:59] INFO root fetch - processPackages [dataplicity]: Downloading https://files.pythonhosted.org/packages/90/33/51cf718679e72aa0262c29bc64715d7498269d5de2a09e211efe30644d63/dataplicity-0.5.9a5.tar.gz
+[2023-05-08 11:55:59] INFO root fetch - processPackages [dtsdk]: Downloading https://files.pythonhosted.org/packages/f3/ce/1a87388d1b3440e95693286f222e5264fefcc7c931857028d31cf00bce3e/dtsdk-2.0.0.tar.gz
+[2023-05-08 11:55:59] INFO root fetch - processPackages [wiretap]: executing diffoscope
+[2023-05-08 11:55:59] INFO root fetch - processPackages [wiretap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiretap-3.1.1-py3-none-any.whl.zip tmp/wiretap-3.1.2-py3-none-any.whl.zip --markdown 20230508/w/wiretap/3.1.1-3.1.2/diff.md --exclude *.pyd
+[2023-05-08 11:55:59] INFO root fetch - processPackages [fschat]: executing diffoscope
+[2023-05-08 11:55:59] INFO root fetch - processPackages [fschat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fschat-0.2.5.tar.gz tmp/fschat-0.2.6.tar.gz --markdown 20230508/f/fschat/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-08 11:55:59] INFO root fetch - processPackages [dtsdk]: executing diffoscope
+[2023-05-08 11:55:59] INFO root fetch - processPackages [dtsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtsdk-1.1.0.tar.gz tmp/dtsdk-2.0.0.tar.gz --markdown 20230508/d/dtsdk/1.1.0-2.0.0/diff.md --exclude *.pyd
+[2023-05-08 11:55:59] INFO root fetch - processPackages [dataplicity]: executing diffoscope
+[2023-05-08 11:55:59] INFO root fetch - processPackages [dataplicity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataplicity-0.5.9a4.tar.gz tmp/dataplicity-0.5.9a5.tar.gz --markdown 20230508/d/dataplicity/0.5.9a4-0.5.9a5/diff.md --exclude *.pyd
+[2023-05-08 11:56:00] INFO root fetch - main [MainThread]: End processing [shafara-tool-kit]: success
+[2023-05-08 11:56:00] INFO root fetch - main [MainThread]: End processing [wiretap]: success
+[2023-05-08 11:56:00] INFO root fetch - main [MainThread]: End processing [shttst]: success
+[2023-05-08 11:56:00] INFO root fetch - main [MainThread]: End processing [dtsdk]: success
+[2023-05-08 11:56:01] INFO root fetch - main [MainThread]: End processing [dataplicity]: success
+[2023-05-08 11:56:02] INFO root fetch - main [MainThread]: End processing [fschat]: success
+[2023-05-08 11:56:04] INFO root fetch - main [MainThread]: End processing [hikvision-isapi-cli]: success
+[2023-05-08 11:56:04] INFO root fetch - main [MainThread]: Store serial: [18015426]
