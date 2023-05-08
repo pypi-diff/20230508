@@ -22391,3 +22391,62 @@ EOFError: EOF read where object expected
 [2023-05-08 23:08:09] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
 [2023-05-08 23:08:18] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
 [2023-05-08 23:08:18] INFO root fetch - main [MainThread]: Store serial: [18022652]
+[2023-05-08 23:13:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18022652]
+[2023-05-08 23:13:28] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-08 23:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finetune-eval-harness
+[2023-05-08 23:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pythonsqlitepkgsV2
+[2023-05-08 23:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tink
+[2023-05-08 23:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: logpyle
+[2023-05-08 23:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: libcbm
+[2023-05-08 23:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: abmap
+[2023-05-08 23:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pythonsqlitepkgsV2
+[2023-05-08 23:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stack-graph
+[2023-05-08 23:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dt
+[2023-05-08 23:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: subtitle-filter
+[2023-05-08 23:13:28] INFO root fetch - processPackages [abmap]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-08 23:13:28] INFO root fetch - processPackages [tink]: New version: [1.7.0] Old Version: [1.6.1]
+[2023-05-08 23:13:28] INFO root fetch - processPackages [subtitle-filter]: New version: [1.4.6] Old Version: [1.4.5]
+[2023-05-08 23:13:28] WARNING root fetch - processPackages [finetune-eval-harness]: Skipping, unable to determine old version
+[2023-05-08 23:13:28] INFO root fetch - processPackages [libcbm]: New version: [2.3.5] Old Version: [2.3.13]
+[2023-05-08 23:13:28] ERROR root fetch - processPackages [stack-graph]: Unable to get metadata: No such project 'stack-graph'
+[2023-05-08 23:13:28] INFO root fetch - processPackages [logpyle]: New version: [2023.2] Old Version: [2023.1]
+[2023-05-08 23:13:28] INFO root fetch - processPackages [finetune-eval-harness]: Start processing: pipcryptlibary
+[2023-05-08 23:13:28] INFO root fetch - main [MainThread]: End processing [finetune-eval-harness] error
+[2023-05-08 23:13:28] ERROR root fetch - processPackages [pythonsqlitepkgsV2]: Unable to get metadata: No such project 'pythonsqlitepkgsV2'
+[2023-05-08 23:13:28] ERROR root fetch - processPackages [pythonsqlitepkgsV2]: Unable to get metadata: No such project 'pythonsqlitepkgsV2'
+[2023-05-08 23:13:28] INFO root fetch - processPackages [dt]: New version: [1.1.60] Old Version: [1.1.59]
+[2023-05-08 23:13:28] INFO root fetch - main [MainThread]: End processing [stack-graph] error
+[2023-05-08 23:13:28] INFO root fetch - main [MainThread]: End processing [pythonsqlitepkgsV2] error
+[2023-05-08 23:13:28] INFO root fetch - main [MainThread]: End processing [pythonsqlitepkgsV2] error
+[2023-05-08 23:13:29] INFO root fetch - processPackages [abmap]: Downloading https://files.pythonhosted.org/packages/e4/48/b45232e93402de376d3fb8316929e666422e8b9ab01a29eb8c0e3bb75c78/abmap-0.1.2.tar.gz
+[2023-05-08 23:13:29] ERROR root fetch - processPackages [pipcryptlibary]: Unable to get metadata: No such project 'pipcryptlibary'
+[2023-05-08 23:13:29] INFO root fetch - main [MainThread]: End processing [pipcryptlibary] error
+[2023-05-08 23:13:29] INFO root fetch - processPackages [libcbm]: Downloading https://files.pythonhosted.org/packages/cd/3b/52909f3e74de91ceb0ddf9525f9fbacddd0e3dacf15c24ed2e7f57423490/libcbm-2.3.13-py3-none-any.whl
+[2023-05-08 23:13:29] INFO root fetch - processPackages [subtitle-filter]: Downloading https://files.pythonhosted.org/packages/09/42/fc9eeacca90e0e57e4daee4a8c5f9ea9492f2446d72785d688d46aa0c9c9/subtitle-filter-1.4.5.tar.gz
+[2023-05-08 23:13:29] INFO root fetch - processPackages [tink]: Downloading https://files.pythonhosted.org/packages/ef/42/56e701ea3f14a7fef3345517dc2777fd9ea85d8f818d63143053534b7474/tink-1.6.1.tar.gz
+[2023-05-08 23:13:29] INFO root fetch - processPackages [abmap]: executing diffoscope
+[2023-05-08 23:13:29] INFO root fetch - processPackages [dt]: Downloading https://files.pythonhosted.org/packages/99/7c/e01a6a317613eaee4af088348d8084b3dcf3124a722394bd9bb68c7a6897/dt-1.1.59.tar.gz
+[2023-05-08 23:13:29] INFO root fetch - processPackages [abmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abmap-0.1.1.tar.gz tmp/abmap-0.1.2.tar.gz --markdown 20230508/a/abmap/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-08 23:13:29] INFO root fetch - processPackages [logpyle]: Downloading https://files.pythonhosted.org/packages/67/c3/9280ff99de28137f1359a6ee3edad2aaafa35df387769bb0c13c97d25b4d/logpyle-2023.1.tar.gz
+[2023-05-08 23:13:29] INFO root fetch - processPackages [tink]: Downloading https://files.pythonhosted.org/packages/4c/77/8b8b48136b02fc7de991c162691dface8dd470f850a50a02200de26cb2ce/tink-1.7.0.tar.gz
+[2023-05-08 23:13:29] INFO root fetch - processPackages [subtitle-filter]: Downloading https://files.pythonhosted.org/packages/5b/4b/c3851a4ceba1d3a2ffe7fe8edb627d729d389667d037a4866adbcf702f78/subtitle-filter-1.4.6.tar.gz
+[2023-05-08 23:13:29] INFO root fetch - processPackages [logpyle]: Downloading https://files.pythonhosted.org/packages/c1/ba/e2af3d5032be63a593e68c9d88d1460ad52309a5c8b31ded8c7e17afa1f0/logpyle-2023.2.tar.gz
+[2023-05-08 23:13:29] INFO root fetch - processPackages [tink]: executing diffoscope
+[2023-05-08 23:13:29] INFO root fetch - processPackages [tink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tink-1.6.1.tar.gz tmp/tink-1.7.0.tar.gz --markdown 20230508/t/tink/1.6.1-1.7.0/diff.md --exclude *.pyd
+[2023-05-08 23:13:29] INFO root fetch - processPackages [dt]: Downloading https://files.pythonhosted.org/packages/ff/8b/7066c4c97e7d65c21bb5992fa00c0652e1a01f56230ebaa8319bc4ab19e2/dt-1.1.60.tar.gz
+[2023-05-08 23:13:29] INFO root fetch - processPackages [logpyle]: executing diffoscope
+[2023-05-08 23:13:29] INFO root fetch - processPackages [logpyle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logpyle-2023.1.tar.gz tmp/logpyle-2023.2.tar.gz --markdown 20230508/l/logpyle/2023.1-2023.2/diff.md --exclude *.pyd
+[2023-05-08 23:13:29] INFO root fetch - processPackages [libcbm]: Downloading https://files.pythonhosted.org/packages/98/cd/74ab26c9bf839ff2b83eb7ad348a29731f21903d5c259ce43e8eed09af67/libcbm-2.3.5-py3-none-any.whl
+[2023-05-08 23:13:29] INFO root fetch - processPackages [subtitle-filter]: executing diffoscope
+[2023-05-08 23:13:29] INFO root fetch - processPackages [subtitle-filter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/subtitle-filter-1.4.5.tar.gz tmp/subtitle-filter-1.4.6.tar.gz --markdown 20230508/s/subtitle-filter/1.4.5-1.4.6/diff.md --exclude *.pyd
+[2023-05-08 23:13:29] INFO root fetch - processPackages [dt]: executing diffoscope
+[2023-05-08 23:13:29] INFO root fetch - processPackages [dt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dt-1.1.59.tar.gz tmp/dt-1.1.60.tar.gz --markdown 20230508/d/dt/1.1.59-1.1.60/diff.md --exclude *.pyd
+[2023-05-08 23:13:30] INFO root fetch - main [MainThread]: End processing [abmap]: success
+[2023-05-08 23:13:30] INFO root fetch - processPackages [libcbm]: executing diffoscope
+[2023-05-08 23:13:30] INFO root fetch - processPackages [libcbm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcbm-2.3.13-py3-none-any.whl.zip tmp/libcbm-2.3.5-py3-none-any.whl.zip --markdown 20230508/l/libcbm/2.3.13-2.3.5/diff.md --exclude *.pyd
+[2023-05-08 23:13:30] INFO root fetch - main [MainThread]: End processing [subtitle-filter]: success
+[2023-05-08 23:13:30] INFO root fetch - main [MainThread]: End processing [logpyle]: success
+[2023-05-08 23:13:31] INFO root fetch - main [MainThread]: End processing [dt]: success
+[2023-05-08 23:13:33] INFO root fetch - main [MainThread]: End processing [libcbm]: success
+[2023-05-08 23:13:34] INFO root fetch - main [MainThread]: End processing [tink]: success
+[2023-05-08 23:13:34] INFO root fetch - main [MainThread]: Store serial: [18022703]
