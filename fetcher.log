@@ -13521,3 +13521,85 @@ EOFError: EOF read where object expected
 [2023-05-08 15:49:04] INFO root fetch - main [MainThread]: End processing [PyStorCLI2]: success
 [2023-05-08 15:49:09] INFO root fetch - main [MainThread]: End processing [hordelib]: success
 [2023-05-08 15:49:09] INFO root fetch - main [MainThread]: Store serial: [18017374]
+[2023-05-08 15:54:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18017374]
+[2023-05-08 15:54:18] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-08 15:54:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: request-validator-galaxy
+[2023-05-08 15:54:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: twitch-archiver
+[2023-05-08 15:54:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Lab93Cryptogram
+[2023-05-08 15:54:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mygui
+[2023-05-08 15:54:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pypreql-nlp
+[2023-05-08 15:54:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: klym-telemetry
+[2023-05-08 15:54:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: djangocms-xliff
+[2023-05-08 15:54:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-ogcapif
+[2023-05-08 15:54:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: musegan
+[2023-05-08 15:54:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: DarwinPy
+[2023-05-08 15:54:19] INFO root fetch - processPackages [musegan]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-08 15:54:19] WARNING root fetch - processPackages [django-ogcapif]: Skipping, unable to determine old version
+[2023-05-08 15:54:19] INFO root fetch - processPackages [django-ogcapif]: Start processing: QuNet
+[2023-05-08 15:54:19] INFO root fetch - main [MainThread]: End processing [django-ogcapif] error
+[2023-05-08 15:54:19] WARNING root fetch - processPackages [Lab93Cryptogram]: Skipping, unable to determine old version
+[2023-05-08 15:54:19] INFO root fetch - processPackages [Lab93Cryptogram]: Start processing: gcsaws
+[2023-05-08 15:54:19] INFO root fetch - main [MainThread]: End processing [Lab93Cryptogram] error
+[2023-05-08 15:54:19] INFO root fetch - processPackages [djangocms-xliff]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-05-08 15:54:19] INFO root fetch - processPackages [request-validator-galaxy]: New version: [1.2] Old Version: [1.1]
+[2023-05-08 15:54:19] INFO root fetch - processPackages [klym-telemetry]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-08 15:54:19] INFO root fetch - processPackages [DarwinPy]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-08 15:54:19] INFO root fetch - processPackages [twitch-archiver]: New version: [3.0.4] Old Version: [3.0.2]
+[2023-05-08 15:54:19] INFO root fetch - processPackages [pypreql-nlp]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-08 15:54:19] INFO root fetch - processPackages [mygui]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-08 15:54:19] INFO root fetch - processPackages [gcsaws]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 15:54:19] INFO root fetch - processPackages [QuNet]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 15:54:19] INFO root fetch - processPackages [request-validator-galaxy]: Downloading https://files.pythonhosted.org/packages/cb/3c/2d9d19696b6f97909e616f34eb723a999f3f937ed57e767119efe0a32bf0/request_validator_galaxy-1.1.tar.gz
+[2023-05-08 15:54:19] INFO root fetch - processPackages [musegan]: Downloading https://files.pythonhosted.org/packages/19/c5/a6ff0bbb772de285389e9d65509573cf6127c8b226592ee93921d57af09c/musegan-0.0.3.tar.gz
+[2023-05-08 15:54:19] INFO root fetch - processPackages [gcsaws]: executing diffoscope
+[2023-05-08 15:54:19] INFO root fetch - processPackages [gcsaws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcsaws-0.0.8.tar.gz tmp/gcsaws-0.0.9.tar.gz --markdown 20230508/g/gcsaws/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 15:54:19] INFO root fetch - processPackages [djangocms-xliff]: Downloading https://files.pythonhosted.org/packages/b0/53/2015a171a2ee743befe4f1d2d08ba6194475e263a84c0b418a23e400583c/djangocms_xliff-1.3.0.tar.gz
+[2023-05-08 15:54:19] INFO root fetch - processPackages [klym-telemetry]: Downloading https://files.pythonhosted.org/packages/2f/d9/c99f80ad8fde185c3e910e11b89132b7b02ec114c448451f45d652925bbc/klym-telemetry-0.1.4.tar.gz
+[2023-05-08 15:54:19] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/dd/ff/d52ef4f3702badb2b965ed11d28efa922877afe48d7211f5b389e5d704d6/QuNet-0.0.8-py3-none-any.whl
+[2023-05-08 15:54:19] INFO root fetch - processPackages [DarwinPy]: Downloading https://files.pythonhosted.org/packages/e8/2f/9d69b396217573c0169f40f4ae6e2f4389df5a5f2d806550bc49db8f0ace/DarwinPy-0.0.1.tar.gz
+[2023-05-08 15:54:19] INFO root fetch - processPackages [mygui]: Downloading https://files.pythonhosted.org/packages/a3/72/a06b293c8ee84eefd32a43484045301b5731ac3ea6ed80c786cb9315a8ff/mygui-0.2.2.tar.gz
+[2023-05-08 15:54:19] INFO root fetch - processPackages [twitch-archiver]: Downloading https://files.pythonhosted.org/packages/81/7c/123d8fff242e9331c35e378cb36ca99edcc6a1049a263721130853d7a7f1/twitch-archiver-3.0.4.tar.gz
+[2023-05-08 15:54:19] INFO root fetch - processPackages [pypreql-nlp]: Downloading https://files.pythonhosted.org/packages/cf/3a/3a7b61c4065e2d3f3f2198042bda5a35af7bd47e12ec2120243374068eff/pypreql-nlp-0.0.5.tar.gz
+[2023-05-08 15:54:19] INFO root fetch - processPackages [musegan]: Downloading https://files.pythonhosted.org/packages/1d/f8/aefc259dc493e257d5d997051238c79bae9657917e60643660a9afbc1419/musegan-0.0.4.tar.gz
+[2023-05-08 15:54:19] INFO root fetch - processPackages [request-validator-galaxy]: Downloading https://files.pythonhosted.org/packages/39/04/0eaeb2e5579519d937d820599fdb4bbf7b5a524001d849886cfa2e8863fa/request_validator_galaxy-1.2.tar.gz
+[2023-05-08 15:54:19] INFO root fetch - processPackages [twitch-archiver]: executing diffoscope
+[2023-05-08 15:54:19] INFO root fetch - processPackages [pypreql-nlp]: executing diffoscope
+[2023-05-08 15:54:19] INFO root fetch - processPackages [twitch-archiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twitch-archiver-3.0.2.tar.gz tmp/twitch-archiver-3.0.4.tar.gz --markdown 20230508/t/twitch-archiver/3.0.2-3.0.4/diff.md --exclude *.pyd
+[2023-05-08 15:54:19] INFO root fetch - processPackages [pypreql-nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypreql-nlp-0.0.4.tar.gz tmp/pypreql-nlp-0.0.5.tar.gz --markdown 20230508/p/pypreql-nlp/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-08 15:54:19] INFO root fetch - processPackages [djangocms-xliff]: Downloading https://files.pythonhosted.org/packages/06/93/27a07f901089d93b8118efd61bf306a65e77e03eec32b63bc8af50db7cc3/djangocms_xliff-1.3.1.tar.gz
+[2023-05-08 15:54:19] INFO root fetch - processPackages [DarwinPy]: Downloading https://files.pythonhosted.org/packages/cf/fe/9efe02fbb23a701897d7d0fb39fb1295bec9642ebeca42160530f702d821/DarwinPy-0.0.2.tar.gz
+[2023-05-08 15:54:19] INFO root fetch - processPackages [klym-telemetry]: Downloading https://files.pythonhosted.org/packages/a9/c8/0ac1b6f3b91d6a66aee4eba979a6eef064acd47ef2db037f243ec14c5878/klym-telemetry-0.1.5.tar.gz
+[2023-05-08 15:54:19] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/54/58/cbef2a8ccded07bca6ecb72ab20606abf8e1a54d857d6505877d10eba14d/QuNet-0.0.9-py3-none-any.whl
+[2023-05-08 15:54:19] INFO root fetch - processPackages [request-validator-galaxy]: executing diffoscope
+[2023-05-08 15:54:19] INFO root fetch - processPackages [request-validator-galaxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/request_validator_galaxy-1.1.tar.gz tmp/request_validator_galaxy-1.2.tar.gz --markdown 20230508/r/request-validator-galaxy/1.1-1.2/diff.md --exclude *.pyd
+[2023-05-08 15:54:19] INFO root fetch - processPackages [musegan]: executing diffoscope
+[2023-05-08 15:54:19] INFO root fetch - processPackages [musegan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musegan-0.0.3.tar.gz tmp/musegan-0.0.4.tar.gz --markdown 20230508/m/musegan/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-08 15:54:19] INFO root fetch - processPackages [mygui]: Downloading https://files.pythonhosted.org/packages/70/ee/8be438ea1ea5083b8915964be78b0cf5197cac39aaf8691edf858c2ee49a/mygui-0.2.3.tar.gz
+[2023-05-08 15:54:19] INFO root fetch - processPackages [DarwinPy]: executing diffoscope
+[2023-05-08 15:54:19] INFO root fetch - processPackages [DarwinPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DarwinPy-0.0.1.tar.gz tmp/DarwinPy-0.0.2.tar.gz --markdown 20230508/D/DarwinPy/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-08 15:54:19] INFO root fetch - processPackages [klym-telemetry]: executing diffoscope
+[2023-05-08 15:54:19] INFO root fetch - processPackages [klym-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klym-telemetry-0.1.4.tar.gz tmp/klym-telemetry-0.1.5.tar.gz --markdown 20230508/k/klym-telemetry/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-08 15:54:19] INFO root fetch - processPackages [djangocms-xliff]: executing diffoscope
+[2023-05-08 15:54:19] INFO root fetch - processPackages [djangocms-xliff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangocms_xliff-1.3.0.tar.gz tmp/djangocms_xliff-1.3.1.tar.gz --markdown 20230508/d/djangocms-xliff/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-05-08 15:54:19] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-05-08 15:54:19] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.8-py3-none-any.whl.zip tmp/QuNet-0.0.9-py3-none-any.whl.zip --markdown 20230508/Q/QuNet/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 15:54:19] INFO root fetch - processPackages [mygui]: executing diffoscope
+[2023-05-08 15:54:19] INFO root fetch - processPackages [mygui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mygui-0.2.2.tar.gz tmp/mygui-0.2.3.tar.gz --markdown 20230508/m/mygui/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-08 15:54:22] INFO root fetch - processPackages [gcsaws]: Start processing: shellfoundry
+[2023-05-08 15:54:22] INFO root fetch - main [MainThread]: End processing [gcsaws]: success
+[2023-05-08 15:54:22] INFO root fetch - processPackages [shellfoundry]: New version: [1.2.8] Old Version: [1.2.4]
+[2023-05-08 15:54:22] INFO root fetch - main [MainThread]: End processing [request-validator-galaxy]: success
+[2023-05-08 15:54:22] INFO root fetch - main [MainThread]: End processing [DarwinPy]: success
+[2023-05-08 15:54:22] INFO root fetch - processPackages [shellfoundry]: Downloading https://files.pythonhosted.org/packages/25/3b/9e5e1faa3e96b4ca92d1885e70cdd176d462ab54ae1134c4a50f0febf145/shellfoundry-1.2.4.tar.gz
+[2023-05-08 15:54:22] INFO root fetch - main [MainThread]: End processing [pypreql-nlp]: success
+[2023-05-08 15:54:22] INFO root fetch - main [MainThread]: End processing [musegan]: success
+[2023-05-08 15:54:22] INFO root fetch - main [MainThread]: End processing [mygui]: success
+[2023-05-08 15:54:22] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-05-08 15:54:22] INFO root fetch - main [MainThread]: End processing [klym-telemetry]: success
+[2023-05-08 15:54:22] INFO root fetch - processPackages [shellfoundry]: Downloading https://files.pythonhosted.org/packages/e5/f3/34ccbca6ccdf33cbff95f914b13216ab29458772d34773b89b8edd03e99e/shellfoundry-1.2.8.zip
+[2023-05-08 15:54:22] INFO root fetch - main [MainThread]: End processing [djangocms-xliff]: success
+[2023-05-08 15:54:22] INFO root fetch - processPackages [shellfoundry]: executing diffoscope
+[2023-05-08 15:54:22] INFO root fetch - processPackages [shellfoundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shellfoundry-1.2.4.tar.gz tmp/shellfoundry-1.2.8.zip --markdown 20230508/s/shellfoundry/1.2.4-1.2.8/diff.md --exclude *.pyd
+[2023-05-08 15:54:23] INFO root fetch - main [MainThread]: End processing [twitch-archiver]: success
+[2023-05-08 15:54:24] INFO root fetch - main [MainThread]: End processing [shellfoundry]: success
+[2023-05-08 15:54:24] INFO root fetch - main [MainThread]: Store serial: [18017417]
