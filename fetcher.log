@@ -870,3 +870,58 @@
 [2023-05-08 01:58:05] INFO root fetch - main [MainThread]: End processing [natml]: success
 [2023-05-08 01:58:06] INFO root fetch - main [MainThread]: End processing [docker]: success
 [2023-05-08 01:58:06] INFO root fetch - main [MainThread]: Store serial: [18010617]
+[2023-05-08 02:03:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18010617]
+[2023-05-08 02:03:14] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-08 02:03:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dream-helpers
+[2023-05-08 02:03:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vidcardshare
+[2023-05-08 02:03:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zhengyang-env-3
+[2023-05-08 02:03:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wale-sdk
+[2023-05-08 02:03:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: natml
+[2023-05-08 02:03:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dream-helpers
+[2023-05-08 02:03:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ultralytics
+[2023-05-08 02:03:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyaver
+[2023-05-08 02:03:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: textgrid-convert
+[2023-05-08 02:03:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: transformgpt
+[2023-05-08 02:03:14] WARNING root fetch - processPackages [wale-sdk]: Skipping, unable to determine old version
+[2023-05-08 02:03:14] INFO root fetch - main [MainThread]: End processing [wale-sdk] error
+[2023-05-08 02:03:14] INFO root fetch - processPackages [natml]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 02:03:14] INFO root fetch - processPackages [dream-helpers]: New version: [0.0.274] Old Version: [0.0.273]
+[2023-05-08 02:03:14] INFO root fetch - processPackages [dream-helpers]: New version: [0.0.274] Old Version: [0.0.273]
+[2023-05-08 02:03:14] INFO root fetch - processPackages [natml]: executing diffoscope
+[2023-05-08 02:03:14] INFO root fetch - processPackages [natml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/natml-0.0.8.tar.gz tmp/natml-0.0.9.tar.gz --markdown 20230508/n/natml/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 02:03:14] WARNING root fetch - processPackages [zhengyang-env-3]: Skipping, unable to determine old version
+[2023-05-08 02:03:14] INFO root fetch - main [MainThread]: End processing [zhengyang-env-3] error
+[2023-05-08 02:03:14] WARNING root fetch - processPackages [vidcardshare]: Skipping, unable to determine old version
+[2023-05-08 02:03:14] INFO root fetch - main [MainThread]: End processing [vidcardshare] error
+[2023-05-08 02:03:14] INFO root fetch - processPackages [transformgpt]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-08 02:03:14] INFO root fetch - processPackages [pyaver]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 02:03:14] INFO root fetch - processPackages [ultralytics]: New version: [8.0.94] Old Version: [8.0.93]
+[2023-05-08 02:03:14] INFO root fetch - processPackages [textgrid-convert]: New version: [0.5] Old Version: [0.4.4]
+[2023-05-08 02:03:15] INFO root fetch - processPackages [pyaver]: Downloading https://files.pythonhosted.org/packages/95/5a/b36c202e31e9277b8f66c330a0d863b67fa9b4533089abd9b4dd294a16a6/pyaver-0.0.8.tar.gz
+[2023-05-08 02:03:15] INFO root fetch - processPackages [textgrid-convert]: Downloading https://files.pythonhosted.org/packages/56/b5/d8376a193bf15858984a67159d4f14f9ac51d4d683353c2b0ed1edffb800/textgrid-convert-0.4.4.tar.gz
+[2023-05-08 02:03:15] INFO root fetch - processPackages [dream-helpers]: Downloading https://files.pythonhosted.org/packages/95/d5/1a62da08a59a612e7a492376333145aeed693b1b74b1d3eca976df27a45e/dream_helpers-0.0.274.tar.gz
+[2023-05-08 02:03:15] INFO root fetch - processPackages [dream-helpers]: Downloading https://files.pythonhosted.org/packages/95/d5/1a62da08a59a612e7a492376333145aeed693b1b74b1d3eca976df27a45e/dream_helpers-0.0.274.tar.gz
+[2023-05-08 02:03:15] INFO root fetch - processPackages [dream-helpers]: executing diffoscope
+[2023-05-08 02:03:15] INFO root fetch - processPackages [dream-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dream_helpers-0.0.273.tar.gz tmp/dream_helpers-0.0.274.tar.gz --markdown 20230508/d/dream-helpers/0.0.273-0.0.274/diff.md --exclude *.pyd
+[2023-05-08 02:03:15] INFO root fetch - processPackages [dream-helpers]: executing diffoscope
+[2023-05-08 02:03:15] INFO root fetch - processPackages [dream-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dream_helpers-0.0.273.tar.gz tmp/dream_helpers-0.0.274.tar.gz --markdown 20230508/d/dream-helpers/0.0.273-0.0.274/diff.md --exclude *.pyd
+[2023-05-08 02:03:15] INFO root fetch - processPackages [transformgpt]: Downloading https://files.pythonhosted.org/packages/aa/c0/8185e542b709207f2b62dc8e346f737d0a37b9f901525424cf58497069de/transformgpt-0.1.3.tar.gz
+[2023-05-08 02:03:15] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/2f/b4/81694c80d8133274244c409258ab497305571d70172e2432410bee904a96/ultralytics-8.0.94.tar.gz
+[2023-05-08 02:03:15] INFO root fetch - processPackages [transformgpt]: executing diffoscope
+[2023-05-08 02:03:15] INFO root fetch - processPackages [transformgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformgpt-0.1.2.tar.gz tmp/transformgpt-0.1.3.tar.gz --markdown 20230508/t/transformgpt/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-08 02:03:15] INFO root fetch - processPackages [textgrid-convert]: Downloading https://files.pythonhosted.org/packages/28/20/4646bef5bc14e5c635f49bb9289947e56e0c4b88ca60e4b2c3f00d35035a/textgrid-convert-0.5.tar.gz
+[2023-05-08 02:03:15] INFO root fetch - processPackages [ultralytics]: executing diffoscope
+[2023-05-08 02:03:15] INFO root fetch - processPackages [ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics-8.0.93.tar.gz tmp/ultralytics-8.0.94.tar.gz --markdown 20230508/u/ultralytics/8.0.93-8.0.94/diff.md --exclude *.pyd
+[2023-05-08 02:03:15] INFO root fetch - processPackages [pyaver]: Downloading https://files.pythonhosted.org/packages/4f/de/06081737bbd2b0a128bb8961c755f75493680c0d2124f4234415b8117269/pyaver-0.0.9.tar.gz
+[2023-05-08 02:03:15] INFO root fetch - processPackages [textgrid-convert]: executing diffoscope
+[2023-05-08 02:03:15] INFO root fetch - processPackages [textgrid-convert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textgrid-convert-0.4.4.tar.gz tmp/textgrid-convert-0.5.tar.gz --markdown 20230508/t/textgrid-convert/0.4.4-0.5/diff.md --exclude *.pyd
+[2023-05-08 02:03:15] INFO root fetch - processPackages [pyaver]: executing diffoscope
+[2023-05-08 02:03:15] INFO root fetch - processPackages [pyaver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaver-0.0.8.tar.gz tmp/pyaver-0.0.9.tar.gz --markdown 20230508/p/pyaver/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 02:03:16] INFO root fetch - main [MainThread]: End processing [natml]: success
+[2023-05-08 02:03:16] INFO root fetch - main [MainThread]: End processing [dream-helpers]: success
+[2023-05-08 02:03:16] INFO root fetch - main [MainThread]: End processing [dream-helpers]: success
+[2023-05-08 02:03:16] INFO root fetch - main [MainThread]: End processing [textgrid-convert]: success
+[2023-05-08 02:03:16] INFO root fetch - main [MainThread]: End processing [pyaver]: success
+[2023-05-08 02:03:16] INFO root fetch - main [MainThread]: End processing [transformgpt]: success
+[2023-05-08 02:03:17] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
+[2023-05-08 02:03:17] INFO root fetch - main [MainThread]: Store serial: [18010649]
