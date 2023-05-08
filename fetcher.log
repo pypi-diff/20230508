@@ -11977,3 +11977,152 @@
 [2023-05-08 14:32:04] INFO root fetch - main [MainThread]: End processing [scalecodec]: success
 [2023-05-08 14:32:05] INFO root fetch - main [MainThread]: End processing [auto-ts]: success
 [2023-05-08 14:32:05] INFO root fetch - main [MainThread]: Store serial: [18016591]
+[2023-05-08 14:37:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18016591]
+[2023-05-08 14:37:14] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-05-08 14:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lesscode-py
+[2023-05-08 14:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mlgenotype
+[2023-05-08 14:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bridgecrew
+[2023-05-08 14:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opta
+[2023-05-08 14:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-fragments
+[2023-05-08 14:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: deeplc
+[2023-05-08 14:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: robotframework-reportportal-updated
+[2023-05-08 14:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dtscalibration
+[2023-05-08 14:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hf-webdriver-manager
+[2023-05-08 14:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: goldretriever
+[2023-05-08 14:37:15] INFO root fetch - processPackages [dtscalibration]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-05-08 14:37:15] WARNING root fetch - processPackages [goldretriever]: Skipping, unable to determine old version
+[2023-05-08 14:37:15] INFO root fetch - processPackages [robotframework-reportportal-updated]: New version: [1.1.2] Old Version: [1.1.0]
+[2023-05-08 14:37:15] INFO root fetch - processPackages [lesscode-py]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-08 14:37:15] INFO root fetch - processPackages [goldretriever]: Start processing: prettynumbers
+[2023-05-08 14:37:15] INFO root fetch - main [MainThread]: End processing [goldretriever] error
+[2023-05-08 14:37:15] INFO root fetch - processPackages [deeplc]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-05-08 14:37:15] INFO root fetch - processPackages [mlgenotype]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 14:37:15] INFO root fetch - processPackages [django-fragments]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-08 14:37:15] INFO root fetch - processPackages [hf-webdriver-manager]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-08 14:37:15] INFO root fetch - processPackages [opta]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-08 14:37:15] INFO root fetch - processPackages [prettynumbers]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-05-08 14:37:15] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-08 14:37:15] INFO root fetch - processPackages [lesscode-py]: executing diffoscope
+[2023-05-08 14:37:15] INFO root fetch - processPackages [lesscode-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode-py-0.3.8.tar.gz tmp/lesscode-py-0.3.9.tar.gz --markdown 20230508/l/lesscode-py/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-08 14:37:15] INFO root fetch - processPackages [deeplc]: Downloading https://files.pythonhosted.org/packages/e3/20/735b0827089256d0ca0a96a44a82a0723eb67abea60a5d56cda9d59b8b86/deeplc-2.1.0.tar.gz
+[2023-05-08 14:37:15] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-05-08 14:37:15] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230508/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-08 14:37:15] INFO root fetch - processPackages [opta]: Downloading https://files.pythonhosted.org/packages/71/89/a353b1b7fb2aeaee72163b5ae98e551eab31eda86a3dd7394a9af2f28a4d/opta-0.3.1.tar.gz
+[2023-05-08 14:37:15] INFO root fetch - processPackages [robotframework-reportportal-updated]: Downloading https://files.pythonhosted.org/packages/49/20/bb91b807e66cb8c7f7b7ed65b5df7fe10627a9a71addccf482de77d62586/robotframework-reportportal_updated-1.1.0.tar.gz
+[2023-05-08 14:37:15] WARNING root fetch - processPackages [deeplc]: Skipping package: exceeds size limit 77888593>=10485760
+[2023-05-08 14:37:15] INFO root fetch - processPackages [deeplc]: Start processing: CreateAI
+[2023-05-08 14:37:15] INFO root fetch - main [MainThread]: End processing [deeplc] error
+[2023-05-08 14:37:15] INFO root fetch - processPackages [dtscalibration]: Downloading https://files.pythonhosted.org/packages/e1/09/41d7d5d8d7f9fd679a0ecf3cd6a62e246595e125f8237e09511affd1273c/dtscalibration-1.1.2.tar.gz
+[2023-05-08 14:37:15] INFO root fetch - processPackages [django-fragments]: Downloading https://files.pythonhosted.org/packages/19/d7/1299293c8189a631c8a5449fdec32c3dca3ace237c6ec7d0dcd01500027d/django_fragments-0.0.1.tar.gz
+[2023-05-08 14:37:15] INFO root fetch - processPackages [CreateAI]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-05-08 14:37:15] INFO root fetch - processPackages [hf-webdriver-manager]: Downloading https://files.pythonhosted.org/packages/03/d6/29416c34fce0bd34c86df0021a82e131db9a943fa53902e462a5db2cdd3b/hf-webdriver-manager-0.1.0.tar.gz
+[2023-05-08 14:37:15] INFO root fetch - processPackages [prettynumbers]: Downloading https://files.pythonhosted.org/packages/88/73/a3b54c676265ce78338809742144074e44e1328b57aa52ce10640706ba1d/prettynumbers-0.2.0.tar.gz
+[2023-05-08 14:37:15] INFO root fetch - processPackages [opta]: Downloading https://files.pythonhosted.org/packages/4b/58/326cc0aac141c5b7b62a4e778a822073c49713d86ae68f5eda3746c3f547/opta-0.3.2.tar.gz
+[2023-05-08 14:37:15] INFO root fetch - processPackages [robotframework-reportportal-updated]: Downloading https://files.pythonhosted.org/packages/cb/18/58ab5f7b1a1e039b9e8de84f37062e8c74ee913fa89631c176989226541b/robotframework-reportportal_updated-1.1.2.tar.gz
+[2023-05-08 14:37:15] INFO root fetch - processPackages [mlgenotype]: executing diffoscope
+[2023-05-08 14:37:15] INFO root fetch - processPackages [mlgenotype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlgenotype-0.1.8.tar.gz tmp/mlgenotype-0.1.9.tar.gz --markdown 20230508/m/mlgenotype/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 14:37:15] INFO root fetch - processPackages [CreateAI]: executing diffoscope
+[2023-05-08 14:37:15] INFO root fetch - processPackages [CreateAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CreateAI-0.8.1.tar.gz tmp/CreateAI-0.8.2.tar.gz --markdown 20230508/C/CreateAI/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-05-08 14:37:15] INFO root fetch - processPackages [prettynumbers]: executing diffoscope
+[2023-05-08 14:37:15] INFO root fetch - processPackages [prettynumbers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prettynumbers-0.1.4.tar.gz tmp/prettynumbers-0.2.0.tar.gz --markdown 20230508/p/prettynumbers/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-05-08 14:37:15] INFO root fetch - processPackages [django-fragments]: Downloading https://files.pythonhosted.org/packages/5a/8d/cfc07f5785110ecf8bdeffebb53fdb1bae0c1b7cd9af5516c87d9a719f85/django_fragments-0.0.2.tar.gz
+[2023-05-08 14:37:15] INFO root fetch - processPackages [opta]: executing diffoscope
+[2023-05-08 14:37:15] INFO root fetch - processPackages [opta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opta-0.3.1.tar.gz tmp/opta-0.3.2.tar.gz --markdown 20230508/o/opta/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-08 14:37:15] INFO root fetch - processPackages [robotframework-reportportal-updated]: executing diffoscope
+[2023-05-08 14:37:15] INFO root fetch - processPackages [robotframework-reportportal-updated]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-reportportal_updated-1.1.0.tar.gz tmp/robotframework-reportportal_updated-1.1.2.tar.gz --markdown 20230508/r/robotframework-reportportal-updated/1.1.0-1.1.2/diff.md --exclude *.pyd
+[2023-05-08 14:37:15] INFO root fetch - processPackages [django-fragments]: executing diffoscope
+[2023-05-08 14:37:15] INFO root fetch - processPackages [django-fragments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_fragments-0.0.1.tar.gz tmp/django_fragments-0.0.2.tar.gz --markdown 20230508/d/django-fragments/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-08 14:37:15] INFO root fetch - processPackages [hf-webdriver-manager]: Downloading https://files.pythonhosted.org/packages/b0/96/89c7c3e2af0a84a2f00174e5796d1e912380f1f2701c8e0f77f57a63b28c/hf-webdriver-manager-0.2.0.tar.gz
+[2023-05-08 14:37:15] INFO root fetch - processPackages [hf-webdriver-manager]: executing diffoscope
+[2023-05-08 14:37:15] INFO root fetch - processPackages [hf-webdriver-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hf-webdriver-manager-0.1.0.tar.gz tmp/hf-webdriver-manager-0.2.0.tar.gz --markdown 20230508/h/hf-webdriver-manager/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-08 14:37:16] INFO root fetch - processPackages [dtscalibration]: Downloading https://files.pythonhosted.org/packages/89/ff/dd752bb749ce30cdcc21b926922ea8a91864385dba47cead407f72b6c090/dtscalibration-1.2.0.tar.gz
+[2023-05-08 14:37:16] INFO root fetch - processPackages [dtscalibration]: executing diffoscope
+[2023-05-08 14:37:16] INFO root fetch - processPackages [dtscalibration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtscalibration-1.1.2.tar.gz tmp/dtscalibration-1.2.0.tar.gz --markdown 20230508/d/dtscalibration/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-05-08 14:37:16] INFO root fetch - processPackages [bridgecrew]: Start processing: archunit
+[2023-05-08 14:37:16] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-05-08 14:37:16] WARNING root fetch - processPackages [archunit]: Skipping, unable to determine old version
+[2023-05-08 14:37:16] INFO root fetch - processPackages [archunit]: Start processing: CreateAI
+[2023-05-08 14:37:16] INFO root fetch - main [MainThread]: End processing [archunit] error
+[2023-05-08 14:37:16] INFO root fetch - processPackages [CreateAI]: New version: [0.9.3] Old Version: [0.8.2]
+[2023-05-08 14:37:16] INFO root fetch - processPackages [CreateAI]: Downloading https://files.pythonhosted.org/packages/4d/83/653e96910265bd7a988a01c1c52bec5584a02ec3e20f5181232cd8a1b4ea/CreateAI-0.9.3.tar.gz
+[2023-05-08 14:37:17] INFO root fetch - processPackages [CreateAI]: Start processing: py-auth-amqp-wrapper
+[2023-05-08 14:37:17] INFO root fetch - main [MainThread]: End processing [CreateAI]: success
+[2023-05-08 14:37:17] INFO root fetch - processPackages [CreateAI]: executing diffoscope
+[2023-05-08 14:37:17] INFO root fetch - processPackages [CreateAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CreateAI-0.8.2.tar.gz tmp/CreateAI-0.9.3.tar.gz --markdown 20230508/C/CreateAI/0.8.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-08 14:37:17] INFO root fetch - processPackages [lesscode-py]: Start processing: unified-planning
+[2023-05-08 14:37:17] INFO root fetch - main [MainThread]: End processing [lesscode-py]: success
+[2023-05-08 14:37:17] INFO root fetch - processPackages [opta]: Start processing: gardener-cicd-base
+[2023-05-08 14:37:17] INFO root fetch - main [MainThread]: End processing [opta]: success
+[2023-05-08 14:37:17] INFO root fetch - processPackages [unified-planning]: New version: [0.6.0.9.dev1] Old Version: [0.6.0.2.dev1]
+[2023-05-08 14:37:17] INFO root fetch - processPackages [py-auth-amqp-wrapper]: New version: [0.0.5] Old Version: [0.0.3]
+[2023-05-08 14:37:17] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2050.0] Old Version: [1.2049.0]
+[2023-05-08 14:37:17] INFO root fetch - processPackages [django-fragments]: Start processing: gardener-cicd-cli
+[2023-05-08 14:37:17] INFO root fetch - main [MainThread]: End processing [django-fragments]: success
+[2023-05-08 14:37:17] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2050.0] Old Version: [1.2049.0]
+[2023-05-08 14:37:17] INFO root fetch - processPackages [mlgenotype]: Start processing: gardener-cicd-dso
+[2023-05-08 14:37:17] INFO root fetch - main [MainThread]: End processing [mlgenotype]: success
+[2023-05-08 14:37:17] INFO root fetch - processPackages [unified-planning]: executing diffoscope
+[2023-05-08 14:37:17] INFO root fetch - processPackages [unified-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unified_planning-0.6.0.2.dev1.tar.gz tmp/unified_planning-0.6.0.9.dev1.tar.gz --markdown 20230508/u/unified-planning/0.6.0.2.dev1-0.6.0.9.dev1/diff.md --exclude *.pyd
+[2023-05-08 14:37:17] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2023-05-08 14:37:17] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-base-1.2049.0.tar.gz tmp/gardener-cicd-base-1.2050.0.tar.gz --markdown 20230508/g/gardener-cicd-base/1.2049.0-1.2050.0/diff.md --exclude *.pyd
+[2023-05-08 14:37:17] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2050.0] Old Version: [1.2049.0]
+[2023-05-08 14:37:17] INFO root fetch - processPackages [prettynumbers]: Start processing: gardener-cicd-libs
+[2023-05-08 14:37:17] INFO root fetch - main [MainThread]: End processing [prettynumbers]: success
+[2023-05-08 14:37:17] INFO root fetch - processPackages [gardener-cicd-libs]: New version: [1.2050.0] Old Version: [1.2049.0]
+[2023-05-08 14:37:17] INFO root fetch - processPackages [py-auth-amqp-wrapper]: Downloading https://files.pythonhosted.org/packages/44/83/7518026b40e7450acdefdf2943f1ccfd3494eff7ca7a1318e110e12d436f/py_auth_amqp_wrapper-0.0.3.tar.gz
+[2023-05-08 14:37:17] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2023-05-08 14:37:17] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-dso-1.2049.0.tar.gz tmp/gardener-cicd-dso-1.2050.0.tar.gz --markdown 20230508/g/gardener-cicd-dso/1.2049.0-1.2050.0/diff.md --exclude *.pyd
+[2023-05-08 14:37:17] INFO root fetch - processPackages [gardener-cicd-libs]: executing diffoscope
+[2023-05-08 14:37:17] INFO root fetch - processPackages [gardener-cicd-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-libs-1.2049.0.tar.gz tmp/gardener-cicd-libs-1.2050.0.tar.gz --markdown 20230508/g/gardener-cicd-libs/1.2049.0-1.2050.0/diff.md --exclude *.pyd
+[2023-05-08 14:37:17] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2023-05-08 14:37:17] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-cli-1.2049.0.tar.gz tmp/gardener-cicd-cli-1.2050.0.tar.gz --markdown 20230508/g/gardener-cicd-cli/1.2049.0-1.2050.0/diff.md --exclude *.pyd
+[2023-05-08 14:37:17] INFO root fetch - processPackages [robotframework-reportportal-updated]: Start processing: gardener-cicd-whd
+[2023-05-08 14:37:17] INFO root fetch - main [MainThread]: End processing [robotframework-reportportal-updated]: success
+[2023-05-08 14:37:17] INFO root fetch - processPackages [gardener-cicd-whd]: New version: [1.2050.0] Old Version: [1.2049.0]
+[2023-05-08 14:37:17] INFO root fetch - processPackages [py-auth-amqp-wrapper]: Downloading https://files.pythonhosted.org/packages/c3/67/998c1f5937ef558021ec4a28c701bd12a85eccca8213b6d64fedcb1a54c5/py_auth_amqp_wrapper-0.0.5.tar.gz
+[2023-05-08 14:37:17] INFO root fetch - processPackages [gardener-cicd-whd]: executing diffoscope
+[2023-05-08 14:37:17] INFO root fetch - processPackages [gardener-cicd-whd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-whd-1.2049.0.tar.gz tmp/gardener-cicd-whd-1.2050.0.tar.gz --markdown 20230508/g/gardener-cicd-whd/1.2049.0-1.2050.0/diff.md --exclude *.pyd
+[2023-05-08 14:37:17] INFO root fetch - processPackages [py-auth-amqp-wrapper]: executing diffoscope
+[2023-05-08 14:37:17] INFO root fetch - processPackages [py-auth-amqp-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_auth_amqp_wrapper-0.0.3.tar.gz tmp/py_auth_amqp_wrapper-0.0.5.tar.gz --markdown 20230508/p/py-auth-amqp-wrapper/0.0.3-0.0.5/diff.md --exclude *.pyd
+[2023-05-08 14:37:18] INFO root fetch - processPackages [hf-webdriver-manager]: Start processing: gardener-oci
+[2023-05-08 14:37:18] INFO root fetch - main [MainThread]: End processing [hf-webdriver-manager]: success
+[2023-05-08 14:37:18] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2023-05-08 14:37:18] INFO root fetch - processPackages [CreateAI]: Start processing: stackdiac
+[2023-05-08 14:37:18] INFO root fetch - main [MainThread]: End processing [CreateAI]: success
+[2023-05-08 14:37:18] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2023-05-08 14:37:18] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20230508/g/gardener-oci/1.998.0-1.999.0/diff.md --exclude *.pyd
+[2023-05-08 14:37:18] INFO root fetch - processPackages [stackdiac]: New version: [0.0.1.dev9] Old Version: [0.0.1.dev8]
+[2023-05-08 14:37:18] INFO root fetch - processPackages [stackdiac]: executing diffoscope
+[2023-05-08 14:37:18] INFO root fetch - processPackages [stackdiac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stackdiac-0.0.1.dev8.tar.gz tmp/stackdiac-0.0.1.dev9.tar.gz --markdown 20230508/s/stackdiac/0.0.1.dev8-0.0.1.dev9/diff.md --exclude *.pyd
+[2023-05-08 14:37:19] INFO root fetch - processPackages [gardener-cicd-cli]: Start processing: managedtenants-cli
+[2023-05-08 14:37:19] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2023-05-08 14:37:19] INFO root fetch - processPackages [gardener-cicd-whd]: Start processing: abch-tree-sitter-solidity
+[2023-05-08 14:37:19] INFO root fetch - main [MainThread]: End processing [gardener-cicd-whd]: success
+[2023-05-08 14:37:19] INFO root fetch - processPackages [py-auth-amqp-wrapper]: Start processing: accelerate
+[2023-05-08 14:37:19] INFO root fetch - main [MainThread]: End processing [py-auth-amqp-wrapper]: success
+[2023-05-08 14:37:19] INFO root fetch - processPackages [managedtenants-cli]: New version: [1.9.0] Old Version: [1.8.3]
+[2023-05-08 14:37:19] INFO root fetch - processPackages [abch-tree-sitter-solidity]: New version: [1.2.1] Old Version: [1.1.0]
+[2023-05-08 14:37:19] INFO root fetch - processPackages [accelerate]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-08 14:37:19] INFO root fetch - processPackages [managedtenants-cli]: Downloading https://files.pythonhosted.org/packages/39/b7/356ec51e479aaf8176f8128af98feb4cf21b31a039a2109612d473bf5730/managedtenants_cli-1.8.3-py3-none-any.whl
+[2023-05-08 14:37:19] INFO root fetch - processPackages [abch-tree-sitter-solidity]: Downloading https://files.pythonhosted.org/packages/be/48/36df8a2ad4241f789b5c4776616ee0dcf1b419200184b40638e3ff7da4ed/abch_tree_sitter_solidity-1.1.0.tar.gz
+[2023-05-08 14:37:19] INFO root fetch - processPackages [accelerate]: Downloading https://files.pythonhosted.org/packages/bc/0c/b15698994f6090e5ef2e4572a90ad90a4a0d79b1670335aa4dda9ff1a338/accelerate-0.8.0.tar.gz
+[2023-05-08 14:37:19] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2023-05-08 14:37:19] INFO root fetch - processPackages [abch-tree-sitter-solidity]: Downloading https://files.pythonhosted.org/packages/30/9b/e1f72280c74b334cd61da4f45d940b679f4269b46cea4ce9f376b81ea6b4/abch_tree_sitter_solidity-1.2.1.tar.gz
+[2023-05-08 14:37:19] INFO root fetch - processPackages [managedtenants-cli]: Downloading https://files.pythonhosted.org/packages/ce/54/b1f5f0ed4231802571740849976b7e34b1f8e33895238e0c4c80f6358e36/managedtenants_cli-1.9.0-py3-none-any.whl
+[2023-05-08 14:37:19] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2023-05-08 14:37:19] INFO root fetch - processPackages [abch-tree-sitter-solidity]: executing diffoscope
+[2023-05-08 14:37:19] INFO root fetch - processPackages [abch-tree-sitter-solidity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abch_tree_sitter_solidity-1.1.0.tar.gz tmp/abch_tree_sitter_solidity-1.2.1.tar.gz --markdown 20230508/a/abch-tree-sitter-solidity/1.1.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-08 14:37:20] INFO root fetch - processPackages [accelerate]: Downloading https://files.pythonhosted.org/packages/a3/23/0b0885e159ead2ec3b774096dab93476ef0d76cb314fd1bba5c2b8e29fa0/accelerate-0.9.0.tar.gz
+[2023-05-08 14:37:20] INFO root fetch - processPackages [managedtenants-cli]: executing diffoscope
+[2023-05-08 14:37:20] INFO root fetch - processPackages [managedtenants-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/managedtenants_cli-1.8.3-py3-none-any.whl.zip tmp/managedtenants_cli-1.9.0-py3-none-any.whl.zip --markdown 20230508/m/managedtenants-cli/1.8.3-1.9.0/diff.md --exclude *.pyd
+[2023-05-08 14:37:20] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2023-05-08 14:37:20] INFO root fetch - processPackages [accelerate]: executing diffoscope
+[2023-05-08 14:37:20] INFO root fetch - processPackages [accelerate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelerate-0.8.0.tar.gz tmp/accelerate-0.9.0.tar.gz --markdown 20230508/a/accelerate/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-08 14:37:20] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
+[2023-05-08 14:37:21] INFO root fetch - main [MainThread]: End processing [managedtenants-cli]: success
+[2023-05-08 14:37:21] INFO root fetch - main [MainThread]: End processing [accelerate]: success
+[2023-05-08 14:37:22] INFO root fetch - main [MainThread]: End processing [abch-tree-sitter-solidity]: success
+[2023-05-08 14:37:22] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
+[2023-05-08 14:37:23] INFO root fetch - main [MainThread]: End processing [stackdiac]: success
+[2023-05-08 14:37:26] INFO root fetch - main [MainThread]: End processing [dtscalibration]: success
+[2023-05-08 14:37:26] INFO root fetch - main [MainThread]: Store serial: [18016674]
