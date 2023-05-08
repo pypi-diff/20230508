@@ -6081,3 +6081,30 @@
 [2023-05-08 08:08:40] INFO root fetch - main [MainThread]: End processing [leap-model-parser]: success
 [2023-05-08 08:08:42] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-05-08 08:08:42] INFO root fetch - main [MainThread]: Store serial: [18013361]
+[2023-05-08 08:13:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18013361]
+[2023-05-08 08:13:51] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-08 08:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bpy-building-blocks
+[2023-05-08 08:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jkh011120-algolib
+[2023-05-08 08:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: frontengine
+[2023-05-08 08:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: frontengine-dev
+[2023-05-08 08:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: madai
+[2023-05-08 08:13:52] WARNING root fetch - processPackages [jkh011120-algolib]: Skipping, unable to determine old version
+[2023-05-08 08:13:52] INFO root fetch - processPackages [frontengine]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 08:13:52] INFO root fetch - main [MainThread]: End processing [jkh011120-algolib] error
+[2023-05-08 08:13:52] INFO root fetch - processPackages [madai]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-08 08:13:52] INFO root fetch - processPackages [bpy-building-blocks]: New version: [0.0.24] Old Version: [0.0.23]
+[2023-05-08 08:13:52] INFO root fetch - processPackages [frontengine-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 08:13:52] INFO root fetch - processPackages [frontengine]: executing diffoscope
+[2023-05-08 08:13:52] INFO root fetch - processPackages [frontengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine-0.0.8.tar.gz tmp/frontengine-0.0.9.tar.gz --markdown 20230508/f/frontengine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 08:13:52] INFO root fetch - processPackages [frontengine-dev]: executing diffoscope
+[2023-05-08 08:13:52] INFO root fetch - processPackages [frontengine-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine_dev-0.0.8.tar.gz tmp/frontengine_dev-0.0.9.tar.gz --markdown 20230508/f/frontengine-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 08:13:52] INFO root fetch - processPackages [madai]: Downloading https://files.pythonhosted.org/packages/67/b7/e66d81444d86fa6ee288a052c208ef5c8268597c18374c91e4ea07209cdf/madai-0.1.2.tar.gz
+[2023-05-08 08:13:52] INFO root fetch - processPackages [madai]: executing diffoscope
+[2023-05-08 08:13:52] INFO root fetch - processPackages [madai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/madai-0.1.1.tar.gz tmp/madai-0.1.2.tar.gz --markdown 20230508/m/madai/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-08 08:13:52] INFO root fetch - processPackages [bpy-building-blocks]: executing diffoscope
+[2023-05-08 08:13:52] INFO root fetch - processPackages [bpy-building-blocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpy_building_blocks-0.0.23.tar.gz tmp/bpy_building_blocks-0.0.24.tar.gz --markdown 20230508/b/bpy-building-blocks/0.0.23-0.0.24/diff.md --exclude *.pyd
+[2023-05-08 08:13:53] INFO root fetch - main [MainThread]: End processing [madai]: success
+[2023-05-08 08:13:53] INFO root fetch - main [MainThread]: End processing [frontengine-dev]: success
+[2023-05-08 08:13:53] INFO root fetch - main [MainThread]: End processing [bpy-building-blocks]: success
+[2023-05-08 08:13:53] INFO root fetch - main [MainThread]: End processing [frontengine]: success
+[2023-05-08 08:13:53] INFO root fetch - main [MainThread]: Store serial: [18013380]
