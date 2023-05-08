@@ -2013,3 +2013,77 @@
 [2023-05-08 03:27:34] INFO root fetch - main [MainThread]: End processing [exciton]: success
 [2023-05-08 03:27:34] INFO root fetch - main [MainThread]: End processing [dlhpcstarter]: success
 [2023-05-08 03:27:34] INFO root fetch - main [MainThread]: Store serial: [18011232]
+[2023-05-08 03:32:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18011232]
+[2023-05-08 03:32:42] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-08 03:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-wordpress
+[2023-05-08 03:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydal
+[2023-05-08 03:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-organizations
+[2023-05-08 03:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-dllib-spark3
+[2023-05-08 03:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-gitlab-runner
+[2023-05-08 03:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-gitlab-runner
+[2023-05-08 03:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-orca-spark3
+[2023-05-08 03:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl-friesian-spark3
+[2023-05-08 03:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bigdl-chronos-spark3
+[2023-05-08 03:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigdl-spark3
+[2023-05-08 03:32:42] INFO root fetch - processPackages [pydal]: New version: [20230507.3] Old Version: [20230507.1]
+[2023-05-08 03:32:42] INFO root fetch - processPackages [bigdl-dllib-spark3]: New version: [2.4.0b20230508] Old Version: [2.4.0b20230505]
+[2023-05-08 03:32:42] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-05-08 03:32:42] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-05-08 03:32:42] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-05-08 03:32:42] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-08 03:32:42] INFO root fetch - processPackages [bigdl-spark3]: New version: [2.4.0b20230508] Old Version: [2.4.0b20230505]
+[2023-05-08 03:32:42] INFO root fetch - processPackages [bigdl-orca-spark3]: New version: [2.4.0b20230508] Old Version: [2.4.0b20230505]
+[2023-05-08 03:32:42] INFO root fetch - processPackages [bigdl-friesian-spark3]: New version: [2.4.0b20230508] Old Version: [2.4.0b20230505]
+[2023-05-08 03:32:42] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/95/5a/46730445b7c8db7cad33c0b319cbd75004ba42b6cbe2f00628d2191c5516/cdk-wordpress-0.0.98.tar.gz
+[2023-05-08 03:32:42] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2023-05-08 03:32:42] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.1.98.tar.gz tmp/cdk-gitlab-runner-2.1.99.tar.gz --markdown 20230508/c/cdk-gitlab-runner/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-05-08 03:32:42] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-05-08 03:32:42] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230508/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-05-08 03:32:42] INFO root fetch - processPackages [bigdl-dllib-spark3]: Downloading https://files.pythonhosted.org/packages/80/2b/1300c35971a1dc6223fa6bc921d639935071c43c285e3994737da2ad968e/bigdl-dllib-spark3-2.4.0b20230505.tar.gz
+[2023-05-08 03:32:42] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2023-05-08 03:32:42] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.1.98.tar.gz tmp/cdk-gitlab-runner-2.1.99.tar.gz --markdown 20230508/c/cdk-gitlab-runner/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-05-08 03:32:42] WARNING root fetch - processPackages [bigdl-dllib-spark3]: Skipping package: exceeds size limit 61251808>=10485760
+[2023-05-08 03:32:42] INFO root fetch - processPackages [bigdl-dllib-spark3]: Start processing: textgrid-convert
+[2023-05-08 03:32:42] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark3] error
+[2023-05-08 03:32:42] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/ac/68/e5d0213176165f4e4cdf6786210c3ae72e86b8fa7dbb5066ca4f285c6a2a/bigdl_spark3-2.4.0b20230505-py3-none-manylinux1_x86_64.whl
+[2023-05-08 03:32:42] INFO root fetch - processPackages [textgrid-convert]: New version: [0.5] Old Version: [0.4.4]
+[2023-05-08 03:32:42] INFO root fetch - processPackages [pydal]: Downloading https://files.pythonhosted.org/packages/81/a8/eefb4d63cdace05e38773160425c1e14bb599199fbe57c4d254662f76d38/pydal-20230507.3.tar.gz
+[2023-05-08 03:32:42] INFO root fetch - processPackages [bigdl-orca-spark3]: Downloading https://files.pythonhosted.org/packages/75/54/bd4e77c8b51232261f1aa794458b0595a79e584bcd37ac7bcc8040f46d4d/bigdl_orca_spark3-2.4.0b20230505-py3-none-manylinux1_x86_64.whl
+[2023-05-08 03:32:42] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/42/29/f5114c313dcadffd54e8df3d2499d1fbca485bd3c84d05893638c932eb2f/bigdl_friesian_spark3-2.4.0b20230505-py3-none-manylinux1_x86_64.whl
+[2023-05-08 03:32:42] INFO root fetch - processPackages [bigdl-chronos-spark3]: New version: [2.4.0b20230508] Old Version: [2.4.0b20230505]
+[2023-05-08 03:32:42] INFO root fetch - processPackages [pydal]: executing diffoscope
+[2023-05-08 03:32:42] INFO root fetch - processPackages [pydal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyDAL-20230507.1.tar.gz tmp/pydal-20230507.3.tar.gz --markdown 20230508/p/pydal/20230507.1-20230507.3/diff.md --exclude *.pyd
+[2023-05-08 03:32:42] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/f5/33/8bc435266e926cea52eb7df452e54c2c0657beef07580a86eae44236d88b/cdk-wordpress-0.0.99.tar.gz
+[2023-05-08 03:32:42] WARNING root fetch - processPackages [bigdl-orca-spark3]: Skipping package: exceeds size limit 20207443>=10485760
+[2023-05-08 03:32:42] INFO root fetch - processPackages [bigdl-orca-spark3]: Start processing: cdk-common
+[2023-05-08 03:32:42] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark3] error
+[2023-05-08 03:32:42] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/07/5a/9a8a30f2235eae5164233ac3a22813a2dd477d3906eb828c39cb8fc0e7ae/bigdl_spark3-2.4.0b20230508-py3-none-manylinux1_x86_64.whl
+[2023-05-08 03:32:43] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2023-05-08 03:32:43] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20230508/c/cdk-wordpress/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-08 03:32:43] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/b4/5a/9be16e3904cab1f018ea3dcb37459e385c8a6a7d71689e5ae6561704581a/bigdl_chronos_spark3-2.4.0b20230505-py3-none-manylinux1_x86_64.whl
+[2023-05-08 03:32:43] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/bc/f7/3db8d543fa1ee68c28554b5c93165ade97236bb52fc5dae091695eba83ec/bigdl_friesian_spark3-2.4.0b20230508-py3-none-manylinux1_x86_64.whl
+[2023-05-08 03:32:43] INFO root fetch - processPackages [bigdl-spark3]: executing diffoscope
+[2023-05-08 03:32:43] INFO root fetch - processPackages [bigdl-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark3-2.4.0b20230505-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark3-2.4.0b20230508-py3-none-manylinux1_x86_64.whl.zip --markdown 20230508/b/bigdl-spark3/2.4.0b20230505-2.4.0b20230508/diff.md --exclude *.pyd
+[2023-05-08 03:32:43] INFO root fetch - processPackages [textgrid-convert]: executing diffoscope
+[2023-05-08 03:32:43] INFO root fetch - processPackages [textgrid-convert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textgrid-convert-0.4.4.tar.gz tmp/textgrid-convert-0.5.tar.gz --markdown 20230508/t/textgrid-convert/0.4.4-0.5/diff.md --exclude *.pyd
+[2023-05-08 03:32:43] INFO root fetch - processPackages [bigdl-friesian-spark3]: executing diffoscope
+[2023-05-08 03:32:43] INFO root fetch - processPackages [bigdl-friesian-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark3-2.4.0b20230505-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark3-2.4.0b20230508-py3-none-manylinux1_x86_64.whl.zip --markdown 20230508/b/bigdl-friesian-spark3/2.4.0b20230505-2.4.0b20230508/diff.md --exclude *.pyd
+[2023-05-08 03:32:43] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-08 03:32:43] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/b8/bb/b74baf90c219c21515742d5dd0fcef2b1f1215cab597a3de1f6ffefb779a/bigdl_chronos_spark3-2.4.0b20230508-py3-none-manylinux1_x86_64.whl
+[2023-05-08 03:32:43] INFO root fetch - processPackages [bigdl-chronos-spark3]: executing diffoscope
+[2023-05-08 03:32:43] INFO root fetch - processPackages [bigdl-chronos-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark3-2.4.0b20230505-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark3-2.4.0b20230508-py3-none-manylinux1_x86_64.whl.zip --markdown 20230508/b/bigdl-chronos-spark3/2.4.0b20230505-2.4.0b20230508/diff.md --exclude *.pyd
+[2023-05-08 03:32:43] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2023-05-08 03:32:43] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2023-05-08 03:32:44] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2023-05-08 03:32:44] INFO root fetch - main [MainThread]: End processing [bigdl-spark3]: success
+[2023-05-08 03:32:44] INFO root fetch - main [MainThread]: End processing [textgrid-convert]: success
+[2023-05-08 03:32:44] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2023-05-08 03:32:44] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2023-05-08 03:32:44] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark3]: success
+[2023-05-08 03:32:44] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-05-08 03:32:44] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230508/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-08 03:32:44] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-05-08 03:32:45] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark3]: success
+[2023-05-08 03:32:46] INFO root fetch - main [MainThread]: End processing [pydal]: success
+[2023-05-08 03:32:47] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-05-08 03:32:47] INFO root fetch - main [MainThread]: Store serial: [18011268]
