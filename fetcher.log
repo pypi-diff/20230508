@@ -5684,3 +5684,24 @@
 [2023-05-08 07:15:41] INFO root fetch - main [MainThread]: End processing [xtgeoviz]: success
 [2023-05-08 07:15:43] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
 [2023-05-08 07:15:43] INFO root fetch - main [MainThread]: Store serial: [18013136]
+[2023-05-08 07:20:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18013136]
+[2023-05-08 07:20:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-08 07:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: discordia
+[2023-05-08 07:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wcferry
+[2023-05-08 07:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rapidpe-rift-pipe
+[2023-05-08 07:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-portfolio-analytics
+[2023-05-08 07:20:51] WARNING root fetch - processPackages [discordia]: Skipping, unable to determine old version
+[2023-05-08 07:20:51] INFO root fetch - main [MainThread]: End processing [discordia] error
+[2023-05-08 07:20:51] INFO root fetch - processPackages [wcferry]: New version: [37.1.25.0] Old Version: [3.7.0.30.25]
+[2023-05-08 07:20:51] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.2.2.dev20230508] Old Version: [0.2.2.dev20230507]
+[2023-05-08 07:20:51] WARNING root fetch - processPackages [py-portfolio-analytics]: Skipping, unable to determine old version
+[2023-05-08 07:20:51] INFO root fetch - main [MainThread]: End processing [py-portfolio-analytics] error
+[2023-05-08 07:20:52] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/80/85/67167cf623dd068ce61881ce4a6e6df104ebb02c3772590460740b5c89a6/rapidpe_rift_pipe-0.2.2.dev20230508.tar.gz
+[2023-05-08 07:20:52] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2023-05-08 07:20:52] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.2.2.dev20230507.tar.gz tmp/rapidpe_rift_pipe-0.2.2.dev20230508.tar.gz --markdown 20230508/r/rapidpe-rift-pipe/0.2.2.dev20230507-0.2.2.dev20230508/diff.md --exclude *.pyd
+[2023-05-08 07:20:52] INFO root fetch - processPackages [wcferry]: Downloading https://files.pythonhosted.org/packages/86/b7/d9c739ccf393530040d1a2bcc62d3084f574422eaa25f9f7498f179c88a1/wcferry-37.1.25.0.tar.gz
+[2023-05-08 07:20:52] INFO root fetch - processPackages [wcferry]: executing diffoscope
+[2023-05-08 07:20:52] INFO root fetch - processPackages [wcferry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wcferry-3.7.0.30.25.tar.gz tmp/wcferry-37.1.25.0.tar.gz --markdown 20230508/w/wcferry/3.7.0.30.25-37.1.25.0/diff.md --exclude *.pyd
+[2023-05-08 07:20:53] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2023-05-08 07:20:54] INFO root fetch - main [MainThread]: End processing [wcferry]: success
+[2023-05-08 07:20:54] INFO root fetch - main [MainThread]: Store serial: [18013152]
