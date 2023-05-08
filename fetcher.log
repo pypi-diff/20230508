@@ -4663,3 +4663,32 @@
 [2023-05-08 05:57:44] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tbm]: success
 [2023-05-08 05:57:44] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tag]: success
 [2023-05-08 05:57:44] INFO root fetch - main [MainThread]: Store serial: [18012583]
+[2023-05-08 06:02:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18012583]
+[2023-05-08 06:02:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-08 06:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: uintel
+[2023-05-08 06:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-tcaplusdb
+[2023-05-08 06:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-tcb
+[2023-05-08 06:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: twitter-api-py
+[2023-05-08 06:02:53] INFO root fetch - processPackages [twitter-api-py]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-08 06:02:53] INFO root fetch - processPackages [uintel]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-08 06:02:53] INFO root fetch - processPackages [tencentcloud-sdk-python-tcb]: New version: [3.0.886] Old Version: [3.0.885]
+[2023-05-08 06:02:53] INFO root fetch - processPackages [tencentcloud-sdk-python-tcaplusdb]: New version: [3.0.886] Old Version: [3.0.885]
+[2023-05-08 06:02:53] INFO root fetch - processPackages [tencentcloud-sdk-python-tcb]: Downloading https://files.pythonhosted.org/packages/62/1d/ae919b8c64aed1ff50bc65dc7f1ed8a025515b24fb55dcb861b7fd640b4f/tencentcloud-sdk-python-tcb-3.0.885.tar.gz
+[2023-05-08 06:02:53] INFO root fetch - processPackages [tencentcloud-sdk-python-tcaplusdb]: Downloading https://files.pythonhosted.org/packages/85/32/bc885be0fe429a4fa960fe97fbd9925c0d35bc3b55eff448741e4fb1a55d/tencentcloud-sdk-python-tcaplusdb-3.0.885.tar.gz
+[2023-05-08 06:02:53] INFO root fetch - processPackages [uintel]: Downloading https://files.pythonhosted.org/packages/fd/76/05d3c245c43cbc18f7ae8b6e78296317e23495d757868df312313d0d1434/uintel-0.4.2.tar.gz
+[2023-05-08 06:02:53] INFO root fetch - processPackages [twitter-api-py]: Downloading https://files.pythonhosted.org/packages/24/fa/56393b7a1e769fa0b5ae758ab034e1eb0edc451944a347cf9e11be4473e1/twitter_api_py-0.4.9.tar.gz
+[2023-05-08 06:02:53] INFO root fetch - processPackages [uintel]: executing diffoscope
+[2023-05-08 06:02:53] INFO root fetch - processPackages [uintel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uintel-0.4.1.tar.gz tmp/uintel-0.4.2.tar.gz --markdown 20230508/u/uintel/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-08 06:02:53] INFO root fetch - processPackages [twitter-api-py]: executing diffoscope
+[2023-05-08 06:02:53] INFO root fetch - processPackages [twitter-api-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twitter_api_py-0.4.8.tar.gz tmp/twitter_api_py-0.4.9.tar.gz --markdown 20230508/t/twitter-api-py/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-08 06:02:53] INFO root fetch - processPackages [tencentcloud-sdk-python-tcb]: Downloading https://files.pythonhosted.org/packages/41/0e/d7cd21f9d4aeca23ac0088615bdeada7e35b7be3bc42e0f47c21e75c4ab4/tencentcloud-sdk-python-tcb-3.0.886.tar.gz
+[2023-05-08 06:02:53] INFO root fetch - processPackages [tencentcloud-sdk-python-tcaplusdb]: Downloading https://files.pythonhosted.org/packages/9d/e7/d9256bdb37a361fda3d865903af007112b541bd1901f15dec39e118271c8/tencentcloud-sdk-python-tcaplusdb-3.0.886.tar.gz
+[2023-05-08 06:02:54] INFO root fetch - processPackages [tencentcloud-sdk-python-tcb]: executing diffoscope
+[2023-05-08 06:02:54] INFO root fetch - processPackages [tencentcloud-sdk-python-tcb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tcb-3.0.885.tar.gz tmp/tencentcloud-sdk-python-tcb-3.0.886.tar.gz --markdown 20230508/t/tencentcloud-sdk-python-tcb/3.0.885-3.0.886/diff.md --exclude *.pyd
+[2023-05-08 06:02:54] INFO root fetch - processPackages [tencentcloud-sdk-python-tcaplusdb]: executing diffoscope
+[2023-05-08 06:02:54] INFO root fetch - processPackages [tencentcloud-sdk-python-tcaplusdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tcaplusdb-3.0.885.tar.gz tmp/tencentcloud-sdk-python-tcaplusdb-3.0.886.tar.gz --markdown 20230508/t/tencentcloud-sdk-python-tcaplusdb/3.0.885-3.0.886/diff.md --exclude *.pyd
+[2023-05-08 06:02:55] INFO root fetch - main [MainThread]: End processing [uintel]: success
+[2023-05-08 06:02:55] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tcb]: success
+[2023-05-08 06:02:55] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tcaplusdb]: success
+[2023-05-08 06:02:55] INFO root fetch - main [MainThread]: End processing [twitter-api-py]: success
+[2023-05-08 06:02:55] INFO root fetch - main [MainThread]: Store serial: [18012612]
