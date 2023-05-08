@@ -2307,3 +2307,33 @@
 [2023-05-08 03:53:33] INFO root fetch - main [MainThread]: End processing [circuitpython-ArrowLine]: success
 [2023-05-08 03:53:34] INFO root fetch - main [MainThread]: End processing [easy-sql-easy-sql]: success
 [2023-05-08 03:53:34] INFO root fetch - main [MainThread]: Store serial: [18011387]
+[2023-05-08 03:58:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18011387]
+[2023-05-08 03:58:42] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-08 03:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-secret-manager-wrapper-layer
+[2023-05-08 03:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: auptitcafe
+[2023-05-08 03:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-secret-manager-wrapper-layer
+[2023-05-08 03:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dvc-data
+[2023-05-08 03:58:42] INFO root fetch - processPackages [auptitcafe]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-08 03:58:42] INFO root fetch - processPackages [dvc-data]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-08 03:58:42] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-08 03:58:42] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-08 03:58:42] INFO root fetch - processPackages [dvc-data]: Downloading https://files.pythonhosted.org/packages/03/d5/0752bbc3e82edd356b4f0c69a11c9711eb09deabd1a6a8f948e2da46818d/dvc-data-0.8.0.tar.gz
+[2023-05-08 03:58:42] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2023-05-08 03:58:42] INFO root fetch - processPackages [auptitcafe]: Downloading https://files.pythonhosted.org/packages/43/a8/ccb884c3df6c2e5f785894805fe64a1c16558208952f285cfaf311698cd4/auptitcafe-0.1.3.tar.gz
+[2023-05-08 03:58:42] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2023-05-08 03:58:42] INFO root fetch - processPackages [auptitcafe]: executing diffoscope
+[2023-05-08 03:58:42] INFO root fetch - processPackages [auptitcafe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auptitcafe-0.1.2.tar.gz tmp/auptitcafe-0.1.3.tar.gz --markdown 20230508/a/auptitcafe/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-08 03:58:43] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2023-05-08 03:58:43] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2023-05-08 03:58:43] INFO root fetch - processPackages [dvc-data]: Downloading https://files.pythonhosted.org/packages/8c/65/1d133c2ce7da48539e36d2edda0ae3f74534e639f26efaef0c696860e8c2/dvc-data-0.9.0.tar.gz
+[2023-05-08 03:58:43] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2023-05-08 03:58:43] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20230508/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-08 03:58:43] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2023-05-08 03:58:43] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20230508/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-08 03:58:43] INFO root fetch - processPackages [dvc-data]: executing diffoscope
+[2023-05-08 03:58:43] INFO root fetch - processPackages [dvc-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-data-0.8.0.tar.gz tmp/dvc-data-0.9.0.tar.gz --markdown 20230508/d/dvc-data/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-08 03:58:44] INFO root fetch - main [MainThread]: End processing [auptitcafe]: success
+[2023-05-08 03:58:44] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2023-05-08 03:58:44] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2023-05-08 03:58:44] INFO root fetch - main [MainThread]: End processing [dvc-data]: success
+[2023-05-08 03:58:44] INFO root fetch - main [MainThread]: Store serial: [18011408]
