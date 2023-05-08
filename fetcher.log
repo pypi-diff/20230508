@@ -18087,3 +18087,81 @@ EOFError: EOF read where object expected
 [2023-05-08 19:29:51] INFO root fetch - main [MainThread]: End processing [robotframework-browser]: success
 [2023-05-08 19:29:52] INFO root fetch - main [MainThread]: End processing [edx-event-bus-kafka]: success
 [2023-05-08 19:29:52] INFO root fetch - main [MainThread]: Store serial: [18020064]
+[2023-05-08 19:34:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18020064]
+[2023-05-08 19:35:02] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-08 19:35:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prefect
+[2023-05-08 19:35:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mkdocs-exporter
+[2023-05-08 19:35:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: solarkit
+[2023-05-08 19:35:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ProjZ.py
+[2023-05-08 19:35:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-confluentcloud
+[2023-05-08 19:35:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: classeval
+[2023-05-08 19:35:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: MinAtar
+[2023-05-08 19:35:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torchvision
+[2023-05-08 19:35:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spacy-to-hf
+[2023-05-08 19:35:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: adsms
+[2023-05-08 19:35:02] INFO root fetch - processPackages [mkdocs-exporter]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-08 19:35:02] INFO root fetch - processPackages [pulumi-confluentcloud]: New version: [1.9.0a1675887560] Old Version: [1.9.0]
+[2023-05-08 19:35:02] INFO root fetch - processPackages [ProjZ.py]: New version: [2.4.5] Old Version: [2.4.4]
+[2023-05-08 19:35:02] INFO root fetch - processPackages [torchvision]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-08 19:35:02] INFO root fetch - processPackages [MinAtar]: New version: [1.0.14] Old Version: [1.0.13]
+[2023-05-08 19:35:02] INFO root fetch - processPackages [adsms]: New version: [0.4] Old Version: [0.3]
+[2023-05-08 19:35:02] INFO root fetch - processPackages [solarkit]: New version: [0.1.1] Old Version: [0.1]
+[2023-05-08 19:35:02] INFO root fetch - processPackages [spacy-to-hf]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-08 19:35:02] INFO root fetch - processPackages [pulumi-confluentcloud]: executing diffoscope
+[2023-05-08 19:35:02] INFO root fetch - processPackages [classeval]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-08 19:35:02] INFO root fetch - processPackages [pulumi-confluentcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_confluentcloud-1.9.0.tar.gz tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz --markdown 20230508/p/pulumi-confluentcloud/1.9.0-1.9.0a1675887560/diff.md --exclude *.pyd
+[2023-05-08 19:35:02] INFO root fetch - processPackages [prefect]: New version: [2.9.0] Old Version: [2.82]
+[2023-05-08 19:35:02] INFO root fetch - processPackages [mkdocs-exporter]: Downloading https://files.pythonhosted.org/packages/d7/05/77263d1462ff97855a1b6eb5db98a951e9f36bd4bc731f3fbb1789aac8a3/mkdocs_exporter-0.0.1.tar.gz
+[2023-05-08 19:35:02] INFO root fetch - processPackages [ProjZ.py]: Downloading https://files.pythonhosted.org/packages/ad/6e/c7d3abcf90a5f7c7df732a04c9b2f3084e53ceae80e858051d848a09d4cc/ProjZ.py-2.4.4.tar.gz
+[2023-05-08 19:35:02] INFO root fetch - processPackages [torchvision]: Downloading https://files.pythonhosted.org/packages/60/8e/227796b0b41f190bd28d07c7a1aab3d24fd49c109ef04179db06fd61c4c9/torchvision-0.9.0-cp39-cp39-win_amd64.whl
+[2023-05-08 19:35:02] INFO root fetch - processPackages [adsms]: Downloading https://files.pythonhosted.org/packages/df/94/e439ec5073929042021befb0ab21fad2c6ca677d952b2fe964ef8b648978/adsms-0.3.tar.gz
+[2023-05-08 19:35:02] INFO root fetch - processPackages [MinAtar]: Downloading https://files.pythonhosted.org/packages/10/4e/ef5665dd502ed4f31782c45b23391e257380308524d375a253fa16eac595/MinAtar-1.0.14.tar.gz
+[2023-05-08 19:35:02] INFO root fetch - processPackages [classeval]: Downloading https://files.pythonhosted.org/packages/8f/ca/3ad6341f545170fc8b20e849a7feb3f13721c3ec447854b2bff44e5df1fb/classeval-0.2.0.tar.gz
+[2023-05-08 19:35:02] INFO root fetch - processPackages [spacy-to-hf]: Downloading https://files.pythonhosted.org/packages/d3/49/93a259035adb4d699709ffa86ec6047d379b0905d27a8869613638876c82/spacy-to-hf-0.0.1.tar.gz
+[2023-05-08 19:35:02] INFO root fetch - processPackages [prefect]: Downloading https://files.pythonhosted.org/packages/20/bd/9580e89a911969805904dd984258f2250f96726fbb91373970a41c36aab3/prefect-2.82.tar.gz
+[2023-05-08 19:35:02] INFO root fetch - processPackages [MinAtar]: executing diffoscope
+[2023-05-08 19:35:02] INFO root fetch - processPackages [MinAtar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MinAtar-1.0.13.tar.gz tmp/MinAtar-1.0.14.tar.gz --markdown 20230508/M/MinAtar/1.0.13-1.0.14/diff.md --exclude *.pyd
+[2023-05-08 19:35:02] INFO root fetch - processPackages [solarkit]: Downloading https://files.pythonhosted.org/packages/ac/bb/6adb1a22ef2ab7378302201034a322d9fadc5eaf06c5bc1c3e5665316bd9/solarkit-0.1.1.tar.gz
+[2023-05-08 19:35:02] INFO root fetch - processPackages [mkdocs-exporter]: Downloading https://files.pythonhosted.org/packages/bf/fc/3abe50416147ac9700d04da2dd95ac63ca6a9bee106e96a2c3ff75c25d78/mkdocs_exporter-0.0.2.tar.gz
+[2023-05-08 19:35:02] INFO root fetch - processPackages [ProjZ.py]: Downloading https://files.pythonhosted.org/packages/78/28/3e48f98f310bae4ad87a2626cf69cd775b0010222945fc5ca9e3c27dbe22/ProjZ.py-2.4.5.tar.gz
+[2023-05-08 19:35:02] INFO root fetch - processPackages [torchvision]: Downloading https://files.pythonhosted.org/packages/c5/be/c078b97033551a8ffa7b8cf219b2b97a5d09fd03ce4019c4b896571ba2e2/torchvision-0.9.1-cp39-cp39-win_amd64.whl
+[2023-05-08 19:35:02] INFO root fetch - processPackages [adsms]: Downloading https://files.pythonhosted.org/packages/cb/22/11153e3e1a4e0f9e8459dc620ca9162a852081dd344a869c57da091c0eea/adsms-0.4.tar.gz
+[2023-05-08 19:35:02] INFO root fetch - processPackages [torchvision]: executing diffoscope
+[2023-05-08 19:35:02] INFO root fetch - processPackages [torchvision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchvision-0.9.0-cp39-cp39-win_amd64.whl.zip tmp/torchvision-0.9.1-cp39-cp39-win_amd64.whl.zip --markdown 20230508/t/torchvision/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-08 19:35:02] INFO root fetch - processPackages [solarkit]: executing diffoscope
+[2023-05-08 19:35:02] INFO root fetch - processPackages [solarkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solarkit-0.1.tar.gz tmp/solarkit-0.1.1.tar.gz --markdown 20230508/s/solarkit/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-05-08 19:35:02] INFO root fetch - processPackages [classeval]: Downloading https://files.pythonhosted.org/packages/b1/45/e7c05ea645e40099f012967743238c5ddec625c0498935131adf63f2bcca/classeval-0.2.1.tar.gz
+[2023-05-08 19:35:02] INFO root fetch - processPackages [spacy-to-hf]: Downloading https://files.pythonhosted.org/packages/29/94/65ff1edca726371e974d78a6761686d491e37137983392c6aa7cc813a987/spacy-to-hf-0.0.2.tar.gz
+[2023-05-08 19:35:02] INFO root fetch - processPackages [mkdocs-exporter]: executing diffoscope
+[2023-05-08 19:35:02] INFO root fetch - processPackages [mkdocs-exporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_exporter-0.0.1.tar.gz tmp/mkdocs_exporter-0.0.2.tar.gz --markdown 20230508/m/mkdocs-exporter/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-08 19:35:02] INFO root fetch - processPackages [adsms]: executing diffoscope
+[2023-05-08 19:35:02] INFO root fetch - processPackages [adsms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adsms-0.3.tar.gz tmp/adsms-0.4.tar.gz --markdown 20230508/a/adsms/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-08 19:35:02] INFO root fetch - processPackages [ProjZ.py]: executing diffoscope
+[2023-05-08 19:35:02] INFO root fetch - processPackages [ProjZ.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ProjZ.py-2.4.4.tar.gz tmp/ProjZ.py-2.4.5.tar.gz --markdown 20230508/P/ProjZ.py/2.4.4-2.4.5/diff.md --exclude *.pyd
+[2023-05-08 19:35:02] INFO root fetch - processPackages [spacy-to-hf]: executing diffoscope
+[2023-05-08 19:35:02] INFO root fetch - processPackages [spacy-to-hf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacy-to-hf-0.0.1.tar.gz tmp/spacy-to-hf-0.0.2.tar.gz --markdown 20230508/s/spacy-to-hf/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-08 19:35:02] INFO root fetch - processPackages [classeval]: executing diffoscope
+[2023-05-08 19:35:02] INFO root fetch - processPackages [classeval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/classeval-0.2.0.tar.gz tmp/classeval-0.2.1.tar.gz --markdown 20230508/c/classeval/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-08 19:35:03] INFO root fetch - processPackages [prefect]: Downloading https://files.pythonhosted.org/packages/52/49/e4a42ea984b987b634f492725a5484b96da5a97fda925a3d37ff0821ecae/prefect-2.9.0.tar.gz
+[2023-05-08 19:35:03] INFO root fetch - processPackages [MinAtar]: Start processing: spreadsheetbot
+[2023-05-08 19:35:03] INFO root fetch - main [MainThread]: End processing [MinAtar]: success
+[2023-05-08 19:35:03] WARNING root fetch - processPackages [spreadsheetbot]: Skipping, unable to determine old version
+[2023-05-08 19:35:03] INFO root fetch - processPackages [spreadsheetbot]: Start processing: mkdocs-ultralytics-plugin
+[2023-05-08 19:35:03] INFO root fetch - main [MainThread]: End processing [spreadsheetbot] error
+[2023-05-08 19:35:03] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-08 19:35:04] INFO root fetch - main [MainThread]: End processing [solarkit]: success
+[2023-05-08 19:35:04] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: Downloading https://files.pythonhosted.org/packages/5b/49/cf8cade8fdc91e719eda8ccaeb0e974311f452233b6ddd69b7e304727b58/mkdocs-ultralytics-plugin-0.0.5.tar.gz
+[2023-05-08 19:35:04] INFO root fetch - main [MainThread]: End processing [adsms]: success
+[2023-05-08 19:35:04] INFO root fetch - main [MainThread]: End processing [mkdocs-exporter]: success
+[2023-05-08 19:35:04] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: executing diffoscope
+[2023-05-08 19:35:04] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-ultralytics-plugin-0.0.4.tar.gz tmp/mkdocs-ultralytics-plugin-0.0.5.tar.gz --markdown 20230508/m/mkdocs-ultralytics-plugin/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-08 19:35:04] INFO root fetch - main [MainThread]: End processing [classeval]: success
+[2023-05-08 19:35:04] INFO root fetch - main [MainThread]: End processing [spacy-to-hf]: success
+[2023-05-08 19:35:04] INFO root fetch - processPackages [prefect]: executing diffoscope
+[2023-05-08 19:35:04] INFO root fetch - processPackages [prefect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prefect-2.82.tar.gz tmp/prefect-2.9.0.tar.gz --markdown 20230508/p/prefect/2.82-2.9.0/diff.md --exclude *.pyd
+[2023-05-08 19:35:04] INFO root fetch - main [MainThread]: End processing [ProjZ.py]: success
+[2023-05-08 19:35:04] INFO root fetch - main [MainThread]: End processing [torchvision]: success
+[2023-05-08 19:35:05] INFO root fetch - main [MainThread]: End processing [mkdocs-ultralytics-plugin]: success
+[2023-05-08 19:35:06] INFO root fetch - main [MainThread]: End processing [pulumi-confluentcloud]: success
+[2023-05-08 19:35:23] INFO root fetch - main [MainThread]: End processing [prefect]: success
+[2023-05-08 19:35:23] INFO root fetch - main [MainThread]: Store serial: [18020123]
