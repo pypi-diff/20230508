@@ -5705,3 +5705,66 @@
 [2023-05-08 07:20:53] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
 [2023-05-08 07:20:54] INFO root fetch - main [MainThread]: End processing [wcferry]: success
 [2023-05-08 07:20:54] INFO root fetch - main [MainThread]: Store serial: [18013152]
+[2023-05-08 07:25:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18013152]
+[2023-05-08 07:26:03] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-08 07:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: export-ig
+[2023-05-08 07:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: delphix-dct-api
+[2023-05-08 07:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: realnet
+[2023-05-08 07:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cellmap
+[2023-05-08 07:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: webint
+[2023-05-08 07:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: idf-build-apps
+[2023-05-08 07:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chainlib-eth
+[2023-05-08 07:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: export-ig
+[2023-05-08 07:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aib-logging
+[2023-05-08 07:26:03] INFO root fetch - processPackages [export-ig]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-08 07:26:03] INFO root fetch - processPackages [delphix-dct-api]: New version: [7.0.0rc2] Old Version: [7.0.0rc1]
+[2023-05-08 07:26:03] INFO root fetch - processPackages [export-ig]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-08 07:26:03] INFO root fetch - processPackages [chainlib-eth]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-08 07:26:03] INFO root fetch - processPackages [cellmap]: New version: [1.0.1.dev202305080523] Old Version: [1.0.1.dev202305060747]
+[2023-05-08 07:26:03] INFO root fetch - processPackages [aib-logging]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-08 07:26:03] INFO root fetch - processPackages [idf-build-apps]: New version: [0.6.0rc0] Old Version: [0.6.0]
+[2023-05-08 07:26:03] INFO root fetch - processPackages [webint]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 07:26:03] INFO root fetch - processPackages [realnet]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-08 07:26:03] INFO root fetch - processPackages [export-ig]: Downloading https://files.pythonhosted.org/packages/f3/79/b60c8a0bb2dfb8c3d5af33cfa3d37b6093bbba1d757d2d90a1acf9400738/export_ig-1.0.0.tar.gz
+[2023-05-08 07:26:03] INFO root fetch - processPackages [export-ig]: Downloading https://files.pythonhosted.org/packages/f3/79/b60c8a0bb2dfb8c3d5af33cfa3d37b6093bbba1d757d2d90a1acf9400738/export_ig-1.0.0.tar.gz
+[2023-05-08 07:26:03] INFO root fetch - processPackages [idf-build-apps]: Downloading https://files.pythonhosted.org/packages/2f/a9/7b9164fe5430764736c0c9701aa83bde645b412b0bc404619640cfba17dd/idf-build-apps-0.6.0.tar.gz
+[2023-05-08 07:26:03] INFO root fetch - processPackages [delphix-dct-api]: Downloading https://files.pythonhosted.org/packages/2d/d3/518ca0dd531235db45a33744cb9aea4bb3a86208dd9cd0fdcfc935fe0a51/delphix-dct-api-7.0.0rc1.tar.gz
+[2023-05-08 07:26:03] INFO root fetch - processPackages [aib-logging]: Downloading https://files.pythonhosted.org/packages/ba/91/ca2d95398789de15fdbbb3bf57d2cd5b821e1666d3581ca96813571a82d7/aib_logging-1.0.4.tar.gz
+[2023-05-08 07:26:03] INFO root fetch - processPackages [webint]: Downloading https://files.pythonhosted.org/packages/42/4b/ccc995b423281681af4329fc9b74ebca49b5bf43a516d576459c419b486b/webint-0.1.8.tar.gz
+[2023-05-08 07:26:03] INFO root fetch - processPackages [realnet]: Downloading https://files.pythonhosted.org/packages/14/7a/ce955eb858773e2e56fbb853c0cb11ab4d94c2a8d998a6e3f80bb9a3b262/realnet-0.0.98.tar.gz
+[2023-05-08 07:26:03] INFO root fetch - processPackages [export-ig]: Downloading https://files.pythonhosted.org/packages/68/8a/54d53b9e121d6e1813fcb0ca3c67c025ecd3b3f48116c464dc19e0f189a9/export_ig-1.0.1.tar.gz
+[2023-05-08 07:26:03] INFO root fetch - processPackages [export-ig]: Downloading https://files.pythonhosted.org/packages/68/8a/54d53b9e121d6e1813fcb0ca3c67c025ecd3b3f48116c464dc19e0f189a9/export_ig-1.0.1.tar.gz
+[2023-05-08 07:26:03] INFO root fetch - processPackages [cellmap]: Downloading https://files.pythonhosted.org/packages/db/78/331b0be9d859dd63addd80f40dab8a6309ab322afb198a5f2e8de98a7e53/cellmap-1.0.1.dev202305080523-py3-none-any.whl
+[2023-05-08 07:26:03] INFO root fetch - processPackages [delphix-dct-api]: Downloading https://files.pythonhosted.org/packages/70/d6/5a8e55a38155460a411559f091cf158c0c6e06e0f802259d0f15e214a2c5/delphix-dct-api-7.0.0rc2.tar.gz
+[2023-05-08 07:26:03] INFO root fetch - processPackages [export-ig]: executing diffoscope
+[2023-05-08 07:26:03] INFO root fetch - processPackages [idf-build-apps]: Downloading https://files.pythonhosted.org/packages/9f/c7/4f5c8aea5a3e51d6fa41ae3ce39c6aea468c640ef4d8130a0cb832fbe6a0/idf-build-apps-0.6.0rc0.tar.gz
+[2023-05-08 07:26:03] INFO root fetch - processPackages [export-ig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/export_ig-1.0.0.tar.gz tmp/export_ig-1.0.1.tar.gz --markdown 20230508/e/export-ig/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-08 07:26:03] INFO root fetch - processPackages [export-ig]: executing diffoscope
+[2023-05-08 07:26:03] INFO root fetch - processPackages [chainlib-eth]: executing diffoscope
+[2023-05-08 07:26:03] INFO root fetch - processPackages [export-ig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/export_ig-1.0.0.tar.gz tmp/export_ig-1.0.1.tar.gz --markdown 20230508/e/export-ig/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-08 07:26:03] INFO root fetch - processPackages [chainlib-eth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainlib-eth-0.4.8.tar.gz tmp/chainlib-eth-0.4.9.tar.gz --markdown 20230508/c/chainlib-eth/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-08 07:26:03] INFO root fetch - processPackages [aib-logging]: Downloading https://files.pythonhosted.org/packages/0e/90/63e4b605716e4e0bf2e08f358fb990ccac51e270638cb9312b3cfb4f1a85/aib_logging-1.0.5.tar.gz
+[2023-05-08 07:26:03] INFO root fetch - processPackages [cellmap]: executing diffoscope
+[2023-05-08 07:26:03] INFO root fetch - processPackages [cellmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmap-1.0.1.dev202305060747-py3-none-any.whl.zip tmp/cellmap-1.0.1.dev202305080523-py3-none-any.whl.zip --markdown 20230508/c/cellmap/1.0.1.dev202305060747-1.0.1.dev202305080523/diff.md --exclude *.pyd
+[2023-05-08 07:26:03] INFO root fetch - processPackages [delphix-dct-api]: executing diffoscope
+[2023-05-08 07:26:03] INFO root fetch - processPackages [delphix-dct-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delphix-dct-api-7.0.0rc1.tar.gz tmp/delphix-dct-api-7.0.0rc2.tar.gz --markdown 20230508/d/delphix-dct-api/7.0.0rc1-7.0.0rc2/diff.md --exclude *.pyd
+[2023-05-08 07:26:03] INFO root fetch - processPackages [realnet]: Downloading https://files.pythonhosted.org/packages/85/35/57762e774329e2be122468375db18a174af9449878942ce858b59c0aaeae/realnet-0.0.99.tar.gz
+[2023-05-08 07:26:03] INFO root fetch - processPackages [aib-logging]: executing diffoscope
+[2023-05-08 07:26:03] INFO root fetch - processPackages [aib-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aib_logging-1.0.4.tar.gz tmp/aib_logging-1.0.5.tar.gz --markdown 20230508/a/aib-logging/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-08 07:26:03] INFO root fetch - processPackages [idf-build-apps]: executing diffoscope
+[2023-05-08 07:26:03] INFO root fetch - processPackages [idf-build-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idf-build-apps-0.6.0.tar.gz tmp/idf-build-apps-0.6.0rc0.tar.gz --markdown 20230508/i/idf-build-apps/0.6.0-0.6.0rc0/diff.md --exclude *.pyd
+[2023-05-08 07:26:04] INFO root fetch - processPackages [realnet]: executing diffoscope
+[2023-05-08 07:26:04] INFO root fetch - processPackages [realnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/realnet-0.0.98.tar.gz tmp/realnet-0.0.99.tar.gz --markdown 20230508/r/realnet/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-08 07:26:05] INFO root fetch - main [MainThread]: End processing [export-ig]: success
+[2023-05-08 07:26:05] INFO root fetch - main [MainThread]: End processing [cellmap]: success
+[2023-05-08 07:26:05] INFO root fetch - main [MainThread]: End processing [export-ig]: success
+[2023-05-08 07:26:05] INFO root fetch - main [MainThread]: End processing [aib-logging]: success
+[2023-05-08 07:26:05] INFO root fetch - main [MainThread]: End processing [chainlib-eth]: success
+[2023-05-08 07:26:05] INFO root fetch - main [MainThread]: End processing [idf-build-apps]: success
+[2023-05-08 07:26:05] INFO root fetch - processPackages [webint]: Downloading https://files.pythonhosted.org/packages/f4/be/5553cc674f3905c35a02f9069bad2384cbae83ac40e14f3949e72c082fa7/webint-0.1.9.tar.gz
+[2023-05-08 07:26:06] INFO root fetch - main [MainThread]: End processing [realnet]: success
+[2023-05-08 07:26:07] INFO root fetch - processPackages [webint]: executing diffoscope
+[2023-05-08 07:26:07] INFO root fetch - processPackages [webint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webint-0.1.8.tar.gz tmp/webint-0.1.9.tar.gz --markdown 20230508/w/webint/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 07:26:11] INFO root fetch - main [MainThread]: End processing [delphix-dct-api]: success
+[2023-05-08 07:26:14] INFO root fetch - main [MainThread]: End processing [webint]: success
+[2023-05-08 07:26:14] INFO root fetch - main [MainThread]: Store serial: [18013183]
