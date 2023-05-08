@@ -12319,3 +12319,142 @@
 [2023-05-08 14:53:12] INFO root fetch - main [MainThread]: End processing [Bigsansar]: success
 [2023-05-08 14:53:18] INFO root fetch - main [MainThread]: End processing [apysc]: success
 [2023-05-08 14:53:18] INFO root fetch - main [MainThread]: Store serial: [18016780]
+[2023-05-08 14:58:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18016780]
+[2023-05-08 14:58:28] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-08 14:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiocryptopay
+[2023-05-08 14:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: twitch-archiver
+[2023-05-08 14:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: starbug2
+[2023-05-08 14:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: featurebyte
+[2023-05-08 14:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: audinterface
+[2023-05-08 14:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: audmetric
+[2023-05-08 14:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: proventosweb
+[2023-05-08 14:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vigilant-kit
+[2023-05-08 14:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nlubridge
+[2023-05-08 14:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ferveo
+[2023-05-08 14:58:28] INFO root fetch - processPackages [featurebyte]: New version: [0.2.0] Old Version: [0.0.1a1]
+[2023-05-08 14:58:28] INFO root fetch - processPackages [vigilant-kit]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-05-08 14:58:28] INFO root fetch - processPackages [aiocryptopay]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-05-08 14:58:28] INFO root fetch - processPackages [starbug2]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-08 14:58:28] INFO root fetch - processPackages [nlubridge]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-08 14:58:28] INFO root fetch - processPackages [ferveo]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 14:58:28] INFO root fetch - processPackages [audinterface]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-08 14:58:28] INFO root fetch - processPackages [audmetric]: New version: [1.2.0] Old Version: [1.1.6]
+[2023-05-08 14:58:28] INFO root fetch - processPackages [proventosweb]: New version: [0.4] Old Version: [0.3]
+[2023-05-08 14:58:28] INFO root fetch - processPackages [twitch-archiver]: New version: [3.0.1] Old Version: [3.0.0.dev6]
+[2023-05-08 14:58:28] INFO root fetch - processPackages [aiocryptopay]: Downloading https://files.pythonhosted.org/packages/b6/e9/6cc93e932935f790c5bf35f32fd583bd577a52c22e0a2f7cdfa2baee44a3/aiocryptopay-0.2.6.tar.gz
+[2023-05-08 14:58:28] INFO root fetch - processPackages [featurebyte]: Downloading https://files.pythonhosted.org/packages/29/81/e4a773f1c69a74c1f1b558027d116e76883de90bd74d27c0b9328cbbb29b/featurebyte-0.0.1a1.tar.gz
+[2023-05-08 14:58:28] INFO root fetch - processPackages [starbug2]: Downloading https://files.pythonhosted.org/packages/9b/fe/9e4940df221244032a159cb6441b95405a1c9908fcd415cb0fa4ad0a178c/starbug2-0.3.8.tar.gz
+[2023-05-08 14:58:28] INFO root fetch - processPackages [proventosweb]: Downloading https://files.pythonhosted.org/packages/2a/53/64a6ad02e5011d7637b6944e410ded76f2e0d91c09d025ba77aae5bad6bf/proventosweb-0.4.tar.gz
+[2023-05-08 14:58:28] INFO root fetch - processPackages [vigilant-kit]: Downloading https://files.pythonhosted.org/packages/d3/9a/1b9df09b9eef85d2390dca19728a71c1cea7af98ee403252685c4e03ff77/vigilant_kit-1.2.3.tar.gz
+[2023-05-08 14:58:28] INFO root fetch - processPackages [ferveo]: Downloading https://files.pythonhosted.org/packages/f3/71/13b4799fc8764bc4807b6aaa82bfd916513627b5b03431fe4bd42d90d682/ferveo-0.1.8.tar.gz
+[2023-05-08 14:58:28] INFO root fetch - processPackages [nlubridge]: Downloading https://files.pythonhosted.org/packages/ca/28/c4269090f0d2855570941bb62580046fd243a6da56ec5f3f75961e722a3b/nlubridge-1.0.0.tar.gz
+[2023-05-08 14:58:28] INFO root fetch - processPackages [twitch-archiver]: Downloading https://files.pythonhosted.org/packages/43/94/d1eaf44f5656de469a9d3a3413aa81fcef50b909215ecfcde2c98fa1c237/twitch-archiver-3.0.0.dev6.tar.gz
+[2023-05-08 14:58:28] INFO root fetch - processPackages [audinterface]: Downloading https://files.pythonhosted.org/packages/b0/af/233408f9be67e4e21f8ef687f1facbcd93e4cebd9fc1590a66d164288d70/audinterface-1.0.1.tar.gz
+[2023-05-08 14:58:28] INFO root fetch - processPackages [audmetric]: Downloading https://files.pythonhosted.org/packages/87/90/4da1ffaed0fda2ca3704c976541b4b8ec03a2896daed5a0539379a375748/audmetric-1.1.6.tar.gz
+[2023-05-08 14:58:28] INFO root fetch - processPackages [proventosweb]: executing diffoscope
+[2023-05-08 14:58:28] INFO root fetch - processPackages [proventosweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proventosweb-0.3.tar.gz tmp/proventosweb-0.4.tar.gz --markdown 20230508/p/proventosweb/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-08 14:58:28] INFO root fetch - processPackages [vigilant-kit]: executing diffoscope
+[2023-05-08 14:58:28] INFO root fetch - processPackages [vigilant-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vigilant_kit-1.2.2.tar.gz tmp/vigilant_kit-1.2.3.tar.gz --markdown 20230508/v/vigilant-kit/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-05-08 14:58:28] INFO root fetch - processPackages [audinterface]: Downloading https://files.pythonhosted.org/packages/a0/35/8bf9ad0dfd248acccbd2e7aa74bfb8604f0846ba735fae017f427af073f2/audinterface-1.0.2.tar.gz
+[2023-05-08 14:58:28] INFO root fetch - processPackages [featurebyte]: Downloading https://files.pythonhosted.org/packages/50/ae/9b0a5f31057ea1cc7a9203f4058439c54bab7278ab78fd0a22ef45f4517e/featurebyte-0.2.0.tar.gz
+[2023-05-08 14:58:28] INFO root fetch - processPackages [aiocryptopay]: Downloading https://files.pythonhosted.org/packages/b6/7c/dc907d385f43d79cbbb5277e1846ef3caa68a327a4a8b676f8c1a35e7fd6/aiocryptopay-0.2.7.tar.gz
+[2023-05-08 14:58:28] INFO root fetch - processPackages [audmetric]: Downloading https://files.pythonhosted.org/packages/34/25/b346c0e48217696db31f99c781a312c4542400bbe6d10adab7bec1cc4eab/audmetric-1.2.0.tar.gz
+[2023-05-08 14:58:28] INFO root fetch - processPackages [starbug2]: Downloading https://files.pythonhosted.org/packages/33/2f/64b15085237a2f7290cb049bfb325c771259658d1bf001c9420c5872d444/starbug2-0.3.9.tar.gz
+[2023-05-08 14:58:28] INFO root fetch - processPackages [ferveo]: Downloading https://files.pythonhosted.org/packages/72/a9/4bc84b13d3f08772f15f2d8a1c1e8fc3f5d9fcb33738cca146288dd3990a/ferveo-0.1.9.tar.gz
+[2023-05-08 14:58:28] INFO root fetch - processPackages [nlubridge]: Downloading https://files.pythonhosted.org/packages/49/ee/8835b6259a159414068766cfa4720f0fb729d536f539ff1b4bc79d394b6f/nlubridge-1.0.1.tar.gz
+[2023-05-08 14:58:28] INFO root fetch - processPackages [twitch-archiver]: Downloading https://files.pythonhosted.org/packages/d0/ce/ecd5dd0d3c95c06f7bc3e48dfb7bf26d526d477304a958353d5ac4d80577/twitch-archiver-3.0.1.tar.gz
+[2023-05-08 14:58:28] INFO root fetch - processPackages [audinterface]: executing diffoscope
+[2023-05-08 14:58:28] INFO root fetch - processPackages [audinterface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audinterface-1.0.1.tar.gz tmp/audinterface-1.0.2.tar.gz --markdown 20230508/a/audinterface/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-08 14:58:28] INFO root fetch - processPackages [aiocryptopay]: executing diffoscope
+[2023-05-08 14:58:28] INFO root fetch - processPackages [aiocryptopay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiocryptopay-0.2.6.tar.gz tmp/aiocryptopay-0.2.7.tar.gz --markdown 20230508/a/aiocryptopay/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-05-08 14:58:28] INFO root fetch - processPackages [audmetric]: executing diffoscope
+[2023-05-08 14:58:28] INFO root fetch - processPackages [audmetric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audmetric-1.1.6.tar.gz tmp/audmetric-1.2.0.tar.gz --markdown 20230508/a/audmetric/1.1.6-1.2.0/diff.md --exclude *.pyd
+[2023-05-08 14:58:28] INFO root fetch - processPackages [featurebyte]: executing diffoscope
+[2023-05-08 14:58:28] INFO root fetch - processPackages [featurebyte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featurebyte-0.0.1a1.tar.gz tmp/featurebyte-0.2.0.tar.gz --markdown 20230508/f/featurebyte/0.0.1a1-0.2.0/diff.md --exclude *.pyd
+[2023-05-08 14:58:28] INFO root fetch - processPackages [starbug2]: executing diffoscope
+[2023-05-08 14:58:28] INFO root fetch - processPackages [starbug2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starbug2-0.3.8.tar.gz tmp/starbug2-0.3.9.tar.gz --markdown 20230508/s/starbug2/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-08 14:58:28] INFO root fetch - processPackages [nlubridge]: executing diffoscope
+[2023-05-08 14:58:28] INFO root fetch - processPackages [nlubridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlubridge-1.0.0.tar.gz tmp/nlubridge-1.0.1.tar.gz --markdown 20230508/n/nlubridge/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-08 14:58:28] INFO root fetch - processPackages [ferveo]: executing diffoscope
+[2023-05-08 14:58:28] INFO root fetch - processPackages [ferveo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ferveo-0.1.8.tar.gz tmp/ferveo-0.1.9.tar.gz --markdown 20230508/f/ferveo/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 14:58:28] INFO root fetch - processPackages [twitch-archiver]: executing diffoscope
+[2023-05-08 14:58:28] INFO root fetch - processPackages [twitch-archiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twitch-archiver-3.0.0.dev6.tar.gz tmp/twitch-archiver-3.0.1.tar.gz --markdown 20230508/t/twitch-archiver/3.0.0.dev6-3.0.1/diff.md --exclude *.pyd
+[2023-05-08 14:58:30] INFO root fetch - processPackages [proventosweb]: Start processing: autosrt
+[2023-05-08 14:58:30] INFO root fetch - main [MainThread]: End processing [proventosweb]: success
+[2023-05-08 14:58:30] INFO root fetch - processPackages [autosrt]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-08 14:58:30] INFO root fetch - processPackages [autosrt]: executing diffoscope
+[2023-05-08 14:58:30] INFO root fetch - processPackages [autosrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autosrt-1.2.8.tar.gz tmp/autosrt-1.2.9.tar.gz --markdown 20230508/a/autosrt/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-08 14:58:30] INFO root fetch - processPackages [aiocryptopay]: Start processing: pyshuttlis
+[2023-05-08 14:58:30] INFO root fetch - main [MainThread]: End processing [aiocryptopay]: success
+[2023-05-08 14:58:30] INFO root fetch - processPackages [pyshuttlis]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 14:58:31] INFO root fetch - processPackages [pyshuttlis]: Downloading https://files.pythonhosted.org/packages/01/87/f01a6d039c93f28eddda3fc1a24d532f68120377cace546dcf596c52cf63/pyshuttlis-0.1.8.tar.gz
+[2023-05-08 14:58:31] INFO root fetch - processPackages [audmetric]: Start processing: request-validator-galaxy
+[2023-05-08 14:58:31] INFO root fetch - main [MainThread]: End processing [audmetric]: success
+[2023-05-08 14:58:31] INFO root fetch - processPackages [vigilant-kit]: Start processing: gene-normalizer
+[2023-05-08 14:58:31] INFO root fetch - main [MainThread]: End processing [vigilant-kit]: success
+[2023-05-08 14:58:31] INFO root fetch - processPackages [request-validator-galaxy]: New version: [0.8] Old Version: [0.7]
+[2023-05-08 14:58:31] INFO root fetch - processPackages [gene-normalizer]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-08 14:58:31] INFO root fetch - processPackages [nlubridge]: Start processing: manticore
+[2023-05-08 14:58:31] INFO root fetch - main [MainThread]: End processing [nlubridge]: success
+[2023-05-08 14:58:31] INFO root fetch - processPackages [manticore]: New version: [0.3.8.dev230508] Old Version: [0.3.8.dev230507]
+[2023-05-08 14:58:31] INFO root fetch - processPackages [request-validator-galaxy]: Downloading https://files.pythonhosted.org/packages/a8/9a/06f9b536f91faffa942e2e37c4d877fae70c509da42fcee7ce6fe4daafc7/request_validator_galaxy-0.7.tar.gz
+[2023-05-08 14:58:31] INFO root fetch - processPackages [gene-normalizer]: Downloading https://files.pythonhosted.org/packages/a2/9d/dc30109d95f8f225929ed7c4fc6e2528e3d32dcfe155a38d0e9369f238a0/gene-normalizer-0.2.8.tar.gz
+[2023-05-08 14:58:31] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/d6/2f/26725afaba5f95b6e701fbc3ec77df43bf5d9625fdcd0c2946884444879d/manticore-0.3.8.dev230507.tar.gz
+[2023-05-08 14:58:31] INFO root fetch - processPackages [pyshuttlis]: Downloading https://files.pythonhosted.org/packages/95/44/505677fa75776e30aab8df3be3cadb89e49916c6612c27800b856824b7e2/pyshuttlis-0.1.9.tar.gz
+[2023-05-08 14:58:31] INFO root fetch - processPackages [request-validator-galaxy]: Downloading https://files.pythonhosted.org/packages/01/6c/57fee56b1a43060b35121dbed651d96dabd054dbdc04de5a166a40cc57cb/request_validator_galaxy-0.8.tar.gz
+[2023-05-08 14:58:31] INFO root fetch - processPackages [twitch-archiver]: Start processing: plover-french-extended-stenotype
+[2023-05-08 14:58:31] INFO root fetch - main [MainThread]: End processing [twitch-archiver]: success
+[2023-05-08 14:58:31] INFO root fetch - processPackages [audinterface]: Start processing: zadarapyV2
+[2023-05-08 14:58:31] INFO root fetch - main [MainThread]: End processing [audinterface]: success
+[2023-05-08 14:58:31] INFO root fetch - processPackages [plover-french-extended-stenotype]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-05-08 14:58:31] INFO root fetch - processPackages [gene-normalizer]: Downloading https://files.pythonhosted.org/packages/33/bc/08e3d6f8d1fe7cb058c0f2290913b3fb49c4a9d65b833e10f6536d5955f8/gene-normalizer-0.2.9.tar.gz
+[2023-05-08 14:58:31] INFO root fetch - processPackages [pyshuttlis]: executing diffoscope
+[2023-05-08 14:58:31] INFO root fetch - processPackages [pyshuttlis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyshuttlis-0.1.8.tar.gz tmp/pyshuttlis-0.1.9.tar.gz --markdown 20230508/p/pyshuttlis/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 14:58:31] INFO root fetch - processPackages [zadarapyV2]: New version: [23.8.1] Old Version: [23.3]
+[2023-05-08 14:58:31] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/90/d3/89c8c2678a72432b54c1b6e20713fbf3260bcb17d9e97d6d9308dba2c8a0/manticore-0.3.8.dev230508.tar.gz
+[2023-05-08 14:58:31] INFO root fetch - processPackages [request-validator-galaxy]: executing diffoscope
+[2023-05-08 14:58:31] INFO root fetch - processPackages [request-validator-galaxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/request_validator_galaxy-0.7.tar.gz tmp/request_validator_galaxy-0.8.tar.gz --markdown 20230508/r/request-validator-galaxy/0.7-0.8/diff.md --exclude *.pyd
+[2023-05-08 14:58:31] INFO root fetch - processPackages [gene-normalizer]: executing diffoscope
+[2023-05-08 14:58:31] INFO root fetch - processPackages [gene-normalizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gene-normalizer-0.2.8.tar.gz tmp/gene-normalizer-0.2.9.tar.gz --markdown 20230508/g/gene-normalizer/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-08 14:58:31] INFO root fetch - processPackages [starbug2]: Start processing: DocScanLib
+[2023-05-08 14:58:31] INFO root fetch - main [MainThread]: End processing [starbug2]: success
+[2023-05-08 14:58:31] INFO root fetch - processPackages [manticore]: executing diffoscope
+[2023-05-08 14:58:31] INFO root fetch - processPackages [manticore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manticore-0.3.8.dev230507.tar.gz tmp/manticore-0.3.8.dev230508.tar.gz --markdown 20230508/m/manticore/0.3.8.dev230507-0.3.8.dev230508/diff.md --exclude *.pyd
+[2023-05-08 14:58:31] INFO root fetch - processPackages [plover-french-extended-stenotype]: Downloading https://files.pythonhosted.org/packages/61/c3/a8da61ba8c570c353af900ee31c857cdc42bde404ea8610976cd75cae972/plover_french_extended_stenotype-0.1.0.tar.gz
+[2023-05-08 14:58:31] INFO root fetch - processPackages [DocScanLib]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-08 14:58:31] INFO root fetch - processPackages [zadarapyV2]: Downloading https://files.pythonhosted.org/packages/c5/22/e8817feec7d9c3f6f4507c42463986bafa8a5b35e2da54a1442c19864aae/zadarapyV2-23.3.tar.gz
+[2023-05-08 14:58:32] INFO root fetch - processPackages [DocScanLib]: Downloading https://files.pythonhosted.org/packages/01/49/57355bb7e581708885ffc1eb3ef12c319787e130e06f99380c39d3e4b776/DocScanLib-1.0.0.tar.gz
+[2023-05-08 14:58:32] INFO root fetch - processPackages [plover-french-extended-stenotype]: Downloading https://files.pythonhosted.org/packages/b8/60/26ba4b587a8fb7559f0bcbf82a8ff815036bc85b3e3a899cf58604dc2d6f/plover_french_extended_stenotype-1.0.0.tar.gz
+[2023-05-08 14:58:32] INFO root fetch - processPackages [zadarapyV2]: Downloading https://files.pythonhosted.org/packages/dd/0f/5d6f2e537e6ec1cdb1541702500b6806b56ef804686b6248d0e51505c904/zadarapyV2-23.8.1.tar.gz
+[2023-05-08 14:58:32] INFO root fetch - processPackages [plover-french-extended-stenotype]: executing diffoscope
+[2023-05-08 14:58:32] INFO root fetch - processPackages [plover-french-extended-stenotype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plover_french_extended_stenotype-0.1.0.tar.gz tmp/plover_french_extended_stenotype-1.0.0.tar.gz --markdown 20230508/p/plover-french-extended-stenotype/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-05-08 14:58:32] INFO root fetch - processPackages [ferveo]: Start processing: cognite-gql-pygen
+[2023-05-08 14:58:32] INFO root fetch - main [MainThread]: End processing [ferveo]: success
+[2023-05-08 14:58:32] INFO root fetch - processPackages [DocScanLib]: Downloading https://files.pythonhosted.org/packages/52/ad/374bc3f4b4d8a7c9a4771ff19e1187f5dc987c6320fe0c8413dd2da81f7e/DocScanLib-1.0.1.tar.gz
+[2023-05-08 14:58:32] INFO root fetch - processPackages [zadarapyV2]: executing diffoscope
+[2023-05-08 14:58:32] INFO root fetch - processPackages [zadarapyV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zadarapyV2-23.3.tar.gz tmp/zadarapyV2-23.8.1.tar.gz --markdown 20230508/z/zadarapyV2/23.3-23.8.1/diff.md --exclude *.pyd
+[2023-05-08 14:58:32] INFO root fetch - processPackages [autosrt]: Start processing: libertem-blobfinder
+[2023-05-08 14:58:32] INFO root fetch - main [MainThread]: End processing [autosrt]: success
+[2023-05-08 14:58:32] INFO root fetch - processPackages [cognite-gql-pygen]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-05-08 14:58:32] INFO root fetch - processPackages [libertem-blobfinder]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-05-08 14:58:32] INFO root fetch - processPackages [DocScanLib]: executing diffoscope
+[2023-05-08 14:58:32] INFO root fetch - processPackages [DocScanLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DocScanLib-1.0.0.tar.gz tmp/DocScanLib-1.0.1.tar.gz --markdown 20230508/D/DocScanLib/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-08 14:58:32] INFO root fetch - processPackages [libertem-blobfinder]: Downloading https://files.pythonhosted.org/packages/1f/5f/ad05050e0c6cbbde7bc27b418d0e82c54953efbd9db851145d6f84eca855/libertem-blobfinder-0.4.1.tar.gz
+[2023-05-08 14:58:32] INFO root fetch - processPackages [cognite-gql-pygen]: Downloading https://files.pythonhosted.org/packages/89/ad/7de5f8b01349908723698bc7301db5d9bc6abcf4fa5603cb68ab1fb782f8/cognite_gql_pygen-0.4.3.tar.gz
+[2023-05-08 14:58:32] INFO root fetch - processPackages [cognite-gql-pygen]: executing diffoscope
+[2023-05-08 14:58:32] INFO root fetch - processPackages [cognite-gql-pygen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_gql_pygen-0.4.2.tar.gz tmp/cognite_gql_pygen-0.4.3.tar.gz --markdown 20230508/c/cognite-gql-pygen/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-05-08 14:58:33] INFO root fetch - processPackages [libertem-blobfinder]: Downloading https://files.pythonhosted.org/packages/74/22/d9cf0db403b356075200a226a375bd146680db157b6d9b9f8f63a5597811/libertem-blobfinder-0.5.0.tar.gz
+[2023-05-08 14:58:33] INFO root fetch - main [MainThread]: End processing [featurebyte]: success
+[2023-05-08 14:58:33] INFO root fetch - main [MainThread]: End processing [request-validator-galaxy]: success
+[2023-05-08 14:58:33] INFO root fetch - processPackages [libertem-blobfinder]: executing diffoscope
+[2023-05-08 14:58:33] INFO root fetch - processPackages [libertem-blobfinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libertem-blobfinder-0.4.1.tar.gz tmp/libertem-blobfinder-0.5.0.tar.gz --markdown 20230508/l/libertem-blobfinder/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-05-08 14:58:33] INFO root fetch - main [MainThread]: End processing [pyshuttlis]: success
+[2023-05-08 14:58:33] INFO root fetch - main [MainThread]: End processing [plover-french-extended-stenotype]: success
+[2023-05-08 14:58:34] INFO root fetch - main [MainThread]: End processing [DocScanLib]: success
+[2023-05-08 14:58:34] INFO root fetch - main [MainThread]: End processing [gene-normalizer]: success
+[2023-05-08 14:58:34] INFO root fetch - main [MainThread]: End processing [cognite-gql-pygen]: success
+[2023-05-08 14:58:34] INFO root fetch - main [MainThread]: End processing [manticore]: success
+[2023-05-08 14:58:35] INFO root fetch - main [MainThread]: End processing [libertem-blobfinder]: success
+[2023-05-08 15:01:32] ERROR root fetch - processPackages [zadarapyV2]: Timeout during execution of pkgdiff
+[2023-05-08 15:01:32] INFO root fetch - main [MainThread]: End processing [zadarapyV2] error
+[2023-05-08 15:01:32] INFO root fetch - main [MainThread]: Store serial: [18016837]
