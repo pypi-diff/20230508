@@ -13732,3 +13732,96 @@ EOFError: EOF read where object expected
 [2023-05-08 15:59:41] INFO root fetch - main [MainThread]: End processing [threedigrid-builder]: success
 [2023-05-08 15:59:42] INFO root fetch - main [MainThread]: End processing [OctoPrint]: success
 [2023-05-08 15:59:42] INFO root fetch - main [MainThread]: Store serial: [18017516]
+[2023-05-08 16:04:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18017516]
+[2023-05-08 16:04:52] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-08 16:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: request-validator-galaxy
+[2023-05-08 16:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: popdf
+[2023-05-08 16:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-office
+[2023-05-08 16:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: splight-lib
+[2023-05-08 16:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: automation-common-test
+[2023-05-08 16:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sunpeek
+[2023-05-08 16:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: inmanta-module-openstack
+[2023-05-08 16:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: js-build-cli
+[2023-05-08 16:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: request-validator-galaxy
+[2023-05-08 16:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-celery-ilmoitus
+[2023-05-08 16:04:52] INFO root fetch - processPackages [sunpeek]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-08 16:04:52] INFO root fetch - processPackages [request-validator-galaxy]: New version: [1.4] Old Version: [1.3]
+[2023-05-08 16:04:52] INFO root fetch - processPackages [automation-common-test]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-05-08 16:04:52] INFO root fetch - processPackages [popdf]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 16:04:52] INFO root fetch - processPackages [django-celery-ilmoitus]: New version: [0.2.6] Old Version: [0.2.4]
+[2023-05-08 16:04:52] INFO root fetch - processPackages [request-validator-galaxy]: New version: [1.4] Old Version: [1.3]
+[2023-05-08 16:04:52] INFO root fetch - processPackages [python-office]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-08 16:04:52] INFO root fetch - processPackages [js-build-cli]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-08 16:04:52] INFO root fetch - processPackages [inmanta-module-openstack]: New version: [3.8.9] Old Version: [3.8.8]
+[2023-05-08 16:04:52] INFO root fetch - processPackages [splight-lib]: New version: [2.3.9.dev3] Old Version: [2.3.9]
+[2023-05-08 16:04:52] INFO root fetch - processPackages [django-celery-ilmoitus]: Downloading https://files.pythonhosted.org/packages/64/60/1dc867c16787ab7ecb4873cf5846856c7e0df6fec493b392285d4bc9506c/django-celery-ilmoitus-0.2.4.tar.gz
+[2023-05-08 16:04:52] INFO root fetch - processPackages [js-build-cli]: Downloading https://files.pythonhosted.org/packages/9f/45/8201df22709dc2c9ae249fd74b162d93fb41c86b8bdbc984cf99ec0edbc2/js-build-cli-0.0.4.tar.gz
+[2023-05-08 16:04:52] INFO root fetch - processPackages [splight-lib]: Downloading https://files.pythonhosted.org/packages/bb/ff/ed0cd2310d1197aa003ad5453f2fa69d373176927915bc77e824d64dcfe8/splight-lib-2.3.9.tar.gz
+[2023-05-08 16:04:52] INFO root fetch - processPackages [request-validator-galaxy]: Downloading https://files.pythonhosted.org/packages/db/59/45841c936ce45f4cff6b47fd84497d88a14af2a57c0a0c265893b0a75871/request_validator_galaxy-1.3.tar.gz
+[2023-05-08 16:04:52] INFO root fetch - processPackages [request-validator-galaxy]: Downloading https://files.pythonhosted.org/packages/db/59/45841c936ce45f4cff6b47fd84497d88a14af2a57c0a0c265893b0a75871/request_validator_galaxy-1.3.tar.gz
+[2023-05-08 16:04:52] INFO root fetch - processPackages [sunpeek]: Downloading https://files.pythonhosted.org/packages/7d/87/fc2d2721ed03813871d259741139dcbcb0f1a5a7686743ee6d533d5af952/sunpeek-0.2.8-py3-none-any.whl
+[2023-05-08 16:04:52] INFO root fetch - processPackages [popdf]: Downloading https://files.pythonhosted.org/packages/8f/9e/1688dbc88dca407de117438401dbfd69909fd7962da97e71ea2f1f0f4c2d/popdf-0.0.8.tar.gz
+[2023-05-08 16:04:52] INFO root fetch - processPackages [python-office]: Downloading https://files.pythonhosted.org/packages/b1/23/a62fc7f451324a6e6b183285cc18313c5ded64e4f951c197413b082d3f00/python-office-0.3.8.tar.gz
+[2023-05-08 16:04:52] INFO root fetch - processPackages [inmanta-module-openstack]: Downloading https://files.pythonhosted.org/packages/b8/ed/dc7a845daa165c3cfc3c12ef96c447175015bb41e514fd1b700f667f8f17/inmanta_module_openstack-3.8.8-py3-none-any.whl
+[2023-05-08 16:04:53] INFO root fetch - processPackages [automation-common-test]: Downloading https://files.pythonhosted.org/packages/26/dd/f27dfd0e883942470bf07b55eb66cb2f895fea2e118fbd5cdf66eb49f0b9/automation-common-test-1.4.0.tar.gz
+[2023-05-08 16:04:53] INFO root fetch - processPackages [js-build-cli]: Downloading https://files.pythonhosted.org/packages/f3/a0/a5f32582d31e0ff84674042c8b997b131e62b49fd7a93c03a12b206ce7f8/js-build-cli-0.0.5.tar.gz
+[2023-05-08 16:04:53] INFO root fetch - processPackages [automation-common-test]: executing diffoscope
+[2023-05-08 16:04:53] INFO root fetch - processPackages [automation-common-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation-common-test-1.3.0.tar.gz tmp/automation-common-test-1.4.0.tar.gz --markdown 20230508/a/automation-common-test/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-05-08 16:04:53] INFO root fetch - processPackages [request-validator-galaxy]: Downloading https://files.pythonhosted.org/packages/e9/a6/fd2609691cd476850753e7d72ef0b4b67f25475665d6c46421bd6dbf6882/request_validator_galaxy-1.4.tar.gz
+[2023-05-08 16:04:53] INFO root fetch - processPackages [request-validator-galaxy]: Downloading https://files.pythonhosted.org/packages/e9/a6/fd2609691cd476850753e7d72ef0b4b67f25475665d6c46421bd6dbf6882/request_validator_galaxy-1.4.tar.gz
+[2023-05-08 16:04:53] INFO root fetch - processPackages [popdf]: Downloading https://files.pythonhosted.org/packages/d6/03/4b5aeea2a2d19b2434cbe6ea25d23a54206ce142c0bfb3894ef341e38f0d/popdf-0.0.9.tar.gz
+[2023-05-08 16:04:53] INFO root fetch - processPackages [django-celery-ilmoitus]: Downloading https://files.pythonhosted.org/packages/cc/9e/eae11aeeea89ea4ed8439b5225bff2e3c51629f15167ed16e748b5637550/django-celery-ilmoitus-0.2.6.tar.gz
+[2023-05-08 16:04:53] INFO root fetch - processPackages [js-build-cli]: executing diffoscope
+[2023-05-08 16:04:53] INFO root fetch - processPackages [js-build-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/js-build-cli-0.0.4.tar.gz tmp/js-build-cli-0.0.5.tar.gz --markdown 20230508/j/js-build-cli/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-08 16:04:53] INFO root fetch - processPackages [splight-lib]: Downloading https://files.pythonhosted.org/packages/0c/28/c22960fb657fac3c7cf2f89ff9897b32b462500e2733fc629f556af08f45/splight-lib-2.3.9.dev3.tar.gz
+[2023-05-08 16:04:53] INFO root fetch - processPackages [sunpeek]: Downloading https://files.pythonhosted.org/packages/a5/83/92e0e84a50850a618aae14d33638554bcbb3ccc7fc4a8bad2c03cfa0ed20/sunpeek-0.2.9-py3-none-any.whl
+[2023-05-08 16:04:53] INFO root fetch - processPackages [inmanta-module-openstack]: Downloading https://files.pythonhosted.org/packages/50/f1/2b8129f38f67b72e7f4fcd74a0b009c2241a137c4a941d32b9ea515bbc11/inmanta_module_openstack-3.8.9-py3-none-any.whl
+[2023-05-08 16:04:53] INFO root fetch - processPackages [popdf]: executing diffoscope
+[2023-05-08 16:04:53] INFO root fetch - processPackages [popdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/popdf-0.0.8.tar.gz tmp/popdf-0.0.9.tar.gz --markdown 20230508/p/popdf/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 16:04:53] INFO root fetch - processPackages [django-celery-ilmoitus]: executing diffoscope
+[2023-05-08 16:04:53] INFO root fetch - processPackages [django-celery-ilmoitus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-celery-ilmoitus-0.2.4.tar.gz tmp/django-celery-ilmoitus-0.2.6.tar.gz --markdown 20230508/d/django-celery-ilmoitus/0.2.4-0.2.6/diff.md --exclude *.pyd
+[2023-05-08 16:04:53] INFO root fetch - processPackages [python-office]: Downloading https://files.pythonhosted.org/packages/a0/4b/8c1321ca1c46528f1ae915930236489a848570a99176d11dd06a886d5e9a/python-office-0.3.9.tar.gz
+[2023-05-08 16:04:53] INFO root fetch - processPackages [request-validator-galaxy]: executing diffoscope
+[2023-05-08 16:04:53] INFO root fetch - processPackages [request-validator-galaxy]: executing diffoscope
+[2023-05-08 16:04:53] INFO root fetch - processPackages [request-validator-galaxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/request_validator_galaxy-1.3.tar.gz tmp/request_validator_galaxy-1.4.tar.gz --markdown 20230508/r/request-validator-galaxy/1.3-1.4/diff.md --exclude *.pyd
+[2023-05-08 16:04:53] INFO root fetch - processPackages [request-validator-galaxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/request_validator_galaxy-1.3.tar.gz tmp/request_validator_galaxy-1.4.tar.gz --markdown 20230508/r/request-validator-galaxy/1.3-1.4/diff.md --exclude *.pyd
+[2023-05-08 16:04:53] INFO root fetch - processPackages [splight-lib]: executing diffoscope
+[2023-05-08 16:04:53] INFO root fetch - processPackages [splight-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight-lib-2.3.9.tar.gz tmp/splight-lib-2.3.9.dev3.tar.gz --markdown 20230508/s/splight-lib/2.3.9-2.3.9.dev3/diff.md --exclude *.pyd
+[2023-05-08 16:04:53] INFO root fetch - processPackages [sunpeek]: executing diffoscope
+[2023-05-08 16:04:53] INFO root fetch - processPackages [sunpeek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunpeek-0.2.8-py3-none-any.whl.zip tmp/sunpeek-0.2.9-py3-none-any.whl.zip --markdown 20230508/s/sunpeek/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-08 16:04:53] INFO root fetch - processPackages [inmanta-module-openstack]: executing diffoscope
+[2023-05-08 16:04:53] INFO root fetch - processPackages [inmanta-module-openstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inmanta_module_openstack-3.8.8-py3-none-any.whl.zip tmp/inmanta_module_openstack-3.8.9-py3-none-any.whl.zip --markdown 20230508/i/inmanta-module-openstack/3.8.8-3.8.9/diff.md --exclude *.pyd
+[2023-05-08 16:04:53] INFO root fetch - processPackages [python-office]: executing diffoscope
+[2023-05-08 16:04:53] INFO root fetch - processPackages [python-office]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-office-0.3.8.tar.gz tmp/python-office-0.3.9.tar.gz --markdown 20230508/p/python-office/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-08 16:04:55] INFO root fetch - processPackages [django-celery-ilmoitus]: Start processing: django-reversion-compare
+[2023-05-08 16:04:55] INFO root fetch - main [MainThread]: End processing [django-celery-ilmoitus]: success
+[2023-05-08 16:04:55] INFO root fetch - processPackages [django-reversion-compare]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-08 16:04:55] INFO root fetch - processPackages [inmanta-module-openstack]: Start processing: netteikei
+[2023-05-08 16:04:55] INFO root fetch - main [MainThread]: End processing [inmanta-module-openstack]: success
+[2023-05-08 16:04:55] INFO root fetch - processPackages [js-build-cli]: Start processing: graphsignal
+[2023-05-08 16:04:55] INFO root fetch - main [MainThread]: End processing [js-build-cli]: success
+[2023-05-08 16:04:55] INFO root fetch - processPackages [netteikei]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-08 16:04:55] INFO root fetch - processPackages [django-reversion-compare]: Downloading https://files.pythonhosted.org/packages/c8/0c/f4b28d0c885413facf4933b9ca410f946cad8970a15b42a21a7759d2ca1e/django-reversion-compare-0.9.0.tar.gz
+[2023-05-08 16:04:55] INFO root fetch - main [MainThread]: End processing [request-validator-galaxy]: success
+[2023-05-08 16:04:55] INFO root fetch - processPackages [graphsignal]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-08 16:04:55] INFO root fetch - main [MainThread]: End processing [request-validator-galaxy]: success
+[2023-05-08 16:04:55] INFO root fetch - processPackages [netteikei]: Downloading https://files.pythonhosted.org/packages/8a/e4/afdb647c1966a36e9723e9c20c4cec85f97ec65ee3f449fa4ccc813912d2/netteikei-0.1.0-py3-none-any.whl
+[2023-05-08 16:04:55] INFO root fetch - main [MainThread]: End processing [python-office]: success
+[2023-05-08 16:04:55] INFO root fetch - processPackages [graphsignal]: Downloading https://files.pythonhosted.org/packages/8a/ce/6c4ad532d461693620e6155f4cc8c8495b148d9bef62b7204619e41f19ec/graphsignal-0.9.4.tar.gz
+[2023-05-08 16:04:55] INFO root fetch - main [MainThread]: End processing [sunpeek]: success
+[2023-05-08 16:04:55] INFO root fetch - main [MainThread]: End processing [popdf]: success
+[2023-05-08 16:04:55] INFO root fetch - main [MainThread]: End processing [automation-common-test]: success
+[2023-05-08 16:04:55] INFO root fetch - processPackages [netteikei]: Downloading https://files.pythonhosted.org/packages/6e/83/cd426701b2e37775bbc05bc17b9c0fc19f30e88737617c4ef434efc32f55/netteikei-0.1.1-py3-none-any.whl
+[2023-05-08 16:04:55] INFO root fetch - processPackages [django-reversion-compare]: Downloading https://files.pythonhosted.org/packages/f8/fa/e8f17d01bd5092146e38b289cc70d70acfec1e17fb18d61a2b43fd9a735b/django-reversion-compare-0.9.1.tar.gz
+[2023-05-08 16:04:56] INFO root fetch - processPackages [netteikei]: executing diffoscope
+[2023-05-08 16:04:56] INFO root fetch - processPackages [netteikei]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netteikei-0.1.0-py3-none-any.whl.zip tmp/netteikei-0.1.1-py3-none-any.whl.zip --markdown 20230508/n/netteikei/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-08 16:04:56] INFO root fetch - processPackages [graphsignal]: Downloading https://files.pythonhosted.org/packages/63/9a/d9360e506d4b48251d07845d69b0a9facd3465a3c270adacda14a215a8a8/graphsignal-0.9.5.tar.gz
+[2023-05-08 16:04:56] INFO root fetch - processPackages [django-reversion-compare]: executing diffoscope
+[2023-05-08 16:04:56] INFO root fetch - processPackages [django-reversion-compare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-reversion-compare-0.9.0.tar.gz tmp/django-reversion-compare-0.9.1.tar.gz --markdown 20230508/d/django-reversion-compare/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-08 16:04:56] INFO root fetch - processPackages [graphsignal]: executing diffoscope
+[2023-05-08 16:04:56] INFO root fetch - processPackages [graphsignal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphsignal-0.9.4.tar.gz tmp/graphsignal-0.9.5.tar.gz --markdown 20230508/g/graphsignal/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-08 16:04:56] INFO root fetch - main [MainThread]: End processing [splight-lib]: success
+[2023-05-08 16:04:57] INFO root fetch - main [MainThread]: End processing [netteikei]: success
+[2023-05-08 16:04:57] INFO root fetch - main [MainThread]: End processing [graphsignal]: success
+[2023-05-08 16:04:58] INFO root fetch - main [MainThread]: End processing [django-reversion-compare]: success
+[2023-05-08 16:04:58] INFO root fetch - main [MainThread]: Store serial: [18017557]
