@@ -15964,3 +15964,70 @@ EOFError: EOF read where object expected
 [2023-05-08 17:33:54] INFO root fetch - main [MainThread]: End processing [osim-utils]: success
 [2023-05-08 17:34:25] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
 [2023-05-08 17:34:25] INFO root fetch - main [MainThread]: Store serial: [18018837]
+[2023-05-08 17:39:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18018837]
+[2023-05-08 17:39:34] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-08 17:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: domolibrary
+[2023-05-08 17:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: exe-kg-lib
+[2023-05-08 17:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: code-loader
+[2023-05-08 17:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lesscode-py
+[2023-05-08 17:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: st-microservice
+[2023-05-08 17:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: itutor-fastapi-middlewares
+[2023-05-08 17:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ccp-performance
+[2023-05-08 17:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-roy-CERT-1955-assertHits
+[2023-05-08 17:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: perfectoai
+[2023-05-08 17:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ask-sdk-model
+[2023-05-08 17:39:34] INFO root fetch - processPackages [perfectoai]: New version: [1.0.37] Old Version: [1.0.36]
+[2023-05-08 17:39:34] INFO root fetch - processPackages [lesscode-py]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-08 17:39:34] INFO root fetch - processPackages [exe-kg-lib]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-05-08 17:39:34] INFO root fetch - processPackages [ccp-performance]: New version: [0.3.0] Old Version: [0.2.4]
+[2023-05-08 17:39:34] INFO root fetch - processPackages [code-loader]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-08 17:39:34] INFO root fetch - processPackages [itutor-fastapi-middlewares]: New version: [0.0.5] Old Version: [0.0.3]
+[2023-05-08 17:39:34] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-assertHits]: New version: [20230508.15.38.428722] Old Version: [20230508.12.19.327603]
+[2023-05-08 17:39:34] INFO root fetch - processPackages [st-microservice]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-08 17:39:34] INFO root fetch - processPackages [ask-sdk-model]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-08 17:39:34] INFO root fetch - processPackages [domolibrary]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 17:39:34] INFO root fetch - processPackages [lesscode-py]: Downloading https://files.pythonhosted.org/packages/93/59/9c87e90597a4fc3c2567abe4a0ff19fd2b89df126eacc6b3d22b92ec47b4/lesscode-py-0.3.8.tar.gz
+[2023-05-08 17:39:34] INFO root fetch - processPackages [itutor-fastapi-middlewares]: Downloading https://files.pythonhosted.org/packages/09/a9/e5cd9a455a76b006ee40ffedcfc36540a00854cec038a091fa814ecaa06d/itutor_fastapi_middlewares-0.0.3.tar.gz
+[2023-05-08 17:39:34] INFO root fetch - processPackages [perfectoai]: Downloading https://files.pythonhosted.org/packages/9f/b4/0ad51d708412500d4b2b61d490f7089a90ceacc9078d9ebc0d02fd44ec00/perfectoai-1.0.36.tar.gz
+[2023-05-08 17:39:34] INFO root fetch - processPackages [ccp-performance]: Downloading https://files.pythonhosted.org/packages/e2/8f/2d46dd57ea0223b3e84febb5ee0525a6d3c22cd6866522f6c7ca691bf967/ccp-performance-0.2.4.tar.gz
+[2023-05-08 17:39:34] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-assertHits]: Downloading https://files.pythonhosted.org/packages/04/6a/8e0af06d473a99bb56114fe61bab0be767143b7f66bd3280a35eead563aa/certora-cli-alpha-roy-CERT-1955-assertHits-20230508.12.19.327603.tar.gz
+[2023-05-08 17:39:34] INFO root fetch - processPackages [code-loader]: executing diffoscope
+[2023-05-08 17:39:34] INFO root fetch - processPackages [code-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/code-loader-0.2.8.tar.gz tmp/code-loader-0.2.9.tar.gz --markdown 20230508/c/code-loader/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-08 17:39:34] INFO root fetch - processPackages [st-microservice]: Downloading https://files.pythonhosted.org/packages/14/3f/326843a9564a94328b59d0f2ae0411d9ebb51df4af14613d0c4a6a1e81b2/st_microservice-0.9.8.tar.gz
+[2023-05-08 17:39:34] INFO root fetch - processPackages [ask-sdk-model]: Downloading https://files.pythonhosted.org/packages/0e/2d/3d567d4f148eb87e204409c700b9d3c5339bbbd1c2370fdb46979cfe0ce7/ask-sdk-model-1.8.0.tar.gz
+[2023-05-08 17:39:34] INFO root fetch - processPackages [exe-kg-lib]: Downloading https://files.pythonhosted.org/packages/7c/52/367211775ac7caf5d37577dbc6ef41b94f2fd59f2d2519b89b3dcd083266/exe_kg_lib-2.0.3.tar.gz
+[2023-05-08 17:39:34] WARNING root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-assertHits]: Skipping package: exceeds size limit 38475404>=10485760
+[2023-05-08 17:39:34] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-roy-CERT-1955-assertHits] error
+[2023-05-08 17:39:34] INFO root fetch - processPackages [perfectoai]: Downloading https://files.pythonhosted.org/packages/c7/3d/b6d0c2fc4f69f7df1abae14c54a47f0990d0e6fdc7dd78db5a2ab78bfebd/perfectoai-1.0.37.tar.gz
+[2023-05-08 17:39:34] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-05-08 17:39:34] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.8.tar.gz tmp/domolibrary-0.1.9.tar.gz --markdown 20230508/d/domolibrary/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 17:39:34] INFO root fetch - processPackages [lesscode-py]: Downloading https://files.pythonhosted.org/packages/64/97/cec698b665aba9a27d2cddb9f7528a8982bbaa3379372774ff671e45fb3e/lesscode-py-0.3.9.tar.gz
+[2023-05-08 17:39:34] INFO root fetch - processPackages [perfectoai]: executing diffoscope
+[2023-05-08 17:39:34] INFO root fetch - processPackages [perfectoai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perfectoai-1.0.36.tar.gz tmp/perfectoai-1.0.37.tar.gz --markdown 20230508/p/perfectoai/1.0.36-1.0.37/diff.md --exclude *.pyd
+[2023-05-08 17:39:34] INFO root fetch - processPackages [exe-kg-lib]: Downloading https://files.pythonhosted.org/packages/04/cd/95e22ba27fdff0636686c3bec685352ad4ec8d95572bf342be5cb913436f/exe_kg_lib-2.0.4.tar.gz
+[2023-05-08 17:39:35] INFO root fetch - processPackages [exe-kg-lib]: executing diffoscope
+[2023-05-08 17:39:35] INFO root fetch - processPackages [exe-kg-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exe_kg_lib-2.0.3.tar.gz tmp/exe_kg_lib-2.0.4.tar.gz --markdown 20230508/e/exe-kg-lib/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-05-08 17:39:35] INFO root fetch - processPackages [itutor-fastapi-middlewares]: Downloading https://files.pythonhosted.org/packages/0f/3a/58a9de1cd6a687d1cf97860e624bb210a85ae1b0bbffa060e1f37ad72d1d/itutor_fastapi_middlewares-0.0.5.tar.gz
+[2023-05-08 17:39:35] INFO root fetch - processPackages [ccp-performance]: Downloading https://files.pythonhosted.org/packages/8b/ce/82e4a72f872bac6a022225ef9c4ad470a51a7d1c42176dd05c965e908433/ccp-performance-0.3.0.tar.gz
+[2023-05-08 17:39:35] INFO root fetch - processPackages [st-microservice]: Downloading https://files.pythonhosted.org/packages/2c/f5/8b62561ffc9a8e02841c7dcb7be6ff9dc742da988b64e7f553ef182db1a0/st_microservice-0.9.9.tar.gz
+[2023-05-08 17:39:35] INFO root fetch - processPackages [ask-sdk-model]: Downloading https://files.pythonhosted.org/packages/2f/20/15196c61c99fd59fa6f5f903bea9e113a2af80777c1f7f38f90a5102afde/ask-sdk-model-1.9.0.tar.gz
+[2023-05-08 17:39:35] INFO root fetch - processPackages [itutor-fastapi-middlewares]: executing diffoscope
+[2023-05-08 17:39:35] INFO root fetch - processPackages [itutor-fastapi-middlewares]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itutor_fastapi_middlewares-0.0.3.tar.gz tmp/itutor_fastapi_middlewares-0.0.5.tar.gz --markdown 20230508/i/itutor-fastapi-middlewares/0.0.3-0.0.5/diff.md --exclude *.pyd
+[2023-05-08 17:39:35] INFO root fetch - processPackages [ccp-performance]: executing diffoscope
+[2023-05-08 17:39:35] INFO root fetch - processPackages [ccp-performance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccp-performance-0.2.4.tar.gz tmp/ccp-performance-0.3.0.tar.gz --markdown 20230508/c/ccp-performance/0.2.4-0.3.0/diff.md --exclude *.pyd
+[2023-05-08 17:39:35] INFO root fetch - processPackages [st-microservice]: executing diffoscope
+[2023-05-08 17:39:35] INFO root fetch - processPackages [st-microservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_microservice-0.9.8.tar.gz tmp/st_microservice-0.9.9.tar.gz --markdown 20230508/s/st-microservice/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-08 17:39:35] INFO root fetch - processPackages [lesscode-py]: executing diffoscope
+[2023-05-08 17:39:35] INFO root fetch - processPackages [lesscode-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode-py-0.3.8.tar.gz tmp/lesscode-py-0.3.9.tar.gz --markdown 20230508/l/lesscode-py/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-08 17:39:35] INFO root fetch - processPackages [ask-sdk-model]: executing diffoscope
+[2023-05-08 17:39:35] INFO root fetch - processPackages [ask-sdk-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ask-sdk-model-1.8.0.tar.gz tmp/ask-sdk-model-1.9.0.tar.gz --markdown 20230508/a/ask-sdk-model/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-08 17:39:36] INFO root fetch - main [MainThread]: End processing [code-loader]: success
+[2023-05-08 17:39:36] INFO root fetch - main [MainThread]: End processing [exe-kg-lib]: success
+[2023-05-08 17:39:36] INFO root fetch - main [MainThread]: End processing [ccp-performance]: success
+[2023-05-08 17:39:36] INFO root fetch - main [MainThread]: End processing [perfectoai]: success
+[2023-05-08 17:39:36] INFO root fetch - main [MainThread]: End processing [st-microservice]: success
+[2023-05-08 17:39:38] INFO root fetch - main [MainThread]: End processing [lesscode-py]: success
+[2023-05-08 17:39:38] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-05-08 17:39:39] INFO root fetch - main [MainThread]: End processing [itutor-fastapi-middlewares]: success
+[2023-05-08 17:39:40] INFO root fetch - main [MainThread]: End processing [ask-sdk-model]: success
+[2023-05-08 17:39:40] INFO root fetch - main [MainThread]: Store serial: [18018867]
