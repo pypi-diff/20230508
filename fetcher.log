@@ -14215,3 +14215,155 @@ EOFError: EOF read where object expected
 [2023-05-08 16:20:54] INFO root fetch - main [MainThread]: End processing [ukmon-meteortools]: success
 [2023-05-08 16:20:56] INFO root fetch - main [MainThread]: End processing [autosubmit]: success
 [2023-05-08 16:20:56] INFO root fetch - main [MainThread]: Store serial: [18017865]
+[2023-05-08 16:26:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18017865]
+[2023-05-08 16:26:05] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-05-08 16:26:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: renovosolutions.aws-cdk-aws-sso
+[2023-05-08 16:26:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flowtask
+[2023-05-08 16:26:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llsd
+[2023-05-08 16:26:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: djlint
+[2023-05-08 16:26:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: renovosolutions.aws-cdk-one-time-event
+[2023-05-08 16:26:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tariochbctools
+[2023-05-08 16:26:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spanishconjugator
+[2023-05-08 16:26:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-celery-results
+[2023-05-08 16:26:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: renovosolutions.aws-cdk-control-tower-lifecycle-events
+[2023-05-08 16:26:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: robusta-cli
+[2023-05-08 16:26:05] INFO root fetch - processPackages [djlint]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-05-08 16:26:05] INFO root fetch - processPackages [llsd]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-08 16:26:05] INFO root fetch - processPackages [django-celery-results]: New version: [2.5.1] Old Version: [2.5.0]
+[2023-05-08 16:26:05] INFO root fetch - processPackages [flowtask]: New version: [4.3.9] Old Version: [4.3.8]
+[2023-05-08 16:26:05] INFO root fetch - processPackages [tariochbctools]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-08 16:26:05] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-sso]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-08 16:26:05] INFO root fetch - processPackages [robusta-cli]: New version: [0.9.9] Old Version: [0.9.7]
+[2023-05-08 16:26:05] INFO root fetch - processPackages [renovosolutions.aws-cdk-one-time-event]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-05-08 16:26:05] INFO root fetch - processPackages [renovosolutions.aws-cdk-control-tower-lifecycle-events]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-08 16:26:05] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-08 16:26:05] INFO root fetch - processPackages [django-celery-results]: Downloading https://files.pythonhosted.org/packages/d4/7c/ede93d85efe13d74121594332bed3d8b8b986b8b456832e5ca2c2bbbcf08/django_celery_results-2.5.0.tar.gz
+[2023-05-08 16:26:05] INFO root fetch - processPackages [llsd]: Downloading https://files.pythonhosted.org/packages/0a/55/aa858b38c6ac5e3561ec57ccf998bb80577386577c65819d4c88583174e8/llsd-1.2.0.tar.gz
+[2023-05-08 16:26:05] INFO root fetch - processPackages [djlint]: Downloading https://files.pythonhosted.org/packages/f9/db/1d732492f0f364373f90898eb81fd25b7968fb75cb643ad2325972ed793e/djlint-1.9.4.tar.gz
+[2023-05-08 16:26:05] INFO root fetch - processPackages [robusta-cli]: Downloading https://files.pythonhosted.org/packages/39/60/df780a4cd33fb6c25e7e6b0c86022d93aaa4490b1a758140e3d98a02996e/robusta-cli-0.9.7.tar.gz
+[2023-05-08 16:26:05] INFO root fetch - processPackages [renovosolutions.aws-cdk-one-time-event]: executing diffoscope
+[2023-05-08 16:26:05] INFO root fetch - processPackages [renovosolutions.aws-cdk-one-time-event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-one-time-event-2.1.98.tar.gz tmp/renovosolutions.aws-cdk-one-time-event-2.1.99.tar.gz --markdown 20230508/r/renovosolutions.aws-cdk-one-time-event/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-05-08 16:26:05] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-08 16:26:05] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-sso]: Downloading https://files.pythonhosted.org/packages/87/6f/3f556260faf7f7139ad9821da7df8d152b36d9736bc44e88bde80736bc7a/renovosolutions.aws-cdk-aws-sso-0.1.98.tar.gz
+[2023-05-08 16:26:05] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230508/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-08 16:26:05] INFO root fetch - processPackages [flowtask]: Downloading https://files.pythonhosted.org/packages/c2/62/f46ab29a2dd82185c6bd5c9c0f318e522e6249f21eb22ea947add139e646/flowtask-4.3.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-08 16:26:05] INFO root fetch - processPackages [tariochbctools]: Downloading https://files.pythonhosted.org/packages/95/9f/f51deccea2eb9523e010ceda854777b0e67493bea01babbbc256a701c452/tariochbctools-0.8.0.tar.gz
+[2023-05-08 16:26:05] INFO root fetch - processPackages [renovosolutions.aws-cdk-control-tower-lifecycle-events]: Downloading https://files.pythonhosted.org/packages/5d/e8/4e165b2f8e043b8a6f533e80c731ae1580c6d388f06d2d292837f02a1aa7/renovosolutions.aws-cdk-control-tower-lifecycle-events-0.1.98.tar.gz
+[2023-05-08 16:26:05] INFO root fetch - processPackages [django-celery-results]: Downloading https://files.pythonhosted.org/packages/75/24/a13ad6a276f62385da6d83a1995ded452d173841b6e0a83a899c3b75062e/django_celery_results-2.5.1.tar.gz
+[2023-05-08 16:26:05] INFO root fetch - processPackages [llsd]: Downloading https://files.pythonhosted.org/packages/45/c6/26e1c53db5186bc4cd97f176fcd0f460ed5ed455c61954951c78dcd6f2e1/llsd-1.2.1.tar.gz
+[2023-05-08 16:26:05] INFO root fetch - processPackages [django-celery-results]: executing diffoscope
+[2023-05-08 16:26:05] INFO root fetch - processPackages [llsd]: executing diffoscope
+[2023-05-08 16:26:05] INFO root fetch - processPackages [django-celery-results]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_celery_results-2.5.0.tar.gz tmp/django_celery_results-2.5.1.tar.gz --markdown 20230508/d/django-celery-results/2.5.0-2.5.1/diff.md --exclude *.pyd
+[2023-05-08 16:26:05] INFO root fetch - processPackages [llsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llsd-1.2.0.tar.gz tmp/llsd-1.2.1.tar.gz --markdown 20230508/l/llsd/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-08 16:26:05] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-sso]: Downloading https://files.pythonhosted.org/packages/a5/c0/fb7343945467b9fa3a35b6f6091f7d543ff25b9d464ce45d785787b4df58/renovosolutions.aws-cdk-aws-sso-0.1.99.tar.gz
+[2023-05-08 16:26:05] INFO root fetch - processPackages [flowtask]: Downloading https://files.pythonhosted.org/packages/b7/a3/74a6d1b74b14713ea3930ecdaefb14c0638f27ade795e74706beda3cdb2f/flowtask-4.3.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-08 16:26:05] INFO root fetch - processPackages [robusta-cli]: Downloading https://files.pythonhosted.org/packages/9f/ff/a70074935ded21551e9900241be83e06dcddd697498c8fa3eeab30d0105c/robusta-cli-0.9.9.tar.gz
+[2023-05-08 16:26:05] INFO root fetch - processPackages [djlint]: Downloading https://files.pythonhosted.org/packages/54/cf/8946f7940be9edeca23fba4ba04373985b2d027737d5ffa4a4bfec091740/djlint-1.9.5.tar.gz
+[2023-05-08 16:26:05] INFO root fetch - processPackages [renovosolutions.aws-cdk-control-tower-lifecycle-events]: Downloading https://files.pythonhosted.org/packages/05/df/7a5fef5d04715e9053c344907162075912807a5afd58dc0cbc9d037f01ac/renovosolutions.aws-cdk-control-tower-lifecycle-events-0.1.99.tar.gz
+[2023-05-08 16:26:05] INFO root fetch - processPackages [tariochbctools]: Downloading https://files.pythonhosted.org/packages/e4/94/f1dc2d539ceb8800299330c25872406258c58f3315cd9e2c9a9957889ce2/tariochbctools-0.9.0.tar.gz
+[2023-05-08 16:26:06] INFO root fetch - processPackages [flowtask]: executing diffoscope
+[2023-05-08 16:26:06] INFO root fetch - processPackages [flowtask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowtask-4.3.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/flowtask-4.3.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230508/f/flowtask/4.3.8-4.3.9/diff.md --exclude *.pyd
+[2023-05-08 16:26:06] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-sso]: executing diffoscope
+[2023-05-08 16:26:06] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-sso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-aws-sso-0.1.98.tar.gz tmp/renovosolutions.aws-cdk-aws-sso-0.1.99.tar.gz --markdown 20230508/r/renovosolutions.aws-cdk-aws-sso/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-08 16:26:06] INFO root fetch - processPackages [djlint]: executing diffoscope
+[2023-05-08 16:26:06] INFO root fetch - processPackages [djlint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djlint-1.9.4.tar.gz tmp/djlint-1.9.5.tar.gz --markdown 20230508/d/djlint/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-05-08 16:26:06] INFO root fetch - processPackages [tariochbctools]: executing diffoscope
+[2023-05-08 16:26:06] INFO root fetch - processPackages [tariochbctools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tariochbctools-0.8.0.tar.gz tmp/tariochbctools-0.9.0.tar.gz --markdown 20230508/t/tariochbctools/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-08 16:26:06] INFO root fetch - processPackages [renovosolutions.aws-cdk-control-tower-lifecycle-events]: executing diffoscope
+[2023-05-08 16:26:06] INFO root fetch - processPackages [renovosolutions.aws-cdk-control-tower-lifecycle-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-control-tower-lifecycle-events-0.1.98.tar.gz tmp/renovosolutions.aws-cdk-control-tower-lifecycle-events-0.1.99.tar.gz --markdown 20230508/r/renovosolutions.aws-cdk-control-tower-lifecycle-events/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-08 16:26:06] INFO root fetch - processPackages [robusta-cli]: executing diffoscope
+[2023-05-08 16:26:06] INFO root fetch - processPackages [robusta-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robusta-cli-0.9.7.tar.gz tmp/robusta-cli-0.9.9.tar.gz --markdown 20230508/r/robusta-cli/0.9.7-0.9.9/diff.md --exclude *.pyd
+[2023-05-08 16:26:06] INFO root fetch - processPackages [spanishconjugator]: Start processing: spanishconjugator
+[2023-05-08 16:26:06] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-08 16:26:07] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-08 16:26:07] INFO root fetch - processPackages [renovosolutions.aws-cdk-one-time-event]: Start processing: catwalk-common
+[2023-05-08 16:26:07] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-one-time-event]: success
+[2023-05-08 16:26:07] INFO root fetch - processPackages [catwalk-common]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-08 16:26:07] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-08 16:26:07] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230508/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-08 16:26:07] INFO root fetch - processPackages [catwalk-common]: Downloading https://files.pythonhosted.org/packages/1d/26/2624d2e3f5bd52c437b4435d8e71ded454c7c071e7a39a73eb1a8e1eb52a/catwalk_common-0.0.3.tar.gz
+[2023-05-08 16:26:07] INFO root fetch - processPackages [catwalk-common]: Downloading https://files.pythonhosted.org/packages/c9/b4/942f596a9310d64f17e92e9224a8ef53201a79213093d813cd52167efc35/catwalk_common-0.0.4.tar.gz
+[2023-05-08 16:26:07] INFO root fetch - processPackages [djlint]: Start processing: dbt-doc-py
+[2023-05-08 16:26:07] INFO root fetch - main [MainThread]: End processing [djlint]: success
+[2023-05-08 16:26:07] INFO root fetch - processPackages [dbt-doc-py]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-08 16:26:07] INFO root fetch - processPackages [renovosolutions.aws-cdk-control-tower-lifecycle-events]: Start processing: pypef
+[2023-05-08 16:26:07] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-control-tower-lifecycle-events]: success
+[2023-05-08 16:26:07] INFO root fetch - processPackages [pypef]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-08 16:26:07] INFO root fetch - processPackages [catwalk-common]: executing diffoscope
+[2023-05-08 16:26:07] INFO root fetch - processPackages [catwalk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catwalk_common-0.0.3.tar.gz tmp/catwalk_common-0.0.4.tar.gz --markdown 20230508/c/catwalk-common/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-08 16:26:07] INFO root fetch - processPackages [tariochbctools]: Start processing: camtono-parser
+[2023-05-08 16:26:07] INFO root fetch - main [MainThread]: End processing [tariochbctools]: success
+[2023-05-08 16:26:07] INFO root fetch - processPackages [camtono-parser]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 16:26:07] INFO root fetch - processPackages [dbt-doc-py]: Downloading https://files.pythonhosted.org/packages/5e/6f/90e111f711901da52003817b8beea06dc0150955306ab03db25e8ea2a503/dbt-doc-py-0.1.6.tar.gz
+[2023-05-08 16:26:07] INFO root fetch - processPackages [pypef]: Downloading https://files.pythonhosted.org/packages/c2/2b/da9ab757bd9c38be477e7e5347c4fc7bd8e4209fc7f7667b8eb59adcfef0/pypef-0.2.3.tar.gz
+[2023-05-08 16:26:07] INFO root fetch - processPackages [llsd]: Start processing: checkov
+[2023-05-08 16:26:07] INFO root fetch - main [MainThread]: End processing [llsd]: success
+[2023-05-08 16:26:07] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-08 16:26:07] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-sso]: Start processing: PyHaier
+[2023-05-08 16:26:07] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-aws-sso]: success
+[2023-05-08 16:26:07] INFO root fetch - processPackages [dbt-doc-py]: executing diffoscope
+[2023-05-08 16:26:07] INFO root fetch - processPackages [dbt-doc-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-doc-py-0.1.5.tar.gz tmp/dbt-doc-py-0.1.6.tar.gz --markdown 20230508/d/dbt-doc-py/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-08 16:26:07] INFO root fetch - processPackages [PyHaier]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-08 16:26:07] INFO root fetch - processPackages [camtono-parser]: Downloading https://files.pythonhosted.org/packages/7e/d0/8afb8119bf55a68b94c93eea3f08adc3d6c2eb668a36a1674e1b491df9b2/camtono-parser-0.0.8.tar.gz
+[2023-05-08 16:26:08] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-05-08 16:26:08] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230508/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-08 16:26:08] INFO root fetch - processPackages [PyHaier]: Downloading https://files.pythonhosted.org/packages/c5/c2/fc75b0f18f6c5bf1959ae7cefc923e00f648c946c89b6e3239f5f8fd957f/PyHaier-0.1.6.tar.gz
+[2023-05-08 16:26:08] INFO root fetch - processPackages [pypef]: Downloading https://files.pythonhosted.org/packages/ff/8f/060334dcb5945358b1038022aba8d0a8967273ead764a847284b59b1b40e/pypef-0.2.4.tar.gz
+[2023-05-08 16:26:08] INFO root fetch - processPackages [camtono-parser]: Downloading https://files.pythonhosted.org/packages/dc/01/1e0f8fb22fb6440aa785e3336caf3b185889ed8adc5b5767aa57ea614522/camtono-parser-0.0.9.tar.gz
+[2023-05-08 16:26:08] INFO root fetch - processPackages [PyHaier]: executing diffoscope
+[2023-05-08 16:26:08] INFO root fetch - processPackages [PyHaier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyHaier-0.1.5.tar.gz tmp/PyHaier-0.1.6.tar.gz --markdown 20230508/P/PyHaier/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-08 16:26:08] INFO root fetch - processPackages [pypef]: executing diffoscope
+[2023-05-08 16:26:08] INFO root fetch - processPackages [pypef]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypef-0.2.3.tar.gz tmp/pypef-0.2.4.tar.gz --markdown 20230508/p/pypef/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-08 16:26:08] INFO root fetch - processPackages [camtono-parser]: executing diffoscope
+[2023-05-08 16:26:08] INFO root fetch - processPackages [camtono-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camtono-parser-0.0.8.tar.gz tmp/camtono-parser-0.0.9.tar.gz --markdown 20230508/c/camtono-parser/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 16:26:08] INFO root fetch - processPackages [django-celery-results]: Start processing: navalmartin-mir-vision-utils
+[2023-05-08 16:26:08] INFO root fetch - main [MainThread]: End processing [django-celery-results]: success
+[2023-05-08 16:26:08] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 16:26:08] INFO root fetch - processPackages [spanishconjugator]: Start processing: certora-cli-alpha-uri-generate-link-json
+[2023-05-08 16:26:08] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-08 16:26:08] INFO root fetch - processPackages [robusta-cli]: Start processing: certora-cli-alpha-master
+[2023-05-08 16:26:08] INFO root fetch - main [MainThread]: End processing [robusta-cli]: success
+[2023-05-08 16:26:08] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: executing diffoscope
+[2023-05-08 16:26:08] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navalmartin_mir_vision_utils-0.0.8.tar.gz tmp/navalmartin_mir_vision_utils-0.0.9.tar.gz --markdown 20230508/n/navalmartin-mir-vision-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 16:26:08] INFO root fetch - processPackages [certora-cli-alpha-uri-generate-link-json]: New version: [20230508.14.24.748618] Old Version: [20230507.15.1.789625]
+[2023-05-08 16:26:08] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230508.14.24.31170] Old Version: [20230507.8.43.246318]
+[2023-05-08 16:26:09] INFO root fetch - processPackages [certora-cli-alpha-uri-generate-link-json]: Downloading https://files.pythonhosted.org/packages/a7/ae/0a78dab381859b1e7540e9e87d95a0b24fda3a7f2ec788dda32e83354964/certora-cli-alpha-uri-generate_link_json-20230507.15.1.789625.tar.gz
+[2023-05-08 16:26:09] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/0e/76/c32dd72421295bf4b988e78e1682c5c12fbab55ae7f5db3df1efffddb24f/certora-cli-alpha-master-20230507.8.43.246318.tar.gz
+[2023-05-08 16:26:09] WARNING root fetch - processPackages [certora-cli-alpha-uri-generate-link-json]: Skipping package: exceeds size limit 38475296>=10485760
+[2023-05-08 16:26:09] INFO root fetch - processPackages [certora-cli-alpha-uri-generate-link-json]: Start processing: scrapy-poet
+[2023-05-08 16:26:09] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-uri-generate-link-json] error
+[2023-05-08 16:26:09] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 38473972>=10485760
+[2023-05-08 16:26:09] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: dbt-doc-py
+[2023-05-08 16:26:09] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-08 16:26:09] INFO root fetch - processPackages [catwalk-common]: Start processing: certora-cli-alpha-kit-annotation
+[2023-05-08 16:26:09] INFO root fetch - main [MainThread]: End processing [catwalk-common]: success
+[2023-05-08 16:26:09] INFO root fetch - processPackages [dbt-doc-py]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-08 16:26:09] INFO root fetch - processPackages [certora-cli-alpha-kit-annotation]: New version: [20230508.13.7.481888] Old Version: [20230507.14.33.454532]
+[2023-05-08 16:26:09] INFO root fetch - processPackages [flowtask]: Start processing: neuralpit
+[2023-05-08 16:26:09] INFO root fetch - main [MainThread]: End processing [flowtask]: success
+[2023-05-08 16:26:09] INFO root fetch - processPackages [scrapy-poet]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-08 16:26:09] INFO root fetch - processPackages [certora-cli-alpha-kit-annotation]: Downloading https://files.pythonhosted.org/packages/fd/b2/e4cf14c004bfe6e982d34aed2bf1ce836840a9ca5c17c5466a809e3cf2a5/certora-cli-alpha-kit-annotation-20230507.14.33.454532.tar.gz
+[2023-05-08 16:26:09] WARNING root fetch - processPackages [certora-cli-alpha-kit-annotation]: Skipping package: exceeds size limit 38379641>=10485760
+[2023-05-08 16:26:09] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-kit-annotation] error
+[2023-05-08 16:26:09] INFO root fetch - processPackages [neuralpit]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-08 16:26:09] INFO root fetch - processPackages [dbt-doc-py]: Downloading https://files.pythonhosted.org/packages/fa/f0/2596ae0b320ab8d20b0b7c3e0f952a54e39915f49f151f4899d003441730/dbt-doc-py-0.1.7.tar.gz
+[2023-05-08 16:26:09] INFO root fetch - main [MainThread]: End processing [dbt-doc-py]: success
+[2023-05-08 16:26:09] INFO root fetch - processPackages [scrapy-poet]: Downloading https://files.pythonhosted.org/packages/ab/f5/3c802dc5bd5bdbce553ffd4133ac9d68835b9badfe9214f5735b2f7b70e6/scrapy-poet-0.8.0.tar.gz
+[2023-05-08 16:26:09] INFO root fetch - main [MainThread]: End processing [PyHaier]: success
+[2023-05-08 16:26:09] INFO root fetch - processPackages [neuralpit]: Downloading https://files.pythonhosted.org/packages/ea/77/d76bb634a5071294d3f096ccb39e5e9b16fada41d3176dbdb68a72308f58/neuralpit-1.0.0.tar.gz
+[2023-05-08 16:26:09] INFO root fetch - processPackages [dbt-doc-py]: executing diffoscope
+[2023-05-08 16:26:09] INFO root fetch - processPackages [dbt-doc-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-doc-py-0.1.6.tar.gz tmp/dbt-doc-py-0.1.7.tar.gz --markdown 20230508/d/dbt-doc-py/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-08 16:26:09] INFO root fetch - processPackages [neuralpit]: Downloading https://files.pythonhosted.org/packages/85/b1/2fd3aff58c6e3bbab8e2ea0060f11ee6212b17fa162f2fad2e4d76a7d993/neuralpit-1.0.1.tar.gz
+[2023-05-08 16:26:09] INFO root fetch - main [MainThread]: End processing [camtono-parser]: success
+[2023-05-08 16:26:09] INFO root fetch - processPackages [scrapy-poet]: Downloading https://files.pythonhosted.org/packages/d0/5a/571ac12e6f23b728607a54662d40f67812d32940144dc264bece752e52a0/scrapy-poet-0.9.0.tar.gz
+[2023-05-08 16:26:09] INFO root fetch - processPackages [neuralpit]: executing diffoscope
+[2023-05-08 16:26:09] INFO root fetch - processPackages [neuralpit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuralpit-1.0.0.tar.gz tmp/neuralpit-1.0.1.tar.gz --markdown 20230508/n/neuralpit/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-08 16:26:10] INFO root fetch - processPackages [scrapy-poet]: executing diffoscope
+[2023-05-08 16:26:10] INFO root fetch - processPackages [scrapy-poet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapy-poet-0.8.0.tar.gz tmp/scrapy-poet-0.9.0.tar.gz --markdown 20230508/s/scrapy-poet/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-08 16:26:10] INFO root fetch - main [MainThread]: End processing [dbt-doc-py]: success
+[2023-05-08 16:26:10] INFO root fetch - main [MainThread]: End processing [neuralpit]: success
+[2023-05-08 16:26:11] INFO root fetch - main [MainThread]: End processing [scrapy-poet]: success
+[2023-05-08 16:26:11] INFO root fetch - main [MainThread]: End processing [navalmartin-mir-vision-utils]: success
+[2023-05-08 16:26:14] INFO root fetch - main [MainThread]: End processing [pypef]: success
+[2023-05-08 16:26:51] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-05-08 16:26:51] INFO root fetch - main [MainThread]: Store serial: [18017949]
