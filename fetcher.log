@@ -8304,3 +8304,166 @@
 [2023-05-08 10:49:04] INFO root fetch - main [MainThread]: End processing [pineboo]: success
 [2023-05-08 10:49:11] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-05-08 10:49:11] INFO root fetch - main [MainThread]: Store serial: [18014708]
+[2023-05-08 10:54:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18014708]
+[2023-05-08 10:54:20] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-05-08 10:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edwh
+[2023-05-08 10:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyrew
+[2023-05-08 10:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: monotonic-derivative
+[2023-05-08 10:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pwl-chat-python
+[2023-05-08 10:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ome-zarr
+[2023-05-08 10:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bw-temporalis
+[2023-05-08 10:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wcfhttp
+[2023-05-08 10:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: modelbase2
+[2023-05-08 10:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: daemonflux
+[2023-05-08 10:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mobie
+[2023-05-08 10:54:20] INFO root fetch - processPackages [pyrew]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-08 10:54:20] INFO root fetch - processPackages [edwh]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-08 10:54:20] INFO root fetch - processPackages [monotonic-derivative]: New version: [0.4] Old Version: [0.3]
+[2023-05-08 10:54:20] INFO root fetch - processPackages [pwl-chat-python]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-05-08 10:54:20] INFO root fetch - processPackages [mobie]: New version: [4.0.3] Old Version: [4.0.2]
+[2023-05-08 10:54:20] INFO root fetch - processPackages [wcfhttp]: New version: [37.1.25.1] Old Version: [37.1.25.0]
+[2023-05-08 10:54:20] INFO root fetch - processPackages [ome-zarr]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-05-08 10:54:20] INFO root fetch - processPackages [bw-temporalis]: New version: [0.6] Old Version: [0.5.dev1]
+[2023-05-08 10:54:20] INFO root fetch - processPackages [modelbase2]: New version: [0.1.8] Old Version: [0.1.6]
+[2023-05-08 10:54:20] INFO root fetch - processPackages [daemonflux]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-05-08 10:54:20] INFO root fetch - processPackages [mobie]: Downloading https://files.pythonhosted.org/packages/38/eb/29b88a5d5ed7bcec68d548f60aeaecc35e9b37aaa3f52065674947ab6b6d/mobie-4.0.3.tar.gz
+[2023-05-08 10:54:20] INFO root fetch - processPackages [pwl-chat-python]: Downloading https://files.pythonhosted.org/packages/e1/fa/55b5cff4bc01bc415e05d76c80859f8fa8d0c0fa8c31606d1bb9a4843733/pwl-chat-python-1.3.0.tar.gz
+[2023-05-08 10:54:20] INFO root fetch - processPackages [daemonflux]: Downloading https://files.pythonhosted.org/packages/ec/7f/5091f12f2284923d4989bba2ea58422e46244eed8c5fbef229e659cc1844/daemonflux-0.6.0.tar.gz
+[2023-05-08 10:54:20] INFO root fetch - processPackages [bw-temporalis]: Downloading https://files.pythonhosted.org/packages/cb/06/7df9f381528e905d0184bda0eec5dc13c9b256137b23b6909216cc12f4a1/bw_temporalis-0.5.dev1.tar.gz
+[2023-05-08 10:54:20] INFO root fetch - processPackages [wcfhttp]: Downloading https://files.pythonhosted.org/packages/dd/63/810859a6e9947fc0a3134c18371c02a98df6932beaf829220d21268aee45/wcfhttp-37.1.25.1.tar.gz
+[2023-05-08 10:54:20] INFO root fetch - processPackages [ome-zarr]: Downloading https://files.pythonhosted.org/packages/cd/d5/1fcff97e614dc14998ccdccb1cee9637255a61946e18d644099e2055fd52/ome-zarr-0.7.0.tar.gz
+[2023-05-08 10:54:20] INFO root fetch - processPackages [modelbase2]: Downloading https://files.pythonhosted.org/packages/8d/bd/b41d464497049fedd938b2379a9d639742a2655fda7fbb6407d6a924ad62/modelbase2-0.1.6.tar.gz
+[2023-05-08 10:54:20] INFO root fetch - processPackages [pyrew]: executing diffoscope
+[2023-05-08 10:54:20] INFO root fetch - processPackages [pyrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrew-0.9.2.tar.gz tmp/pyrew-0.9.3.tar.gz --markdown 20230508/p/pyrew/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-08 10:54:20] INFO root fetch - processPackages [mobie]: executing diffoscope
+[2023-05-08 10:54:20] INFO root fetch - processPackages [mobie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobie-4.0.2.tar.gz tmp/mobie-4.0.3.tar.gz --markdown 20230508/m/mobie/4.0.2-4.0.3/diff.md --exclude *.pyd
+[2023-05-08 10:54:20] INFO root fetch - processPackages [wcfhttp]: executing diffoscope
+[2023-05-08 10:54:20] INFO root fetch - processPackages [wcfhttp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wcfhttp-37.1.25.0.tar.gz tmp/wcfhttp-37.1.25.1.tar.gz --markdown 20230508/w/wcfhttp/37.1.25.0-37.1.25.1/diff.md --exclude *.pyd
+[2023-05-08 10:54:20] INFO root fetch - processPackages [monotonic-derivative]: Downloading https://files.pythonhosted.org/packages/2c/53/f223720ebb2253525993c05903f85df7a2f6a552b6fc0a8128d43608d2d1/monotonic%20derivative-0.4.tar.gz
+[2023-05-08 10:54:20] INFO root fetch - processPackages [edwh]: Downloading https://files.pythonhosted.org/packages/a1/b2/ffc583af9d774bfd7b622dbed69ea2357b3a1f9096658cf1202307626113/edwh-0.9.1.tar.gz
+[2023-05-08 10:54:20] WARNING root fetch - processPackages [edwh]: Skipping package: exceeds size limit 32547749>=10485760
+[2023-05-08 10:54:20] INFO root fetch - processPackages [edwh]: Start processing: pyrew
+[2023-05-08 10:54:20] INFO root fetch - main [MainThread]: End processing [edwh] error
+[2023-05-08 10:54:20] INFO root fetch - processPackages [monotonic-derivative]: executing diffoscope
+[2023-05-08 10:54:20] INFO root fetch - processPackages [monotonic-derivative]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monotonic derivative-0.3.tar.gz tmp/monotonic derivative-0.4.tar.gz --markdown 20230508/m/monotonic-derivative/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-08 10:54:20] INFO root fetch - processPackages [pyrew]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-08 10:54:20] INFO root fetch - processPackages [pwl-chat-python]: Downloading https://files.pythonhosted.org/packages/55/c0/3804f0cde7b4167213447dca5fb67b49a011fea5606f62a7cbd14de4df35/pwl-chat-python-1.3.1.tar.gz
+[2023-05-08 10:54:20] INFO root fetch - processPackages [daemonflux]: Downloading https://files.pythonhosted.org/packages/d7/30/92913ebc7620db7a4ae77018edbcd492ef913a3d316349498a2b4f38ade8/daemonflux-0.6.1.tar.gz
+[2023-05-08 10:54:20] INFO root fetch - processPackages [bw-temporalis]: Downloading https://files.pythonhosted.org/packages/7a/ee/77adaa3edf07b94cbaf12b93af7fed2d73a2564def557e5335686f6d7528/bw_temporalis-0.6.tar.gz
+[2023-05-08 10:54:20] INFO root fetch - processPackages [ome-zarr]: Downloading https://files.pythonhosted.org/packages/50/22/2cbd5cb5d00f484e19c2239625169c2e9772b90dfe0b1eb394cbda750492/ome-zarr-0.7.1.tar.gz
+[2023-05-08 10:54:20] INFO root fetch - processPackages [pyrew]: executing diffoscope
+[2023-05-08 10:54:20] INFO root fetch - processPackages [pyrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrew-0.9.2.tar.gz tmp/pyrew-0.9.3.tar.gz --markdown 20230508/p/pyrew/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-08 10:54:20] INFO root fetch - processPackages [daemonflux]: executing diffoscope
+[2023-05-08 10:54:20] INFO root fetch - processPackages [daemonflux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daemonflux-0.6.0.tar.gz tmp/daemonflux-0.6.1.tar.gz --markdown 20230508/d/daemonflux/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-05-08 10:54:20] INFO root fetch - processPackages [pwl-chat-python]: executing diffoscope
+[2023-05-08 10:54:20] INFO root fetch - processPackages [pwl-chat-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pwl-chat-python-1.3.0.tar.gz tmp/pwl-chat-python-1.3.1.tar.gz --markdown 20230508/p/pwl-chat-python/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-05-08 10:54:20] INFO root fetch - processPackages [modelbase2]: Downloading https://files.pythonhosted.org/packages/c7/a5/defd22a8fa0611c0f23090b874a5fec8cad7478e893dcd17bc4edea068d4/modelbase2-0.1.8.tar.gz
+[2023-05-08 10:54:20] INFO root fetch - processPackages [bw-temporalis]: executing diffoscope
+[2023-05-08 10:54:20] INFO root fetch - processPackages [bw-temporalis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bw_temporalis-0.5.dev1.tar.gz tmp/bw_temporalis-0.6.tar.gz --markdown 20230508/b/bw-temporalis/0.5.dev1-0.6/diff.md --exclude *.pyd
+[2023-05-08 10:54:20] INFO root fetch - processPackages [ome-zarr]: executing diffoscope
+[2023-05-08 10:54:20] INFO root fetch - processPackages [ome-zarr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ome-zarr-0.7.0.tar.gz tmp/ome-zarr-0.7.1.tar.gz --markdown 20230508/o/ome-zarr/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-05-08 10:54:20] INFO root fetch - processPackages [modelbase2]: executing diffoscope
+[2023-05-08 10:54:20] INFO root fetch - processPackages [modelbase2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbase2-0.1.6.tar.gz tmp/modelbase2-0.1.8.tar.gz --markdown 20230508/m/modelbase2/0.1.6-0.1.8/diff.md --exclude *.pyd
+[2023-05-08 10:54:22] INFO root fetch - processPackages [pyrew]: Start processing: hue-sunrise
+[2023-05-08 10:54:22] INFO root fetch - main [MainThread]: End processing [pyrew]: success
+[2023-05-08 10:54:22] INFO root fetch - processPackages [hue-sunrise]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-05-08 10:54:22] INFO root fetch - processPackages [monotonic-derivative]: Start processing: edwh-migrate
+[2023-05-08 10:54:22] INFO root fetch - main [MainThread]: End processing [monotonic-derivative]: success
+[2023-05-08 10:54:22] INFO root fetch - processPackages [mobie]: Start processing: cycparser
+[2023-05-08 10:54:22] INFO root fetch - main [MainThread]: End processing [mobie]: success
+[2023-05-08 10:54:22] INFO root fetch - processPackages [edwh-migrate]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-08 10:54:22] INFO root fetch - processPackages [cycparser]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-08 10:54:22] INFO root fetch - processPackages [pyrew]: Start processing: calcu-utils
+[2023-05-08 10:54:22] INFO root fetch - main [MainThread]: End processing [pyrew]: success
+[2023-05-08 10:54:22] WARNING root fetch - processPackages [calcu-utils]: Skipping, unable to determine old version
+[2023-05-08 10:54:22] INFO root fetch - processPackages [calcu-utils]: Start processing: difai
+[2023-05-08 10:54:22] INFO root fetch - main [MainThread]: End processing [calcu-utils] error
+[2023-05-08 10:54:22] INFO root fetch - processPackages [wcfhttp]: Start processing: pasmopy
+[2023-05-08 10:54:22] INFO root fetch - main [MainThread]: End processing [wcfhttp]: success
+[2023-05-08 10:54:22] INFO root fetch - processPackages [hue-sunrise]: Downloading https://files.pythonhosted.org/packages/ca/e9/540d059956f78f9c8fe289ac263b36659e46539f8aa5f3d1bed8516aceb4/hue_sunrise-0.6.8.tar.gz
+[2023-05-08 10:54:22] INFO root fetch - processPackages [difai]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-08 10:54:22] INFO root fetch - processPackages [pasmopy]: New version: [0.5.0] Old Version: [0.4.4]
+[2023-05-08 10:54:22] INFO root fetch - processPackages [edwh-migrate]: Downloading https://files.pythonhosted.org/packages/bd/1d/c065948e23bc32ebd9479b351b83bef1afce75cf6f0643eafcb8d109bc5c/edwh_migrate-0.4.1.tar.gz
+[2023-05-08 10:54:22] INFO root fetch - processPackages [cycparser]: Downloading https://files.pythonhosted.org/packages/1c/df/ccef6d8e9998e1f3a0d71ad2d1dccb82149bd4b6761aa0ba04746369db67/cycparser-1.2.8.tar.gz
+[2023-05-08 10:54:22] INFO root fetch - processPackages [difai]: Downloading https://files.pythonhosted.org/packages/28/11/c6881565febce439d43d58de2e2a17606319196ca25c3c27cef1c63d2daa/difai-0.9.8.tar.gz
+[2023-05-08 10:54:22] INFO root fetch - processPackages [pasmopy]: Downloading https://files.pythonhosted.org/packages/61/89/1840f97245167e9b022093ecc29f5d99b8f3684119a11ea1fe0320b36722/pasmopy-0.4.4.tar.gz
+[2023-05-08 10:54:22] INFO root fetch - processPackages [modelbase2]: Start processing: dm-cli
+[2023-05-08 10:54:22] INFO root fetch - main [MainThread]: End processing [modelbase2]: success
+[2023-05-08 10:54:22] INFO root fetch - processPackages [dm-cli]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-08 10:54:22] INFO root fetch - processPackages [bw-temporalis]: Start processing: qtb-plot
+[2023-05-08 10:54:22] INFO root fetch - main [MainThread]: End processing [bw-temporalis]: success
+[2023-05-08 10:54:22] INFO root fetch - processPackages [qtb-plot]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-08 10:54:22] INFO root fetch - processPackages [edwh-migrate]: Downloading https://files.pythonhosted.org/packages/1d/dd/ac48767e40b49f17d5cbede3e704e03c6cf281359383bcd4741e797edf5e/edwh_migrate-0.4.2.tar.gz
+[2023-05-08 10:54:22] INFO root fetch - processPackages [hue-sunrise]: Downloading https://files.pythonhosted.org/packages/fa/05/26bf05e0f3613c7bb941514f32b7c545625037f03289eec39ac8cf0557c9/hue_sunrise-0.6.9.tar.gz
+[2023-05-08 10:54:22] INFO root fetch - processPackages [ome-zarr]: Start processing: balanna
+[2023-05-08 10:54:22] INFO root fetch - main [MainThread]: End processing [ome-zarr]: success
+[2023-05-08 10:54:22] INFO root fetch - processPackages [cycparser]: Downloading https://files.pythonhosted.org/packages/18/d8/2b7fc87b39a5c7e3e5efb3c4fba10bdea69dddbcaccc22660be5d4666496/cycparser-1.2.9.tar.gz
+[2023-05-08 10:54:22] INFO root fetch - processPackages [balanna]: New version: [1.1] Old Version: [1.0]
+[2023-05-08 10:54:22] INFO root fetch - processPackages [edwh-migrate]: executing diffoscope
+[2023-05-08 10:54:22] INFO root fetch - processPackages [edwh-migrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edwh_migrate-0.4.1.tar.gz tmp/edwh_migrate-0.4.2.tar.gz --markdown 20230508/e/edwh-migrate/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-08 10:54:22] INFO root fetch - processPackages [hue-sunrise]: executing diffoscope
+[2023-05-08 10:54:22] INFO root fetch - processPackages [hue-sunrise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hue_sunrise-0.6.8.tar.gz tmp/hue_sunrise-0.6.9.tar.gz --markdown 20230508/h/hue-sunrise/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-05-08 10:54:22] INFO root fetch - processPackages [pwl-chat-python]: Start processing: odoo13-addon-ddmrp
+[2023-05-08 10:54:22] INFO root fetch - main [MainThread]: End processing [pwl-chat-python]: success
+[2023-05-08 10:54:22] INFO root fetch - processPackages [dm-cli]: Downloading https://files.pythonhosted.org/packages/59/df/ca24977afe69b3ac5282172f3b9dd56ad46a72021accec09a7153b4d774c/dm-cli-1.0.8.tar.gz
+[2023-05-08 10:54:22] INFO root fetch - processPackages [cycparser]: executing diffoscope
+[2023-05-08 10:54:22] INFO root fetch - processPackages [cycparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycparser-1.2.8.tar.gz tmp/cycparser-1.2.9.tar.gz --markdown 20230508/c/cycparser/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-08 10:54:22] INFO root fetch - processPackages [difai]: Downloading https://files.pythonhosted.org/packages/f8/09/7d1db68c5c752de567fec30ef6c66715361c7a8ab440134667aaef9c87d1/difai-0.9.9.tar.gz
+[2023-05-08 10:54:22] INFO root fetch - processPackages [odoo13-addon-ddmrp]: New version: [13.0.1.9.1.dev1] Old Version: [13.0.1.9.0]
+[2023-05-08 10:54:22] INFO root fetch - processPackages [daemonflux]: Start processing: tybase
+[2023-05-08 10:54:22] INFO root fetch - main [MainThread]: End processing [daemonflux]: success
+[2023-05-08 10:54:22] INFO root fetch - processPackages [qtb-plot]: Downloading https://files.pythonhosted.org/packages/11/03/b204f1332c788b8d60b1f6c015b831fa8085a212dfb69503e85f1598bd38/qtb_plot-0.3.8.tar.gz
+[2023-05-08 10:54:22] INFO root fetch - processPackages [pasmopy]: Downloading https://files.pythonhosted.org/packages/9a/ef/6f11af2599505d465f9b47ca0166445ca0a8f00d93563f02ab6af16e5048/pasmopy-0.5.0.tar.gz
+[2023-05-08 10:54:22] INFO root fetch - processPackages [tybase]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-08 10:54:22] INFO root fetch - processPackages [balanna]: Downloading https://files.pythonhosted.org/packages/4b/78/a7df9aa0f200bf05d9a839d4f049e1f60d8dbccb8d6efeeb64cf0d250da1/balanna-1.0.tar.gz
+[2023-05-08 10:54:22] INFO root fetch - processPackages [difai]: executing diffoscope
+[2023-05-08 10:54:22] INFO root fetch - processPackages [difai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/difai-0.9.8.tar.gz tmp/difai-0.9.9.tar.gz --markdown 20230508/d/difai/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-08 10:54:22] INFO root fetch - processPackages [pasmopy]: executing diffoscope
+[2023-05-08 10:54:22] INFO root fetch - processPackages [pasmopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pasmopy-0.4.4.tar.gz tmp/pasmopy-0.5.0.tar.gz --markdown 20230508/p/pasmopy/0.4.4-0.5.0/diff.md --exclude *.pyd
+[2023-05-08 10:54:23] INFO root fetch - processPackages [odoo13-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/dc/95/950a4a2a5a258222e5237488d199eb7d07de47b5f5c6474af8b60e6a7a69/odoo13_addon_ddmrp-13.0.1.9.0-py3-none-any.whl
+[2023-05-08 10:54:23] INFO root fetch - processPackages [dm-cli]: Downloading https://files.pythonhosted.org/packages/ba/1a/e361c46097f8d3626943bb47fe4508776017a4d7677d1f3812b82cd64f1a/dm-cli-1.0.9.tar.gz
+[2023-05-08 10:54:23] INFO root fetch - processPackages [tybase]: Downloading https://files.pythonhosted.org/packages/0c/51/f8399ba43fae1a45e20261ca71263ef296b58e89fb48a0f4bda41fac4cd9/tybase-0.0.5.tar.gz
+[2023-05-08 10:54:23] INFO root fetch - processPackages [qtb-plot]: Downloading https://files.pythonhosted.org/packages/f4/15/03462d32e24c9b67e3379c910f4c9ffaadaa56270659b362e0c45eaeaccd/qtb_plot-0.3.9.tar.gz
+[2023-05-08 10:54:23] INFO root fetch - processPackages [balanna]: Downloading https://files.pythonhosted.org/packages/f7/e8/7e1b0f1368ad5a6fa62b001ad25f2a95c80f110b3fe1cc3eaf673f542c43/balanna-1.1.tar.gz
+[2023-05-08 10:54:23] INFO root fetch - processPackages [dm-cli]: executing diffoscope
+[2023-05-08 10:54:23] INFO root fetch - processPackages [dm-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm-cli-1.0.8.tar.gz tmp/dm-cli-1.0.9.tar.gz --markdown 20230508/d/dm-cli/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-08 10:54:23] INFO root fetch - processPackages [tybase]: executing diffoscope
+[2023-05-08 10:54:23] INFO root fetch - processPackages [tybase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tybase-0.0.4.tar.gz tmp/tybase-0.0.5.tar.gz --markdown 20230508/t/tybase/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-08 10:54:23] INFO root fetch - processPackages [qtb-plot]: executing diffoscope
+[2023-05-08 10:54:23] INFO root fetch - processPackages [qtb-plot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtb_plot-0.3.8.tar.gz tmp/qtb_plot-0.3.9.tar.gz --markdown 20230508/q/qtb-plot/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-08 10:54:23] INFO root fetch - processPackages [balanna]: executing diffoscope
+[2023-05-08 10:54:23] INFO root fetch - processPackages [balanna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/balanna-1.0.tar.gz tmp/balanna-1.1.tar.gz --markdown 20230508/b/balanna/1.0-1.1/diff.md --exclude *.pyd
+[2023-05-08 10:54:23] INFO root fetch - processPackages [odoo13-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/5a/f1/e682a43d6521ca41456243a79d1e5d7102f586e0b44f357ad5a1b8a40965/odoo13_addon_ddmrp-13.0.1.9.1.dev1-py3-none-any.whl
+[2023-05-08 10:54:23] INFO root fetch - processPackages [odoo13-addon-ddmrp]: executing diffoscope
+[2023-05-08 10:54:23] INFO root fetch - processPackages [odoo13-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_ddmrp-13.0.1.9.0-py3-none-any.whl.zip tmp/odoo13_addon_ddmrp-13.0.1.9.1.dev1-py3-none-any.whl.zip --markdown 20230508/o/odoo13-addon-ddmrp/13.0.1.9.0-13.0.1.9.1.dev1/diff.md --exclude *.pyd
+[2023-05-08 10:54:24] INFO root fetch - processPackages [hue-sunrise]: Start processing: granular-engine
+[2023-05-08 10:54:24] INFO root fetch - main [MainThread]: End processing [hue-sunrise]: success
+[2023-05-08 10:54:24] INFO root fetch - processPackages [granular-engine]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-08 10:54:24] INFO root fetch - processPackages [difai]: Start processing: easy-pil
+[2023-05-08 10:54:24] INFO root fetch - main [MainThread]: End processing [difai]: success
+[2023-05-08 10:54:24] INFO root fetch - processPackages [easy-pil]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-08 10:54:24] INFO root fetch - processPackages [pasmopy]: Start processing: lightning-template
+[2023-05-08 10:54:24] INFO root fetch - main [MainThread]: End processing [pasmopy]: success
+[2023-05-08 10:54:24] INFO root fetch - processPackages [granular-engine]: Downloading https://files.pythonhosted.org/packages/f4/2c/a5e7888637f55901ef0a030d76316a384a366da7ffef10343c2a66d51e47/granular_engine-0.2.6.tar.gz
+[2023-05-08 10:54:24] INFO root fetch - processPackages [lightning-template]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-08 10:54:24] INFO root fetch - processPackages [easy-pil]: Downloading https://files.pythonhosted.org/packages/46/0e/380d365bc6035e1e85a945a20f865d75ec3ec98e9bbd4046920a65d7b2be/easy-pil-0.2.2.tar.gz
+[2023-05-08 10:54:24] INFO root fetch - main [MainThread]: End processing [edwh-migrate]: success
+[2023-05-08 10:54:24] INFO root fetch - processPackages [granular-engine]: executing diffoscope
+[2023-05-08 10:54:24] INFO root fetch - processPackages [granular-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/granular_engine-0.2.5.tar.gz tmp/granular_engine-0.2.6.tar.gz --markdown 20230508/g/granular-engine/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-08 10:54:24] INFO root fetch - processPackages [lightning-template]: Downloading https://files.pythonhosted.org/packages/bb/23/283f51826390193fc77c120c748d3599480b234089dc9eea07057d06ac6a/lightning-template-1.0.8.tar.gz
+[2023-05-08 10:54:24] INFO root fetch - main [MainThread]: End processing [qtb-plot]: success
+[2023-05-08 10:54:24] INFO root fetch - main [MainThread]: End processing [tybase]: success
+[2023-05-08 10:54:24] INFO root fetch - main [MainThread]: End processing [cycparser]: success
+[2023-05-08 10:54:24] INFO root fetch - processPackages [easy-pil]: Downloading https://files.pythonhosted.org/packages/d8/af/1863fa0edcd4ff90f850357b81942905a0b7b5b171cd3bdf016d2ae53aca/easy-pil-0.2.3.tar.gz
+[2023-05-08 10:54:24] INFO root fetch - processPackages [lightning-template]: Downloading https://files.pythonhosted.org/packages/3c/15/188896748e785a66931b38a2f6e0ae23e7a6c736948e3b34b74d3220587a/lightning-template-1.0.9.tar.gz
+[2023-05-08 10:54:24] INFO root fetch - processPackages [easy-pil]: executing diffoscope
+[2023-05-08 10:54:24] INFO root fetch - processPackages [easy-pil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy-pil-0.2.2.tar.gz tmp/easy-pil-0.2.3.tar.gz --markdown 20230508/e/easy-pil/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-08 10:54:24] INFO root fetch - processPackages [lightning-template]: executing diffoscope
+[2023-05-08 10:54:24] INFO root fetch - processPackages [lightning-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning-template-1.0.8.tar.gz tmp/lightning-template-1.0.9.tar.gz --markdown 20230508/l/lightning-template/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-08 10:54:25] INFO root fetch - main [MainThread]: End processing [balanna]: success
+[2023-05-08 10:54:25] INFO root fetch - main [MainThread]: End processing [dm-cli]: success
+[2023-05-08 10:54:25] INFO root fetch - main [MainThread]: End processing [odoo13-addon-ddmrp]: success
+[2023-05-08 10:54:25] INFO root fetch - main [MainThread]: End processing [granular-engine]: success
+[2023-05-08 10:54:26] INFO root fetch - main [MainThread]: End processing [lightning-template]: success
+[2023-05-08 10:54:26] INFO root fetch - main [MainThread]: End processing [easy-pil]: success
+[2023-05-08 10:54:26] INFO root fetch - main [MainThread]: Store serial: [18014781]
