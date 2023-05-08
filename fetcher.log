@@ -5208,3 +5208,80 @@
 [2023-05-08 06:24:12] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-wedata]: success
 [2023-05-08 06:25:37] INFO root fetch - main [MainThread]: End processing [pywf]: success
 [2023-05-08 06:25:37] INFO root fetch - main [MainThread]: Store serial: [18012863]
+[2023-05-08 06:31:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18012863]
+[2023-05-08 06:31:11] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-08 06:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: terraform-backend-s3-bucket
+[2023-05-08 06:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: feiticeiro-tec
+[2023-05-08 06:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pythermalcomfort
+[2023-05-08 06:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nkust-ucl-k12-bot
+[2023-05-08 06:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pysnmp-lextudio
+[2023-05-08 06:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: analogvnn
+[2023-05-08 06:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pmdsky-debug-py
+[2023-05-08 06:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cyberdrop-dl
+[2023-05-08 06:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nkust-ucl-k12-bot
+[2023-05-08 06:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cyberdrop-dl
+[2023-05-08 06:31:11] INFO root fetch - processPackages [pythermalcomfort]: New version: [2.7.1] Old Version: [2.7.0]
+[2023-05-08 06:31:11] INFO root fetch - processPackages [analogvnn]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-08 06:31:11] INFO root fetch - processPackages [nkust-ucl-k12-bot]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-05-08 06:31:11] INFO root fetch - processPackages [feiticeiro-tec]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-05-08 06:31:11] INFO root fetch - processPackages [pysnmp-lextudio]: New version: [5.0.28] Old Version: [5.0.27]
+[2023-05-08 06:31:11] INFO root fetch - processPackages [terraform-backend-s3-bucket]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 06:31:11] INFO root fetch - processPackages [pmdsky-debug-py]: New version: [5.1.9] Old Version: [5.1.8]
+[2023-05-08 06:31:11] INFO root fetch - processPackages [nkust-ucl-k12-bot]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-05-08 06:31:11] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.16] Old Version: [4.2.15]
+[2023-05-08 06:31:11] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.16] Old Version: [4.2.15]
+[2023-05-08 06:31:11] INFO root fetch - processPackages [nkust-ucl-k12-bot]: Downloading https://files.pythonhosted.org/packages/28/f9/5cacb496abcaf3bb36ce172ed4697c31cceb7568f3892fdd9f96e5cb29f4/nkust-ucl-k12-bot-2.9.0.tar.gz
+[2023-05-08 06:31:11] INFO root fetch - processPackages [nkust-ucl-k12-bot]: Downloading https://files.pythonhosted.org/packages/28/f9/5cacb496abcaf3bb36ce172ed4697c31cceb7568f3892fdd9f96e5cb29f4/nkust-ucl-k12-bot-2.9.0.tar.gz
+[2023-05-08 06:31:11] INFO root fetch - processPackages [pysnmp-lextudio]: Downloading https://files.pythonhosted.org/packages/97/ba/fbd4a03b3717114aee89ca3622a781358ab59cf02b033dfea89236e5b418/pysnmp_lextudio-5.0.27.tar.gz
+[2023-05-08 06:31:11] INFO root fetch - processPackages [pythermalcomfort]: Downloading https://files.pythonhosted.org/packages/c8/b5/75d3230f49ca4114424672415f6aee0750f2d5e31d6bd9bd987a382ae7ed/pythermalcomfort-2.7.0.tar.gz
+[2023-05-08 06:31:11] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/3e/66/c9eccf02e723d81f8b846687514f5eb944a5caf11f0d327bf3c4582dd8fc/cyberdrop-dl-4.2.15.tar.gz
+[2023-05-08 06:31:11] INFO root fetch - processPackages [feiticeiro-tec]: Downloading https://files.pythonhosted.org/packages/c8/b5/bb23866cd61d7812cfd103e23de619e5cda224f1fb4dab8da54f0b0be535/feiticeiro_tec-1.1.6.tar.gz
+[2023-05-08 06:31:11] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/3e/66/c9eccf02e723d81f8b846687514f5eb944a5caf11f0d327bf3c4582dd8fc/cyberdrop-dl-4.2.15.tar.gz
+[2023-05-08 06:31:11] INFO root fetch - processPackages [analogvnn]: Downloading https://files.pythonhosted.org/packages/60/f2/6c544af6df17f31b30908ce97e77cf841db5ce3a848888ba1c751331bde4/analogvnn-1.0.3.tar.gz
+[2023-05-08 06:31:11] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Downloading https://files.pythonhosted.org/packages/c8/d0/f24de56a6375142a732a6a63a2870145dbda0f949c19b7e1b44fe223b748/terraform-backend-s3-bucket-0.0.8.tar.gz
+[2023-05-08 06:31:11] INFO root fetch - processPackages [pmdsky-debug-py]: Downloading https://files.pythonhosted.org/packages/a1/9f/4ebd43d37afd6d1cd3e56bf3b345ed7751f7c12b146aaa8c615bd68c4c14/pmdsky_debug_py-5.1.8-py3-none-any.whl
+[2023-05-08 06:31:11] INFO root fetch - processPackages [nkust-ucl-k12-bot]: Downloading https://files.pythonhosted.org/packages/57/9f/e5cb49d007697cc4b29e7533b4c7236765bf957ed27e2e5c1b53b0897b83/nkust-ucl-k12-bot-2.9.1.tar.gz
+[2023-05-08 06:31:11] INFO root fetch - processPackages [nkust-ucl-k12-bot]: Downloading https://files.pythonhosted.org/packages/57/9f/e5cb49d007697cc4b29e7533b4c7236765bf957ed27e2e5c1b53b0897b83/nkust-ucl-k12-bot-2.9.1.tar.gz
+[2023-05-08 06:31:11] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/f0/d4/fef82a59de4b99f0d4932969d14c484a2986e7aa560170da24ad3c4cff33/cyberdrop-dl-4.2.16.tar.gz
+[2023-05-08 06:31:11] INFO root fetch - processPackages [pythermalcomfort]: Downloading https://files.pythonhosted.org/packages/ad/6c/d33caabf7769d26167f36ba1fc026dc01f9409c6e87bb7a65755ec942253/pythermalcomfort-2.7.1.tar.gz
+[2023-05-08 06:31:11] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/f0/d4/fef82a59de4b99f0d4932969d14c484a2986e7aa560170da24ad3c4cff33/cyberdrop-dl-4.2.16.tar.gz
+[2023-05-08 06:31:11] INFO root fetch - processPackages [feiticeiro-tec]: Downloading https://files.pythonhosted.org/packages/83/59/f5d3942d1e4b46e384a0365c9efed70c6e6b78b8144f594136bca6fed925/feiticeiro_tec-1.1.7.tar.gz
+[2023-05-08 06:31:12] INFO root fetch - processPackages [analogvnn]: executing diffoscope
+[2023-05-08 06:31:12] INFO root fetch - processPackages [analogvnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/analogvnn-1.0.2.tar.gz tmp/analogvnn-1.0.3.tar.gz --markdown 20230508/a/analogvnn/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-08 06:31:12] INFO root fetch - processPackages [pysnmp-lextudio]: Downloading https://files.pythonhosted.org/packages/d5/b8/6c2d808b653bd38451eba7794299fd8482e3a90355568c02800e99fb4b98/pysnmp_lextudio-5.0.28.tar.gz
+[2023-05-08 06:31:12] WARNING root fetch - processPackages [feiticeiro-tec]: Skipping package: exceeds size limit 42352500>=10485760
+[2023-05-08 06:31:12] INFO root fetch - processPackages [feiticeiro-tec]: Start processing: tremolo
+[2023-05-08 06:31:12] INFO root fetch - main [MainThread]: End processing [feiticeiro-tec] error
+[2023-05-08 06:31:12] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-05-08 06:31:12] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.15.tar.gz tmp/cyberdrop-dl-4.2.16.tar.gz --markdown 20230508/c/cyberdrop-dl/4.2.15-4.2.16/diff.md --exclude *.pyd
+[2023-05-08 06:31:12] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-05-08 06:31:12] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.15.tar.gz tmp/cyberdrop-dl-4.2.16.tar.gz --markdown 20230508/c/cyberdrop-dl/4.2.15-4.2.16/diff.md --exclude *.pyd
+[2023-05-08 06:31:12] INFO root fetch - processPackages [tremolo]: New version: [0.0.92] Old Version: [0.0.91]
+[2023-05-08 06:31:12] INFO root fetch - processPackages [pythermalcomfort]: executing diffoscope
+[2023-05-08 06:31:12] INFO root fetch - processPackages [pythermalcomfort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythermalcomfort-2.7.0.tar.gz tmp/pythermalcomfort-2.7.1.tar.gz --markdown 20230508/p/pythermalcomfort/2.7.0-2.7.1/diff.md --exclude *.pyd
+[2023-05-08 06:31:12] INFO root fetch - processPackages [pmdsky-debug-py]: Downloading https://files.pythonhosted.org/packages/cd/d0/996c9b5291bf25dba8c6f2d7fc1fa4fdc00a7a4cd70b642aeed357578680/pmdsky_debug_py-5.1.9-py3-none-any.whl
+[2023-05-08 06:31:12] INFO root fetch - processPackages [nkust-ucl-k12-bot]: executing diffoscope
+[2023-05-08 06:31:12] INFO root fetch - processPackages [nkust-ucl-k12-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nkust-ucl-k12-bot-2.9.0.tar.gz tmp/nkust-ucl-k12-bot-2.9.1.tar.gz --markdown 20230508/n/nkust-ucl-k12-bot/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-05-08 06:31:12] INFO root fetch - processPackages [nkust-ucl-k12-bot]: executing diffoscope
+[2023-05-08 06:31:12] INFO root fetch - processPackages [nkust-ucl-k12-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nkust-ucl-k12-bot-2.9.0.tar.gz tmp/nkust-ucl-k12-bot-2.9.1.tar.gz --markdown 20230508/n/nkust-ucl-k12-bot/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-05-08 06:31:12] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Downloading https://files.pythonhosted.org/packages/cb/5e/264cab254692a82c02a6b4183994138c7fbe1b9f89a8df282e61342ed3ee/terraform-backend-s3-bucket-0.0.9.tar.gz
+[2023-05-08 06:31:12] INFO root fetch - processPackages [pysnmp-lextudio]: executing diffoscope
+[2023-05-08 06:31:12] INFO root fetch - processPackages [pysnmp-lextudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysnmp_lextudio-5.0.27.tar.gz tmp/pysnmp_lextudio-5.0.28.tar.gz --markdown 20230508/p/pysnmp-lextudio/5.0.27-5.0.28/diff.md --exclude *.pyd
+[2023-05-08 06:31:12] INFO root fetch - processPackages [tremolo]: Downloading https://files.pythonhosted.org/packages/72/29/abafeea82168ace54435d97bbbef9033bbdf7d4b4e71141b7a6301d6ab18/tremolo-0.0.92.tar.gz
+[2023-05-08 06:31:12] INFO root fetch - processPackages [terraform-backend-s3-bucket]: executing diffoscope
+[2023-05-08 06:31:12] INFO root fetch - processPackages [terraform-backend-s3-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terraform-backend-s3-bucket-0.0.8.tar.gz tmp/terraform-backend-s3-bucket-0.0.9.tar.gz --markdown 20230508/t/terraform-backend-s3-bucket/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 06:31:12] INFO root fetch - processPackages [pmdsky-debug-py]: executing diffoscope
+[2023-05-08 06:31:12] INFO root fetch - processPackages [pmdsky-debug-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmdsky_debug_py-5.1.8-py3-none-any.whl.zip tmp/pmdsky_debug_py-5.1.9-py3-none-any.whl.zip --markdown 20230508/p/pmdsky-debug-py/5.1.8-5.1.9/diff.md --exclude *.pyd
+[2023-05-08 06:31:12] INFO root fetch - processPackages [tremolo]: executing diffoscope
+[2023-05-08 06:31:12] INFO root fetch - processPackages [tremolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tremolo-0.0.91.tar.gz tmp/tremolo-0.0.92.tar.gz --markdown 20230508/t/tremolo/0.0.91-0.0.92/diff.md --exclude *.pyd
+[2023-05-08 06:31:13] INFO root fetch - main [MainThread]: End processing [nkust-ucl-k12-bot]: success
+[2023-05-08 06:31:13] INFO root fetch - main [MainThread]: End processing [pythermalcomfort]: success
+[2023-05-08 06:31:13] INFO root fetch - main [MainThread]: End processing [tremolo]: success
+[2023-05-08 06:31:13] INFO root fetch - main [MainThread]: End processing [nkust-ucl-k12-bot]: success
+[2023-05-08 06:31:14] INFO root fetch - main [MainThread]: End processing [terraform-backend-s3-bucket]: success
+[2023-05-08 06:31:14] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-05-08 06:31:14] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-05-08 06:31:15] INFO root fetch - main [MainThread]: End processing [analogvnn]: success
+[2023-05-08 06:31:15] INFO root fetch - main [MainThread]: End processing [pmdsky-debug-py]: success
+[2023-05-08 06:31:18] INFO root fetch - main [MainThread]: End processing [pysnmp-lextudio]: success
+[2023-05-08 06:31:18] INFO root fetch - main [MainThread]: Store serial: [18012902]
