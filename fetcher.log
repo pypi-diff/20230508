@@ -17178,3 +17178,118 @@ EOFError: EOF read where object expected
 [2023-05-08 18:38:33] INFO root fetch - main [MainThread]: End processing [pycons3rt3]: success
 [2023-05-08 18:40:43] INFO root fetch - main [MainThread]: End processing [cfn-lint]: success
 [2023-05-08 18:40:43] INFO root fetch - main [MainThread]: Store serial: [18019501]
+[2023-05-08 18:45:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18019501]
+[2023-05-08 18:45:53] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-08 18:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modelpack
+[2023-05-08 18:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: proteus-runtime
+[2023-05-08 18:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastapi-poe
+[2023-05-08 18:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiohttp-poe
+[2023-05-08 18:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: digi-connectcore-ble
+[2023-05-08 18:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hpverif
+[2023-05-08 18:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tjpcov
+[2023-05-08 18:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: docassemble
+[2023-05-08 18:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: docassemble.base
+[2023-05-08 18:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: docassemble.demo
+[2023-05-08 18:45:53] INFO root fetch - processPackages [docassemble.base]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-08 18:45:53] INFO root fetch - processPackages [docassemble]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-08 18:45:53] INFO root fetch - processPackages [docassemble.demo]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-08 18:45:53] INFO root fetch - processPackages [docassemble.base]: Downloading https://files.pythonhosted.org/packages/49/6f/c82f5b1b26e0b12bdf1e565f9218b862142854979a0f01ea54c864ac7770/docassemble.base-1.4.8.tar.gz
+[2023-05-08 18:45:53] INFO root fetch - processPackages [docassemble]: Downloading https://files.pythonhosted.org/packages/1b/b1/8cd8c51bc2b5aa0fa89d1528f73674a02f1202fc12d3696bb33172926993/docassemble-1.4.8.tar.gz
+[2023-05-08 18:45:53] INFO root fetch - processPackages [docassemble.demo]: Downloading https://files.pythonhosted.org/packages/12/65/72be3778d6c8df2fc0725932b11671c295cbe40fccf8e32f5fad392c226b/docassemble.demo-1.4.8.tar.gz
+[2023-05-08 18:45:53] INFO root fetch - processPackages [proteus-runtime]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-08 18:45:53] INFO root fetch - processPackages [fastapi-poe]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-05-08 18:45:53] INFO root fetch - processPackages [aiohttp-poe]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-05-08 18:45:53] INFO root fetch - processPackages [modelpack]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-05-08 18:45:53] INFO root fetch - processPackages [hpverif]: New version: [2.5.4] Old Version: [2.5.3]
+[2023-05-08 18:45:53] WARNING root fetch - processPackages [digi-connectcore-ble]: Skipping, unable to determine old version
+[2023-05-08 18:45:53] INFO root fetch - processPackages [digi-connectcore-ble]: Start processing: docassemble.webapp
+[2023-05-08 18:45:53] INFO root fetch - main [MainThread]: End processing [digi-connectcore-ble] error
+[2023-05-08 18:45:53] INFO root fetch - processPackages [tjpcov]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-08 18:45:53] INFO root fetch - processPackages [docassemble.webapp]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-08 18:45:53] WARNING root fetch - processPackages [docassemble.base]: Skipping package: exceeds size limit 10987248>=10485760
+[2023-05-08 18:45:53] INFO root fetch - processPackages [docassemble.base]: Start processing: gcsaws
+[2023-05-08 18:45:53] INFO root fetch - main [MainThread]: End processing [docassemble.base] error
+[2023-05-08 18:45:53] INFO root fetch - processPackages [docassemble.webapp]: Downloading https://files.pythonhosted.org/packages/fe/48/4d304022057f0e254fc8916a718a52b355f0ae2843c22d86139803ae0020/docassemble.webapp-1.4.8.tar.gz
+[2023-05-08 18:45:53] INFO root fetch - processPackages [docassemble]: Downloading https://files.pythonhosted.org/packages/8b/4e/0fabe3ae223b84b73fa9a38526c3f22a21eab5f747f408034f5c0ba59e7d/docassemble-1.4.9.tar.gz
+[2023-05-08 18:45:53] INFO root fetch - processPackages [gcsaws]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 18:45:53] INFO root fetch - processPackages [aiohttp-poe]: Downloading https://files.pythonhosted.org/packages/4d/46/7c619d4e2c3d8ee07507b13bc12224eb405f5c721aab29f0147dfd8cfff5/aiohttp_poe-0.0.7.tar.gz
+[2023-05-08 18:45:53] INFO root fetch - processPackages [hpverif]: Downloading https://files.pythonhosted.org/packages/03/e8/1e7c705c16711a31b32fe88a4f5f43707dadbad093d5c8a39ce8bff24028/hpverif-2.5.3-py3-none-any.whl
+[2023-05-08 18:45:53] INFO root fetch - processPackages [modelpack]: Downloading https://files.pythonhosted.org/packages/8d/52/4e75b1889d80626268a6da3523e02f1c8fd5f5f5a94a45c51830e4fadc93/modelpack-2.0.7-cp39-cp39-win_amd64.whl
+[2023-05-08 18:45:53] INFO root fetch - processPackages [fastapi-poe]: Downloading https://files.pythonhosted.org/packages/4b/25/bea38e86b4c9277e953c90a822f4861c62b230a69e700bd9b0151876b6c1/fastapi_poe-0.0.7.tar.gz
+[2023-05-08 18:45:53] INFO root fetch - processPackages [tjpcov]: Downloading https://files.pythonhosted.org/packages/6d/91/fa8e2d98ac7831e3e57cfbb22a9a98a2b8fbb62571ebbc50486a161efd72/tjpcov-0.3.0.tar.gz
+[2023-05-08 18:45:53] WARNING root fetch - processPackages [modelpack]: Skipping package: exceeds size limit 91008987>=10485760
+[2023-05-08 18:45:53] INFO root fetch - processPackages [modelpack]: Start processing: django-ledger
+[2023-05-08 18:45:53] INFO root fetch - main [MainThread]: End processing [modelpack] error
+[2023-05-08 18:45:53] INFO root fetch - processPackages [docassemble]: executing diffoscope
+[2023-05-08 18:45:53] INFO root fetch - processPackages [docassemble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docassemble-1.4.8.tar.gz tmp/docassemble-1.4.9.tar.gz --markdown 20230508/d/docassemble/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-05-08 18:45:53] INFO root fetch - processPackages [gcsaws]: executing diffoscope
+[2023-05-08 18:45:53] INFO root fetch - processPackages [gcsaws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcsaws-0.0.8.tar.gz tmp/gcsaws-0.0.9.tar.gz --markdown 20230508/g/gcsaws/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 18:45:53] INFO root fetch - processPackages [django-ledger]: New version: [0.5.3.0] Old Version: [0.5.2.9]
+[2023-05-08 18:45:53] INFO root fetch - processPackages [proteus-runtime]: executing diffoscope
+[2023-05-08 18:45:53] INFO root fetch - processPackages [proteus-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteus_runtime-0.2.8.tar.gz tmp/proteus_runtime-0.2.9.tar.gz --markdown 20230508/p/proteus-runtime/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-08 18:45:53] WARNING root fetch - processPackages [tjpcov]: Skipping package: exceeds size limit 13985862>=10485760
+[2023-05-08 18:45:53] INFO root fetch - processPackages [tjpcov]: Start processing: docarray
+[2023-05-08 18:45:53] INFO root fetch - main [MainThread]: End processing [tjpcov] error
+[2023-05-08 18:45:53] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-05-08 18:45:53] INFO root fetch - processPackages [hpverif]: Downloading https://files.pythonhosted.org/packages/56/9d/248bfaebcbfb331a278b259c93cc3867de1df03bff37cd9eaa19193a74f5/hpverif-2.5.4-py3-none-any.whl
+[2023-05-08 18:45:53] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-05-08 18:45:53] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230508/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-05-08 18:45:53] INFO root fetch - processPackages [aiohttp-poe]: Downloading https://files.pythonhosted.org/packages/04/68/444fb0eb07030554b46080cc35d4975228fd7bff22d2f7b19b7e5c08dd5b/aiohttp_poe-0.0.9.tar.gz
+[2023-05-08 18:45:53] INFO root fetch - processPackages [fastapi-poe]: Downloading https://files.pythonhosted.org/packages/45/b6/a2d0467846df0a1202add666fe039e49680698de1e4b3718bae5354e8e85/fastapi_poe-0.0.9.tar.gz
+[2023-05-08 18:45:53] INFO root fetch - processPackages [django-ledger]: Downloading https://files.pythonhosted.org/packages/cb/b7/c6d96f6f25795314f4418938baa8faf9aa22f6cccd751cfc89482266df71/django_ledger-0.5.2.9-py3-none-any.whl
+[2023-05-08 18:45:53] INFO root fetch - processPackages [hpverif]: executing diffoscope
+[2023-05-08 18:45:53] INFO root fetch - processPackages [hpverif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hpverif-2.5.3-py3-none-any.whl.zip tmp/hpverif-2.5.4-py3-none-any.whl.zip --markdown 20230508/h/hpverif/2.5.3-2.5.4/diff.md --exclude *.pyd
+[2023-05-08 18:45:53] INFO root fetch - processPackages [aiohttp-poe]: executing diffoscope
+[2023-05-08 18:45:53] INFO root fetch - processPackages [aiohttp-poe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiohttp_poe-0.0.7.tar.gz tmp/aiohttp_poe-0.0.9.tar.gz --markdown 20230508/a/aiohttp-poe/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 18:45:53] INFO root fetch - processPackages [fastapi-poe]: executing diffoscope
+[2023-05-08 18:45:53] INFO root fetch - processPackages [fastapi-poe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_poe-0.0.7.tar.gz tmp/fastapi_poe-0.0.9.tar.gz --markdown 20230508/f/fastapi-poe/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 18:45:54] INFO root fetch - processPackages [docassemble.demo]: Downloading https://files.pythonhosted.org/packages/ea/e2/301126e8ccea026042cf14b25646d8a8775d5bc90eaed08eb9da6c61421a/docassemble.demo-1.4.9.tar.gz
+[2023-05-08 18:45:54] INFO root fetch - processPackages [django-ledger]: Downloading https://files.pythonhosted.org/packages/2f/50/5b59880a5b4cb1b5896345e22dc98d14fb0e92b2d60f15edc80e3d9d5085/django_ledger-0.5.3.0-py3-none-any.whl
+[2023-05-08 18:45:54] INFO root fetch - processPackages [django-ledger]: executing diffoscope
+[2023-05-08 18:45:54] INFO root fetch - processPackages [django-ledger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_ledger-0.5.2.9-py3-none-any.whl.zip tmp/django_ledger-0.5.3.0-py3-none-any.whl.zip --markdown 20230508/d/django-ledger/0.5.2.9-0.5.3.0/diff.md --exclude *.pyd
+[2023-05-08 18:45:54] INFO root fetch - processPackages [docassemble.webapp]: Downloading https://files.pythonhosted.org/packages/ee/bd/035c358ae80b3b4826a36a17e6a993251ad2bb4c42b826fd879f02355d0e/docassemble.webapp-1.4.9.tar.gz
+[2023-05-08 18:45:54] INFO root fetch - processPackages [docassemble.demo]: executing diffoscope
+[2023-05-08 18:45:54] INFO root fetch - processPackages [docassemble.demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docassemble.demo-1.4.8.tar.gz tmp/docassemble.demo-1.4.9.tar.gz --markdown 20230508/d/docassemble.demo/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-05-08 18:45:55] INFO root fetch - processPackages [docassemble]: Start processing: carchive
+[2023-05-08 18:45:55] INFO root fetch - main [MainThread]: End processing [docassemble]: success
+[2023-05-08 18:45:55] INFO root fetch - processPackages [carchive]: New version: [0.0.51] Old Version: [0.0.50]
+[2023-05-08 18:45:55] INFO root fetch - processPackages [gcsaws]: Start processing: checkpoint-tool
+[2023-05-08 18:45:55] INFO root fetch - main [MainThread]: End processing [gcsaws]: success
+[2023-05-08 18:45:55] INFO root fetch - processPackages [checkpoint-tool]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-05-08 18:45:55] INFO root fetch - processPackages [carchive]: executing diffoscope
+[2023-05-08 18:45:55] INFO root fetch - processPackages [fastapi-poe]: Start processing: pixel-font-builder
+[2023-05-08 18:45:55] INFO root fetch - main [MainThread]: End processing [fastapi-poe]: success
+[2023-05-08 18:45:55] INFO root fetch - processPackages [carchive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carchive-0.0.50.tar.gz tmp/carchive-0.0.51.tar.gz --markdown 20230508/c/carchive/0.0.50-0.0.51/diff.md --exclude *.pyd
+[2023-05-08 18:45:55] INFO root fetch - processPackages [aiohttp-poe]: Start processing: stacs
+[2023-05-08 18:45:55] INFO root fetch - main [MainThread]: End processing [aiohttp-poe]: success
+[2023-05-08 18:45:55] INFO root fetch - processPackages [checkpoint-tool]: executing diffoscope
+[2023-05-08 18:45:55] INFO root fetch - processPackages [checkpoint-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkpoint_tool-0.6.0.tar.gz tmp/checkpoint_tool-0.7.0.tar.gz --markdown 20230508/c/checkpoint-tool/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-05-08 18:45:55] WARNING root fetch - processPackages [pixel-font-builder]: Skipping, unable to determine old version
+[2023-05-08 18:45:55] INFO root fetch - processPackages [pixel-font-builder]: Start processing: datavortex
+[2023-05-08 18:45:55] INFO root fetch - main [MainThread]: End processing [pixel-font-builder] error
+[2023-05-08 18:45:55] INFO root fetch - processPackages [stacs]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-08 18:45:55] INFO root fetch - processPackages [proteus-runtime]: Start processing: x-transformers
+[2023-05-08 18:45:55] INFO root fetch - main [MainThread]: End processing [proteus-runtime]: success
+[2023-05-08 18:45:55] WARNING root fetch - processPackages [datavortex]: Skipping, unable to determine old version
+[2023-05-08 18:45:55] INFO root fetch - main [MainThread]: End processing [datavortex] error
+[2023-05-08 18:45:55] INFO root fetch - main [MainThread]: End processing [hpverif]: success
+[2023-05-08 18:45:55] INFO root fetch - processPackages [stacs]: Downloading https://files.pythonhosted.org/packages/e9/9c/12f7a08ee2251013b48f58a5d33962de1bd9676a979b8b4b171689d3602e/stacs-0.5.0.tar.gz
+[2023-05-08 18:45:55] INFO root fetch - processPackages [x-transformers]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-05-08 18:45:55] INFO root fetch - processPackages [docassemble.webapp]: executing diffoscope
+[2023-05-08 18:45:55] INFO root fetch - processPackages [docassemble.webapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docassemble.webapp-1.4.8.tar.gz tmp/docassemble.webapp-1.4.9.tar.gz --markdown 20230508/d/docassemble.webapp/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-05-08 18:45:56] INFO root fetch - processPackages [x-transformers]: Downloading https://files.pythonhosted.org/packages/4c/e4/1f4432d217a1facf7a79aa2e2a08ffdbcf411f13bef9bd9bd3307a99a1af/x-transformers-1.9.1.tar.gz
+[2023-05-08 18:45:56] INFO root fetch - processPackages [stacs]: Downloading https://files.pythonhosted.org/packages/d7/fa/085bb17996d9bbb80199ef2a530ed6b52945469915fcff7b7554f48ebda3/stacs-0.5.1.tar.gz
+[2023-05-08 18:45:56] INFO root fetch - processPackages [stacs]: executing diffoscope
+[2023-05-08 18:45:56] INFO root fetch - processPackages [stacs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stacs-0.5.0.tar.gz tmp/stacs-0.5.1.tar.gz --markdown 20230508/s/stacs/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-08 18:45:56] INFO root fetch - main [MainThread]: End processing [carchive]: success
+[2023-05-08 18:45:56] INFO root fetch - processPackages [x-transformers]: Downloading https://files.pythonhosted.org/packages/ce/c4/a338a8fcfd77c21d7b28960180987b186017522eb0ad53cfdce2ad6c59f5/x-transformers-1.9.2.tar.gz
+[2023-05-08 18:45:56] INFO root fetch - main [MainThread]: End processing [checkpoint-tool]: success
+[2023-05-08 18:45:56] INFO root fetch - processPackages [x-transformers]: executing diffoscope
+[2023-05-08 18:45:56] INFO root fetch - processPackages [x-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/x-transformers-1.9.1.tar.gz tmp/x-transformers-1.9.2.tar.gz --markdown 20230508/x/x-transformers/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-05-08 18:45:57] INFO root fetch - main [MainThread]: End processing [stacs]: success
+[2023-05-08 18:45:57] INFO root fetch - main [MainThread]: End processing [x-transformers]: success
+[2023-05-08 18:45:58] INFO root fetch - main [MainThread]: End processing [django-ledger]: success
+[2023-05-08 18:45:58] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-05-08 18:46:03] INFO root fetch - main [MainThread]: End processing [docassemble.webapp]: success
+[2023-05-08 18:46:04] INFO root fetch - main [MainThread]: End processing [docassemble.demo]: success
+[2023-05-08 18:46:04] INFO root fetch - main [MainThread]: Store serial: [18019602]
