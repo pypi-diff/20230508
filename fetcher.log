@@ -1693,3 +1693,105 @@
 [2023-05-08 02:55:57] INFO root fetch - main [MainThread]: End processing [bigdl-friesian]: success
 [2023-05-08 02:56:14] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2023-05-08 02:56:14] INFO root fetch - main [MainThread]: Store serial: [18011018]
+[2023-05-08 03:01:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18011018]
+[2023-05-08 03:01:23] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-08 03:01:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl
+[2023-05-08 03:01:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aemcmc-nightly
+[2023-05-08 03:01:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-dllib-spark2
+[2023-05-08 03:01:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-lambda-layer-curl
+[2023-05-08 03:01:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: biplane
+[2023-05-08 03:01:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ctdd
+[2023-05-08 03:01:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mgz
+[2023-05-08 03:01:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: super-ec2
+[2023-05-08 03:01:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PyDAL
+[2023-05-08 03:01:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xcpcio-board-spider
+[2023-05-08 03:01:23] INFO root fetch - processPackages [bigdl-dllib-spark2]: New version: [2.4.0b20230508] Old Version: [2.4.0b20230505]
+[2023-05-08 03:01:23] INFO root fetch - processPackages [mgz]: New version: [1.8.9] Old Version: [1.8.8]
+[2023-05-08 03:01:23] INFO root fetch - processPackages [biplane]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-08 03:01:23] WARNING root fetch - processPackages [ctdd]: Skipping, unable to determine old version
+[2023-05-08 03:01:23] INFO root fetch - processPackages [ctdd]: Start processing: pytest-yaml-yoyo
+[2023-05-08 03:01:23] INFO root fetch - processPackages [PyDAL]: New version: [20230507.1] Old Version: [20230407.2]
+[2023-05-08 03:01:23] INFO root fetch - main [MainThread]: End processing [ctdd] error
+[2023-05-08 03:01:23] INFO root fetch - processPackages [xcpcio-board-spider]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 03:01:23] INFO root fetch - processPackages [bigdl]: New version: [2.4.0b20230508] Old Version: [2.4.0b20230505]
+[2023-05-08 03:01:23] INFO root fetch - processPackages [super-ec2]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-08 03:01:23] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-08 03:01:23] INFO root fetch - processPackages [pytest-yaml-yoyo]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-05-08 03:01:23] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-05-08 03:01:23] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230508] Old Version: [0.0.8.dev20230507]
+[2023-05-08 03:01:23] INFO root fetch - processPackages [xcpcio-board-spider]: executing diffoscope
+[2023-05-08 03:01:23] INFO root fetch - processPackages [xcpcio-board-spider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xcpcio_board_spider-0.0.8.tar.gz tmp/xcpcio_board_spider-0.0.9.tar.gz --markdown 20230508/x/xcpcio-board-spider/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 03:01:23] INFO root fetch - processPackages [bigdl-dllib-spark2]: Downloading https://files.pythonhosted.org/packages/3f/fa/19ebf51d17a5e309cd91343d2ece1a7b359460b95762eb1edc96b27c3cb0/bigdl-dllib-spark2-2.4.0b20230505.tar.gz
+[2023-05-08 03:01:23] INFO root fetch - processPackages [mgz]: Downloading https://files.pythonhosted.org/packages/3f/c1/01499b2c7a7e8ca67a4e3d16d6c237de4b8d8b103d08d090f99b6fbe6ece/mgz-1.8.8.tar.gz
+[2023-05-08 03:01:23] INFO root fetch - processPackages [biplane]: Downloading https://files.pythonhosted.org/packages/1c/95/894eda2d7417f7e4752497b5f460357cca443fa3c6b4979b66b897bdc768/biplane-1.0.0.tar.gz
+[2023-05-08 03:01:23] INFO root fetch - processPackages [pytest-yaml-yoyo]: Downloading https://files.pythonhosted.org/packages/0f/4e/53eace1032e054a0e45e3ad0b6f2ca40cd9df5dce97c976710e72fc58ccb/pytest-yaml-yoyo-1.1.9.tar.gz
+[2023-05-08 03:01:23] WARNING root fetch - processPackages [bigdl-dllib-spark2]: Skipping package: exceeds size limit 53560776>=10485760
+[2023-05-08 03:01:23] INFO root fetch - processPackages [bigdl-dllib-spark2]: Start processing: fakeredis
+[2023-05-08 03:01:23] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark2] error
+[2023-05-08 03:01:23] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/2a/52/ce0a94af9a5d8ab90f6e7586f724430ef06e25acb06e3631292ee258de40/bigdl-2.4.0b20230505-py3-none-manylinux1_x86_64.whl
+[2023-05-08 03:01:23] INFO root fetch - processPackages [fakeredis]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-05-08 03:01:23] INFO root fetch - processPackages [PyDAL]: Downloading https://files.pythonhosted.org/packages/f4/fe/ccc48d7e0eb63b30881dffcd96b238b6a0224d239cf4bb8661039bf5285f/PyDAL-20230507.1.tar.gz
+[2023-05-08 03:01:23] INFO root fetch - processPackages [super-ec2]: Downloading https://files.pythonhosted.org/packages/6f/5b/1c4410f9cdec4b306292deb7eabba0c5195fdc9ed51343c6561f7b7ae28a/super-ec2-0.0.98.tar.gz
+[2023-05-08 03:01:23] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-05-08 03:01:23] INFO root fetch - processPackages [fakeredis]: Downloading https://files.pythonhosted.org/packages/27/c5/a8bb6a94bad96b40a7e760bbbac99c73a6868017ab58c54a66bf62d6041d/fakeredis-2.9.1.tar.gz
+[2023-05-08 03:01:23] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/f0/38/25d2ecc7ee185ea725c5c512f9b96fa1517290ab7159786950083e84ac87/aemcmc-nightly-0.0.8.dev20230508.tar.gz
+[2023-05-08 03:01:23] INFO root fetch - processPackages [PyDAL]: executing diffoscope
+[2023-05-08 03:01:23] INFO root fetch - processPackages [PyDAL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyDAL-20230407.2.tar.gz tmp/PyDAL-20230507.1.tar.gz --markdown 20230508/P/PyDAL/20230407.2-20230507.1/diff.md --exclude *.pyd
+[2023-05-08 03:01:23] INFO root fetch - processPackages [biplane]: Downloading https://files.pythonhosted.org/packages/03/bc/c595f4eb7c6f246ecbbb04202473272a586da985b572e34568487f8f7cf4/biplane-1.0.1.tar.gz
+[2023-05-08 03:01:23] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/5a/e3/99c52f3de31680ddf3624dc30dcb1e5db0c171a994afe5547a1b1f6de839/bigdl-2.4.0b20230508-py3-none-manylinux1_x86_64.whl
+[2023-05-08 03:01:23] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-05-08 03:01:23] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230508/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-08 03:01:23] INFO root fetch - processPackages [bigdl]: executing diffoscope
+[2023-05-08 03:01:23] INFO root fetch - processPackages [bigdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl-2.4.0b20230505-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl-2.4.0b20230508-py3-none-manylinux1_x86_64.whl.zip --markdown 20230508/b/bigdl/2.4.0b20230505-2.4.0b20230508/diff.md --exclude *.pyd
+[2023-05-08 03:01:23] INFO root fetch - processPackages [mgz]: Downloading https://files.pythonhosted.org/packages/af/28/845205c817682a35883ecd3b20e9e09be17f8e08dd38fd1ee3a194f8499f/mgz-1.8.9.tar.gz
+[2023-05-08 03:01:23] INFO root fetch - processPackages [pytest-yaml-yoyo]: Downloading https://files.pythonhosted.org/packages/b3/12/0126e9ef548e4cd60180314cfccb3cd3e6452ba266ee2aaf79d49a6f075d/pytest-yaml-yoyo-1.2.0.tar.gz
+[2023-05-08 03:01:23] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-05-08 03:01:23] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230507.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230508.tar.gz --markdown 20230508/a/aemcmc-nightly/0.0.8.dev20230507-0.0.8.dev20230508/diff.md --exclude *.pyd
+[2023-05-08 03:01:23] INFO root fetch - processPackages [biplane]: executing diffoscope
+[2023-05-08 03:01:23] INFO root fetch - processPackages [biplane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biplane-1.0.0.tar.gz tmp/biplane-1.0.1.tar.gz --markdown 20230508/b/biplane/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-08 03:01:23] INFO root fetch - processPackages [pytest-yaml-yoyo]: executing diffoscope
+[2023-05-08 03:01:23] INFO root fetch - processPackages [pytest-yaml-yoyo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-yaml-yoyo-1.1.9.tar.gz tmp/pytest-yaml-yoyo-1.2.0.tar.gz --markdown 20230508/p/pytest-yaml-yoyo/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-05-08 03:01:24] INFO root fetch - processPackages [mgz]: executing diffoscope
+[2023-05-08 03:01:24] INFO root fetch - processPackages [mgz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mgz-1.8.8.tar.gz tmp/mgz-1.8.9.tar.gz --markdown 20230508/m/mgz/1.8.8-1.8.9/diff.md --exclude *.pyd
+[2023-05-08 03:01:24] INFO root fetch - processPackages [fakeredis]: Downloading https://files.pythonhosted.org/packages/c9/d0/063259876691b0c48dfa578a01777c92875d9f234e1ac49900f305c4a9aa/fakeredis-2.9.2.tar.gz
+[2023-05-08 03:01:24] INFO root fetch - processPackages [fakeredis]: executing diffoscope
+[2023-05-08 03:01:24] INFO root fetch - processPackages [fakeredis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fakeredis-2.9.1.tar.gz tmp/fakeredis-2.9.2.tar.gz --markdown 20230508/f/fakeredis/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-05-08 03:01:24] INFO root fetch - processPackages [xcpcio-board-spider]: Start processing: pyproject-pre-commit
+[2023-05-08 03:01:24] INFO root fetch - main [MainThread]: End processing [xcpcio-board-spider]: success
+[2023-05-08 03:01:24] INFO root fetch - processPackages [pyproject-pre-commit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 03:01:24] INFO root fetch - processPackages [super-ec2]: Downloading https://files.pythonhosted.org/packages/0d/d0/5bf70ee0146094b68ecc7932c6443c5d3dbdfff94a43de975f62bdb1caca/super-ec2-0.0.99.tar.gz
+[2023-05-08 03:01:24] INFO root fetch - processPackages [pyproject-pre-commit]: Downloading https://files.pythonhosted.org/packages/d6/37/7cefb7736c79bd5242b5d80c67ec2b5db58939b1af783cdd3f30f5054a0b/pyproject_pre_commit-0.0.8.tar.gz
+[2023-05-08 03:01:25] INFO root fetch - processPackages [bigdl]: Start processing: vidcardshare
+[2023-05-08 03:01:25] INFO root fetch - main [MainThread]: End processing [bigdl]: success
+[2023-05-08 03:01:25] INFO root fetch - processPackages [vidcardshare]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-08 03:01:25] INFO root fetch - processPackages [pyproject-pre-commit]: Downloading https://files.pythonhosted.org/packages/b4/05/ef39c872bbf4bec813b234e1b5bd2d0e72f0e12de11497ac672a94846e55/pyproject_pre_commit-0.0.9.tar.gz
+[2023-05-08 03:01:25] INFO root fetch - processPackages [pyproject-pre-commit]: executing diffoscope
+[2023-05-08 03:01:25] INFO root fetch - processPackages [pyproject-pre-commit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyproject_pre_commit-0.0.8.tar.gz tmp/pyproject_pre_commit-0.0.9.tar.gz --markdown 20230508/p/pyproject-pre-commit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 03:01:25] INFO root fetch - processPackages [vidcardshare]: Downloading https://files.pythonhosted.org/packages/7c/25/ec234d2e08fa13b2ff5f9555d3f8a4c2343713170f043ce5f28a36592bfe/vidcardshare-0.1.2.tar.gz
+[2023-05-08 03:01:25] INFO root fetch - processPackages [biplane]: Start processing: bigdl-orca-spark2
+[2023-05-08 03:01:25] INFO root fetch - main [MainThread]: End processing [biplane]: success
+[2023-05-08 03:01:25] INFO root fetch - processPackages [aemcmc-nightly]: Start processing: bigdl-friesian-spark2
+[2023-05-08 03:01:25] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-05-08 03:01:25] INFO root fetch - main [MainThread]: End processing [pytest-yaml-yoyo]: success
+[2023-05-08 03:01:25] INFO root fetch - processPackages [bigdl-orca-spark2]: New version: [2.4.0b20230508] Old Version: [2.4.0b20230505]
+[2023-05-08 03:01:25] INFO root fetch - processPackages [bigdl-friesian-spark2]: New version: [2.4.0b20230508] Old Version: [2.4.0b20230505]
+[2023-05-08 03:01:25] INFO root fetch - processPackages [vidcardshare]: executing diffoscope
+[2023-05-08 03:01:25] INFO root fetch - processPackages [vidcardshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vidcardshare-0.1.1.tar.gz tmp/vidcardshare-0.1.2.tar.gz --markdown 20230508/v/vidcardshare/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-08 03:01:25] INFO root fetch - main [MainThread]: End processing [mgz]: success
+[2023-05-08 03:01:25] INFO root fetch - main [MainThread]: End processing [fakeredis]: success
+[2023-05-08 03:01:25] INFO root fetch - processPackages [bigdl-orca-spark2]: Downloading https://files.pythonhosted.org/packages/03/3b/bb1e20825badd9a1d9dc32d6cdf4c6074c62930e76095434501a696042bf/bigdl_orca_spark2-2.4.0b20230505-py3-none-manylinux1_x86_64.whl
+[2023-05-08 03:01:25] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/9b/63/ec1c3c34d1e5192078d09dd09c046f4e1294f3098d02b533c3ca7c1c1b61/bigdl_friesian_spark2-2.4.0b20230505-py3-none-manylinux1_x86_64.whl
+[2023-05-08 03:01:25] WARNING root fetch - processPackages [bigdl-orca-spark2]: Skipping package: exceeds size limit 20369354>=10485760
+[2023-05-08 03:01:25] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark2] error
+[2023-05-08 03:01:25] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-05-08 03:01:26] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/ab/b3/879766272d6b7271cb9bf9da41762d4193433828e6726d5e54c7b3e44cea/bigdl_friesian_spark2-2.4.0b20230508-py3-none-manylinux1_x86_64.whl
+[2023-05-08 03:01:26] INFO root fetch - processPackages [super-ec2]: executing diffoscope
+[2023-05-08 03:01:26] INFO root fetch - processPackages [super-ec2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/super-ec2-0.0.98.tar.gz tmp/super-ec2-0.0.99.tar.gz --markdown 20230508/s/super-ec2/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-08 03:01:26] INFO root fetch - main [MainThread]: End processing [PyDAL]: success
+[2023-05-08 03:01:26] INFO root fetch - processPackages [bigdl-friesian-spark2]: executing diffoscope
+[2023-05-08 03:01:26] INFO root fetch - processPackages [bigdl-friesian-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark2-2.4.0b20230505-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark2-2.4.0b20230508-py3-none-manylinux1_x86_64.whl.zip --markdown 20230508/b/bigdl-friesian-spark2/2.4.0b20230505-2.4.0b20230508/diff.md --exclude *.pyd
+[2023-05-08 03:01:26] INFO root fetch - main [MainThread]: End processing [pyproject-pre-commit]: success
+[2023-05-08 03:01:26] INFO root fetch - main [MainThread]: End processing [vidcardshare]: success
+[2023-05-08 03:01:27] INFO root fetch - main [MainThread]: End processing [super-ec2]: success
+[2023-05-08 03:01:27] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark2]: success
+[2023-05-08 03:01:27] INFO root fetch - main [MainThread]: Store serial: [18011064]
