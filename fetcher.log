@@ -14065,3 +14065,153 @@ EOFError: EOF read where object expected
 [2023-05-08 16:15:38] INFO root fetch - main [MainThread]: End processing [fastflix]: success
 [2023-05-08 16:15:38] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
 [2023-05-08 16:15:38] INFO root fetch - main [MainThread]: Store serial: [18017734]
+[2023-05-08 16:20:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18017734]
+[2023-05-08 16:20:48] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-05-08 16:20:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libcnmc
+[2023-05-08 16:20:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyHaier
+[2023-05-08 16:20:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: molclustpy
+[2023-05-08 16:20:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dbt-doc-py
+[2023-05-08 16:20:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autosubmitconfigparser
+[2023-05-08 16:20:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: llm-rs
+[2023-05-08 16:20:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: quota-notifier
+[2023-05-08 16:20:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: renovosolutions.aws-cdk-aspects-security-group
+[2023-05-08 16:20:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hf-webdriver-manager
+[2023-05-08 16:20:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ukmon-meteortools
+[2023-05-08 16:20:48] INFO root fetch - processPackages [PyHaier]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-08 16:20:48] INFO root fetch - processPackages [autosubmitconfigparser]: New version: [1.0.29] Old Version: [1.0.28]
+[2023-05-08 16:20:48] INFO root fetch - processPackages [libcnmc]: New version: [23.9.1] Old Version: [23.9.0]
+[2023-05-08 16:20:48] INFO root fetch - processPackages [quota-notifier]: New version: [0.5.7] Old Version: [0.5.6]
+[2023-05-08 16:20:48] INFO root fetch - processPackages [llm-rs]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-08 16:20:48] INFO root fetch - processPackages [dbt-doc-py]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-08 16:20:48] WARNING root fetch - processPackages [molclustpy]: Skipping, unable to determine old version
+[2023-05-08 16:20:48] INFO root fetch - processPackages [hf-webdriver-manager]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-08 16:20:48] INFO root fetch - processPackages [molclustpy]: Start processing: ds4finance
+[2023-05-08 16:20:48] INFO root fetch - main [MainThread]: End processing [molclustpy] error
+[2023-05-08 16:20:48] INFO root fetch - processPackages [ukmon-meteortools]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-08 16:20:48] INFO root fetch - processPackages [ds4finance]: New version: [0.1.15] Old Version: [0.1.14]
+[2023-05-08 16:20:48] INFO root fetch - processPackages [renovosolutions.aws-cdk-aspects-security-group]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-05-08 16:20:48] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/91/88/c28ff84568ef323398498b71d609a92ca287ddcdf8a851536ab656221bc4/libcnmc-23.9.0.tar.gz
+[2023-05-08 16:20:48] INFO root fetch - processPackages [PyHaier]: Downloading https://files.pythonhosted.org/packages/0d/58/44664480225a668cf82f16c8fdbdeed2cffc416c64590dd08a3d9fd0bb8c/PyHaier-0.1.4.tar.gz
+[2023-05-08 16:20:48] INFO root fetch - processPackages [quota-notifier]: Downloading https://files.pythonhosted.org/packages/be/4e/bb0deff9a33d7d5a07cbc1fe68fa2ff1b7fa1081ef858f7527d9344cca9b/quota_notifier-0.5.6.tar.gz
+[2023-05-08 16:20:48] INFO root fetch - processPackages [dbt-doc-py]: Downloading https://files.pythonhosted.org/packages/4e/c7/26127087ebd4d8f4f4417cfa057fe9c7b389ba0f10d2b2d509dfb18427d8/dbt-doc-py-0.1.4.tar.gz
+[2023-05-08 16:20:48] INFO root fetch - processPackages [ds4finance]: Downloading https://files.pythonhosted.org/packages/b4/d7/1a2ace1d95b4879b9b5f1d9dcc80fe83cdb829fa805b0c71d3f0b5d4b639/ds4finance-0.1.15.tar.gz
+[2023-05-08 16:20:48] INFO root fetch - processPackages [hf-webdriver-manager]: Downloading https://files.pythonhosted.org/packages/c1/c3/b2053946f987bbfd2dffd83fbc4007b642dca71aaddad2489d84f069c4ed/hf-webdriver-manager-0.2.1.tar.gz
+[2023-05-08 16:20:48] INFO root fetch - processPackages [llm-rs]: Downloading https://files.pythonhosted.org/packages/a8/09/b8f1f8910b394acd7f526ad4761ab6e291396c492913da7a1d078b818d05/llm_rs-0.1.0.tar.gz
+[2023-05-08 16:20:49] INFO root fetch - processPackages [renovosolutions.aws-cdk-aspects-security-group]: Downloading https://files.pythonhosted.org/packages/74/82/8de6f28d8f85a1b38e7a1d392121fb3bcecaf127c798dc1d55b38d3e1773/renovosolutions.aws-cdk-aspects-security-group-2.1.98.tar.gz
+[2023-05-08 16:20:49] INFO root fetch - processPackages [autosubmitconfigparser]: Downloading https://files.pythonhosted.org/packages/81/7c/573297afb1729c8117d65824e45b258ccdc8d619e6a7cb30547fbe57869f/autosubmitconfigparser-1.0.28.tar.gz
+[2023-05-08 16:20:49] INFO root fetch - processPackages [dbt-doc-py]: executing diffoscope
+[2023-05-08 16:20:49] INFO root fetch - processPackages [dbt-doc-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-doc-py-0.1.3.tar.gz tmp/dbt-doc-py-0.1.4.tar.gz --markdown 20230508/d/dbt-doc-py/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-08 16:20:49] INFO root fetch - processPackages [ds4finance]: executing diffoscope
+[2023-05-08 16:20:49] INFO root fetch - processPackages [ds4finance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ds4finance-0.1.14.tar.gz tmp/ds4finance-0.1.15.tar.gz --markdown 20230508/d/ds4finance/0.1.14-0.1.15/diff.md --exclude *.pyd
+[2023-05-08 16:20:49] INFO root fetch - processPackages [hf-webdriver-manager]: executing diffoscope
+[2023-05-08 16:20:49] INFO root fetch - processPackages [hf-webdriver-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hf-webdriver-manager-0.2.0.tar.gz tmp/hf-webdriver-manager-0.2.1.tar.gz --markdown 20230508/h/hf-webdriver-manager/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-08 16:20:49] INFO root fetch - processPackages [PyHaier]: Downloading https://files.pythonhosted.org/packages/44/31/c5ecb6ca26acec6e789d8ebcb7e204b0b2dc4f6457e359408d6193adf70e/PyHaier-0.1.5.tar.gz
+[2023-05-08 16:20:49] INFO root fetch - processPackages [quota-notifier]: Downloading https://files.pythonhosted.org/packages/1b/61/1b94a4aac2c737d19c6fc4c59650d2f763aad2b5b893c7fedda17c860dc4/quota_notifier-0.5.7.tar.gz
+[2023-05-08 16:20:49] INFO root fetch - processPackages [llm-rs]: Downloading https://files.pythonhosted.org/packages/19/df/8b955bdb746c7670b592020b9236d136d97188d57638519678c6ba9d3b85/llm_rs-0.1.1.tar.gz
+[2023-05-08 16:20:49] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/fc/9f/639d42b63484a91cf9f1c60f9bb709f1ed853240f45c2e02047054beffa6/libcnmc-23.9.1.tar.gz
+[2023-05-08 16:20:49] INFO root fetch - processPackages [PyHaier]: executing diffoscope
+[2023-05-08 16:20:49] INFO root fetch - processPackages [PyHaier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyHaier-0.1.4.tar.gz tmp/PyHaier-0.1.5.tar.gz --markdown 20230508/P/PyHaier/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-08 16:20:49] INFO root fetch - processPackages [ukmon-meteortools]: executing diffoscope
+[2023-05-08 16:20:49] INFO root fetch - processPackages [ukmon-meteortools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ukmon_meteortools-2023.5.8.tar.gz tmp/ukmon_meteortools-2023.5.9.tar.gz --markdown 20230508/u/ukmon-meteortools/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-08 16:20:49] INFO root fetch - processPackages [autosubmitconfigparser]: Downloading https://files.pythonhosted.org/packages/a8/b7/1060d7c88f2b021720e06d77a0b465871ac05016caabf6840a5ba44897c7/autosubmitconfigparser-1.0.29.tar.gz
+[2023-05-08 16:20:49] INFO root fetch - processPackages [quota-notifier]: executing diffoscope
+[2023-05-08 16:20:49] INFO root fetch - processPackages [quota-notifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quota_notifier-0.5.6.tar.gz tmp/quota_notifier-0.5.7.tar.gz --markdown 20230508/q/quota-notifier/0.5.6-0.5.7/diff.md --exclude *.pyd
+[2023-05-08 16:20:49] INFO root fetch - processPackages [llm-rs]: executing diffoscope
+[2023-05-08 16:20:49] INFO root fetch - processPackages [llm-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_rs-0.1.0.tar.gz tmp/llm_rs-0.1.1.tar.gz --markdown 20230508/l/llm-rs/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-08 16:20:49] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2023-05-08 16:20:49] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-23.9.0.tar.gz tmp/libcnmc-23.9.1.tar.gz --markdown 20230508/l/libcnmc/23.9.0-23.9.1/diff.md --exclude *.pyd
+[2023-05-08 16:20:49] INFO root fetch - processPackages [renovosolutions.aws-cdk-aspects-security-group]: Downloading https://files.pythonhosted.org/packages/dd/b3/93dd3a1d41946218feb6e47f0c033c52b0852aeed6fdfc36cfaca7b9bfb6/renovosolutions.aws-cdk-aspects-security-group-2.1.99.tar.gz
+[2023-05-08 16:20:49] INFO root fetch - processPackages [autosubmitconfigparser]: executing diffoscope
+[2023-05-08 16:20:49] INFO root fetch - processPackages [autosubmitconfigparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autosubmitconfigparser-1.0.28.tar.gz tmp/autosubmitconfigparser-1.0.29.tar.gz --markdown 20230508/a/autosubmitconfigparser/1.0.28-1.0.29/diff.md --exclude *.pyd
+[2023-05-08 16:20:49] INFO root fetch - processPackages [renovosolutions.aws-cdk-aspects-security-group]: executing diffoscope
+[2023-05-08 16:20:49] INFO root fetch - processPackages [renovosolutions.aws-cdk-aspects-security-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-aspects-security-group-2.1.98.tar.gz tmp/renovosolutions.aws-cdk-aspects-security-group-2.1.99.tar.gz --markdown 20230508/r/renovosolutions.aws-cdk-aspects-security-group/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-05-08 16:20:50] INFO root fetch - processPackages [dbt-doc-py]: Start processing: renovosolutions.aws-cdk-one-time-event
+[2023-05-08 16:20:50] INFO root fetch - main [MainThread]: End processing [dbt-doc-py]: success
+[2023-05-08 16:20:50] INFO root fetch - processPackages [renovosolutions.aws-cdk-one-time-event]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-05-08 16:20:50] INFO root fetch - processPackages [ds4finance]: Start processing: renovosolutions.aws-cdk-renovo-instance-service
+[2023-05-08 16:20:50] INFO root fetch - main [MainThread]: End processing [ds4finance]: success
+[2023-05-08 16:20:50] INFO root fetch - processPackages [hf-webdriver-manager]: Start processing: autosubmit
+[2023-05-08 16:20:50] INFO root fetch - main [MainThread]: End processing [hf-webdriver-manager]: success
+[2023-05-08 16:20:50] INFO root fetch - processPackages [autosubmit]: New version: [4.0.79] Old Version: [4.0.78]
+[2023-05-08 16:20:50] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-instance-service]: New version: [2.9.99] Old Version: [2.9.98]
+[2023-05-08 16:20:50] INFO root fetch - processPackages [PyHaier]: Start processing: service-configuration-lib
+[2023-05-08 16:20:50] INFO root fetch - main [MainThread]: End processing [PyHaier]: success
+[2023-05-08 16:20:50] INFO root fetch - processPackages [service-configuration-lib]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-05-08 16:20:51] INFO root fetch - processPackages [renovosolutions.aws-cdk-one-time-event]: Downloading https://files.pythonhosted.org/packages/87/7c/af41d25a32b040b0473d5b1f96433d36349fe59cccfe0b874d7844700c9e/renovosolutions.aws-cdk-one-time-event-2.1.98.tar.gz
+[2023-05-08 16:20:51] INFO root fetch - processPackages [autosubmitconfigparser]: Start processing: flipside
+[2023-05-08 16:20:51] INFO root fetch - main [MainThread]: End processing [autosubmitconfigparser]: success
+[2023-05-08 16:20:51] INFO root fetch - processPackages [autosubmit]: Downloading https://files.pythonhosted.org/packages/63/fd/605b4e8bc8207c16ce4a00116bfd759d2a38597ec74a1655672e27f0fca0/autosubmit-4.0.78.tar.gz
+[2023-05-08 16:20:51] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-instance-service]: Downloading https://files.pythonhosted.org/packages/40/a5/cc7ffccd513253dd42962b024e0d562e27edb9b627338202d0ce082ad261/renovosolutions.aws-cdk-renovo-instance-service-2.9.98.tar.gz
+[2023-05-08 16:20:51] INFO root fetch - processPackages [renovosolutions.aws-cdk-aspects-security-group]: Start processing: dictfunc
+[2023-05-08 16:20:51] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-aspects-security-group]: success
+[2023-05-08 16:20:51] INFO root fetch - processPackages [service-configuration-lib]: Downloading https://files.pythonhosted.org/packages/32/bc/50c0c486ef8868d70e1ede030d9152799090473991e4384059539a9b1e98/service-configuration-lib-2.8.0.tar.gz
+[2023-05-08 16:20:51] INFO root fetch - processPackages [flipside]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-05-08 16:20:51] WARNING root fetch - processPackages [dictfunc]: Skipping, unable to determine old version
+[2023-05-08 16:20:51] INFO root fetch - processPackages [dictfunc]: Start processing: braincube-aws-core-alpha
+[2023-05-08 16:20:51] INFO root fetch - main [MainThread]: End processing [dictfunc] error
+[2023-05-08 16:20:51] INFO root fetch - processPackages [braincube-aws-core-alpha]: New version: [0.0.21] Old Version: [0.0.20]
+[2023-05-08 16:20:51] INFO root fetch - processPackages [quota-notifier]: Start processing: shroomdk
+[2023-05-08 16:20:51] INFO root fetch - main [MainThread]: End processing [quota-notifier]: success
+[2023-05-08 16:20:51] INFO root fetch - processPackages [llm-rs]: Start processing: pyautosrt
+[2023-05-08 16:20:51] INFO root fetch - main [MainThread]: End processing [llm-rs]: success
+[2023-05-08 16:20:51] INFO root fetch - processPackages [pyautosrt]: New version: [0.1.7] Old Version: [0.1.4]
+[2023-05-08 16:20:51] INFO root fetch - processPackages [renovosolutions.aws-cdk-one-time-event]: Downloading https://files.pythonhosted.org/packages/80/80/e18538dade74958e4680bda9c6ec21d445f0f6a82ee16527ba03c23f5c46/renovosolutions.aws-cdk-one-time-event-2.1.99.tar.gz
+[2023-05-08 16:20:51] INFO root fetch - processPackages [flipside]: Downloading https://files.pythonhosted.org/packages/55/79/8c14d89e5aa005e2dd595d998b0e4bb52936ba6fcbc4d66a3b83ef9b7532/flipside-2.0.3.tar.gz
+[2023-05-08 16:20:51] INFO root fetch - processPackages [pyautosrt]: executing diffoscope
+[2023-05-08 16:20:51] INFO root fetch - processPackages [pyautosrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyautosrt-0.1.4.tar.gz tmp/pyautosrt-0.1.7.tar.gz --markdown 20230508/p/pyautosrt/0.1.4-0.1.7/diff.md --exclude *.pyd
+[2023-05-08 16:20:51] INFO root fetch - processPackages [shroomdk]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-05-08 16:20:51] INFO root fetch - processPackages [service-configuration-lib]: Downloading https://files.pythonhosted.org/packages/08/ad/99858a3ee1fce3071381a61c7a2502b9fd908605783332e4af449df36153/service-configuration-lib-2.9.0.tar.gz
+[2023-05-08 16:20:51] INFO root fetch - processPackages [braincube-aws-core-alpha]: Downloading https://files.pythonhosted.org/packages/89/0d/f33e0a241e906c5382e2d1f5eef9967ec6ddbc0bcf24065cc4b41489dde8/braincube-aws-core-alpha-0.0.21.tar.gz
+[2023-05-08 16:20:51] INFO root fetch - processPackages [renovosolutions.aws-cdk-one-time-event]: executing diffoscope
+[2023-05-08 16:20:51] INFO root fetch - processPackages [renovosolutions.aws-cdk-one-time-event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-one-time-event-2.1.98.tar.gz tmp/renovosolutions.aws-cdk-one-time-event-2.1.99.tar.gz --markdown 20230508/r/renovosolutions.aws-cdk-one-time-event/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-05-08 16:20:51] INFO root fetch - processPackages [service-configuration-lib]: executing diffoscope
+[2023-05-08 16:20:51] INFO root fetch - processPackages [service-configuration-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/service-configuration-lib-2.8.0.tar.gz tmp/service-configuration-lib-2.9.0.tar.gz --markdown 20230508/s/service-configuration-lib/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-05-08 16:20:51] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-instance-service]: Downloading https://files.pythonhosted.org/packages/a5/93/b9267204671c1e1ca1e8dced6f2f1cee6059166a58950f2b9c0e4f3d4b0f/renovosolutions.aws-cdk-renovo-instance-service-2.9.99.tar.gz
+[2023-05-08 16:20:51] INFO root fetch - processPackages [flipside]: Downloading https://files.pythonhosted.org/packages/9d/ae/f606068baf9dfb0950bb202257331dc52d9cb2737986c16b16d8290757b6/flipside-2.0.4.tar.gz
+[2023-05-08 16:20:51] INFO root fetch - processPackages [braincube-aws-core-alpha]: executing diffoscope
+[2023-05-08 16:20:51] INFO root fetch - processPackages [braincube-aws-core-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/braincube-aws-core-alpha-0.0.20.tar.gz tmp/braincube-aws-core-alpha-0.0.21.tar.gz --markdown 20230508/b/braincube-aws-core-alpha/0.0.20-0.0.21/diff.md --exclude *.pyd
+[2023-05-08 16:20:51] INFO root fetch - processPackages [shroomdk]: Downloading https://files.pythonhosted.org/packages/89/8b/868704a72ee511f2f4214c7026b1dd0e58d89cb23d81aabd328e094d0f8d/shroomdk-2.0.3.tar.gz
+[2023-05-08 16:20:51] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-instance-service]: executing diffoscope
+[2023-05-08 16:20:51] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-instance-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-renovo-instance-service-2.9.98.tar.gz tmp/renovosolutions.aws-cdk-renovo-instance-service-2.9.99.tar.gz --markdown 20230508/r/renovosolutions.aws-cdk-renovo-instance-service/2.9.98-2.9.99/diff.md --exclude *.pyd
+[2023-05-08 16:20:51] INFO root fetch - processPackages [flipside]: executing diffoscope
+[2023-05-08 16:20:51] INFO root fetch - processPackages [flipside]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flipside-2.0.3.tar.gz tmp/flipside-2.0.4.tar.gz --markdown 20230508/f/flipside/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-05-08 16:20:51] INFO root fetch - processPackages [shroomdk]: Downloading https://files.pythonhosted.org/packages/d6/fa/fcb70d4f4b2d090a4f505ff1aa9a81643d83bba3d98d8f66ab668a6ee5df/shroomdk-2.0.4.tar.gz
+[2023-05-08 16:20:51] INFO root fetch - processPackages [libcnmc]: Start processing: dbt-doc-py
+[2023-05-08 16:20:51] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2023-05-08 16:20:51] INFO root fetch - processPackages [dbt-doc-py]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-08 16:20:52] INFO root fetch - processPackages [shroomdk]: executing diffoscope
+[2023-05-08 16:20:52] INFO root fetch - processPackages [shroomdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shroomdk-2.0.3.tar.gz tmp/shroomdk-2.0.4.tar.gz --markdown 20230508/s/shroomdk/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-05-08 16:20:52] INFO root fetch - processPackages [dbt-doc-py]: Downloading https://files.pythonhosted.org/packages/e1/fb/70945ce4e2b1d2078c7fd288614d0d7cc87d98f495915bc1312bc9939227/dbt-doc-py-0.1.5.tar.gz
+[2023-05-08 16:20:52] INFO root fetch - processPackages [autosubmit]: Downloading https://files.pythonhosted.org/packages/dd/ee/b266d213977eab3d8ebc77cdfba4257afcc9f26313aafd656cc527d5b4e6/autosubmit-4.0.79.tar.gz
+[2023-05-08 16:20:52] INFO root fetch - processPackages [dbt-doc-py]: executing diffoscope
+[2023-05-08 16:20:52] INFO root fetch - processPackages [dbt-doc-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-doc-py-0.1.4.tar.gz tmp/dbt-doc-py-0.1.5.tar.gz --markdown 20230508/d/dbt-doc-py/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-08 16:20:52] INFO root fetch - processPackages [autosubmit]: executing diffoscope
+[2023-05-08 16:20:52] INFO root fetch - processPackages [autosubmit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autosubmit-4.0.78.tar.gz tmp/autosubmit-4.0.79.tar.gz --markdown 20230508/a/autosubmit/4.0.78-4.0.79/diff.md --exclude *.pyd
+[2023-05-08 16:20:52] INFO root fetch - processPackages [pyautosrt]: Start processing: kobject
+[2023-05-08 16:20:52] INFO root fetch - main [MainThread]: End processing [pyautosrt]: success
+[2023-05-08 16:20:52] INFO root fetch - processPackages [kobject]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-08 16:20:52] INFO root fetch - processPackages [service-configuration-lib]: Start processing: ramodels
+[2023-05-08 16:20:52] INFO root fetch - main [MainThread]: End processing [service-configuration-lib]: success
+[2023-05-08 16:20:52] INFO root fetch - processPackages [kobject]: Downloading https://files.pythonhosted.org/packages/7c/d6/d432060331dc41f1d7a6adb8823f176a9a22e77255844810010e949648f9/kobject-0.3.8.tar.gz
+[2023-05-08 16:20:52] INFO root fetch - processPackages [renovosolutions.aws-cdk-one-time-event]: Start processing: pepperize.cdk-dynamodb-backup
+[2023-05-08 16:20:52] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-one-time-event]: success
+[2023-05-08 16:20:52] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-08 16:20:52] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-05-08 16:20:52] INFO root fetch - main [MainThread]: End processing [braincube-aws-core-alpha]: success
+[2023-05-08 16:20:53] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: executing diffoscope
+[2023-05-08 16:20:53] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz tmp/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz --markdown 20230508/p/pepperize.cdk-dynamodb-backup/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-08 16:20:53] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-renovo-instance-service]: success
+[2023-05-08 16:20:53] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-05-08 16:20:53] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230508/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-05-08 16:20:53] INFO root fetch - processPackages [kobject]: Downloading https://files.pythonhosted.org/packages/17/d0/9bcb464fd725e776bab16c40cbc0d7b0b97a4cd06808a4f199425161eddf/kobject-0.3.9.tar.gz
+[2023-05-08 16:20:53] INFO root fetch - processPackages [kobject]: executing diffoscope
+[2023-05-08 16:20:53] INFO root fetch - processPackages [kobject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kobject-0.3.8.tar.gz tmp/kobject-0.3.9.tar.gz --markdown 20230508/k/kobject/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-08 16:20:53] INFO root fetch - main [MainThread]: End processing [flipside]: success
+[2023-05-08 16:20:53] INFO root fetch - main [MainThread]: End processing [dbt-doc-py]: success
+[2023-05-08 16:20:54] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-dynamodb-backup]: success
+[2023-05-08 16:20:54] INFO root fetch - main [MainThread]: End processing [shroomdk]: success
+[2023-05-08 16:20:54] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-05-08 16:20:54] INFO root fetch - main [MainThread]: End processing [kobject]: success
+[2023-05-08 16:20:54] INFO root fetch - main [MainThread]: End processing [ukmon-meteortools]: success
+[2023-05-08 16:20:56] INFO root fetch - main [MainThread]: End processing [autosubmit]: success
+[2023-05-08 16:20:56] INFO root fetch - main [MainThread]: Store serial: [18017865]
