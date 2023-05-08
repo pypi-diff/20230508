@@ -18633,3 +18633,115 @@ EOFError: EOF read where object expected
 [2023-05-08 20:01:50] INFO root fetch - main [MainThread]: End processing [torchtext]: success
 [2023-05-08 20:01:52] INFO root fetch - main [MainThread]: End processing [torchaudio]: success
 [2023-05-08 20:01:52] INFO root fetch - main [MainThread]: Store serial: [18020418]
+[2023-05-08 20:06:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18020418]
+[2023-05-08 20:07:01] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-08 20:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mkdocs-ultralytics-plugin
+[2023-05-08 20:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: letterboxd-stats
+[2023-05-08 20:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: benchmark-runner
+[2023-05-08 20:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unpast
+[2023-05-08 20:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pymatgen
+[2023-05-08 20:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: visualblocks
+[2023-05-08 20:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hotkeynet
+[2023-05-08 20:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nextbox-ui-plugin
+[2023-05-08 20:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: certora-cli-alpha-eric-kotlin1.8
+[2023-05-08 20:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: abm-shape-collection
+[2023-05-08 20:07:01] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 20:07:01] WARNING root fetch - processPackages [hotkeynet]: Skipping, unable to determine old version
+[2023-05-08 20:07:01] INFO root fetch - processPackages [hotkeynet]: Start processing: py-portfolio-analytics
+[2023-05-08 20:07:01] INFO root fetch - main [MainThread]: End processing [hotkeynet] error
+[2023-05-08 20:07:01] INFO root fetch - processPackages [unpast]: New version: [0.1.0.4] Old Version: [0.1.0.3]
+[2023-05-08 20:07:01] INFO root fetch - processPackages [letterboxd-stats]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 20:07:01] INFO root fetch - processPackages [certora-cli-alpha-eric-kotlin1.8]: New version: [20230508.18.4.19857] Old Version: [20230506.23.26.110297]
+[2023-05-08 20:07:01] INFO root fetch - processPackages [visualblocks]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-08 20:07:01] ERROR root fetch - processPackages [py-portfolio-analytics]: Unable to get metadata: No such project 'py-portfolio-analytics'
+[2023-05-08 20:07:01] INFO root fetch - processPackages [py-portfolio-analytics]: Start processing: djangocms-page-meta
+[2023-05-08 20:07:01] INFO root fetch - main [MainThread]: End processing [py-portfolio-analytics] error
+[2023-05-08 20:07:01] INFO root fetch - processPackages [nextbox-ui-plugin]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-08 20:07:01] INFO root fetch - processPackages [abm-shape-collection]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-08 20:07:01] INFO root fetch - processPackages [unpast]: executing diffoscope
+[2023-05-08 20:07:01] INFO root fetch - processPackages [benchmark-runner]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-05-08 20:07:01] INFO root fetch - processPackages [unpast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unpast-0.1.0.3.tar.gz tmp/unpast-0.1.0.4.tar.gz --markdown 20230508/u/unpast/0.1.0.3-0.1.0.4/diff.md --exclude *.pyd
+[2023-05-08 20:07:01] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: executing diffoscope
+[2023-05-08 20:07:01] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-ultralytics-plugin-0.0.8.tar.gz tmp/mkdocs-ultralytics-plugin-0.0.9.tar.gz --markdown 20230508/m/mkdocs-ultralytics-plugin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 20:07:01] INFO root fetch - processPackages [djangocms-page-meta]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-08 20:07:01] INFO root fetch - processPackages [letterboxd-stats]: Downloading https://files.pythonhosted.org/packages/4e/1e/447ee6928bc1434639ba60baf141f62e2ca9272efc470c0bcee06f8074d0/letterboxd_stats-0.1.8.tar.gz
+[2023-05-08 20:07:01] INFO root fetch - processPackages [certora-cli-alpha-eric-kotlin1.8]: Downloading https://files.pythonhosted.org/packages/14/83/ea31e7afff8da5e21ce560a17ac2ddfb40e335c2c10eaff640503100e3b3/certora-cli-alpha-eric-kotlin1.8-20230506.23.26.110297.tar.gz
+[2023-05-08 20:07:01] INFO root fetch - processPackages [visualblocks]: Downloading https://files.pythonhosted.org/packages/39/28/89cc8dc67d6f33f62bfd24caaaa02fbd7569ad6c5e550219a99ddfa1c0d2/visualblocks-0.0.7.tar.gz
+[2023-05-08 20:07:01] INFO root fetch - processPackages [abm-shape-collection]: Downloading https://files.pythonhosted.org/packages/85/8e/b0c9a7f80a5faa77c37bc8599e643ee9f6d445b44cbff8fbbb172af5f700/abm_shape_collection-0.4.0.tar.gz
+[2023-05-08 20:07:01] INFO root fetch - processPackages [benchmark-runner]: Downloading https://files.pythonhosted.org/packages/68/c2/3af8e8485f9abfd8f28512408ea35af542ce46eaf6c71c9da44e966b20f2/benchmark-runner-1.0.98.tar.gz
+[2023-05-08 20:07:01] INFO root fetch - processPackages [nextbox-ui-plugin]: Downloading https://files.pythonhosted.org/packages/f2/e1/c0b7be660ddca361d1bf06927586415278287b39eabf52230d0546b037d3/nextbox_ui_plugin-0.9.1.tar.gz
+[2023-05-08 20:07:01] INFO root fetch - processPackages [djangocms-page-meta]: Downloading https://files.pythonhosted.org/packages/57/7f/e2693b2e0c93a75deb03f0f2428c38f5bb5f605e14265b1b6ed6441da742/djangocms-page-meta-1.1.0.tar.gz
+[2023-05-08 20:07:01] INFO root fetch - processPackages [visualblocks]: Downloading https://files.pythonhosted.org/packages/76/91/19938c048d81d72c2b312a5c4484ec2889b7bdec541e0600e73242905a8d/visualblocks-0.0.8.tar.gz
+[2023-05-08 20:07:01] INFO root fetch - processPackages [pymatgen]: New version: [4.7.7] Old Version: [4.7.6]
+[2023-05-08 20:07:02] INFO root fetch - processPackages [abm-shape-collection]: Downloading https://files.pythonhosted.org/packages/ac/0a/801143db3ac7c909e931f63dee6722314a24d75c8e4b47db6df8ee18772d/abm_shape_collection-0.5.0.tar.gz
+[2023-05-08 20:07:02] INFO root fetch - processPackages [visualblocks]: executing diffoscope
+[2023-05-08 20:07:02] INFO root fetch - processPackages [visualblocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visualblocks-0.0.7.tar.gz tmp/visualblocks-0.0.8.tar.gz --markdown 20230508/v/visualblocks/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-08 20:07:02] INFO root fetch - processPackages [benchmark-runner]: Downloading https://files.pythonhosted.org/packages/aa/74/0b502ae8dc7d1ab19876f92da2d177323637092c1bc4f54ae1beac2c2f18/benchmark-runner-1.0.99.tar.gz
+[2023-05-08 20:07:02] INFO root fetch - processPackages [letterboxd-stats]: Downloading https://files.pythonhosted.org/packages/7d/c4/7e458386b28cce24839f51edf5be3247e2090f45569b24a28e18acfbbc06/letterboxd_stats-0.1.9.tar.gz
+[2023-05-08 20:07:02] INFO root fetch - processPackages [djangocms-page-meta]: Downloading https://files.pythonhosted.org/packages/ff/ab/b8d871d700f31a2efd43b7c051ab72cfc6486f8ade2809d8a47b5466fccf/djangocms-page-meta-1.2.0.tar.gz
+[2023-05-08 20:07:02] INFO root fetch - processPackages [pymatgen]: Downloading https://files.pythonhosted.org/packages/f8/11/932dcc4ebb444717ca49389e060aeb54f98ed9df48131df12df030e2ad3d/pymatgen-4.7.6.tar.gz
+[2023-05-08 20:07:02] INFO root fetch - processPackages [abm-shape-collection]: executing diffoscope
+[2023-05-08 20:07:02] INFO root fetch - processPackages [abm-shape-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abm_shape_collection-0.4.0.tar.gz tmp/abm_shape_collection-0.5.0.tar.gz --markdown 20230508/a/abm-shape-collection/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-08 20:07:02] INFO root fetch - processPackages [letterboxd-stats]: executing diffoscope
+[2023-05-08 20:07:02] INFO root fetch - processPackages [letterboxd-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/letterboxd_stats-0.1.8.tar.gz tmp/letterboxd_stats-0.1.9.tar.gz --markdown 20230508/l/letterboxd-stats/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 20:07:02] INFO root fetch - processPackages [benchmark-runner]: executing diffoscope
+[2023-05-08 20:07:02] INFO root fetch - processPackages [benchmark-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchmark-runner-1.0.98.tar.gz tmp/benchmark-runner-1.0.99.tar.gz --markdown 20230508/b/benchmark-runner/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-05-08 20:07:02] INFO root fetch - processPackages [djangocms-page-meta]: executing diffoscope
+[2023-05-08 20:07:02] INFO root fetch - processPackages [djangocms-page-meta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangocms-page-meta-1.1.0.tar.gz tmp/djangocms-page-meta-1.2.0.tar.gz --markdown 20230508/d/djangocms-page-meta/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-08 20:07:02] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: Start processing: phasellm
+[2023-05-08 20:07:02] INFO root fetch - main [MainThread]: End processing [mkdocs-ultralytics-plugin]: success
+[2023-05-08 20:07:02] INFO root fetch - processPackages [phasellm]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-08 20:07:02] INFO root fetch - processPackages [unpast]: Start processing: volttron
+[2023-05-08 20:07:02] INFO root fetch - main [MainThread]: End processing [unpast]: success
+[2023-05-08 20:07:03] INFO root fetch - processPackages [pymatgen]: Downloading https://files.pythonhosted.org/packages/5d/70/264aa342dff7f1c5fa6c1870cf2fb08b1e89462261dfd880f3107cfb8788/pymatgen-4.7.7.tar.gz
+[2023-05-08 20:07:03] INFO root fetch - processPackages [volttron]: New version: [10.0.3a9] Old Version: [10.0.3a8]
+[2023-05-08 20:07:03] INFO root fetch - processPackages [phasellm]: Downloading https://files.pythonhosted.org/packages/ac/6c/d6c38b64a45c68f0b61f79c2a5f74c787731f5d70628972a3d4a395d74de/phasellm-0.0.5.tar.gz
+[2023-05-08 20:07:03] INFO root fetch - processPackages [visualblocks]: Start processing: blobconverter
+[2023-05-08 20:07:03] INFO root fetch - main [MainThread]: End processing [visualblocks]: success
+[2023-05-08 20:07:03] WARNING root fetch - processPackages [certora-cli-alpha-eric-kotlin1.8]: Skipping package: exceeds size limit 39205610>=10485760
+[2023-05-08 20:07:03] INFO root fetch - processPackages [certora-cli-alpha-eric-kotlin1.8]: Start processing: piperider-nightly
+[2023-05-08 20:07:03] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-eric-kotlin1.8] error
+[2023-05-08 20:07:03] INFO root fetch - processPackages [volttron]: Downloading https://files.pythonhosted.org/packages/5f/40/9e6a05800633664b7393ba66c11a83b64c9b47c0d001ad794add602825fa/volttron-10.0.3a8-py3-none-any.whl
+[2023-05-08 20:07:03] INFO root fetch - processPackages [blobconverter]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-05-08 20:07:03] INFO root fetch - processPackages [nextbox-ui-plugin]: Downloading https://files.pythonhosted.org/packages/29/21/ffc6452c8e504c2c92740972c95f332facd1fa9e63910f0bad4b96215be0/nextbox_ui_plugin-0.9.2.tar.gz
+[2023-05-08 20:07:03] INFO root fetch - processPackages [phasellm]: Downloading https://files.pythonhosted.org/packages/44/a4/333adbf3e55db32f332b83fe45ebe50c38f92fdf196422045fba2cebb14a/phasellm-0.0.6.tar.gz
+[2023-05-08 20:07:03] INFO root fetch - processPackages [piperider-nightly]: New version: [0.9.0.20220921] Old Version: [0.9.0.20220920]
+[2023-05-08 20:07:03] INFO root fetch - processPackages [abm-shape-collection]: Start processing: qontract-reconcile
+[2023-05-08 20:07:03] INFO root fetch - main [MainThread]: End processing [abm-shape-collection]: success
+[2023-05-08 20:07:03] INFO root fetch - processPackages [nextbox-ui-plugin]: executing diffoscope
+[2023-05-08 20:07:03] INFO root fetch - processPackages [nextbox-ui-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextbox_ui_plugin-0.9.1.tar.gz tmp/nextbox_ui_plugin-0.9.2.tar.gz --markdown 20230508/n/nextbox-ui-plugin/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-08 20:07:03] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-05-08 20:07:03] INFO root fetch - processPackages [blobconverter]: executing diffoscope
+[2023-05-08 20:07:03] INFO root fetch - processPackages [blobconverter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blobconverter-1.3.0.tar.gz tmp/blobconverter-1.4.0.tar.gz --markdown 20230508/b/blobconverter/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-05-08 20:07:03] INFO root fetch - processPackages [letterboxd-stats]: Start processing: bert-schemas
+[2023-05-08 20:07:03] INFO root fetch - main [MainThread]: End processing [letterboxd-stats]: success
+[2023-05-08 20:07:03] INFO root fetch - processPackages [piperider-nightly]: executing diffoscope
+[2023-05-08 20:07:03] INFO root fetch - processPackages [piperider-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piperider-nightly-0.9.0.20220920.tar.gz tmp/piperider-nightly-0.9.0.20220921.tar.gz --markdown 20230508/p/piperider-nightly/0.9.0.20220920-0.9.0.20220921/diff.md --exclude *.pyd
+[2023-05-08 20:07:03] INFO root fetch - processPackages [phasellm]: executing diffoscope
+[2023-05-08 20:07:03] INFO root fetch - processPackages [phasellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phasellm-0.0.5.tar.gz tmp/phasellm-0.0.6.tar.gz --markdown 20230508/p/phasellm/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-08 20:07:03] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-05-08 20:07:03] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230508/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-05-08 20:07:03] WARNING root fetch - processPackages [bert-schemas]: Skipping, unable to determine old version
+[2023-05-08 20:07:03] INFO root fetch - processPackages [bert-schemas]: Start processing: safir
+[2023-05-08 20:07:03] INFO root fetch - main [MainThread]: End processing [bert-schemas] error
+[2023-05-08 20:07:03] INFO root fetch - processPackages [volttron]: Downloading https://files.pythonhosted.org/packages/da/c6/4a7ee6ed9dc6acf6f7e564a0f6e8bd5c1e7bebd90b0e14caa936279b8f04/volttron-10.0.3a9.tar.gz
+[2023-05-08 20:07:03] INFO root fetch - processPackages [safir]: New version: [4.1.0] Old Version: [4.0.0]
+[2023-05-08 20:07:03] INFO root fetch - processPackages [pymatgen]: executing diffoscope
+[2023-05-08 20:07:03] INFO root fetch - processPackages [pymatgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymatgen-4.7.6.tar.gz tmp/pymatgen-4.7.7.tar.gz --markdown 20230508/p/pymatgen/4.7.6-4.7.7/diff.md --exclude *.pyd
+[2023-05-08 20:07:03] INFO root fetch - main [MainThread]: End processing [benchmark-runner]: success
+[2023-05-08 20:07:03] INFO root fetch - processPackages [safir]: Downloading https://files.pythonhosted.org/packages/2c/dc/27d82cf722822eca831084f171b0bb973913b171e0c9f1f1e1c142c303e6/safir-4.0.0.tar.gz
+[2023-05-08 20:07:03] INFO root fetch - main [MainThread]: End processing [djangocms-page-meta]: success
+[2023-05-08 20:07:04] INFO root fetch - processPackages [volttron]: executing diffoscope
+[2023-05-08 20:07:04] INFO root fetch - processPackages [volttron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volttron-10.0.3a8-py3-none-any.whl.zip tmp/volttron-10.0.3a9.tar.gz --markdown 20230508/v/volttron/10.0.3a8-10.0.3a9/diff.md --exclude *.pyd
+[2023-05-08 20:07:04] INFO root fetch - processPackages [safir]: Downloading https://files.pythonhosted.org/packages/bc/e1/40db4cc48b866e5787e043df59401ca7d1bd88bbf72bffbb7d4976a36f80/safir-4.1.0.tar.gz
+[2023-05-08 20:07:04] INFO root fetch - processPackages [safir]: executing diffoscope
+[2023-05-08 20:07:04] INFO root fetch - processPackages [safir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safir-4.0.0.tar.gz tmp/safir-4.1.0.tar.gz --markdown 20230508/s/safir/4.0.0-4.1.0/diff.md --exclude *.pyd
+[2023-05-08 20:07:04] INFO root fetch - main [MainThread]: End processing [blobconverter]: success
+[2023-05-08 20:07:04] INFO root fetch - main [MainThread]: End processing [phasellm]: success
+[2023-05-08 20:07:05] INFO root fetch - main [MainThread]: End processing [volttron]: success
+[2023-05-08 20:07:05] INFO root fetch - main [MainThread]: End processing [safir]: success
+[2023-05-08 20:07:07] INFO root fetch - main [MainThread]: End processing [piperider-nightly]: success
+[2023-05-08 20:07:08] INFO root fetch - main [MainThread]: End processing [pymatgen]: success
+[2023-05-08 20:07:08] INFO root fetch - main [MainThread]: End processing [nextbox-ui-plugin]: success
+[2023-05-08 20:07:09] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-05-08 20:07:09] INFO root fetch - main [MainThread]: Store serial: [18020494]
