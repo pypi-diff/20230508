@@ -14907,3 +14907,107 @@ EOFError: EOF read where object expected
 [2023-05-08 16:48:06] INFO root fetch - main [MainThread]: End processing [NetKet]: success
 [2023-05-08 16:48:07] INFO root fetch - main [MainThread]: End processing [pyplunet]: success
 [2023-05-08 16:48:07] INFO root fetch - main [MainThread]: Store serial: [18018253]
+[2023-05-08 16:53:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18018253]
+[2023-05-08 16:53:16] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-08 16:53:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: proteus-preprocessing
+[2023-05-08 16:53:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: renovosolutions.aws-cdk-managed-instance-role
+[2023-05-08 16:53:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygrates
+[2023-05-08 16:53:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sidetrek
+[2023-05-08 16:53:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-tsp
+[2023-05-08 16:53:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: renovosolutions.aws-cdk-renovo-microapi
+[2023-05-08 16:53:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pandasai
+[2023-05-08 16:53:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-eric-serialModule
+[2023-05-08 16:53:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gsbg
+[2023-05-08 16:53:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: coiled
+[2023-05-08 16:53:16] INFO root fetch - processPackages [django-tsp]: New version: [3.14.8] Old Version: [3.14.7]
+[2023-05-08 16:53:16] INFO root fetch - processPackages [proteus-preprocessing]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-08 16:53:16] WARNING root fetch - processPackages [pygrates]: Skipping, unable to determine old version
+[2023-05-08 16:53:16] INFO root fetch - processPackages [pygrates]: Start processing: yetl-framework
+[2023-05-08 16:53:16] INFO root fetch - main [MainThread]: End processing [pygrates] error
+[2023-05-08 16:53:16] INFO root fetch - processPackages [pandasai]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-08 16:53:16] INFO root fetch - processPackages [certora-cli-alpha-eric-serialModule]: New version: [20230508.14.50.747022] Old Version: [20230505.17.24.332277]
+[2023-05-08 16:53:16] INFO root fetch - processPackages [gsbg]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-08 16:53:16] INFO root fetch - processPackages [sidetrek]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 16:53:16] INFO root fetch - processPackages [yetl-framework]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-08 16:53:16] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-microapi]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-08 16:53:16] INFO root fetch - processPackages [coiled]: New version: [0.6.3.dev2] Old Version: [0.6.3.dev1]
+[2023-05-08 16:53:16] INFO root fetch - processPackages [renovosolutions.aws-cdk-managed-instance-role]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-08 16:53:16] INFO root fetch - processPackages [sidetrek]: Downloading https://files.pythonhosted.org/packages/a6/8a/a6176d3f1012708b4ccaf2b4452150bbcc42bea315ff88ebacd209e69bb8/sidetrek-0.0.8.tar.gz
+[2023-05-08 16:53:16] INFO root fetch - processPackages [renovosolutions.aws-cdk-managed-instance-role]: executing diffoscope
+[2023-05-08 16:53:16] INFO root fetch - processPackages [renovosolutions.aws-cdk-managed-instance-role]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-managed-instance-role-2.3.98.tar.gz tmp/renovosolutions.aws-cdk-managed-instance-role-2.3.99.tar.gz --markdown 20230508/r/renovosolutions.aws-cdk-managed-instance-role/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-08 16:53:16] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-microapi]: executing diffoscope
+[2023-05-08 16:53:16] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-microapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-renovo-microapi-0.0.98.tar.gz tmp/renovosolutions.aws-cdk-renovo-microapi-0.0.99.tar.gz --markdown 20230508/r/renovosolutions.aws-cdk-renovo-microapi/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-08 16:53:16] INFO root fetch - processPackages [django-tsp]: Downloading https://files.pythonhosted.org/packages/11/2e/6a44dad3ca841c3ccbeeca76e7f787be5e91c48259cac6119a6f47966d9f/django_tsp-3.14.7.tar.gz
+[2023-05-08 16:53:16] INFO root fetch - processPackages [certora-cli-alpha-eric-serialModule]: Downloading https://files.pythonhosted.org/packages/05/3a/e581ccd844a41fd171dc6717924cd3f445b9569ac293900353dc5b9b6020/certora-cli-alpha-eric-serialModule-20230505.17.24.332277.tar.gz
+[2023-05-08 16:53:16] INFO root fetch - processPackages [gsbg]: Downloading https://files.pythonhosted.org/packages/ec/96/c698a82da900bf67f3a69a8cbd4856564870936968042d66fa34e760f507/gsbg-0.1.1.tar.gz
+[2023-05-08 16:53:16] INFO root fetch - processPackages [proteus-preprocessing]: Downloading https://files.pythonhosted.org/packages/3d/44/a18e7000970bfc3315ccf59cf37b5371c79a44c3b5bf020759912cefbafc/proteus_preprocessing-0.2.8.tar.gz
+[2023-05-08 16:53:16] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/7a/6b/fe3e815130c1936a7803dea2f136da483e7d861347a5b09c040a826473ab/pandasai-0.2.8.tar.gz
+[2023-05-08 16:53:16] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/06/0f/258e87cfa159a96143748b7cf589fa3df72cb2ad5ef84d486fc6d9ef2fad/yetl-framework-1.2.9.tar.gz
+[2023-05-08 16:53:16] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/80/47/c12a4dd6dc4fad00a652fbb8c2fbb3d3b0bc5ee811bc90af484f9357b37e/coiled-0.6.3.dev1.tar.gz
+[2023-05-08 16:53:16] INFO root fetch - processPackages [sidetrek]: Downloading https://files.pythonhosted.org/packages/82/5c/9e08518e4f9b9b99085f15a8d7dd45852185b9a02e7ce200620fcd687248/sidetrek-0.0.9.tar.gz
+[2023-05-08 16:53:16] INFO root fetch - processPackages [pandasai]: executing diffoscope
+[2023-05-08 16:53:16] INFO root fetch - processPackages [pandasai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasai-0.2.7.tar.gz tmp/pandasai-0.2.8.tar.gz --markdown 20230508/p/pandasai/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-05-08 16:53:16] INFO root fetch - processPackages [yetl-framework]: executing diffoscope
+[2023-05-08 16:53:16] INFO root fetch - processPackages [yetl-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yetl-framework-1.2.8.tar.gz tmp/yetl-framework-1.2.9.tar.gz --markdown 20230508/y/yetl-framework/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-08 16:53:16] WARNING root fetch - processPackages [certora-cli-alpha-eric-serialModule]: Skipping package: exceeds size limit 38543991>=10485760
+[2023-05-08 16:53:16] INFO root fetch - processPackages [certora-cli-alpha-eric-serialModule]: Start processing: renovosolutions.aws-cdk-aws-ipam
+[2023-05-08 16:53:16] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-eric-serialModule] error
+[2023-05-08 16:53:16] INFO root fetch - processPackages [sidetrek]: executing diffoscope
+[2023-05-08 16:53:16] INFO root fetch - processPackages [sidetrek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sidetrek-0.0.8.tar.gz tmp/sidetrek-0.0.9.tar.gz --markdown 20230508/s/sidetrek/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 16:53:16] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-ipam]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-08 16:53:16] INFO root fetch - processPackages [django-tsp]: Downloading https://files.pythonhosted.org/packages/d1/2f/bef8af40d1a417d782055f9a8213e3593256599c589345b87d1e41423254/django_tsp-3.14.8.tar.gz
+[2023-05-08 16:53:16] INFO root fetch - processPackages [gsbg]: Downloading https://files.pythonhosted.org/packages/5c/90/891f6b3c5d534d7f7e35db248a510bee88662df49dfe8d0e93f39751df2c/gsbg-0.1.2.tar.gz
+[2023-05-08 16:53:16] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-ipam]: executing diffoscope
+[2023-05-08 16:53:16] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-ipam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-aws-ipam-0.1.98.tar.gz tmp/renovosolutions.aws-cdk-aws-ipam-0.1.99.tar.gz --markdown 20230508/r/renovosolutions.aws-cdk-aws-ipam/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-08 16:53:16] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/f4/03/4fb66076126e0ddf990f690883520bdec59c4fd80ff85e9070b297c848e4/coiled-0.6.3.dev2.tar.gz
+[2023-05-08 16:53:16] INFO root fetch - processPackages [django-tsp]: executing diffoscope
+[2023-05-08 16:53:16] INFO root fetch - processPackages [django-tsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_tsp-3.14.7.tar.gz tmp/django_tsp-3.14.8.tar.gz --markdown 20230508/d/django-tsp/3.14.7-3.14.8/diff.md --exclude *.pyd
+[2023-05-08 16:53:17] INFO root fetch - processPackages [gsbg]: executing diffoscope
+[2023-05-08 16:53:17] INFO root fetch - processPackages [gsbg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gsbg-0.1.1.tar.gz tmp/gsbg-0.1.2.tar.gz --markdown 20230508/g/gsbg/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-08 16:53:17] INFO root fetch - processPackages [proteus-preprocessing]: Downloading https://files.pythonhosted.org/packages/a3/28/e3e5ad42ae97c9149ac0897d878ef171ce5791af87cbfeebc9af0f9b62e1/proteus_preprocessing-0.2.9.tar.gz
+[2023-05-08 16:53:17] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-08 16:53:17] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.3.dev1.tar.gz tmp/coiled-0.6.3.dev2.tar.gz --markdown 20230508/c/coiled/0.6.3.dev1-0.6.3.dev2/diff.md --exclude *.pyd
+[2023-05-08 16:53:17] INFO root fetch - processPackages [proteus-preprocessing]: executing diffoscope
+[2023-05-08 16:53:17] INFO root fetch - processPackages [proteus-preprocessing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteus_preprocessing-0.2.8.tar.gz tmp/proteus_preprocessing-0.2.9.tar.gz --markdown 20230508/p/proteus-preprocessing/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-08 16:53:18] INFO root fetch - processPackages [yetl-framework]: Start processing: renovosolutions.aws-cdk-multi-account-az-mapping
+[2023-05-08 16:53:18] INFO root fetch - main [MainThread]: End processing [yetl-framework]: success
+[2023-05-08 16:53:18] INFO root fetch - processPackages [renovosolutions.aws-cdk-multi-account-az-mapping]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 16:53:18] INFO root fetch - processPackages [sidetrek]: Start processing: ProtWave-VAE
+[2023-05-08 16:53:18] INFO root fetch - main [MainThread]: End processing [sidetrek]: success
+[2023-05-08 16:53:18] INFO root fetch - processPackages [ProtWave-VAE]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-08 16:53:18] INFO root fetch - processPackages [renovosolutions.aws-cdk-multi-account-az-mapping]: executing diffoscope
+[2023-05-08 16:53:18] INFO root fetch - processPackages [renovosolutions.aws-cdk-multi-account-az-mapping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-multi-account-az-mapping-0.0.8.tar.gz tmp/renovosolutions.aws-cdk-multi-account-az-mapping-0.0.9.tar.gz --markdown 20230508/r/renovosolutions.aws-cdk-multi-account-az-mapping/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 16:53:18] INFO root fetch - processPackages [pandasai]: Start processing: argus-alm
+[2023-05-08 16:53:18] INFO root fetch - main [MainThread]: End processing [pandasai]: success
+[2023-05-08 16:53:18] INFO root fetch - processPackages [argus-alm]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-05-08 16:53:18] INFO root fetch - processPackages [ProtWave-VAE]: Downloading https://files.pythonhosted.org/packages/bb/11/71384fc82d092f0878045a019e0b71c9cc772f252763ef1f16f52013256d/ProtWave_VAE-0.0.2.tar.gz
+[2023-05-08 16:53:18] INFO root fetch - processPackages [renovosolutions.aws-cdk-managed-instance-role]: Start processing: renovosolutions.aws-cdk-aspects-security-group
+[2023-05-08 16:53:18] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-managed-instance-role]: success
+[2023-05-08 16:53:18] INFO root fetch - processPackages [renovosolutions.aws-cdk-aspects-security-group]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-05-08 16:53:18] INFO root fetch - processPackages [gsbg]: Start processing: wds-client
+[2023-05-08 16:53:18] INFO root fetch - main [MainThread]: End processing [gsbg]: success
+[2023-05-08 16:53:18] INFO root fetch - processPackages [argus-alm]: Downloading https://files.pythonhosted.org/packages/4d/a3/3f25b094093c62caa6e89fbb2d797e6583443d3030f8dfdb18fd11bc9cd0/argus-alm-0.8.0.tar.gz
+[2023-05-08 16:53:18] INFO root fetch - processPackages [renovosolutions.aws-cdk-aspects-security-group]: executing diffoscope
+[2023-05-08 16:53:18] INFO root fetch - processPackages [renovosolutions.aws-cdk-aspects-security-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-aspects-security-group-2.1.98.tar.gz tmp/renovosolutions.aws-cdk-aspects-security-group-2.1.99.tar.gz --markdown 20230508/r/renovosolutions.aws-cdk-aspects-security-group/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-05-08 16:53:18] INFO root fetch - processPackages [wds-client]: New version: [0.2.8] Old Version: [0.2.79]
+[2023-05-08 16:53:18] INFO root fetch - main [MainThread]: End processing [django-tsp]: success
+[2023-05-08 16:53:18] INFO root fetch - processPackages [ProtWave-VAE]: Downloading https://files.pythonhosted.org/packages/e5/bf/9ffe40356c5b2f42655b5306ce658e95461d7805887add2a72f915675926/ProtWave_VAE-0.0.3.tar.gz
+[2023-05-08 16:53:18] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-aws-ipam]: success
+[2023-05-08 16:53:18] INFO root fetch - processPackages [wds-client]: Downloading https://files.pythonhosted.org/packages/3c/56/95754cadb783d8b5cb0d18d8636d9fa3adcaa1f793d53d8572139554cf34/wds-client-0.2.79.tar.gz
+[2023-05-08 16:53:18] INFO root fetch - main [MainThread]: End processing [proteus-preprocessing]: success
+[2023-05-08 16:53:18] INFO root fetch - processPackages [ProtWave-VAE]: executing diffoscope
+[2023-05-08 16:53:18] INFO root fetch - processPackages [ProtWave-VAE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ProtWave_VAE-0.0.2.tar.gz tmp/ProtWave_VAE-0.0.3.tar.gz --markdown 20230508/P/ProtWave-VAE/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-08 16:53:18] INFO root fetch - processPackages [argus-alm]: Downloading https://files.pythonhosted.org/packages/f5/52/98ae593640563903d88e0b566dc2965de18d2223faba5652a0d0fbbf748a/argus-alm-0.8.1.tar.gz
+[2023-05-08 16:53:18] INFO root fetch - processPackages [argus-alm]: executing diffoscope
+[2023-05-08 16:53:18] INFO root fetch - processPackages [argus-alm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argus-alm-0.8.0.tar.gz tmp/argus-alm-0.8.1.tar.gz --markdown 20230508/a/argus-alm/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-05-08 16:53:19] INFO root fetch - processPackages [wds-client]: Downloading https://files.pythonhosted.org/packages/52/0e/257f94b1a1dad6198f1dcee34010593590873dd1d6100c15affe4662bbea/wds-client-0.2.8.tar.gz
+[2023-05-08 16:53:19] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-renovo-microapi]: success
+[2023-05-08 16:53:19] INFO root fetch - processPackages [wds-client]: executing diffoscope
+[2023-05-08 16:53:19] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-multi-account-az-mapping]: success
+[2023-05-08 16:53:19] INFO root fetch - processPackages [wds-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wds-client-0.2.79.tar.gz tmp/wds-client-0.2.8.tar.gz --markdown 20230508/w/wds-client/0.2.79-0.2.8/diff.md --exclude *.pyd
+[2023-05-08 16:53:19] INFO root fetch - main [MainThread]: End processing [ProtWave-VAE]: success
+[2023-05-08 16:53:19] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-08 16:53:20] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-aspects-security-group]: success
+[2023-05-08 16:53:20] INFO root fetch - main [MainThread]: End processing [argus-alm]: success
+[2023-05-08 16:53:20] INFO root fetch - main [MainThread]: End processing [wds-client]: success
+[2023-05-08 16:53:20] INFO root fetch - main [MainThread]: Store serial: [18018315]
