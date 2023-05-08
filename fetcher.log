@@ -16551,3 +16551,143 @@ EOFError: EOF read where object expected
 [2023-05-08 18:06:22] INFO root fetch - main [MainThread]: End processing [supervisely]: success
 [2023-05-08 18:06:24] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
 [2023-05-08 18:06:24] INFO root fetch - main [MainThread]: Store serial: [18019159]
+[2023-05-08 18:11:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18019159]
+[2023-05-08 18:11:33] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-08 18:11:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: renovosolutions.aws-cdk-renovo-s3-bucket
+[2023-05-08 18:11:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xpydf
+[2023-05-08 18:11:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: notification-service-nightly
+[2023-05-08 18:11:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: carchive
+[2023-05-08 18:11:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ai-flow-nightly
+[2023-05-08 18:11:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: docarray
+[2023-05-08 18:11:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flgo
+[2023-05-08 18:11:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fugue
+[2023-05-08 18:11:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kyeongmo230508AIL
+[2023-05-08 18:11:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: plutonium-238
+[2023-05-08 18:11:34] INFO root fetch - processPackages [notification-service-nightly]: New version: [2023.5.7] Old Version: [2023.5.6]
+[2023-05-08 18:11:34] INFO root fetch - processPackages [flgo]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-08 18:11:34] INFO root fetch - processPackages [carchive]: New version: [0.0.49] Old Version: [0.0.48]
+[2023-05-08 18:11:34] INFO root fetch - processPackages [plutonium-238]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-08 18:11:34] INFO root fetch - processPackages [kyeongmo230508AIL]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-08 18:11:34] INFO root fetch - processPackages [xpydf]: New version: [0.1.4] Old Version: [0.1.3.1]
+[2023-05-08 18:11:34] INFO root fetch - processPackages [ai-flow-nightly]: New version: [2023.5.7] Old Version: [2023.5.6]
+[2023-05-08 18:11:34] INFO root fetch - processPackages [fugue]: New version: [0.8.4.dev2] Old Version: [0.8.4.dev1]
+[2023-05-08 18:11:34] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-05-08 18:11:34] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-s3-bucket]: New version: [2.2.99] Old Version: [2.2.98]
+[2023-05-08 18:11:34] INFO root fetch - processPackages [carchive]: Downloading https://files.pythonhosted.org/packages/70/ca/aa5b33d105848a9bdd121196c409e204f4eb6dd822c6f82e5abd1cee427b/carchive-0.0.48.tar.gz
+[2023-05-08 18:11:34] INFO root fetch - processPackages [flgo]: Downloading https://files.pythonhosted.org/packages/d6/a1/2b6e7d316887a6a23703adbf92614de421a5d66bb58c35ad86d731be0bc5/flgo-0.0.3.tar.gz
+[2023-05-08 18:11:34] INFO root fetch - processPackages [plutonium-238]: Downloading https://files.pythonhosted.org/packages/3a/a8/f67c4159422eb111046e2fd26290fbb7f7145ce50293b4688f4aa24235c5/plutonium-238-0.1.4.tar.gz
+[2023-05-08 18:11:34] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-05-08 18:11:34] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230508/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-05-08 18:11:34] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-s3-bucket]: executing diffoscope
+[2023-05-08 18:11:34] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-s3-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-renovo-s3-bucket-2.2.98.tar.gz tmp/renovosolutions.aws-cdk-renovo-s3-bucket-2.2.99.tar.gz --markdown 20230508/r/renovosolutions.aws-cdk-renovo-s3-bucket/2.2.98-2.2.99/diff.md --exclude *.pyd
+[2023-05-08 18:11:34] INFO root fetch - processPackages [kyeongmo230508AIL]: Downloading https://files.pythonhosted.org/packages/98/0a/2c68f57241b8ff55af4531dc48efbed9fcf1e47c0fade82e1098bd01a70a/kyeongmo230508AIL-0.0.3-py3-none-any.whl
+[2023-05-08 18:11:34] INFO root fetch - processPackages [notification-service-nightly]: Downloading https://files.pythonhosted.org/packages/96/79/0086cd3c6c14be82f81714e4024f84e904dbb5f63f7e649d4e6da27da61e/notification_service_nightly-2023.5.7.tar.gz
+[2023-05-08 18:11:34] INFO root fetch - processPackages [fugue]: Downloading https://files.pythonhosted.org/packages/fc/c4/4ca9f067eeae5f8c3fc4fe51cff0907c36703665f8547c4c5af85896561e/fugue-0.8.4.dev1.tar.gz
+[2023-05-08 18:11:34] INFO root fetch - processPackages [ai-flow-nightly]: Downloading https://files.pythonhosted.org/packages/03/1c/a783b54377c84c79ff5ce4b388f5ec055e30b632225d21f794d52b265817/ai_flow_nightly-2023.5.7.tar.gz
+[2023-05-08 18:11:34] INFO root fetch - processPackages [kyeongmo230508AIL]: executing diffoscope
+[2023-05-08 18:11:34] INFO root fetch - processPackages [kyeongmo230508AIL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kyeongmo230508AIL-0.0.2-py3-none-any.whl.zip tmp/kyeongmo230508AIL-0.0.3-py3-none-any.whl.zip --markdown 20230508/k/kyeongmo230508AIL/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-08 18:11:34] INFO root fetch - processPackages [notification-service-nightly]: executing diffoscope
+[2023-05-08 18:11:34] INFO root fetch - processPackages [notification-service-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notification_service_nightly-2023.5.6.tar.gz tmp/notification_service_nightly-2023.5.7.tar.gz --markdown 20230508/n/notification-service-nightly/2023.5.6-2023.5.7/diff.md --exclude *.pyd
+[2023-05-08 18:11:34] INFO root fetch - processPackages [carchive]: Downloading https://files.pythonhosted.org/packages/95/52/2847727b20e7beba2c25408d1481896aee85bf9a67fdba713c44048c79fa/carchive-0.0.49.tar.gz
+[2023-05-08 18:11:34] ERROR root fetch - processPackages [xpydf]: Unable to fetch info: No such project/version 'xpydf' 0.1.3.1
+[2023-05-08 18:11:34] INFO root fetch - processPackages [xpydf]: Start processing: skyagi
+[2023-05-08 18:11:34] INFO root fetch - main [MainThread]: End processing [xpydf] error
+[2023-05-08 18:11:34] INFO root fetch - processPackages [ai-flow-nightly]: executing diffoscope
+[2023-05-08 18:11:34] INFO root fetch - processPackages [ai-flow-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_flow_nightly-2023.5.6.tar.gz tmp/ai_flow_nightly-2023.5.7.tar.gz --markdown 20230508/a/ai-flow-nightly/2023.5.6-2023.5.7/diff.md --exclude *.pyd
+[2023-05-08 18:11:34] INFO root fetch - processPackages [skyagi]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 18:11:34] INFO root fetch - processPackages [flgo]: Downloading https://files.pythonhosted.org/packages/e6/ee/3bf09e02d963e1fe9cbbec878c615000f37e0b0cd663682a067ce316f4bb/flgo-0.0.4.tar.gz
+[2023-05-08 18:11:34] INFO root fetch - processPackages [carchive]: executing diffoscope
+[2023-05-08 18:11:34] INFO root fetch - processPackages [carchive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carchive-0.0.48.tar.gz tmp/carchive-0.0.49.tar.gz --markdown 20230508/c/carchive/0.0.48-0.0.49/diff.md --exclude *.pyd
+[2023-05-08 18:11:34] INFO root fetch - processPackages [plutonium-238]: Downloading https://files.pythonhosted.org/packages/9a/6e/db204d5d227b9b8da37eb96d6633c34af5586f3620f6a258d1f217434b13/plutonium-238-0.1.5.tar.gz
+[2023-05-08 18:11:34] INFO root fetch - processPackages [fugue]: Downloading https://files.pythonhosted.org/packages/0f/b9/a05fd156f95b4bbd55aad8c72992326724ac3416ff2d269fc99c53655954/fugue-0.8.4.dev2.tar.gz
+[2023-05-08 18:11:34] INFO root fetch - processPackages [flgo]: executing diffoscope
+[2023-05-08 18:11:34] INFO root fetch - processPackages [flgo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flgo-0.0.3.tar.gz tmp/flgo-0.0.4.tar.gz --markdown 20230508/f/flgo/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-08 18:11:34] INFO root fetch - processPackages [plutonium-238]: executing diffoscope
+[2023-05-08 18:11:34] INFO root fetch - processPackages [plutonium-238]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plutonium-238-0.1.4.tar.gz tmp/plutonium-238-0.1.5.tar.gz --markdown 20230508/p/plutonium-238/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-08 18:11:34] INFO root fetch - processPackages [skyagi]: Downloading https://files.pythonhosted.org/packages/2c/8a/1db7ac914c786f69dbbb17002028d389e8163581738de53e62af89312a32/skyagi-0.0.8.tar.gz
+[2023-05-08 18:11:34] INFO root fetch - processPackages [fugue]: executing diffoscope
+[2023-05-08 18:11:34] INFO root fetch - processPackages [fugue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fugue-0.8.4.dev1.tar.gz tmp/fugue-0.8.4.dev2.tar.gz --markdown 20230508/f/fugue/0.8.4.dev1-0.8.4.dev2/diff.md --exclude *.pyd
+[2023-05-08 18:11:35] INFO root fetch - processPackages [skyagi]: Downloading https://files.pythonhosted.org/packages/e7/6d/94b74c81494bc6abb7880d08e81a3f5fc789368c288d1234f9d367f4c2aa/skyagi-0.0.9.tar.gz
+[2023-05-08 18:11:35] INFO root fetch - processPackages [skyagi]: executing diffoscope
+[2023-05-08 18:11:35] INFO root fetch - processPackages [skyagi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyagi-0.0.8.tar.gz tmp/skyagi-0.0.9.tar.gz --markdown 20230508/s/skyagi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 18:11:35] INFO root fetch - processPackages [kyeongmo230508AIL]: Start processing: virtru-sdk
+[2023-05-08 18:11:35] INFO root fetch - main [MainThread]: End processing [kyeongmo230508AIL]: success
+[2023-05-08 18:11:35] INFO root fetch - processPackages [virtru-sdk]: New version: [2.7.0a1321] Old Version: [2.6.0b1317]
+[2023-05-08 18:11:36] INFO root fetch - processPackages [carchive]: Start processing: aistore
+[2023-05-08 18:11:36] INFO root fetch - main [MainThread]: End processing [carchive]: success
+[2023-05-08 18:11:36] INFO root fetch - processPackages [aistore]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-05-08 18:11:36] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-s3-bucket]: Start processing: waylay-beta
+[2023-05-08 18:11:36] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-renovo-s3-bucket]: success
+[2023-05-08 18:11:36] INFO root fetch - processPackages [waylay-beta]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-05-08 18:11:36] INFO root fetch - processPackages [virtru-sdk]: Downloading https://files.pythonhosted.org/packages/64/3b/a380901138e5d6254e2d56152a3289ad13436c25c804e23d7bba1fca9444/virtru_sdk-2.6.0b1317-cp39-cp39-win_amd64.whl
+[2023-05-08 18:11:36] INFO root fetch - processPackages [aistore]: Downloading https://files.pythonhosted.org/packages/33/25/4df61afbc04719b83d0bbc841ce8ad936b91dd09cd441b1887c960e20b56/aistore-1.2.1.tar.gz
+[2023-05-08 18:11:36] INFO root fetch - processPackages [plutonium-238]: Start processing: renovosolutions.aws-cdk-renovo-s3-bucket
+[2023-05-08 18:11:36] INFO root fetch - main [MainThread]: End processing [plutonium-238]: success
+[2023-05-08 18:11:36] INFO root fetch - processPackages [waylay-beta]: Downloading https://files.pythonhosted.org/packages/78/2d/d284e910fb66091608eec4051d32fce87b031c51a750f8486cc36826518b/waylay-beta-0.5.0.tar.gz
+[2023-05-08 18:11:36] INFO root fetch - processPackages [notification-service-nightly]: Start processing: xpydf
+[2023-05-08 18:11:36] INFO root fetch - main [MainThread]: End processing [notification-service-nightly]: success
+[2023-05-08 18:11:36] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-s3-bucket]: New version: [2.2.99] Old Version: [2.2.98]
+[2023-05-08 18:11:36] INFO root fetch - processPackages [xpydf]: New version: [0.1.4] Old Version: [0.1.2]
+[2023-05-08 18:11:36] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-s3-bucket]: executing diffoscope
+[2023-05-08 18:11:36] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-s3-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-renovo-s3-bucket-2.2.98.tar.gz tmp/renovosolutions.aws-cdk-renovo-s3-bucket-2.2.99.tar.gz --markdown 20230508/r/renovosolutions.aws-cdk-renovo-s3-bucket/2.2.98-2.2.99/diff.md --exclude *.pyd
+[2023-05-08 18:11:36] INFO root fetch - processPackages [aistore]: Downloading https://files.pythonhosted.org/packages/fb/4a/23da9c53afa16888fe249020590b8911f37b316eda2df77f81ca3fff8d97/aistore-1.2.2.tar.gz
+[2023-05-08 18:11:36] INFO root fetch - processPackages [docarray]: Start processing: httpie-oauth2-client-credentials
+[2023-05-08 18:11:36] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-05-08 18:11:36] INFO root fetch - processPackages [aistore]: executing diffoscope
+[2023-05-08 18:11:36] INFO root fetch - processPackages [aistore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aistore-1.2.1.tar.gz tmp/aistore-1.2.2.tar.gz --markdown 20230508/a/aistore/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-05-08 18:11:36] INFO root fetch - processPackages [httpie-oauth2-client-credentials]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-08 18:11:36] INFO root fetch - processPackages [waylay-beta]: Downloading https://files.pythonhosted.org/packages/4f/54/e311993b662ae32b66b15ca6488a249438ef9c330cb407a6529737db6a97/waylay-beta-0.6.0.tar.gz
+[2023-05-08 18:11:36] INFO root fetch - processPackages [xpydf]: Downloading https://files.pythonhosted.org/packages/6f/e4/508be0a74af08f9f970397a3e9b6f1c6f6be2d2b84fa60119f6313a27a24/xpydf-0.1.4.tar.gz
+[2023-05-08 18:11:36] INFO root fetch - processPackages [virtru-sdk]: Downloading https://files.pythonhosted.org/packages/59/05/ac064efc66d96ddb9b5f0136c84eacd18c3e36268462cd56c931f73e1659/virtru_sdk-2.7.0a1321-cp39-cp39-win_amd64.whl
+[2023-05-08 18:11:36] INFO root fetch - processPackages [waylay-beta]: executing diffoscope
+[2023-05-08 18:11:36] INFO root fetch - processPackages [waylay-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waylay-beta-0.5.0.tar.gz tmp/waylay-beta-0.6.0.tar.gz --markdown 20230508/w/waylay-beta/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-05-08 18:11:36] INFO root fetch - processPackages [httpie-oauth2-client-credentials]: Downloading https://files.pythonhosted.org/packages/a8/12/5217f432949d274210ef43103a7edafa065af4184c62ab0055b6d326b8dc/httpie-oauth2-client-credentials-0.1.1.tar.gz
+[2023-05-08 18:11:36] INFO root fetch - processPackages [flgo]: Start processing: FicImage
+[2023-05-08 18:11:36] INFO root fetch - main [MainThread]: End processing [flgo]: success
+[2023-05-08 18:11:36] INFO root fetch - processPackages [xpydf]: executing diffoscope
+[2023-05-08 18:11:36] INFO root fetch - processPackages [xpydf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xpydf-0.1.2.tar.gz tmp/xpydf-0.1.4.tar.gz --markdown 20230508/x/xpydf/0.1.2-0.1.4/diff.md --exclude *.pyd
+[2023-05-08 18:11:36] WARNING root fetch - processPackages [FicImage]: Skipping, unable to determine old version
+[2023-05-08 18:11:36] INFO root fetch - processPackages [FicImage]: Start processing: pyc3dtools
+[2023-05-08 18:11:36] INFO root fetch - main [MainThread]: End processing [FicImage] error
+[2023-05-08 18:11:37] INFO root fetch - processPackages [httpie-oauth2-client-credentials]: Downloading https://files.pythonhosted.org/packages/73/b6/a6327fd088a9a4b5206d462887dc96fbaef4aa2e59938e9d75d5dda8bf82/httpie-oauth2-client-credentials-0.1.2.tar.gz
+[2023-05-08 18:11:37] INFO root fetch - processPackages [pyc3dtools]: New version: [0.2.1] Old Version: [0.1.2]
+[2023-05-08 18:11:37] INFO root fetch - processPackages [httpie-oauth2-client-credentials]: executing diffoscope
+[2023-05-08 18:11:37] INFO root fetch - processPackages [httpie-oauth2-client-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/httpie-oauth2-client-credentials-0.1.1.tar.gz tmp/httpie-oauth2-client-credentials-0.1.2.tar.gz --markdown 20230508/h/httpie-oauth2-client-credentials/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-08 18:11:37] INFO root fetch - processPackages [skyagi]: Start processing: sentry-arroyo
+[2023-05-08 18:11:37] INFO root fetch - main [MainThread]: End processing [skyagi]: success
+[2023-05-08 18:11:37] INFO root fetch - processPackages [pyc3dtools]: Downloading https://files.pythonhosted.org/packages/30/7c/f5f96e73994b1b22b57488e6a3966afddfe8d948ef514e8036fa7105adeb/pyc3dtools-0.1.2.win-amd64.zip
+[2023-05-08 18:11:37] INFO root fetch - processPackages [sentry-arroyo]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-05-08 18:11:37] INFO root fetch - processPackages [virtru-sdk]: executing diffoscope
+[2023-05-08 18:11:37] INFO root fetch - processPackages [virtru-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/virtru_sdk-2.6.0b1317-cp39-cp39-win_amd64.whl.zip tmp/virtru_sdk-2.7.0a1321-cp39-cp39-win_amd64.whl.zip --markdown 20230508/v/virtru-sdk/2.6.0b1317-2.7.0a1321/diff.md --exclude *.pyd
+[2023-05-08 18:11:37] INFO root fetch - processPackages [pyc3dtools]: Downloading https://files.pythonhosted.org/packages/8b/3c/89e5f77c251ae0482688d836e22c7b5c4f3a0dd1b88b6ed4de824be4f039/pyc3dtools-0.2.1.win-amd64.zip
+[2023-05-08 18:11:37] INFO root fetch - processPackages [sentry-arroyo]: Downloading https://files.pythonhosted.org/packages/33/e1/d5ea1b22b184f43c89eebc82467cf5401a9d986666a8ea6294a7b4969699/sentry-arroyo-2.9.0.tar.gz
+[2023-05-08 18:11:37] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-s3-bucket]: Start processing: pyelectroluxconnect
+[2023-05-08 18:11:37] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-renovo-s3-bucket]: success
+[2023-05-08 18:11:37] INFO root fetch - processPackages [pyc3dtools]: executing diffoscope
+[2023-05-08 18:11:37] INFO root fetch - processPackages [pyc3dtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyc3dtools-0.1.2.win-amd64.zip tmp/pyc3dtools-0.2.1.win-amd64.zip --markdown 20230508/p/pyc3dtools/0.1.2-0.2.1/diff.md --exclude *.pyd
+[2023-05-08 18:11:37] INFO root fetch - processPackages [pyelectroluxconnect]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-08 18:11:37] INFO root fetch - processPackages [sentry-arroyo]: Downloading https://files.pythonhosted.org/packages/d4/1a/90766875f9eaa1377c255103ddf3aa1ef3182ea97e8782b0779ebd2e4769/sentry-arroyo-2.9.1.tar.gz
+[2023-05-08 18:11:38] INFO root fetch - processPackages [sentry-arroyo]: executing diffoscope
+[2023-05-08 18:11:38] INFO root fetch - processPackages [sentry-arroyo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-arroyo-2.9.0.tar.gz tmp/sentry-arroyo-2.9.1.tar.gz --markdown 20230508/s/sentry-arroyo/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-05-08 18:11:38] INFO root fetch - processPackages [aistore]: Start processing: psidata
+[2023-05-08 18:11:38] INFO root fetch - main [MainThread]: End processing [aistore]: success
+[2023-05-08 18:11:38] INFO root fetch - processPackages [pyelectroluxconnect]: Downloading https://files.pythonhosted.org/packages/0e/1f/9cc2bd1d2c11831fe6cd2e80b03d42e8059d071306638fc4ee009cf8107d/pyelectroluxconnect-0.3.8.tar.gz
+[2023-05-08 18:11:38] INFO root fetch - main [MainThread]: End processing [ai-flow-nightly]: success
+[2023-05-08 18:11:38] INFO root fetch - main [MainThread]: End processing [fugue]: success
+[2023-05-08 18:11:38] INFO root fetch - main [MainThread]: End processing [httpie-oauth2-client-credentials]: success
+[2023-05-08 18:11:38] INFO root fetch - processPackages [psidata]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-08 18:11:38] INFO root fetch - main [MainThread]: End processing [virtru-sdk]: success
+[2023-05-08 18:11:38] INFO root fetch - processPackages [pyelectroluxconnect]: Downloading https://files.pythonhosted.org/packages/fe/bf/3c67fa4619c1acec7cd4f7b57706b88d026312659c90e6879b8a8b929978/pyelectroluxconnect-0.3.9.tar.gz
+[2023-05-08 18:11:38] INFO root fetch - processPackages [psidata]: Downloading https://files.pythonhosted.org/packages/a6/03/7d72abc65f016583251726817d5c506da4056f208b3d502d139532b8ca58/psidata-0.1.2.tar.gz
+[2023-05-08 18:11:38] INFO root fetch - processPackages [pyelectroluxconnect]: executing diffoscope
+[2023-05-08 18:11:38] INFO root fetch - processPackages [pyelectroluxconnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyelectroluxconnect-0.3.8.tar.gz tmp/pyelectroluxconnect-0.3.9.tar.gz --markdown 20230508/p/pyelectroluxconnect/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-08 18:11:38] INFO root fetch - main [MainThread]: End processing [pyc3dtools]: success
+[2023-05-08 18:11:38] INFO root fetch - processPackages [psidata]: Downloading https://files.pythonhosted.org/packages/51/44/6f45062367b5a05ff401bcdb8076cab4d418dcebbfffb87ca5e2161b12fd/psidata-0.1.3.tar.gz
+[2023-05-08 18:11:39] INFO root fetch - processPackages [psidata]: executing diffoscope
+[2023-05-08 18:11:39] INFO root fetch - processPackages [psidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psidata-0.1.2.tar.gz tmp/psidata-0.1.3.tar.gz --markdown 20230508/p/psidata/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-08 18:11:39] INFO root fetch - main [MainThread]: End processing [sentry-arroyo]: success
+[2023-05-08 18:11:39] INFO root fetch - main [MainThread]: End processing [pyelectroluxconnect]: success
+[2023-05-08 18:11:39] INFO root fetch - main [MainThread]: End processing [waylay-beta]: success
+[2023-05-08 18:11:40] INFO root fetch - main [MainThread]: End processing [psidata]: success
+[2023-05-08 18:11:41] INFO root fetch - main [MainThread]: End processing [xpydf]: success
+[2023-05-08 18:11:41] INFO root fetch - main [MainThread]: Store serial: [18019240]
