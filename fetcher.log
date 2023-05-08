@@ -3867,3 +3867,60 @@
 [2023-05-08 05:20:45] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-hasim]: success
 [2023-05-08 05:20:45] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-iai]: success
 [2023-05-08 05:20:45] INFO root fetch - main [MainThread]: Store serial: [18012210]
+[2023-05-08 05:25:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18012210]
+[2023-05-08 05:25:54] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-08 05:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-sas20181203-py2
+[2023-05-08 05:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tastytrade-sdk
+[2023-05-08 05:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Simba-UW-tf-dev
+[2023-05-08 05:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-sas20181203
+[2023-05-08 05:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tastytrade-sdk
+[2023-05-08 05:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tastytrade-sdk
+[2023-05-08 05:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SAPsim
+[2023-05-08 05:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: SeisMonitor
+[2023-05-08 05:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: AlgorithmLib
+[2023-05-08 05:25:54] INFO root fetch - processPackages [alibabacloud-sas20181203-py2]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-05-08 05:25:54] INFO root fetch - processPackages [tastytrade-sdk]: New version: [0.0.dev1] Old Version: [0.0.4a0.dev74]
+[2023-05-08 05:25:54] INFO root fetch - processPackages [SAPsim]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-08 05:25:54] INFO root fetch - processPackages [AlgorithmLib]: New version: [3.9.9] Old Version: [3.9.8]
+[2023-05-08 05:25:54] INFO root fetch - processPackages [tastytrade-sdk]: New version: [0.0.dev1] Old Version: [0.0.4a0.dev74]
+[2023-05-08 05:25:54] INFO root fetch - processPackages [tastytrade-sdk]: New version: [0.0.dev1] Old Version: [0.0.4a0.dev74]
+[2023-05-08 05:25:54] INFO root fetch - processPackages [SeisMonitor]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 05:25:54] INFO root fetch - processPackages [alibabacloud-sas20181203]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-05-08 05:25:54] INFO root fetch - processPackages [Simba-UW-tf-dev]: New version: [1.59.1] Old Version: [1.58.9]
+[2023-05-08 05:25:54] INFO root fetch - processPackages [AlgorithmLib]: Downloading https://files.pythonhosted.org/packages/78/f1/2fbac4aa9ef115eda50059c81431330d595bbf744e9ac898466afc3a85ee/AlgorithmLib-3.9.8.tar.gz
+[2023-05-08 05:25:54] INFO root fetch - processPackages [tastytrade-sdk]: Downloading https://files.pythonhosted.org/packages/2d/f8/93e1dcebf17703e01a14bae73ba15f7ccf3e04639cd6da1c000859b1ccac/tastytrade_sdk-0.0.4a0.dev74.tar.gz
+[2023-05-08 05:25:54] INFO root fetch - processPackages [tastytrade-sdk]: Downloading https://files.pythonhosted.org/packages/2d/f8/93e1dcebf17703e01a14bae73ba15f7ccf3e04639cd6da1c000859b1ccac/tastytrade_sdk-0.0.4a0.dev74.tar.gz
+[2023-05-08 05:25:54] INFO root fetch - processPackages [tastytrade-sdk]: Downloading https://files.pythonhosted.org/packages/2d/f8/93e1dcebf17703e01a14bae73ba15f7ccf3e04639cd6da1c000859b1ccac/tastytrade_sdk-0.0.4a0.dev74.tar.gz
+[2023-05-08 05:25:54] INFO root fetch - processPackages [SeisMonitor]: executing diffoscope
+[2023-05-08 05:25:54] INFO root fetch - processPackages [SeisMonitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SeisMonitor-0.0.8.tar.gz tmp/SeisMonitor-0.0.9.tar.gz --markdown 20230508/S/SeisMonitor/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 05:25:55] INFO root fetch - processPackages [alibabacloud-sas20181203-py2]: Downloading https://files.pythonhosted.org/packages/56/2c/ec27dffbe4de6be0a0b126d0724841321a1039cc2918e018909f0cf13f70/alibabacloud_sas20181203_py2-2.1.2.tar.gz
+[2023-05-08 05:25:55] INFO root fetch - processPackages [alibabacloud-sas20181203]: Downloading https://files.pythonhosted.org/packages/d4/11/9a82529dd9c87b688cf41ac130e4b96f9f9cfb27b22d051d9d5e8169d14b/alibabacloud_sas20181203-2.1.2.tar.gz
+[2023-05-08 05:25:55] INFO root fetch - processPackages [SAPsim]: Downloading https://files.pythonhosted.org/packages/fc/f8/bda9e876107db91f721f997bc72eb05d41e843845ad59d27178d66f7a29c/SAPsim-1.0.7.tar.gz
+[2023-05-08 05:25:55] WARNING root fetch - processPackages [AlgorithmLib]: Skipping package: exceeds size limit 14952675>=10485760
+[2023-05-08 05:25:55] INFO root fetch - main [MainThread]: End processing [AlgorithmLib] error
+[2023-05-08 05:25:55] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/7b/ea/061287b19d29c97ea9eba85feaa1ef7202ad420111e8acd479b2ced0b99b/Simba-UW-tf-dev-1.59.1.tar.gz
+[2023-05-08 05:25:55] INFO root fetch - processPackages [SAPsim]: executing diffoscope
+[2023-05-08 05:25:55] INFO root fetch - processPackages [SAPsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SAPsim-1.0.6.tar.gz tmp/SAPsim-1.0.7.tar.gz --markdown 20230508/S/SAPsim/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-08 05:25:55] INFO root fetch - processPackages [tastytrade-sdk]: executing diffoscope
+[2023-05-08 05:25:55] INFO root fetch - processPackages [tastytrade-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade_sdk-0.0.4a0.dev74.tar.gz tmp/tastytrade-sdk-0.0.dev1.tar.gz --markdown 20230508/t/tastytrade-sdk/0.0.4a0.dev74-0.0.dev1/diff.md --exclude *.pyd
+[2023-05-08 05:25:55] INFO root fetch - processPackages [tastytrade-sdk]: executing diffoscope
+[2023-05-08 05:25:55] INFO root fetch - processPackages [tastytrade-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade_sdk-0.0.4a0.dev74.tar.gz tmp/tastytrade-sdk-0.0.dev1.tar.gz --markdown 20230508/t/tastytrade-sdk/0.0.4a0.dev74-0.0.dev1/diff.md --exclude *.pyd
+[2023-05-08 05:25:55] INFO root fetch - processPackages [alibabacloud-sas20181203]: Downloading https://files.pythonhosted.org/packages/f3/b6/c5a83131623368822e09834a99d6ba447a0b3d9c276e8aec6726b25cf490/alibabacloud_sas20181203-2.1.3.tar.gz
+[2023-05-08 05:25:55] INFO root fetch - processPackages [Simba-UW-tf-dev]: executing diffoscope
+[2023-05-08 05:25:55] INFO root fetch - processPackages [Simba-UW-tf-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Simba-UW-tf-dev-1.58.9.tar.gz tmp/Simba-UW-tf-dev-1.59.1.tar.gz --markdown 20230508/S/Simba-UW-tf-dev/1.58.9-1.59.1/diff.md --exclude *.pyd
+[2023-05-08 05:25:55] INFO root fetch - processPackages [tastytrade-sdk]: executing diffoscope
+[2023-05-08 05:25:55] INFO root fetch - processPackages [tastytrade-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade_sdk-0.0.4a0.dev74.tar.gz tmp/tastytrade-sdk-0.0.dev1.tar.gz --markdown 20230508/t/tastytrade-sdk/0.0.4a0.dev74-0.0.dev1/diff.md --exclude *.pyd
+[2023-05-08 05:25:55] INFO root fetch - processPackages [alibabacloud-sas20181203-py2]: Downloading https://files.pythonhosted.org/packages/04/6f/0d43eb99e10911316ac4922cbcb60f597288757815286370b199f1392b29/alibabacloud_sas20181203_py2-2.1.3.tar.gz
+[2023-05-08 05:25:55] INFO root fetch - processPackages [alibabacloud-sas20181203]: executing diffoscope
+[2023-05-08 05:25:55] INFO root fetch - processPackages [alibabacloud-sas20181203]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_sas20181203-2.1.2.tar.gz tmp/alibabacloud_sas20181203-2.1.3.tar.gz --markdown 20230508/a/alibabacloud-sas20181203/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-05-08 05:25:55] INFO root fetch - processPackages [alibabacloud-sas20181203-py2]: executing diffoscope
+[2023-05-08 05:25:55] INFO root fetch - processPackages [alibabacloud-sas20181203-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_sas20181203_py2-2.1.2.tar.gz tmp/alibabacloud_sas20181203_py2-2.1.3.tar.gz --markdown 20230508/a/alibabacloud-sas20181203-py2/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-05-08 05:25:56] INFO root fetch - main [MainThread]: End processing [tastytrade-sdk]: success
+[2023-05-08 05:25:56] INFO root fetch - main [MainThread]: End processing [tastytrade-sdk]: success
+[2023-05-08 05:25:56] INFO root fetch - main [MainThread]: End processing [tastytrade-sdk]: success
+[2023-05-08 05:25:56] INFO root fetch - main [MainThread]: End processing [SAPsim]: success
+[2023-05-08 05:25:57] INFO root fetch - main [MainThread]: End processing [SeisMonitor]: success
+[2023-05-08 05:25:59] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
+[2023-05-08 05:26:00] INFO root fetch - main [MainThread]: End processing [alibabacloud-sas20181203]: success
+[2023-05-08 05:26:01] INFO root fetch - main [MainThread]: End processing [alibabacloud-sas20181203-py2]: success
+[2023-05-08 05:26:01] INFO root fetch - main [MainThread]: Store serial: [18012236]
