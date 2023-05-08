@@ -13825,3 +13825,114 @@ EOFError: EOF read where object expected
 [2023-05-08 16:04:57] INFO root fetch - main [MainThread]: End processing [graphsignal]: success
 [2023-05-08 16:04:58] INFO root fetch - main [MainThread]: End processing [django-reversion-compare]: success
 [2023-05-08 16:04:58] INFO root fetch - main [MainThread]: Store serial: [18017557]
+[2023-05-08 16:10:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18017557]
+[2023-05-08 16:10:07] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-08 16:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xpydf
+[2023-05-08 16:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trilogy-public-models
+[2023-05-08 16:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rcsb.utils.io
+[2023-05-08 16:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tno.mpc.communication
+[2023-05-08 16:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: serdeserc
+[2023-05-08 16:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: splight-cli
+[2023-05-08 16:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: splight-lib
+[2023-05-08 16:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hata
+[2023-05-08 16:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: circuitpython-ArrowLine
+[2023-05-08 16:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: logi-mlpipeline
+[2023-05-08 16:10:07] INFO root fetch - processPackages [rcsb.utils.io]: New version: [1.43] Old Version: [1.42]
+[2023-05-08 16:10:07] WARNING root fetch - processPackages [serdeserc]: Skipping, unable to determine old version
+[2023-05-08 16:10:07] INFO root fetch - processPackages [serdeserc]: Start processing: cloud-pak-operations-cli
+[2023-05-08 16:10:07] INFO root fetch - main [MainThread]: End processing [serdeserc] error
+[2023-05-08 16:10:07] INFO root fetch - processPackages [tno.mpc.communication]: New version: [4.5.0] Old Version: [4.0.0]
+[2023-05-08 16:10:07] WARNING root fetch - processPackages [logi-mlpipeline]: Skipping, unable to determine old version
+[2023-05-08 16:10:07] INFO root fetch - processPackages [trilogy-public-models]: New version: [0.0.8] Old Version: [0.0.6]
+[2023-05-08 16:10:07] INFO root fetch - processPackages [logi-mlpipeline]: Start processing: pybelt
+[2023-05-08 16:10:07] INFO root fetch - processPackages [xpydf]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-08 16:10:07] INFO root fetch - main [MainThread]: End processing [logi-mlpipeline] error
+[2023-05-08 16:10:07] INFO root fetch - processPackages [splight-lib]: New version: [2.3.9.dev3] Old Version: [2.3.9]
+[2023-05-08 16:10:07] INFO root fetch - processPackages [circuitpython-ArrowLine]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-05-08 16:10:07] INFO root fetch - processPackages [splight-cli]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-08 16:10:07] INFO root fetch - processPackages [hata]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-08 16:10:07] INFO root fetch - processPackages [cloud-pak-operations-cli]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-08 16:10:07] INFO root fetch - processPackages [pybelt]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-08 16:10:08] INFO root fetch - processPackages [splight-lib]: executing diffoscope
+[2023-05-08 16:10:08] INFO root fetch - processPackages [splight-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight-lib-2.3.9.tar.gz tmp/splight-lib-2.3.9.dev3.tar.gz --markdown 20230508/s/splight-lib/2.3.9-2.3.9.dev3/diff.md --exclude *.pyd
+[2023-05-08 16:10:08] INFO root fetch - processPackages [rcsb.utils.io]: Downloading https://files.pythonhosted.org/packages/f1/49/f6f02e5ebd0126e52e3dea9616df80cb1c02c56f7d9fe2056d5305c88cd2/rcsb.utils.io-1.42.tar.gz
+[2023-05-08 16:10:08] INFO root fetch - processPackages [xpydf]: Downloading https://files.pythonhosted.org/packages/02/d7/8609af19fffb2835f76cd01a7fe0f298f40b79577a98a50caecb377f3c17/xpydf-0.1.1.tar.gz
+[2023-05-08 16:10:08] INFO root fetch - processPackages [trilogy-public-models]: Downloading https://files.pythonhosted.org/packages/4e/13/5fd34a016f6c5ef8b1201c00bf281a76c9f4970a6bde8a11d77f45d3f285/trilogy-public-models-0.0.6.tar.gz
+[2023-05-08 16:10:08] INFO root fetch - processPackages [circuitpython-ArrowLine]: Downloading https://files.pythonhosted.org/packages/fd/f8/3465467f17f6a7b220a78425c9352ea088311bf091cd6fb03870b481c1cd/circuitpython-ArrowLine-1.1.0.tar.gz
+[2023-05-08 16:10:08] INFO root fetch - processPackages [splight-cli]: Downloading https://files.pythonhosted.org/packages/e2/18/2fecbd3353d20cfbcd568fd4477ae48db2ce8f345e7628d12352c36a074b/splight-cli-2.3.8.tar.gz
+[2023-05-08 16:10:08] INFO root fetch - processPackages [tno.mpc.communication]: Downloading https://files.pythonhosted.org/packages/c5/24/e882c294d2b294e1fc47c06b02e9127083d0a0ec91cc58b430ad7191f6b1/tno.mpc.communication-4.0.0-py3-none-any.whl
+[2023-05-08 16:10:08] INFO root fetch - processPackages [pybelt]: Downloading https://files.pythonhosted.org/packages/bb/f0/6a6b81baa653b59062db4c3467a2f911f46a2a20cfd52eec5918d738f9e3/pybelt-1.0.5.tar.gz
+[2023-05-08 16:10:08] INFO root fetch - processPackages [hata]: Downloading https://files.pythonhosted.org/packages/4a/f2/c0100f2b17527fd7c8a6216f876eb9b3db8fd117f96ff46478b7b23e990e/hata-1.3.8.tar.gz
+[2023-05-08 16:10:08] INFO root fetch - processPackages [cloud-pak-operations-cli]: Downloading https://files.pythonhosted.org/packages/b2/05/de34e2f02d542f4e7a0260a38eda5eac93e769ed10b68a76228334e039c9/cloud-pak-operations-cli-0.3.3.tar.gz
+[2023-05-08 16:10:08] INFO root fetch - processPackages [circuitpython-ArrowLine]: executing diffoscope
+[2023-05-08 16:10:08] INFO root fetch - processPackages [circuitpython-ArrowLine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circuitpython-ArrowLine-1.0.1.tar.gz tmp/circuitpython-ArrowLine-1.1.0.tar.gz --markdown 20230508/c/circuitpython-ArrowLine/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-05-08 16:10:08] INFO root fetch - processPackages [trilogy-public-models]: Downloading https://files.pythonhosted.org/packages/87/76/8993aa4397a408b6861854b5bd65e603bed90a089121262f47a757594535/trilogy-public-models-0.0.8.tar.gz
+[2023-05-08 16:10:08] INFO root fetch - processPackages [xpydf]: Downloading https://files.pythonhosted.org/packages/fc/94/562377a6e7a2937aad39b0e5fe92b1416b3524bb176b75f203602d5bf6ae/xpydf-0.1.2.tar.gz
+[2023-05-08 16:10:08] INFO root fetch - processPackages [pybelt]: Downloading https://files.pythonhosted.org/packages/5c/e2/49f4d1046380f869b21675a7d578b9b583a3dd3b9641abaeafb13dffd0cd/pybelt-1.0.6.tar.gz
+[2023-05-08 16:10:08] INFO root fetch - processPackages [tno.mpc.communication]: Downloading https://files.pythonhosted.org/packages/3d/73/6414cf35f64dbc29f2c481dca9285a232047913ec12edf704437ebd1551e/tno.mpc.communication-4.5.0.tar.gz
+[2023-05-08 16:10:08] INFO root fetch - processPackages [cloud-pak-operations-cli]: Downloading https://files.pythonhosted.org/packages/d2/6d/e1e6f50888d1998d2e82563ea95e4284c103243d581569890865d2810321/cloud-pak-operations-cli-0.3.4.tar.gz
+[2023-05-08 16:10:08] INFO root fetch - processPackages [rcsb.utils.io]: Downloading https://files.pythonhosted.org/packages/fc/28/273804a3f616a7dde25c96dbae811d929d652932659c8e6b9ad0fb6874e2/rcsb.utils.io-1.43.tar.gz
+[2023-05-08 16:10:08] INFO root fetch - processPackages [trilogy-public-models]: executing diffoscope
+[2023-05-08 16:10:08] INFO root fetch - processPackages [trilogy-public-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trilogy-public-models-0.0.6.tar.gz tmp/trilogy-public-models-0.0.8.tar.gz --markdown 20230508/t/trilogy-public-models/0.0.6-0.0.8/diff.md --exclude *.pyd
+[2023-05-08 16:10:08] INFO root fetch - processPackages [splight-cli]: Downloading https://files.pythonhosted.org/packages/00/cc/31c3fe41cd2bd1be86c2e70ea2ff58d854bdc6e3ae16d0a20b4d618c9db1/splight-cli-2.3.9.tar.gz
+[2023-05-08 16:10:08] INFO root fetch - processPackages [pybelt]: executing diffoscope
+[2023-05-08 16:10:08] INFO root fetch - processPackages [pybelt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybelt-1.0.5.tar.gz tmp/pybelt-1.0.6.tar.gz --markdown 20230508/p/pybelt/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-08 16:10:08] INFO root fetch - processPackages [tno.mpc.communication]: executing diffoscope
+[2023-05-08 16:10:08] INFO root fetch - processPackages [tno.mpc.communication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tno.mpc.communication-4.0.0-py3-none-any.whl.zip tmp/tno.mpc.communication-4.5.0.tar.gz --markdown 20230508/t/tno.mpc.communication/4.0.0-4.5.0/diff.md --exclude *.pyd
+[2023-05-08 16:10:08] INFO root fetch - processPackages [xpydf]: executing diffoscope
+[2023-05-08 16:10:08] INFO root fetch - processPackages [xpydf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xpydf-0.1.1.tar.gz tmp/xpydf-0.1.2.tar.gz --markdown 20230508/x/xpydf/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-08 16:10:08] INFO root fetch - processPackages [cloud-pak-operations-cli]: executing diffoscope
+[2023-05-08 16:10:08] INFO root fetch - processPackages [cloud-pak-operations-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-pak-operations-cli-0.3.3.tar.gz tmp/cloud-pak-operations-cli-0.3.4.tar.gz --markdown 20230508/c/cloud-pak-operations-cli/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-08 16:10:08] INFO root fetch - processPackages [rcsb.utils.io]: executing diffoscope
+[2023-05-08 16:10:08] INFO root fetch - processPackages [rcsb.utils.io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rcsb.utils.io-1.42.tar.gz tmp/rcsb.utils.io-1.43.tar.gz --markdown 20230508/r/rcsb.utils.io/1.42-1.43/diff.md --exclude *.pyd
+[2023-05-08 16:10:08] INFO root fetch - processPackages [hata]: Downloading https://files.pythonhosted.org/packages/b5/e0/4cb0546a643922b80592e8b745ce9b6d33d9a414e9540b749a0e2eea2045/hata-1.3.9.tar.gz
+[2023-05-08 16:10:08] INFO root fetch - processPackages [splight-cli]: executing diffoscope
+[2023-05-08 16:10:08] INFO root fetch - processPackages [splight-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight-cli-2.3.8.tar.gz tmp/splight-cli-2.3.9.tar.gz --markdown 20230508/s/splight-cli/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-08 16:10:08] INFO root fetch - processPackages [hata]: executing diffoscope
+[2023-05-08 16:10:08] INFO root fetch - processPackages [hata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hata-1.3.8.tar.gz tmp/hata-1.3.9.tar.gz --markdown 20230508/h/hata/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-08 16:10:10] INFO root fetch - processPackages [pybelt]: Start processing: aa-memberaudit
+[2023-05-08 16:10:10] INFO root fetch - main [MainThread]: End processing [pybelt]: success
+[2023-05-08 16:10:10] INFO root fetch - processPackages [aa-memberaudit]: New version: [2.8.0] Old Version: [2.7.0]
+[2023-05-08 16:10:10] INFO root fetch - processPackages [tno.mpc.communication]: Start processing: anywidget
+[2023-05-08 16:10:10] INFO root fetch - main [MainThread]: End processing [tno.mpc.communication]: success
+[2023-05-08 16:10:10] INFO root fetch - processPackages [trilogy-public-models]: Start processing: ooo-dev-tools
+[2023-05-08 16:10:10] INFO root fetch - main [MainThread]: End processing [trilogy-public-models]: success
+[2023-05-08 16:10:10] INFO root fetch - processPackages [anywidget]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-08 16:10:10] INFO root fetch - processPackages [ooo-dev-tools]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-08 16:10:10] INFO root fetch - processPackages [rcsb.utils.io]: Start processing: ds4finance
+[2023-05-08 16:10:10] INFO root fetch - main [MainThread]: End processing [rcsb.utils.io]: success
+[2023-05-08 16:10:10] INFO root fetch - processPackages [ds4finance]: New version: [0.1.14] Old Version: [0.1.13]
+[2023-05-08 16:10:10] INFO root fetch - processPackages [aa-memberaudit]: Downloading https://files.pythonhosted.org/packages/fb/bd/c89e136dd66ed88d6798daf03a285eb885957601ac319cbf59a1471e43eb/aa_memberaudit-2.7.0.tar.gz
+[2023-05-08 16:10:10] INFO root fetch - processPackages [anywidget]: Downloading https://files.pythonhosted.org/packages/c8/06/bccb7bb79d62587f5e2cd8baf091b596433c91113e7bfe4555decc1365de/anywidget-0.2.3.tar.gz
+[2023-05-08 16:10:10] INFO root fetch - processPackages [splight-cli]: Start processing: dbt-doc-py
+[2023-05-08 16:10:10] INFO root fetch - main [MainThread]: End processing [splight-cli]: success
+[2023-05-08 16:10:10] INFO root fetch - processPackages [dbt-doc-py]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-08 16:10:10] INFO root fetch - processPackages [circuitpython-ArrowLine]: Start processing: phasetorch
+[2023-05-08 16:10:10] INFO root fetch - main [MainThread]: End processing [circuitpython-ArrowLine]: success
+[2023-05-08 16:10:10] WARNING root fetch - processPackages [phasetorch]: Skipping, unable to determine old version
+[2023-05-08 16:10:10] INFO root fetch - main [MainThread]: End processing [phasetorch] error
+[2023-05-08 16:10:10] INFO root fetch - processPackages [ds4finance]: Downloading https://files.pythonhosted.org/packages/e3/60/bf18003a1d1cbd110024416671903bd11cc3008ed57422de3e45a75d979c/ds4finance-0.1.13.tar.gz
+[2023-05-08 16:10:10] INFO root fetch - processPackages [ooo-dev-tools]: executing diffoscope
+[2023-05-08 16:10:10] INFO root fetch - processPackages [ooo-dev-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ooo_dev_tools-0.9.7.tar.gz tmp/ooo_dev_tools-0.9.8.tar.gz --markdown 20230508/o/ooo-dev-tools/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-08 16:10:10] INFO root fetch - processPackages [aa-memberaudit]: Downloading https://files.pythonhosted.org/packages/6a/b7/6fe302f102c3c57b8145c631b4ad29ae4e4267585d93690152a0e6bfb633/aa_memberaudit-2.8.0.tar.gz
+[2023-05-08 16:10:10] INFO root fetch - processPackages [dbt-doc-py]: Downloading https://files.pythonhosted.org/packages/04/d9/8d7eb0117833591a989b36109dca5f9f40ef7a1537bfcde4ad847c5594b9/dbt-doc-py-0.1.3.tar.gz
+[2023-05-08 16:10:10] INFO root fetch - processPackages [ds4finance]: Downloading https://files.pythonhosted.org/packages/71/9e/861c01c738abf64ff938b7828623c96007f06b435b00a4b265f3b6ed36a8/ds4finance-0.1.14.tar.gz
+[2023-05-08 16:10:10] INFO root fetch - processPackages [aa-memberaudit]: executing diffoscope
+[2023-05-08 16:10:10] INFO root fetch - processPackages [aa-memberaudit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa_memberaudit-2.7.0.tar.gz tmp/aa_memberaudit-2.8.0.tar.gz --markdown 20230508/a/aa-memberaudit/2.7.0-2.8.0/diff.md --exclude *.pyd
+[2023-05-08 16:10:10] INFO root fetch - processPackages [dbt-doc-py]: executing diffoscope
+[2023-05-08 16:10:10] INFO root fetch - processPackages [dbt-doc-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-doc-py-0.1.2.tar.gz tmp/dbt-doc-py-0.1.3.tar.gz --markdown 20230508/d/dbt-doc-py/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-08 16:10:10] INFO root fetch - processPackages [ds4finance]: executing diffoscope
+[2023-05-08 16:10:10] INFO root fetch - processPackages [ds4finance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ds4finance-0.1.13.tar.gz tmp/ds4finance-0.1.14.tar.gz --markdown 20230508/d/ds4finance/0.1.13-0.1.14/diff.md --exclude *.pyd
+[2023-05-08 16:10:11] INFO root fetch - processPackages [anywidget]: Downloading https://files.pythonhosted.org/packages/06/04/f07b58d305dd796275978cff4258e96fd290c714841bf04bf006e5811500/anywidget-0.2.4.tar.gz
+[2023-05-08 16:10:11] INFO root fetch - processPackages [anywidget]: executing diffoscope
+[2023-05-08 16:10:11] INFO root fetch - processPackages [anywidget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anywidget-0.2.3.tar.gz tmp/anywidget-0.2.4.tar.gz --markdown 20230508/a/anywidget/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-08 16:10:11] INFO root fetch - main [MainThread]: End processing [splight-lib]: success
+[2023-05-08 16:10:11] INFO root fetch - main [MainThread]: End processing [cloud-pak-operations-cli]: success
+[2023-05-08 16:10:11] INFO root fetch - main [MainThread]: End processing [dbt-doc-py]: success
+[2023-05-08 16:10:12] INFO root fetch - main [MainThread]: End processing [ds4finance]: success
+[2023-05-08 16:10:14] INFO root fetch - main [MainThread]: End processing [aa-memberaudit]: success
+[2023-05-08 16:10:14] INFO root fetch - main [MainThread]: End processing [anywidget]: success
+[2023-05-08 16:10:14] INFO root fetch - main [MainThread]: End processing [xpydf]: success
+[2023-05-08 16:10:15] INFO root fetch - main [MainThread]: End processing [hata]: success
+[2023-05-08 16:10:20] INFO root fetch - main [MainThread]: End processing [ooo-dev-tools]: success
+[2023-05-08 16:10:20] INFO root fetch - main [MainThread]: Store serial: [18017618]
