@@ -22241,3 +22241,153 @@ EOFError: EOF read where object expected
 [2023-05-08 23:00:54] INFO root fetch - main [MainThread]: End processing [prunerr]: success
 [2023-05-08 23:02:41] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
 [2023-05-08 23:02:41] INFO root fetch - main [MainThread]: Store serial: [18022580]
+[2023-05-08 23:07:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18022580]
+[2023-05-08 23:07:51] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-05-08 23:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: klp-commons
+[2023-05-08 23:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cirq-aqt
+[2023-05-08 23:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cirq-core
+[2023-05-08 23:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cirq-ionq
+[2023-05-08 23:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cirq-rigetti
+[2023-05-08 23:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: prefect-lakefs
+[2023-05-08 23:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cirq-pasqal
+[2023-05-08 23:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cirq-google
+[2023-05-08 23:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cirq
+[2023-05-08 23:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: granular-engine
+[2023-05-08 23:07:51] INFO root fetch - processPackages [klp-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 23:07:51] WARNING root fetch - processPackages [prefect-lakefs]: Skipping, unable to determine old version
+[2023-05-08 23:07:51] INFO root fetch - processPackages [prefect-lakefs]: Start processing: cirq-web
+[2023-05-08 23:07:51] INFO root fetch - main [MainThread]: End processing [prefect-lakefs] error
+[2023-05-08 23:07:51] INFO root fetch - processPackages [granular-engine]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-05-08 23:07:51] INFO root fetch - processPackages [cirq-ionq]: New version: [1.2.0.dev20230508210128] Old Version: [1.2.0.dev20230508202304]
+[2023-05-08 23:07:51] INFO root fetch - processPackages [cirq-aqt]: New version: [1.2.0.dev20230508210128] Old Version: [1.2.0.dev20230508202304]
+[2023-05-08 23:07:51] INFO root fetch - processPackages [cirq-google]: New version: [1.2.0.dev20230508210128] Old Version: [1.2.0.dev20230508202304]
+[2023-05-08 23:07:51] INFO root fetch - processPackages [cirq]: New version: [1.2.0.dev20230508210128] Old Version: [1.2.0.dev20230508202304]
+[2023-05-08 23:07:51] INFO root fetch - processPackages [cirq-core]: New version: [1.2.0.dev20230508210128] Old Version: [1.2.0.dev20230508202304]
+[2023-05-08 23:07:51] INFO root fetch - processPackages [cirq-rigetti]: New version: [1.2.0.dev20230508210128] Old Version: [1.2.0.dev20230508202304]
+[2023-05-08 23:07:51] INFO root fetch - processPackages [klp-commons]: Downloading https://files.pythonhosted.org/packages/e3/94/b9d41734be8fbd3cebf962ef11a4248d4440e5a30e129d67ac7ed28b4f70/klp-commons-0.0.8.tar.gz
+[2023-05-08 23:07:51] INFO root fetch - processPackages [cirq-pasqal]: New version: [1.2.0.dev20230508210128] Old Version: [1.2.0.dev20230508202304]
+[2023-05-08 23:07:51] INFO root fetch - processPackages [cirq-web]: New version: [1.2.0.dev20230508210128] Old Version: [1.2.0.dev20230508202304]
+[2023-05-08 23:07:51] INFO root fetch - processPackages [granular-engine]: Downloading https://files.pythonhosted.org/packages/ed/b7/121ac4a69a3842cfe4d38bcb9364ed975aa2711468fafa77d6b871026a95/granular_engine-0.2.7.tar.gz
+[2023-05-08 23:07:51] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/d7/4e/696d353f17237da4be4c7c12faee5e85ea3fa331c185a862a038bd33ca30/cirq_ionq-1.2.0.dev20230508210128-py3-none-any.whl
+[2023-05-08 23:07:51] INFO root fetch - processPackages [cirq-aqt]: Downloading https://files.pythonhosted.org/packages/ec/be/bc5ff74ed23f37100446ac9e984d4350394541d75c72268177cea36ed732/cirq_aqt-1.2.0.dev20230508210128-py3-none-any.whl
+[2023-05-08 23:07:51] INFO root fetch - processPackages [cirq-google]: Downloading https://files.pythonhosted.org/packages/81/c1/5bcca7d658da5e94e3bbe7068f949166732fb1246344d7157b0ae496169b/cirq_google-1.2.0.dev20230508210128-py3-none-any.whl
+[2023-05-08 23:07:51] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/cc/c5/84962bfed2cbc5cf0c45b09fa5b1b65eca3cb6d5997400c080b4b5e365c1/cirq-1.2.0.dev20230508210128-py3-none-any.whl
+[2023-05-08 23:07:51] INFO root fetch - processPackages [klp-commons]: Downloading https://files.pythonhosted.org/packages/53/33/d9ffdd5b9e8330b9db6c43b84e3bde30134298a6bf8696655c5c0ee970e2/klp-commons-0.0.9.tar.gz
+[2023-05-08 23:07:51] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/7a/65/ec4fa5aaa0b681c7961b0bb2fd2b5d8194c8e3a8a9a20a5381b986491efb/cirq_core-1.2.0.dev20230508210128-py3-none-any.whl
+[2023-05-08 23:07:51] INFO root fetch - processPackages [cirq-pasqal]: Downloading https://files.pythonhosted.org/packages/35/33/ed90ae25941b447bbccc132f8dd6acbed90b58442376a3628a3467a44a20/cirq_pasqal-1.2.0.dev20230508210128-py3-none-any.whl
+[2023-05-08 23:07:52] INFO root fetch - processPackages [cirq-rigetti]: Downloading https://files.pythonhosted.org/packages/5f/f4/9a9c53443883050b17faa5879ef89b2e11326ff70af81dc7e3b5e452e048/cirq_rigetti-1.2.0.dev20230508210128-py3-none-any.whl
+[2023-05-08 23:07:52] INFO root fetch - processPackages [klp-commons]: executing diffoscope
+[2023-05-08 23:07:52] INFO root fetch - processPackages [klp-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klp-commons-0.0.8.tar.gz tmp/klp-commons-0.0.9.tar.gz --markdown 20230508/k/klp-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 23:07:52] INFO root fetch - processPackages [granular-engine]: executing diffoscope
+[2023-05-08 23:07:52] INFO root fetch - processPackages [granular-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/granular_engine-0.2.6.tar.gz tmp/granular_engine-0.2.7.tar.gz --markdown 20230508/g/granular-engine/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-05-08 23:07:52] INFO root fetch - processPackages [cirq-aqt]: executing diffoscope
+[2023-05-08 23:07:52] INFO root fetch - processPackages [cirq-aqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_aqt-1.2.0.dev20230508202304-py3-none-any.whl.zip tmp/cirq_aqt-1.2.0.dev20230508210128-py3-none-any.whl.zip --markdown 20230508/c/cirq-aqt/1.2.0.dev20230508202304-1.2.0.dev20230508210128/diff.md --exclude *.pyd
+[2023-05-08 23:07:52] INFO root fetch - processPackages [cirq-web]: Downloading https://files.pythonhosted.org/packages/1f/87/9447ced2ed92b126ff35ef9c3f5c5fb0dd8f5e8d45403db4cbe6bde3a9fb/cirq_web-1.2.0.dev20230508210128-py3-none-any.whl
+[2023-05-08 23:07:52] INFO root fetch - processPackages [cirq-ionq]: executing diffoscope
+[2023-05-08 23:07:52] INFO root fetch - processPackages [cirq-ionq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_ionq-1.2.0.dev20230508202304-py3-none-any.whl.zip tmp/cirq_ionq-1.2.0.dev20230508210128-py3-none-any.whl.zip --markdown 20230508/c/cirq-ionq/1.2.0.dev20230508202304-1.2.0.dev20230508210128/diff.md --exclude *.pyd
+[2023-05-08 23:07:52] INFO root fetch - processPackages [cirq]: executing diffoscope
+[2023-05-08 23:07:52] INFO root fetch - processPackages [cirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq-1.2.0.dev20230508202304-py3-none-any.whl.zip tmp/cirq-1.2.0.dev20230508210128-py3-none-any.whl.zip --markdown 20230508/c/cirq/1.2.0.dev20230508202304-1.2.0.dev20230508210128/diff.md --exclude *.pyd
+[2023-05-08 23:07:52] INFO root fetch - processPackages [cirq-google]: executing diffoscope
+[2023-05-08 23:07:52] INFO root fetch - processPackages [cirq-google]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_google-1.2.0.dev20230508202304-py3-none-any.whl.zip tmp/cirq_google-1.2.0.dev20230508210128-py3-none-any.whl.zip --markdown 20230508/c/cirq-google/1.2.0.dev20230508202304-1.2.0.dev20230508210128/diff.md --exclude *.pyd
+[2023-05-08 23:07:52] INFO root fetch - processPackages [cirq-pasqal]: executing diffoscope
+[2023-05-08 23:07:52] INFO root fetch - processPackages [cirq-pasqal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_pasqal-1.2.0.dev20230508202304-py3-none-any.whl.zip tmp/cirq_pasqal-1.2.0.dev20230508210128-py3-none-any.whl.zip --markdown 20230508/c/cirq-pasqal/1.2.0.dev20230508202304-1.2.0.dev20230508210128/diff.md --exclude *.pyd
+[2023-05-08 23:07:52] INFO root fetch - processPackages [cirq-rigetti]: executing diffoscope
+[2023-05-08 23:07:52] INFO root fetch - processPackages [cirq-rigetti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_rigetti-1.2.0.dev20230508202304-py3-none-any.whl.zip tmp/cirq_rigetti-1.2.0.dev20230508210128-py3-none-any.whl.zip --markdown 20230508/c/cirq-rigetti/1.2.0.dev20230508202304-1.2.0.dev20230508210128/diff.md --exclude *.pyd
+[2023-05-08 23:07:52] INFO root fetch - processPackages [cirq-web]: executing diffoscope
+[2023-05-08 23:07:52] INFO root fetch - processPackages [cirq-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_web-1.2.0.dev20230508202304-py3-none-any.whl.zip tmp/cirq_web-1.2.0.dev20230508210128-py3-none-any.whl.zip --markdown 20230508/c/cirq-web/1.2.0.dev20230508202304-1.2.0.dev20230508210128/diff.md --exclude *.pyd
+[2023-05-08 23:07:52] INFO root fetch - processPackages [cirq-core]: executing diffoscope
+[2023-05-08 23:07:52] INFO root fetch - processPackages [cirq-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_core-1.2.0.dev20230508202304-py3-none-any.whl.zip tmp/cirq_core-1.2.0.dev20230508210128-py3-none-any.whl.zip --markdown 20230508/c/cirq-core/1.2.0.dev20230508202304-1.2.0.dev20230508210128/diff.md --exclude *.pyd
+[2023-05-08 23:07:53] INFO root fetch - processPackages [cirq-aqt]: Start processing: geofileops
+[2023-05-08 23:07:53] INFO root fetch - main [MainThread]: End processing [cirq-aqt]: success
+[2023-05-08 23:07:53] INFO root fetch - processPackages [geofileops]: New version: [0.8.0a3] Old Version: [0.8.0a2]
+[2023-05-08 23:07:53] INFO root fetch - processPackages [cirq]: Start processing: pipcolouringskitsV1
+[2023-05-08 23:07:53] INFO root fetch - main [MainThread]: End processing [cirq]: success
+[2023-05-08 23:07:53] INFO root fetch - processPackages [granular-engine]: Start processing: pipcoloringspackageV2
+[2023-05-08 23:07:53] INFO root fetch - main [MainThread]: End processing [granular-engine]: success
+[2023-05-08 23:07:53] INFO root fetch - processPackages [cirq-ionq]: Start processing: shub-workflow
+[2023-05-08 23:07:53] INFO root fetch - main [MainThread]: End processing [cirq-ionq]: success
+[2023-05-08 23:07:53] INFO root fetch - processPackages [pipcolouringskitsV1]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-08 23:07:53] INFO root fetch - processPackages [cirq-rigetti]: Start processing: pulumi-aws-native
+[2023-05-08 23:07:53] INFO root fetch - main [MainThread]: End processing [cirq-rigetti]: success
+[2023-05-08 23:07:53] ERROR root fetch - processPackages [pipcoloringspackageV2]: Unable to get metadata: No such project 'pipcoloringspackageV2'
+[2023-05-08 23:07:53] INFO root fetch - processPackages [pipcoloringspackageV2]: Start processing: django-payment-manager
+[2023-05-08 23:07:53] INFO root fetch - main [MainThread]: End processing [pipcoloringspackageV2] error
+[2023-05-08 23:07:53] INFO root fetch - processPackages [shub-workflow]: New version: [1.9.7.4] Old Version: [1.9.7.3]
+[2023-05-08 23:07:54] INFO root fetch - processPackages [pipcolouringskitsV1]: Downloading https://files.pythonhosted.org/packages/e8/9b/f08ef173954278b0bb6e074a5de2502bc8868db9ac15448a903ff8681933/pipcolouringskitsV1-1.0.0.tar.gz
+[2023-05-08 23:07:54] INFO root fetch - processPackages [cirq-pasqal]: Start processing: yt-ripper
+[2023-05-08 23:07:54] INFO root fetch - main [MainThread]: End processing [cirq-pasqal]: success
+[2023-05-08 23:07:54] INFO root fetch - processPackages [pulumi-aws-native]: New version: [0.9.1a1641826769] Old Version: [0.9.1a1641824984]
+[2023-05-08 23:07:54] INFO root fetch - processPackages [django-payment-manager]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-08 23:07:54] INFO root fetch - processPackages [geofileops]: executing diffoscope
+[2023-05-08 23:07:54] INFO root fetch - processPackages [geofileops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geofileops-0.8.0a2.tar.gz tmp/geofileops-0.8.0a3.tar.gz --markdown 20230508/g/geofileops/0.8.0a2-0.8.0a3/diff.md --exclude *.pyd
+[2023-05-08 23:07:54] INFO root fetch - processPackages [yt-ripper]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 23:07:54] INFO root fetch - processPackages [klp-commons]: Start processing: knic-jupyter
+[2023-05-08 23:07:54] INFO root fetch - main [MainThread]: End processing [klp-commons]: success
+[2023-05-08 23:07:54] INFO root fetch - processPackages [knic-jupyter]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-08 23:07:54] INFO root fetch - processPackages [django-payment-manager]: Downloading https://files.pythonhosted.org/packages/2f/07/4d3e2f97d61802be0e42346d88f7a2670210c5fce4b2147776d8daf1841d/django-payment-manager-1.0.0.tar.gz
+[2023-05-08 23:07:54] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/89/ce/96408f528e6ba1eda1aea4b6573d97640f6288eac90da3e79f8e64f86ba8/pulumi_aws_native-0.9.1a1641824984.tar.gz
+[2023-05-08 23:07:54] INFO root fetch - processPackages [pipcolouringskitsV1]: Downloading https://files.pythonhosted.org/packages/af/56/4f2a84f09ffc44b5c07120715c0d50b6fbe0226d7d7d3adfaad9df13a4d4/pipcolouringskitsV1-1.1.0.tar.gz
+[2023-05-08 23:07:54] INFO root fetch - processPackages [yt-ripper]: Downloading https://files.pythonhosted.org/packages/8e/15/cb1f282c59983f05d993890bc634e42fc57a780551049a2784ca90d3e51d/yt_ripper-0.0.8.tar.gz
+[2023-05-08 23:07:54] INFO root fetch - processPackages [knic-jupyter]: executing diffoscope
+[2023-05-08 23:07:54] INFO root fetch - processPackages [knic-jupyter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knic_jupyter-0.1.1.tar.gz tmp/knic_jupyter-0.1.2.tar.gz --markdown 20230508/k/knic-jupyter/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-08 23:07:54] INFO root fetch - processPackages [shub-workflow]: executing diffoscope
+[2023-05-08 23:07:54] INFO root fetch - processPackages [shub-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shub-workflow-1.9.7.3.tar.gz tmp/shub-workflow-1.9.7.4.tar.gz --markdown 20230508/s/shub-workflow/1.9.7.3-1.9.7.4/diff.md --exclude *.pyd
+[2023-05-08 23:07:54] INFO root fetch - processPackages [pipcolouringskitsV1]: executing diffoscope
+[2023-05-08 23:07:54] INFO root fetch - processPackages [pipcolouringskitsV1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipcolouringskitsV1-1.0.0.tar.gz tmp/pipcolouringskitsV1-1.1.0.tar.gz --markdown 20230508/p/pipcolouringskitsV1/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-08 23:07:54] INFO root fetch - processPackages [django-payment-manager]: Downloading https://files.pythonhosted.org/packages/66/c9/26cc54576b27e01e4634db74e8fa5fc18c06ab561675cc9fdb1d1e6b8af5/django-payment-manager-1.0.1.tar.gz
+[2023-05-08 23:07:54] INFO root fetch - processPackages [yt-ripper]: Downloading https://files.pythonhosted.org/packages/9e/87/e873ade0ac4248530498992e6323dc51a5c0361e4a38a2118ee63da9c86d/yt_ripper-0.0.9.tar.gz
+[2023-05-08 23:07:54] INFO root fetch - processPackages [django-payment-manager]: executing diffoscope
+[2023-05-08 23:07:54] INFO root fetch - processPackages [django-payment-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-payment-manager-1.0.0.tar.gz tmp/django-payment-manager-1.0.1.tar.gz --markdown 20230508/d/django-payment-manager/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-08 23:07:54] INFO root fetch - processPackages [yt-ripper]: executing diffoscope
+[2023-05-08 23:07:54] INFO root fetch - processPackages [yt-ripper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yt_ripper-0.0.8.tar.gz tmp/yt_ripper-0.0.9.tar.gz --markdown 20230508/y/yt-ripper/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 23:07:55] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/c5/18/9e8b8df236b81bb0bae9bd78ac3551ff235749974974287ab4dd99269408/pulumi_aws_native-0.9.1a1641826769.tar.gz
+[2023-05-08 23:07:55] INFO root fetch - processPackages [pulumi-aws-native]: executing diffoscope
+[2023-05-08 23:07:55] INFO root fetch - processPackages [pulumi-aws-native]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws_native-0.9.1a1641824984.tar.gz tmp/pulumi_aws_native-0.9.1a1641826769.tar.gz --markdown 20230508/p/pulumi-aws-native/0.9.1a1641824984-0.9.1a1641826769/diff.md --exclude *.pyd
+[2023-05-08 23:07:55] INFO root fetch - processPackages [pipcolouringskitsV1]: Start processing: ILEE-CSK
+[2023-05-08 23:07:55] INFO root fetch - main [MainThread]: End processing [pipcolouringskitsV1]: success
+[2023-05-08 23:07:55] INFO root fetch - processPackages [ILEE-CSK]: New version: [0.2.0.1] Old Version: [0.2.0.0]
+[2023-05-08 23:07:55] INFO root fetch - processPackages [yt-ripper]: Start processing: horsetalk
+[2023-05-08 23:07:55] INFO root fetch - main [MainThread]: End processing [yt-ripper]: success
+[2023-05-08 23:07:55] INFO root fetch - processPackages [knic-jupyter]: Start processing: polymesh
+[2023-05-08 23:07:55] INFO root fetch - main [MainThread]: End processing [knic-jupyter]: success
+[2023-05-08 23:07:56] INFO root fetch - processPackages [horsetalk]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-05-08 23:07:56] INFO root fetch - processPackages [ILEE-CSK]: Downloading https://files.pythonhosted.org/packages/cc/d2/ec692a41aeee5df2a9eba774abbdf6bc4c26febf261163d9373a6b7b0e2b/ILEE_CSK-0.2.0.0-py3-none-any.whl
+[2023-05-08 23:07:56] INFO root fetch - processPackages [polymesh]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 23:07:56] INFO root fetch - processPackages [django-payment-manager]: Start processing: dxsp
+[2023-05-08 23:07:56] INFO root fetch - main [MainThread]: End processing [django-payment-manager]: success
+[2023-05-08 23:07:56] INFO root fetch - processPackages [cirq-web]: Start processing: el-decko-core
+[2023-05-08 23:07:56] INFO root fetch - main [MainThread]: End processing [cirq-web]: success
+[2023-05-08 23:07:56] INFO root fetch - processPackages [dxsp]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-08 23:07:56] INFO root fetch - processPackages [el-decko-core]: New version: [2023.5.8] Old Version: [2023.5.7]
+[2023-05-08 23:07:56] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-05-08 23:07:56] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-2.0.8.tar.gz tmp/dxsp-2.0.9.tar.gz --markdown 20230508/d/dxsp/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-08 23:07:56] INFO root fetch - processPackages [horsetalk]: Downloading https://files.pythonhosted.org/packages/0f/ae/e87b2fe2aa830d80e6830c28c9b5e7a10b1c2580186ec0f4f99580ae3b13/horsetalk-0.8.0.tar.gz
+[2023-05-08 23:07:56] INFO root fetch - processPackages [polymesh]: Downloading https://files.pythonhosted.org/packages/fc/45/d1eba5e5612041a6017bf17b8a96c492cace28c8ea75688cdd12c23a7823/polymesh-0.0.8.tar.gz
+[2023-05-08 23:07:56] INFO root fetch - processPackages [ILEE-CSK]: Downloading https://files.pythonhosted.org/packages/a6/67/4f362b4d84f73e0f6041bbd611426b80e7c11e60ca3b59322137de4eff90/ILEE_CSK-0.2.0.1-py3-none-any.whl
+[2023-05-08 23:07:56] INFO root fetch - processPackages [el-decko-core]: Downloading https://files.pythonhosted.org/packages/5f/c4/dbf139295a47bb6fe63d957c9ed8421f6e1e1a007e239b4929b8433290fb/el_decko_core-2023.5.8.tar.gz
+[2023-05-08 23:07:56] INFO root fetch - processPackages [el-decko-core]: executing diffoscope
+[2023-05-08 23:07:56] INFO root fetch - processPackages [el-decko-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/el_decko_core-2023.5.7.tar.gz tmp/el_decko_core-2023.5.8.tar.gz --markdown 20230508/e/el-decko-core/2023.5.7-2023.5.8/diff.md --exclude *.pyd
+[2023-05-08 23:07:56] INFO root fetch - processPackages [ILEE-CSK]: executing diffoscope
+[2023-05-08 23:07:56] INFO root fetch - processPackages [ILEE-CSK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ILEE_CSK-0.2.0.0-py3-none-any.whl.zip tmp/ILEE_CSK-0.2.0.1-py3-none-any.whl.zip --markdown 20230508/I/ILEE-CSK/0.2.0.0-0.2.0.1/diff.md --exclude *.pyd
+[2023-05-08 23:07:56] INFO root fetch - processPackages [cirq-google]: Start processing: django-payment-manager
+[2023-05-08 23:07:56] INFO root fetch - main [MainThread]: End processing [cirq-google]: success
+[2023-05-08 23:07:56] INFO root fetch - processPackages [horsetalk]: Downloading https://files.pythonhosted.org/packages/0f/16/93c5d58a598495dd0acf18d0c34a4c9738194b809e6a193249c21749a241/horsetalk-0.8.1.tar.gz
+[2023-05-08 23:07:56] INFO root fetch - processPackages [django-payment-manager]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-08 23:07:56] INFO root fetch - processPackages [polymesh]: Downloading https://files.pythonhosted.org/packages/93/f4/358fdc0bd2b0e840adefef858001078494071d70636d5e5a4bead987ecbc/polymesh-0.0.9.tar.gz
+[2023-05-08 23:07:56] INFO root fetch - processPackages [django-payment-manager]: executing diffoscope
+[2023-05-08 23:07:56] INFO root fetch - processPackages [django-payment-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-payment-manager-1.0.0.tar.gz tmp/django-payment-manager-1.0.1.tar.gz --markdown 20230508/d/django-payment-manager/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-08 23:07:56] INFO root fetch - processPackages [horsetalk]: executing diffoscope
+[2023-05-08 23:07:56] INFO root fetch - processPackages [horsetalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/horsetalk-0.8.0.tar.gz tmp/horsetalk-0.8.1.tar.gz --markdown 20230508/h/horsetalk/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-05-08 23:07:57] INFO root fetch - main [MainThread]: End processing [shub-workflow]: success
+[2023-05-08 23:07:57] INFO root fetch - processPackages [polymesh]: executing diffoscope
+[2023-05-08 23:07:57] INFO root fetch - processPackages [polymesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polymesh-0.0.8.tar.gz tmp/polymesh-0.0.9.tar.gz --markdown 20230508/p/polymesh/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 23:07:57] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-05-08 23:07:57] INFO root fetch - main [MainThread]: End processing [el-decko-core]: success
+[2023-05-08 23:07:57] INFO root fetch - main [MainThread]: End processing [ILEE-CSK]: success
+[2023-05-08 23:07:58] INFO root fetch - main [MainThread]: End processing [horsetalk]: success
+[2023-05-08 23:07:58] INFO root fetch - main [MainThread]: End processing [django-payment-manager]: success
+[2023-05-08 23:07:58] INFO root fetch - main [MainThread]: End processing [geofileops]: success
+[2023-05-08 23:07:58] INFO root fetch - main [MainThread]: End processing [polymesh]: success
+[2023-05-08 23:08:09] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
+[2023-05-08 23:08:18] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
+[2023-05-08 23:08:18] INFO root fetch - main [MainThread]: Store serial: [18022652]
