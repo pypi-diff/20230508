@@ -6542,3 +6542,129 @@
 [2023-05-08 08:59:35] ERROR root fetch - processPackages [perspective-python]: Timeout during execution of pkgdiff
 [2023-05-08 08:59:35] INFO root fetch - main [MainThread]: End processing [perspective-python] error
 [2023-05-08 08:59:35] INFO root fetch - main [MainThread]: Store serial: [18013718]
+[2023-05-08 09:04:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18013718]
+[2023-05-08 09:04:43] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-08 09:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-gereon-cert-2041-convert-to-lists
+[2023-05-08 09:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dsdl
+[2023-05-08 09:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CheckmarxPythonSDK
+[2023-05-08 09:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: madai
+[2023-05-08 09:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shttst
+[2023-05-08 09:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: braincube-aws-core-alpha
+[2023-05-08 09:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-htmx-viewsets
+[2023-05-08 09:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: code-loader
+[2023-05-08 09:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: akane
+[2023-05-08 09:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: EasyForge
+[2023-05-08 09:04:43] INFO root fetch - processPackages [certora-cli-alpha-gereon-cert-2041-convert-to-lists]: New version: [20230508.6.56.963873] Old Version: [20230505.9.9.764167]
+[2023-05-08 09:04:43] INFO root fetch - processPackages [shttst]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-08 09:04:43] INFO root fetch - processPackages [braincube-aws-core-alpha]: New version: [0.0.19] Old Version: [0.0.18]
+[2023-05-08 09:04:43] INFO root fetch - processPackages [madai]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-08 09:04:43] INFO root fetch - processPackages [CheckmarxPythonSDK]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-05-08 09:04:43] INFO root fetch - processPackages [dsdl]: New version: [0.1.9.4] Old Version: [0.1.9.3]
+[2023-05-08 09:04:43] INFO root fetch - processPackages [django-htmx-viewsets]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-08 09:04:43] INFO root fetch - processPackages [akane]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-08 09:04:43] WARNING root fetch - processPackages [EasyForge]: Skipping, unable to determine old version
+[2023-05-08 09:04:43] INFO root fetch - processPackages [EasyForge]: Start processing: Resemblyzer
+[2023-05-08 09:04:43] INFO root fetch - main [MainThread]: End processing [EasyForge] error
+[2023-05-08 09:04:43] INFO root fetch - processPackages [code-loader]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-08 09:04:43] INFO root fetch - processPackages [Resemblyzer]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-08 09:04:44] INFO root fetch - processPackages [braincube-aws-core-alpha]: Downloading https://files.pythonhosted.org/packages/bc/28/f3eeb455ba0ec5b3f12347a1823056611c3135cd915699b333711684b46c/braincube-aws-core-alpha-0.0.18.tar.gz
+[2023-05-08 09:04:44] INFO root fetch - processPackages [akane]: Downloading https://files.pythonhosted.org/packages/41/08/10b556cd5a0d70a522aae1f3e489b3ab367f408ca762557ba7972a86e1a3/akane-1.0.0.tar.gz
+[2023-05-08 09:04:44] INFO root fetch - processPackages [certora-cli-alpha-gereon-cert-2041-convert-to-lists]: Downloading https://files.pythonhosted.org/packages/e6/69/02f97fcedff883917b72287251626303f5fa1292697c8a13d2898ed90c33/certora-cli-alpha-gereon-cert-2041-convert-to-lists-20230505.9.9.764167.tar.gz
+[2023-05-08 09:04:44] INFO root fetch - processPackages [django-htmx-viewsets]: Downloading https://files.pythonhosted.org/packages/7a/55/860a37a8fcefa7101d85132ac47141762a451f6b85a5d506250bd359113a/django-htmx-viewsets-0.0.7.tar.gz
+[2023-05-08 09:04:44] INFO root fetch - processPackages [CheckmarxPythonSDK]: Downloading https://files.pythonhosted.org/packages/df/72/1932128683ac103f108116cf910bb93f0e6ddd6adf7e270266ba4baa9187/CheckmarxPythonSDK-0.7.3.tar.gz
+[2023-05-08 09:04:44] INFO root fetch - processPackages [Resemblyzer]: Downloading https://files.pythonhosted.org/packages/35/67/c79bf5ac23e8a0cddbbb6e21884a85b2498b621ad7aece2c0bce526bfb54/Resemblyzer-0.1.2.tar.gz
+[2023-05-08 09:04:44] INFO root fetch - processPackages [madai]: Downloading https://files.pythonhosted.org/packages/90/60/645bb7a80cdc5e1f26a4224eda29ab3b76abf57e58166987c5d6e0c88489/madai-0.1.4.tar.gz
+[2023-05-08 09:04:44] INFO root fetch - processPackages [dsdl]: executing diffoscope
+[2023-05-08 09:04:44] INFO root fetch - processPackages [dsdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsdl-0.1.9.3.tar.gz tmp/dsdl-0.1.9.4.tar.gz --markdown 20230508/d/dsdl/0.1.9.3-0.1.9.4/diff.md --exclude *.pyd
+[2023-05-08 09:04:44] WARNING root fetch - processPackages [certora-cli-alpha-gereon-cert-2041-convert-to-lists]: Skipping package: exceeds size limit 38426733>=10485760
+[2023-05-08 09:04:44] INFO root fetch - processPackages [certora-cli-alpha-gereon-cert-2041-convert-to-lists]: Start processing: django-pfx
+[2023-05-08 09:04:44] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-gereon-cert-2041-convert-to-lists] error
+[2023-05-08 09:04:44] INFO root fetch - processPackages [code-loader]: executing diffoscope
+[2023-05-08 09:04:44] INFO root fetch - processPackages [code-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/code-loader-0.2.8.tar.gz tmp/code-loader-0.2.9.tar.gz --markdown 20230508/c/code-loader/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-08 09:04:44] INFO root fetch - processPackages [shttst]: Downloading https://files.pythonhosted.org/packages/f0/44/e5f743c829653cb946365d0e402405df88175dd4fc47759f895734d9b5ad/shttst-0.0.8.tar.gz
+[2023-05-08 09:04:44] INFO root fetch - processPackages [madai]: executing diffoscope
+[2023-05-08 09:04:44] INFO root fetch - processPackages [madai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/madai-0.1.3.tar.gz tmp/madai-0.1.4.tar.gz --markdown 20230508/m/madai/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-08 09:04:44] INFO root fetch - processPackages [akane]: Downloading https://files.pythonhosted.org/packages/01/79/0c3b051e34dccdfa0e281383ecbe1a7bad70755a92b50b347ecb9a5b44d9/akane-1.0.1.tar.gz
+[2023-05-08 09:04:44] INFO root fetch - processPackages [braincube-aws-core-alpha]: Downloading https://files.pythonhosted.org/packages/a8/8d/22fa30197d730b7bde1da1118c42a54a6f2c6b008307d519bd981542f1d5/braincube-aws-core-alpha-0.0.19.tar.gz
+[2023-05-08 09:04:44] INFO root fetch - processPackages [shttst]: executing diffoscope
+[2023-05-08 09:04:44] INFO root fetch - processPackages [shttst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shttst-0.0.7.tar.gz tmp/shttst-0.0.8.tar.gz --markdown 20230508/s/shttst/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-08 09:04:44] INFO root fetch - processPackages [django-pfx]: New version: [1.2.dev8] Old Version: [1.2.dev6]
+[2023-05-08 09:04:44] INFO root fetch - processPackages [django-htmx-viewsets]: Downloading https://files.pythonhosted.org/packages/78/aa/06dea2b086bb6baee387adddaf83ed6c064e5c942fb48de856a717fe193a/django-htmx-viewsets-0.0.8.tar.gz
+[2023-05-08 09:04:44] INFO root fetch - processPackages [Resemblyzer]: Downloading https://files.pythonhosted.org/packages/14/21/f682280aa4e201587d719402168928ecff019bc210dbc8c4ca8f44f17b2e/Resemblyzer-0.1.3.tar.gz
+[2023-05-08 09:04:44] INFO root fetch - processPackages [akane]: executing diffoscope
+[2023-05-08 09:04:44] INFO root fetch - processPackages [akane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akane-1.0.0.tar.gz tmp/akane-1.0.1.tar.gz --markdown 20230508/a/akane/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-08 09:04:44] INFO root fetch - processPackages [CheckmarxPythonSDK]: Downloading https://files.pythonhosted.org/packages/d1/eb/971c46d1b2d3cbf7470df94e4b2d9a123628f9a741e290a311c56d367167/CheckmarxPythonSDK-0.7.4.tar.gz
+[2023-05-08 09:04:44] INFO root fetch - processPackages [braincube-aws-core-alpha]: executing diffoscope
+[2023-05-08 09:04:44] INFO root fetch - processPackages [braincube-aws-core-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/braincube-aws-core-alpha-0.0.18.tar.gz tmp/braincube-aws-core-alpha-0.0.19.tar.gz --markdown 20230508/b/braincube-aws-core-alpha/0.0.18-0.0.19/diff.md --exclude *.pyd
+[2023-05-08 09:04:44] INFO root fetch - processPackages [django-htmx-viewsets]: executing diffoscope
+[2023-05-08 09:04:44] INFO root fetch - processPackages [django-htmx-viewsets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-htmx-viewsets-0.0.7.tar.gz tmp/django-htmx-viewsets-0.0.8.tar.gz --markdown 20230508/d/django-htmx-viewsets/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-08 09:04:44] INFO root fetch - processPackages [CheckmarxPythonSDK]: executing diffoscope
+[2023-05-08 09:04:44] INFO root fetch - processPackages [CheckmarxPythonSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CheckmarxPythonSDK-0.7.3.tar.gz tmp/CheckmarxPythonSDK-0.7.4.tar.gz --markdown 20230508/C/CheckmarxPythonSDK/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-05-08 09:04:44] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/a1/0d/f18110bf781805e992d1694bccb5f9c8fba9b93b4dbb99cd63864546a630/django-pfx-1.2.dev6.tar.gz
+[2023-05-08 09:04:44] WARNING root fetch - processPackages [Resemblyzer]: Skipping package: exceeds size limit 15747664>=10485760
+[2023-05-08 09:04:44] INFO root fetch - processPackages [Resemblyzer]: Start processing: tf-models-nightly
+[2023-05-08 09:04:44] INFO root fetch - main [MainThread]: End processing [Resemblyzer] error
+[2023-05-08 09:04:44] INFO root fetch - processPackages [tf-models-nightly]: New version: [2.9.0.dev20220920] Old Version: [2.9.0.dev20220919]
+[2023-05-08 09:04:44] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/73/e9/06af7a12cda1722ec668213b9e91a8a2e918011d3ef8e9a98146ee4f76ef/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl
+[2023-05-08 09:04:44] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/a8/a1/beee13dd42732e6b09a9fa98a5127296a4eb74cba08e3bdc0c5376e914db/django-pfx-1.2.dev8.tar.gz
+[2023-05-08 09:04:44] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/e2/76/79c5fb2cd23f346ee912b9c289c2a9bab6fc8d178658f931ac9a023224c6/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl
+[2023-05-08 09:04:44] INFO root fetch - processPackages [django-pfx]: executing diffoscope
+[2023-05-08 09:04:44] INFO root fetch - processPackages [django-pfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pfx-1.2.dev6.tar.gz tmp/django-pfx-1.2.dev8.tar.gz --markdown 20230508/d/django-pfx/1.2.dev6-1.2.dev8/diff.md --exclude *.pyd
+[2023-05-08 09:04:45] INFO root fetch - processPackages [tf-models-nightly]: executing diffoscope
+[2023-05-08 09:04:45] INFO root fetch - processPackages [tf-models-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip --markdown 20230508/t/tf-models-nightly/2.9.0.dev20220919-2.9.0.dev20220920/diff.md --exclude *.pyd
+[2023-05-08 09:04:45] INFO root fetch - processPackages [madai]: Start processing: pipeline-csv
+[2023-05-08 09:04:45] INFO root fetch - main [MainThread]: End processing [madai]: success
+[2023-05-08 09:04:46] INFO root fetch - processPackages [pipeline-csv]: New version: [1.5] Old Version: [1.4]
+[2023-05-08 09:04:46] INFO root fetch - processPackages [braincube-aws-core-alpha]: Start processing: Alpha-Rabbit
+[2023-05-08 09:04:46] INFO root fetch - main [MainThread]: End processing [braincube-aws-core-alpha]: success
+[2023-05-08 09:04:46] INFO root fetch - processPackages [akane]: Start processing: tooljob
+[2023-05-08 09:04:46] INFO root fetch - main [MainThread]: End processing [akane]: success
+[2023-05-08 09:04:46] INFO root fetch - processPackages [tooljob]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-08 09:04:46] INFO root fetch - processPackages [pipeline-csv]: Downloading https://files.pythonhosted.org/packages/c7/11/f2a23f555b9db0366b9e18c5a73cb131c17447d35fe0f394dc03b6167415/pipeline_csv-1.4.tar.gz
+[2023-05-08 09:04:46] INFO root fetch - processPackages [Alpha-Rabbit]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-08 09:04:46] INFO root fetch - processPackages [code-loader]: Start processing: seqio-nightly
+[2023-05-08 09:04:46] INFO root fetch - main [MainThread]: End processing [code-loader]: success
+[2023-05-08 09:04:46] INFO root fetch - processPackages [tooljob]: executing diffoscope
+[2023-05-08 09:04:46] INFO root fetch - processPackages [tooljob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tooljob-0.1.3.tar.gz tmp/tooljob-0.1.4.tar.gz --markdown 20230508/t/tooljob/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-08 09:04:46] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-05-08 09:04:46] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2023-05-08 09:04:46] INFO root fetch - processPackages [Alpha-Rabbit]: Downloading https://files.pythonhosted.org/packages/3d/1b/12a9cfb72d2e0b58b100277142228290fcfd17991e1696565c08384c0083/Alpha_Rabbit-1.3.8.tar.gz
+[2023-05-08 09:04:46] INFO root fetch - processPackages [pipeline-csv]: Downloading https://files.pythonhosted.org/packages/69/b5/0ea4c188f27fe581c6279fd205d5280ae7e9ac8ae1da5ed144953b90689d/pipeline_csv-1.5.tar.gz
+[2023-05-08 09:04:46] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2023-05-08 09:04:46] INFO root fetch - processPackages [dsdl]: Start processing: CheckmarxPythonSDK
+[2023-05-08 09:04:46] INFO root fetch - main [MainThread]: End processing [dsdl]: success
+[2023-05-08 09:04:46] INFO root fetch - processPackages [pipeline-csv]: executing diffoscope
+[2023-05-08 09:04:46] INFO root fetch - processPackages [pipeline-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeline_csv-1.4.tar.gz tmp/pipeline_csv-1.5.tar.gz --markdown 20230508/p/pipeline-csv/1.4-1.5/diff.md --exclude *.pyd
+[2023-05-08 09:04:46] INFO root fetch - processPackages [CheckmarxPythonSDK]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-05-08 09:04:46] INFO root fetch - processPackages [django-htmx-viewsets]: Start processing: robotframework-reportportal-updated
+[2023-05-08 09:04:46] INFO root fetch - main [MainThread]: End processing [django-htmx-viewsets]: success
+[2023-05-08 09:04:46] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-05-08 09:04:46] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230508/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-05-08 09:04:46] WARNING root fetch - processPackages [robotframework-reportportal-updated]: Skipping, unable to determine old version
+[2023-05-08 09:04:46] INFO root fetch - processPackages [robotframework-reportportal-updated]: Start processing: django-advanced-pages
+[2023-05-08 09:04:46] INFO root fetch - main [MainThread]: End processing [robotframework-reportportal-updated] error
+[2023-05-08 09:04:46] INFO root fetch - processPackages [Alpha-Rabbit]: Downloading https://files.pythonhosted.org/packages/c7/30/20ab4f6fdabed9a21eca8d84e779696632671c7e0019129ab392d5e4bf62/Alpha_Rabbit-1.3.9.tar.gz
+[2023-05-08 09:04:46] INFO root fetch - processPackages [CheckmarxPythonSDK]: Downloading https://files.pythonhosted.org/packages/30/b8/6f85acf3bd96c0ae2f9e2e924dc0365dd4d3efa3d05a659466c64ed995c6/CheckmarxPythonSDK-0.7.5.tar.gz
+[2023-05-08 09:04:46] INFO root fetch - processPackages [django-advanced-pages]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-05-08 09:04:46] INFO root fetch - processPackages [Alpha-Rabbit]: executing diffoscope
+[2023-05-08 09:04:46] INFO root fetch - processPackages [django-pfx]: Start processing: vl-datasets
+[2023-05-08 09:04:46] INFO root fetch - main [MainThread]: End processing [django-pfx]: success
+[2023-05-08 09:04:46] INFO root fetch - processPackages [Alpha-Rabbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Alpha_Rabbit-1.3.8.tar.gz tmp/Alpha_Rabbit-1.3.9.tar.gz --markdown 20230508/A/Alpha-Rabbit/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-08 09:04:46] INFO root fetch - main [MainThread]: End processing [shttst]: success
+[2023-05-08 09:04:46] WARNING root fetch - processPackages [vl-datasets]: Skipping, unable to determine old version
+[2023-05-08 09:04:46] INFO root fetch - main [MainThread]: End processing [vl-datasets] error
+[2023-05-08 09:04:46] INFO root fetch - processPackages [django-advanced-pages]: Downloading https://files.pythonhosted.org/packages/b9/a9/81855a9efa9e57584094236114db4534465a7958b2cd92852781518ada45/django-advanced-pages-0.8.4.tar.gz
+[2023-05-08 09:04:46] INFO root fetch - processPackages [CheckmarxPythonSDK]: executing diffoscope
+[2023-05-08 09:04:46] INFO root fetch - processPackages [CheckmarxPythonSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CheckmarxPythonSDK-0.7.4.tar.gz tmp/CheckmarxPythonSDK-0.7.5.tar.gz --markdown 20230508/C/CheckmarxPythonSDK/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-05-08 09:04:47] INFO root fetch - processPackages [django-advanced-pages]: Downloading https://files.pythonhosted.org/packages/71/28/1befe80e01f2f9d7d48b8dec661d58730101b4f46cd8d8b712bb31a56b8a/django-advanced-pages-0.8.5.tar.gz
+[2023-05-08 09:04:47] INFO root fetch - processPackages [django-advanced-pages]: executing diffoscope
+[2023-05-08 09:04:47] INFO root fetch - processPackages [django-advanced-pages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-advanced-pages-0.8.4.tar.gz tmp/django-advanced-pages-0.8.5.tar.gz --markdown 20230508/d/django-advanced-pages/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-05-08 09:04:47] INFO root fetch - main [MainThread]: End processing [tooljob]: success
+[2023-05-08 09:04:47] INFO root fetch - main [MainThread]: End processing [Alpha-Rabbit]: success
+[2023-05-08 09:04:47] INFO root fetch - main [MainThread]: End processing [pipeline-csv]: success
+[2023-05-08 09:04:48] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-05-08 09:04:48] INFO root fetch - main [MainThread]: End processing [django-advanced-pages]: success
+[2023-05-08 09:04:50] INFO root fetch - main [MainThread]: End processing [CheckmarxPythonSDK]: success
+[2023-05-08 09:04:51] INFO root fetch - main [MainThread]: End processing [CheckmarxPythonSDK]: success
+[2023-05-08 09:04:59] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
+[2023-05-08 09:04:59] INFO root fetch - main [MainThread]: Store serial: [18013785]
