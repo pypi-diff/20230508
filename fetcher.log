@@ -16746,3 +16746,92 @@ EOFError: EOF read where object expected
 [2023-05-08 18:16:53] INFO root fetch - main [MainThread]: End processing [peak-mas]: success
 [2023-05-08 18:16:56] INFO root fetch - main [MainThread]: End processing [pybdsim]: success
 [2023-05-08 18:16:56] INFO root fetch - main [MainThread]: Store serial: [18019270]
+[2023-05-08 18:22:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18019270]
+[2023-05-08 18:22:05] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-08 18:22:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gcp-releasetool
+[2023-05-08 18:22:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbis-er-diagram
+[2023-05-08 18:22:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DeepSearchLite
+[2023-05-08 18:22:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gayadsdb6969
+[2023-05-08 18:22:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: FuncsForSPO
+[2023-05-08 18:22:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: teaspoon
+[2023-05-08 18:22:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dicompyler-core
+[2023-05-08 18:22:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cherche
+[2023-05-08 18:22:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torch4nlp
+[2023-05-08 18:22:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: adafruit-circuitpython-bluefruitconnect
+[2023-05-08 18:22:05] INFO root fetch - processPackages [DeepSearchLite]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-08 18:22:05] INFO root fetch - processPackages [gcp-releasetool]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-08 18:22:05] INFO root fetch - processPackages [teaspoon]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-08 18:22:05] INFO root fetch - processPackages [dicompyler-core]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-05-08 18:22:05] INFO root fetch - processPackages [torch4nlp]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-08 18:22:05] INFO root fetch - processPackages [gayadsdb6969]: New version: [1.2.0] Old Version: [1.0.0]
+[2023-05-08 18:22:05] INFO root fetch - processPackages [cherche]: New version: [2.0.0] Old Version: [1.0.1]
+[2023-05-08 18:22:05] INFO root fetch - processPackages [adafruit-circuitpython-bluefruitconnect]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-08 18:22:05] INFO root fetch - processPackages [FuncsForSPO]: New version: [4.41.2] Old Version: [4.41.1]
+[2023-05-08 18:22:05] INFO root fetch - processPackages [dbis-er-diagram]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-08 18:22:05] INFO root fetch - processPackages [gayadsdb6969]: Downloading https://files.pythonhosted.org/packages/ce/0d/b25b25c8025961ff2b326110277debe4cd3866ca7a14dc4291670ab2bc4c/gayadsdb6969-1.0.0.tar.gz
+[2023-05-08 18:22:05] INFO root fetch - processPackages [FuncsForSPO]: Downloading https://files.pythonhosted.org/packages/24/e2/6217009ceb74377fab1a682292e7f0290902371dcf8ef787d108dc5a7ad9/FuncsForSPO-4.41.1.tar.gz
+[2023-05-08 18:22:05] INFO root fetch - processPackages [teaspoon]: Downloading https://files.pythonhosted.org/packages/45/1b/851a606831d7d7d0020c999c65d87d6c4671e4575611549a2a40e48328ce/teaspoon-1.3.8.tar.gz
+[2023-05-08 18:22:05] INFO root fetch - processPackages [dicompyler-core]: Downloading https://files.pythonhosted.org/packages/cb/f3/8e26a47b72848909675ea0bb6c969196630ed484f2bb956fd3987b78f151/dicompyler-core-0.5.5.tar.gz
+[2023-05-08 18:22:05] INFO root fetch - processPackages [cherche]: Downloading https://files.pythonhosted.org/packages/4a/dc/08da31ab9a9fe4cbc7c96d80a57b5b2dd3f6237b527cc7f90735069f443c/cherche-1.0.1.tar.gz
+[2023-05-08 18:22:06] INFO root fetch - processPackages [gcp-releasetool]: Downloading https://files.pythonhosted.org/packages/60/e3/c3753069f9b6a7416361cd61bed67f5b3aa667d917fb802b5e2cdd5ead03/gcp-releasetool-1.9.0.tar.gz
+[2023-05-08 18:22:06] INFO root fetch - processPackages [torch4nlp]: Downloading https://files.pythonhosted.org/packages/3e/1a/e976060a7179477c7793559906699295e5287048f872525b60f17a4900ce/torch4nlp-0.0.5.tar.gz
+[2023-05-08 18:22:06] INFO root fetch - processPackages [adafruit-circuitpython-bluefruitconnect]: Downloading https://files.pythonhosted.org/packages/53/bd/6e1f772c5a6e8e25db4718dbaa86285c000edf8e65f3ff1713cabf9341c5/adafruit-circuitpython-bluefruitconnect-1.2.8.tar.gz
+[2023-05-08 18:22:06] INFO root fetch - processPackages [dbis-er-diagram]: Downloading https://files.pythonhosted.org/packages/aa/59/c145e4858f144302a5f8a1292f6d66b9859f77cf39f0fe46b198ef36a701/dbis-er-diagram-1.0.5.tar.gz
+[2023-05-08 18:22:06] INFO root fetch - processPackages [DeepSearchLite]: Downloading https://files.pythonhosted.org/packages/19/a5/b1fd886bb60b9ee7f990a45b004e9ce987633e4d35d4b0ec95437306fd4e/DeepSearchLite-0.2.0.tar.gz
+[2023-05-08 18:22:06] INFO root fetch - processPackages [DeepSearchLite]: executing diffoscope
+[2023-05-08 18:22:06] INFO root fetch - processPackages [DeepSearchLite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DeepSearchLite-0.1.1.tar.gz tmp/DeepSearchLite-0.2.0.tar.gz --markdown 20230508/D/DeepSearchLite/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-08 18:22:06] INFO root fetch - processPackages [gayadsdb6969]: Downloading https://files.pythonhosted.org/packages/64/e8/418ceca7ff0254126492121914dbf0d76452d443845181bda99b0a4238ff/gayadsdb6969-1.2.0.tar.gz
+[2023-05-08 18:22:06] INFO root fetch - processPackages [dbis-er-diagram]: Downloading https://files.pythonhosted.org/packages/b1/a9/327899ab93fc34fc8c1f5d9ff07bdae4cf6b83e9788ab65c4372a47951b4/dbis-er-diagram-1.0.6.tar.gz
+[2023-05-08 18:22:06] INFO root fetch - processPackages [FuncsForSPO]: Downloading https://files.pythonhosted.org/packages/06/e4/5f3e6b7c398e32f1c04205067e55f12b4b5efa50320b74357a8074ffa360/FuncsForSPO-4.41.2.tar.gz
+[2023-05-08 18:22:06] INFO root fetch - processPackages [dbis-er-diagram]: executing diffoscope
+[2023-05-08 18:22:06] INFO root fetch - processPackages [dbis-er-diagram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbis-er-diagram-1.0.5.tar.gz tmp/dbis-er-diagram-1.0.6.tar.gz --markdown 20230508/d/dbis-er-diagram/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-08 18:22:06] INFO root fetch - processPackages [adafruit-circuitpython-bluefruitconnect]: Downloading https://files.pythonhosted.org/packages/eb/53/a7291c8aba55d5f033dc2aee15498ffa1090f84b44c5802de72fbcac00b0/adafruit-circuitpython-bluefruitconnect-1.2.9.tar.gz
+[2023-05-08 18:22:06] INFO root fetch - processPackages [torch4nlp]: Downloading https://files.pythonhosted.org/packages/37/99/1ff9b27fe74fea4de6ec895601ee3c533625d622de922ce72ef393793e32/torch4nlp-0.0.6.tar.gz
+[2023-05-08 18:22:06] INFO root fetch - processPackages [FuncsForSPO]: executing diffoscope
+[2023-05-08 18:22:06] INFO root fetch - processPackages [FuncsForSPO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FuncsForSPO-4.41.1.tar.gz tmp/FuncsForSPO-4.41.2.tar.gz --markdown 20230508/F/FuncsForSPO/4.41.1-4.41.2/diff.md --exclude *.pyd
+[2023-05-08 18:22:06] INFO root fetch - processPackages [teaspoon]: Downloading https://files.pythonhosted.org/packages/1c/a1/08d40c9ba30d07c1b0ac472f0037cdad029d19bad05bf531111b9531a3f7/teaspoon-1.3.9.tar.gz
+[2023-05-08 18:22:06] INFO root fetch - processPackages [gayadsdb6969]: executing diffoscope
+[2023-05-08 18:22:06] INFO root fetch - processPackages [gayadsdb6969]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gayadsdb6969-1.0.0.tar.gz tmp/gayadsdb6969-1.2.0.tar.gz --markdown 20230508/g/gayadsdb6969/1.0.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-08 18:22:06] INFO root fetch - processPackages [torch4nlp]: executing diffoscope
+[2023-05-08 18:22:06] INFO root fetch - processPackages [torch4nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch4nlp-0.0.5.tar.gz tmp/torch4nlp-0.0.6.tar.gz --markdown 20230508/t/torch4nlp/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-08 18:22:06] INFO root fetch - processPackages [teaspoon]: executing diffoscope
+[2023-05-08 18:22:06] INFO root fetch - processPackages [teaspoon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teaspoon-1.3.8.tar.gz tmp/teaspoon-1.3.9.tar.gz --markdown 20230508/t/teaspoon/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-08 18:22:06] INFO root fetch - processPackages [adafruit-circuitpython-bluefruitconnect]: executing diffoscope
+[2023-05-08 18:22:06] INFO root fetch - processPackages [adafruit-circuitpython-bluefruitconnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-bluefruitconnect-1.2.8.tar.gz tmp/adafruit-circuitpython-bluefruitconnect-1.2.9.tar.gz --markdown 20230508/a/adafruit-circuitpython-bluefruitconnect/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-08 18:22:06] INFO root fetch - processPackages [gcp-releasetool]: Downloading https://files.pythonhosted.org/packages/a3/2d/3a6615b3ab571c390ab921e9f5ce248793551c013f4929e465c630ed77c4/gcp-releasetool-1.9.1.tar.gz
+[2023-05-08 18:22:06] INFO root fetch - processPackages [dicompyler-core]: Downloading https://files.pythonhosted.org/packages/19/0a/10e5644df330a642132683f3c9939bb35df511e01ff4b1612d9a73fb82ad/dicompyler-core-0.5.6.tar.gz
+[2023-05-08 18:22:06] INFO root fetch - processPackages [gcp-releasetool]: executing diffoscope
+[2023-05-08 18:22:06] INFO root fetch - processPackages [gcp-releasetool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcp-releasetool-1.9.0.tar.gz tmp/gcp-releasetool-1.9.1.tar.gz --markdown 20230508/g/gcp-releasetool/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-08 18:22:06] INFO root fetch - processPackages [cherche]: Downloading https://files.pythonhosted.org/packages/d4/34/78a28197eddd656881888fec4f75608974effa6934597da97cd1de827f34/cherche-2.0.0.tar.gz
+[2023-05-08 18:22:07] INFO root fetch - processPackages [dicompyler-core]: executing diffoscope
+[2023-05-08 18:22:07] INFO root fetch - processPackages [dicompyler-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicompyler-core-0.5.5.tar.gz tmp/dicompyler-core-0.5.6.tar.gz --markdown 20230508/d/dicompyler-core/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-05-08 18:22:07] INFO root fetch - processPackages [cherche]: executing diffoscope
+[2023-05-08 18:22:07] INFO root fetch - processPackages [cherche]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cherche-1.0.1.tar.gz tmp/cherche-2.0.0.tar.gz --markdown 20230508/c/cherche/1.0.1-2.0.0/diff.md --exclude *.pyd
+[2023-05-08 18:22:07] INFO root fetch - processPackages [gayadsdb6969]: Start processing: gayadsdb6969
+[2023-05-08 18:22:07] INFO root fetch - main [MainThread]: End processing [gayadsdb6969]: success
+[2023-05-08 18:22:07] INFO root fetch - processPackages [DeepSearchLite]: Start processing: pocketrockit
+[2023-05-08 18:22:07] INFO root fetch - main [MainThread]: End processing [DeepSearchLite]: success
+[2023-05-08 18:22:07] INFO root fetch - processPackages [gayadsdb6969]: New version: [1.2.0] Old Version: [1.0.0]
+[2023-05-08 18:22:07] INFO root fetch - processPackages [pocketrockit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 18:22:07] INFO root fetch - processPackages [pocketrockit]: Downloading https://files.pythonhosted.org/packages/a8/ee/f1c11743551245aafc55139aecd6ab3e8159baee4fca46a33374bff27bcc/pocketrockit-0.0.8.tar.gz
+[2023-05-08 18:22:07] INFO root fetch - processPackages [gayadsdb6969]: executing diffoscope
+[2023-05-08 18:22:07] INFO root fetch - processPackages [gayadsdb6969]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gayadsdb6969-1.0.0.tar.gz tmp/gayadsdb6969-1.2.0.tar.gz --markdown 20230508/g/gayadsdb6969/1.0.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-08 18:22:07] INFO root fetch - processPackages [torch4nlp]: Start processing: carchive
+[2023-05-08 18:22:07] INFO root fetch - main [MainThread]: End processing [torch4nlp]: success
+[2023-05-08 18:22:07] INFO root fetch - processPackages [carchive]: New version: [0.0.50] Old Version: [0.0.49]
+[2023-05-08 18:22:07] INFO root fetch - main [MainThread]: End processing [dbis-er-diagram]: success
+[2023-05-08 18:22:07] INFO root fetch - processPackages [carchive]: executing diffoscope
+[2023-05-08 18:22:07] INFO root fetch - processPackages [carchive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carchive-0.0.49.tar.gz tmp/carchive-0.0.50.tar.gz --markdown 20230508/c/carchive/0.0.49-0.0.50/diff.md --exclude *.pyd
+[2023-05-08 18:22:07] INFO root fetch - processPackages [pocketrockit]: Downloading https://files.pythonhosted.org/packages/35/0e/2ce2be3bcdaaceced761358d15c74af9ebe357db6c5da3435e8fe5d8ca74/pocketrockit-0.0.9.tar.gz
+[2023-05-08 18:22:07] INFO root fetch - processPackages [pocketrockit]: executing diffoscope
+[2023-05-08 18:22:07] INFO root fetch - processPackages [pocketrockit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pocketrockit-0.0.8.tar.gz tmp/pocketrockit-0.0.9.tar.gz --markdown 20230508/p/pocketrockit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 18:22:07] INFO root fetch - main [MainThread]: End processing [FuncsForSPO]: success
+[2023-05-08 18:22:08] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-bluefruitconnect]: success
+[2023-05-08 18:22:08] INFO root fetch - main [MainThread]: End processing [gayadsdb6969]: success
+[2023-05-08 18:22:08] INFO root fetch - main [MainThread]: End processing [gcp-releasetool]: success
+[2023-05-08 18:22:09] INFO root fetch - main [MainThread]: End processing [carchive]: success
+[2023-05-08 18:22:09] INFO root fetch - main [MainThread]: End processing [pocketrockit]: success
+[2023-05-08 18:22:09] INFO root fetch - main [MainThread]: End processing [teaspoon]: success
+[2023-05-08 18:22:09] INFO root fetch - main [MainThread]: End processing [dicompyler-core]: success
+[2023-05-08 18:22:10] INFO root fetch - main [MainThread]: End processing [cherche]: success
+[2023-05-08 18:22:10] INFO root fetch - main [MainThread]: Store serial: [18019306]
