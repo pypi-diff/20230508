@@ -2598,3 +2598,53 @@
 [2023-05-08 04:30:27] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2023-05-08 04:30:28] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
 [2023-05-08 04:30:28] INFO root fetch - main [MainThread]: Store serial: [18011578]
+[2023-05-08 04:35:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18011578]
+[2023-05-08 04:35:37] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-08 04:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s-plus-25
+[2023-05-08 04:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vidcardshare
+[2023-05-08 04:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk8s-plus-26
+[2023-05-08 04:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: denoising-diffusion-pytorch
+[2023-05-08 04:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flask-constance
+[2023-05-08 04:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hostphot
+[2023-05-08 04:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alibabacloud-servicemesh20200111
+[2023-05-08 04:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dbt-doc-py
+[2023-05-08 04:35:37] INFO root fetch - processPackages [vidcardshare]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-08 04:35:37] WARNING root fetch - processPackages [flask-constance]: Skipping, unable to determine old version
+[2023-05-08 04:35:37] INFO root fetch - main [MainThread]: End processing [flask-constance] error
+[2023-05-08 04:35:37] INFO root fetch - processPackages [denoising-diffusion-pytorch]: New version: [1.5.7] Old Version: [1.5.6]
+[2023-05-08 04:35:37] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-05-08 04:35:37] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-08 04:35:37] WARNING root fetch - processPackages [dbt-doc-py]: Skipping, unable to determine old version
+[2023-05-08 04:35:37] INFO root fetch - main [MainThread]: End processing [dbt-doc-py] error
+[2023-05-08 04:35:37] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/90/1a/e1a333251d10fe57be71b25622c08ba24ce04112a4d979950b27a03cf167/cdk8s-plus-26-2.3.8.tar.gz
+[2023-05-08 04:35:37] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/25/f7/946aa5b1880e28af43a1a3eccc9fe915bd348cf77f61dfe50e65b1eb2d3b/cdk8s-plus-25-2.7.8.tar.gz
+[2023-05-08 04:35:37] INFO root fetch - processPackages [alibabacloud-servicemesh20200111]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-08 04:35:37] INFO root fetch - processPackages [vidcardshare]: Downloading https://files.pythonhosted.org/packages/22/6a/42c526ac186da090018435127e8b3b6cc1d4efe3fb3e5254713a3deed7f9/vidcardshare-0.1.3.tar.gz
+[2023-05-08 04:35:37] INFO root fetch - processPackages [hostphot]: New version: [2.6.0] Old Version: [2.5.1]
+[2023-05-08 04:35:37] INFO root fetch - processPackages [denoising-diffusion-pytorch]: Downloading https://files.pythonhosted.org/packages/67/b5/1b94c76a44a1bd0c7d8c76d547ff30319d4e87be96992d751603497b2b09/denoising-diffusion-pytorch-1.5.6.tar.gz
+[2023-05-08 04:35:37] INFO root fetch - processPackages [vidcardshare]: executing diffoscope
+[2023-05-08 04:35:37] INFO root fetch - processPackages [vidcardshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vidcardshare-0.1.2.tar.gz tmp/vidcardshare-0.1.3.tar.gz --markdown 20230508/v/vidcardshare/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-08 04:35:37] INFO root fetch - processPackages [alibabacloud-servicemesh20200111]: Downloading https://files.pythonhosted.org/packages/2c/e4/ed1505068fa36f93dfb7a1dd5458333edc6d817994abd4a9aac02e499cb5/alibabacloud_servicemesh20200111-2.0.8.tar.gz
+[2023-05-08 04:35:37] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/e8/bc/7fdfebbf42c172a8f57e6adbbf83c039f251e2b572610758a0ba2490a931/cdk8s-plus-26-2.3.9.tar.gz
+[2023-05-08 04:35:37] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/75/f0/b8cd75d1cf79e7272cafc492a3b860c1a58aecfd7f6ebe4882c0a2a5909e/cdk8s-plus-25-2.7.9.tar.gz
+[2023-05-08 04:35:37] INFO root fetch - processPackages [hostphot]: Downloading https://files.pythonhosted.org/packages/f3/86/e2506a8afef03e3f4db854b9b49726aca4bb5ed4d30832234a5c32d21a57/hostphot-2.5.1.tar.gz
+[2023-05-08 04:35:37] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-05-08 04:35:37] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.7.8.tar.gz tmp/cdk8s-plus-25-2.7.9.tar.gz --markdown 20230508/c/cdk8s-plus-25/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-05-08 04:35:37] INFO root fetch - processPackages [denoising-diffusion-pytorch]: Downloading https://files.pythonhosted.org/packages/65/d1/932823a8f157975aedc543f7cc22e187ce679d397e0e7cedb2780e148cc4/denoising-diffusion-pytorch-1.5.7.tar.gz
+[2023-05-08 04:35:37] INFO root fetch - processPackages [alibabacloud-servicemesh20200111]: Downloading https://files.pythonhosted.org/packages/47/d2/aedff6edc6d251bc23609764ccfc007686c4347d12a99bcd109f650331c7/alibabacloud_servicemesh20200111-2.0.9.tar.gz
+[2023-05-08 04:35:37] INFO root fetch - processPackages [denoising-diffusion-pytorch]: executing diffoscope
+[2023-05-08 04:35:37] INFO root fetch - processPackages [denoising-diffusion-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/denoising-diffusion-pytorch-1.5.6.tar.gz tmp/denoising-diffusion-pytorch-1.5.7.tar.gz --markdown 20230508/d/denoising-diffusion-pytorch/1.5.6-1.5.7/diff.md --exclude *.pyd
+[2023-05-08 04:35:38] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-05-08 04:35:38] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.3.8.tar.gz tmp/cdk8s-plus-26-2.3.9.tar.gz --markdown 20230508/c/cdk8s-plus-26/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-08 04:35:38] INFO root fetch - processPackages [hostphot]: Downloading https://files.pythonhosted.org/packages/d4/e1/cc527b0976bf229af7c89ce4f9744be616d585ab5bf151ff81b8113ac689/hostphot-2.6.0.tar.gz
+[2023-05-08 04:35:38] INFO root fetch - processPackages [alibabacloud-servicemesh20200111]: executing diffoscope
+[2023-05-08 04:35:38] INFO root fetch - processPackages [alibabacloud-servicemesh20200111]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_servicemesh20200111-2.0.8.tar.gz tmp/alibabacloud_servicemesh20200111-2.0.9.tar.gz --markdown 20230508/a/alibabacloud-servicemesh20200111/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-08 04:35:38] INFO root fetch - processPackages [hostphot]: executing diffoscope
+[2023-05-08 04:35:38] INFO root fetch - processPackages [hostphot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hostphot-2.5.1.tar.gz tmp/hostphot-2.6.0.tar.gz --markdown 20230508/h/hostphot/2.5.1-2.6.0/diff.md --exclude *.pyd
+[2023-05-08 04:35:38] INFO root fetch - main [MainThread]: End processing [vidcardshare]: success
+[2023-05-08 04:35:39] INFO root fetch - main [MainThread]: End processing [denoising-diffusion-pytorch]: success
+[2023-05-08 04:35:39] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-05-08 04:35:39] INFO root fetch - main [MainThread]: End processing [alibabacloud-servicemesh20200111]: success
+[2023-05-08 04:35:41] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-05-08 04:35:43] INFO root fetch - main [MainThread]: End processing [hostphot]: success
+[2023-05-08 04:35:43] INFO root fetch - main [MainThread]: Store serial: [18011608]
