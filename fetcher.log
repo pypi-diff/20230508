@@ -5768,3 +5768,19 @@
 [2023-05-08 07:26:11] INFO root fetch - main [MainThread]: End processing [delphix-dct-api]: success
 [2023-05-08 07:26:14] INFO root fetch - main [MainThread]: End processing [webint]: success
 [2023-05-08 07:26:14] INFO root fetch - main [MainThread]: Store serial: [18013183]
+[2023-05-08 07:31:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18013183]
+[2023-05-08 07:31:23] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-05-08 07:31:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: halring
+[2023-05-08 07:31:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cyberutils
+[2023-05-08 07:31:23] INFO root fetch - processPackages [cyberutils]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-08 07:31:23] INFO root fetch - processPackages [halring]: New version: [2.1.5] Old Version: [2.1.4]
+[2023-05-08 07:31:23] INFO root fetch - processPackages [cyberutils]: Downloading https://files.pythonhosted.org/packages/4b/42/26a40f8350889d3dc218bd943b14f6f806f2cdf99883e996fcd6aa30189b/cyberutils-0.0.1.tar.gz
+[2023-05-08 07:31:23] INFO root fetch - processPackages [halring]: Downloading https://files.pythonhosted.org/packages/be/4b/f0daeea65164bffbdb6996f5d7cd826ccd22a105388ca58c6f7e0ff32912/halring-2.1.5-py3-none-any.whl
+[2023-05-08 07:31:23] INFO root fetch - processPackages [halring]: executing diffoscope
+[2023-05-08 07:31:23] INFO root fetch - processPackages [halring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/halring-2.1.4-py3-none-any.whl.zip tmp/halring-2.1.5-py3-none-any.whl.zip --markdown 20230508/h/halring/2.1.4-2.1.5/diff.md --exclude *.pyd
+[2023-05-08 07:31:23] INFO root fetch - processPackages [cyberutils]: Downloading https://files.pythonhosted.org/packages/8a/1e/5c6dbab1abf5d632b1f92de6a63cfa77d2d8bbedd871963e0c8c440103f5/cyberutils-0.0.2.tar.gz
+[2023-05-08 07:31:24] INFO root fetch - processPackages [cyberutils]: executing diffoscope
+[2023-05-08 07:31:24] INFO root fetch - processPackages [cyberutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberutils-0.0.1.tar.gz tmp/cyberutils-0.0.2.tar.gz --markdown 20230508/c/cyberutils/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-08 07:31:25] INFO root fetch - main [MainThread]: End processing [cyberutils]: success
+[2023-05-08 07:31:25] INFO root fetch - main [MainThread]: End processing [halring]: success
+[2023-05-08 07:31:25] INFO root fetch - main [MainThread]: Store serial: [18013188]
