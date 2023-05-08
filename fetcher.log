@@ -7900,3 +7900,49 @@
 [2023-05-08 10:22:30] INFO root fetch - main [MainThread]: End processing [phdu]: success
 [2023-05-08 10:22:31] INFO root fetch - main [MainThread]: End processing [dialoguekit]: success
 [2023-05-08 10:22:31] INFO root fetch - main [MainThread]: Store serial: [18014453]
+[2023-05-08 10:27:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18014453]
+[2023-05-08 10:27:40] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-08 10:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-iot-core-certificates
+[2023-05-08 10:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stein-tools
+[2023-05-08 10:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: s3dbm
+[2023-05-08 10:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xj-enroll
+[2023-05-08 10:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jax-chacha-prng
+[2023-05-08 10:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ViTest
+[2023-05-08 10:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spotON_sdk
+[2023-05-08 10:27:40] INFO root fetch - processPackages [spotON_sdk]: New version: [0.0.1.7] Old Version: [0.0.1.6]
+[2023-05-08 10:27:40] INFO root fetch - processPackages [jax-chacha-prng]: New version: [1.4.1] Old Version: [1.4.0.post1]
+[2023-05-08 10:27:40] INFO root fetch - processPackages [cdk-iot-core-certificates]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-08 10:27:40] WARNING root fetch - processPackages [stein-tools]: Skipping, unable to determine old version
+[2023-05-08 10:27:40] INFO root fetch - processPackages [ViTest]: New version: [2.0] Old Version: [1.0]
+[2023-05-08 10:27:40] INFO root fetch - main [MainThread]: End processing [stein-tools] error
+[2023-05-08 10:27:40] INFO root fetch - processPackages [s3dbm]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-08 10:27:40] INFO root fetch - processPackages [xj-enroll]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-05-08 10:27:40] INFO root fetch - processPackages [spotON_sdk]: Downloading https://files.pythonhosted.org/packages/17/4b/0852df15e16cddfaae3470ca69811e3ab8ce074600f3502c5b24e86ca17e/spotON_sdk-0.0.1.6.tar.gz
+[2023-05-08 10:27:40] INFO root fetch - processPackages [jax-chacha-prng]: Downloading https://files.pythonhosted.org/packages/a3/25/d45bebb4b99015c1ab7e1d8bb2d27b20e802b1592fd9942ccd6737051006/jax-chacha-prng-1.4.0.post1.tar.gz
+[2023-05-08 10:27:40] INFO root fetch - processPackages [ViTest]: Downloading https://files.pythonhosted.org/packages/13/6c/b08bdc032e268bd28fc1d0ca8f3eed96586b3a14e3a4be6ac7d2a14b3a51/ViTest-1.0.tar.gz
+[2023-05-08 10:27:40] INFO root fetch - processPackages [s3dbm]: Downloading https://files.pythonhosted.org/packages/71/89/ace0e302d0ca16e8191ed8ae9d6b6f5206f3b038e3f14fb4231118a5092b/s3dbm-0.0.5.tar.gz
+[2023-05-08 10:27:40] INFO root fetch - processPackages [xj-enroll]: Downloading https://files.pythonhosted.org/packages/5f/55/043c01a1a9d5f4d1bc26501f84e1b44b3f001a7d69f9bfbcf23c512659ae/xj_enroll-1.0.98.tar.gz
+[2023-05-08 10:27:41] INFO root fetch - processPackages [s3dbm]: executing diffoscope
+[2023-05-08 10:27:41] INFO root fetch - processPackages [s3dbm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s3dbm-0.0.4.tar.gz tmp/s3dbm-0.0.5.tar.gz --markdown 20230508/s/s3dbm/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-08 10:27:41] INFO root fetch - processPackages [cdk-iot-core-certificates]: Downloading https://files.pythonhosted.org/packages/9e/1b/6a48bd4648a4e45e505e8ea12dec69f0899b2baec4474ff180d901e9836a/cdk-iot-core-certificates-1.0.3.tar.gz
+[2023-05-08 10:27:41] INFO root fetch - processPackages [spotON_sdk]: Downloading https://files.pythonhosted.org/packages/16/8b/dfcf9e7f17b51bd39468ee3edf608cf9ada4bac02011760d36f86177f360/spotON_sdk-0.0.1.7.tar.gz
+[2023-05-08 10:27:41] INFO root fetch - processPackages [ViTest]: Downloading https://files.pythonhosted.org/packages/10/86/ba54db9959add50ddb5113dd4383116e236c0eea81a6670988b5509b5e4a/ViTest-2.0-py38-none-any.whl
+[2023-05-08 10:27:41] INFO root fetch - processPackages [cdk-iot-core-certificates]: executing diffoscope
+[2023-05-08 10:27:41] INFO root fetch - processPackages [cdk-iot-core-certificates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-iot-core-certificates-1.0.2.tar.gz tmp/cdk-iot-core-certificates-1.0.3.tar.gz --markdown 20230508/c/cdk-iot-core-certificates/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-08 10:27:41] INFO root fetch - processPackages [spotON_sdk]: executing diffoscope
+[2023-05-08 10:27:41] INFO root fetch - processPackages [spotON_sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotON_sdk-0.0.1.6.tar.gz tmp/spotON_sdk-0.0.1.7.tar.gz --markdown 20230508/s/spotON_sdk/0.0.1.6-0.0.1.7/diff.md --exclude *.pyd
+[2023-05-08 10:27:41] INFO root fetch - processPackages [ViTest]: executing diffoscope
+[2023-05-08 10:27:41] INFO root fetch - processPackages [ViTest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ViTest-1.0.tar.gz tmp/ViTest-2.0-py38-none-any.whl.zip --markdown 20230508/V/ViTest/1.0-2.0/diff.md --exclude *.pyd
+[2023-05-08 10:27:41] INFO root fetch - processPackages [jax-chacha-prng]: Downloading https://files.pythonhosted.org/packages/e8/b6/b389950a934319acc1e46b51921b8b558e52cb3b8d76bd21ba2725f476e9/jax-chacha-prng-1.4.1.tar.gz
+[2023-05-08 10:27:41] INFO root fetch - processPackages [xj-enroll]: Downloading https://files.pythonhosted.org/packages/10/ba/d433d5e19456323afc65c6931bf6856d7357d50aca4073aa4b8c1dd1dd4b/xj_enroll-1.0.99.tar.gz
+[2023-05-08 10:27:41] INFO root fetch - processPackages [xj-enroll]: executing diffoscope
+[2023-05-08 10:27:41] INFO root fetch - processPackages [xj-enroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_enroll-1.0.98.tar.gz tmp/xj_enroll-1.0.99.tar.gz --markdown 20230508/x/xj-enroll/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-05-08 10:27:41] INFO root fetch - processPackages [jax-chacha-prng]: executing diffoscope
+[2023-05-08 10:27:41] INFO root fetch - processPackages [jax-chacha-prng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jax-chacha-prng-1.4.0.post1.tar.gz tmp/jax-chacha-prng-1.4.1.tar.gz --markdown 20230508/j/jax-chacha-prng/1.4.0.post1-1.4.1/diff.md --exclude *.pyd
+[2023-05-08 10:27:42] INFO root fetch - main [MainThread]: End processing [s3dbm]: success
+[2023-05-08 10:27:42] INFO root fetch - main [MainThread]: End processing [spotON_sdk]: success
+[2023-05-08 10:27:42] INFO root fetch - main [MainThread]: End processing [cdk-iot-core-certificates]: success
+[2023-05-08 10:27:42] INFO root fetch - main [MainThread]: End processing [ViTest]: success
+[2023-05-08 10:27:42] INFO root fetch - main [MainThread]: End processing [xj-enroll]: success
+[2023-05-08 10:27:42] INFO root fetch - main [MainThread]: End processing [jax-chacha-prng]: success
+[2023-05-08 10:27:42] INFO root fetch - main [MainThread]: Store serial: [18014525]
