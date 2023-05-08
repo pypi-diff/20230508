@@ -10634,3 +10634,90 @@
 [2023-05-08 13:07:01] INFO root fetch - main [MainThread]: End processing [stackdiac]: success
 [2023-05-08 13:09:07] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
 [2023-05-08 13:09:07] INFO root fetch - main [MainThread]: Store serial: [18015902]
+[2023-05-08 13:14:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18015902]
+[2023-05-08 13:14:16] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-08 13:14:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: VUnit-helpers
+[2023-05-08 13:14:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prompt-me
+[2023-05-08 13:14:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kopia
+[2023-05-08 13:14:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: general-text-classifier
+[2023-05-08 13:14:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: inverse
+[2023-05-08 13:14:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: approximate-cluster-identities
+[2023-05-08 13:14:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spaceone-api
+[2023-05-08 13:14:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbconvert
+[2023-05-08 13:14:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rustplus
+[2023-05-08 13:14:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kcweb
+[2023-05-08 13:14:16] INFO root fetch - processPackages [VUnit-helpers]: New version: [2023.5.7] Old Version: [0.1.0]
+[2023-05-08 13:14:16] INFO root fetch - processPackages [kopia]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-08 13:14:16] INFO root fetch - processPackages [general-text-classifier]: New version: [0.1.26] Old Version: [0.1.25]
+[2023-05-08 13:14:16] INFO root fetch - processPackages [prompt-me]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-05-08 13:14:16] INFO root fetch - processPackages [approximate-cluster-identities]: New version: [0.1.1] Old Version: [0.1]
+[2023-05-08 13:14:16] INFO root fetch - processPackages [inverse]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 13:14:16] INFO root fetch - processPackages [spaceone-api]: New version: [1.9.7rc1] Old Version: [1.9.7.dev3]
+[2023-05-08 13:14:16] INFO root fetch - processPackages [rustplus]: New version: [5.6.0] Old Version: [5.5.8]
+[2023-05-08 13:14:16] INFO root fetch - processPackages [nbconvert]: New version: [7.4.0] Old Version: [7.3.1]
+[2023-05-08 13:14:16] INFO root fetch - processPackages [kcweb]: New version: [4.13.9] Old Version: [4.13.8]
+[2023-05-08 13:14:16] INFO root fetch - processPackages [VUnit-helpers]: executing diffoscope
+[2023-05-08 13:14:16] INFO root fetch - processPackages [VUnit-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VUnit-helpers-0.1.0.tar.gz tmp/VUnit-helpers-2023.5.7.tar.gz --markdown 20230508/V/VUnit-helpers/0.1.0-2023.5.7/diff.md --exclude *.pyd
+[2023-05-08 13:14:16] INFO root fetch - processPackages [approximate-cluster-identities]: Downloading https://files.pythonhosted.org/packages/97/c1/185a55a66fc7f31525e5da699721ec694d9ec82894020defb342b833cbca/approximate_cluster_identities-0.1.tar.gz
+[2023-05-08 13:14:16] INFO root fetch - processPackages [prompt-me]: Downloading https://files.pythonhosted.org/packages/36/e3/2abea08be685a8660b878551f97037d9143163bb8102343df6fcea109912/prompt-me-2.1.0.tar.gz
+[2023-05-08 13:14:16] INFO root fetch - processPackages [nbconvert]: Downloading https://files.pythonhosted.org/packages/9a/60/e682399bba78a8f3cf39f23006ab1bbb3f8b7706c6f00f34e2f5e36bfc44/nbconvert-7.3.1.tar.gz
+[2023-05-08 13:14:16] INFO root fetch - processPackages [kopia]: Downloading https://files.pythonhosted.org/packages/aa/a9/9aff30e337b51f1105ea941a5646d5bbfe106353556cbc5359eaaf4f9a59/kopia-0.1.0.tar.gz
+[2023-05-08 13:14:17] INFO root fetch - processPackages [rustplus]: Downloading https://files.pythonhosted.org/packages/3b/eb/7fc3e2187f26ed5629f1b43ccbc98ea993baa713060fa0d13808c62cb991/rustplus-5.5.8.tar.gz
+[2023-05-08 13:14:17] INFO root fetch - processPackages [kcweb]: Downloading https://files.pythonhosted.org/packages/1f/1c/535594fb05e2fe0e0d385dd90a24408479669887ca8f69deadb4af2a3e21/kcweb-4.13.8.tar.gz
+[2023-05-08 13:14:17] INFO root fetch - processPackages [approximate-cluster-identities]: Downloading https://files.pythonhosted.org/packages/5b/56/ac6dc9de037906e3305e82f13dfa1f18548c66f6832475ee9fa1e78ee34e/approximate_cluster_identities-0.1.1.tar.gz
+[2023-05-08 13:14:17] INFO root fetch - processPackages [general-text-classifier]: Downloading https://files.pythonhosted.org/packages/49/63/3f296a3aa39facc768194d955c1b7760e4edb1de041a529e2d77c079bf6c/general_text_classifier-0.1.26-py3-none-any.whl
+[2023-05-08 13:14:17] INFO root fetch - processPackages [approximate-cluster-identities]: executing diffoscope
+[2023-05-08 13:14:17] INFO root fetch - processPackages [approximate-cluster-identities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/approximate_cluster_identities-0.1.tar.gz tmp/approximate_cluster_identities-0.1.1.tar.gz --markdown 20230508/a/approximate-cluster-identities/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-05-08 13:14:17] INFO root fetch - processPackages [spaceone-api]: executing diffoscope
+[2023-05-08 13:14:17] INFO root fetch - processPackages [spaceone-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_api-1.9.7.dev3-py3-none-any.whl.zip tmp/spaceone_api-1.9.7rc1-py3-none-any.whl.zip --markdown 20230508/s/spaceone-api/1.9.7.dev3-1.9.7rc1/diff.md --exclude *.pyd
+[2023-05-08 13:14:17] INFO root fetch - processPackages [general-text-classifier]: executing diffoscope
+[2023-05-08 13:14:17] INFO root fetch - processPackages [general-text-classifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/general_text_classifier-0.1.25-py3-none-any.whl.zip tmp/general_text_classifier-0.1.26-py3-none-any.whl.zip --markdown 20230508/g/general-text-classifier/0.1.25-0.1.26/diff.md --exclude *.pyd
+[2023-05-08 13:14:17] INFO root fetch - processPackages [inverse]: executing diffoscope
+[2023-05-08 13:14:17] INFO root fetch - processPackages [inverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inverse-0.0.8-py3-none-any.whl.zip tmp/inverse-0.0.9-py3-none-any.whl.zip --markdown 20230508/i/inverse/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 13:14:17] INFO root fetch - processPackages [prompt-me]: Downloading https://files.pythonhosted.org/packages/67/8c/f1ad7805cc9ea8c853538dd00dde4804f529e6ba87faf756d0879bf1afb4/prompt-me-2.1.1.tar.gz
+[2023-05-08 13:14:17] INFO root fetch - processPackages [nbconvert]: Downloading https://files.pythonhosted.org/packages/0f/24/a7f5d67535ebd13276a1113d1a20572053c5a9182c29651420b957d1226c/nbconvert-7.4.0.tar.gz
+[2023-05-08 13:14:17] INFO root fetch - processPackages [prompt-me]: executing diffoscope
+[2023-05-08 13:14:17] INFO root fetch - processPackages [prompt-me]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompt-me-2.1.0.tar.gz tmp/prompt-me-2.1.1.tar.gz --markdown 20230508/p/prompt-me/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-05-08 13:14:17] INFO root fetch - processPackages [nbconvert]: executing diffoscope
+[2023-05-08 13:14:17] INFO root fetch - processPackages [nbconvert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbconvert-7.3.1.tar.gz tmp/nbconvert-7.4.0.tar.gz --markdown 20230508/n/nbconvert/7.3.1-7.4.0/diff.md --exclude *.pyd
+[2023-05-08 13:14:17] INFO root fetch - processPackages [kopia]: Downloading https://files.pythonhosted.org/packages/18/f0/74d9fa925ae1138fcba4c604793d086fc327a9a50f1ac3da486adf62422a/kopia-0.1.1.tar.gz
+[2023-05-08 13:14:17] INFO root fetch - processPackages [kopia]: executing diffoscope
+[2023-05-08 13:14:17] INFO root fetch - processPackages [kopia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kopia-0.1.0.tar.gz tmp/kopia-0.1.1.tar.gz --markdown 20230508/k/kopia/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-08 13:14:17] INFO root fetch - processPackages [kcweb]: Downloading https://files.pythonhosted.org/packages/32/eb/f9307dd72813da088e692d98b860af6c330ddbe784d141a9558940064444/kcweb-4.13.9.tar.gz
+[2023-05-08 13:14:17] INFO root fetch - processPackages [rustplus]: Downloading https://files.pythonhosted.org/packages/42/b1/6dffed03dbbf2da15d682b888eef4c57e49b6f82be48b62318fba1b27e97/rustplus-5.6.0.tar.gz
+[2023-05-08 13:14:17] INFO root fetch - processPackages [rustplus]: executing diffoscope
+[2023-05-08 13:14:17] INFO root fetch - processPackages [rustplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rustplus-5.5.8.tar.gz tmp/rustplus-5.6.0.tar.gz --markdown 20230508/r/rustplus/5.5.8-5.6.0/diff.md --exclude *.pyd
+[2023-05-08 13:14:17] INFO root fetch - processPackages [kcweb]: executing diffoscope
+[2023-05-08 13:14:17] INFO root fetch - processPackages [kcweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcweb-4.13.8.tar.gz tmp/kcweb-4.13.9.tar.gz --markdown 20230508/k/kcweb/4.13.8-4.13.9/diff.md --exclude *.pyd
+[2023-05-08 13:14:18] INFO root fetch - processPackages [VUnit-helpers]: Start processing: ipykernel
+[2023-05-08 13:14:18] INFO root fetch - main [MainThread]: End processing [VUnit-helpers]: success
+[2023-05-08 13:14:18] INFO root fetch - processPackages [ipykernel]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-05-08 13:14:18] INFO root fetch - processPackages [ipykernel]: Downloading https://files.pythonhosted.org/packages/e0/22/d6c7267ebf529853bfc786eea6840c24164634d008d4a58ec4ddf0f8a633/ipykernel-6.9.1.tar.gz
+[2023-05-08 13:14:18] INFO root fetch - processPackages [approximate-cluster-identities]: Start processing: pyvium
+[2023-05-08 13:14:18] INFO root fetch - main [MainThread]: End processing [approximate-cluster-identities]: success
+[2023-05-08 13:14:18] INFO root fetch - processPackages [pyvium]: New version: [0.1.9b0] Old Version: [0.1.8b0]
+[2023-05-08 13:14:18] INFO root fetch - processPackages [kopia]: Start processing: seatsio
+[2023-05-08 13:14:18] INFO root fetch - main [MainThread]: End processing [kopia]: success
+[2023-05-08 13:14:18] INFO root fetch - processPackages [seatsio]: New version: [72.4.0] Old Version: [72.3.0]
+[2023-05-08 13:14:18] INFO root fetch - main [MainThread]: End processing [general-text-classifier]: success
+[2023-05-08 13:14:18] INFO root fetch - processPackages [pyvium]: Downloading https://files.pythonhosted.org/packages/17/c5/38161f95866d3233381390c690d128999bf118edd4b0a0da308aa3f09abf/pyvium-0.1.8b0.tar.gz
+[2023-05-08 13:14:18] INFO root fetch - processPackages [ipykernel]: Downloading https://files.pythonhosted.org/packages/e7/b2/0db7e5e7c2de514de42f9a95a09b421d18b7cd6f4a69af19f4cf46c48d13/ipykernel-6.9.2.tar.gz
+[2023-05-08 13:14:19] INFO root fetch - main [MainThread]: End processing [prompt-me]: success
+[2023-05-08 13:14:19] INFO root fetch - processPackages [seatsio]: Downloading https://files.pythonhosted.org/packages/a9/85/53a07a0bf24ff6508d99c5d5911e65add9f98b1c5d4aa85d8f2ea9075e20/seatsio-72.3.0.tar.gz
+[2023-05-08 13:14:19] INFO root fetch - processPackages [ipykernel]: executing diffoscope
+[2023-05-08 13:14:19] INFO root fetch - processPackages [ipykernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipykernel-6.9.1.tar.gz tmp/ipykernel-6.9.2.tar.gz --markdown 20230508/i/ipykernel/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-05-08 13:14:19] INFO root fetch - processPackages [seatsio]: Downloading https://files.pythonhosted.org/packages/0a/58/3cbf4feb53c96e8e435cfed99aac91fcd8d18d862f2d1b3bc20e4b227b4f/seatsio-72.4.0.tar.gz
+[2023-05-08 13:14:19] INFO root fetch - main [MainThread]: End processing [kcweb]: success
+[2023-05-08 13:14:19] INFO root fetch - processPackages [pyvium]: Downloading https://files.pythonhosted.org/packages/00/23/91173c8f5a55e8450166dec4c959d7aa93374788cba459cc457a9c295666/pyvium-0.1.9b0.tar.gz
+[2023-05-08 13:14:19] INFO root fetch - processPackages [seatsio]: executing diffoscope
+[2023-05-08 13:14:19] INFO root fetch - processPackages [seatsio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seatsio-72.3.0.tar.gz tmp/seatsio-72.4.0.tar.gz --markdown 20230508/s/seatsio/72.3.0-72.4.0/diff.md --exclude *.pyd
+[2023-05-08 13:14:19] INFO root fetch - main [MainThread]: End processing [rustplus]: success
+[2023-05-08 13:14:19] INFO root fetch - processPackages [pyvium]: executing diffoscope
+[2023-05-08 13:14:19] INFO root fetch - processPackages [pyvium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvium-0.1.8b0.tar.gz tmp/pyvium-0.1.9b0.tar.gz --markdown 20230508/p/pyvium/0.1.8b0-0.1.9b0/diff.md --exclude *.pyd
+[2023-05-08 13:14:20] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
+[2023-05-08 13:14:20] INFO root fetch - main [MainThread]: End processing [ipykernel]: success
+[2023-05-08 13:14:21] INFO root fetch - main [MainThread]: End processing [nbconvert]: success
+[2023-05-08 13:14:21] INFO root fetch - main [MainThread]: End processing [seatsio]: success
+[2023-05-08 13:14:23] INFO root fetch - main [MainThread]: End processing [pyvium]: success
+[2023-05-08 13:14:48] INFO root fetch - main [MainThread]: End processing [inverse]: success
+[2023-05-08 13:14:48] INFO root fetch - main [MainThread]: Store serial: [18015937]
