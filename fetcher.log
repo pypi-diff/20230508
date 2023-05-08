@@ -16835,3 +16835,108 @@ EOFError: EOF read where object expected
 [2023-05-08 18:22:09] INFO root fetch - main [MainThread]: End processing [dicompyler-core]: success
 [2023-05-08 18:22:10] INFO root fetch - main [MainThread]: End processing [cherche]: success
 [2023-05-08 18:22:10] INFO root fetch - main [MainThread]: Store serial: [18019306]
+[2023-05-08 18:27:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18019306]
+[2023-05-08 18:27:22] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-08 18:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: carchive
+[2023-05-08 18:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trouve-ta-pompe
+[2023-05-08 18:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scgpt
+[2023-05-08 18:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiofauna
+[2023-05-08 18:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cellpose
+[2023-05-08 18:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xdantic
+[2023-05-08 18:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cagen
+[2023-05-08 18:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: generalize
+[2023-05-08 18:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gayadsdb6969
+[2023-05-08 18:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: chat2plot
+[2023-05-08 18:27:22] INFO root fetch - processPackages [carchive]: New version: [0.0.51] Old Version: [0.0.50]
+[2023-05-08 18:27:22] WARNING root fetch - processPackages [trouve-ta-pompe]: Skipping, unable to determine old version
+[2023-05-08 18:27:22] INFO root fetch - processPackages [trouve-ta-pompe]: Start processing: holoviews
+[2023-05-08 18:27:22] INFO root fetch - main [MainThread]: End processing [trouve-ta-pompe] error
+[2023-05-08 18:27:22] WARNING root fetch - processPackages [generalize]: Skipping, unable to determine old version
+[2023-05-08 18:27:22] INFO root fetch - processPackages [generalize]: Start processing: coiled
+[2023-05-08 18:27:22] INFO root fetch - main [MainThread]: End processing [generalize] error
+[2023-05-08 18:27:22] WARNING root fetch - processPackages [scgpt]: Skipping, unable to determine old version
+[2023-05-08 18:27:22] INFO root fetch - processPackages [chat2plot]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-08 18:27:22] INFO root fetch - processPackages [scgpt]: Start processing: pepperize.cdk-lambda-deno
+[2023-05-08 18:27:22] INFO root fetch - processPackages [gayadsdb6969]: New version: [1.3.0] Old Version: [1.0.0]
+[2023-05-08 18:27:22] INFO root fetch - main [MainThread]: End processing [scgpt] error
+[2023-05-08 18:27:22] INFO root fetch - processPackages [xdantic]: New version: [0.0.2.dev0] Old Version: [0.0.2]
+[2023-05-08 18:27:22] INFO root fetch - processPackages [cellpose]: New version: [2.2.1] Old Version: [2.2]
+[2023-05-08 18:27:22] INFO root fetch - processPackages [aiofauna]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-08 18:27:22] INFO root fetch - processPackages [holoviews]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-05-08 18:27:22] INFO root fetch - processPackages [cagen]: New version: [0.2.0rc3] Old Version: [0.2.0rc2]
+[2023-05-08 18:27:22] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-08 18:27:22] INFO root fetch - processPackages [coiled]: New version: [0.6.3.dev8] Old Version: [0.6.3.dev4]
+[2023-05-08 18:27:22] INFO root fetch - processPackages [xdantic]: Downloading https://files.pythonhosted.org/packages/95/9b/8f805f7d455778e427f52665e8bc4ad52b8909350c856870c19c3cbfd403/xdantic-0.0.2.tar.gz
+[2023-05-08 18:27:23] INFO root fetch - processPackages [carchive]: Downloading https://files.pythonhosted.org/packages/22/6e/2eb1efe9068b75b69aa4ddd21a0dda028010005efd61031c0213c0313a57/carchive-0.0.51.tar.gz
+[2023-05-08 18:27:23] INFO root fetch - processPackages [gayadsdb6969]: Downloading https://files.pythonhosted.org/packages/ea/e8/e7cb40015521e05c5e106ce940d5ef83a7167490565a34521a71abcc295d/gayadsdb6969-1.3.0.tar.gz
+[2023-05-08 18:27:23] INFO root fetch - processPackages [aiofauna]: Downloading https://files.pythonhosted.org/packages/c9/df/0f97c6958ab88ad9e8e9e33dc77f1b039a4af63ca8ddaa128733394406d9/aiofauna-0.1.6.tar.gz
+[2023-05-08 18:27:23] INFO root fetch - processPackages [cellpose]: Downloading https://files.pythonhosted.org/packages/41/d6/a11fc0169c42eb9b0d74f0a912f4d286b29eee125ed62b2fa486bf385691/cellpose-2.2.tar.gz
+[2023-05-08 18:27:23] INFO root fetch - processPackages [cagen]: Downloading https://files.pythonhosted.org/packages/0c/ba/6737d7499447f130d6f14d832c20f7591b261f526be96970b428a072ba6a/cagen-0.2.0rc3.tar.gz
+[2023-05-08 18:27:23] INFO root fetch - processPackages [holoviews]: Downloading https://files.pythonhosted.org/packages/59/1c/f3bab15afa70d6424f04ba98eacf877b469d4196177d1fda90c0870823d6/holoviews-1.9.4.tar.gz
+[2023-05-08 18:27:23] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/12/30/85f355bae157fc15233427bb2c0969ba95dbe77a7c58937d686405bc0c5b/coiled-0.6.3.dev8.tar.gz
+[2023-05-08 18:27:23] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: Downloading https://files.pythonhosted.org/packages/4c/97/7e7ee48e76578e376852415f8f3506f459ac0999dde2c44ae8a214009250/pepperize.cdk-lambda-deno-0.0.98.tar.gz
+[2023-05-08 18:27:23] WARNING root fetch - processPackages [cellpose]: Skipping package: exceeds size limit 16571915>=10485760
+[2023-05-08 18:27:23] INFO root fetch - processPackages [cellpose]: Start processing: certora-cli-alpha-shelly-betterCertoraException
+[2023-05-08 18:27:23] INFO root fetch - processPackages [carchive]: executing diffoscope
+[2023-05-08 18:27:23] INFO root fetch - main [MainThread]: End processing [cellpose] error
+[2023-05-08 18:27:23] INFO root fetch - processPackages [carchive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carchive-0.0.50.tar.gz tmp/carchive-0.0.51.tar.gz --markdown 20230508/c/carchive/0.0.50-0.0.51/diff.md --exclude *.pyd
+[2023-05-08 18:27:23] INFO root fetch - processPackages [aiofauna]: executing diffoscope
+[2023-05-08 18:27:23] INFO root fetch - processPackages [aiofauna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiofauna-0.1.5.tar.gz tmp/aiofauna-0.1.6.tar.gz --markdown 20230508/a/aiofauna/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-08 18:27:23] INFO root fetch - processPackages [gayadsdb6969]: executing diffoscope
+[2023-05-08 18:27:23] INFO root fetch - processPackages [gayadsdb6969]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gayadsdb6969-1.0.0.tar.gz tmp/gayadsdb6969-1.3.0.tar.gz --markdown 20230508/g/gayadsdb6969/1.0.0-1.3.0/diff.md --exclude *.pyd
+[2023-05-08 18:27:23] INFO root fetch - processPackages [chat2plot]: Downloading https://files.pythonhosted.org/packages/d8/d5/1b57914b535b8638594245d8ae0c94cba872689fdf3de3f233329edd215d/chat2plot-0.0.3.tar.gz
+[2023-05-08 18:27:23] INFO root fetch - processPackages [certora-cli-alpha-shelly-betterCertoraException]: New version: [20230508.16.25.408704] Old Version: [20230507.12.36.85551]
+[2023-05-08 18:27:23] INFO root fetch - processPackages [cagen]: executing diffoscope
+[2023-05-08 18:27:23] INFO root fetch - processPackages [cagen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cagen-0.2.0rc2.tar.gz tmp/cagen-0.2.0rc3.tar.gz --markdown 20230508/c/cagen/0.2.0rc2-0.2.0rc3/diff.md --exclude *.pyd
+[2023-05-08 18:27:23] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-08 18:27:23] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.3.dev4.tar.gz tmp/coiled-0.6.3.dev8.tar.gz --markdown 20230508/c/coiled/0.6.3.dev4-0.6.3.dev8/diff.md --exclude *.pyd
+[2023-05-08 18:27:23] INFO root fetch - processPackages [chat2plot]: executing diffoscope
+[2023-05-08 18:27:23] INFO root fetch - processPackages [chat2plot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chat2plot-0.0.2.tar.gz tmp/chat2plot-0.0.3.tar.gz --markdown 20230508/c/chat2plot/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-08 18:27:23] INFO root fetch - processPackages [xdantic]: Downloading https://files.pythonhosted.org/packages/0a/46/4c94c19e93879593872b9ceadfd103ed4a17d6135b4f6d2b15a50a8694c7/xdantic-0.0.2.dev0.tar.gz
+[2023-05-08 18:27:23] INFO root fetch - processPackages [xdantic]: executing diffoscope
+[2023-05-08 18:27:23] INFO root fetch - processPackages [xdantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xdantic-0.0.2.tar.gz tmp/xdantic-0.0.2.dev0.tar.gz --markdown 20230508/x/xdantic/0.0.2-0.0.2.dev0/diff.md --exclude *.pyd
+[2023-05-08 18:27:23] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: Downloading https://files.pythonhosted.org/packages/85/5f/f687fbc9239934d25fca128989aec9e2827e117f5b840cc95329a9c1fd77/pepperize.cdk-lambda-deno-0.0.99.tar.gz
+[2023-05-08 18:27:23] INFO root fetch - processPackages [certora-cli-alpha-shelly-betterCertoraException]: Downloading https://files.pythonhosted.org/packages/97/64/06b92d95f79a9cbda2c58e91ac8d4ba45758866a83c964ff60df20b6302d/certora-cli-alpha-shelly-betterCertoraException-20230507.12.36.85551.tar.gz
+[2023-05-08 18:27:23] WARNING root fetch - processPackages [certora-cli-alpha-shelly-betterCertoraException]: Skipping package: exceeds size limit 38474626>=10485760
+[2023-05-08 18:27:23] INFO root fetch - processPackages [certora-cli-alpha-shelly-betterCertoraException]: Start processing: koil
+[2023-05-08 18:27:23] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shelly-betterCertoraException] error
+[2023-05-08 18:27:23] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: executing diffoscope
+[2023-05-08 18:27:23] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-lambda-deno-0.0.98.tar.gz tmp/pepperize.cdk-lambda-deno-0.0.99.tar.gz --markdown 20230508/p/pepperize.cdk-lambda-deno/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-08 18:27:23] INFO root fetch - processPackages [koil]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-08 18:27:24] INFO root fetch - processPackages [koil]: Downloading https://files.pythonhosted.org/packages/38/e9/883bfad8182e16c9349bbc24f0ff99890f54a6be1da0ee379228c6de4d49/koil-0.2.8.tar.gz
+[2023-05-08 18:27:24] INFO root fetch - processPackages [gayadsdb6969]: Start processing: pywry
+[2023-05-08 18:27:24] INFO root fetch - main [MainThread]: End processing [gayadsdb6969]: success
+[2023-05-08 18:27:24] INFO root fetch - processPackages [carchive]: Start processing: inductiva
+[2023-05-08 18:27:24] INFO root fetch - main [MainThread]: End processing [carchive]: success
+[2023-05-08 18:27:24] INFO root fetch - processPackages [pywry]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-05-08 18:27:24] INFO root fetch - processPackages [koil]: Downloading https://files.pythonhosted.org/packages/a7/0a/edc0b0795390538409690e37ed514e914aa70de1ad8465a1644e02a1e3dd/koil-0.2.9.tar.gz
+[2023-05-08 18:27:24] INFO root fetch - processPackages [cagen]: Start processing: ellipsisAI
+[2023-05-08 18:27:24] INFO root fetch - main [MainThread]: End processing [cagen]: success
+[2023-05-08 18:27:24] INFO root fetch - processPackages [pywry]: executing diffoscope
+[2023-05-08 18:27:24] INFO root fetch - processPackages [pywry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywry-0.5.2.tar.gz tmp/pywry-0.5.3.tar.gz --markdown 20230508/p/pywry/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-05-08 18:27:24] INFO root fetch - processPackages [inductiva]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 18:27:24] INFO root fetch - processPackages [koil]: executing diffoscope
+[2023-05-08 18:27:24] INFO root fetch - processPackages [koil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/koil-0.2.8.tar.gz tmp/koil-0.2.9.tar.gz --markdown 20230508/k/koil/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-08 18:27:24] INFO root fetch - processPackages [ellipsisAI]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-08 18:27:24] INFO root fetch - main [MainThread]: End processing [xdantic]: success
+[2023-05-08 18:27:24] INFO root fetch - processPackages [inductiva]: Downloading https://files.pythonhosted.org/packages/f5/ff/12aafe5f40c79ba196217ac69abea4ff2395483b0cf633c43282dee37955/inductiva-0.0.8.tar.gz
+[2023-05-08 18:27:24] INFO root fetch - processPackages [holoviews]: Downloading https://files.pythonhosted.org/packages/ef/d1/fbb719d25a5118f76229625ecbbf1505259ad1c95a309fdd184fcfbce7ef/holoviews-1.9.5.tar.gz
+[2023-05-08 18:27:24] INFO root fetch - main [MainThread]: End processing [chat2plot]: success
+[2023-05-08 18:27:24] INFO root fetch - main [MainThread]: End processing [aiofauna]: success
+[2023-05-08 18:27:24] INFO root fetch - processPackages [ellipsisAI]: Downloading https://files.pythonhosted.org/packages/da/a7/88a4b63eb77be60dc7332db30459b64867b2056a799f2e00c1f69f281d38/ellipsisAI-0.1.0.tar.gz
+[2023-05-08 18:27:24] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-lambda-deno]: success
+[2023-05-08 18:27:25] INFO root fetch - processPackages [inductiva]: Downloading https://files.pythonhosted.org/packages/66/8c/41e6f743b1cb237403e96113a0d1f57bd8b76d7462c0d42293e2ea2d7359/inductiva-0.0.9.tar.gz
+[2023-05-08 18:27:25] INFO root fetch - processPackages [inductiva]: executing diffoscope
+[2023-05-08 18:27:25] INFO root fetch - processPackages [inductiva]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inductiva-0.0.8.tar.gz tmp/inductiva-0.0.9.tar.gz --markdown 20230508/i/inductiva/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 18:27:25] INFO root fetch - processPackages [ellipsisAI]: Downloading https://files.pythonhosted.org/packages/15/7f/05d84070ed9583800caf0838a9d136b591a37d12857e75b342ea59eeac9a/ellipsisAI-0.1.1.tar.gz
+[2023-05-08 18:27:25] INFO root fetch - processPackages [ellipsisAI]: executing diffoscope
+[2023-05-08 18:27:25] INFO root fetch - processPackages [ellipsisAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ellipsisAI-0.1.0.tar.gz tmp/ellipsisAI-0.1.1.tar.gz --markdown 20230508/e/ellipsisAI/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-08 18:27:25] INFO root fetch - main [MainThread]: End processing [pywry]: success
+[2023-05-08 18:27:25] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-08 18:27:26] INFO root fetch - processPackages [holoviews]: executing diffoscope
+[2023-05-08 18:27:26] INFO root fetch - processPackages [holoviews]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/holoviews-1.9.4.tar.gz tmp/holoviews-1.9.5.tar.gz --markdown 20230508/h/holoviews/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-05-08 18:27:26] INFO root fetch - main [MainThread]: End processing [koil]: success
+[2023-05-08 18:27:26] INFO root fetch - main [MainThread]: End processing [ellipsisAI]: success
+[2023-05-08 18:27:26] INFO root fetch - main [MainThread]: End processing [inductiva]: success
+[2023-05-08 18:27:34] INFO root fetch - main [MainThread]: End processing [holoviews]: success
+[2023-05-08 18:27:34] INFO root fetch - main [MainThread]: Store serial: [18019373]
