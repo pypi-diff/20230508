@@ -6228,3 +6228,56 @@
 [2023-05-08 08:19:08] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
 [2023-05-08 08:19:08] INFO root fetch - main [MainThread]: End processing [cloudsnorkel.cdk-github-runners]: success
 [2023-05-08 08:19:08] INFO root fetch - main [MainThread]: Store serial: [18013442]
+[2023-05-08 08:24:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18013442]
+[2023-05-08 08:24:17] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-08 08:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: checkov
+[2023-05-08 08:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pretext
+[2023-05-08 08:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pdf2doi4frappe-library
+[2023-05-08 08:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-project-tag
+[2023-05-08 08:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-project-category
+[2023-05-08 08:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rpycocotools-stubs
+[2023-05-08 08:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: concurrent-plugin
+[2023-05-08 08:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: filedbm
+[2023-05-08 08:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fake-bpy-module-latest
+[2023-05-08 08:24:17] INFO root fetch - processPackages [odoo14-addon-project-tag]: New version: [14.0.1.1.1.dev3] Old Version: [14.0.1.1.1.dev2]
+[2023-05-08 08:24:17] INFO root fetch - processPackages [concurrent-plugin]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-05-08 08:24:17] WARNING root fetch - processPackages [pdf2doi4frappe-library]: Skipping, unable to determine old version
+[2023-05-08 08:24:17] INFO root fetch - processPackages [odoo14-addon-project-category]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev8]
+[2023-05-08 08:24:17] INFO root fetch - main [MainThread]: End processing [pdf2doi4frappe-library] error
+[2023-05-08 08:24:17] INFO root fetch - processPackages [filedbm]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-08 08:24:17] INFO root fetch - processPackages [rpycocotools-stubs]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-08 08:24:17] INFO root fetch - processPackages [pretext]: New version: [1.5.3.dev20230508] Old Version: [1.5.3.dev20230507]
+[2023-05-08 08:24:17] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230507] Old Version: [20230506]
+[2023-05-08 08:24:17] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-08 08:24:17] INFO root fetch - processPackages [odoo14-addon-project-category]: executing diffoscope
+[2023-05-08 08:24:17] INFO root fetch - processPackages [odoo14-addon-project-category]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_project_category-14.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_project_category-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230508/o/odoo14-addon-project-category/14.0.1.0.1.dev8-14.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-05-08 08:24:17] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-05-08 08:24:17] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230506.tar.gz tmp/fake-bpy-module-latest-20230507.tar.gz --markdown 20230508/f/fake-bpy-module-latest/20230506-20230507/diff.md --exclude *.pyd
+[2023-05-08 08:24:17] INFO root fetch - processPackages [concurrent-plugin]: Downloading https://files.pythonhosted.org/packages/50/95/935bdf6dca8e948237c0721f658fd84499dbdaed8704315c99c6f436cfcb/concurrent_plugin-0.4.8-py3-none-any.whl
+[2023-05-08 08:24:17] INFO root fetch - processPackages [filedbm]: Downloading https://files.pythonhosted.org/packages/2a/0b/52d7e0feb6e5103da4260953d379d7f69886567ccadb17c3d9312c03bf82/filedbm-0.0.1.tar.gz
+[2023-05-08 08:24:17] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-05-08 08:24:17] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230508/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-08 08:24:17] INFO root fetch - processPackages [rpycocotools-stubs]: Downloading https://files.pythonhosted.org/packages/8e/05/9494dee061e16f768735d192fe74aa0c494f0e2195c60191ea027527b34e/rpycocotools_stubs-0.0.3.tar.gz
+[2023-05-08 08:24:17] INFO root fetch - processPackages [odoo14-addon-project-tag]: Downloading https://files.pythonhosted.org/packages/fd/8b/5af512944c15509366b3cf36175da83fe157813f2f9639cbbe2de2eedb76/odoo14_addon_project_tag-14.0.1.1.1.dev3-py3-none-any.whl
+[2023-05-08 08:24:17] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/ff/ad/3f23a4e179173cdc918b63a07c32a38695448ab51dc140c534dddda525f4/pretext-1.5.3.dev20230508.tar.gz
+[2023-05-08 08:24:17] INFO root fetch - processPackages [concurrent-plugin]: executing diffoscope
+[2023-05-08 08:24:17] INFO root fetch - processPackages [concurrent-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/concurrent_plugin-0.4.7-py3-none-any.whl.zip tmp/concurrent_plugin-0.4.8-py3-none-any.whl.zip --markdown 20230508/c/concurrent-plugin/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-05-08 08:24:17] INFO root fetch - processPackages [odoo14-addon-project-tag]: executing diffoscope
+[2023-05-08 08:24:17] INFO root fetch - processPackages [odoo14-addon-project-tag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_project_tag-14.0.1.1.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_project_tag-14.0.1.1.1.dev3-py3-none-any.whl.zip --markdown 20230508/o/odoo14-addon-project-tag/14.0.1.1.1.dev2-14.0.1.1.1.dev3/diff.md --exclude *.pyd
+[2023-05-08 08:24:17] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-05-08 08:24:17] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.5.3.dev20230507.tar.gz tmp/pretext-1.5.3.dev20230508.tar.gz --markdown 20230508/p/pretext/1.5.3.dev20230507-1.5.3.dev20230508/diff.md --exclude *.pyd
+[2023-05-08 08:24:17] INFO root fetch - processPackages [filedbm]: Downloading https://files.pythonhosted.org/packages/ae/a3/39984932dcda29de42644a135b1ade768c7d565cf1d2383e323b407a72f8/filedbm-0.0.2.tar.gz
+[2023-05-08 08:24:17] INFO root fetch - processPackages [filedbm]: executing diffoscope
+[2023-05-08 08:24:17] INFO root fetch - processPackages [filedbm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filedbm-0.0.1.tar.gz tmp/filedbm-0.0.2.tar.gz --markdown 20230508/f/filedbm/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-08 08:24:17] INFO root fetch - processPackages [rpycocotools-stubs]: Downloading https://files.pythonhosted.org/packages/4a/f4/56708a3895bea8b7987b41a3833b5a40ffb01e8cc0c8cc21a7a2d365e9ad/rpycocotools_stubs-0.0.4.tar.gz
+[2023-05-08 08:24:17] INFO root fetch - processPackages [rpycocotools-stubs]: executing diffoscope
+[2023-05-08 08:24:17] INFO root fetch - processPackages [rpycocotools-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpycocotools_stubs-0.0.3.tar.gz tmp/rpycocotools_stubs-0.0.4.tar.gz --markdown 20230508/r/rpycocotools-stubs/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-08 08:24:18] INFO root fetch - main [MainThread]: End processing [odoo14-addon-project-category]: success
+[2023-05-08 08:24:18] INFO root fetch - main [MainThread]: End processing [concurrent-plugin]: success
+[2023-05-08 08:24:19] INFO root fetch - main [MainThread]: End processing [odoo14-addon-project-tag]: success
+[2023-05-08 08:24:19] INFO root fetch - main [MainThread]: End processing [filedbm]: success
+[2023-05-08 08:24:19] INFO root fetch - main [MainThread]: End processing [rpycocotools-stubs]: success
+[2023-05-08 08:24:23] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-05-08 08:24:23] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-05-08 08:24:59] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-05-08 08:24:59] INFO root fetch - main [MainThread]: Store serial: [18013468]
