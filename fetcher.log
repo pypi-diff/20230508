@@ -11479,3 +11479,81 @@
 [2023-05-08 13:59:33] INFO root fetch - main [MainThread]: End processing [pybaqus]: success
 [2023-05-08 13:59:35] INFO root fetch - main [MainThread]: End processing [pssapi]: success
 [2023-05-08 13:59:35] INFO root fetch - main [MainThread]: Store serial: [18016347]
+[2023-05-08 14:04:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18016347]
+[2023-05-08 14:04:44] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-08 14:04:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clubscore
+[2023-05-08 14:04:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dxsp
+[2023-05-08 14:04:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pybaqus
+[2023-05-08 14:04:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: microdata-validator
+[2023-05-08 14:04:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-cams20200606-py2
+[2023-05-08 14:04:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: resolwe-bio
+[2023-05-08 14:04:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fixed2float
+[2023-05-08 14:04:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: redis
+[2023-05-08 14:04:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tf-agents-nightly
+[2023-05-08 14:04:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vasprocar
+[2023-05-08 14:04:44] INFO root fetch - processPackages [clubscore]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-08 14:04:44] INFO root fetch - processPackages [pybaqus]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-08 14:04:44] INFO root fetch - processPackages [microdata-validator]: New version: [7.3.3] Old Version: [7.3.2]
+[2023-05-08 14:04:44] INFO root fetch - processPackages [dxsp]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-05-08 14:04:44] INFO root fetch - processPackages [tf-agents-nightly]: New version: [0.9.0.dev20210812] Old Version: [0.9.0.dev20210811]
+[2023-05-08 14:04:44] INFO root fetch - processPackages [tf-agents-nightly]: Downloading https://files.pythonhosted.org/packages/2f/8e/5b1259fdcefcc564c90842a0c1206b58d6abfbb7914bcbd38710ba780d40/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl
+[2023-05-08 14:04:44] INFO root fetch - processPackages [alibabacloud-cams20200606-py2]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-08 14:04:44] INFO root fetch - processPackages [vasprocar]: New version: [1.1.15.5] Old Version: [1.1.15.4]
+[2023-05-08 14:04:44] INFO root fetch - processPackages [redis]: New version: [5.0.0b3] Old Version: [5.0.0b2]
+[2023-05-08 14:04:44] INFO root fetch - processPackages [pybaqus]: executing diffoscope
+[2023-05-08 14:04:44] INFO root fetch - processPackages [pybaqus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybaqus-0.2.8.tar.gz tmp/pybaqus-0.2.9.tar.gz --markdown 20230508/p/pybaqus/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-08 14:04:44] INFO root fetch - processPackages [fixed2float]: New version: [4.0.0rc1] Old Version: [3.0.0rc1]
+[2023-05-08 14:04:44] INFO root fetch - processPackages [resolwe-bio]: New version: [9.0.0a4] Old Version: [9.0.0a3]
+[2023-05-08 14:04:44] INFO root fetch - processPackages [microdata-validator]: Downloading https://files.pythonhosted.org/packages/b4/8a/ec44273d048913b0b1a24a88b4d31579f0408ebbb24e93f59c48944a8c5b/microdata-validator-7.3.2.tar.gz
+[2023-05-08 14:04:44] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/ca/07/d42492694bae2c4329ce0dccfd3ff8af562c544a092b671e5f55ab57bf75/dxsp-2.0.8.tar.gz
+[2023-05-08 14:04:45] INFO root fetch - processPackages [alibabacloud-cams20200606-py2]: Downloading https://files.pythonhosted.org/packages/25/bd/26318eb6a890bf84438d72e9ca8c848029f9c423a7da0ca236d4f9b4182c/alibabacloud_cams20200606_py2-1.0.8.tar.gz
+[2023-05-08 14:04:45] INFO root fetch - processPackages [redis]: Downloading https://files.pythonhosted.org/packages/2b/ba/092f886a82de33759bcf64baa36b1c0457133ae67bea14babaaf7aa68130/redis-5.0.0b2.tar.gz
+[2023-05-08 14:04:45] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-05-08 14:04:45] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-2.0.7.tar.gz tmp/dxsp-2.0.8.tar.gz --markdown 20230508/d/dxsp/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-05-08 14:04:45] INFO root fetch - processPackages [fixed2float]: Downloading https://files.pythonhosted.org/packages/43/1e/e1fd251b859f07c34549fa2585a9b5c606f238921de90b6bd506b01ad6ec/fixed2float-3.0.0_rc1.tar.gz
+[2023-05-08 14:04:45] INFO root fetch - processPackages [resolwe-bio]: Downloading https://files.pythonhosted.org/packages/c2/bc/f6993bc75941b8f8244e41353c3ec4b4e616477c70876197f0e454cf674e/resolwe-bio-9.0.0a3.tar.gz
+[2023-05-08 14:04:45] INFO root fetch - processPackages [clubscore]: Downloading https://files.pythonhosted.org/packages/6f/04/3f9a71be8a1667ce6520f3bd89481d1036693e05e7a95f8ec62c2b6c43cb/clubscore-0.1.3.tar.gz
+[2023-05-08 14:04:45] INFO root fetch - processPackages [microdata-validator]: Downloading https://files.pythonhosted.org/packages/0e/6c/202575e98e4eec4b7d6d9b183c7a8e3349085503a42f491d4df2bb3b4342/microdata_validator-7.3.3.tar.gz
+[2023-05-08 14:04:45] INFO root fetch - processPackages [vasprocar]: Downloading https://files.pythonhosted.org/packages/81/d5/8adaac73ced8375a901fe97dbba219394803db276cd7b8bca73d6ae0861f/vasprocar-1.1.15.5.tar.gz
+[2023-05-08 14:04:45] INFO root fetch - processPackages [clubscore]: executing diffoscope
+[2023-05-08 14:04:45] INFO root fetch - processPackages [clubscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clubscore-0.1.2.tar.gz tmp/clubscore-0.1.3.tar.gz --markdown 20230508/c/clubscore/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-08 14:04:45] INFO root fetch - processPackages [microdata-validator]: executing diffoscope
+[2023-05-08 14:04:45] INFO root fetch - processPackages [microdata-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microdata-validator-7.3.2.tar.gz tmp/microdata_validator-7.3.3.tar.gz --markdown 20230508/m/microdata-validator/7.3.2-7.3.3/diff.md --exclude *.pyd
+[2023-05-08 14:04:45] INFO root fetch - processPackages [tf-agents-nightly]: Downloading https://files.pythonhosted.org/packages/ae/8c/d1e1b7b8f7b6ceee69bbf569ab3bd6f79ffd9963ff66079303942550d03d/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl
+[2023-05-08 14:04:45] INFO root fetch - processPackages [redis]: Downloading https://files.pythonhosted.org/packages/81/27/2eb5baacdcd7db0452db7b55ed4e0f0cc0b4caa6cf95df2f756f040bccbe/redis-5.0.0b3.tar.gz
+[2023-05-08 14:04:45] INFO root fetch - processPackages [alibabacloud-cams20200606-py2]: Downloading https://files.pythonhosted.org/packages/ba/c2/4dd757284b4ef36279913e9b210bacd5b0d709829e1cfad89cab6abd9fed/alibabacloud_cams20200606_py2-1.0.9.tar.gz
+[2023-05-08 14:04:45] INFO root fetch - processPackages [vasprocar]: executing diffoscope
+[2023-05-08 14:04:45] INFO root fetch - processPackages [vasprocar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vasprocar-1.1.15.4.tar.gz tmp/vasprocar-1.1.15.5.tar.gz --markdown 20230508/v/vasprocar/1.1.15.4-1.1.15.5/diff.md --exclude *.pyd
+[2023-05-08 14:04:45] INFO root fetch - processPackages [fixed2float]: Downloading https://files.pythonhosted.org/packages/d6/dc/e3bbf9b941b672ef60867c7c35f0816d40f4ae7cd77447e49e41bccec2b8/fixed2float-4.0.0_rc1.tar.gz
+[2023-05-08 14:04:45] INFO root fetch - processPackages [redis]: executing diffoscope
+[2023-05-08 14:04:45] INFO root fetch - processPackages [redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redis-5.0.0b2.tar.gz tmp/redis-5.0.0b3.tar.gz --markdown 20230508/r/redis/5.0.0b2-5.0.0b3/diff.md --exclude *.pyd
+[2023-05-08 14:04:45] INFO root fetch - processPackages [alibabacloud-cams20200606-py2]: executing diffoscope
+[2023-05-08 14:04:45] INFO root fetch - processPackages [alibabacloud-cams20200606-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cams20200606_py2-1.0.8.tar.gz tmp/alibabacloud_cams20200606_py2-1.0.9.tar.gz --markdown 20230508/a/alibabacloud-cams20200606-py2/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-08 14:04:45] INFO root fetch - processPackages [fixed2float]: executing diffoscope
+[2023-05-08 14:04:45] INFO root fetch - processPackages [fixed2float]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixed2float-3.0.0_rc1.tar.gz tmp/fixed2float-4.0.0_rc1.tar.gz --markdown 20230508/f/fixed2float/3.0.0rc1-4.0.0rc1/diff.md --exclude *.pyd
+[2023-05-08 14:04:45] INFO root fetch - processPackages [tf-agents-nightly]: executing diffoscope
+[2023-05-08 14:04:45] INFO root fetch - processPackages [tf-agents-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip --markdown 20230508/t/tf-agents-nightly/0.9.0.dev20210811-0.9.0.dev20210812/diff.md --exclude *.pyd
+[2023-05-08 14:04:46] INFO root fetch - processPackages [pybaqus]: Start processing: sparkverse
+[2023-05-08 14:04:46] INFO root fetch - main [MainThread]: End processing [pybaqus]: success
+[2023-05-08 14:04:46] WARNING root fetch - processPackages [sparkverse]: Skipping, unable to determine old version
+[2023-05-08 14:04:46] INFO root fetch - processPackages [sparkverse]: Start processing: alibabacloud-cams20200606
+[2023-05-08 14:04:46] INFO root fetch - main [MainThread]: End processing [sparkverse] error
+[2023-05-08 14:04:46] INFO root fetch - processPackages [alibabacloud-cams20200606]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-08 14:04:46] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-05-08 14:04:46] INFO root fetch - main [MainThread]: End processing [clubscore]: success
+[2023-05-08 14:04:46] INFO root fetch - processPackages [alibabacloud-cams20200606]: Downloading https://files.pythonhosted.org/packages/a0/b4/ed840bee76fd6d73392944574b34aa8b25bf3f80947bbd96ab1595c974ef/alibabacloud_cams20200606-1.0.8.tar.gz
+[2023-05-08 14:04:47] INFO root fetch - main [MainThread]: End processing [alibabacloud-cams20200606-py2]: success
+[2023-05-08 14:04:47] INFO root fetch - main [MainThread]: End processing [fixed2float]: success
+[2023-05-08 14:04:47] INFO root fetch - processPackages [alibabacloud-cams20200606]: Downloading https://files.pythonhosted.org/packages/7f/4b/9e3233a55504d9d86f1667a3df304c163a76ecdf9f7f4500d1d9b7965140/alibabacloud_cams20200606-1.0.9.tar.gz
+[2023-05-08 14:04:47] INFO root fetch - processPackages [alibabacloud-cams20200606]: executing diffoscope
+[2023-05-08 14:04:47] INFO root fetch - processPackages [alibabacloud-cams20200606]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cams20200606-1.0.8.tar.gz tmp/alibabacloud_cams20200606-1.0.9.tar.gz --markdown 20230508/a/alibabacloud-cams20200606/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-08 14:04:47] INFO root fetch - main [MainThread]: End processing [microdata-validator]: success
+[2023-05-08 14:04:47] INFO root fetch - main [MainThread]: End processing [vasprocar]: success
+[2023-05-08 14:04:48] INFO root fetch - main [MainThread]: End processing [alibabacloud-cams20200606]: success
+[2023-05-08 14:04:49] INFO root fetch - processPackages [resolwe-bio]: Downloading https://files.pythonhosted.org/packages/c9/30/533d131f30f01305f0d25555f7e3eaa209d8400cd99b38de17dfec330f11/resolwe-bio-9.0.0a4.tar.gz
+[2023-05-08 14:04:51] INFO root fetch - main [MainThread]: End processing [redis]: success
+[2023-05-08 14:04:52] INFO root fetch - processPackages [resolwe-bio]: executing diffoscope
+[2023-05-08 14:04:52] INFO root fetch - processPackages [resolwe-bio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolwe-bio-9.0.0a3.tar.gz tmp/resolwe-bio-9.0.0a4.tar.gz --markdown 20230508/r/resolwe-bio/9.0.0a3-9.0.0a4/diff.md --exclude *.pyd
+[2023-05-08 14:04:52] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
+[2023-05-08 14:05:02] INFO root fetch - main [MainThread]: End processing [resolwe-bio]: success
+[2023-05-08 14:05:02] INFO root fetch - main [MainThread]: Store serial: [18016391]
