@@ -6281,3 +6281,36 @@
 [2023-05-08 08:24:23] INFO root fetch - main [MainThread]: End processing [pretext]: success
 [2023-05-08 08:24:59] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-05-08 08:24:59] INFO root fetch - main [MainThread]: Store serial: [18013468]
+[2023-05-08 08:30:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18013468]
+[2023-05-08 08:30:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-08 08:30:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dsdl
+[2023-05-08 08:30:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chainlib-eth
+[2023-05-08 08:30:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: s3dbm
+[2023-05-08 08:30:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bridgecrew
+[2023-05-08 08:30:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tilelog
+[2023-05-08 08:30:08] INFO root fetch - processPackages [s3dbm]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-08 08:30:09] INFO root fetch - processPackages [chainlib-eth]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-08 08:30:09] INFO root fetch - processPackages [dsdl]: New version: [0.1.9.4] Old Version: [0.1.9.3]
+[2023-05-08 08:30:09] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-08 08:30:09] INFO root fetch - processPackages [tilelog]: New version: [1.5.0] Old Version: [1.4.1]
+[2023-05-08 08:30:09] INFO root fetch - processPackages [chainlib-eth]: executing diffoscope
+[2023-05-08 08:30:09] INFO root fetch - processPackages [chainlib-eth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainlib-eth-0.4.8.tar.gz tmp/chainlib-eth-0.4.9.tar.gz --markdown 20230508/c/chainlib-eth/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-08 08:30:09] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-05-08 08:30:09] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230508/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-08 08:30:09] INFO root fetch - processPackages [dsdl]: Downloading https://files.pythonhosted.org/packages/72/78/9f7951d13baca4871af4fe5dcf8ccc96fa647a1c60deb96f60b9c69b38ad/dsdl-0.1.9.3.tar.gz
+[2023-05-08 08:30:09] INFO root fetch - processPackages [s3dbm]: Downloading https://files.pythonhosted.org/packages/13/8c/81515fb2fef1db7554b098ef21ef70365251972ca2bfbfe43415f318b3ce/s3dbm-0.0.4.tar.gz
+[2023-05-08 08:30:09] INFO root fetch - processPackages [tilelog]: Downloading https://files.pythonhosted.org/packages/1a/05/46a09bbb4f2e56e912ef956132d1980d8b363fa5f2709263a036bbfead7c/tilelog-1.4.1.tar.gz
+[2023-05-08 08:30:09] INFO root fetch - processPackages [s3dbm]: executing diffoscope
+[2023-05-08 08:30:09] INFO root fetch - processPackages [s3dbm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s3dbm-0.0.3.tar.gz tmp/s3dbm-0.0.4.tar.gz --markdown 20230508/s/s3dbm/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-08 08:30:09] INFO root fetch - processPackages [tilelog]: Downloading https://files.pythonhosted.org/packages/24/36/c7f723061f93a3d86536b326e0980f16f6f4f77a649e3e20a290ce169165/tilelog-1.5.0.tar.gz
+[2023-05-08 08:30:09] INFO root fetch - processPackages [dsdl]: Downloading https://files.pythonhosted.org/packages/fc/7a/fc3f95a42223d639a7eac4acd259c2d756637e2604b1274305ab671d6f57/dsdl-0.1.9.4.tar.gz
+[2023-05-08 08:30:09] INFO root fetch - processPackages [tilelog]: executing diffoscope
+[2023-05-08 08:30:09] INFO root fetch - processPackages [tilelog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tilelog-1.4.1.tar.gz tmp/tilelog-1.5.0.tar.gz --markdown 20230508/t/tilelog/1.4.1-1.5.0/diff.md --exclude *.pyd
+[2023-05-08 08:30:09] INFO root fetch - processPackages [dsdl]: executing diffoscope
+[2023-05-08 08:30:09] INFO root fetch - processPackages [dsdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsdl-0.1.9.3.tar.gz tmp/dsdl-0.1.9.4.tar.gz --markdown 20230508/d/dsdl/0.1.9.3-0.1.9.4/diff.md --exclude *.pyd
+[2023-05-08 08:30:10] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-05-08 08:30:10] INFO root fetch - main [MainThread]: End processing [s3dbm]: success
+[2023-05-08 08:30:10] INFO root fetch - main [MainThread]: End processing [chainlib-eth]: success
+[2023-05-08 08:30:10] INFO root fetch - main [MainThread]: End processing [tilelog]: success
+[2023-05-08 08:30:11] INFO root fetch - main [MainThread]: End processing [dsdl]: success
+[2023-05-08 08:30:11] INFO root fetch - main [MainThread]: Store serial: [18013483]
