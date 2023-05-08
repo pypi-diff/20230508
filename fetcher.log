@@ -19406,3 +19406,92 @@ EOFError: EOF read where object expected
 [2023-05-08 20:44:26] INFO root fetch - main [MainThread]: End processing [protobuf]: success
 [2023-05-08 20:44:41] INFO root fetch - main [MainThread]: End processing [sarpy]: success
 [2023-05-08 20:44:41] INFO root fetch - main [MainThread]: Store serial: [18020866]
+[2023-05-08 20:49:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18020866]
+[2023-05-08 20:49:51] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-08 20:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flightplandb
+[2023-05-08 20:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simc-support
+[2023-05-08 20:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mygui
+[2023-05-08 20:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oglio
+[2023-05-08 20:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shub-workflow
+[2023-05-08 20:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bs-python-utils
+[2023-05-08 20:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Sandra
+[2023-05-08 20:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: semsim
+[2023-05-08 20:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: strangeworks
+[2023-05-08 20:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: llama-cpp-python
+[2023-05-08 20:49:51] INFO root fetch - processPackages [mygui]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-08 20:49:51] INFO root fetch - processPackages [llama-cpp-python]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 20:49:51] INFO root fetch - processPackages [bs-python-utils]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-08 20:49:51] INFO root fetch - processPackages [simc-support]: New version: [9.2.5.3] Old Version: [9.2.5.2]
+[2023-05-08 20:49:51] INFO root fetch - processPackages [semsim]: New version: [1.1.0] Old Version: [0.0.0]
+[2023-05-08 20:49:51] INFO root fetch - processPackages [flightplandb]: New version: [0.8.0] Old Version: [0.7.2]
+[2023-05-08 20:49:51] INFO root fetch - processPackages [Sandra]: New version: [0.0.18] Old Version: [0.0.17]
+[2023-05-08 20:49:51] INFO root fetch - processPackages [mygui]: executing diffoscope
+[2023-05-08 20:49:51] INFO root fetch - processPackages [mygui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mygui-0.2.2.tar.gz tmp/mygui-0.2.3.tar.gz --markdown 20230508/m/mygui/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-08 20:49:51] INFO root fetch - processPackages [shub-workflow]: New version: [1.9.7.4] Old Version: [1.9.7.3]
+[2023-05-08 20:49:51] INFO root fetch - processPackages [strangeworks]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-08 20:49:51] INFO root fetch - processPackages [oglio]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-05-08 20:49:51] INFO root fetch - processPackages [llama-cpp-python]: executing diffoscope
+[2023-05-08 20:49:51] INFO root fetch - processPackages [llama-cpp-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_cpp_python-0.1.8.tar.gz tmp/llama_cpp_python-0.1.9.tar.gz --markdown 20230508/l/llama-cpp-python/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 20:49:51] INFO root fetch - processPackages [bs-python-utils]: Downloading https://files.pythonhosted.org/packages/54/df/d381ac5477a993dc1586e94b81cb3bb139789f9be4dd3fbbec44c73c33b2/bs_python_utils-0.0.4.tar.gz
+[2023-05-08 20:49:51] INFO root fetch - processPackages [semsim]: Downloading https://files.pythonhosted.org/packages/cd/8a/6125d7a226dc941d3356bef507c7b6c7a1f7ed1867d2e5d7e185154b9c7c/semsim-0.0.0.tar.gz
+[2023-05-08 20:49:51] INFO root fetch - processPackages [shub-workflow]: Downloading https://files.pythonhosted.org/packages/b8/b5/f37b87a1a4c72917366bc3b9794f1729c62b0130131750ba52c35c41e5e4/shub-workflow-1.9.7.3.tar.gz
+[2023-05-08 20:49:51] INFO root fetch - processPackages [oglio]: Downloading https://files.pythonhosted.org/packages/73/90/b11a6ef434af5fc5b9fa407657e77a68f3529e2aff8ee417fd7dd07ad5c1/oglio-0.7.2.tar.gz
+[2023-05-08 20:49:51] INFO root fetch - processPackages [Sandra]: Downloading https://files.pythonhosted.org/packages/9a/79/a7c215e9576460cdd79892f410ae370788228c5b2ef99fdf64d5c70f3492/Sandra-0.0.17.tar.gz
+[2023-05-08 20:49:51] INFO root fetch - processPackages [simc-support]: Downloading https://files.pythonhosted.org/packages/f2/2a/7c51939ccb108431387a296bc5c850bc5de94d88f9f5349f20368b0d95e5/simc_support-9.2.5.2.tar.gz
+[2023-05-08 20:49:51] INFO root fetch - processPackages [strangeworks]: Downloading https://files.pythonhosted.org/packages/f2/4c/d889cba96e9c09a4ce587a66e9fa3c9b167f84037d989f13d775e4cf6779/strangeworks-0.4.1.tar.gz
+[2023-05-08 20:49:51] INFO root fetch - processPackages [bs-python-utils]: Downloading https://files.pythonhosted.org/packages/dc/db/d84575822c1d65089f344b521f2aa1bfb1c4da9c5179a7e482d7e99ec6b6/bs_python_utils-0.0.5.tar.gz
+[2023-05-08 20:49:51] INFO root fetch - processPackages [flightplandb]: Downloading https://files.pythonhosted.org/packages/61/98/46c011a7fe782f89ddab311955772dfece8e61438bf4c3848fa9f4fb54a9/flightplandb-0.7.2.tar.gz
+[2023-05-08 20:49:51] INFO root fetch - processPackages [semsim]: Downloading https://files.pythonhosted.org/packages/be/1f/60af60d0b16b51805eb400380e2d3c2c7f155b93e95e8337bba3ba7b33b4/semsim-1.1.0.tar.gz
+[2023-05-08 20:49:51] INFO root fetch - processPackages [Sandra]: Downloading https://files.pythonhosted.org/packages/c8/cb/6bd4fbebeefe44c15a1455b75182ae8dd88fe57ad06f1336a3b298fabb9c/Sandra-0.0.18.tar.gz
+[2023-05-08 20:49:51] INFO root fetch - processPackages [oglio]: Downloading https://files.pythonhosted.org/packages/dd/fc/e5b7a070ff5bd80a1a162f505be6ae25144d9d6350085f53de434b0006c4/oglio-0.7.3.tar.gz
+[2023-05-08 20:49:51] INFO root fetch - processPackages [bs-python-utils]: executing diffoscope
+[2023-05-08 20:49:51] INFO root fetch - processPackages [bs-python-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bs_python_utils-0.0.4.tar.gz tmp/bs_python_utils-0.0.5.tar.gz --markdown 20230508/b/bs-python-utils/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-08 20:49:52] INFO root fetch - processPackages [semsim]: executing diffoscope
+[2023-05-08 20:49:52] INFO root fetch - processPackages [semsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semsim-0.0.0.tar.gz tmp/semsim-1.1.0.tar.gz --markdown 20230508/s/semsim/0.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-08 20:49:52] INFO root fetch - processPackages [shub-workflow]: Downloading https://files.pythonhosted.org/packages/06/49/c3ec898ce5372e567e1a288374d950650ae37bcffa6f46c6d7233228eee6/shub-workflow-1.9.7.4.tar.gz
+[2023-05-08 20:49:52] INFO root fetch - processPackages [strangeworks]: Downloading https://files.pythonhosted.org/packages/27/88/0f17117be28e66fdd586fb5b03ce0e0732aadd7ee2ebcfd1de57f38c7269/strangeworks-0.4.2.tar.gz
+[2023-05-08 20:49:52] INFO root fetch - processPackages [Sandra]: executing diffoscope
+[2023-05-08 20:49:52] INFO root fetch - processPackages [Sandra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Sandra-0.0.17.tar.gz tmp/Sandra-0.0.18.tar.gz --markdown 20230508/S/Sandra/0.0.17-0.0.18/diff.md --exclude *.pyd
+[2023-05-08 20:49:52] INFO root fetch - processPackages [oglio]: executing diffoscope
+[2023-05-08 20:49:52] INFO root fetch - processPackages [oglio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oglio-0.7.2.tar.gz tmp/oglio-0.7.3.tar.gz --markdown 20230508/o/oglio/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-05-08 20:49:52] INFO root fetch - processPackages [simc-support]: Downloading https://files.pythonhosted.org/packages/7f/f2/94679bd3aff7cfce75541c456a83745c5be1b451e014726a9dceb888be9e/simc_support-9.2.5.3.tar.gz
+[2023-05-08 20:49:52] INFO root fetch - processPackages [flightplandb]: Downloading https://files.pythonhosted.org/packages/49/4f/4b6a605b031d9d7acb1b077fcd49d3495c575fc40d674f1c9d42f83714e2/flightplandb-0.8.0.tar.gz
+[2023-05-08 20:49:52] INFO root fetch - processPackages [shub-workflow]: executing diffoscope
+[2023-05-08 20:49:52] INFO root fetch - processPackages [shub-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shub-workflow-1.9.7.3.tar.gz tmp/shub-workflow-1.9.7.4.tar.gz --markdown 20230508/s/shub-workflow/1.9.7.3-1.9.7.4/diff.md --exclude *.pyd
+[2023-05-08 20:49:52] INFO root fetch - processPackages [strangeworks]: executing diffoscope
+[2023-05-08 20:49:52] INFO root fetch - processPackages [strangeworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strangeworks-0.4.1.tar.gz tmp/strangeworks-0.4.2.tar.gz --markdown 20230508/s/strangeworks/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-08 20:49:52] INFO root fetch - processPackages [flightplandb]: executing diffoscope
+[2023-05-08 20:49:52] INFO root fetch - processPackages [flightplandb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flightplandb-0.7.2.tar.gz tmp/flightplandb-0.8.0.tar.gz --markdown 20230508/f/flightplandb/0.7.2-0.8.0/diff.md --exclude *.pyd
+[2023-05-08 20:49:52] INFO root fetch - processPackages [simc-support]: executing diffoscope
+[2023-05-08 20:49:52] INFO root fetch - processPackages [simc-support]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simc_support-9.2.5.2.tar.gz tmp/simc_support-9.2.5.3.tar.gz --markdown 20230508/s/simc-support/9.2.5.2-9.2.5.3/diff.md --exclude *.pyd
+[2023-05-08 20:49:52] INFO root fetch - processPackages [mygui]: Start processing: celerity
+[2023-05-08 20:49:52] INFO root fetch - main [MainThread]: End processing [mygui]: success
+[2023-05-08 20:49:52] INFO root fetch - processPackages [celerity]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-05-08 20:49:53] INFO root fetch - processPackages [celerity]: Downloading https://files.pythonhosted.org/packages/9a/13/6b9149707256aae5e925457d1bcf3b1399d8b14693801a2f03863e128620/celerity-0.7.0.tar.gz
+[2023-05-08 20:49:53] INFO root fetch - processPackages [semsim]: Start processing: open-space-toolkit-physics
+[2023-05-08 20:49:53] INFO root fetch - main [MainThread]: End processing [semsim]: success
+[2023-05-08 20:49:53] INFO root fetch - processPackages [bs-python-utils]: Start processing: tsdat
+[2023-05-08 20:49:53] INFO root fetch - main [MainThread]: End processing [bs-python-utils]: success
+[2023-05-08 20:49:53] INFO root fetch - processPackages [celerity]: executing diffoscope
+[2023-05-08 20:49:53] INFO root fetch - processPackages [celerity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celerity-0.6.0.tar.gz tmp/celerity-0.7.0.tar.gz --markdown 20230508/c/celerity/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-05-08 20:49:53] INFO root fetch - processPackages [open-space-toolkit-physics]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-05-08 20:49:53] INFO root fetch - main [MainThread]: End processing [oglio]: success
+[2023-05-08 20:49:53] INFO root fetch - processPackages [tsdat]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-08 20:49:53] INFO root fetch - main [MainThread]: End processing [Sandra]: success
+[2023-05-08 20:49:53] INFO root fetch - main [MainThread]: End processing [shub-workflow]: success
+[2023-05-08 20:49:53] INFO root fetch - processPackages [open-space-toolkit-physics]: Downloading https://files.pythonhosted.org/packages/33/b6/1c038eaaf7ce2992dec628d9399ac02c5aa1dd88e32492d1351ebbdbb842/open_space_toolkit_physics-0.6.0-py39-none-any.whl
+[2023-05-08 20:49:53] INFO root fetch - main [MainThread]: End processing [strangeworks]: success
+[2023-05-08 20:49:53] INFO root fetch - processPackages [tsdat]: Downloading https://files.pythonhosted.org/packages/ef/a2/5ddab186e09d6519c070de1f34f686de4a636145c3a69256ed6169d0ffac/tsdat-0.5.8.tar.gz
+[2023-05-08 20:49:54] INFO root fetch - main [MainThread]: End processing [simc-support]: success
+[2023-05-08 20:49:54] INFO root fetch - processPackages [open-space-toolkit-physics]: Downloading https://files.pythonhosted.org/packages/fc/04/754dec644596eb4fb0d63f0fdff9aa1169e3191914d4fad3f32f61093ae8/open_space_toolkit_physics-0.7.0-py39-none-any.whl
+[2023-05-08 20:49:54] INFO root fetch - processPackages [tsdat]: Downloading https://files.pythonhosted.org/packages/30/8b/9b961dcd5cca01c5a55a29a4294346258823cd2192032f93986413d5348e/tsdat-0.5.9.tar.gz
+[2023-05-08 20:49:54] INFO root fetch - processPackages [tsdat]: executing diffoscope
+[2023-05-08 20:49:54] INFO root fetch - processPackages [tsdat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsdat-0.5.8.tar.gz tmp/tsdat-0.5.9.tar.gz --markdown 20230508/t/tsdat/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-08 20:49:54] INFO root fetch - main [MainThread]: End processing [llama-cpp-python]: success
+[2023-05-08 20:49:54] INFO root fetch - main [MainThread]: End processing [flightplandb]: success
+[2023-05-08 20:49:54] INFO root fetch - main [MainThread]: End processing [celerity]: success
+[2023-05-08 20:49:55] INFO root fetch - processPackages [open-space-toolkit-physics]: executing diffoscope
+[2023-05-08 20:49:55] INFO root fetch - processPackages [open-space-toolkit-physics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_space_toolkit_physics-0.6.0-py39-none-any.whl.zip tmp/open_space_toolkit_physics-0.7.0-py39-none-any.whl.zip --markdown 20230508/o/open-space-toolkit-physics/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-05-08 20:49:55] INFO root fetch - main [MainThread]: End processing [tsdat]: success
+[2023-05-08 20:50:26] INFO root fetch - main [MainThread]: End processing [open-space-toolkit-physics]: success
+[2023-05-08 20:50:26] INFO root fetch - main [MainThread]: Store serial: [18020906]
