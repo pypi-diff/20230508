@@ -16940,3 +16940,114 @@ EOFError: EOF read where object expected
 [2023-05-08 18:27:26] INFO root fetch - main [MainThread]: End processing [inductiva]: success
 [2023-05-08 18:27:34] INFO root fetch - main [MainThread]: End processing [holoviews]: success
 [2023-05-08 18:27:34] INFO root fetch - main [MainThread]: Store serial: [18019373]
+[2023-05-08 18:32:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18019373]
+[2023-05-08 18:32:43] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-08 18:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: feathub-nightly
+[2023-05-08 18:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FicImage
+[2023-05-08 18:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oz-defender
+[2023-05-08 18:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: integreat-cms
+[2023-05-08 18:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sidetrek
+[2023-05-08 18:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ntdsdotsqlite
+[2023-05-08 18:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-yuvalbd-rule-events-error-checking-part-two
+[2023-05-08 18:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: SimplePBI
+[2023-05-08 18:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torch
+[2023-05-08 18:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tf-nightly-intel
+[2023-05-08 18:32:43] INFO root fetch - processPackages [oz-defender]: New version: [0.1.1] Old Version: [0.0.2]
+[2023-05-08 18:32:43] INFO root fetch - processPackages [FicImage]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-08 18:32:43] INFO root fetch - processPackages [integreat-cms]: New version: [2023.5.1] Old Version: [2023.5.0]
+[2023-05-08 18:32:43] INFO root fetch - processPackages [SimplePBI]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-08 18:32:43] INFO root fetch - processPackages [sidetrek]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 18:32:43] WARNING root fetch - processPackages [ntdsdotsqlite]: Skipping, unable to determine old version
+[2023-05-08 18:32:43] INFO root fetch - processPackages [ntdsdotsqlite]: Start processing: langchain
+[2023-05-08 18:32:43] INFO root fetch - main [MainThread]: End processing [ntdsdotsqlite] error
+[2023-05-08 18:32:43] INFO root fetch - processPackages [certora-cli-alpha-yuvalbd-rule-events-error-checking-part-two]: New version: [20230508.7.43.27573] Old Version: [20230508.7.12.93347]
+[2023-05-08 18:32:43] INFO root fetch - processPackages [torch]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-08 18:32:43] INFO root fetch - processPackages [langchain]: New version: [0.0.99rc0] Old Version: [0.0.99]
+[2023-05-08 18:32:43] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.14.0.dev20230507] Old Version: [2.14.0.dev20230506]
+[2023-05-08 18:32:43] INFO root fetch - processPackages [certora-cli-alpha-yuvalbd-rule-events-error-checking-part-two]: Downloading https://files.pythonhosted.org/packages/8c/6a/e54959507f9a03300127a7a13e298b090ea5d8a802d99857d877e4706976/certora-cli-alpha-yuvalbd-rule_events_error_checking_part_two-20230508.7.12.93347.tar.gz
+[2023-05-08 18:32:43] INFO root fetch - processPackages [feathub-nightly]: New version: [0.1.dev20230508] Old Version: [0.1.dev20230507]
+[2023-05-08 18:32:43] WARNING root fetch - processPackages [certora-cli-alpha-yuvalbd-rule-events-error-checking-part-two]: Skipping package: exceeds size limit 38474506>=10485760
+[2023-05-08 18:32:43] INFO root fetch - processPackages [certora-cli-alpha-yuvalbd-rule-events-error-checking-part-two]: Start processing: periodic-element-properties
+[2023-05-08 18:32:43] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-yuvalbd-rule-events-error-checking-part-two] error
+[2023-05-08 18:32:43] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/6c/7a/c3c9d234e11b74d7cbed55f5c307c9e229663471d72dde2586cdbd802aec/tf_nightly_intel-2.14.0.dev20230506-cp39-cp39-win_amd64.whl
+[2023-05-08 18:32:43] INFO root fetch - processPackages [sidetrek]: executing diffoscope
+[2023-05-08 18:32:43] INFO root fetch - processPackages [sidetrek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sidetrek-0.0.8.tar.gz tmp/sidetrek-0.0.9.tar.gz --markdown 20230508/s/sidetrek/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 18:32:43] INFO root fetch - processPackages [FicImage]: Downloading https://files.pythonhosted.org/packages/d6/57/531ee5fbbe202309eb1d51d329fc9ffee61820e1a2f1fbcdbfc41e45a2dc/FicImage-1.0.0.tar.gz
+[2023-05-08 18:32:43] INFO root fetch - processPackages [periodic-element-properties]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-05-08 18:32:43] INFO root fetch - processPackages [integreat-cms]: Downloading https://files.pythonhosted.org/packages/4a/cc/97593d60b4f970423f6ed3eff3ae0761ae7171d5e06c55386f73c22c28dc/integreat-cms-2023.5.0.tar.gz
+[2023-05-08 18:32:43] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 179866241>=10485760
+[2023-05-08 18:32:43] INFO root fetch - processPackages [tf-nightly-intel]: Start processing: varbox
+[2023-05-08 18:32:43] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2023-05-08 18:32:43] INFO root fetch - processPackages [torch]: Downloading https://files.pythonhosted.org/packages/4d/80/760f3edcf0179c3111fae496b97ee3fa9171116b4bccae6e073efe928e72/torch-2.0.0-cp39-none-macosx_11_0_arm64.whl
+[2023-05-08 18:32:43] INFO root fetch - processPackages [oz-defender]: Downloading https://files.pythonhosted.org/packages/9e/b1/f1bfdd8d037e4a8a370ed4d0412e243cfdf79b840dc95c753f8bcdeb012f/oz_defender-0.0.2.tar.gz
+[2023-05-08 18:32:43] INFO root fetch - processPackages [SimplePBI]: Downloading https://files.pythonhosted.org/packages/f5/f9/39f4b7bf798d4b60dd8be3a7d0bf67e2bc07f70664062a2101a6c445343c/SimplePBI-0.1.2-py3-none-any.whl
+[2023-05-08 18:32:43] INFO root fetch - processPackages [varbox]: New version: [1.1] Old Version: [1.0]
+[2023-05-08 18:32:43] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/24/6a/f6c87d4ef49bae4d166fa3be99402f669acf9aa59b4d1d31342da0c57e32/langchain-0.0.99.tar.gz
+[2023-05-08 18:32:43] WARNING root fetch - processPackages [torch]: Skipping package: exceeds size limit 55833824>=10485760
+[2023-05-08 18:32:43] INFO root fetch - processPackages [torch]: Start processing: dreimac
+[2023-05-08 18:32:43] INFO root fetch - main [MainThread]: End processing [torch] error
+[2023-05-08 18:32:43] INFO root fetch - processPackages [feathub-nightly]: Downloading https://files.pythonhosted.org/packages/20/1a/4083e6491199f1ca99cf518d85b1ae2660bab553b429efe64ad710049eda/feathub_nightly-0.1.dev20230507-py3-none-any.whl
+[2023-05-08 18:32:43] WARNING root fetch - processPackages [integreat-cms]: Skipping package: exceeds size limit 16243754>=10485760
+[2023-05-08 18:32:43] INFO root fetch - processPackages [integreat-cms]: Start processing: fprime-gds
+[2023-05-08 18:32:43] INFO root fetch - main [MainThread]: End processing [integreat-cms] error
+[2023-05-08 18:32:43] INFO root fetch - processPackages [varbox]: executing diffoscope
+[2023-05-08 18:32:43] INFO root fetch - processPackages [varbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/varbox-1.0.tar.gz tmp/varbox-1.1.tar.gz --markdown 20230508/v/varbox/1.0-1.1/diff.md --exclude *.pyd
+[2023-05-08 18:32:44] WARNING root fetch - processPackages [feathub-nightly]: Skipping package: exceeds size limit 12034238>=10485760
+[2023-05-08 18:32:44] INFO root fetch - processPackages [feathub-nightly]: Start processing: docarray
+[2023-05-08 18:32:44] INFO root fetch - main [MainThread]: End processing [feathub-nightly] error
+[2023-05-08 18:32:44] INFO root fetch - processPackages [dreimac]: New version: [0.2.0] Old Version: [0.1]
+[2023-05-08 18:32:44] INFO root fetch - processPackages [periodic-element-properties]: Downloading https://files.pythonhosted.org/packages/5e/b3/3eb62c02f847df99838e639fea3fb53b232af051f1a457843eec0c8b786a/periodic_element_properties-0.2.0.tar.gz
+[2023-05-08 18:32:44] INFO root fetch - processPackages [FicImage]: Downloading https://files.pythonhosted.org/packages/cc/04/39e2ebd771c1f3ca5d917dd3582c884eb99b3d6f8b8ebfed21756b44bd43/FicImage-1.0.1.tar.gz
+[2023-05-08 18:32:44] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-05-08 18:32:44] INFO root fetch - processPackages [oz-defender]: Downloading https://files.pythonhosted.org/packages/c2/6a/b9d85a3fa0ed409fe46d8c07afb0fc452ad90aa4e188734214b0b473550d/oz_defender-0.1.1.tar.gz
+[2023-05-08 18:32:44] INFO root fetch - processPackages [SimplePBI]: Downloading https://files.pythonhosted.org/packages/f2/a6/4f9836b0ca598365918758e16f1e67a35430a0f96a98e5c213f74e72bdde/SimplePBI-0.1.3-py3-none-any.whl
+[2023-05-08 18:32:44] INFO root fetch - processPackages [fprime-gds]: New version: [3.2.1a2] Old Version: [3.2.1a1]
+[2023-05-08 18:32:44] INFO root fetch - processPackages [periodic-element-properties]: executing diffoscope
+[2023-05-08 18:32:44] INFO root fetch - processPackages [periodic-element-properties]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/periodic_element_properties-0.1.5.tar.gz tmp/periodic_element_properties-0.2.0.tar.gz --markdown 20230508/p/periodic-element-properties/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-05-08 18:32:44] INFO root fetch - processPackages [FicImage]: executing diffoscope
+[2023-05-08 18:32:44] INFO root fetch - processPackages [FicImage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FicImage-1.0.0.tar.gz tmp/FicImage-1.0.1.tar.gz --markdown 20230508/F/FicImage/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-08 18:32:44] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/8e/d3/a01f18d4cda1e4e2cbed8c15693f649fb439aab4b94f0c2a0ed636bbe505/langchain-0.0.99rc0.tar.gz
+[2023-05-08 18:32:44] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-05-08 18:32:44] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230508/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-05-08 18:32:44] INFO root fetch - processPackages [oz-defender]: executing diffoscope
+[2023-05-08 18:32:44] INFO root fetch - processPackages [oz-defender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oz_defender-0.0.2.tar.gz tmp/oz_defender-0.1.1.tar.gz --markdown 20230508/o/oz-defender/0.0.2-0.1.1/diff.md --exclude *.pyd
+[2023-05-08 18:32:44] INFO root fetch - processPackages [SimplePBI]: executing diffoscope
+[2023-05-08 18:32:44] INFO root fetch - processPackages [SimplePBI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SimplePBI-0.1.2-py3-none-any.whl.zip tmp/SimplePBI-0.1.3-py3-none-any.whl.zip --markdown 20230508/S/SimplePBI/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-08 18:32:44] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2023-05-08 18:32:44] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.0.99.tar.gz tmp/langchain-0.0.99rc0.tar.gz --markdown 20230508/l/langchain/0.0.99-0.0.99rc0/diff.md --exclude *.pyd
+[2023-05-08 18:32:44] INFO root fetch - processPackages [dreimac]: Downloading https://files.pythonhosted.org/packages/56/45/7ef9be8c961f6be469b51810926696d2ba8b1d34a577ea3f8acb1dcf1d01/dreimac-0.1.tar.gz
+[2023-05-08 18:32:44] INFO root fetch - processPackages [fprime-gds]: Downloading https://files.pythonhosted.org/packages/29/4d/4351e02b4be21c3573a1b18e0f7228902959a015ee79e93cbfc4a88106cc/fprime_gds-3.2.1a1.tar.gz
+[2023-05-08 18:32:44] INFO root fetch - processPackages [dreimac]: Downloading https://files.pythonhosted.org/packages/08/46/a697615a7f068f4e26d4f0280a9d186a8772aa9c0746dca1710f866033e9/dreimac-0.2.0.tar.gz
+[2023-05-08 18:32:44] INFO root fetch - processPackages [fprime-gds]: Downloading https://files.pythonhosted.org/packages/3f/bd/b5fc21665d0e8ee2600857c66f3652458488b0c2eac233cfaf72d74425dd/fprime_gds-3.2.1a2.tar.gz
+[2023-05-08 18:32:44] INFO root fetch - processPackages [dreimac]: executing diffoscope
+[2023-05-08 18:32:44] INFO root fetch - processPackages [dreimac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dreimac-0.1.tar.gz tmp/dreimac-0.2.0.tar.gz --markdown 20230508/d/dreimac/0.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-08 18:32:44] INFO root fetch - processPackages [fprime-gds]: executing diffoscope
+[2023-05-08 18:32:44] INFO root fetch - processPackages [fprime-gds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fprime_gds-3.2.1a1.tar.gz tmp/fprime_gds-3.2.1a2.tar.gz --markdown 20230508/f/fprime-gds/3.2.1a1-3.2.1a2/diff.md --exclude *.pyd
+[2023-05-08 18:32:45] INFO root fetch - processPackages [sidetrek]: Start processing: p2lz
+[2023-05-08 18:32:45] INFO root fetch - main [MainThread]: End processing [sidetrek]: success
+[2023-05-08 18:32:45] WARNING root fetch - processPackages [p2lz]: Skipping, unable to determine old version
+[2023-05-08 18:32:45] INFO root fetch - processPackages [p2lz]: Start processing: checkpoint-tool
+[2023-05-08 18:32:45] INFO root fetch - main [MainThread]: End processing [p2lz] error
+[2023-05-08 18:32:45] INFO root fetch - processPackages [checkpoint-tool]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-05-08 18:32:45] INFO root fetch - processPackages [varbox]: Start processing: guidance
+[2023-05-08 18:32:45] INFO root fetch - main [MainThread]: End processing [varbox]: success
+[2023-05-08 18:32:45] INFO root fetch - processPackages [guidance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 18:32:45] INFO root fetch - processPackages [checkpoint-tool]: Downloading https://files.pythonhosted.org/packages/01/8f/2c0f3432345afb00736be9b9f01b61e64c8969ab497244dac6c700ea2d7d/checkpoint_tool-0.6.0.tar.gz
+[2023-05-08 18:32:45] INFO root fetch - main [MainThread]: End processing [FicImage]: success
+[2023-05-08 18:32:45] INFO root fetch - main [MainThread]: End processing [oz-defender]: success
+[2023-05-08 18:32:45] INFO root fetch - processPackages [guidance]: Downloading https://files.pythonhosted.org/packages/57/38/84d7e451c538eb8487dc8d975a1e14ca8c54353e015a06e69d180e784951/guidance-0.0.8.tar.gz
+[2023-05-08 18:32:45] INFO root fetch - main [MainThread]: End processing [SimplePBI]: success
+[2023-05-08 18:32:45] INFO root fetch - processPackages [checkpoint-tool]: Downloading https://files.pythonhosted.org/packages/e1/be/ad79bda3f82a629c2ec165cfcbb3c001b6fe1d977c8641a53a864aea8476/checkpoint_tool-0.7.0.tar.gz
+[2023-05-08 18:32:45] INFO root fetch - main [MainThread]: End processing [periodic-element-properties]: success
+[2023-05-08 18:32:45] INFO root fetch - processPackages [guidance]: Downloading https://files.pythonhosted.org/packages/37/6d/551b7207c5b1b090ba708fc0df326b457767577b3dc88959552d36f25072/guidance-0.0.9.tar.gz
+[2023-05-08 18:32:45] INFO root fetch - processPackages [checkpoint-tool]: executing diffoscope
+[2023-05-08 18:32:45] INFO root fetch - processPackages [checkpoint-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkpoint_tool-0.6.0.tar.gz tmp/checkpoint_tool-0.7.0.tar.gz --markdown 20230508/c/checkpoint-tool/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-05-08 18:32:45] INFO root fetch - main [MainThread]: End processing [dreimac]: success
+[2023-05-08 18:32:46] INFO root fetch - processPackages [guidance]: executing diffoscope
+[2023-05-08 18:32:46] INFO root fetch - processPackages [guidance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guidance-0.0.8.tar.gz tmp/guidance-0.0.9.tar.gz --markdown 20230508/g/guidance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 18:32:46] INFO root fetch - main [MainThread]: End processing [checkpoint-tool]: success
+[2023-05-08 18:32:46] INFO root fetch - main [MainThread]: End processing [guidance]: success
+[2023-05-08 18:32:47] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2023-05-08 18:32:47] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-05-08 18:32:51] INFO root fetch - main [MainThread]: End processing [fprime-gds]: success
+[2023-05-08 18:32:51] INFO root fetch - main [MainThread]: Store serial: [18019440]
