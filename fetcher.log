@@ -22139,3 +22139,105 @@ EOFError: EOF read where object expected
 [2023-05-08 22:55:39] INFO root fetch - main [MainThread]: End processing [nvdlib]: success
 [2023-05-08 22:55:39] INFO root fetch - main [MainThread]: End processing [jax-fdm]: success
 [2023-05-08 22:55:39] INFO root fetch - main [MainThread]: Store serial: [18022519]
+[2023-05-08 23:00:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18022519]
+[2023-05-08 23:00:48] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-08 23:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cleancourt
+[2023-05-08 23:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: always-updates
+[2023-05-08 23:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: codem
+[2023-05-08 23:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: soundsig
+[2023-05-08 23:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: i18ndude
+[2023-05-08 23:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: duckdbt
+[2023-05-08 23:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tum-esm-utils
+[2023-05-08 23:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: prunerr
+[2023-05-08 23:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytplot-mpl-temp
+[2023-05-08 23:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: benchling-api-client
+[2023-05-08 23:00:48] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-05-08 23:00:48] INFO root fetch - processPackages [prunerr]: New version: [1.1.9b1] Old Version: [1.1.8]
+[2023-05-08 23:00:48] INFO root fetch - processPackages [soundsig]: New version: [2.1] Old Version: [1.9]
+[2023-05-08 23:00:48] INFO root fetch - processPackages [cleancourt]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-05-08 23:00:48] INFO root fetch - processPackages [codem]: New version: [0.25.1] Old Version: [0.25.0]
+[2023-05-08 23:00:48] INFO root fetch - processPackages [duckdbt]: New version: [0.3.0] Old Version: [0.1.0]
+[2023-05-08 23:00:48] INFO root fetch - processPackages [tum-esm-utils]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-05-08 23:00:48] INFO root fetch - processPackages [i18ndude]: New version: [6.0.0a1] Old Version: [5.5.0]
+[2023-05-08 23:00:48] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-05-08 23:00:48] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230508/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-05-08 23:00:48] INFO root fetch - processPackages [pytplot-mpl-temp]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-05-08 23:00:48] INFO root fetch - processPackages [benchling-api-client]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-08 23:00:48] INFO root fetch - processPackages [prunerr]: executing diffoscope
+[2023-05-08 23:00:48] INFO root fetch - processPackages [prunerr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prunerr-1.1.8.tar.gz tmp/prunerr-1.1.9b1.tar.gz --markdown 20230508/p/prunerr/1.1.8-1.1.9b1/diff.md --exclude *.pyd
+[2023-05-08 23:00:48] INFO root fetch - processPackages [cleancourt]: Downloading https://files.pythonhosted.org/packages/5d/ca/ab9aabd24691f3267fcdf460230324a1e952e7cd251f76e357822cbe2627/cleancourt-0.7.8.tar.gz
+[2023-05-08 23:00:48] INFO root fetch - processPackages [codem]: Downloading https://files.pythonhosted.org/packages/92/ef/69023cae6200547496c2e46b40bf5a2792c504d9a0b0f1819afb85625e45/codem-0.25.0.tar.gz
+[2023-05-08 23:00:48] INFO root fetch - processPackages [duckdbt]: Downloading https://files.pythonhosted.org/packages/44/76/a0a0c13a02986d0beacac673f23913ebff46643471d3100480a25199d057/duckdbt-0.1.0.tar.gz
+[2023-05-08 23:00:48] INFO root fetch - processPackages [i18ndude]: Downloading https://files.pythonhosted.org/packages/84/77/17eb17900e667bbe4106779215a81f89f527984230772af3b55ff45f17f2/i18ndude-5.5.0.tar.gz
+[2023-05-08 23:00:48] INFO root fetch - processPackages [pytplot-mpl-temp]: Downloading https://files.pythonhosted.org/packages/02/f0/c143c216ae1553f2355600fa936caf49108733ab308ac632ec1411082e9d/pytplot-mpl-temp-2.1.8.tar.gz
+[2023-05-08 23:00:48] INFO root fetch - processPackages [benchling-api-client]: Downloading https://files.pythonhosted.org/packages/ce/1d/9c3669396c4c52924ccf39a48a438a2c8167c4fb512eca865bd64066d33e/benchling_api_client-2.0.98.tar.gz
+[2023-05-08 23:00:48] INFO root fetch - processPackages [tum-esm-utils]: Downloading https://files.pythonhosted.org/packages/b3/66/21ef070af4f1253a5870243ec37933c8c6d6f64bcfad3733e5cbac6f1ec8/tum_esm_utils-1.5.1.tar.gz
+[2023-05-08 23:00:48] INFO root fetch - processPackages [soundsig]: Downloading https://files.pythonhosted.org/packages/06/c2/6be4c1b3566a0664cc5a10feebcbbd1fadf806c85d6c3d02ae4ab834344e/soundsig-1.9.tar.gz
+[2023-05-08 23:00:49] INFO root fetch - processPackages [codem]: Downloading https://files.pythonhosted.org/packages/4c/e8/4a35d43c3f56efd1a7d515f10f19547a12688365e345f696b9f736063922/codem-0.25.1.tar.gz
+[2023-05-08 23:00:49] INFO root fetch - processPackages [cleancourt]: Downloading https://files.pythonhosted.org/packages/d6/e1/b59e06dbfaf7be0e825bd5e68e3b75ec3d03b273516a3bf4bb08640d2f08/cleancourt-0.7.9.tar.gz
+[2023-05-08 23:00:49] INFO root fetch - processPackages [duckdbt]: Downloading https://files.pythonhosted.org/packages/cd/17/848ab2486d31a6d271cf3161b55152777d1b97388d0adefed161574d15e1/duckdbt-0.3.0.tar.gz
+[2023-05-08 23:00:49] INFO root fetch - processPackages [soundsig]: Downloading https://files.pythonhosted.org/packages/78/cf/4e4316429fb8c26ad9f8dd125a47e97ec85cff8456997d3b689ea9917054/soundsig-2.1.tar.gz
+[2023-05-08 23:00:49] INFO root fetch - processPackages [tum-esm-utils]: Downloading https://files.pythonhosted.org/packages/21/9f/55eb4fb495114b845da21f93bd0770bfee1dfd876ee5e578af16c4cf3a5a/tum_esm_utils-1.5.2.tar.gz
+[2023-05-08 23:00:49] INFO root fetch - processPackages [codem]: executing diffoscope
+[2023-05-08 23:00:49] INFO root fetch - processPackages [codem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codem-0.25.0.tar.gz tmp/codem-0.25.1.tar.gz --markdown 20230508/c/codem/0.25.0-0.25.1/diff.md --exclude *.pyd
+[2023-05-08 23:00:49] INFO root fetch - processPackages [i18ndude]: Downloading https://files.pythonhosted.org/packages/ba/07/018d7350f73c13b7d00b6583247f3f04db081e4dc08562aa3bba3061c7b3/i18ndude-6.0.0a1.tar.gz
+[2023-05-08 23:00:49] INFO root fetch - processPackages [benchling-api-client]: Downloading https://files.pythonhosted.org/packages/f9/23/649c2147d11c171b4b3d27c6a52dab32d22dc24ec1c248cf5d1dd8a4451d/benchling_api_client-2.0.99.tar.gz
+[2023-05-08 23:00:49] INFO root fetch - processPackages [duckdbt]: executing diffoscope
+[2023-05-08 23:00:49] INFO root fetch - processPackages [duckdbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duckdbt-0.1.0.tar.gz tmp/duckdbt-0.3.0.tar.gz --markdown 20230508/d/duckdbt/0.1.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-08 23:00:49] INFO root fetch - processPackages [soundsig]: executing diffoscope
+[2023-05-08 23:00:49] INFO root fetch - processPackages [soundsig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soundsig-1.9.tar.gz tmp/soundsig-2.1.tar.gz --markdown 20230508/s/soundsig/1.9-2.1/diff.md --exclude *.pyd
+[2023-05-08 23:00:49] INFO root fetch - processPackages [i18ndude]: executing diffoscope
+[2023-05-08 23:00:49] INFO root fetch - processPackages [i18ndude]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i18ndude-5.5.0.tar.gz tmp/i18ndude-6.0.0a1.tar.gz --markdown 20230508/i/i18ndude/5.5.0-6.0.0a1/diff.md --exclude *.pyd
+[2023-05-08 23:00:49] INFO root fetch - processPackages [tum-esm-utils]: executing diffoscope
+[2023-05-08 23:00:49] INFO root fetch - processPackages [tum-esm-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tum_esm_utils-1.5.1.tar.gz tmp/tum_esm_utils-1.5.2.tar.gz --markdown 20230508/t/tum-esm-utils/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-05-08 23:00:49] INFO root fetch - processPackages [pytplot-mpl-temp]: Downloading https://files.pythonhosted.org/packages/09/31/eedb5f4882f434afd1af2edd3818b8602f6b1fa782e13fd7ae3ddf6af51f/pytplot-mpl-temp-2.1.9.tar.gz
+[2023-05-08 23:00:49] INFO root fetch - processPackages [benchling-api-client]: executing diffoscope
+[2023-05-08 23:00:49] INFO root fetch - processPackages [benchling-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchling_api_client-2.0.98.tar.gz tmp/benchling_api_client-2.0.99.tar.gz --markdown 20230508/b/benchling-api-client/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-08 23:00:49] INFO root fetch - processPackages [cleancourt]: executing diffoscope
+[2023-05-08 23:00:49] INFO root fetch - processPackages [cleancourt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cleancourt-0.7.8.tar.gz tmp/cleancourt-0.7.9.tar.gz --markdown 20230508/c/cleancourt/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-05-08 23:00:49] INFO root fetch - processPackages [always-updates]: Start processing: modal-client
+[2023-05-08 23:00:49] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-05-08 23:00:49] INFO root fetch - processPackages [modal-client]: New version: [0.49.2146] Old Version: [0.49.2142]
+[2023-05-08 23:00:49] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/08/1b/a5da95a2a6775aad8a50d09c71c046c931e1c8f7e761558cccc71bc56610/modal_client-0.49.2146-py3-none-any.whl
+[2023-05-08 23:00:50] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-05-08 23:00:50] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.49.2142-py3-none-any.whl.zip tmp/modal_client-0.49.2146-py3-none-any.whl.zip --markdown 20230508/m/modal-client/0.49.2142-0.49.2146/diff.md --exclude *.pyd
+[2023-05-08 23:00:50] INFO root fetch - processPackages [duckdbt]: Start processing: censys
+[2023-05-08 23:00:50] INFO root fetch - main [MainThread]: End processing [duckdbt]: success
+[2023-05-08 23:00:50] INFO root fetch - processPackages [pytplot-mpl-temp]: executing diffoscope
+[2023-05-08 23:00:50] INFO root fetch - processPackages [pytplot-mpl-temp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytplot-mpl-temp-2.1.8.tar.gz tmp/pytplot-mpl-temp-2.1.9.tar.gz --markdown 20230508/p/pytplot-mpl-temp/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-05-08 23:00:50] INFO root fetch - processPackages [i18ndude]: Start processing: psdaq-control-minimal
+[2023-05-08 23:00:50] INFO root fetch - main [MainThread]: End processing [i18ndude]: success
+[2023-05-08 23:00:50] INFO root fetch - processPackages [censys]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-05-08 23:00:51] INFO root fetch - processPackages [codem]: Start processing: joinboost
+[2023-05-08 23:00:51] INFO root fetch - main [MainThread]: End processing [codem]: success
+[2023-05-08 23:00:51] WARNING root fetch - processPackages [psdaq-control-minimal]: Skipping, unable to determine old version
+[2023-05-08 23:00:51] INFO root fetch - processPackages [psdaq-control-minimal]: Start processing: pipcolouringskitsV1
+[2023-05-08 23:00:51] INFO root fetch - main [MainThread]: End processing [psdaq-control-minimal] error
+[2023-05-08 23:00:51] INFO root fetch - processPackages [joinboost]: New version: [0.0.1522] Old Version: [0.0.1521]
+[2023-05-08 23:00:51] INFO root fetch - processPackages [cleancourt]: Start processing: pipcoloringspackageV2
+[2023-05-08 23:00:51] INFO root fetch - main [MainThread]: End processing [cleancourt]: success
+[2023-05-08 23:00:51] INFO root fetch - processPackages [censys]: Downloading https://files.pythonhosted.org/packages/e1/6c/49b7f8a0e27412c3aabb5587417124a3e4c58a4371adba10f369362d0edb/censys-2.2.0.tar.gz
+[2023-05-08 23:00:51] INFO root fetch - processPackages [joinboost]: executing diffoscope
+[2023-05-08 23:00:51] INFO root fetch - processPackages [joinboost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/joinboost-0.0.1521.tar.gz tmp/joinboost-0.0.1522.tar.gz --markdown 20230508/j/joinboost/0.0.1521-0.0.1522/diff.md --exclude *.pyd
+[2023-05-08 23:00:51] ERROR root fetch - processPackages [pipcolouringskitsV1]: Unable to get metadata: No such project 'pipcolouringskitsV1'
+[2023-05-08 23:00:51] INFO root fetch - processPackages [pipcolouringskitsV1]: Start processing: map-with-stats
+[2023-05-08 23:00:51] INFO root fetch - main [MainThread]: End processing [pipcolouringskitsV1] error
+[2023-05-08 23:00:51] ERROR root fetch - processPackages [pipcoloringspackageV2]: Unable to get metadata: No such project 'pipcoloringspackageV2'
+[2023-05-08 23:00:51] INFO root fetch - processPackages [pipcoloringspackageV2]: Start processing: fastlmi
+[2023-05-08 23:00:51] INFO root fetch - main [MainThread]: End processing [pipcoloringspackageV2] error
+[2023-05-08 23:00:51] WARNING root fetch - processPackages [map-with-stats]: Skipping, unable to determine old version
+[2023-05-08 23:00:51] INFO root fetch - main [MainThread]: End processing [map-with-stats] error
+[2023-05-08 23:00:51] INFO root fetch - processPackages [censys]: Downloading https://files.pythonhosted.org/packages/0b/39/d9e82da6b0777a9b825ed6680eb129fa635b0c0f74e963b92e767a8d5b0f/censys-2.2.1.tar.gz
+[2023-05-08 23:00:51] WARNING root fetch - processPackages [fastlmi]: Skipping, unable to determine old version
+[2023-05-08 23:00:51] INFO root fetch - main [MainThread]: End processing [fastlmi] error
+[2023-05-08 23:00:51] INFO root fetch - processPackages [censys]: executing diffoscope
+[2023-05-08 23:00:51] INFO root fetch - processPackages [censys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/censys-2.2.0.tar.gz tmp/censys-2.2.1.tar.gz --markdown 20230508/c/censys/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-05-08 23:00:51] INFO root fetch - main [MainThread]: End processing [soundsig]: success
+[2023-05-08 23:00:52] INFO root fetch - main [MainThread]: End processing [joinboost]: success
+[2023-05-08 23:00:52] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-05-08 23:00:52] INFO root fetch - main [MainThread]: End processing [censys]: success
+[2023-05-08 23:00:52] INFO root fetch - main [MainThread]: End processing [pytplot-mpl-temp]: success
+[2023-05-08 23:00:53] INFO root fetch - main [MainThread]: End processing [tum-esm-utils]: success
+[2023-05-08 23:00:54] INFO root fetch - main [MainThread]: End processing [prunerr]: success
+[2023-05-08 23:02:41] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
+[2023-05-08 23:02:41] INFO root fetch - main [MainThread]: Store serial: [18022580]
