@@ -6330,3 +6330,40 @@
 [2023-05-08 08:35:21] INFO root fetch - main [MainThread]: End processing [userfs]: success
 [2023-05-08 08:35:23] INFO root fetch - main [MainThread]: End processing [zahner-analysis]: success
 [2023-05-08 08:35:23] INFO root fetch - main [MainThread]: Store serial: [18013489]
+[2023-05-08 08:40:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18013489]
+[2023-05-08 08:40:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-08 08:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ai-executor
+[2023-05-08 08:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-nightly-macos
+[2023-05-08 08:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: madai
+[2023-05-08 08:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qontract-reconcile
+[2023-05-08 08:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dsdl
+[2023-05-08 08:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dxsp
+[2023-05-08 08:40:31] INFO root fetch - processPackages [ai-executor]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-08 08:40:31] INFO root fetch - processPackages [madai]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-08 08:40:31] INFO root fetch - processPackages [tf-nightly-macos]: New version: [2.14.0.dev20230507] Old Version: [2.14.0.dev20230506]
+[2023-05-08 08:40:31] INFO root fetch - processPackages [dsdl]: New version: [0.1.9.4] Old Version: [0.1.9.3]
+[2023-05-08 08:40:31] INFO root fetch - processPackages [dxsp]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-05-08 08:40:31] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-05-08 08:40:32] INFO root fetch - processPackages [ai-executor]: Downloading https://files.pythonhosted.org/packages/d8/37/c2fc6f1a8af13c75efd8c1da08f794d04b837a3f94b9ea04f89000fadcc9/ai-executor-0.2.1.tar.gz
+[2023-05-08 08:40:32] INFO root fetch - processPackages [dsdl]: executing diffoscope
+[2023-05-08 08:40:32] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-05-08 08:40:32] INFO root fetch - processPackages [dsdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsdl-0.1.9.3.tar.gz tmp/dsdl-0.1.9.4.tar.gz --markdown 20230508/d/dsdl/0.1.9.3-0.1.9.4/diff.md --exclude *.pyd
+[2023-05-08 08:40:32] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230508/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-05-08 08:40:32] INFO root fetch - processPackages [tf-nightly-macos]: Downloading https://files.pythonhosted.org/packages/04/60/c7e6c74b513508c6605ebd179078957d6590726579396e8c4c547d450b87/tf_nightly_macos-2.14.0.dev20230506-cp39-cp39-macosx_12_0_arm64.whl
+[2023-05-08 08:40:32] INFO root fetch - processPackages [madai]: Downloading https://files.pythonhosted.org/packages/c9/69/85abcf9f52daeb5c49872031d7caa177fc801c1ffa369e37525aeec7dd5d/madai-0.1.3.tar.gz
+[2023-05-08 08:40:32] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/e2/c1/893ce7e0512bdb57eb00e04b58df8b42953ae48d155ca4bbbde6582ac844/dxsp-2.0.6.tar.gz
+[2023-05-08 08:40:32] WARNING root fetch - processPackages [tf-nightly-macos]: Skipping package: exceeds size limit 189190777>=10485760
+[2023-05-08 08:40:32] INFO root fetch - main [MainThread]: End processing [tf-nightly-macos] error
+[2023-05-08 08:40:32] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-05-08 08:40:32] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-2.0.5.tar.gz tmp/dxsp-2.0.6.tar.gz --markdown 20230508/d/dxsp/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-05-08 08:40:32] INFO root fetch - processPackages [ai-executor]: Downloading https://files.pythonhosted.org/packages/d8/9b/a079df28efb7ff33c1595592c5fff8969eb460308bb9bd0abd01c7d1560a/ai-executor-0.2.2.tar.gz
+[2023-05-08 08:40:32] INFO root fetch - processPackages [madai]: executing diffoscope
+[2023-05-08 08:40:32] INFO root fetch - processPackages [madai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/madai-0.1.2.tar.gz tmp/madai-0.1.3.tar.gz --markdown 20230508/m/madai/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-08 08:40:32] INFO root fetch - processPackages [ai-executor]: executing diffoscope
+[2023-05-08 08:40:32] INFO root fetch - processPackages [ai-executor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai-executor-0.2.1.tar.gz tmp/ai-executor-0.2.2.tar.gz --markdown 20230508/a/ai-executor/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-08 08:40:33] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-05-08 08:40:33] INFO root fetch - main [MainThread]: End processing [dsdl]: success
+[2023-05-08 08:40:33] INFO root fetch - main [MainThread]: End processing [ai-executor]: success
+[2023-05-08 08:40:38] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-05-08 08:41:01] INFO root fetch - main [MainThread]: End processing [madai]: success
+[2023-05-08 08:41:01] INFO root fetch - main [MainThread]: Store serial: [18013508]
