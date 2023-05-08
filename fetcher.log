@@ -22891,3 +22891,41 @@ EOFError: EOF read where object expected
 [2023-05-08 23:52:20] INFO root fetch - main [MainThread]: End processing [isthmuslib]: success
 [2023-05-08 23:52:20] INFO root fetch - main [MainThread]: End processing [ramodels]: success
 [2023-05-08 23:52:20] INFO root fetch - main [MainThread]: Store serial: [18022968]
+[2023-05-08 23:57:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18022968]
+[2023-05-08 23:57:29] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-08 23:57:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpt-chat-cli
+[2023-05-08 23:57:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: forecastflowml
+[2023-05-08 23:57:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: askedith
+[2023-05-08 23:57:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: canvas-workflow-kit
+[2023-05-08 23:57:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ReverseBox
+[2023-05-08 23:57:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: arithmetica-py
+[2023-05-08 23:57:29] INFO root fetch - processPackages [gpt-chat-cli]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-08 23:57:29] INFO root fetch - processPackages [ReverseBox]: New version: [0.6.0] Old Version: [0.5.6]
+[2023-05-08 23:57:29] WARNING root fetch - processPackages [forecastflowml]: Skipping, unable to determine old version
+[2023-05-08 23:57:29] INFO root fetch - main [MainThread]: End processing [forecastflowml] error
+[2023-05-08 23:57:29] INFO root fetch - processPackages [arithmetica-py]: New version: [1.0.186] Old Version: [1.0.185]
+[2023-05-08 23:57:29] INFO root fetch - processPackages [canvas-workflow-kit]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-05-08 23:57:29] INFO root fetch - processPackages [askedith]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-05-08 23:57:30] INFO root fetch - processPackages [askedith]: executing diffoscope
+[2023-05-08 23:57:30] INFO root fetch - processPackages [askedith]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/askedith-0.9.6-py3-none-any.whl.zip tmp/askedith-0.9.7-py3-none-any.whl.zip --markdown 20230508/a/askedith/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-05-08 23:57:30] INFO root fetch - processPackages [ReverseBox]: Downloading https://files.pythonhosted.org/packages/54/94/b0dd575378d9d232f057a5590968f7e67bff69cfe5c9ef01fece67ab669c/ReverseBox-0.5.6.tar.gz
+[2023-05-08 23:57:30] INFO root fetch - processPackages [canvas-workflow-kit]: Downloading https://files.pythonhosted.org/packages/ff/32/0c78ba8076b5c713d44dc1b183032697ba1292a04efc700cbb27399f925e/canvas-workflow-kit-0.6.0.tar.gz
+[2023-05-08 23:57:30] INFO root fetch - processPackages [arithmetica-py]: Downloading https://files.pythonhosted.org/packages/f6/88/5079f17973d530f42e36db87b189a1018fee43f73fe5de35af34a75dd2bc/arithmetica-py-1.0.185.tar.gz
+[2023-05-08 23:57:30] INFO root fetch - processPackages [gpt-chat-cli]: Downloading https://files.pythonhosted.org/packages/bd/50/43e36fc8e8baaff5a75edf0c3b08717c4c7f09bfa14002d31719cafd1d9b/gpt-chat-cli-0.1.2.tar.gz
+[2023-05-08 23:57:30] INFO root fetch - processPackages [gpt-chat-cli]: executing diffoscope
+[2023-05-08 23:57:30] INFO root fetch - processPackages [gpt-chat-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-chat-cli-0.1.1.tar.gz tmp/gpt-chat-cli-0.1.2.tar.gz --markdown 20230508/g/gpt-chat-cli/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-08 23:57:30] INFO root fetch - processPackages [ReverseBox]: Downloading https://files.pythonhosted.org/packages/a7/f0/30d34f8a7b3b122ebce50940d334f7f29c3a31964fdc3187f28c288d193d/ReverseBox-0.6.0.tar.gz
+[2023-05-08 23:57:30] INFO root fetch - processPackages [arithmetica-py]: Downloading https://files.pythonhosted.org/packages/c5/57/f97b99f08514d4ad6a38bc91961bc55d0336762ceab75f6cc8e4d3b24592/arithmetica-py-1.0.186.tar.gz
+[2023-05-08 23:57:30] INFO root fetch - processPackages [canvas-workflow-kit]: Downloading https://files.pythonhosted.org/packages/fc/2e/adb051a5abbd9aab85249fc29bda51287f418f99fb581c05fa0be7aceef3/canvas-workflow-kit-0.6.1.tar.gz
+[2023-05-08 23:57:30] INFO root fetch - processPackages [arithmetica-py]: executing diffoscope
+[2023-05-08 23:57:30] INFO root fetch - processPackages [arithmetica-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arithmetica-py-1.0.185.tar.gz tmp/arithmetica-py-1.0.186.tar.gz --markdown 20230508/a/arithmetica-py/1.0.185-1.0.186/diff.md --exclude *.pyd
+[2023-05-08 23:57:30] INFO root fetch - processPackages [ReverseBox]: executing diffoscope
+[2023-05-08 23:57:30] INFO root fetch - processPackages [ReverseBox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ReverseBox-0.5.6.tar.gz tmp/ReverseBox-0.6.0.tar.gz --markdown 20230508/R/ReverseBox/0.5.6-0.6.0/diff.md --exclude *.pyd
+[2023-05-08 23:57:30] INFO root fetch - processPackages [canvas-workflow-kit]: executing diffoscope
+[2023-05-08 23:57:30] INFO root fetch - processPackages [canvas-workflow-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canvas-workflow-kit-0.6.0.tar.gz tmp/canvas-workflow-kit-0.6.1.tar.gz --markdown 20230508/c/canvas-workflow-kit/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-05-08 23:57:31] INFO root fetch - main [MainThread]: End processing [askedith]: success
+[2023-05-08 23:57:31] INFO root fetch - main [MainThread]: End processing [gpt-chat-cli]: success
+[2023-05-08 23:57:31] INFO root fetch - main [MainThread]: End processing [ReverseBox]: success
+[2023-05-08 23:57:31] INFO root fetch - main [MainThread]: End processing [arithmetica-py]: success
+[2023-05-08 23:57:36] INFO root fetch - main [MainThread]: End processing [canvas-workflow-kit]: success
+[2023-05-08 23:57:36] INFO root fetch - main [MainThread]: Store serial: [18022989]
