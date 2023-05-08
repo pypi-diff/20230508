@@ -20674,3 +20674,115 @@ EOFError: EOF read where object expected
 [2023-05-08 21:48:27] INFO root fetch - main [MainThread]: End processing [emmet-api]: success
 [2023-05-08 21:48:28] INFO root fetch - main [MainThread]: End processing [z4d-certified-devices]: success
 [2023-05-08 21:48:28] INFO root fetch - main [MainThread]: Store serial: [18021645]
+[2023-05-08 21:53:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18021645]
+[2023-05-08 21:53:38] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-08 21:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: exondb
+[2023-05-08 21:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: debyetools
+[2023-05-08 21:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamlit-deckgl
+[2023-05-08 21:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chatplayground
+[2023-05-08 21:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: splight-lib
+[2023-05-08 21:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: open-space-toolkit-mathematics
+[2023-05-08 21:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: skit-labels
+[2023-05-08 21:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: plone.versioncheck
+[2023-05-08 21:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lbt-honeybee
+[2023-05-08 21:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-barcodes-generator-product
+[2023-05-08 21:53:38] INFO root fetch - processPackages [exondb]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-05-08 21:53:38] INFO root fetch - processPackages [splight-lib]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-08 21:53:38] INFO root fetch - processPackages [streamlit-deckgl]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-08 21:53:38] INFO root fetch - processPackages [chatplayground]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-08 21:53:38] INFO root fetch - processPackages [debyetools]: New version: [1.4.1] Old Version: [1.3]
+[2023-05-08 21:53:38] INFO root fetch - processPackages [open-space-toolkit-mathematics]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-05-08 21:53:38] INFO root fetch - processPackages [plone.versioncheck]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-05-08 21:53:38] INFO root fetch - processPackages [odoo-addon-barcodes-generator-product]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.3]
+[2023-05-08 21:53:38] INFO root fetch - processPackages [exondb]: Downloading https://files.pythonhosted.org/packages/23/95/ba9743db0f3fc4f62cc0b18263fa559ca2882efc7ed7bcf7b54ce05acb0b/exondb-0.3.6.tar.gz
+[2023-05-08 21:53:38] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-05-08 21:53:38] INFO root fetch - processPackages [skit-labels]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-08 21:53:38] INFO root fetch - processPackages [chatplayground]: Downloading https://files.pythonhosted.org/packages/02/9a/4adbbfa6f9cf55c92614289bf97c5785be1b435054996ff8cebaada41272/chatplayground-1.0.1.tar.gz
+[2023-05-08 21:53:38] INFO root fetch - processPackages [debyetools]: Downloading https://files.pythonhosted.org/packages/40/9c/5040135842306b4695edd74be328524ca6be9b07c29d96f0ec4ba330cc78/debyetools-1.3.tar.gz
+[2023-05-08 21:53:38] INFO root fetch - processPackages [streamlit-deckgl]: Downloading https://files.pythonhosted.org/packages/ed/18/733ba399938f353a13ccefcc1ed932795f48d82181e6b221ebfef3c314f3/streamlit-deckgl-0.2.0.tar.gz
+[2023-05-08 21:53:38] INFO root fetch - processPackages [splight-lib]: Downloading https://files.pythonhosted.org/packages/3c/8d/cdb0642bccd52b342f94530f9ee73f36732e7df963d3d04722ec04ef24f2/splight-lib-2.3.8.tar.gz
+[2023-05-08 21:53:38] INFO root fetch - processPackages [open-space-toolkit-mathematics]: Downloading https://files.pythonhosted.org/packages/c3/3e/59bfef8dfe944edb2c9af795af7950755f9b5a26c49c128ebe0539959b38/open_space_toolkit_mathematics-0.7.1-py39-none-any.whl
+[2023-05-08 21:53:38] INFO root fetch - processPackages [odoo-addon-barcodes-generator-product]: Downloading https://files.pythonhosted.org/packages/40/ba/2fc459f4daa0f55a698c1d9046ad0c63c7b488662eb1260495f9d74e252c/odoo_addon_barcodes_generator_product-15.0.1.0.0.3-py3-none-any.whl
+[2023-05-08 21:53:38] INFO root fetch - processPackages [plone.versioncheck]: Downloading https://files.pythonhosted.org/packages/e2/ba/3606d6f0e998071f5e3111810418ead304c607b98929277a5c1fba4d374e/plone.versioncheck-1.8.0.tar.gz
+[2023-05-08 21:53:38] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/19/59/4901be09b4bc6b97917c58bf3279cb373aa222989b9501e53b4c43213a9e/lbt-honeybee-0.7.98.tar.gz
+[2023-05-08 21:53:38] INFO root fetch - processPackages [skit-labels]: Downloading https://files.pythonhosted.org/packages/83/1c/bdbcd46705296565153ac4461a5d1c49087dcc7457053d2e07961102325b/skit-labels-0.3.8.tar.gz
+[2023-05-08 21:53:38] INFO root fetch - processPackages [open-space-toolkit-mathematics]: executing diffoscope
+[2023-05-08 21:53:38] INFO root fetch - processPackages [open-space-toolkit-mathematics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_space_toolkit_mathematics-0.7.0-py39-none-any.whl.zip tmp/open_space_toolkit_mathematics-0.7.1-py39-none-any.whl.zip --markdown 20230508/o/open-space-toolkit-mathematics/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-05-08 21:53:38] INFO root fetch - processPackages [exondb]: Downloading https://files.pythonhosted.org/packages/84/d6/33e41d24e9edba430e848bab3cfb262f8baac7492baa9a17b8d1f625e601/exondb-0.3.7.tar.gz
+[2023-05-08 21:53:38] INFO root fetch - processPackages [debyetools]: Downloading https://files.pythonhosted.org/packages/7e/f3/acf9a9f6f71c3acc5b4d8860df0a45d54596d9897f93e349c181a66a22a2/debyetools-1.4.1.tar.gz
+[2023-05-08 21:53:38] INFO root fetch - processPackages [chatplayground]: Downloading https://files.pythonhosted.org/packages/5f/e6/dddfe39597b96d759d016e963035b12344314442bd843d56b88efc1532cb/chatplayground-1.0.2.tar.gz
+[2023-05-08 21:53:38] INFO root fetch - processPackages [exondb]: executing diffoscope
+[2023-05-08 21:53:38] INFO root fetch - processPackages [exondb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exondb-0.3.6.tar.gz tmp/exondb-0.3.7.tar.gz --markdown 20230508/e/exondb/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-05-08 21:53:38] INFO root fetch - processPackages [streamlit-deckgl]: Downloading https://files.pythonhosted.org/packages/a6/6d/aeced653f6072b9828d7e7e0d0e60a6495d71d8ccbbd7f3c27900e8f774b/streamlit-deckgl-0.2.1.tar.gz
+[2023-05-08 21:53:38] INFO root fetch - processPackages [splight-lib]: executing diffoscope
+[2023-05-08 21:53:38] INFO root fetch - processPackages [splight-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight-lib-2.3.8.tar.gz tmp/splight-lib-2.3.9.tar.gz --markdown 20230508/s/splight-lib/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-08 21:53:38] INFO root fetch - processPackages [chatplayground]: executing diffoscope
+[2023-05-08 21:53:38] INFO root fetch - processPackages [chatplayground]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatplayground-1.0.1.tar.gz tmp/chatplayground-1.0.2.tar.gz --markdown 20230508/c/chatplayground/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-08 21:53:39] INFO root fetch - processPackages [debyetools]: executing diffoscope
+[2023-05-08 21:53:39] INFO root fetch - processPackages [debyetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/debyetools-1.3.tar.gz tmp/debyetools-1.4.1.tar.gz --markdown 20230508/d/debyetools/1.3-1.4.1/diff.md --exclude *.pyd
+[2023-05-08 21:53:39] INFO root fetch - processPackages [odoo-addon-barcodes-generator-product]: Downloading https://files.pythonhosted.org/packages/74/a3/df5d2ca24c86aa39c440be137df33efe8dc9b120f58b09bfdf2eb06f2557/odoo_addon_barcodes_generator_product-16.0.1.0.0.2-py3-none-any.whl
+[2023-05-08 21:53:39] INFO root fetch - processPackages [streamlit-deckgl]: executing diffoscope
+[2023-05-08 21:53:39] INFO root fetch - processPackages [streamlit-deckgl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-deckgl-0.2.0.tar.gz tmp/streamlit-deckgl-0.2.1.tar.gz --markdown 20230508/s/streamlit-deckgl/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-08 21:53:39] INFO root fetch - processPackages [odoo-addon-barcodes-generator-product]: executing diffoscope
+[2023-05-08 21:53:39] INFO root fetch - processPackages [odoo-addon-barcodes-generator-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_barcodes_generator_product-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_barcodes_generator_product-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230508/o/odoo-addon-barcodes-generator-product/15.0.1.0.0.3-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-05-08 21:53:39] INFO root fetch - processPackages [plone.versioncheck]: Downloading https://files.pythonhosted.org/packages/2d/bc/6f5823544de7c38188f64892885e31233a7c22f5496db1ea9b558061d795/plone.versioncheck-1.8.1.tar.gz
+[2023-05-08 21:53:39] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/a2/24/156ec161f44515db7966a68d9cc8aa62da7475128d138541e64b86dd4487/lbt-honeybee-0.7.99.tar.gz
+[2023-05-08 21:53:39] INFO root fetch - processPackages [skit-labels]: Downloading https://files.pythonhosted.org/packages/a6/44/ef8765715ec3be16cdb5325eb929d0fda14ef837971ff785294300fbc94e/skit-labels-0.3.9.tar.gz
+[2023-05-08 21:53:39] INFO root fetch - processPackages [plone.versioncheck]: executing diffoscope
+[2023-05-08 21:53:39] INFO root fetch - processPackages [plone.versioncheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.versioncheck-1.8.0.tar.gz tmp/plone.versioncheck-1.8.1.tar.gz --markdown 20230508/p/plone.versioncheck/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-05-08 21:53:39] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-05-08 21:53:39] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230508/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-05-08 21:53:39] INFO root fetch - processPackages [skit-labels]: executing diffoscope
+[2023-05-08 21:53:39] INFO root fetch - processPackages [skit-labels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skit-labels-0.3.8.tar.gz tmp/skit-labels-0.3.9.tar.gz --markdown 20230508/s/skit-labels/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-08 21:53:40] INFO root fetch - processPackages [exondb]: Start processing: Skailar-framework
+[2023-05-08 21:53:40] INFO root fetch - main [MainThread]: End processing [exondb]: success
+[2023-05-08 21:53:40] WARNING root fetch - processPackages [Skailar-framework]: Skipping, unable to determine old version
+[2023-05-08 21:53:40] INFO root fetch - processPackages [Skailar-framework]: Start processing: askedith
+[2023-05-08 21:53:40] INFO root fetch - main [MainThread]: End processing [Skailar-framework] error
+[2023-05-08 21:53:40] INFO root fetch - processPackages [streamlit-deckgl]: Start processing: openvds
+[2023-05-08 21:53:40] INFO root fetch - main [MainThread]: End processing [streamlit-deckgl]: success
+[2023-05-08 21:53:40] INFO root fetch - processPackages [askedith]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-05-08 21:53:40] INFO root fetch - processPackages [openvds]: New version: [3.2.5] Old Version: [3.2.4]
+[2023-05-08 21:53:40] INFO root fetch - processPackages [askedith]: Downloading https://files.pythonhosted.org/packages/8b/9c/d857e04273c372f4bc184a0812fe15424d0c269deca5617a8486d4fd8e97/askedith-0.9.6-py3-none-any.whl
+[2023-05-08 21:53:40] INFO root fetch - processPackages [chatplayground]: Start processing: volttron-actuator
+[2023-05-08 21:53:40] INFO root fetch - main [MainThread]: End processing [chatplayground]: success
+[2023-05-08 21:53:40] INFO root fetch - processPackages [volttron-actuator]: New version: [0.1.1a4] Old Version: [0.1.1a3]
+[2023-05-08 21:53:40] INFO root fetch - processPackages [openvds]: Downloading https://files.pythonhosted.org/packages/da/d2/9e12bc3602cd7fee227f07fa6d59545166249695835537f6c591af4fc854/openvds-3.2.4-cp39-cp39-win_amd64.whl
+[2023-05-08 21:53:40] INFO root fetch - processPackages [debyetools]: Start processing: dragonfly-energy
+[2023-05-08 21:53:40] INFO root fetch - main [MainThread]: End processing [debyetools]: success
+[2023-05-08 21:53:40] INFO root fetch - processPackages [skit-labels]: Start processing: odoo-manager
+[2023-05-08 21:53:40] INFO root fetch - main [MainThread]: End processing [skit-labels]: success
+[2023-05-08 21:53:40] INFO root fetch - processPackages [volttron-actuator]: executing diffoscope
+[2023-05-08 21:53:40] INFO root fetch - processPackages [volttron-actuator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volttron_actuator-0.1.1a3.tar.gz tmp/volttron_actuator-0.1.1a4.tar.gz --markdown 20230508/v/volttron-actuator/0.1.1a3-0.1.1a4/diff.md --exclude *.pyd
+[2023-05-08 21:53:40] INFO root fetch - processPackages [odoo-addon-barcodes-generator-product]: Start processing: databased
+[2023-05-08 21:53:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-barcodes-generator-product]: success
+[2023-05-08 21:53:40] INFO root fetch - processPackages [databased]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-08 21:53:40] INFO root fetch - main [MainThread]: End processing [splight-lib]: success
+[2023-05-08 21:53:40] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-05-08 21:53:41] INFO root fetch - processPackages [odoo-manager]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 21:53:41] INFO root fetch - processPackages [databased]: executing diffoscope
+[2023-05-08 21:53:41] INFO root fetch - processPackages [databased]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databased-2.0.0.tar.gz tmp/databased-2.0.1.tar.gz --markdown 20230508/d/databased/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-08 21:53:41] INFO root fetch - processPackages [askedith]: Downloading https://files.pythonhosted.org/packages/56/82/c1a6938e9e7452568ffff201a420669db73f22068f98a93e809a76c1381e/askedith-0.9.7-py3-none-any.whl
+[2023-05-08 21:53:41] INFO root fetch - processPackages [askedith]: executing diffoscope
+[2023-05-08 21:53:41] INFO root fetch - processPackages [askedith]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/askedith-0.9.6-py3-none-any.whl.zip tmp/askedith-0.9.7-py3-none-any.whl.zip --markdown 20230508/a/askedith/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-05-08 21:53:41] INFO root fetch - processPackages [dragonfly-energy]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-08 21:53:41] INFO root fetch - processPackages [odoo-manager]: Downloading https://files.pythonhosted.org/packages/b3/3e/3f80a4a9f8022c71e92c03b628db2ff3d94fe5afd17db7e3436c62e1b4c1/odoo_manager-0.0.8.tar.gz
+[2023-05-08 21:53:41] INFO root fetch - main [MainThread]: End processing [plone.versioncheck]: success
+[2023-05-08 21:53:41] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/20/4e/115840f938ee254b23bd515351ba786228441464717f8557431f914e75f4/dragonfly-energy-1.9.8.tar.gz
+[2023-05-08 21:53:41] INFO root fetch - processPackages [openvds]: Downloading https://files.pythonhosted.org/packages/1a/b1/886ffdfbecf264c84b0c6f05669d1364d177f9ad5b34544a992c0d79a600/openvds-3.2.5-cp39-cp39-win_amd64.whl
+[2023-05-08 21:53:41] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/09/b6/c12f13159c5beb3b855a32f792faef162ad37358d2e0d3311cbd68a969db/dragonfly-energy-1.9.9.tar.gz
+[2023-05-08 21:53:41] INFO root fetch - processPackages [odoo-manager]: Downloading https://files.pythonhosted.org/packages/59/11/8aa64af905300f8ef6b2a425f98704e8a994adbd0dee6b207a1ab0ea5bf4/odoo_manager-0.0.9.tar.gz
+[2023-05-08 21:53:41] INFO root fetch - processPackages [dragonfly-energy]: executing diffoscope
+[2023-05-08 21:53:41] INFO root fetch - processPackages [dragonfly-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-energy-1.9.8.tar.gz tmp/dragonfly-energy-1.9.9.tar.gz --markdown 20230508/d/dragonfly-energy/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-08 21:53:41] INFO root fetch - main [MainThread]: End processing [volttron-actuator]: success
+[2023-05-08 21:53:42] INFO root fetch - main [MainThread]: End processing [askedith]: success
+[2023-05-08 21:53:42] INFO root fetch - processPackages [odoo-manager]: executing diffoscope
+[2023-05-08 21:53:42] INFO root fetch - processPackages [odoo-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_manager-0.0.8.tar.gz tmp/odoo_manager-0.0.9.tar.gz --markdown 20230508/o/odoo-manager/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 21:53:42] INFO root fetch - main [MainThread]: End processing [databased]: success
+[2023-05-08 21:53:43] INFO root fetch - main [MainThread]: End processing [dragonfly-energy]: success
+[2023-05-08 21:53:43] INFO root fetch - main [MainThread]: End processing [odoo-manager]: success
+[2023-05-08 21:53:43] INFO root fetch - processPackages [openvds]: executing diffoscope
+[2023-05-08 21:53:43] INFO root fetch - processPackages [openvds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openvds-3.2.4-cp39-cp39-win_amd64.whl.zip tmp/openvds-3.2.5-cp39-cp39-win_amd64.whl.zip --markdown 20230508/o/openvds/3.2.4-3.2.5/diff.md --exclude *.pyd
+[2023-05-08 21:53:59] INFO root fetch - main [MainThread]: End processing [open-space-toolkit-mathematics]: success
+[2023-05-08 21:55:28] INFO root fetch - main [MainThread]: End processing [openvds]: success
+[2023-05-08 21:55:28] INFO root fetch - main [MainThread]: Store serial: [18021721]
