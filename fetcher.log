@@ -9504,3 +9504,100 @@
 [2023-05-08 11:45:19] INFO root fetch - main [MainThread]: End processing [mlrun]: success
 [2023-05-08 11:45:30] INFO root fetch - main [MainThread]: End processing [argus-api]: success
 [2023-05-08 11:45:30] INFO root fetch - main [MainThread]: Store serial: [18015333]
+[2023-05-08 11:50:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18015333]
+[2023-05-08 11:50:40] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-08 11:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pythonsdk
+[2023-05-08 11:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flow.record
+[2023-05-08 11:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wagtail-humanitarian-icons
+[2023-05-08 11:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mlflow-kubernetes-backends
+[2023-05-08 11:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prodigy-teams
+[2023-05-08 11:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: syne-tune
+[2023-05-08 11:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: calcutils
+[2023-05-08 11:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tablite
+[2023-05-08 11:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: halring
+[2023-05-08 11:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: shafara-tool-kit
+[2023-05-08 11:50:40] INFO root fetch - processPackages [pythonsdk]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-05-08 11:50:40] INFO root fetch - processPackages [wagtail-humanitarian-icons]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-08 11:50:40] WARNING root fetch - processPackages [calcutils]: Skipping, unable to determine old version
+[2023-05-08 11:50:40] INFO root fetch - processPackages [calcutils]: Start processing: sybil-scorer
+[2023-05-08 11:50:40] INFO root fetch - main [MainThread]: End processing [calcutils] error
+[2023-05-08 11:50:40] INFO root fetch - processPackages [flow.record]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2023-05-08 11:50:40] INFO root fetch - processPackages [shafara-tool-kit]: New version: [0.2.1] Old Version: [0.1.1]
+[2023-05-08 11:50:40] INFO root fetch - processPackages [syne-tune]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-05-08 11:50:40] INFO root fetch - processPackages [sybil-scorer]: New version: [0.1.1] Old Version: [0.1.0rc1]
+[2023-05-08 11:50:40] INFO root fetch - processPackages [halring]: New version: [2.1.7] Old Version: [2.1.6]
+[2023-05-08 11:50:40] INFO root fetch - processPackages [tablite]: New version: [2022.9.3] Old Version: [2022.9.1]
+[2023-05-08 11:50:40] WARNING root fetch - processPackages [mlflow-kubernetes-backends]: Skipping, unable to determine old version
+[2023-05-08 11:50:40] INFO root fetch - processPackages [mlflow-kubernetes-backends]: Start processing: rele
+[2023-05-08 11:50:40] INFO root fetch - main [MainThread]: End processing [mlflow-kubernetes-backends] error
+[2023-05-08 11:50:40] INFO root fetch - processPackages [rele]: New version: [1.9.0] Old Version: [1.8.1b0]
+[2023-05-08 11:50:40] ERROR root fetch - processPackages [prodigy-teams]: Unable to get metadata: No such project 'prodigy-teams'
+[2023-05-08 11:50:40] INFO root fetch - processPackages [prodigy-teams]: Start processing: ccxt
+[2023-05-08 11:50:40] INFO root fetch - processPackages [pythonsdk]: executing diffoscope
+[2023-05-08 11:50:40] INFO root fetch - processPackages [pythonsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythonsdk-0.5.0.tar.gz tmp/pythonsdk-0.6.0.tar.gz --markdown 20230508/p/pythonsdk/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-05-08 11:50:40] INFO root fetch - main [MainThread]: End processing [prodigy-teams] error
+[2023-05-08 11:50:40] ERROR root fetch - processPackages [sybil-scorer]: Unable to fetch info: No such project/version 'sybil-scorer' 0.1.0rc1
+[2023-05-08 11:50:40] INFO root fetch - processPackages [sybil-scorer]: Start processing: ms-imputedhours-core
+[2023-05-08 11:50:40] INFO root fetch - main [MainThread]: End processing [sybil-scorer] error
+[2023-05-08 11:50:40] INFO root fetch - processPackages [ccxt]: New version: [3.0.97] Old Version: [3.0.96]
+[2023-05-08 11:50:40] INFO root fetch - processPackages [ms-imputedhours-core]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-05-08 11:50:40] INFO root fetch - processPackages [tablite]: Downloading https://files.pythonhosted.org/packages/05/27/6c9212665ca0b24094cf02acabc1d3090669759abf2bbf96f2985642cd01/tablite-2022.9.1-py3-none-any.whl
+[2023-05-08 11:50:40] INFO root fetch - processPackages [rele]: Downloading https://files.pythonhosted.org/packages/af/c5/1d2fe4cdfa79835b03d5d636ed4ab2d805ca22386efa668c24824049209b/rele-1.8.1b0.tar.gz
+[2023-05-08 11:50:40] INFO root fetch - processPackages [shafara-tool-kit]: Downloading https://files.pythonhosted.org/packages/56/a7/b4e6ce20680c8ec546eea3f1e97d5f3b8c2f992f4f5eb694d5de31e05d65/shafara_tool_kit-0.1.1.tar.gz
+[2023-05-08 11:50:40] INFO root fetch - processPackages [wagtail-humanitarian-icons]: Downloading https://files.pythonhosted.org/packages/fd/eb/918561a60a3eba6242ddf08c6a60fc28338e3ccdc0bd6a9a9c1169787d8b/wagtail-humanitarian-icons-1.0.2.tar.gz
+[2023-05-08 11:50:40] INFO root fetch - processPackages [syne-tune]: Downloading https://files.pythonhosted.org/packages/42/02/69d342cdc522b37db3916f5c0aa6ba17ee30d5365120f001d6796b895862/syne_tune-0.5.0.tar.gz
+[2023-05-08 11:50:40] INFO root fetch - processPackages [halring]: Downloading https://files.pythonhosted.org/packages/e6/a1/bfbc0b3e81a9c68c4a29b57dcda85c474f67ad1604a3a4f2ebab00b00ce2/halring-2.1.7-py3-none-any.whl
+[2023-05-08 11:50:40] INFO root fetch - processPackages [flow.record]: Downloading https://files.pythonhosted.org/packages/eb/f7/743164d5e05ae865e54dab364d8f3f0a512e9cd3b5472ed910e78318fea7/flow.record-3.9.dev8-py3-none-any.whl
+[2023-05-08 11:50:40] INFO root fetch - processPackages [ms-imputedhours-core]: Downloading https://files.pythonhosted.org/packages/be/27/c441ec45c053793b79138c859be93121380bbe6b2f0243d29f5c6e139c76/ms_imputedhours_core-0.3.7.tar.gz
+[2023-05-08 11:50:40] INFO root fetch - processPackages [wagtail-humanitarian-icons]: executing diffoscope
+[2023-05-08 11:50:40] INFO root fetch - processPackages [wagtail-humanitarian-icons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-humanitarian-icons-1.0.1.tar.gz tmp/wagtail-humanitarian-icons-1.0.2.tar.gz --markdown 20230508/w/wagtail-humanitarian-icons/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-08 11:50:40] INFO root fetch - processPackages [rele]: executing diffoscope
+[2023-05-08 11:50:40] INFO root fetch - processPackages [rele]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rele-1.8.1b0.tar.gz tmp/rele-1.9.0.tar.gz --markdown 20230508/r/rele/1.8.1b0-1.9.0/diff.md --exclude *.pyd
+[2023-05-08 11:50:40] INFO root fetch - processPackages [shafara-tool-kit]: Downloading https://files.pythonhosted.org/packages/be/b0/798be03848385ea7982384584b99fc4468d2a60f794e1c8aec30f3752ddf/shafara_tool_kit-0.2.1.tar.gz
+[2023-05-08 11:50:40] INFO root fetch - processPackages [syne-tune]: Downloading https://files.pythonhosted.org/packages/3e/1a/867b39cdea9cb134725656a1a692cb9bf9c4fc3defabeb3a304fd06e1631/syne_tune-0.6.0.tar.gz
+[2023-05-08 11:50:40] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/19/90/4f72fc7fe3d558a19d1fae61f6f2dc2851f190ac1b25893880dbd178b0a9/ccxt-3.0.97.tar.gz
+[2023-05-08 11:50:40] INFO root fetch - processPackages [halring]: executing diffoscope
+[2023-05-08 11:50:40] INFO root fetch - processPackages [halring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/halring-2.1.6-py3-none-any.whl.zip tmp/halring-2.1.7-py3-none-any.whl.zip --markdown 20230508/h/halring/2.1.6-2.1.7/diff.md --exclude *.pyd
+[2023-05-08 11:50:40] INFO root fetch - processPackages [shafara-tool-kit]: executing diffoscope
+[2023-05-08 11:50:40] INFO root fetch - processPackages [shafara-tool-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shafara_tool_kit-0.1.1.tar.gz tmp/shafara_tool_kit-0.2.1.tar.gz --markdown 20230508/s/shafara-tool-kit/0.1.1-0.2.1/diff.md --exclude *.pyd
+[2023-05-08 11:50:40] INFO root fetch - processPackages [flow.record]: Downloading https://files.pythonhosted.org/packages/b6/a4/d70ac03ec18bd7f7765a7f6f716e621cc5c9c74458d5c9782d2a357a0429/flow.record-3.9.dev9-py3-none-any.whl
+[2023-05-08 11:50:40] INFO root fetch - processPackages [syne-tune]: executing diffoscope
+[2023-05-08 11:50:40] INFO root fetch - processPackages [syne-tune]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syne_tune-0.5.0.tar.gz tmp/syne_tune-0.6.0.tar.gz --markdown 20230508/s/syne-tune/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-05-08 11:50:40] INFO root fetch - processPackages [ms-imputedhours-core]: Downloading https://files.pythonhosted.org/packages/ff/90/e0f832714ba45e2dcd39f320eb9de406c0307282d752f9c58981fae6e0e1/ms_imputedhours_core-0.3.8.tar.gz
+[2023-05-08 11:50:41] INFO root fetch - processPackages [flow.record]: executing diffoscope
+[2023-05-08 11:50:41] INFO root fetch - processPackages [flow.record]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flow.record-3.9.dev8-py3-none-any.whl.zip tmp/flow.record-3.9.dev9-py3-none-any.whl.zip --markdown 20230508/f/flow.record/3.9.dev8-3.9.dev9/diff.md --exclude *.pyd
+[2023-05-08 11:50:41] INFO root fetch - processPackages [ms-imputedhours-core]: executing diffoscope
+[2023-05-08 11:50:41] INFO root fetch - processPackages [ms-imputedhours-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_imputedhours_core-0.3.7.tar.gz tmp/ms_imputedhours_core-0.3.8.tar.gz --markdown 20230508/m/ms-imputedhours-core/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-05-08 11:50:41] INFO root fetch - processPackages [tablite]: Downloading https://files.pythonhosted.org/packages/60/12/a13081906a04561cea33c22985e9b922cf569851134cc72604fada07f2fd/tablite-2022.9.3-py3-none-any.whl
+[2023-05-08 11:50:41] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-05-08 11:50:41] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-3.0.96.tar.gz tmp/ccxt-3.0.97.tar.gz --markdown 20230508/c/ccxt/3.0.96-3.0.97/diff.md --exclude *.pyd
+[2023-05-08 11:50:41] INFO root fetch - processPackages [tablite]: executing diffoscope
+[2023-05-08 11:50:41] INFO root fetch - processPackages [tablite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablite-2022.9.1-py3-none-any.whl.zip tmp/tablite-2022.9.3-py3-none-any.whl.zip --markdown 20230508/t/tablite/2022.9.1-2022.9.3/diff.md --exclude *.pyd
+[2023-05-08 11:50:42] INFO root fetch - processPackages [pythonsdk]: Start processing: hikari
+[2023-05-08 11:50:42] INFO root fetch - main [MainThread]: End processing [pythonsdk]: success
+[2023-05-08 11:50:42] INFO root fetch - processPackages [hikari]: New version: [2.0.0.dev99] Old Version: [2.0.0.dev98]
+[2023-05-08 11:50:42] INFO root fetch - processPackages [shafara-tool-kit]: Start processing: maus
+[2023-05-08 11:50:42] INFO root fetch - main [MainThread]: End processing [shafara-tool-kit]: success
+[2023-05-08 11:50:42] INFO root fetch - processPackages [maus]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-08 11:50:42] INFO root fetch - processPackages [hikari]: Downloading https://files.pythonhosted.org/packages/f0/5d/c16306e1221c1fa3d0454dfb295c17e06b3c905e781c3baaea0a8dd9a841/hikari-2.0.0.dev98.tar.gz
+[2023-05-08 11:50:42] INFO root fetch - processPackages [maus]: Downloading https://files.pythonhosted.org/packages/a4/23/5ac39406dc701aee5fdafeb6350a30fef179218b19107073277eb52e9478/maus-0.3.8.tar.gz
+[2023-05-08 11:50:42] INFO root fetch - processPackages [rele]: Start processing: nico-font-tool
+[2023-05-08 11:50:42] INFO root fetch - main [MainThread]: End processing [rele]: success
+[2023-05-08 11:50:42] INFO root fetch - main [MainThread]: End processing [ms-imputedhours-core]: success
+[2023-05-08 11:50:42] WARNING root fetch - processPackages [nico-font-tool]: Skipping, unable to determine old version
+[2023-05-08 11:50:42] INFO root fetch - main [MainThread]: End processing [nico-font-tool] error
+[2023-05-08 11:50:42] INFO root fetch - processPackages [hikari]: Downloading https://files.pythonhosted.org/packages/86/6d/0385dbfccc61d012d5e9a32c8f5ee141fb2c0d2c32f6a6a6a4ace78d2e58/hikari-2.0.0.dev99.tar.gz
+[2023-05-08 11:50:43] INFO root fetch - main [MainThread]: End processing [flow.record]: success
+[2023-05-08 11:50:43] INFO root fetch - processPackages [maus]: Downloading https://files.pythonhosted.org/packages/11/45/026d34b52f83a6417b7fafbe9c0acbf0025b3260ec976596144262094a61/maus-0.3.9.tar.gz
+[2023-05-08 11:50:43] INFO root fetch - processPackages [hikari]: executing diffoscope
+[2023-05-08 11:50:43] INFO root fetch - processPackages [hikari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hikari-2.0.0.dev98.tar.gz tmp/hikari-2.0.0.dev99.tar.gz --markdown 20230508/h/hikari/2.0.0.dev98-2.0.0.dev99/diff.md --exclude *.pyd
+[2023-05-08 11:50:43] INFO root fetch - processPackages [maus]: executing diffoscope
+[2023-05-08 11:50:43] INFO root fetch - processPackages [maus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maus-0.3.8.tar.gz tmp/maus-0.3.9.tar.gz --markdown 20230508/m/maus/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-08 11:50:43] INFO root fetch - main [MainThread]: End processing [wagtail-humanitarian-icons]: success
+[2023-05-08 11:50:43] INFO root fetch - main [MainThread]: End processing [halring]: success
+[2023-05-08 11:50:43] INFO root fetch - main [MainThread]: End processing [tablite]: success
+[2023-05-08 11:50:44] INFO root fetch - main [MainThread]: End processing [maus]: success
+[2023-05-08 11:50:44] INFO root fetch - main [MainThread]: End processing [syne-tune]: success
+[2023-05-08 11:50:44] INFO root fetch - main [MainThread]: End processing [hikari]: success
+[2023-05-08 11:50:49] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-05-08 11:50:49] INFO root fetch - main [MainThread]: Store serial: [18015394]
