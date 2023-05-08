@@ -10297,3 +10297,54 @@
 [2023-05-08 12:44:52] INFO root fetch - main [MainThread]: End processing [django-cryptapi]: success
 [2023-05-08 12:44:52] INFO root fetch - main [MainThread]: End processing [gopro-overlay]: success
 [2023-05-08 12:44:52] INFO root fetch - main [MainThread]: Store serial: [18015725]
+[2023-05-08 12:49:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18015725]
+[2023-05-08 12:50:02] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-08 12:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airplanesdk
+[2023-05-08 12:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inverse
+[2023-05-08 12:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pysangkom
+[2023-05-08 12:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-blockbee
+[2023-05-08 12:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oauth2-lib
+[2023-05-08 12:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: checkov
+[2023-05-08 12:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyStorCLI2
+[2023-05-08 12:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: webcam
+[2023-05-08 12:50:02] INFO root fetch - processPackages [inverse]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 12:50:02] INFO root fetch - processPackages [PyStorCLI2]: New version: [0.6.4.dev26] Old Version: [0.6.3.dev1]
+[2023-05-08 12:50:02] INFO root fetch - processPackages [oauth2-lib]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-08 12:50:02] INFO root fetch - processPackages [django-blockbee]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-08 12:50:02] INFO root fetch - processPackages [pysangkom]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-08 12:50:02] INFO root fetch - processPackages [airplanesdk]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-05-08 12:50:02] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-08 12:50:02] INFO root fetch - processPackages [webcam]: New version: [0.8] Old Version: [0.7]
+[2023-05-08 12:50:02] INFO root fetch - processPackages [inverse]: executing diffoscope
+[2023-05-08 12:50:02] INFO root fetch - processPackages [inverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inverse-0.0.8-py3-none-any.whl.zip tmp/inverse-0.0.9-py3-none-any.whl.zip --markdown 20230508/i/inverse/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 12:50:02] INFO root fetch - processPackages [PyStorCLI2]: Downloading https://files.pythonhosted.org/packages/4c/de/4af82e153315d0b760f9c9eb82101e1693c0bb52681b475193e16544ed2a/PyStorCLI2-0.6.3.dev1.tar.gz
+[2023-05-08 12:50:02] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-05-08 12:50:02] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230508/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-08 12:50:02] INFO root fetch - processPackages [django-blockbee]: Downloading https://files.pythonhosted.org/packages/85/3e/b7ac1ca4cd3e90e601a6189f084692a647d66129821410eac173bc8205d9/django-blockbee-1.0.3.tar.gz
+[2023-05-08 12:50:02] INFO root fetch - processPackages [oauth2-lib]: Downloading https://files.pythonhosted.org/packages/6d/d1/d9c1ea29da867df10bb14251a285c95d85b641e455ec3f04a4d066035b34/oauth2-lib-1.2.8.tar.gz
+[2023-05-08 12:50:02] INFO root fetch - processPackages [pysangkom]: Downloading https://files.pythonhosted.org/packages/8e/18/274b88553bd10f7b297cb9fb299bf6b7bf54f34d4554123ab7a94a37a72d/pysangkom-1.0.5.tar.gz
+[2023-05-08 12:50:02] INFO root fetch - processPackages [airplanesdk]: executing diffoscope
+[2023-05-08 12:50:02] INFO root fetch - processPackages [airplanesdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airplanesdk-0.3.7.tar.gz tmp/airplanesdk-0.3.8.tar.gz --markdown 20230508/a/airplanesdk/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-05-08 12:50:02] INFO root fetch - processPackages [PyStorCLI2]: Downloading https://files.pythonhosted.org/packages/d3/b0/5c89402c37b31339da629243fc3b94042358534c9629580da6bcdbdbbc71/PyStorCLI2-0.6.4.dev26.tar.gz
+[2023-05-08 12:50:02] INFO root fetch - processPackages [oauth2-lib]: Downloading https://files.pythonhosted.org/packages/27/cc/3736897e4778b7bbe2c8b3f34da5fb5f988d368eb61e83736cd238f546cd/oauth2-lib-1.2.9.tar.gz
+[2023-05-08 12:50:02] INFO root fetch - processPackages [django-blockbee]: Downloading https://files.pythonhosted.org/packages/b9/5d/56bbeb75e0181d9582c793438b057a7af976e650e86bcd8f9620e6ba5106/django-blockbee-1.0.4.tar.gz
+[2023-05-08 12:50:02] INFO root fetch - processPackages [webcam]: Downloading https://files.pythonhosted.org/packages/08/c3/148c1a0bc368f6044c0298900d71c231c67c08a80197731fd17a9acde3d6/webcam-0.8.tar.gz
+[2023-05-08 12:50:02] INFO root fetch - processPackages [pysangkom]: executing diffoscope
+[2023-05-08 12:50:02] INFO root fetch - processPackages [pysangkom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysangkom-1.0.4.tar.gz tmp/pysangkom-1.0.5.tar.gz --markdown 20230508/p/pysangkom/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-08 12:50:02] INFO root fetch - processPackages [oauth2-lib]: executing diffoscope
+[2023-05-08 12:50:02] INFO root fetch - processPackages [oauth2-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oauth2-lib-1.2.8.tar.gz tmp/oauth2-lib-1.2.9.tar.gz --markdown 20230508/o/oauth2-lib/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-08 12:50:02] INFO root fetch - processPackages [PyStorCLI2]: executing diffoscope
+[2023-05-08 12:50:02] INFO root fetch - processPackages [PyStorCLI2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyStorCLI2-0.6.3.dev1.tar.gz tmp/PyStorCLI2-0.6.4.dev26.tar.gz --markdown 20230508/P/PyStorCLI2/0.6.3.dev1-0.6.4.dev26/diff.md --exclude *.pyd
+[2023-05-08 12:50:02] INFO root fetch - processPackages [django-blockbee]: executing diffoscope
+[2023-05-08 12:50:02] INFO root fetch - processPackages [django-blockbee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-blockbee-1.0.3.tar.gz tmp/django-blockbee-1.0.4.tar.gz --markdown 20230508/d/django-blockbee/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-08 12:50:02] INFO root fetch - processPackages [webcam]: executing diffoscope
+[2023-05-08 12:50:02] INFO root fetch - processPackages [webcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webcam-0.7.tar.gz tmp/webcam-0.8.tar.gz --markdown 20230508/w/webcam/0.7-0.8/diff.md --exclude *.pyd
+[2023-05-08 12:50:04] INFO root fetch - main [MainThread]: End processing [airplanesdk]: success
+[2023-05-08 12:50:04] INFO root fetch - main [MainThread]: End processing [pysangkom]: success
+[2023-05-08 12:50:05] INFO root fetch - main [MainThread]: End processing [webcam]: success
+[2023-05-08 12:50:05] INFO root fetch - main [MainThread]: End processing [django-blockbee]: success
+[2023-05-08 12:50:05] INFO root fetch - main [MainThread]: End processing [oauth2-lib]: success
+[2023-05-08 12:50:05] INFO root fetch - main [MainThread]: End processing [inverse]: success
+[2023-05-08 12:50:09] INFO root fetch - main [MainThread]: End processing [PyStorCLI2]: success
+[2023-05-08 12:50:57] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-05-08 12:50:57] INFO root fetch - main [MainThread]: Store serial: [18015747]
