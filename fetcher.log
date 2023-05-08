@@ -1169,3 +1169,111 @@
 [2023-05-08 02:19:11] INFO root fetch - main [MainThread]: End processing [gopro-video-sync]: success
 [2023-05-08 02:19:12] INFO root fetch - main [MainThread]: End processing [rover-arm]: success
 [2023-05-08 02:19:12] INFO root fetch - main [MainThread]: Store serial: [18010769]
+[2023-05-08 02:24:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18010769]
+[2023-05-08 02:24:22] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-08 02:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-budibase
+[2023-05-08 02:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdklabs.cdk-ethereum-node
+[2023-05-08 02:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: low-cost-ecs
+[2023-05-08 02:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aws-cdk.asset-node-proxy-agent-v5
+[2023-05-08 02:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk8s-valheim
+[2023-05-08 02:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdktf-surreal-backend
+[2023-05-08 02:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-aurora-globaldatabase
+[2023-05-08 02:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk8s-grafana
+[2023-05-08 02:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-nag
+[2023-05-08 02:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: llama-cpp-python
+[2023-05-08 02:24:22] INFO root fetch - processPackages [low-cost-ecs]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 02:24:22] INFO root fetch - processPackages [cdk-budibase]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 02:24:22] INFO root fetch - processPackages [aws-cdk.asset-node-proxy-agent-v5]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-08 02:24:22] INFO root fetch - processPackages [cdktf-surreal-backend]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-05-08 02:24:22] INFO root fetch - processPackages [cdk8s-valheim]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 02:24:22] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-08 02:24:22] INFO root fetch - processPackages [llama-cpp-python]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 02:24:22] INFO root fetch - processPackages [cdk8s-grafana]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-08 02:24:22] INFO root fetch - processPackages [aws-cdk.asset-node-proxy-agent-v5]: Downloading https://files.pythonhosted.org/packages/80/eb/2f2fb2a6a52c8c6370c3b401c8bdd61a95b2f4f005406f5d742f9e230443/aws-cdk.asset-node-proxy-agent-v5-2.0.98.tar.gz
+[2023-05-08 02:24:22] INFO root fetch - processPackages [cdk-nag]: New version: [2.9.7] Old Version: [2.9.6]
+[2023-05-08 02:24:22] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/62/dc/735d9d12ecb4f45fbeec425ce346e9dda4180273b7b8a3b7d1bd7c2aaf3d/cdk-budibase-0.0.8.tar.gz
+[2023-05-08 02:24:22] INFO root fetch - processPackages [llama-cpp-python]: Downloading https://files.pythonhosted.org/packages/7e/3b/b5f7e1ec5f43a4e980733c63bd4f05e1b7e14fd3b7aa72d9ca91f2415323/llama_cpp_python-0.1.8.tar.gz
+[2023-05-08 02:24:22] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/d8/1a/417af84315b2d52f6063ccf2072677259777d28fb73cab91e17879faaa26/cdklabs.cdk-ethereum-node-0.0.98.tar.gz
+[2023-05-08 02:24:22] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-08 02:24:22] INFO root fetch - processPackages [cdk8s-valheim]: Downloading https://files.pythonhosted.org/packages/bd/c4/af9f1a5ab16b01474e417a87f5adb23655a02a1410a9e7561ef7bc9c99f3/cdk8s-valheim-0.0.8.tar.gz
+[2023-05-08 02:24:22] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/d9/95/654afcf433ff074ee19483bcc89f1b1a113ddd08edd6ff0bfcc205167a77/cdk8s-grafana-0.1.98.tar.gz
+[2023-05-08 02:24:22] INFO root fetch - processPackages [cdktf-surreal-backend]: Downloading https://files.pythonhosted.org/packages/cb/0a/a7b476cc0f57abbfe23b6e1de3ab7c8d7ef56c77aa972828c5dc9958e1d8/cdktf-surreal-backend-1.0.98.tar.gz
+[2023-05-08 02:24:22] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/26/bc/b8768e307b8d360b78f45303ac30baa4232637f372296203b0005cd07cd4/cdk-nag-2.9.6.tar.gz
+[2023-05-08 02:24:22] INFO root fetch - processPackages [low-cost-ecs]: Downloading https://files.pythonhosted.org/packages/07/40/e9142a10d6b901d0892bcfbb1046c7e8773e2bef15a1f7d79d82c1d2cafb/low-cost-ecs-0.0.8.tar.gz
+[2023-05-08 02:24:22] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2023-05-08 02:24:22] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/2d/d8/3fd98f927d9988f7c189f488b1829ac7aa7f855bf93f6030e3bed9af9a97/cdklabs.cdk-ethereum-node-0.0.99.tar.gz
+[2023-05-08 02:24:22] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/da/f5/b8a55cb7b91c83756a41eda4ae26245020499ddf771f27b33c7dc1a4ce2d/cdk-budibase-0.0.9.tar.gz
+[2023-05-08 02:24:22] INFO root fetch - processPackages [aws-cdk.asset-node-proxy-agent-v5]: Downloading https://files.pythonhosted.org/packages/89/15/4e594a0513111cc2865b3e0a45fba3a3e7534c2885a492bfd388bdbb9b21/aws-cdk.asset-node-proxy-agent-v5-2.0.99.tar.gz
+[2023-05-08 02:24:22] INFO root fetch - processPackages [llama-cpp-python]: Downloading https://files.pythonhosted.org/packages/9f/24/45a5a3beee1354f668d916eb1a2146835a0eda4dbad0da45252170e105a6/llama_cpp_python-0.1.9.tar.gz
+[2023-05-08 02:24:22] INFO root fetch - processPackages [cdktf-surreal-backend]: Downloading https://files.pythonhosted.org/packages/b2/df/7604fdc8f04cf537fd774472005fab2e46b4e2271b55ee3e5027045037e4/cdktf-surreal-backend-1.0.99.tar.gz
+[2023-05-08 02:24:22] INFO root fetch - processPackages [cdk8s-valheim]: Downloading https://files.pythonhosted.org/packages/87/a9/7f5fad14b9830ac09bbff99f62db0929b0c28faf8d00023d09c15fbac4a8/cdk8s-valheim-0.0.9.tar.gz
+[2023-05-08 02:24:22] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/71/78/6a2d0c627f1033774d5be3d2faca465e0bc0b07cf97cec491c795775999a/cdk-nag-2.9.7.tar.gz
+[2023-05-08 02:24:22] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2023-05-08 02:24:22] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: executing diffoscope
+[2023-05-08 02:24:22] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz --markdown 20230508/c/cdklabs.cdk-ethereum-node/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-08 02:24:22] INFO root fetch - processPackages [cdktf-surreal-backend]: executing diffoscope
+[2023-05-08 02:24:22] INFO root fetch - processPackages [cdktf-surreal-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-surreal-backend-1.0.98.tar.gz tmp/cdktf-surreal-backend-1.0.99.tar.gz --markdown 20230508/c/cdktf-surreal-backend/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-05-08 02:24:22] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/70/0b/1cbbebf9bdeb0edcb5ab0f3110b233c14ebfd8e9d744573a7640af1c4b94/cdk8s-grafana-0.1.99.tar.gz
+[2023-05-08 02:24:22] INFO root fetch - processPackages [cdk-budibase]: executing diffoscope
+[2023-05-08 02:24:22] INFO root fetch - processPackages [cdk-budibase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-budibase-0.0.8.tar.gz tmp/cdk-budibase-0.0.9.tar.gz --markdown 20230508/c/cdk-budibase/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 02:24:22] INFO root fetch - processPackages [llama-cpp-python]: executing diffoscope
+[2023-05-08 02:24:22] INFO root fetch - processPackages [llama-cpp-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_cpp_python-0.1.8.tar.gz tmp/llama_cpp_python-0.1.9.tar.gz --markdown 20230508/l/llama-cpp-python/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 02:24:22] INFO root fetch - processPackages [cdk8s-valheim]: executing diffoscope
+[2023-05-08 02:24:22] INFO root fetch - processPackages [cdk8s-valheim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-valheim-0.0.8.tar.gz tmp/cdk8s-valheim-0.0.9.tar.gz --markdown 20230508/c/cdk8s-valheim/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 02:24:22] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2023-05-08 02:24:22] INFO root fetch - processPackages [cdk-nag]: executing diffoscope
+[2023-05-08 02:24:22] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20230508/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-08 02:24:22] INFO root fetch - processPackages [cdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-nag-2.9.6.tar.gz tmp/cdk-nag-2.9.7.tar.gz --markdown 20230508/c/cdk-nag/2.9.6-2.9.7/diff.md --exclude *.pyd
+[2023-05-08 02:24:22] INFO root fetch - processPackages [aws-cdk.asset-node-proxy-agent-v5]: executing diffoscope
+[2023-05-08 02:24:22] INFO root fetch - processPackages [aws-cdk.asset-node-proxy-agent-v5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.asset-node-proxy-agent-v5-2.0.98.tar.gz tmp/aws-cdk.asset-node-proxy-agent-v5-2.0.99.tar.gz --markdown 20230508/a/aws-cdk.asset-node-proxy-agent-v5/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-08 02:24:22] INFO root fetch - processPackages [low-cost-ecs]: Downloading https://files.pythonhosted.org/packages/f8/e2/870bffe92129bd52bf49ffe3cc71a2072a6e2f34270a3241e7c54c1e7df4/low-cost-ecs-0.0.9.tar.gz
+[2023-05-08 02:24:22] INFO root fetch - processPackages [cdk8s-grafana]: executing diffoscope
+[2023-05-08 02:24:22] INFO root fetch - processPackages [cdk8s-grafana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-grafana-0.1.98.tar.gz tmp/cdk8s-grafana-0.1.99.tar.gz --markdown 20230508/c/cdk8s-grafana/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-08 02:24:22] INFO root fetch - processPackages [low-cost-ecs]: executing diffoscope
+[2023-05-08 02:24:22] INFO root fetch - processPackages [low-cost-ecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/low-cost-ecs-0.0.8.tar.gz tmp/low-cost-ecs-0.0.9.tar.gz --markdown 20230508/l/low-cost-ecs/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 02:24:24] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Start processing: playgroundrl
+[2023-05-08 02:24:24] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-ethereum-node]: success
+[2023-05-08 02:24:24] INFO root fetch - processPackages [cdktf-surreal-backend]: Start processing: sampling-constraints
+[2023-05-08 02:24:24] INFO root fetch - main [MainThread]: End processing [cdktf-surreal-backend]: success
+[2023-05-08 02:24:24] INFO root fetch - processPackages [playgroundrl]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-08 02:24:24] INFO root fetch - processPackages [sampling-constraints]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-08 02:24:24] INFO root fetch - processPackages [cdk8s-valheim]: Start processing: aws-cdk.asset-awscli-v2
+[2023-05-08 02:24:24] INFO root fetch - main [MainThread]: End processing [cdk8s-valheim]: success
+[2023-05-08 02:24:24] INFO root fetch - processPackages [playgroundrl]: executing diffoscope
+[2023-05-08 02:24:24] INFO root fetch - processPackages [playgroundrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playgroundrl-0.0.7.tar.gz tmp/playgroundrl-0.0.8.tar.gz --markdown 20230508/p/playgroundrl/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-08 02:24:24] INFO root fetch - processPackages [aws-cdk.asset-awscli-v2]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-08 02:24:24] INFO root fetch - processPackages [aws-cdk.asset-awscli-v2]: Downloading https://files.pythonhosted.org/packages/ff/ea/d3ff38a542e799992724e66182e34e344f1ad60cea450624e2d48ee7303b/aws-cdk.asset-awscli-v2-2.0.8.tar.gz
+[2023-05-08 02:24:24] INFO root fetch - processPackages [sampling-constraints]: Downloading https://files.pythonhosted.org/packages/ae/ed/9d7f144a9326ed61d288dcbba93aae21339a5f302337e6345bc1023ccb69/sampling-constraints-0.0.5.tar.gz
+[2023-05-08 02:24:24] INFO root fetch - processPackages [aws-cdk.asset-node-proxy-agent-v5]: Start processing: cdklabs.ecs-codedeploy
+[2023-05-08 02:24:24] INFO root fetch - main [MainThread]: End processing [aws-cdk.asset-node-proxy-agent-v5]: success
+[2023-05-08 02:24:24] INFO root fetch - processPackages [cdk-nag]: Start processing: cdk-docker-image-deployment
+[2023-05-08 02:24:24] INFO root fetch - main [MainThread]: End processing [cdk-nag]: success
+[2023-05-08 02:24:24] WARNING root fetch - processPackages [aws-cdk.asset-awscli-v2]: Skipping package: exceeds size limit 53149528>=10485760
+[2023-05-08 02:24:24] INFO root fetch - processPackages [aws-cdk.asset-awscli-v2]: Start processing: aws-cdk.asset-awscli-v1
+[2023-05-08 02:24:24] INFO root fetch - main [MainThread]: End processing [aws-cdk.asset-awscli-v2] error
+[2023-05-08 02:24:24] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-08 02:24:24] INFO root fetch - processPackages [aws-cdk.asset-awscli-v1]: New version: [2.2.99] Old Version: [2.2.98]
+[2023-05-08 02:24:24] INFO root fetch - processPackages [cdk-docker-image-deployment]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-08 02:24:24] INFO root fetch - processPackages [sampling-constraints]: executing diffoscope
+[2023-05-08 02:24:24] INFO root fetch - processPackages [sampling-constraints]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sampling-constraints-0.0.4.tar.gz tmp/sampling-constraints-0.0.5.tar.gz --markdown 20230508/s/sampling-constraints/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-08 02:24:24] INFO root fetch - main [MainThread]: End processing [cdk8s-grafana]: success
+[2023-05-08 02:24:24] INFO root fetch - processPackages [aws-cdk.asset-awscli-v1]: Downloading https://files.pythonhosted.org/packages/d8/5f/ec514d7b5296b58149a8b4407d5d4833dd7b24475d8d782b2c36a00c4d22/aws-cdk.asset-awscli-v1-2.2.98.tar.gz
+[2023-05-08 02:24:24] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: Downloading https://files.pythonhosted.org/packages/c6/34/cef791c667d067a7923df4169adb57934467590c903d5f58c9e5be5a7759/cdklabs.ecs-codedeploy-0.0.98.tar.gz
+[2023-05-08 02:24:24] INFO root fetch - processPackages [cdk-docker-image-deployment]: Downloading https://files.pythonhosted.org/packages/df/53/1ddc54545e9ffbcefe4385747deddb0f87b200ddf27630a55f9728869564/cdk-docker-image-deployment-0.0.98.tar.gz
+[2023-05-08 02:24:24] WARNING root fetch - processPackages [aws-cdk.asset-awscli-v1]: Skipping package: exceeds size limit 14653629>=10485760
+[2023-05-08 02:24:24] INFO root fetch - main [MainThread]: End processing [aws-cdk.asset-awscli-v1] error
+[2023-05-08 02:24:24] INFO root fetch - main [MainThread]: End processing [low-cost-ecs]: success
+[2023-05-08 02:24:24] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: Downloading https://files.pythonhosted.org/packages/32/d6/43cc31093e5335204bbb8629fe11154ff7ebd2508f020ee399403b503b2c/cdklabs.ecs-codedeploy-0.0.99.tar.gz
+[2023-05-08 02:24:24] INFO root fetch - processPackages [cdk-docker-image-deployment]: Downloading https://files.pythonhosted.org/packages/a3/f9/be2a564d48355f28c54c00f791e3f39262ae2d2d740e34b1e0d70ba48448/cdk-docker-image-deployment-0.0.99.tar.gz
+[2023-05-08 02:24:24] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2023-05-08 02:24:24] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: executing diffoscope
+[2023-05-08 02:24:24] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.ecs-codedeploy-0.0.98.tar.gz tmp/cdklabs.ecs-codedeploy-0.0.99.tar.gz --markdown 20230508/c/cdklabs.ecs-codedeploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-08 02:24:24] INFO root fetch - processPackages [cdk-docker-image-deployment]: executing diffoscope
+[2023-05-08 02:24:24] INFO root fetch - processPackages [cdk-docker-image-deployment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-docker-image-deployment-0.0.98.tar.gz tmp/cdk-docker-image-deployment-0.0.99.tar.gz --markdown 20230508/c/cdk-docker-image-deployment/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-08 02:24:25] INFO root fetch - main [MainThread]: End processing [playgroundrl]: success
+[2023-05-08 02:24:25] INFO root fetch - main [MainThread]: End processing [sampling-constraints]: success
+[2023-05-08 02:24:25] INFO root fetch - main [MainThread]: End processing [cdklabs.ecs-codedeploy]: success
+[2023-05-08 02:24:26] INFO root fetch - main [MainThread]: End processing [cdk-budibase]: success
+[2023-05-08 02:24:26] INFO root fetch - main [MainThread]: End processing [cdk-docker-image-deployment]: success
+[2023-05-08 02:24:28] INFO root fetch - main [MainThread]: End processing [llama-cpp-python]: success
+[2023-05-08 02:24:28] INFO root fetch - main [MainThread]: Store serial: [18010818]
