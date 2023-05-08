@@ -15121,3 +15121,129 @@ EOFError: EOF read where object expected
 [2023-05-08 16:58:35] INFO root fetch - main [MainThread]: End processing [amsterdam-schema-tools]: success
 [2023-05-08 16:58:35] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-penguin]: success
 [2023-05-08 16:58:35] INFO root fetch - main [MainThread]: Store serial: [18018377]
+[2023-05-08 17:03:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18018377]
+[2023-05-08 17:03:45] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-08 17:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blackjax-nightly
+[2023-05-08 17:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: intervalframe
+[2023-05-08 17:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: periodic-element-properties
+[2023-05-08 17:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: platformio
+[2023-05-08 17:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lixinger
+[2023-05-08 17:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: llmpool
+[2023-05-08 17:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: condb
+[2023-05-08 17:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: napalm-slx-os
+[2023-05-08 17:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sick-json
+[2023-05-08 17:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: discord-ext-pager
+[2023-05-08 17:03:45] INFO root fetch - processPackages [llmpool]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-08 17:03:45] INFO root fetch - processPackages [periodic-element-properties]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-08 17:03:45] INFO root fetch - processPackages [platformio]: New version: [6.1.7] Old Version: [6.1.6]
+[2023-05-08 17:03:45] WARNING root fetch - processPackages [napalm-slx-os]: Skipping, unable to determine old version
+[2023-05-08 17:03:45] INFO root fetch - processPackages [napalm-slx-os]: Start processing: botcity-ms365-outlook-plugin
+[2023-05-08 17:03:45] INFO root fetch - main [MainThread]: End processing [napalm-slx-os] error
+[2023-05-08 17:03:45] INFO root fetch - processPackages [lixinger]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-08 17:03:45] WARNING root fetch - processPackages [sick-json]: Skipping, unable to determine old version
+[2023-05-08 17:03:45] INFO root fetch - processPackages [sick-json]: Start processing: fpyo2apk
+[2023-05-08 17:03:45] INFO root fetch - main [MainThread]: End processing [sick-json] error
+[2023-05-08 17:03:45] INFO root fetch - processPackages [fpyo2apk]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-08 17:03:45] INFO root fetch - processPackages [periodic-element-properties]: executing diffoscope
+[2023-05-08 17:03:45] INFO root fetch - processPackages [periodic-element-properties]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/periodic_element_properties-0.1.0.tar.gz tmp/periodic_element_properties-0.1.1.tar.gz --markdown 20230508/p/periodic-element-properties/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-08 17:03:45] INFO root fetch - processPackages [llmpool]: executing diffoscope
+[2023-05-08 17:03:45] INFO root fetch - processPackages [llmpool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmpool-0.1.1-py3-none-any.whl.zip tmp/llmpool-0.1.2-py3-none-any.whl.zip --markdown 20230508/l/llmpool/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-08 17:03:45] INFO root fetch - processPackages [blackjax-nightly]: New version: [0.9.6.post99] Old Version: [0.9.6.post98]
+[2023-05-08 17:03:45] INFO root fetch - processPackages [intervalframe]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-08 17:03:45] INFO root fetch - processPackages [condb]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-08 17:03:45] INFO root fetch - processPackages [discord-ext-pager]: New version: [1.0.2.post2] Old Version: [1.0.2.post1]
+[2023-05-08 17:03:45] INFO root fetch - processPackages [lixinger]: executing diffoscope
+[2023-05-08 17:03:45] INFO root fetch - processPackages [lixinger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lixinger-0.1.3.tar.gz tmp/lixinger-0.1.4.tar.gz --markdown 20230508/l/lixinger/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-08 17:03:45] WARNING root fetch - processPackages [botcity-ms365-outlook-plugin]: Skipping, unable to determine old version
+[2023-05-08 17:03:45] INFO root fetch - processPackages [botcity-ms365-outlook-plugin]: Start processing: trlc
+[2023-05-08 17:03:45] INFO root fetch - main [MainThread]: End processing [botcity-ms365-outlook-plugin] error
+[2023-05-08 17:03:45] INFO root fetch - processPackages [fpyo2apk]: executing diffoscope
+[2023-05-08 17:03:45] INFO root fetch - processPackages [fpyo2apk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fpyo2apk-1.1.1.tar.gz tmp/fpyo2apk-1.1.2.tar.gz --markdown 20230508/f/fpyo2apk/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-08 17:03:45] INFO root fetch - processPackages [platformio]: Downloading https://files.pythonhosted.org/packages/0b/49/0af5d39d7940ba1e6595f451b0d04712dddc4500db553af73b201d5edd4f/platformio-6.1.6.tar.gz
+[2023-05-08 17:03:45] INFO root fetch - processPackages [trlc]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-05-08 17:03:45] INFO root fetch - processPackages [blackjax-nightly]: Downloading https://files.pythonhosted.org/packages/92/6d/422e9e95a27c826c4b864ee3e0b55710e81e9082ed87a8b3cffb4c50bc6a/blackjax-nightly-0.9.6.post98.tar.gz
+[2023-05-08 17:03:45] INFO root fetch - processPackages [discord-ext-pager]: Downloading https://files.pythonhosted.org/packages/63/f0/318124b1eddbb64c96035af9c87f29990db8a625298206c9e9608f145b5b/discord-ext-pager-1.0.2.post2.tar.gz
+[2023-05-08 17:03:45] INFO root fetch - processPackages [condb]: Downloading https://files.pythonhosted.org/packages/a1/98/4522553e4f55b27f5de8b3362e55c94aceded4aa532611fcecb0e5e31d82/condb-1.0.2.tar.gz
+[2023-05-08 17:03:45] INFO root fetch - processPackages [platformio]: Downloading https://files.pythonhosted.org/packages/b5/bd/929283a87ed210b537c2de33911ca4dcb0ee67d06182786f9ee30e5da75b/platformio-6.1.7.tar.gz
+[2023-05-08 17:03:45] INFO root fetch - processPackages [platformio]: executing diffoscope
+[2023-05-08 17:03:45] INFO root fetch - processPackages [platformio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/platformio-6.1.6.tar.gz tmp/platformio-6.1.7.tar.gz --markdown 20230508/p/platformio/6.1.6-6.1.7/diff.md --exclude *.pyd
+[2023-05-08 17:03:45] INFO root fetch - processPackages [discord-ext-pager]: executing diffoscope
+[2023-05-08 17:03:45] INFO root fetch - processPackages [discord-ext-pager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord-ext-pager-1.0.2.post1.tar.gz tmp/discord-ext-pager-1.0.2.post2.tar.gz --markdown 20230508/d/discord-ext-pager/1.0.2.post1-1.0.2.post2/diff.md --exclude *.pyd
+[2023-05-08 17:03:45] INFO root fetch - processPackages [trlc]: Downloading https://files.pythonhosted.org/packages/25/fc/c60c16c16709697e7c7835b4256579b7257c4aa89cf52b19c0e3503735cf/trlc-1.1.2.tar.gz
+[2023-05-08 17:03:45] INFO root fetch - processPackages [intervalframe]: Downloading https://files.pythonhosted.org/packages/93/00/c7417dc6b804c8fc23b65210b619446e4b45b5a029c176a9df91323af3fd/intervalframe-1.1.2.tar.gz
+[2023-05-08 17:03:45] INFO root fetch - processPackages [blackjax-nightly]: Downloading https://files.pythonhosted.org/packages/0a/e7/14592c365bf8ffb51707e15763cef8c10eeae142ca25ce02085d7e87d6cc/blackjax-nightly-0.9.6.post99.tar.gz
+[2023-05-08 17:03:45] INFO root fetch - processPackages [blackjax-nightly]: executing diffoscope
+[2023-05-08 17:03:45] INFO root fetch - processPackages [blackjax-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blackjax-nightly-0.9.6.post98.tar.gz tmp/blackjax-nightly-0.9.6.post99.tar.gz --markdown 20230508/b/blackjax-nightly/0.9.6.post98-0.9.6.post99/diff.md --exclude *.pyd
+[2023-05-08 17:03:45] INFO root fetch - processPackages [condb]: Downloading https://files.pythonhosted.org/packages/b7/3d/da807dd755029022c6ee53392ed658cc31fe85f9a1b8906b213137ff6486/condb-1.0.3.tar.gz
+[2023-05-08 17:03:45] INFO root fetch - processPackages [intervalframe]: executing diffoscope
+[2023-05-08 17:03:45] INFO root fetch - processPackages [intervalframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intervalframe-1.1.1.tar.gz tmp/intervalframe-1.1.2.tar.gz --markdown 20230508/i/intervalframe/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-08 17:03:45] INFO root fetch - processPackages [trlc]: Downloading https://files.pythonhosted.org/packages/4f/21/33fc9600b073cb1e14c777d208e00e717011fd539611d74a4dbb656765ee/trlc-1.1.3.tar.gz
+[2023-05-08 17:03:45] INFO root fetch - processPackages [condb]: executing diffoscope
+[2023-05-08 17:03:45] INFO root fetch - processPackages [condb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/condb-1.0.2.tar.gz tmp/condb-1.0.3.tar.gz --markdown 20230508/c/condb/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-08 17:03:45] INFO root fetch - processPackages [trlc]: executing diffoscope
+[2023-05-08 17:03:45] INFO root fetch - processPackages [trlc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trlc-1.1.2.tar.gz tmp/trlc-1.1.3.tar.gz --markdown 20230508/t/trlc/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-05-08 17:03:46] INFO root fetch - processPackages [llmpool]: Start processing: deezer-python
+[2023-05-08 17:03:46] INFO root fetch - main [MainThread]: End processing [llmpool]: success
+[2023-05-08 17:03:46] INFO root fetch - processPackages [lixinger]: Start processing: modal-client
+[2023-05-08 17:03:46] INFO root fetch - main [MainThread]: End processing [lixinger]: success
+[2023-05-08 17:03:46] INFO root fetch - processPackages [deezer-python]: New version: [5.9.0] Old Version: [5.8.1]
+[2023-05-08 17:03:46] INFO root fetch - processPackages [modal-client]: New version: [0.49.2142] Old Version: [0.49.2130]
+[2023-05-08 17:03:46] INFO root fetch - processPackages [periodic-element-properties]: Start processing: ProtWave-VAE
+[2023-05-08 17:03:46] INFO root fetch - main [MainThread]: End processing [periodic-element-properties]: success
+[2023-05-08 17:03:46] INFO root fetch - processPackages [deezer-python]: Downloading https://files.pythonhosted.org/packages/be/7a/51b1dd10f97d0e9391aadae590ddc417da9850f0c3a25992a443cd4198fc/deezer_python-5.8.1.tar.gz
+[2023-05-08 17:03:46] INFO root fetch - processPackages [ProtWave-VAE]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-08 17:03:46] INFO root fetch - processPackages [discord-ext-pager]: Start processing: renovosolutions.aws-cdk-aws-sso
+[2023-05-08 17:03:46] INFO root fetch - main [MainThread]: End processing [discord-ext-pager]: success
+[2023-05-08 17:03:46] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-sso]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-08 17:03:46] INFO root fetch - processPackages [ProtWave-VAE]: executing diffoscope
+[2023-05-08 17:03:46] INFO root fetch - processPackages [ProtWave-VAE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ProtWave_VAE-0.0.2.tar.gz tmp/ProtWave_VAE-0.0.3.tar.gz --markdown 20230508/P/ProtWave-VAE/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-08 17:03:47] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-sso]: executing diffoscope
+[2023-05-08 17:03:47] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-sso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-aws-sso-0.1.98.tar.gz tmp/renovosolutions.aws-cdk-aws-sso-0.1.99.tar.gz --markdown 20230508/r/renovosolutions.aws-cdk-aws-sso/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-08 17:03:47] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/55/5a/4409e2b449399927c1c881a8023dcd2153901efac595d2154810570f6347/modal_client-0.49.2142-py3-none-any.whl
+[2023-05-08 17:03:47] INFO root fetch - processPackages [intervalframe]: Start processing: secrets-cli
+[2023-05-08 17:03:47] INFO root fetch - main [MainThread]: End processing [intervalframe]: success
+[2023-05-08 17:03:47] INFO root fetch - processPackages [secrets-cli]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-08 17:03:47] INFO root fetch - processPackages [deezer-python]: Downloading https://files.pythonhosted.org/packages/32/d0/ee294193b563e383725c7fae270810522233b7e915bd66121d124f608951/deezer_python-5.9.0.tar.gz
+[2023-05-08 17:03:47] INFO root fetch - processPackages [secrets-cli]: executing diffoscope
+[2023-05-08 17:03:47] INFO root fetch - processPackages [secrets-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secrets_cli-0.1.0.tar.gz tmp/secrets_cli-0.1.1.tar.gz --markdown 20230508/s/secrets-cli/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-08 17:03:47] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-05-08 17:03:47] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.49.2130-py3-none-any.whl.zip tmp/modal_client-0.49.2142-py3-none-any.whl.zip --markdown 20230508/m/modal-client/0.49.2130-0.49.2142/diff.md --exclude *.pyd
+[2023-05-08 17:03:47] INFO root fetch - processPackages [deezer-python]: executing diffoscope
+[2023-05-08 17:03:47] INFO root fetch - processPackages [deezer-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deezer_python-5.8.1.tar.gz tmp/deezer_python-5.9.0.tar.gz --markdown 20230508/d/deezer-python/5.8.1-5.9.0/diff.md --exclude *.pyd
+[2023-05-08 17:03:47] INFO root fetch - processPackages [condb]: Start processing: intezer-sdk
+[2023-05-08 17:03:47] INFO root fetch - main [MainThread]: End processing [condb]: success
+[2023-05-08 17:03:47] INFO root fetch - processPackages [fpyo2apk]: Start processing: periodic-element-properties
+[2023-05-08 17:03:47] INFO root fetch - main [MainThread]: End processing [fpyo2apk]: success
+[2023-05-08 17:03:47] INFO root fetch - processPackages [intezer-sdk]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-05-08 17:03:47] INFO root fetch - processPackages [periodic-element-properties]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-08 17:03:47] INFO root fetch - processPackages [trlc]: Start processing: renovosolutions.aws-cdk-one-time-event
+[2023-05-08 17:03:47] INFO root fetch - main [MainThread]: End processing [trlc]: success
+[2023-05-08 17:03:48] INFO root fetch - processPackages [renovosolutions.aws-cdk-one-time-event]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-05-08 17:03:48] INFO root fetch - processPackages [periodic-element-properties]: Downloading https://files.pythonhosted.org/packages/d1/03/d951f98e62a55aded3ab691fa0f34afd9dbc41dd7dedb9bdbbefd7d17020/periodic_element_properties-0.1.2.tar.gz
+[2023-05-08 17:03:48] INFO root fetch - processPackages [intezer-sdk]: Downloading https://files.pythonhosted.org/packages/54/07/b1b49e1d9407879a59c376b8799d8e3abe495ec3380638b2f1fbc61dd234/intezer_sdk-1.9.3-py3-none-any.whl
+[2023-05-08 17:03:48] INFO root fetch - processPackages [ProtWave-VAE]: Start processing: freva-deployment
+[2023-05-08 17:03:48] INFO root fetch - main [MainThread]: End processing [ProtWave-VAE]: success
+[2023-05-08 17:03:48] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-aws-sso]: success
+[2023-05-08 17:03:48] INFO root fetch - processPackages [renovosolutions.aws-cdk-one-time-event]: executing diffoscope
+[2023-05-08 17:03:48] INFO root fetch - processPackages [renovosolutions.aws-cdk-one-time-event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-one-time-event-2.1.98.tar.gz tmp/renovosolutions.aws-cdk-one-time-event-2.1.99.tar.gz --markdown 20230508/r/renovosolutions.aws-cdk-one-time-event/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-05-08 17:03:48] INFO root fetch - processPackages [freva-deployment]: New version: [2305.0.1] Old Version: [2304.0.1]
+[2023-05-08 17:03:48] INFO root fetch - main [MainThread]: End processing [secrets-cli]: success
+[2023-05-08 17:03:48] INFO root fetch - processPackages [periodic-element-properties]: Downloading https://files.pythonhosted.org/packages/b6/2d/905adbb983c92dd41075e4bcaf7e3aea618b7560bde97f1e7a2b463b957b/periodic_element_properties-0.1.3.tar.gz
+[2023-05-08 17:03:48] INFO root fetch - processPackages [freva-deployment]: Downloading https://files.pythonhosted.org/packages/18/d8/3d1991cdaa82f49822a0da5d4d7c0d3303acd821d712b674789555661219/freva_deployment-2304.0.1.tar.gz
+[2023-05-08 17:03:48] INFO root fetch - processPackages [intezer-sdk]: Downloading https://files.pythonhosted.org/packages/1c/aa/b1c8d382cd3e6aeabd68aef67900e65831956e5715f6a86367c94bf60cd4/intezer_sdk-1.9.4-py3-none-any.whl
+[2023-05-08 17:03:48] INFO root fetch - processPackages [periodic-element-properties]: executing diffoscope
+[2023-05-08 17:03:48] INFO root fetch - processPackages [periodic-element-properties]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/periodic_element_properties-0.1.2.tar.gz tmp/periodic_element_properties-0.1.3.tar.gz --markdown 20230508/p/periodic-element-properties/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-08 17:03:48] INFO root fetch - processPackages [freva-deployment]: Downloading https://files.pythonhosted.org/packages/62/19/37639a8898a20d90b56e0a3b69186235649bccc2375fd87eb61a5ecb825e/freva_deployment-2305.0.1.tar.gz
+[2023-05-08 17:03:48] INFO root fetch - processPackages [intezer-sdk]: executing diffoscope
+[2023-05-08 17:03:48] INFO root fetch - processPackages [intezer-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intezer_sdk-1.9.3-py3-none-any.whl.zip tmp/intezer_sdk-1.9.4-py3-none-any.whl.zip --markdown 20230508/i/intezer-sdk/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-05-08 17:03:48] INFO root fetch - processPackages [freva-deployment]: executing diffoscope
+[2023-05-08 17:03:48] INFO root fetch - processPackages [freva-deployment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freva_deployment-2304.0.1.tar.gz tmp/freva_deployment-2305.0.1.tar.gz --markdown 20230508/f/freva-deployment/2304.0.1-2305.0.1/diff.md --exclude *.pyd
+[2023-05-08 17:03:49] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-one-time-event]: success
+[2023-05-08 17:03:49] INFO root fetch - main [MainThread]: End processing [deezer-python]: success
+[2023-05-08 17:03:49] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-05-08 17:03:49] INFO root fetch - main [MainThread]: End processing [periodic-element-properties]: success
+[2023-05-08 17:03:49] INFO root fetch - main [MainThread]: End processing [intezer-sdk]: success
+[2023-05-08 17:03:50] INFO root fetch - main [MainThread]: End processing [blackjax-nightly]: success
+[2023-05-08 17:03:50] INFO root fetch - main [MainThread]: End processing [freva-deployment]: success
+[2023-05-08 17:03:52] INFO root fetch - main [MainThread]: End processing [platformio]: success
+[2023-05-08 17:03:52] INFO root fetch - main [MainThread]: Store serial: [18018441]
