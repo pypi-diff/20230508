@@ -12994,3 +12994,141 @@ EOFError: EOF read where object expected
 
 [2023-05-08 15:22:43] INFO root fetch - main [MainThread]: End processing [gps-building-blocks] error
 [2023-05-08 15:22:43] INFO root fetch - main [MainThread]: Store serial: [18017089]
+[2023-05-08 15:27:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18017089]
+[2023-05-08 15:27:52] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-08 15:27:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openstg
+[2023-05-08 15:27:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coiled
+[2023-05-08 15:27:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: twitch-archiver
+[2023-05-08 15:27:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kalm
+[2023-05-08 15:27:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: exciton
+[2023-05-08 15:27:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pepperize.cdk-route53-health-check
+[2023-05-08 15:27:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: arcaflow-plugin-kill-pod-test
+[2023-05-08 15:27:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: brion
+[2023-05-08 15:27:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pepotron
+[2023-05-08 15:27:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jcloud
+[2023-05-08 15:27:52] INFO root fetch - processPackages [openstg]: New version: [1.2.0] Old Version: [1.12.0]
+[2023-05-08 15:27:52] INFO root fetch - processPackages [kalm]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-08 15:27:52] INFO root fetch - processPackages [pepotron]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-08 15:27:52] INFO root fetch - processPackages [twitch-archiver]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-05-08 15:27:52] INFO root fetch - processPackages [exciton]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-05-08 15:27:52] INFO root fetch - processPackages [arcaflow-plugin-kill-pod-test]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-05-08 15:27:52] INFO root fetch - processPackages [brion]: New version: [3.3.8.dev0] Old Version: [3.3.7]
+[2023-05-08 15:27:52] INFO root fetch - processPackages [jcloud]: New version: [0.2.7.dev2] Old Version: [0.2.7]
+[2023-05-08 15:27:52] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-08 15:27:52] INFO root fetch - processPackages [coiled]: New version: [0.6.2.dev9] Old Version: [0.6.2.dev6]
+[2023-05-08 15:27:52] INFO root fetch - processPackages [brion]: Downloading https://files.pythonhosted.org/packages/4c/4a/d7652e91f5792a8581e30215c77cf941d170e448aa7af23c13f307e5a74b/brion-3.3.7-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-08 15:27:52] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/01/6d/ddee0af748c8c80b57f23f54f397c7a575a77a3d1877a817b95a80fb408f/coiled-0.6.2.dev6.tar.gz
+[2023-05-08 15:27:52] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: executing diffoscope
+[2023-05-08 15:27:52] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz --markdown 20230508/p/pepperize.cdk-route53-health-check/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-08 15:27:52] INFO root fetch - processPackages [openstg]: Downloading https://files.pythonhosted.org/packages/26/7a/f8146cb6b203caf0c35e36878fb85be0ca13d68fb5a4760eca6bc59734a7/openstg-1.12.0.tar.gz
+[2023-05-08 15:27:52] WARNING root fetch - processPackages [brion]: Skipping package: exceeds size limit 16579517>=10485760
+[2023-05-08 15:27:52] INFO root fetch - processPackages [brion]: Start processing: serdeser
+[2023-05-08 15:27:52] INFO root fetch - main [MainThread]: End processing [brion] error
+[2023-05-08 15:27:52] INFO root fetch - processPackages [jcloud]: Downloading https://files.pythonhosted.org/packages/69/68/a86777a091cf5a7550f294d53c98511f23a8d071041fb2c55ee69e547fa4/jcloud-0.2.7.tar.gz
+[2023-05-08 15:27:52] WARNING root fetch - processPackages [serdeser]: Skipping, unable to determine old version
+[2023-05-08 15:27:52] INFO root fetch - processPackages [serdeser]: Start processing: edx-enterprise
+[2023-05-08 15:27:52] INFO root fetch - main [MainThread]: End processing [serdeser] error
+[2023-05-08 15:27:52] INFO root fetch - processPackages [arcaflow-plugin-kill-pod-test]: Downloading https://files.pythonhosted.org/packages/bf/c6/fe0e3eebfde267d15587628ae8f516813e45c99522d030ae2b1665b95175/arcaflow_plugin_kill_pod_test-0.0.0.tar.gz
+[2023-05-08 15:27:52] INFO root fetch - processPackages [pepotron]: Downloading https://files.pythonhosted.org/packages/35/2d/f265711e430bdab0981e80c5f1434a5f52f15f4afafb29ace147be199042/pepotron-0.8.0.tar.gz
+[2023-05-08 15:27:53] INFO root fetch - processPackages [edx-enterprise]: New version: [3.9.9] Old Version: [3.9.7]
+[2023-05-08 15:27:53] INFO root fetch - processPackages [exciton]: Downloading https://files.pythonhosted.org/packages/d0/4c/3b0af1ed0be936664e9e23be25bd0452f9ad70c69ed228ec17f00bf9645c/exciton-1.8.1-py3-none-any.whl
+[2023-05-08 15:27:53] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/a8/8f/121e43578c9dd2a0e4bb37849963e3045c6646c089f89ee684bda2f627ac/coiled-0.6.2.dev9.tar.gz
+[2023-05-08 15:27:53] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/4d/c5/027466c994a960428deb8665ccbf022b0cf4550f7792b9091b1a550edb04/kalm-0.4.1.tar.gz
+[2023-05-08 15:27:53] INFO root fetch - processPackages [twitch-archiver]: Downloading https://files.pythonhosted.org/packages/c1/fd/52da843d83cff61474e012fb316b0104d8616b53e61e3e2862e6d7b62864/twitch-archiver-3.0.2.tar.gz
+[2023-05-08 15:27:53] INFO root fetch - processPackages [exciton]: executing diffoscope
+[2023-05-08 15:27:53] INFO root fetch - processPackages [exciton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exciton-1.8.0-py3-none-any.whl.zip tmp/exciton-1.8.1-py3-none-any.whl.zip --markdown 20230508/e/exciton/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-05-08 15:27:53] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-05-08 15:27:53] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.4.0.tar.gz tmp/kalm-0.4.1.tar.gz --markdown 20230508/k/kalm/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-08 15:27:53] INFO root fetch - processPackages [twitch-archiver]: executing diffoscope
+[2023-05-08 15:27:53] INFO root fetch - processPackages [twitch-archiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twitch-archiver-3.0.1.tar.gz tmp/twitch-archiver-3.0.2.tar.gz --markdown 20230508/t/twitch-archiver/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-05-08 15:27:53] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-08 15:27:53] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.2.dev6.tar.gz tmp/coiled-0.6.2.dev9.tar.gz --markdown 20230508/c/coiled/0.6.2.dev6-0.6.2.dev9/diff.md --exclude *.pyd
+[2023-05-08 15:27:53] INFO root fetch - processPackages [pepotron]: Downloading https://files.pythonhosted.org/packages/2f/29/759ae918b8775c03545144fd83333a2a2b0d482604e7d584c850fc9131ac/pepotron-0.9.0.tar.gz
+[2023-05-08 15:27:53] INFO root fetch - processPackages [arcaflow-plugin-kill-pod-test]: Downloading https://files.pythonhosted.org/packages/de/1f/1d52af1e1c4ed43a9e8383c59d51aeb9c227a4fec9734f4d569de4dc62a2/arcaflow_plugin_kill_pod_test-0.0.1.tar.gz
+[2023-05-08 15:27:53] INFO root fetch - processPackages [openstg]: Downloading https://files.pythonhosted.org/packages/c6/78/08bdc78339db263545ea2a4890353f1c1e29bd4256c96a5146e315ac06fe/openstg-1.2.0.tar.gz
+[2023-05-08 15:27:53] INFO root fetch - processPackages [edx-enterprise]: Downloading https://files.pythonhosted.org/packages/31/14/7af8e7af4219b3659c93f15ec88cde96f71a35adbaec1864a90d441e9384/edx-enterprise-3.9.7.tar.gz
+[2023-05-08 15:27:53] INFO root fetch - processPackages [jcloud]: Downloading https://files.pythonhosted.org/packages/0d/35/c3c5f4026cf08d738fac2f6562dbd87702cea1b430e209e7e97d9c701922/jcloud-0.2.7.dev2.tar.gz
+[2023-05-08 15:27:53] INFO root fetch - processPackages [pepotron]: executing diffoscope
+[2023-05-08 15:27:53] INFO root fetch - processPackages [pepotron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepotron-0.8.0.tar.gz tmp/pepotron-0.9.0.tar.gz --markdown 20230508/p/pepotron/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-08 15:27:53] INFO root fetch - processPackages [arcaflow-plugin-kill-pod-test]: executing diffoscope
+[2023-05-08 15:27:53] INFO root fetch - processPackages [arcaflow-plugin-kill-pod-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcaflow_plugin_kill_pod_test-0.0.0.tar.gz tmp/arcaflow_plugin_kill_pod_test-0.0.1.tar.gz --markdown 20230508/a/arcaflow-plugin-kill-pod-test/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-05-08 15:27:53] INFO root fetch - processPackages [openstg]: executing diffoscope
+[2023-05-08 15:27:53] INFO root fetch - processPackages [openstg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openstg-1.12.0.tar.gz tmp/openstg-1.2.0.tar.gz --markdown 20230508/o/openstg/1.12.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-08 15:27:53] INFO root fetch - processPackages [jcloud]: executing diffoscope
+[2023-05-08 15:27:53] INFO root fetch - processPackages [jcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcloud-0.2.7.tar.gz tmp/jcloud-0.2.7.dev2.tar.gz --markdown 20230508/j/jcloud/0.2.7-0.2.7.dev2/diff.md --exclude *.pyd
+[2023-05-08 15:27:53] INFO root fetch - processPackages [edx-enterprise]: Downloading https://files.pythonhosted.org/packages/b6/01/e7734ff2b8f6d6288a0edc22ce723b9bbba2ac16c120cd41e4335f023837/edx-enterprise-3.9.9.tar.gz
+[2023-05-08 15:27:53] INFO root fetch - processPackages [edx-enterprise]: executing diffoscope
+[2023-05-08 15:27:53] INFO root fetch - processPackages [edx-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-enterprise-3.9.7.tar.gz tmp/edx-enterprise-3.9.9.tar.gz --markdown 20230508/e/edx-enterprise/3.9.7-3.9.9/diff.md --exclude *.pyd
+[2023-05-08 15:27:54] INFO root fetch - processPackages [kalm]: Start processing: yellowbox-snowglobe
+[2023-05-08 15:27:54] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-05-08 15:27:55] INFO root fetch - processPackages [yellowbox-snowglobe]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-08 15:27:55] INFO root fetch - processPackages [exciton]: Start processing: pygameHat
+[2023-05-08 15:27:55] INFO root fetch - main [MainThread]: End processing [exciton]: success
+[2023-05-08 15:27:55] INFO root fetch - processPackages [pygameHat]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-08 15:27:55] INFO root fetch - processPackages [coiled]: Start processing: request-validator-galaxy
+[2023-05-08 15:27:55] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-08 15:27:55] INFO root fetch - processPackages [request-validator-galaxy]: New version: [0.9] Old Version: [0.8]
+[2023-05-08 15:27:55] INFO root fetch - processPackages [pepotron]: Start processing: py-auth-micro
+[2023-05-08 15:27:55] INFO root fetch - main [MainThread]: End processing [pepotron]: success
+[2023-05-08 15:27:55] INFO root fetch - processPackages [yellowbox-snowglobe]: Downloading https://files.pythonhosted.org/packages/e7/4a/83c5fa7a4ca78699f2957a1e88bfd9ef2c564c051ffab34fc9e747938506/yellowbox-snowglobe-0.1.1.tar.gz
+[2023-05-08 15:27:55] INFO root fetch - processPackages [py-auth-micro]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-05-08 15:27:55] INFO root fetch - processPackages [pygameHat]: Downloading https://files.pythonhosted.org/packages/b1/a0/53bfbe2b547b6f0362c7aade01cea76bcef3518b80a9dd2bad6009d5194d/pygameHat-1.1.1.tar.gz
+[2023-05-08 15:27:55] INFO root fetch - processPackages [openstg]: Start processing: odoo14-addon-community-maps
+[2023-05-08 15:27:55] INFO root fetch - main [MainThread]: End processing [openstg]: success
+[2023-05-08 15:27:55] INFO root fetch - processPackages [odoo14-addon-community-maps]: New version: [14.0.0.1.1] Old Version: [14.0.0.1.0]
+[2023-05-08 15:27:55] INFO root fetch - processPackages [request-validator-galaxy]: Downloading https://files.pythonhosted.org/packages/2e/eb/7378472788a6d39b45c3ce3addb7df05e4ca86434355269764159c9545df/request_validator_galaxy-0.9.tar.gz
+[2023-05-08 15:27:55] INFO root fetch - processPackages [arcaflow-plugin-kill-pod-test]: Start processing: colorating
+[2023-05-08 15:27:55] INFO root fetch - main [MainThread]: End processing [arcaflow-plugin-kill-pod-test]: success
+[2023-05-08 15:27:55] INFO root fetch - processPackages [yellowbox-snowglobe]: Downloading https://files.pythonhosted.org/packages/87/0e/d68ac6cb0ffa3d8aa2ff6ce09677f58cf7dc3b29164b0e20e6ffabb2444d/yellowbox_snowglobe-0.2.0.tar.gz
+[2023-05-08 15:27:55] WARNING root fetch - processPackages [colorating]: Skipping, unable to determine old version
+[2023-05-08 15:27:55] INFO root fetch - processPackages [colorating]: Start processing: openstg
+[2023-05-08 15:27:55] INFO root fetch - main [MainThread]: End processing [colorating] error
+[2023-05-08 15:27:55] INFO root fetch - processPackages [py-auth-micro]: Downloading https://files.pythonhosted.org/packages/1d/79/8e59f1b8071857fa53b1c5a2c6d4ac52a2cc98f56bc11286b63528f9eace/py_auth_micro-0.1.0.tar.gz
+[2023-05-08 15:27:55] INFO root fetch - processPackages [openstg]: New version: [1.2.0] Old Version: [1.12.0]
+[2023-05-08 15:27:55] INFO root fetch - processPackages [request-validator-galaxy]: executing diffoscope
+[2023-05-08 15:27:55] INFO root fetch - processPackages [request-validator-galaxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/request_validator_galaxy-0.8.tar.gz tmp/request_validator_galaxy-0.9.tar.gz --markdown 20230508/r/request-validator-galaxy/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-08 15:27:55] INFO root fetch - processPackages [yellowbox-snowglobe]: executing diffoscope
+[2023-05-08 15:27:55] INFO root fetch - processPackages [yellowbox-snowglobe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yellowbox-snowglobe-0.1.1.tar.gz tmp/yellowbox_snowglobe-0.2.0.tar.gz --markdown 20230508/y/yellowbox-snowglobe/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-08 15:27:55] INFO root fetch - processPackages [py-auth-micro]: executing diffoscope
+[2023-05-08 15:27:55] INFO root fetch - processPackages [py-auth-micro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_auth_micro-0.0.9.tar.gz tmp/py_auth_micro-0.1.0.tar.gz --markdown 20230508/p/py-auth-micro/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-05-08 15:27:55] INFO root fetch - processPackages [odoo14-addon-community-maps]: Downloading https://files.pythonhosted.org/packages/5e/3d/d92f62e2025571d74e3d299bfb943e097fa4a2341dd1a4ec789b5e3618a7/odoo14_addon_community_maps-14.0.0.1.0-py3-none-any.whl
+[2023-05-08 15:27:55] INFO root fetch - processPackages [openstg]: executing diffoscope
+[2023-05-08 15:27:55] INFO root fetch - processPackages [openstg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openstg-1.12.0.tar.gz tmp/openstg-1.2.0.tar.gz --markdown 20230508/o/openstg/1.12.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-08 15:27:55] INFO root fetch - processPackages [twitch-archiver]: Start processing: auto-eval
+[2023-05-08 15:27:55] INFO root fetch - main [MainThread]: End processing [twitch-archiver]: success
+[2023-05-08 15:27:55] INFO root fetch - processPackages [pygameHat]: Downloading https://files.pythonhosted.org/packages/8f/98/eae6db0ccefb59247cae923701c9ca362c14e535b7f39b7c6d96a3e06edb/pygameHat-1.1.2.tar.gz
+[2023-05-08 15:27:55] INFO root fetch - processPackages [auto-eval]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-08 15:27:55] INFO root fetch - processPackages [pygameHat]: executing diffoscope
+[2023-05-08 15:27:55] INFO root fetch - processPackages [pygameHat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygameHat-1.1.1.tar.gz tmp/pygameHat-1.1.2.tar.gz --markdown 20230508/p/pygameHat/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-08 15:27:55] INFO root fetch - processPackages [auto-eval]: Downloading https://files.pythonhosted.org/packages/36/17/b1bbc9f540530958d179ac7fbfaacd37a6135fcd7dd34d0918ffd545c2d4/auto-eval-0.1.6.tar.gz
+[2023-05-08 15:27:55] INFO root fetch - processPackages [odoo14-addon-community-maps]: Downloading https://files.pythonhosted.org/packages/de/eb/c3310adcb9f2ec3139a4a3d78dc9698612ba93e581571b8c142688a033a6/odoo14_addon_community_maps-14.0.0.1.1-py3-none-any.whl
+[2023-05-08 15:27:56] INFO root fetch - processPackages [jcloud]: Start processing: nso-oc
+[2023-05-08 15:27:56] INFO root fetch - main [MainThread]: End processing [jcloud]: success
+[2023-05-08 15:27:56] INFO root fetch - processPackages [odoo14-addon-community-maps]: executing diffoscope
+[2023-05-08 15:27:56] INFO root fetch - processPackages [odoo14-addon-community-maps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_community_maps-14.0.0.1.0-py3-none-any.whl.zip tmp/odoo14_addon_community_maps-14.0.0.1.1-py3-none-any.whl.zip --markdown 20230508/o/odoo14-addon-community-maps/14.0.0.1.0-14.0.0.1.1/diff.md --exclude *.pyd
+[2023-05-08 15:27:56] INFO root fetch - processPackages [nso-oc]: New version: [2.47.0] Old Version: [2.46.2]
+[2023-05-08 15:27:56] INFO root fetch - processPackages [auto-eval]: Downloading https://files.pythonhosted.org/packages/ae/33/133819313f2e375aae8c8c19d9168e89b4899ff2f2a36f20ee9a29957a8f/auto-eval-0.1.7.tar.gz
+[2023-05-08 15:27:56] INFO root fetch - processPackages [auto-eval]: executing diffoscope
+[2023-05-08 15:27:56] INFO root fetch - processPackages [auto-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-eval-0.1.6.tar.gz tmp/auto-eval-0.1.7.tar.gz --markdown 20230508/a/auto-eval/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-08 15:27:56] INFO root fetch - processPackages [nso-oc]: Downloading https://files.pythonhosted.org/packages/c2/a8/63fd85db1db49d7f40a7480f2650dd4b9a6e579e8e0a5112b5fdc83bbda0/nso-oc-2.46.2.tar.gz
+[2023-05-08 15:27:56] INFO root fetch - processPackages [nso-oc]: Downloading https://files.pythonhosted.org/packages/68/bd/1916e20acf105aadb6cbfe137c01cfe3bfd435e04f82b1c9829c1ba7143a/nso-oc-2.47.0.tar.gz
+[2023-05-08 15:27:56] INFO root fetch - processPackages [nso-oc]: executing diffoscope
+[2023-05-08 15:27:56] INFO root fetch - processPackages [nso-oc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nso-oc-2.46.2.tar.gz tmp/nso-oc-2.47.0.tar.gz --markdown 20230508/n/nso-oc/2.46.2-2.47.0/diff.md --exclude *.pyd
+[2023-05-08 15:27:57] INFO root fetch - processPackages [request-validator-galaxy]: Start processing: uppy
+[2023-05-08 15:27:57] INFO root fetch - main [MainThread]: End processing [request-validator-galaxy]: success
+[2023-05-08 15:27:57] INFO root fetch - main [MainThread]: End processing [yellowbox-snowglobe]: success
+[2023-05-08 15:27:57] INFO root fetch - processPackages [uppy]: New version: [0.1.2] Old Version: [0.0.1]
+[2023-05-08 15:27:57] INFO root fetch - main [MainThread]: End processing [py-auth-micro]: success
+[2023-05-08 15:27:57] INFO root fetch - processPackages [uppy]: Downloading https://files.pythonhosted.org/packages/9b/c6/492113b1176bb703e408883c9dcf9ecc57356355a5b136edd0a7be116cce/uppy-0.0.1-py3-none-any.whl
+[2023-05-08 15:27:57] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
+[2023-05-08 15:27:57] INFO root fetch - main [MainThread]: End processing [openstg]: success
+[2023-05-08 15:27:57] INFO root fetch - main [MainThread]: End processing [pygameHat]: success
+[2023-05-08 15:27:57] INFO root fetch - processPackages [uppy]: Downloading https://files.pythonhosted.org/packages/11/a5/ea19de3f4a264e5503de03d2e7d96c6fab345faba5f18ae44a59cfaaef40/uppy-0.1.2-py3-none-any.whl
+[2023-05-08 15:27:57] INFO root fetch - main [MainThread]: End processing [auto-eval]: success
+[2023-05-08 15:27:57] INFO root fetch - processPackages [uppy]: executing diffoscope
+[2023-05-08 15:27:57] INFO root fetch - processPackages [uppy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uppy-0.0.1-py3-none-any.whl.zip tmp/uppy-0.1.2-py3-none-any.whl.zip --markdown 20230508/u/uppy/0.0.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-08 15:27:57] INFO root fetch - main [MainThread]: End processing [odoo14-addon-community-maps]: success
+[2023-05-08 15:27:58] INFO root fetch - main [MainThread]: End processing [uppy]: success
+[2023-05-08 15:27:59] INFO root fetch - main [MainThread]: End processing [edx-enterprise]: success
+[2023-05-08 15:27:59] INFO root fetch - main [MainThread]: End processing [nso-oc]: success
+[2023-05-08 15:27:59] INFO root fetch - main [MainThread]: Store serial: [18017150]
