@@ -16289,3 +16289,86 @@ EOFError: EOF read where object expected
 [2023-05-08 17:50:08] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
 [2023-05-08 17:50:10] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
 [2023-05-08 17:50:10] INFO root fetch - main [MainThread]: Store serial: [18019012]
+[2023-05-08 17:55:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18019012]
+[2023-05-08 17:55:20] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-08 17:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gimera
+[2023-05-08 17:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spotfire
+[2023-05-08 17:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: html-msg
+[2023-05-08 17:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neo3-boa
+[2023-05-08 17:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scsd
+[2023-05-08 17:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: transmogrify.dexterity
+[2023-05-08 17:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mkdocs-ultralytics-plugin
+[2023-05-08 17:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MyoSuite
+[2023-05-08 17:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: el-decko-core
+[2023-05-08 17:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: thunno2
+[2023-05-08 17:55:20] INFO root fetch - processPackages [neo3-boa]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-05-08 17:55:20] INFO root fetch - processPackages [spotfire]: New version: [2.0.0] Old Version: [1.9.0]
+[2023-05-08 17:55:20] INFO root fetch - processPackages [gimera]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-05-08 17:55:20] WARNING root fetch - processPackages [scsd]: Skipping, unable to determine old version
+[2023-05-08 17:55:20] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-08 17:55:20] INFO root fetch - processPackages [scsd]: Start processing: nso-oc
+[2023-05-08 17:55:20] INFO root fetch - main [MainThread]: End processing [scsd] error
+[2023-05-08 17:55:20] INFO root fetch - processPackages [el-decko-core]: New version: [2023.5.7] Old Version: [2023.5.6.1]
+[2023-05-08 17:55:20] INFO root fetch - processPackages [MyoSuite]: New version: [1.5.0] Old Version: [1.4.3]
+[2023-05-08 17:55:20] WARNING root fetch - processPackages [html-msg]: Skipping, unable to determine old version
+[2023-05-08 17:55:20] INFO root fetch - processPackages [html-msg]: Start processing: pymad8
+[2023-05-08 17:55:20] INFO root fetch - main [MainThread]: End processing [html-msg] error
+[2023-05-08 17:55:20] INFO root fetch - processPackages [transmogrify.dexterity]: New version: [3.0.0] Old Version: [2.0.0]
+[2023-05-08 17:55:20] INFO root fetch - processPackages [nso-oc]: New version: [2.47.0] Old Version: [2.46.2]
+[2023-05-08 17:55:20] INFO root fetch - processPackages [thunno2]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-05-08 17:55:20] INFO root fetch - processPackages [gimera]: executing diffoscope
+[2023-05-08 17:55:20] INFO root fetch - processPackages [gimera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gimera-0.6.8.tar.gz tmp/gimera-0.6.9.tar.gz --markdown 20230508/g/gimera/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-05-08 17:55:20] INFO root fetch - processPackages [nso-oc]: executing diffoscope
+[2023-05-08 17:55:20] INFO root fetch - processPackages [nso-oc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nso-oc-2.46.2.tar.gz tmp/nso-oc-2.47.0.tar.gz --markdown 20230508/n/nso-oc/2.46.2-2.47.0/diff.md --exclude *.pyd
+[2023-05-08 17:55:20] INFO root fetch - processPackages [pymad8]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-08 17:55:20] INFO root fetch - processPackages [el-decko-core]: executing diffoscope
+[2023-05-08 17:55:20] INFO root fetch - processPackages [el-decko-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/el_decko_core-2023.5.6.1.tar.gz tmp/el_decko_core-2023.5.7.tar.gz --markdown 20230508/e/el-decko-core/2023.5.6.1-2023.5.7/diff.md --exclude *.pyd
+[2023-05-08 17:55:20] INFO root fetch - processPackages [neo3-boa]: Downloading https://files.pythonhosted.org/packages/e9/11/bf2d3f41135e4b6e37e6d551961fabdfd81a8e07adcae8e406d1f87b3968/neo3-boa-0.8.3.tar.gz
+[2023-05-08 17:55:20] INFO root fetch - processPackages [MyoSuite]: Downloading https://files.pythonhosted.org/packages/c9/39/b565b051aef14c2b3c09542b35a5e1e59340ccc93952e84364c394860ba1/MyoSuite-1.4.3-py2.py3-none-any.whl
+[2023-05-08 17:55:20] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: Downloading https://files.pythonhosted.org/packages/fc/25/253014ebbd85d57ad3447df71e57f23aa3fd595a158cd6a17f23d678bf1f/mkdocs-ultralytics-plugin-0.0.3.tar.gz
+[2023-05-08 17:55:20] INFO root fetch - processPackages [transmogrify.dexterity]: Downloading https://files.pythonhosted.org/packages/60/00/3b4016e128ab384a3d96aac184a7a054e1f4d126b0534e6729a314162337/transmogrify.dexterity-2.0.0.tar.gz
+[2023-05-08 17:55:20] WARNING root fetch - processPackages [MyoSuite]: Skipping package: exceeds size limit 32350564>=10485760
+[2023-05-08 17:55:20] INFO root fetch - processPackages [MyoSuite]: Start processing: PyQuantimClient
+[2023-05-08 17:55:20] INFO root fetch - main [MainThread]: End processing [MyoSuite] error
+[2023-05-08 17:55:20] INFO root fetch - processPackages [spotfire]: Downloading https://files.pythonhosted.org/packages/c0/bc/192b4c7648e8876721265cf6720ae8c3bddb77172aa75cec7a794e2345bc/spotfire-1.9.0.tar.gz
+[2023-05-08 17:55:20] INFO root fetch - processPackages [PyQuantimClient]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-08 17:55:20] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: executing diffoscope
+[2023-05-08 17:55:20] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-ultralytics-plugin-0.0.2.tar.gz tmp/mkdocs-ultralytics-plugin-0.0.3.tar.gz --markdown 20230508/m/mkdocs-ultralytics-plugin/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-08 17:55:20] INFO root fetch - processPackages [PyQuantimClient]: executing diffoscope
+[2023-05-08 17:55:20] INFO root fetch - processPackages [PyQuantimClient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQuantimClient-1.0.8.tar.gz tmp/PyQuantimClient-1.0.9.tar.gz --markdown 20230508/P/PyQuantimClient/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-08 17:55:20] INFO root fetch - processPackages [thunno2]: executing diffoscope
+[2023-05-08 17:55:20] INFO root fetch - processPackages [thunno2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thunno2-2.1.8.tar.gz tmp/thunno2-2.1.9.tar.gz --markdown 20230508/t/thunno2/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-05-08 17:55:20] INFO root fetch - processPackages [transmogrify.dexterity]: Downloading https://files.pythonhosted.org/packages/03/3e/a449e9a1e8a20d685484fab8c79f04105e50289a08b2cadaadb44d24bf18/transmogrify.dexterity-3.0.0.tar.gz
+[2023-05-08 17:55:20] INFO root fetch - processPackages [spotfire]: Downloading https://files.pythonhosted.org/packages/1c/81/142c0e82219108e9df517a7747a35cb975e85e50ddadb0dd0cc2bb862763/spotfire-2.0.0.tar.gz
+[2023-05-08 17:55:20] INFO root fetch - processPackages [neo3-boa]: Downloading https://files.pythonhosted.org/packages/02/3c/c1067779d0f8c332d5f47a7674048a0c185e75aa17ad926992efe175ca1c/neo3-boa-0.9.0.tar.gz
+[2023-05-08 17:55:20] INFO root fetch - processPackages [transmogrify.dexterity]: executing diffoscope
+[2023-05-08 17:55:20] INFO root fetch - processPackages [transmogrify.dexterity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transmogrify.dexterity-2.0.0.tar.gz tmp/transmogrify.dexterity-3.0.0.tar.gz --markdown 20230508/t/transmogrify.dexterity/2.0.0-3.0.0/diff.md --exclude *.pyd
+[2023-05-08 17:55:20] INFO root fetch - processPackages [spotfire]: executing diffoscope
+[2023-05-08 17:55:20] INFO root fetch - processPackages [spotfire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotfire-1.9.0.tar.gz tmp/spotfire-2.0.0.tar.gz --markdown 20230508/s/spotfire/1.9.0-2.0.0/diff.md --exclude *.pyd
+[2023-05-08 17:55:21] INFO root fetch - processPackages [pymad8]: Downloading https://files.pythonhosted.org/packages/07/a1/0960960f279193daff6d1dd020d01b864641c8bfb9bfeafc2cda0af3d04e/pymad8-2.0.0.tar.gz
+[2023-05-08 17:55:21] INFO root fetch - processPackages [neo3-boa]: executing diffoscope
+[2023-05-08 17:55:21] INFO root fetch - processPackages [neo3-boa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neo3-boa-0.8.3.tar.gz tmp/neo3-boa-0.9.0.tar.gz --markdown 20230508/n/neo3-boa/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-05-08 17:55:21] INFO root fetch - processPackages [pymad8]: Downloading https://files.pythonhosted.org/packages/ac/33/dfd567e6f37811b957e015617f566c733b2d7e681e042a912fa56b64cb82/pymad8-2.0.1.tar.gz
+[2023-05-08 17:55:21] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: Start processing: uoy-assessment-uploader
+[2023-05-08 17:55:21] INFO root fetch - main [MainThread]: End processing [mkdocs-ultralytics-plugin]: success
+[2023-05-08 17:55:21] INFO root fetch - processPackages [pymad8]: executing diffoscope
+[2023-05-08 17:55:21] INFO root fetch - processPackages [pymad8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymad8-2.0.0.tar.gz tmp/pymad8-2.0.1.tar.gz --markdown 20230508/p/pymad8/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-08 17:55:21] INFO root fetch - processPackages [PyQuantimClient]: Start processing: kkm230508-AILib
+[2023-05-08 17:55:21] INFO root fetch - main [MainThread]: End processing [PyQuantimClient]: success
+[2023-05-08 17:55:21] INFO root fetch - processPackages [uoy-assessment-uploader]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-05-08 17:55:21] WARNING root fetch - processPackages [kkm230508-AILib]: Skipping, unable to determine old version
+[2023-05-08 17:55:21] INFO root fetch - main [MainThread]: End processing [kkm230508-AILib] error
+[2023-05-08 17:55:21] INFO root fetch - main [MainThread]: End processing [el-decko-core]: success
+[2023-05-08 17:55:22] INFO root fetch - main [MainThread]: End processing [gimera]: success
+[2023-05-08 17:55:22] INFO root fetch - processPackages [uoy-assessment-uploader]: Downloading https://files.pythonhosted.org/packages/54/88/0d0690027242f402526c0fceab396ac14bc5d3ac56824adc80bb624d2d09/uoy-assessment-uploader-0.2.2.tar.gz
+[2023-05-08 17:55:22] INFO root fetch - main [MainThread]: End processing [thunno2]: success
+[2023-05-08 17:55:22] INFO root fetch - main [MainThread]: End processing [spotfire]: success
+[2023-05-08 17:55:22] INFO root fetch - processPackages [uoy-assessment-uploader]: Downloading https://files.pythonhosted.org/packages/b8/25/d94afa4074aa131273d0923b3a8890d19cd5c23d7d8f01f76e77505c3a6c/uoy-assessment-uploader-0.3.0.tar.gz
+[2023-05-08 17:55:22] INFO root fetch - main [MainThread]: End processing [transmogrify.dexterity]: success
+[2023-05-08 17:55:22] INFO root fetch - processPackages [uoy-assessment-uploader]: executing diffoscope
+[2023-05-08 17:55:22] INFO root fetch - processPackages [uoy-assessment-uploader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uoy-assessment-uploader-0.2.2.tar.gz tmp/uoy-assessment-uploader-0.3.0.tar.gz --markdown 20230508/u/uoy-assessment-uploader/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-05-08 17:55:23] INFO root fetch - main [MainThread]: End processing [nso-oc]: success
+[2023-05-08 17:55:23] INFO root fetch - main [MainThread]: End processing [uoy-assessment-uploader]: success
+[2023-05-08 17:55:24] INFO root fetch - main [MainThread]: End processing [pymad8]: success
+[2023-05-08 17:55:28] INFO root fetch - main [MainThread]: End processing [neo3-boa]: success
+[2023-05-08 17:55:28] INFO root fetch - main [MainThread]: Store serial: [18019067]
