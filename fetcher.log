@@ -16129,3 +16129,163 @@ EOFError: EOF read where object expected
 [2023-05-08 17:44:52] INFO root fetch - main [MainThread]: End processing [pymwp]: success
 [2023-05-08 17:44:53] INFO root fetch - main [MainThread]: End processing [lti-consumer-xblock]: success
 [2023-05-08 17:44:53] INFO root fetch - main [MainThread]: Store serial: [18018933]
+[2023-05-08 17:49:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18018933]
+[2023-05-08 17:50:01] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2023-05-08 17:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mkdocs-ultralytics-plugin
+[2023-05-08 17:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: automation-common-test
+[2023-05-08 17:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-shays-CERT-2066-b
+[2023-05-08 17:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: feiticeiro-tec
+[2023-05-08 17:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: morph-utils
+[2023-05-08 17:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: msaBase
+[2023-05-08 17:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openhexa.sdk
+[2023-05-08 17:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ellipsis
+[2023-05-08 17:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: morph-utils
+[2023-05-08 17:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Subsearch
+[2023-05-08 17:50:01] WARNING root fetch - processPackages [mkdocs-ultralytics-plugin]: Skipping, unable to determine old version
+[2023-05-08 17:50:01] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: Start processing: beatlesalbuns
+[2023-05-08 17:50:01] INFO root fetch - processPackages [openhexa.sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 17:50:01] INFO root fetch - main [MainThread]: End processing [mkdocs-ultralytics-plugin] error
+[2023-05-08 17:50:01] INFO root fetch - processPackages [Subsearch]: New version: [2.34.0rc1] Old Version: [2.33.5]
+[2023-05-08 17:50:01] INFO root fetch - processPackages [morph-utils]: New version: [0.1.2a0] Old Version: [0.1.2]
+[2023-05-08 17:50:01] INFO root fetch - processPackages [certora-cli-alpha-shays-CERT-2066-b]: New version: [20230508.15.44.123036] Old Version: [20230508.15.22.748977]
+[2023-05-08 17:50:01] INFO root fetch - processPackages [automation-common-test]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-08 17:50:01] INFO root fetch - processPackages [feiticeiro-tec]: New version: [1.7.3] Old Version: [1.7.2]
+[2023-05-08 17:50:01] INFO root fetch - processPackages [morph-utils]: New version: [0.1.2a0] Old Version: [0.1.2]
+[2023-05-08 17:50:01] INFO root fetch - processPackages [beatlesalbuns]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-08 17:50:01] INFO root fetch - processPackages [msaBase]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 17:50:01] INFO root fetch - processPackages [ellipsis]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-08 17:50:01] INFO root fetch - processPackages [openhexa.sdk]: executing diffoscope
+[2023-05-08 17:50:01] INFO root fetch - processPackages [openhexa.sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openhexa.sdk-0.1.8.tar.gz tmp/openhexa.sdk-0.1.9.tar.gz --markdown 20230508/o/openhexa.sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 17:50:02] INFO root fetch - processPackages [morph-utils]: Downloading https://files.pythonhosted.org/packages/f7/b6/b43d4489982482689ab7b9e6011ad9541973ab6b28bb045049af672e7791/morph_utils-0.1.2.tar.gz
+[2023-05-08 17:50:02] INFO root fetch - processPackages [morph-utils]: Downloading https://files.pythonhosted.org/packages/f7/b6/b43d4489982482689ab7b9e6011ad9541973ab6b28bb045049af672e7791/morph_utils-0.1.2.tar.gz
+[2023-05-08 17:50:02] INFO root fetch - processPackages [feiticeiro-tec]: Downloading https://files.pythonhosted.org/packages/be/31/517dd796b32d4a6489c48b047047c12dce1d7590b3584b9362b5be2e336b/feiticeiro_tec-1.7.2.tar.gz
+[2023-05-08 17:50:02] INFO root fetch - processPackages [certora-cli-alpha-shays-CERT-2066-b]: Downloading https://files.pythonhosted.org/packages/6a/34/cacd25ee47f739ac7e83b858d36a22be9ee01f8feaa3fc6be786dbde5af2/certora-cli-alpha-shays-CERT-2066-b-20230508.15.22.748977.tar.gz
+[2023-05-08 17:50:02] INFO root fetch - processPackages [ellipsis]: Downloading https://files.pythonhosted.org/packages/a2/22/bb4da3d801a1b7d0092b0ea94f3c3fee54c3a69263ee8cfc2894c5b54281/ellipsis-3.1.8.tar.gz
+[2023-05-08 17:50:02] INFO root fetch - processPackages [msaBase]: Downloading https://files.pythonhosted.org/packages/76/9a/a27e686785e6b54482d58445355935f687e11cd0a044f803310195bbc129/msaBase-0.0.8.tar.gz
+[2023-05-08 17:50:02] INFO root fetch - processPackages [beatlesalbuns]: Downloading https://files.pythonhosted.org/packages/ed/83/d430473a8b42f120c9e23fe9024ac8d61c2e6a7cd7a8e184c1fe813b85bb/beatlesalbuns-0.0.1.tar.gz
+[2023-05-08 17:50:02] WARNING root fetch - processPackages [feiticeiro-tec]: Skipping package: exceeds size limit 42352600>=10485760
+[2023-05-08 17:50:02] INFO root fetch - processPackages [feiticeiro-tec]: Start processing: aioairzone
+[2023-05-08 17:50:02] INFO root fetch - main [MainThread]: End processing [feiticeiro-tec] error
+[2023-05-08 17:50:02] WARNING root fetch - processPackages [certora-cli-alpha-shays-CERT-2066-b]: Skipping package: exceeds size limit 38474515>=10485760
+[2023-05-08 17:50:02] INFO root fetch - processPackages [certora-cli-alpha-shays-CERT-2066-b]: Start processing: deepview-validator
+[2023-05-08 17:50:02] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shays-CERT-2066-b] error
+[2023-05-08 17:50:02] INFO root fetch - processPackages [aioairzone]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-05-08 17:50:02] INFO root fetch - processPackages [deepview-validator]: New version: [3.0.6] Old Version: [3.0.5]
+[2023-05-08 17:50:02] INFO root fetch - processPackages [Subsearch]: Downloading https://files.pythonhosted.org/packages/81/29/6b4b5cc1773c25a58fa020e741bcf9385432e02a55e3bf5c330437155450/Subsearch-2.33.5.tar.gz
+[2023-05-08 17:50:02] INFO root fetch - processPackages [morph-utils]: Downloading https://files.pythonhosted.org/packages/4a/f8/69d8f8a43823788b070a7d29d865d8c609b473bb8d725fb3408ed2ca2de6/morph_utils-0.1.2a0.tar.gz
+[2023-05-08 17:50:02] INFO root fetch - processPackages [morph-utils]: Downloading https://files.pythonhosted.org/packages/4a/f8/69d8f8a43823788b070a7d29d865d8c609b473bb8d725fb3408ed2ca2de6/morph_utils-0.1.2a0.tar.gz
+[2023-05-08 17:50:02] INFO root fetch - processPackages [automation-common-test]: Downloading https://files.pythonhosted.org/packages/c2/ba/300856fc6cc3a4af7d0da2d9c3243f212ed1d20a01b0ccc3f3032554961d/automation-common-test-1.9.0.tar.gz
+[2023-05-08 17:50:02] INFO root fetch - processPackages [beatlesalbuns]: Downloading https://files.pythonhosted.org/packages/73/0f/cdbb4ba77c8e0437a3528d06025eea6b2ea4a0aa230ffb7d1f3ff4342edd/beatlesalbuns-0.0.2.tar.gz
+[2023-05-08 17:50:02] INFO root fetch - processPackages [aioairzone]: Downloading https://files.pythonhosted.org/packages/fd/22/ebbcfe892d90c1c01de64674b5b16e6de99cf9774343e24d668a00517a48/aioairzone-0.5.3.tar.gz
+[2023-05-08 17:50:02] INFO root fetch - processPackages [msaBase]: Downloading https://files.pythonhosted.org/packages/fd/c7/eaf57b5462f098d2e330245249477745d1619240fbb8ea59ece12e03eeff/msaBase-0.0.9.tar.gz
+[2023-05-08 17:50:02] INFO root fetch - processPackages [deepview-validator]: Downloading https://files.pythonhosted.org/packages/55/ce/95823606a529c26abb1e641ea72fc969bab3a14139dbe0ca6c89ca431667/deepview_validator-3.0.5-py3-none-any.whl
+[2023-05-08 17:50:02] INFO root fetch - processPackages [morph-utils]: executing diffoscope
+[2023-05-08 17:50:02] INFO root fetch - processPackages [morph-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morph_utils-0.1.2.tar.gz tmp/morph_utils-0.1.2a0.tar.gz --markdown 20230508/m/morph-utils/0.1.2-0.1.2a0/diff.md --exclude *.pyd
+[2023-05-08 17:50:02] INFO root fetch - processPackages [morph-utils]: executing diffoscope
+[2023-05-08 17:50:02] INFO root fetch - processPackages [morph-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morph_utils-0.1.2.tar.gz tmp/morph_utils-0.1.2a0.tar.gz --markdown 20230508/m/morph-utils/0.1.2-0.1.2a0/diff.md --exclude *.pyd
+[2023-05-08 17:50:02] INFO root fetch - processPackages [automation-common-test]: executing diffoscope
+[2023-05-08 17:50:02] INFO root fetch - processPackages [automation-common-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation-common-test-1.8.0.tar.gz tmp/automation-common-test-1.9.0.tar.gz --markdown 20230508/a/automation-common-test/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-08 17:50:02] INFO root fetch - processPackages [ellipsis]: Downloading https://files.pythonhosted.org/packages/c8/9a/b783c46d8c7eba6c0acf3b9459c85984a1458ebf682cf37522bd573c7363/ellipsis-3.1.9.tar.gz
+[2023-05-08 17:50:02] INFO root fetch - processPackages [beatlesalbuns]: executing diffoscope
+[2023-05-08 17:50:02] INFO root fetch - processPackages [beatlesalbuns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beatlesalbuns-0.0.1.tar.gz tmp/beatlesalbuns-0.0.2.tar.gz --markdown 20230508/b/beatlesalbuns/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-08 17:50:02] INFO root fetch - processPackages [Subsearch]: Downloading https://files.pythonhosted.org/packages/10/b6/56822441b633bf8c7c8cfd1218fd057b8e139945468bb9b1bd1374d0148e/Subsearch-2.34.0rc1.tar.gz
+[2023-05-08 17:50:02] INFO root fetch - processPackages [msaBase]: executing diffoscope
+[2023-05-08 17:50:02] INFO root fetch - processPackages [msaBase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msaBase-0.0.8.tar.gz tmp/msaBase-0.0.9.tar.gz --markdown 20230508/m/msaBase/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 17:50:02] INFO root fetch - processPackages [ellipsis]: executing diffoscope
+[2023-05-08 17:50:02] INFO root fetch - processPackages [ellipsis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ellipsis-3.1.8.tar.gz tmp/ellipsis-3.1.9.tar.gz --markdown 20230508/e/ellipsis/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-08 17:50:02] INFO root fetch - processPackages [aioairzone]: Downloading https://files.pythonhosted.org/packages/08/44/8a959c39d9876b62cd1b888bd0a7c63edfc759e92ffb8fc0c971ed0c61d2/aioairzone-0.5.4.tar.gz
+[2023-05-08 17:50:02] INFO root fetch - processPackages [Subsearch]: executing diffoscope
+[2023-05-08 17:50:02] INFO root fetch - processPackages [Subsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Subsearch-2.33.5.tar.gz tmp/Subsearch-2.34.0rc1.tar.gz --markdown 20230508/S/Subsearch/2.33.5-2.34.0rc1/diff.md --exclude *.pyd
+[2023-05-08 17:50:02] INFO root fetch - processPackages [deepview-validator]: Downloading https://files.pythonhosted.org/packages/1a/b2/6d9abcf163c975b738cbd96fe5fbd3067117fb7f821f4a5876004ccb026d/deepview_validator-3.0.6-py3-none-any.whl
+[2023-05-08 17:50:02] INFO root fetch - processPackages [aioairzone]: executing diffoscope
+[2023-05-08 17:50:02] INFO root fetch - processPackages [aioairzone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioairzone-0.5.3.tar.gz tmp/aioairzone-0.5.4.tar.gz --markdown 20230508/a/aioairzone/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-05-08 17:50:02] INFO root fetch - processPackages [deepview-validator]: executing diffoscope
+[2023-05-08 17:50:02] INFO root fetch - processPackages [deepview-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepview_validator-3.0.5-py3-none-any.whl.zip tmp/deepview_validator-3.0.6-py3-none-any.whl.zip --markdown 20230508/d/deepview-validator/3.0.5-3.0.6/diff.md --exclude *.pyd
+[2023-05-08 17:50:03] INFO root fetch - processPackages [openhexa.sdk]: Start processing: mkdocs-ultralytics-plugin
+[2023-05-08 17:50:03] INFO root fetch - main [MainThread]: End processing [openhexa.sdk]: success
+[2023-05-08 17:50:03] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-08 17:50:03] INFO root fetch - processPackages [automation-common-test]: Start processing: quantconnect-stubs
+[2023-05-08 17:50:03] INFO root fetch - main [MainThread]: End processing [automation-common-test]: success
+[2023-05-08 17:50:03] INFO root fetch - processPackages [beatlesalbuns]: Start processing: spreadsheetbot
+[2023-05-08 17:50:03] INFO root fetch - main [MainThread]: End processing [beatlesalbuns]: success
+[2023-05-08 17:50:03] INFO root fetch - processPackages [morph-utils]: Start processing: inverse
+[2023-05-08 17:50:03] INFO root fetch - main [MainThread]: End processing [morph-utils]: success
+[2023-05-08 17:50:03] WARNING root fetch - processPackages [spreadsheetbot]: Skipping, unable to determine old version
+[2023-05-08 17:50:03] INFO root fetch - processPackages [spreadsheetbot]: Start processing: ProjectB-clientside-Python-template-package
+[2023-05-08 17:50:03] INFO root fetch - main [MainThread]: End processing [spreadsheetbot] error
+[2023-05-08 17:50:04] INFO root fetch - processPackages [inverse]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 17:50:04] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: Downloading https://files.pythonhosted.org/packages/9d/5c/e9bcbce67117e761e861faeabf8c2c6b8957f0fc8c5822697080e7787729/mkdocs-ultralytics-plugin-0.0.1.tar.gz
+[2023-05-08 17:50:04] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2023-05-08 17:50:04] WARNING root fetch - processPackages [ProjectB-clientside-Python-template-package]: Skipping, unable to determine old version
+[2023-05-08 17:50:04] INFO root fetch - processPackages [ProjectB-clientside-Python-template-package]: Start processing: lib310-lite
+[2023-05-08 17:50:04] INFO root fetch - main [MainThread]: End processing [ProjectB-clientside-Python-template-package] error
+[2023-05-08 17:50:04] INFO root fetch - processPackages [lib310-lite]: New version: [0.0.5.dev1] Old Version: [0.0.5.dev0]
+[2023-05-08 17:50:04] INFO root fetch - processPackages [inverse]: executing diffoscope
+[2023-05-08 17:50:04] INFO root fetch - processPackages [inverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inverse-0.0.8-py3-none-any.whl.zip tmp/inverse-0.0.9-py3-none-any.whl.zip --markdown 20230508/i/inverse/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 17:50:04] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/c1/05/f15c16a3f852decfd032ce1688dfdf02fd7289f1780742453533e8c55209/quantconnect-stubs-9997.tar.gz
+[2023-05-08 17:50:04] INFO root fetch - processPackages [lib310-lite]: executing diffoscope
+[2023-05-08 17:50:04] INFO root fetch - processPackages [lib310-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib310_lite-0.0.5.dev0.tar.gz tmp/lib310_lite-0.0.5.dev1.tar.gz --markdown 20230508/l/lib310-lite/0.0.5.dev0-0.0.5.dev1/diff.md --exclude *.pyd
+[2023-05-08 17:50:04] INFO root fetch - processPackages [ellipsis]: Start processing: nucliadb
+[2023-05-08 17:50:04] INFO root fetch - main [MainThread]: End processing [ellipsis]: success
+[2023-05-08 17:50:04] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: Downloading https://files.pythonhosted.org/packages/2c/7e/896e0cea41946045e7782f4bcb8950182c9eee7842c2fe865a2e0d55451f/mkdocs-ultralytics-plugin-0.0.2.tar.gz
+[2023-05-08 17:50:04] INFO root fetch - processPackages [nucliadb]: New version: [2.8.5.post246] Old Version: [2.8.5.post245]
+[2023-05-08 17:50:04] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/67/2c/03e4a88548645e058fbd0a407c0f57123a97e92d5a6f91aa16e28b05f5ad/nucliadb-2.8.5.post245-py3-none-any.whl
+[2023-05-08 17:50:04] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: executing diffoscope
+[2023-05-08 17:50:04] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-ultralytics-plugin-0.0.1.tar.gz tmp/mkdocs-ultralytics-plugin-0.0.2.tar.gz --markdown 20230508/m/mkdocs-ultralytics-plugin/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-08 17:50:04] INFO root fetch - processPackages [msaBase]: Start processing: nucliadb-client
+[2023-05-08 17:50:04] INFO root fetch - main [MainThread]: End processing [msaBase]: success
+[2023-05-08 17:50:04] INFO root fetch - processPackages [nucliadb-client]: New version: [2.8.5.post246] Old Version: [2.8.5.post245]
+[2023-05-08 17:50:04] INFO root fetch - processPackages [deepview-validator]: Start processing: nucliadb-dataset
+[2023-05-08 17:50:04] INFO root fetch - main [MainThread]: End processing [deepview-validator]: success
+[2023-05-08 17:50:04] INFO root fetch - processPackages [aioairzone]: Start processing: nucliadb-models
+[2023-05-08 17:50:04] INFO root fetch - main [MainThread]: End processing [aioairzone]: success
+[2023-05-08 17:50:04] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-05-08 17:50:04] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.8.5.post245-py3-none-any.whl.zip tmp/nucliadb-2.8.5.post246-py3-none-any.whl.zip --markdown 20230508/n/nucliadb/2.8.5.post245-2.8.5.post246/diff.md --exclude *.pyd
+[2023-05-08 17:50:04] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.8.5.post246] Old Version: [2.8.5.post245]
+[2023-05-08 17:50:04] INFO root fetch - processPackages [nucliadb-models]: New version: [2.8.5.post246] Old Version: [2.8.5.post245]
+[2023-05-08 17:50:04] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/42/8d/625376f60d4dca28811a1eb879263ab1beca0425ee394bc99747cff759f4/nucliadb_client-2.8.5.post245-py3-none-any.whl
+[2023-05-08 17:50:04] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/0f/58/3d3e2d196d8a5e18d0c3ad0230fe21697044a18b35c4089e669e91eb8bcc/nucliadb_dataset-2.8.5.post245-py3-none-any.whl
+[2023-05-08 17:50:04] INFO root fetch - processPackages [morph-utils]: Start processing: nucliadb-protos
+[2023-05-08 17:50:04] INFO root fetch - main [MainThread]: End processing [morph-utils]: success
+[2023-05-08 17:50:04] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/0f/15/54f75504418d0c60932fac4bf1d40015c96a29af43dd75ba57ef3b4a74d7/nucliadb_models-2.8.5.post245-py3-none-any.whl
+[2023-05-08 17:50:04] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.8.5.post246] Old Version: [2.8.5.post245]
+[2023-05-08 17:50:04] INFO root fetch - processPackages [Subsearch]: Start processing: nucliadb-sdk
+[2023-05-08 17:50:04] INFO root fetch - main [MainThread]: End processing [Subsearch]: success
+[2023-05-08 17:50:04] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.8.5.post246] Old Version: [2.8.5.post245]
+[2023-05-08 17:50:04] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/40/69/50ad447ec3507272f7911298d65a1df2c768a1a1df14b229bb0101deedc6/nucliadb_protos-2.8.5.post245-py3-none-any.whl
+[2023-05-08 17:50:04] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-05-08 17:50:04] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.8.5.post245-py3-none-any.whl.zip tmp/nucliadb_client-2.8.5.post246-py3-none-any.whl.zip --markdown 20230508/n/nucliadb-client/2.8.5.post245-2.8.5.post246/diff.md --exclude *.pyd
+[2023-05-08 17:50:04] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-05-08 17:50:04] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.8.5.post245-py3-none-any.whl.zip tmp/nucliadb_dataset-2.8.5.post246-py3-none-any.whl.zip --markdown 20230508/n/nucliadb-dataset/2.8.5.post245-2.8.5.post246/diff.md --exclude *.pyd
+[2023-05-08 17:50:04] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/f8/5a/e7b086aa2299f29b4d4ffadb4afbb9fab62c0f16688df4370f6f58b362f3/nucliadb_sdk-2.8.5.post245-py3-none-any.whl
+[2023-05-08 17:50:04] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-05-08 17:50:04] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.8.5.post245-py3-none-any.whl.zip tmp/nucliadb_models-2.8.5.post246-py3-none-any.whl.zip --markdown 20230508/n/nucliadb-models/2.8.5.post245-2.8.5.post246/diff.md --exclude *.pyd
+[2023-05-08 17:50:04] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-05-08 17:50:04] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.8.5.post245-py3-none-any.whl.zip tmp/nucliadb_protos-2.8.5.post246-py3-none-any.whl.zip --markdown 20230508/n/nucliadb-protos/2.8.5.post245-2.8.5.post246/diff.md --exclude *.pyd
+[2023-05-08 17:50:04] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/b7/4c/71e6bb724f14efcd8865f2aa692528a4c45877c58f5cf8c964a8e0fc0e74/quantconnect-stubs-9998.tar.gz
+[2023-05-08 17:50:04] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-05-08 17:50:04] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.8.5.post245-py3-none-any.whl.zip tmp/nucliadb_sdk-2.8.5.post246-py3-none-any.whl.zip --markdown 20230508/n/nucliadb-sdk/2.8.5.post245-2.8.5.post246/diff.md --exclude *.pyd
+[2023-05-08 17:50:05] INFO root fetch - processPackages [lib310-lite]: Start processing: nucliadb-utils
+[2023-05-08 17:50:05] INFO root fetch - main [MainThread]: End processing [lib310-lite]: success
+[2023-05-08 17:50:05] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.8.5.post246] Old Version: [2.8.5.post245]
+[2023-05-08 17:50:05] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/50/29/189beaafcb3ba7ac0d1316eb67e1bcde9e8c18842a2c53d6b815a5f3a5f4/nucliadb_utils-2.8.5.post245-py3-none-any.whl
+[2023-05-08 17:50:05] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2023-05-08 17:50:05] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20230508/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2023-05-08 17:50:05] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-05-08 17:50:05] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.8.5.post245-py3-none-any.whl.zip tmp/nucliadb_utils-2.8.5.post246-py3-none-any.whl.zip --markdown 20230508/n/nucliadb-utils/2.8.5.post245-2.8.5.post246/diff.md --exclude *.pyd
+[2023-05-08 17:50:06] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: Start processing: automation-common-test
+[2023-05-08 17:50:06] INFO root fetch - main [MainThread]: End processing [mkdocs-ultralytics-plugin]: success
+[2023-05-08 17:50:06] INFO root fetch - processPackages [automation-common-test]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-08 17:50:06] INFO root fetch - processPackages [automation-common-test]: executing diffoscope
+[2023-05-08 17:50:06] INFO root fetch - processPackages [automation-common-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation-common-test-1.8.0.tar.gz tmp/automation-common-test-1.9.0.tar.gz --markdown 20230508/a/automation-common-test/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-08 17:50:06] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-05-08 17:50:06] INFO root fetch - main [MainThread]: End processing [inverse]: success
+[2023-05-08 17:50:06] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-05-08 17:50:06] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-05-08 17:50:06] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-05-08 17:50:06] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-05-08 17:50:07] INFO root fetch - main [MainThread]: End processing [automation-common-test]: success
+[2023-05-08 17:50:07] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-05-08 17:50:08] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-05-08 17:50:10] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2023-05-08 17:50:10] INFO root fetch - main [MainThread]: Store serial: [18019012]
