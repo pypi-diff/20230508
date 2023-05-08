@@ -19007,3 +19007,103 @@ EOFError: EOF read where object expected
 [2023-05-08 20:23:03] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
 [2023-05-08 20:23:04] INFO root fetch - main [MainThread]: End processing [whisper-cpp-python]: success
 [2023-05-08 20:23:04] INFO root fetch - main [MainThread]: Store serial: [18020649]
+[2023-05-08 20:28:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18020649]
+[2023-05-08 20:28:13] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-08 20:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: khloraascaf
+[2023-05-08 20:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llama-cpp-python
+[2023-05-08 20:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: getsmarter-api-clients
+[2023-05-08 20:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: huma-signals
+[2023-05-08 20:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lms-synergy-library
+[2023-05-08 20:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: toast-auth
+[2023-05-08 20:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: project-structure
+[2023-05-08 20:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: joacorapela-common
+[2023-05-08 20:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyjourney
+[2023-05-08 20:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lpython-emulation
+[2023-05-08 20:28:13] INFO root fetch - processPackages [getsmarter-api-clients]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-08 20:28:13] INFO root fetch - processPackages [project-structure]: New version: [0.8.28b3] Old Version: [0.8.28b0]
+[2023-05-08 20:28:13] INFO root fetch - processPackages [llama-cpp-python]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 20:28:14] INFO root fetch - processPackages [lms-synergy-library]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-08 20:28:14] INFO root fetch - processPackages [getsmarter-api-clients]: executing diffoscope
+[2023-05-08 20:28:14] INFO root fetch - processPackages [getsmarter-api-clients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getsmarter-api-clients-0.5.1.tar.gz tmp/getsmarter-api-clients-0.5.2.tar.gz --markdown 20230508/g/getsmarter-api-clients/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-08 20:28:14] INFO root fetch - processPackages [toast-auth]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-08 20:28:14] WARNING root fetch - processPackages [pyjourney]: Skipping, unable to determine old version
+[2023-05-08 20:28:14] INFO root fetch - processPackages [pyjourney]: Start processing: open-space-toolkit-mathematics
+[2023-05-08 20:28:14] INFO root fetch - main [MainThread]: End processing [pyjourney] error
+[2023-05-08 20:28:14] INFO root fetch - processPackages [huma-signals]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-08 20:28:14] INFO root fetch - processPackages [project-structure]: executing diffoscope
+[2023-05-08 20:28:14] INFO root fetch - processPackages [project-structure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/project-structure-0.8.28b0.tar.gz tmp/project-structure-0.8.28b3.tar.gz --markdown 20230508/p/project-structure/0.8.28b0-0.8.28b3/diff.md --exclude *.pyd
+[2023-05-08 20:28:14] INFO root fetch - processPackages [lpython-emulation]: New version: [0.0.1.7] Old Version: [0.0.1.6]
+[2023-05-08 20:28:14] INFO root fetch - processPackages [joacorapela-common]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-08 20:28:14] INFO root fetch - processPackages [llama-cpp-python]: executing diffoscope
+[2023-05-08 20:28:14] INFO root fetch - processPackages [llama-cpp-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_cpp_python-0.1.8.tar.gz tmp/llama_cpp_python-0.1.9.tar.gz --markdown 20230508/l/llama-cpp-python/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 20:28:14] INFO root fetch - processPackages [khloraascaf]: New version: [1.7.0] Old Version: [1.6.0]
+[2023-05-08 20:28:14] INFO root fetch - processPackages [open-space-toolkit-mathematics]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-05-08 20:28:14] INFO root fetch - processPackages [lms-synergy-library]: Downloading https://files.pythonhosted.org/packages/20/86/7b95bd2ba392aeec0b40733a65c0cd401d1ab09cd7859d8ab4fb674e5177/lms_synergy_library-0.2.1.tar.gz
+[2023-05-08 20:28:14] INFO root fetch - processPackages [huma-signals]: Downloading https://files.pythonhosted.org/packages/f6/95/3bb5d327934d12b932626a972c07bf31ee7870be8925c9f85bbe70421886/huma_signals-0.1.1.tar.gz
+[2023-05-08 20:28:14] INFO root fetch - processPackages [joacorapela-common]: Downloading https://files.pythonhosted.org/packages/04/17/aa77ff810a6c78b62bc5d449f1ec96fea593a57c26ebc3b2d9ec8f31977c/joacorapela_common-1.0.3.tar.gz
+[2023-05-08 20:28:14] INFO root fetch - processPackages [toast-auth]: Downloading https://files.pythonhosted.org/packages/5b/1b/2fdfc5e1de7aa31f0838e6a804966cd62425a4224bef6e5ef71780ba406a/toast_auth-0.1.1.tar.gz
+[2023-05-08 20:28:14] INFO root fetch - processPackages [open-space-toolkit-mathematics]: Downloading https://files.pythonhosted.org/packages/d7/f4/136f7f47c79300baa073b2386950d26a69b82907915538610f90de6bf3e1/open_space_toolkit_mathematics-0.6.1-py39-none-any.whl
+[2023-05-08 20:28:14] INFO root fetch - processPackages [lpython-emulation]: Downloading https://files.pythonhosted.org/packages/cd/2c/2e4b3385927fd147d6dcbcae8168827492826e92130870960489f376abe9/lpython_emulation-0.0.1.7.tar.gz
+[2023-05-08 20:28:14] INFO root fetch - processPackages [khloraascaf]: Downloading https://files.pythonhosted.org/packages/56/e5/98c4f99bcd3e0ec8f5fb43d7f7a049e5ddb29f03ff1260b32a13f3290eba/khloraascaf-1.7.0.tar.gz
+[2023-05-08 20:28:14] INFO root fetch - processPackages [huma-signals]: Downloading https://files.pythonhosted.org/packages/e8/d2/776a65f60ca2db8009a60648830cf8a4aa9ffad73606bbab89d0c3953f2c/huma_signals-0.1.2.tar.gz
+[2023-05-08 20:28:14] INFO root fetch - processPackages [lpython-emulation]: executing diffoscope
+[2023-05-08 20:28:14] INFO root fetch - processPackages [lpython-emulation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lpython_emulation-0.0.1.6.tar.gz tmp/lpython_emulation-0.0.1.7.tar.gz --markdown 20230508/l/lpython-emulation/0.0.1.6-0.0.1.7/diff.md --exclude *.pyd
+[2023-05-08 20:28:14] INFO root fetch - processPackages [toast-auth]: Downloading https://files.pythonhosted.org/packages/9d/fe/0c9b28a7d1645de226538bb143d542e8e644b5173054b3dec50af56d2089/toast_auth-0.1.2.tar.gz
+[2023-05-08 20:28:14] INFO root fetch - processPackages [khloraascaf]: executing diffoscope
+[2023-05-08 20:28:14] INFO root fetch - processPackages [joacorapela-common]: Downloading https://files.pythonhosted.org/packages/fe/93/2747a10a5bb414f0a95c68b76e5d79227763fdac77cf01f1972daf90e4a5/joacorapela_common-1.0.4.tar.gz
+[2023-05-08 20:28:14] INFO root fetch - processPackages [khloraascaf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khloraascaf-1.6.0.tar.gz tmp/khloraascaf-1.7.0.tar.gz --markdown 20230508/k/khloraascaf/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2023-05-08 20:28:14] INFO root fetch - processPackages [huma-signals]: executing diffoscope
+[2023-05-08 20:28:14] INFO root fetch - processPackages [huma-signals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huma_signals-0.1.1.tar.gz tmp/huma_signals-0.1.2.tar.gz --markdown 20230508/h/huma-signals/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-08 20:28:14] INFO root fetch - processPackages [lms-synergy-library]: Downloading https://files.pythonhosted.org/packages/a5/18/965e29dc8329e5f51dedf1fd12ba61cc35193bbea5ae4f52ed56ff0c823c/lms_synergy_library-0.2.2.tar.gz
+[2023-05-08 20:28:14] INFO root fetch - processPackages [toast-auth]: executing diffoscope
+[2023-05-08 20:28:14] INFO root fetch - processPackages [toast-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toast_auth-0.1.1.tar.gz tmp/toast_auth-0.1.2.tar.gz --markdown 20230508/t/toast-auth/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-08 20:28:14] INFO root fetch - processPackages [joacorapela-common]: executing diffoscope
+[2023-05-08 20:28:14] INFO root fetch - processPackages [joacorapela-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/joacorapela_common-1.0.3.tar.gz tmp/joacorapela_common-1.0.4.tar.gz --markdown 20230508/j/joacorapela-common/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-08 20:28:14] INFO root fetch - processPackages [lms-synergy-library]: executing diffoscope
+[2023-05-08 20:28:14] INFO root fetch - processPackages [lms-synergy-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lms_synergy_library-0.2.1.tar.gz tmp/lms_synergy_library-0.2.2.tar.gz --markdown 20230508/l/lms-synergy-library/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-08 20:28:14] INFO root fetch - processPackages [open-space-toolkit-mathematics]: Downloading https://files.pythonhosted.org/packages/56/ab/fc7a697abaa57bd4806a12866de7cbc466a7c40352001cc78c34b56402d8/open_space_toolkit_mathematics-0.7.0-py39-none-any.whl
+[2023-05-08 20:28:14] INFO root fetch - processPackages [open-space-toolkit-mathematics]: executing diffoscope
+[2023-05-08 20:28:14] INFO root fetch - processPackages [open-space-toolkit-mathematics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_space_toolkit_mathematics-0.6.1-py39-none-any.whl.zip tmp/open_space_toolkit_mathematics-0.7.0-py39-none-any.whl.zip --markdown 20230508/o/open-space-toolkit-mathematics/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-05-08 20:28:15] INFO root fetch - processPackages [getsmarter-api-clients]: Start processing: takao
+[2023-05-08 20:28:15] INFO root fetch - main [MainThread]: End processing [getsmarter-api-clients]: success
+[2023-05-08 20:28:15] INFO root fetch - processPackages [takao]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-08 20:28:15] INFO root fetch - processPackages [takao]: Downloading https://files.pythonhosted.org/packages/9c/a0/ba610996cf6c54c42d43035a02f8e9f033d0e52b514119cf884a7b7916b5/takao-0.1.0.tar.gz
+[2023-05-08 20:28:15] INFO root fetch - processPackages [lpython-emulation]: Start processing: security-scanner
+[2023-05-08 20:28:15] INFO root fetch - main [MainThread]: End processing [lpython-emulation]: success
+[2023-05-08 20:28:15] INFO root fetch - processPackages [security-scanner]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-05-08 20:28:15] INFO root fetch - processPackages [toast-auth]: Start processing: opswrapper
+[2023-05-08 20:28:15] INFO root fetch - main [MainThread]: End processing [toast-auth]: success
+[2023-05-08 20:28:15] INFO root fetch - processPackages [joacorapela-common]: Start processing: turbine-py
+[2023-05-08 20:28:15] INFO root fetch - main [MainThread]: End processing [joacorapela-common]: success
+[2023-05-08 20:28:16] INFO root fetch - processPackages [project-structure]: Start processing: pyautosrt
+[2023-05-08 20:28:16] INFO root fetch - main [MainThread]: End processing [project-structure]: success
+[2023-05-08 20:28:16] INFO root fetch - processPackages [pyautosrt]: New version: [0.1.7] Old Version: [0.1.4]
+[2023-05-08 20:28:16] INFO root fetch - processPackages [opswrapper]: New version: [5.2.0] Old Version: [5.1.0]
+[2023-05-08 20:28:16] INFO root fetch - main [MainThread]: End processing [lms-synergy-library]: success
+[2023-05-08 20:28:16] INFO root fetch - processPackages [turbine-py]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-05-08 20:28:16] INFO root fetch - processPackages [security-scanner]: Downloading https://files.pythonhosted.org/packages/a8/ac/127de431cf17b5daacf9edff07856de6c3e6654f778e364ed0104f910d9c/security_scanner-0.1.0.tar.gz
+[2023-05-08 20:28:16] INFO root fetch - processPackages [opswrapper]: Downloading https://files.pythonhosted.org/packages/cd/51/c458dad5502fc9db0aad02174f0e43666839f6cdad170948a45b3879a310/opswrapper-5.1.0.tar.gz
+[2023-05-08 20:28:16] INFO root fetch - processPackages [security-scanner]: executing diffoscope
+[2023-05-08 20:28:16] INFO root fetch - processPackages [security-scanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/security_scanner-0.0.2.tar.gz tmp/security_scanner-0.1.0.tar.gz --markdown 20230508/s/security-scanner/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-05-08 20:28:16] INFO root fetch - processPackages [turbine-py]: Downloading https://files.pythonhosted.org/packages/cb/6e/79e0502c86142433cf4811f85540fc2631ba2aa45a988bc48d79886addda/turbine-py-1.8.0.tar.gz
+[2023-05-08 20:28:16] INFO root fetch - processPackages [pyautosrt]: executing diffoscope
+[2023-05-08 20:28:16] INFO root fetch - processPackages [pyautosrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyautosrt-0.1.4.tar.gz tmp/pyautosrt-0.1.7.tar.gz --markdown 20230508/p/pyautosrt/0.1.4-0.1.7/diff.md --exclude *.pyd
+[2023-05-08 20:28:16] INFO root fetch - processPackages [turbine-py]: Downloading https://files.pythonhosted.org/packages/10/ab/e91fd3b53a812ad430fa23e47db289b83b0b09d245b9525159bb8679ab0b/turbine-py-1.8.1.tar.gz
+[2023-05-08 20:28:16] INFO root fetch - processPackages [turbine-py]: executing diffoscope
+[2023-05-08 20:28:16] INFO root fetch - processPackages [turbine-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turbine-py-1.8.0.tar.gz tmp/turbine-py-1.8.1.tar.gz --markdown 20230508/t/turbine-py/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-05-08 20:28:16] INFO root fetch - processPackages [opswrapper]: Downloading https://files.pythonhosted.org/packages/04/14/87aa52f63999f0f5f8b609bbe74158b120034eacbb48337e5988c9bb7942/opswrapper-5.2.0.tar.gz
+[2023-05-08 20:28:16] INFO root fetch - processPackages [opswrapper]: executing diffoscope
+[2023-05-08 20:28:16] INFO root fetch - processPackages [opswrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opswrapper-5.1.0.tar.gz tmp/opswrapper-5.2.0.tar.gz --markdown 20230508/o/opswrapper/5.1.0-5.2.0/diff.md --exclude *.pyd
+[2023-05-08 20:28:16] INFO root fetch - main [MainThread]: End processing [huma-signals]: success
+[2023-05-08 20:28:17] INFO root fetch - processPackages [takao]: Downloading https://files.pythonhosted.org/packages/92/63/6b18b9fcf91e9a540236f9a75c3142be38e54807eef172457932095042a8/takao-0.1.1.tar.gz
+[2023-05-08 20:28:17] INFO root fetch - main [MainThread]: End processing [khloraascaf]: success
+[2023-05-08 20:28:17] INFO root fetch - processPackages [takao]: executing diffoscope
+[2023-05-08 20:28:17] INFO root fetch - processPackages [takao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/takao-0.1.0.tar.gz tmp/takao-0.1.1.tar.gz --markdown 20230508/t/takao/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-08 20:28:17] INFO root fetch - main [MainThread]: End processing [llama-cpp-python]: success
+[2023-05-08 20:28:17] INFO root fetch - main [MainThread]: End processing [security-scanner]: success
+[2023-05-08 20:28:17] INFO root fetch - main [MainThread]: End processing [pyautosrt]: success
+[2023-05-08 20:28:18] INFO root fetch - main [MainThread]: End processing [opswrapper]: success
+[2023-05-08 20:28:18] INFO root fetch - main [MainThread]: End processing [turbine-py]: success
+[2023-05-08 20:28:18] INFO root fetch - main [MainThread]: End processing [takao]: success
+[2023-05-08 20:28:40] INFO root fetch - main [MainThread]: End processing [open-space-toolkit-mathematics]: success
+[2023-05-08 20:28:40] INFO root fetch - main [MainThread]: Store serial: [18020700]
