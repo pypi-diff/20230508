@@ -15011,3 +15011,113 @@ EOFError: EOF read where object expected
 [2023-05-08 16:53:20] INFO root fetch - main [MainThread]: End processing [argus-alm]: success
 [2023-05-08 16:53:20] INFO root fetch - main [MainThread]: End processing [wds-client]: success
 [2023-05-08 16:53:20] INFO root fetch - main [MainThread]: Store serial: [18018315]
+[2023-05-08 16:58:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18018315]
+[2023-05-08 16:58:30] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-08 16:58:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-penguin
+[2023-05-08 16:58:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: domolibrary
+[2023-05-08 16:58:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: periodic-element-properties
+[2023-05-08 16:58:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: djangorestframework-verbose-errors
+[2023-05-08 16:58:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: amsterdam-schema-tools
+[2023-05-08 16:58:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hsipy
+[2023-05-08 16:58:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: srtk
+[2023-05-08 16:58:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ctransformers
+[2023-05-08 16:58:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: discord-ext-pager
+[2023-05-08 16:58:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pine-client
+[2023-05-08 16:58:30] INFO root fetch - processPackages [hsipy]: New version: [1.0.8] Old Version: [1.0.5]
+[2023-05-08 16:58:30] INFO root fetch - processPackages [pine-client]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-08 16:58:30] INFO root fetch - processPackages [discord-ext-pager]: New version: [1.0.2.post1] Old Version: [1.0.2]
+[2023-05-08 16:58:30] INFO root fetch - processPackages [djangorestframework-verbose-errors]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-08 16:58:30] INFO root fetch - processPackages [nonebot-plugin-penguin]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-08 16:58:30] WARNING root fetch - processPackages [ctransformers]: Skipping, unable to determine old version
+[2023-05-08 16:58:30] INFO root fetch - processPackages [srtk]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-08 16:58:30] INFO root fetch - processPackages [periodic-element-properties]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-08 16:58:30] INFO root fetch - processPackages [ctransformers]: Start processing: automation-common-test
+[2023-05-08 16:58:30] INFO root fetch - main [MainThread]: End processing [ctransformers] error
+[2023-05-08 16:58:30] INFO root fetch - processPackages [domolibrary]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 16:58:30] INFO root fetch - processPackages [amsterdam-schema-tools]: New version: [5.9.3] Old Version: [5.9.2]
+[2023-05-08 16:58:30] INFO root fetch - processPackages [automation-common-test]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-05-08 16:58:30] INFO root fetch - processPackages [discord-ext-pager]: Downloading https://files.pythonhosted.org/packages/3e/d0/12ab365a878370868e45b59942241b68696da5b6e0f8a2b7cadcdd243fcd/discord-ext-pager-1.0.2.tar.gz
+[2023-05-08 16:58:30] INFO root fetch - processPackages [amsterdam-schema-tools]: Downloading https://files.pythonhosted.org/packages/1f/30/4cb7af8d4d1f00da78de0a18355a2eea64732fcd8654137d6173c80c699d/amsterdam-schema-tools-5.9.2.tar.gz
+[2023-05-08 16:58:30] INFO root fetch - processPackages [periodic-element-properties]: Downloading https://files.pythonhosted.org/packages/8c/04/93e85df10fdeeabed8ee44b29c3d8ffd1ca11355720ea908ee0e4c6346f4/periodic_element_properties-0.1.0.tar.gz
+[2023-05-08 16:58:31] INFO root fetch - processPackages [automation-common-test]: Downloading https://files.pythonhosted.org/packages/86/68/54b79b8ab638fd916b86bc06cb5f1ae023dcee7e2c3e68f51f116eb12a9b/automation-common-test-1.5.0.tar.gz
+[2023-05-08 16:58:31] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/e3/21/4720da5d616febdd12e875fe5900ec30fdebe3c7523e2db429341155ef60/domolibrary-0.1.8.tar.gz
+[2023-05-08 16:58:31] INFO root fetch - processPackages [srtk]: Downloading https://files.pythonhosted.org/packages/e9/7b/625a4d7a06c0b89f2a75f90624b07d519df6a8ca8e416325e9aa8201d0f8/srtk-0.0.5.tar.gz
+[2023-05-08 16:58:31] INFO root fetch - processPackages [automation-common-test]: executing diffoscope
+[2023-05-08 16:58:31] INFO root fetch - processPackages [automation-common-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation-common-test-1.4.0.tar.gz tmp/automation-common-test-1.5.0.tar.gz --markdown 20230508/a/automation-common-test/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-05-08 16:58:31] INFO root fetch - processPackages [srtk]: executing diffoscope
+[2023-05-08 16:58:31] INFO root fetch - processPackages [srtk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/srtk-0.0.4.tar.gz tmp/srtk-0.0.5.tar.gz --markdown 20230508/s/srtk/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-08 16:58:31] INFO root fetch - processPackages [nonebot-plugin-penguin]: Downloading https://files.pythonhosted.org/packages/b8/f6/149f121c058a6df8a092fe638ff09b546c827d78b1d552a16553a6f35457/nonebot_plugin_penguin-0.0.3.tar.gz
+[2023-05-08 16:58:31] INFO root fetch - processPackages [djangorestframework-verbose-errors]: Downloading https://files.pythonhosted.org/packages/24/05/2546bab69379b2ffd50babc729ee8ba83a36bbb279819c4806a46df82c06/djangorestframework-verbose-errors-0.0.3.tar.gz
+[2023-05-08 16:58:31] INFO root fetch - processPackages [hsipy]: Downloading https://files.pythonhosted.org/packages/03/4f/1b577ae6fd2fb95b61bdfc3d4f0cee41e71163bb49dcc92ac608d3a6596b/hsipy-1.0.8.tar.gz
+[2023-05-08 16:58:31] INFO root fetch - processPackages [periodic-element-properties]: Downloading https://files.pythonhosted.org/packages/20/a0/91351832411703a6748453b91d76cda590bc9403b1c5ffb1bb98a5b06fb8/periodic_element_properties-0.1.1.tar.gz
+[2023-05-08 16:58:31] INFO root fetch - processPackages [discord-ext-pager]: Downloading https://files.pythonhosted.org/packages/66/55/37d474a82e23b502a64f5f57af417badf52b6f3dba0a640f45ea3581c4a2/discord-ext-pager-1.0.2.post1.tar.gz
+[2023-05-08 16:58:31] INFO root fetch - processPackages [discord-ext-pager]: executing diffoscope
+[2023-05-08 16:58:31] INFO root fetch - processPackages [discord-ext-pager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord-ext-pager-1.0.2.tar.gz tmp/discord-ext-pager-1.0.2.post1.tar.gz --markdown 20230508/d/discord-ext-pager/1.0.2-1.0.2.post1/diff.md --exclude *.pyd
+[2023-05-08 16:58:31] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/ba/75/5a59616fc27c68dfb4e04e111a598384360b36ecbd4ac5c10bfb80277305/domolibrary-0.1.9.tar.gz
+[2023-05-08 16:58:31] INFO root fetch - processPackages [djangorestframework-verbose-errors]: executing diffoscope
+[2023-05-08 16:58:31] INFO root fetch - processPackages [djangorestframework-verbose-errors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangorestframework-verbose-errors-0.0.2.tar.gz tmp/djangorestframework-verbose-errors-0.0.3.tar.gz --markdown 20230508/d/djangorestframework-verbose-errors/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-08 16:58:31] INFO root fetch - processPackages [hsipy]: executing diffoscope
+[2023-05-08 16:58:31] INFO root fetch - processPackages [hsipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hsipy-1.0.5.tar.gz tmp/hsipy-1.0.8.tar.gz --markdown 20230508/h/hsipy/1.0.5-1.0.8/diff.md --exclude *.pyd
+[2023-05-08 16:58:31] INFO root fetch - processPackages [pine-client]: Downloading https://files.pythonhosted.org/packages/2e/17/04b6d0970c1f133b939967427984940881644d52897953fc8f062fadfaf4/pine_client-0.1.2.tar.gz
+[2023-05-08 16:58:31] INFO root fetch - processPackages [periodic-element-properties]: executing diffoscope
+[2023-05-08 16:58:31] INFO root fetch - processPackages [periodic-element-properties]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/periodic_element_properties-0.1.0.tar.gz tmp/periodic_element_properties-0.1.1.tar.gz --markdown 20230508/p/periodic-element-properties/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-08 16:58:31] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-05-08 16:58:31] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.8.tar.gz tmp/domolibrary-0.1.9.tar.gz --markdown 20230508/d/domolibrary/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 16:58:31] INFO root fetch - processPackages [pine-client]: executing diffoscope
+[2023-05-08 16:58:31] INFO root fetch - processPackages [pine-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pine_client-0.1.1.tar.gz tmp/pine_client-0.1.2.tar.gz --markdown 20230508/p/pine-client/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-08 16:58:31] INFO root fetch - processPackages [amsterdam-schema-tools]: Downloading https://files.pythonhosted.org/packages/4d/24/9b16605372327f85f59868308c2dc3f6e93f5faf2941312efe6702b27d8c/amsterdam-schema-tools-5.9.3.tar.gz
+[2023-05-08 16:58:31] INFO root fetch - processPackages [nonebot-plugin-penguin]: executing diffoscope
+[2023-05-08 16:58:31] INFO root fetch - processPackages [nonebot-plugin-penguin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_penguin-0.0.2.tar.gz tmp/nonebot_plugin_penguin-0.0.3.tar.gz --markdown 20230508/n/nonebot-plugin-penguin/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-08 16:58:31] INFO root fetch - processPackages [amsterdam-schema-tools]: executing diffoscope
+[2023-05-08 16:58:31] INFO root fetch - processPackages [amsterdam-schema-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amsterdam-schema-tools-5.9.2.tar.gz tmp/amsterdam-schema-tools-5.9.3.tar.gz --markdown 20230508/a/amsterdam-schema-tools/5.9.2-5.9.3/diff.md --exclude *.pyd
+[2023-05-08 16:58:32] INFO root fetch - processPackages [automation-common-test]: Start processing: drf-exceptions-hog
+[2023-05-08 16:58:32] INFO root fetch - main [MainThread]: End processing [automation-common-test]: success
+[2023-05-08 16:58:32] INFO root fetch - processPackages [drf-exceptions-hog]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-05-08 16:58:32] INFO root fetch - processPackages [discord-ext-pager]: Start processing: kkm230508-AILib
+[2023-05-08 16:58:32] INFO root fetch - main [MainThread]: End processing [discord-ext-pager]: success
+[2023-05-08 16:58:32] WARNING root fetch - processPackages [kkm230508-AILib]: Skipping, unable to determine old version
+[2023-05-08 16:58:32] INFO root fetch - processPackages [kkm230508-AILib]: Start processing: mkdocs-exporter
+[2023-05-08 16:58:32] INFO root fetch - main [MainThread]: End processing [kkm230508-AILib] error
+[2023-05-08 16:58:32] INFO root fetch - processPackages [djangorestframework-verbose-errors]: Start processing: cdktf-cdk8s
+[2023-05-08 16:58:32] INFO root fetch - main [MainThread]: End processing [djangorestframework-verbose-errors]: success
+[2023-05-08 16:58:32] WARNING root fetch - processPackages [mkdocs-exporter]: Skipping, unable to determine old version
+[2023-05-08 16:58:32] INFO root fetch - processPackages [mkdocs-exporter]: Start processing: jcloud
+[2023-05-08 16:58:32] INFO root fetch - main [MainThread]: End processing [mkdocs-exporter] error
+[2023-05-08 16:58:32] INFO root fetch - processPackages [pine-client]: Start processing: yetl-framework
+[2023-05-08 16:58:32] INFO root fetch - main [MainThread]: End processing [pine-client]: success
+[2023-05-08 16:58:32] INFO root fetch - processPackages [drf-exceptions-hog]: Downloading https://files.pythonhosted.org/packages/82/8d/b626ee65862939170ce5ef2b925c88197731f76d30a5f77f9179d0819419/drf-exceptions-hog-0.3.1.tar.gz
+[2023-05-08 16:58:32] INFO root fetch - processPackages [jcloud]: New version: [0.2.7.dev2] Old Version: [0.2.7]
+[2023-05-08 16:58:32] INFO root fetch - processPackages [yetl-framework]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-08 16:58:32] INFO root fetch - processPackages [hsipy]: Start processing: jcloud
+[2023-05-08 16:58:32] INFO root fetch - main [MainThread]: End processing [hsipy]: success
+[2023-05-08 16:58:32] INFO root fetch - processPackages [jcloud]: New version: [0.2.7.dev2] Old Version: [0.2.7]
+[2023-05-08 16:58:32] INFO root fetch - processPackages [cdktf-cdk8s]: New version: [0.5.7] Old Version: [0.5.6]
+[2023-05-08 16:58:32] INFO root fetch - processPackages [periodic-element-properties]: Start processing: certora-cli-alpha-Liav-Add-Internal-Only-Lib-Support
+[2023-05-08 16:58:32] INFO root fetch - main [MainThread]: End processing [periodic-element-properties]: success
+[2023-05-08 16:58:32] INFO root fetch - processPackages [yetl-framework]: executing diffoscope
+[2023-05-08 16:58:32] INFO root fetch - processPackages [yetl-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yetl-framework-1.2.8.tar.gz tmp/yetl-framework-1.2.9.tar.gz --markdown 20230508/y/yetl-framework/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-08 16:58:32] INFO root fetch - processPackages [jcloud]: executing diffoscope
+[2023-05-08 16:58:32] INFO root fetch - processPackages [jcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcloud-0.2.7.tar.gz tmp/jcloud-0.2.7.dev2.tar.gz --markdown 20230508/j/jcloud/0.2.7-0.2.7.dev2/diff.md --exclude *.pyd
+[2023-05-08 16:58:32] INFO root fetch - processPackages [certora-cli-alpha-Liav-Add-Internal-Only-Lib-Support]: New version: [20230508.13.9.718076] Old Version: [20230507.14.44.348112]
+[2023-05-08 16:58:32] INFO root fetch - processPackages [jcloud]: executing diffoscope
+[2023-05-08 16:58:32] INFO root fetch - processPackages [jcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcloud-0.2.7.tar.gz tmp/jcloud-0.2.7.dev2.tar.gz --markdown 20230508/j/jcloud/0.2.7-0.2.7.dev2/diff.md --exclude *.pyd
+[2023-05-08 16:58:33] INFO root fetch - processPackages [drf-exceptions-hog]: Downloading https://files.pythonhosted.org/packages/dc/92/c87b3e5c08c9cc5c542c17fa0fdde94f05106b596a6645d108c3ea22b930/drf-exceptions-hog-0.4.0.tar.gz
+[2023-05-08 16:58:33] INFO root fetch - processPackages [drf-exceptions-hog]: executing diffoscope
+[2023-05-08 16:58:33] INFO root fetch - processPackages [drf-exceptions-hog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-exceptions-hog-0.3.1.tar.gz tmp/drf-exceptions-hog-0.4.0.tar.gz --markdown 20230508/d/drf-exceptions-hog/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-05-08 16:58:33] INFO root fetch - processPackages [cdktf-cdk8s]: Downloading https://files.pythonhosted.org/packages/d5/5e/2c1c3eb25d9fe2e2771f10c2f12b0952e63d3b470ee761b90e876ed313bf/cdktf-cdk8s-0.5.6.tar.gz
+[2023-05-08 16:58:33] INFO root fetch - processPackages [certora-cli-alpha-Liav-Add-Internal-Only-Lib-Support]: Downloading https://files.pythonhosted.org/packages/2d/ad/b601a1bd9859878affabd0f47c9c35bb4396b159c647bf873e6383dcf86b/certora-cli-alpha-Liav-Add-Internal-Only-Lib-Support-20230507.14.44.348112.tar.gz
+[2023-05-08 16:58:33] WARNING root fetch - processPackages [certora-cli-alpha-Liav-Add-Internal-Only-Lib-Support]: Skipping package: exceeds size limit 38474724>=10485760
+[2023-05-08 16:58:33] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-Liav-Add-Internal-Only-Lib-Support] error
+[2023-05-08 16:58:33] INFO root fetch - main [MainThread]: End processing [srtk]: success
+[2023-05-08 16:58:33] INFO root fetch - processPackages [cdktf-cdk8s]: Downloading https://files.pythonhosted.org/packages/09/40/b8f8d50f35d10040b891f9bd1405494668c2c9537378c23cf89d610f11ff/cdktf-cdk8s-0.5.7.tar.gz
+[2023-05-08 16:58:33] INFO root fetch - processPackages [cdktf-cdk8s]: executing diffoscope
+[2023-05-08 16:58:33] INFO root fetch - processPackages [cdktf-cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdk8s-0.5.6.tar.gz tmp/cdktf-cdk8s-0.5.7.tar.gz --markdown 20230508/c/cdktf-cdk8s/0.5.6-0.5.7/diff.md --exclude *.pyd
+[2023-05-08 16:58:33] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-05-08 16:58:34] INFO root fetch - main [MainThread]: End processing [yetl-framework]: success
+[2023-05-08 16:58:34] INFO root fetch - main [MainThread]: End processing [jcloud]: success
+[2023-05-08 16:58:34] INFO root fetch - main [MainThread]: End processing [drf-exceptions-hog]: success
+[2023-05-08 16:58:34] INFO root fetch - main [MainThread]: End processing [cdktf-cdk8s]: success
+[2023-05-08 16:58:34] INFO root fetch - main [MainThread]: End processing [jcloud]: success
+[2023-05-08 16:58:35] INFO root fetch - main [MainThread]: End processing [amsterdam-schema-tools]: success
+[2023-05-08 16:58:35] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-penguin]: success
+[2023-05-08 16:58:35] INFO root fetch - main [MainThread]: Store serial: [18018377]
