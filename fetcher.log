@@ -1971,3 +1971,45 @@
 [2023-05-08 03:22:17] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
 [2023-05-08 03:22:21] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
 [2023-05-08 03:22:21] INFO root fetch - main [MainThread]: Store serial: [18011201]
+[2023-05-08 03:27:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18011201]
+[2023-05-08 03:27:32] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-08 03:27:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: exciton
+[2023-05-08 03:27:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-organizations
+[2023-05-08 03:27:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dlhpcstarter
+[2023-05-08 03:27:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-gitlab-runner
+[2023-05-08 03:27:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: toolbox-utils
+[2023-05-08 03:27:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lspsp
+[2023-05-08 03:27:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: circleinfo
+[2023-05-08 03:27:32] INFO root fetch - processPackages [dlhpcstarter]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-08 03:27:32] WARNING root fetch - processPackages [lspsp]: Skipping, unable to determine old version
+[2023-05-08 03:27:32] INFO root fetch - main [MainThread]: End processing [lspsp] error
+[2023-05-08 03:27:32] INFO root fetch - processPackages [exciton]: New version: [1.8.0] Old Version: [1.7.0]
+[2023-05-08 03:27:32] INFO root fetch - processPackages [toolbox-utils]: New version: [3.0.5] Old Version: [3.0.3]
+[2023-05-08 03:27:32] INFO root fetch - processPackages [circleinfo]: New version: [1.0.2] Old Version: [1.0.0]
+[2023-05-08 03:27:32] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-05-08 03:27:32] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-05-08 03:27:32] INFO root fetch - processPackages [dlhpcstarter]: Downloading https://files.pythonhosted.org/packages/fd/b0/79f1e2fb7770e4ccc139eed7858e4f723a1313dabc446755b3e634647d7d/dlhpcstarter-0.1.2.tar.gz
+[2023-05-08 03:27:32] INFO root fetch - processPackages [exciton]: Downloading https://files.pythonhosted.org/packages/cb/59/6e154d982a9394b65feb1683e0b7d8c27e2556ac81dda241aa41c64c768e/exciton-1.7.0-py3-none-any.whl
+[2023-05-08 03:27:32] INFO root fetch - processPackages [toolbox-utils]: Downloading https://files.pythonhosted.org/packages/a6/e8/d1bc19b789e51796e6582e4dee64e1411469f8e78e46cbf3a9d228626be1/toolbox_utils-3.0.3.tar.gz
+[2023-05-08 03:27:32] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-05-08 03:27:32] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230508/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-05-08 03:27:32] INFO root fetch - processPackages [circleinfo]: Downloading https://files.pythonhosted.org/packages/21/56/2d72559ff9d8f39a73c9232234c9ba0ed960f50f8372052db28aef6b478c/circleinfo-1.0.0.tar.gz
+[2023-05-08 03:27:32] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2023-05-08 03:27:32] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.1.98.tar.gz tmp/cdk-gitlab-runner-2.1.99.tar.gz --markdown 20230508/c/cdk-gitlab-runner/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-05-08 03:27:32] WARNING root fetch - processPackages [toolbox-utils]: Skipping package: exceeds size limit 17725881>=10485760
+[2023-05-08 03:27:32] INFO root fetch - main [MainThread]: End processing [toolbox-utils] error
+[2023-05-08 03:27:32] INFO root fetch - processPackages [exciton]: Downloading https://files.pythonhosted.org/packages/29/e7/3f12ee14a8743a8561f423829f98355ecab3f44209d9816f3e5c4dbb55f4/exciton-1.8.0-py3-none-any.whl
+[2023-05-08 03:27:32] INFO root fetch - processPackages [dlhpcstarter]: Downloading https://files.pythonhosted.org/packages/1e/d7/4cf7022aaa378c14d7f10a3ff77cd50ecb1d46ce40678417b035ad0ecb85/dlhpcstarter-0.1.3.tar.gz
+[2023-05-08 03:27:32] INFO root fetch - processPackages [exciton]: executing diffoscope
+[2023-05-08 03:27:32] INFO root fetch - processPackages [exciton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exciton-1.7.0-py3-none-any.whl.zip tmp/exciton-1.8.0-py3-none-any.whl.zip --markdown 20230508/e/exciton/1.7.0-1.8.0/diff.md --exclude *.pyd
+[2023-05-08 03:27:32] INFO root fetch - processPackages [circleinfo]: Downloading https://files.pythonhosted.org/packages/8f/24/ab7e69b32527686f53ea92211992886409d96cea5e4340f9a3be25e06519/circleinfo-1.0.2.tar.gz
+[2023-05-08 03:27:32] INFO root fetch - processPackages [dlhpcstarter]: executing diffoscope
+[2023-05-08 03:27:32] INFO root fetch - processPackages [dlhpcstarter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlhpcstarter-0.1.2.tar.gz tmp/dlhpcstarter-0.1.3.tar.gz --markdown 20230508/d/dlhpcstarter/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-08 03:27:32] INFO root fetch - processPackages [circleinfo]: executing diffoscope
+[2023-05-08 03:27:32] INFO root fetch - processPackages [circleinfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circleinfo-1.0.0.tar.gz tmp/circleinfo-1.0.2.tar.gz --markdown 20230508/c/circleinfo/1.0.0-1.0.2/diff.md --exclude *.pyd
+[2023-05-08 03:27:33] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2023-05-08 03:27:33] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-05-08 03:27:33] INFO root fetch - main [MainThread]: End processing [circleinfo]: success
+[2023-05-08 03:27:34] INFO root fetch - main [MainThread]: End processing [exciton]: success
+[2023-05-08 03:27:34] INFO root fetch - main [MainThread]: End processing [dlhpcstarter]: success
+[2023-05-08 03:27:34] INFO root fetch - main [MainThread]: Store serial: [18011232]
