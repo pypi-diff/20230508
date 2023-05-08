@@ -19655,3 +19655,86 @@ EOFError: EOF read where object expected
 [2023-05-08 21:01:03] INFO root fetch - main [MainThread]: End processing [iga]: success
 [2023-05-08 21:01:05] INFO root fetch - main [MainThread]: End processing [k1lib]: success
 [2023-05-08 21:01:05] INFO root fetch - main [MainThread]: Store serial: [18020978]
+[2023-05-08 21:06:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18020978]
+[2023-05-08 21:06:14] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-08 21:06:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iga
+[2023-05-08 21:06:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: k1lib
+[2023-05-08 21:06:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lotr-sdk-shah
+[2023-05-08 21:06:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ftd2xx
+[2023-05-08 21:06:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: warrenapp
+[2023-05-08 21:06:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: myNeuropsydia
+[2023-05-08 21:06:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: moto
+[2023-05-08 21:06:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: djangorestframework-verbose-errors
+[2023-05-08 21:06:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tupa123
+[2023-05-08 21:06:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: peodect
+[2023-05-08 21:06:14] INFO root fetch - processPackages [iga]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 21:06:14] INFO root fetch - processPackages [ftd2xx]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-05-08 21:06:14] WARNING root fetch - processPackages [lotr-sdk-shah]: Skipping, unable to determine old version
+[2023-05-08 21:06:14] INFO root fetch - processPackages [lotr-sdk-shah]: Start processing: pydcmtk
+[2023-05-08 21:06:14] INFO root fetch - main [MainThread]: End processing [lotr-sdk-shah] error
+[2023-05-08 21:06:14] INFO root fetch - processPackages [tupa123]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-08 21:06:14] INFO root fetch - processPackages [djangorestframework-verbose-errors]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-08 21:06:14] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-05-08 21:06:14] INFO root fetch - processPackages [k1lib]: New version: [1.3.6.5] Old Version: [1.3.6.4]
+[2023-05-08 21:06:14] INFO root fetch - processPackages [myNeuropsydia]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 21:06:14] INFO root fetch - processPackages [warrenapp]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-08 21:06:14] INFO root fetch - processPackages [tupa123]: executing diffoscope
+[2023-05-08 21:06:14] INFO root fetch - processPackages [tupa123]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tupa123-1.4.8.tar.gz tmp/tupa123-1.4.9.tar.gz --markdown 20230508/t/tupa123/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-05-08 21:06:14] WARNING root fetch - processPackages [peodect]: Skipping, unable to determine old version
+[2023-05-08 21:06:14] INFO root fetch - processPackages [peodect]: Start processing: PyPlumIO
+[2023-05-08 21:06:14] INFO root fetch - processPackages [pydcmtk]: New version: [0.1.1a0] Old Version: [0.1.0a0]
+[2023-05-08 21:06:14] INFO root fetch - main [MainThread]: End processing [peodect] error
+[2023-05-08 21:06:14] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-05-08 21:06:14] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230508/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-05-08 21:06:14] INFO root fetch - processPackages [ftd2xx]: Downloading https://files.pythonhosted.org/packages/ac/54/1638173135724b5d913c17e297930de2bd961a0e768680cb15ea3e745e90/ftd2xx-1.3.2.tar.gz
+[2023-05-08 21:06:14] INFO root fetch - processPackages [djangorestframework-verbose-errors]: Downloading https://files.pythonhosted.org/packages/55/0e/497a4767559e2c7709497b14d63a355da12495f0b27f342eb1dc3c43a21a/djangorestframework-verbose-errors-0.0.4.tar.gz
+[2023-05-08 21:06:14] INFO root fetch - processPackages [iga]: executing diffoscope
+[2023-05-08 21:06:14] INFO root fetch - processPackages [iga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iga-0.0.8.tar.gz tmp/iga-0.0.9.tar.gz --markdown 20230508/i/iga/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 21:06:14] INFO root fetch - processPackages [myNeuropsydia]: Downloading https://files.pythonhosted.org/packages/84/f0/20aba6765b9863c01e267c09c9dd057d74ca316aaf43b1bc47fe8b09bb0a/myNeuropsydia-0.1.8.tar.gz
+[2023-05-08 21:06:14] INFO root fetch - processPackages [warrenapp]: Downloading https://files.pythonhosted.org/packages/23/d3/3cb7cb7a38ee4c21394cd354a588403ef95edb1ce2819354ba024973777d/warrenapp-0.1.0.tar.gz
+[2023-05-08 21:06:14] INFO root fetch - processPackages [PyPlumIO]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-08 21:06:14] INFO root fetch - processPackages [pydcmtk]: Downloading https://files.pythonhosted.org/packages/ed/d6/3279d3201dacba29f1a4a6df6eab4905498202f0b84a8ddd9e3e3c97a342/pydcmtk-0.1.0a0.tar.gz
+[2023-05-08 21:06:14] INFO root fetch - processPackages [k1lib]: executing diffoscope
+[2023-05-08 21:06:14] INFO root fetch - processPackages [k1lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/k1lib-1.3.6.4-py3-none-any.whl.zip tmp/k1lib-1.3.6.5-py3-none-any.whl.zip --markdown 20230508/k/k1lib/1.3.6.4-1.3.6.5/diff.md --exclude *.pyd
+[2023-05-08 21:06:14] INFO root fetch - processPackages [djangorestframework-verbose-errors]: executing diffoscope
+[2023-05-08 21:06:14] INFO root fetch - processPackages [djangorestframework-verbose-errors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangorestframework-verbose-errors-0.0.3.tar.gz tmp/djangorestframework-verbose-errors-0.0.4.tar.gz --markdown 20230508/d/djangorestframework-verbose-errors/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-08 21:06:14] INFO root fetch - processPackages [warrenapp]: Downloading https://files.pythonhosted.org/packages/e8/42/1fea84f867f234522f292365e49d206c248a38468f36280bfd838dc060b6/warrenapp-0.1.1.tar.gz
+[2023-05-08 21:06:14] INFO root fetch - processPackages [PyPlumIO]: Downloading https://files.pythonhosted.org/packages/9f/a9/819102b340bd7a3412b93272724d6eb14a10c145e9f46786498d613a987f/PyPlumIO-0.4.1.tar.gz
+[2023-05-08 21:06:14] INFO root fetch - processPackages [ftd2xx]: Downloading https://files.pythonhosted.org/packages/94/e5/56c5a4b3d530c13540e2dd392deaf1b3a4f0ab55990542cf16afea16e2e7/ftd2xx-1.3.3.tar.gz
+[2023-05-08 21:06:14] INFO root fetch - processPackages [ftd2xx]: executing diffoscope
+[2023-05-08 21:06:14] INFO root fetch - processPackages [ftd2xx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftd2xx-1.3.2.tar.gz tmp/ftd2xx-1.3.3.tar.gz --markdown 20230508/f/ftd2xx/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-05-08 21:06:14] INFO root fetch - processPackages [warrenapp]: executing diffoscope
+[2023-05-08 21:06:14] INFO root fetch - processPackages [warrenapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/warrenapp-0.1.0.tar.gz tmp/warrenapp-0.1.1.tar.gz --markdown 20230508/w/warrenapp/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-08 21:06:14] INFO root fetch - processPackages [pydcmtk]: Downloading https://files.pythonhosted.org/packages/8d/1e/982e50259f84394129ac329b4b300d6dafcac790baa542c5324e56f8fe54/pydcmtk-0.1.1a0.tar.gz
+[2023-05-08 21:06:14] INFO root fetch - processPackages [pydcmtk]: executing diffoscope
+[2023-05-08 21:06:14] INFO root fetch - processPackages [pydcmtk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydcmtk-0.1.0a0.tar.gz tmp/pydcmtk-0.1.1a0.tar.gz --markdown 20230508/p/pydcmtk/0.1.0a0-0.1.1a0/diff.md --exclude *.pyd
+[2023-05-08 21:06:15] INFO root fetch - processPackages [PyPlumIO]: Downloading https://files.pythonhosted.org/packages/07/8b/36194220d1e989e2e922ae9537aaf2f095ff3d8e60469af895b5f4b128ca/PyPlumIO-0.4.2.tar.gz
+[2023-05-08 21:06:15] INFO root fetch - processPackages [djangorestframework-verbose-errors]: Start processing: lamineml
+[2023-05-08 21:06:15] INFO root fetch - main [MainThread]: End processing [djangorestframework-verbose-errors]: success
+[2023-05-08 21:06:15] INFO root fetch - processPackages [tupa123]: Start processing: journal-prompts
+[2023-05-08 21:06:15] INFO root fetch - main [MainThread]: End processing [tupa123]: success
+[2023-05-08 21:06:15] INFO root fetch - processPackages [PyPlumIO]: executing diffoscope
+[2023-05-08 21:06:15] INFO root fetch - processPackages [PyPlumIO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyPlumIO-0.4.1.tar.gz tmp/PyPlumIO-0.4.2.tar.gz --markdown 20230508/P/PyPlumIO/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-08 21:06:15] INFO root fetch - processPackages [lamineml]: New version: [0.8] Old Version: [0.7]
+[2023-05-08 21:06:15] INFO root fetch - processPackages [journal-prompts]: New version: [0.1.6] Old Version: [0.1.4]
+[2023-05-08 21:06:15] INFO root fetch - main [MainThread]: End processing [ftd2xx]: success
+[2023-05-08 21:06:15] INFO root fetch - processPackages [lamineml]: Downloading https://files.pythonhosted.org/packages/c0/b3/24a2ee834e3d82bee3bc595945d5e03a960070cefdeacfd94c8fb7739b30/lamineml-0.7.tar.gz
+[2023-05-08 21:06:16] INFO root fetch - processPackages [journal-prompts]: Downloading https://files.pythonhosted.org/packages/57/95/124712732a48506296efdb0b12210ce1a0f7c473322bed159ca2982c6362/journal-prompts-0.1.4.tar.gz
+[2023-05-08 21:06:16] INFO root fetch - main [MainThread]: End processing [k1lib]: success
+[2023-05-08 21:06:16] INFO root fetch - processPackages [lamineml]: Downloading https://files.pythonhosted.org/packages/ec/b0/93c51873c5127a208b96fec770e3d7781931a74a860622b6e562a5d0a184/lamineml-0.8.tar.gz
+[2023-05-08 21:06:16] INFO root fetch - processPackages [lamineml]: executing diffoscope
+[2023-05-08 21:06:16] INFO root fetch - processPackages [lamineml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamineml-0.7.tar.gz tmp/lamineml-0.8.tar.gz --markdown 20230508/l/lamineml/0.7-0.8/diff.md --exclude *.pyd
+[2023-05-08 21:06:16] INFO root fetch - processPackages [journal-prompts]: Downloading https://files.pythonhosted.org/packages/13/f5/afa4662b418e4249fec7b2f2cbe435190312183bede4143c946a81660870/journal-prompts-0.1.6.tar.gz
+[2023-05-08 21:06:16] INFO root fetch - processPackages [journal-prompts]: executing diffoscope
+[2023-05-08 21:06:16] INFO root fetch - processPackages [journal-prompts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/journal-prompts-0.1.4.tar.gz tmp/journal-prompts-0.1.6.tar.gz --markdown 20230508/j/journal-prompts/0.1.4-0.1.6/diff.md --exclude *.pyd
+[2023-05-08 21:06:16] INFO root fetch - main [MainThread]: End processing [pydcmtk]: success
+[2023-05-08 21:06:17] INFO root fetch - main [MainThread]: End processing [warrenapp]: success
+[2023-05-08 21:06:17] INFO root fetch - main [MainThread]: End processing [iga]: success
+[2023-05-08 21:06:17] INFO root fetch - main [MainThread]: End processing [PyPlumIO]: success
+[2023-05-08 21:06:17] INFO root fetch - main [MainThread]: End processing [lamineml]: success
+[2023-05-08 21:06:17] INFO root fetch - main [MainThread]: End processing [journal-prompts]: success
+[2023-05-08 21:06:21] INFO root fetch - processPackages [myNeuropsydia]: Downloading https://files.pythonhosted.org/packages/90/c9/006030f2f4c10d5edf002afafc846f532233b53dda33ae618c186648d69b/myNeuropsydia-0.1.9.tar.gz
+[2023-05-08 21:06:22] WARNING root fetch - processPackages [myNeuropsydia]: Skipping package: exceeds size limit 15614089>=10485760
+[2023-05-08 21:06:22] INFO root fetch - main [MainThread]: End processing [myNeuropsydia] error
+[2023-05-08 21:06:45] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-05-08 21:06:45] INFO root fetch - main [MainThread]: Store serial: [18021025]
