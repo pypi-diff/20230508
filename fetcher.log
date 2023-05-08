@@ -9848,3 +9848,47 @@
 [2023-05-08 12:12:05] INFO root fetch - main [MainThread]: End processing [encord-active]: success
 [2023-05-08 12:13:01] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
 [2023-05-08 12:13:01] INFO root fetch - main [MainThread]: Store serial: [18015528]
+[2023-05-08 12:18:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18015528]
+[2023-05-08 12:18:10] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-08 12:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: graph-attention-student
+[2023-05-08 12:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: localstack-core
+[2023-05-08 12:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: domainlab
+[2023-05-08 12:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lightwave
+[2023-05-08 12:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rawpipe
+[2023-05-08 12:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: podqueue
+[2023-05-08 12:18:10] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230508080750] Old Version: [2.0.3.dev20230507200851]
+[2023-05-08 12:18:10] INFO root fetch - processPackages [graph-attention-student]: New version: [0.9.0] Old Version: [0.7.2]
+[2023-05-08 12:18:10] INFO root fetch - processPackages [domainlab]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-05-08 12:18:10] INFO root fetch - processPackages [lightwave]: New version: [0.22] Old Version: [0.21]
+[2023-05-08 12:18:10] INFO root fetch - processPackages [rawpipe]: New version: [0.9.9] Old Version: [0.9.7]
+[2023-05-08 12:18:10] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/b8/ec/894cf2c1baf3889047651048b5001e46208488c556af60b001e3ef6c079a/localstack-core-2.0.3.dev20230508080750.tar.gz
+[2023-05-08 12:18:10] INFO root fetch - processPackages [graph-attention-student]: Downloading https://files.pythonhosted.org/packages/82/08/65e22c56ee2fb243d98aa8bb8717340eae962b1a44b165cfe7fb7d1f1287/graph_attention_student-0.7.2.tar.gz
+[2023-05-08 12:18:10] INFO root fetch - processPackages [podqueue]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-08 12:18:10] INFO root fetch - processPackages [rawpipe]: Downloading https://files.pythonhosted.org/packages/be/73/54f03b67d6bd483b48a5bc6b4a5c302baf5587004c319badf714604a0947/rawpipe-0.9.7.tar.gz
+[2023-05-08 12:18:10] INFO root fetch - processPackages [lightwave]: Downloading https://files.pythonhosted.org/packages/1f/a1/1f48fdc860e8ea034fbbeb09fdfdac54d79c4f1686bd96b41d11ad2f050e/lightwave-0.21.tar.gz
+[2023-05-08 12:18:10] INFO root fetch - processPackages [domainlab]: Downloading https://files.pythonhosted.org/packages/21/76/e830bfc2ede31145306ed3f75922fe683f841f1af25f6469040ae1e8da8e/domainlab-0.1.0.tar.gz
+[2023-05-08 12:18:10] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-05-08 12:18:10] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230507200851.tar.gz tmp/localstack-core-2.0.3.dev20230508080750.tar.gz --markdown 20230508/l/localstack-core/2.0.3.dev20230507200851-2.0.3.dev20230508080750/diff.md --exclude *.pyd
+[2023-05-08 12:18:10] INFO root fetch - processPackages [podqueue]: Downloading https://files.pythonhosted.org/packages/a9/4e/d2ba209ae7724d2442835b9874e15ed4b9a5cbf253c968a74196e13e1331/podqueue-0.1.2.tar.gz
+[2023-05-08 12:18:11] INFO root fetch - processPackages [graph-attention-student]: Downloading https://files.pythonhosted.org/packages/f6/af/03d655f11e0bb93ad8111eafae9bc42e3da6529c716a97511dd8ff1fd673/graph_attention_student-0.9.0.tar.gz
+[2023-05-08 12:18:11] INFO root fetch - processPackages [lightwave]: Downloading https://files.pythonhosted.org/packages/45/51/fa51bd7a7e8373eca7e99a7256a613afec40bae4f947f6783e8d84a28a53/lightwave-0.22.tar.gz
+[2023-05-08 12:18:11] INFO root fetch - processPackages [domainlab]: Downloading https://files.pythonhosted.org/packages/12/77/707fd6e8627e3afebcd6734d9b9657c834be6b1ab4823d885eda72ae1ac2/domainlab-0.1.2.tar.gz
+[2023-05-08 12:18:11] INFO root fetch - processPackages [lightwave]: executing diffoscope
+[2023-05-08 12:18:11] INFO root fetch - processPackages [lightwave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightwave-0.21.tar.gz tmp/lightwave-0.22.tar.gz --markdown 20230508/l/lightwave/0.21-0.22/diff.md --exclude *.pyd
+[2023-05-08 12:18:11] INFO root fetch - processPackages [graph-attention-student]: executing diffoscope
+[2023-05-08 12:18:11] INFO root fetch - processPackages [graph-attention-student]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graph_attention_student-0.7.2.tar.gz tmp/graph_attention_student-0.9.0.tar.gz --markdown 20230508/g/graph-attention-student/0.7.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-08 12:18:11] INFO root fetch - processPackages [domainlab]: executing diffoscope
+[2023-05-08 12:18:11] INFO root fetch - processPackages [domainlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domainlab-0.1.0.tar.gz tmp/domainlab-0.1.2.tar.gz --markdown 20230508/d/domainlab/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-05-08 12:18:11] INFO root fetch - processPackages [rawpipe]: Downloading https://files.pythonhosted.org/packages/2e/11/b247924d199a690a9e8cc73f47d1a7abbe651d0965cf3cc19267299c82bb/rawpipe-0.9.9.tar.gz
+[2023-05-08 12:18:11] INFO root fetch - processPackages [podqueue]: Downloading https://files.pythonhosted.org/packages/8d/ea/705c9637eb139afab60624b94ec81c1a5514d14c9d436af71170f476988b/podqueue-0.1.3.tar.gz
+[2023-05-08 12:18:11] INFO root fetch - processPackages [rawpipe]: executing diffoscope
+[2023-05-08 12:18:11] INFO root fetch - processPackages [rawpipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rawpipe-0.9.7.tar.gz tmp/rawpipe-0.9.9.tar.gz --markdown 20230508/r/rawpipe/0.9.7-0.9.9/diff.md --exclude *.pyd
+[2023-05-08 12:18:11] INFO root fetch - processPackages [podqueue]: executing diffoscope
+[2023-05-08 12:18:11] INFO root fetch - processPackages [podqueue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/podqueue-0.1.2.tar.gz tmp/podqueue-0.1.3.tar.gz --markdown 20230508/p/podqueue/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-08 12:18:12] INFO root fetch - main [MainThread]: End processing [rawpipe]: success
+[2023-05-08 12:18:12] INFO root fetch - main [MainThread]: End processing [lightwave]: success
+[2023-05-08 12:18:12] INFO root fetch - main [MainThread]: End processing [graph-attention-student]: success
+[2023-05-08 12:18:12] INFO root fetch - main [MainThread]: End processing [podqueue]: success
+[2023-05-08 12:18:13] INFO root fetch - main [MainThread]: End processing [domainlab]: success
+[2023-05-08 12:18:21] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-05-08 12:18:21] INFO root fetch - main [MainThread]: Store serial: [18015549]
