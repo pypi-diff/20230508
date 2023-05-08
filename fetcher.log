@@ -8030,3 +8030,91 @@
 [2023-05-08 10:32:57] INFO root fetch - main [MainThread]: End processing [pycti]: success
 [2023-05-08 10:33:00] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
 [2023-05-08 10:33:00] INFO root fetch - main [MainThread]: Store serial: [18014576]
+[2023-05-08 10:38:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18014576]
+[2023-05-08 10:38:09] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-08 10:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NamasteiG
+[2023-05-08 10:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-fast-update
+[2023-05-08 10:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xj-enroll
+[2023-05-08 10:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: evince
+[2023-05-08 10:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ai-executor
+[2023-05-08 10:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fenjing
+[2023-05-08 10:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-sale-order-revision
+[2023-05-08 10:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-sale-order-partner-restrict
+[2023-05-08 10:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: thankyou
+[2023-05-08 10:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: eniris
+[2023-05-08 10:38:09] INFO root fetch - processPackages [django-fast-update]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-08 10:38:09] INFO root fetch - processPackages [thankyou]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-08 10:38:09] INFO root fetch - processPackages [ai-executor]: New version: [0.2.5] Old Version: [0.2.3]
+[2023-05-08 10:38:09] INFO root fetch - processPackages [fenjing]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-08 10:38:09] INFO root fetch - processPackages [eniris]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-08 10:38:09] INFO root fetch - processPackages [NamasteiG]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-05-08 10:38:09] WARNING root fetch - processPackages [odoo-addon-sale-order-revision]: Skipping, unable to determine old version
+[2023-05-08 10:38:09] INFO root fetch - processPackages [odoo-addon-sale-order-revision]: Start processing: modelbase
+[2023-05-08 10:38:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-order-revision] error
+[2023-05-08 10:38:09] INFO root fetch - processPackages [evince]: New version: [0.9] Old Version: [0.57.0]
+[2023-05-08 10:38:09] INFO root fetch - processPackages [odoo-addon-sale-order-partner-restrict]: New version: [15.0.1.0.0.3] Old Version: [15.0.1.0.0.2]
+[2023-05-08 10:38:09] INFO root fetch - processPackages [xj-enroll]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-05-08 10:38:09] INFO root fetch - processPackages [modelbase]: New version: [1rc2] Old Version: [1.9.3]
+[2023-05-08 10:38:09] INFO root fetch - processPackages [xj-enroll]: executing diffoscope
+[2023-05-08 10:38:09] INFO root fetch - processPackages [xj-enroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_enroll-1.0.98.tar.gz tmp/xj_enroll-1.0.99.tar.gz --markdown 20230508/x/xj-enroll/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-05-08 10:38:09] INFO root fetch - processPackages [odoo-addon-sale-order-partner-restrict]: Downloading https://files.pythonhosted.org/packages/91/58/5d5b8587191a6937a07fea3c81e09460afc71fa7a75c6762aee96fc39dd7/odoo_addon_sale_order_partner_restrict-15.0.1.0.0.2-py3-none-any.whl
+[2023-05-08 10:38:09] INFO root fetch - processPackages [evince]: Downloading https://files.pythonhosted.org/packages/04/1f/08c5363509839a0155ef66c7778f59eb8ed690bed065585a782ac78ca90b/evince-0.57.0-py3-none-any.whl
+[2023-05-08 10:38:09] INFO root fetch - processPackages [eniris]: Downloading https://files.pythonhosted.org/packages/6f/d3/8962c8810e43f720638eae273d77f0a1d6443fa8994cb543d1a131ab75ba/eniris-0.4.0.tar.gz
+[2023-05-08 10:38:09] INFO root fetch - processPackages [fenjing]: Downloading https://files.pythonhosted.org/packages/f7/2c/1ee3064b2b9e2be713877abac11a685e4ab8eb7faa51393113af7bd6ca03/fenjing-0.2.3.tar.gz
+[2023-05-08 10:38:09] INFO root fetch - processPackages [thankyou]: Downloading https://files.pythonhosted.org/packages/b1/77/673851752ce9a60861a2eb177c3ccd4d7d5b6728db321b2e3b9d7c31427c/thankyou-0.0.1.tar.gz
+[2023-05-08 10:38:09] INFO root fetch - processPackages [django-fast-update]: Downloading https://files.pythonhosted.org/packages/01/48/c3e0dcdf71019843e2d175b68674f6ac0a43914bb5214f6df13a547e84c2/django-fast-update-0.2.2.tar.gz
+[2023-05-08 10:38:09] INFO root fetch - processPackages [ai-executor]: Downloading https://files.pythonhosted.org/packages/4c/8d/3ac97d5bfb7d7fee3f5bb50d14cc50f7a0cdec01c96cfa24f9a46c17e43e/ai-executor-0.2.5.tar.gz
+[2023-05-08 10:38:09] INFO root fetch - processPackages [NamasteiG]: Downloading https://files.pythonhosted.org/packages/c6/38/deca9ef585bb8a5e9a1cb45ffd002b7cc1d4fbb27a969a538b651d848bf3/NamasteiG-0.3.0.tar.gz
+[2023-05-08 10:38:09] INFO root fetch - processPackages [modelbase]: Downloading https://files.pythonhosted.org/packages/2d/60/61225a94c9e33f3d21366aefd4cdf1945c8805e3540a30f2fd1c5d8faa06/modelbase-1.9.3.tar.gz
+[2023-05-08 10:38:09] INFO root fetch - processPackages [ai-executor]: executing diffoscope
+[2023-05-08 10:38:09] INFO root fetch - processPackages [ai-executor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai-executor-0.2.3.tar.gz tmp/ai-executor-0.2.5.tar.gz --markdown 20230508/a/ai-executor/0.2.3-0.2.5/diff.md --exclude *.pyd
+[2023-05-08 10:38:09] INFO root fetch - processPackages [NamasteiG]: executing diffoscope
+[2023-05-08 10:38:09] INFO root fetch - processPackages [NamasteiG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NamasteiG-0.2.9.tar.gz tmp/NamasteiG-0.3.0.tar.gz --markdown 20230508/N/NamasteiG/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-05-08 10:38:09] INFO root fetch - processPackages [eniris]: Downloading https://files.pythonhosted.org/packages/de/d6/6c5350328202ea33900f7bced974866e297d10e19a3275a77e90a0026f0a/eniris-0.5.0.tar.gz
+[2023-05-08 10:38:09] INFO root fetch - processPackages [fenjing]: Downloading https://files.pythonhosted.org/packages/6c/ca/91b57bfc43778708683f5084e93d225095f5ae18aa5c98ab7123f28e5161/fenjing-0.2.4.tar.gz
+[2023-05-08 10:38:09] INFO root fetch - processPackages [eniris]: executing diffoscope
+[2023-05-08 10:38:09] INFO root fetch - processPackages [eniris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eniris-0.4.0.tar.gz tmp/eniris-0.5.0.tar.gz --markdown 20230508/e/eniris/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-08 10:38:09] INFO root fetch - processPackages [django-fast-update]: Downloading https://files.pythonhosted.org/packages/6b/81/cc21244eeec89d8b16bfafa475f118bd1b8e40c9628742478a7821f18c1e/django-fast-update-0.2.3.tar.gz
+[2023-05-08 10:38:09] INFO root fetch - processPackages [fenjing]: executing diffoscope
+[2023-05-08 10:38:09] INFO root fetch - processPackages [fenjing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fenjing-0.2.3.tar.gz tmp/fenjing-0.2.4.tar.gz --markdown 20230508/f/fenjing/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-08 10:38:09] INFO root fetch - processPackages [odoo-addon-sale-order-partner-restrict]: Downloading https://files.pythonhosted.org/packages/b8/0c/36223d8ad8701a1d9832d4445490e10938570d7af1b8cf1a495d3db94ebb/odoo_addon_sale_order_partner_restrict-15.0.1.0.0.3-py3-none-any.whl
+[2023-05-08 10:38:09] INFO root fetch - processPackages [evince]: Downloading https://files.pythonhosted.org/packages/3e/2e/cf3683e9e08ca3ce9072fd7b593973dafe0d95fa945748fc1fdf955cee5a/Evince-0.9-py3-none-any.whl
+[2023-05-08 10:38:09] INFO root fetch - processPackages [thankyou]: Downloading https://files.pythonhosted.org/packages/93/49/b820e719649d71b08ebe9e10bec35c21d8cb3d25bab844da36f298661a9f/thankyou-0.0.2.tar.gz
+[2023-05-08 10:38:09] INFO root fetch - processPackages [django-fast-update]: executing diffoscope
+[2023-05-08 10:38:09] INFO root fetch - processPackages [django-fast-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-fast-update-0.2.2.tar.gz tmp/django-fast-update-0.2.3.tar.gz --markdown 20230508/d/django-fast-update/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-08 10:38:09] INFO root fetch - processPackages [odoo-addon-sale-order-partner-restrict]: executing diffoscope
+[2023-05-08 10:38:09] INFO root fetch - processPackages [odoo-addon-sale-order-partner-restrict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_order_partner_restrict-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_sale_order_partner_restrict-15.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230508/o/odoo-addon-sale-order-partner-restrict/15.0.1.0.0.2-15.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-05-08 10:38:09] INFO root fetch - processPackages [thankyou]: executing diffoscope
+[2023-05-08 10:38:09] INFO root fetch - processPackages [thankyou]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thankyou-0.0.1.tar.gz tmp/thankyou-0.0.2.tar.gz --markdown 20230508/t/thankyou/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-08 10:38:09] INFO root fetch - processPackages [evince]: executing diffoscope
+[2023-05-08 10:38:09] INFO root fetch - processPackages [evince]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evince-0.57.0-py3-none-any.whl.zip tmp/Evince-0.9-py3-none-any.whl.zip --markdown 20230508/e/evince/0.57.0-0.9/diff.md --exclude *.pyd
+[2023-05-08 10:38:10] INFO root fetch - processPackages [modelbase]: Downloading https://files.pythonhosted.org/packages/50/e2/d6e4b5bb8eda18f7221f3af4d4f295ef693f37fbafe88e68574e7e39c29f/modelbase-1rc2.tar.gz
+[2023-05-08 10:38:10] INFO root fetch - processPackages [modelbase]: executing diffoscope
+[2023-05-08 10:38:10] INFO root fetch - processPackages [modelbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbase-1.9.3.tar.gz tmp/modelbase-1rc2.tar.gz --markdown 20230508/m/modelbase/1.9.3-1rc2/diff.md --exclude *.pyd
+[2023-05-08 10:38:11] INFO root fetch - processPackages [ai-executor]: Start processing: atc-mi-interface
+[2023-05-08 10:38:11] INFO root fetch - main [MainThread]: End processing [ai-executor]: success
+[2023-05-08 10:38:11] WARNING root fetch - processPackages [atc-mi-interface]: Skipping, unable to determine old version
+[2023-05-08 10:38:11] INFO root fetch - processPackages [atc-mi-interface]: Start processing: nonebot-plugin-csgo-case-simulator
+[2023-05-08 10:38:11] INFO root fetch - main [MainThread]: End processing [atc-mi-interface] error
+[2023-05-08 10:38:11] INFO root fetch - processPackages [nonebot-plugin-csgo-case-simulator]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 10:38:11] INFO root fetch - processPackages [NamasteiG]: Start processing: tf-estimator-nightly
+[2023-05-08 10:38:11] INFO root fetch - main [MainThread]: End processing [NamasteiG]: success
+[2023-05-08 10:38:11] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-05-08 10:38:11] INFO root fetch - processPackages [nonebot-plugin-csgo-case-simulator]: Downloading https://files.pythonhosted.org/packages/d5/6f/a5dfe21f60d936adc6f75471332b64a08b0d2d792b76b61940b7d80d6559/nonebot-plugin-csgo-case-simulator-0.1.9.tar.gz
+[2023-05-08 10:38:11] INFO root fetch - main [MainThread]: End processing [eniris]: success
+[2023-05-08 10:38:11] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/31/a0/5e1b898e43043b32d95e8719e2eb127692fd8261edbdad4801876a46893f/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl
+[2023-05-08 10:38:11] INFO root fetch - processPackages [nonebot-plugin-csgo-case-simulator]: executing diffoscope
+[2023-05-08 10:38:11] INFO root fetch - processPackages [nonebot-plugin-csgo-case-simulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-csgo-case-simulator-0.1.8.tar.gz tmp/nonebot-plugin-csgo-case-simulator-0.1.9.tar.gz --markdown 20230508/n/nonebot-plugin-csgo-case-simulator/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 10:38:11] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-order-partner-restrict]: success
+[2023-05-08 10:38:11] INFO root fetch - main [MainThread]: End processing [thankyou]: success
+[2023-05-08 10:38:11] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b6/fe4f7077ae036fd90bf9dfdc09b52cf611b857e7a26c3bc44a2e76c94af2/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl
+[2023-05-08 10:38:11] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-05-08 10:38:11] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230508/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-05-08 10:38:11] INFO root fetch - main [MainThread]: End processing [django-fast-update]: success
+[2023-05-08 10:38:12] INFO root fetch - main [MainThread]: End processing [xj-enroll]: success
+[2023-05-08 10:38:12] INFO root fetch - main [MainThread]: End processing [fenjing]: success
+[2023-05-08 10:38:13] INFO root fetch - main [MainThread]: End processing [modelbase]: success
+[2023-05-08 10:38:13] INFO root fetch - main [MainThread]: End processing [evince]: success
+[2023-05-08 10:38:13] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-05-08 10:38:27] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-csgo-case-simulator]: success
+[2023-05-08 10:38:27] INFO root fetch - main [MainThread]: Store serial: [18014619]
