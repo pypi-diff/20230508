@@ -11737,3 +11737,60 @@
 [2023-05-08 14:15:32] INFO root fetch - main [MainThread]: End processing [co2mpas-driver]: success
 [2023-05-08 14:15:42] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-05-08 14:15:42] INFO root fetch - main [MainThread]: Store serial: [18016475]
+[2023-05-08 14:20:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18016475]
+[2023-05-08 14:20:51] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-08 14:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wavebreaking
+[2023-05-08 14:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: monty
+[2023-05-08 14:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: notebook-environments
+[2023-05-08 14:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: code-loader
+[2023-05-08 14:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: geti-sdk
+[2023-05-08 14:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pepperize.cdk-ssm-parameters-cross-region
+[2023-05-08 14:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: MDbrew
+[2023-05-08 14:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-roy-CERT-1955-assertHits
+[2023-05-08 14:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: troubadix
+[2023-05-08 14:20:51] INFO root fetch - processPackages [monty]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-05-08 14:20:51] INFO root fetch - processPackages [wavebreaking]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-08 14:20:51] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-assertHits]: New version: [20230508.12.19.327603] Old Version: [20230507.18.42.247566]
+[2023-05-08 14:20:51] INFO root fetch - processPackages [troubadix]: New version: [23.5.1] Old Version: [23.5.0]
+[2023-05-08 14:20:51] INFO root fetch - processPackages [geti-sdk]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-05-08 14:20:51] INFO root fetch - processPackages [notebook-environments]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-05-08 14:20:51] INFO root fetch - processPackages [MDbrew]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-05-08 14:20:51] INFO root fetch - processPackages [code-loader]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-08 14:20:51] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-08 14:20:51] INFO root fetch - processPackages [code-loader]: executing diffoscope
+[2023-05-08 14:20:51] INFO root fetch - processPackages [code-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/code-loader-0.2.8.tar.gz tmp/code-loader-0.2.9.tar.gz --markdown 20230508/c/code-loader/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-08 14:20:51] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-assertHits]: Downloading https://files.pythonhosted.org/packages/0f/18/154d61bb3ffa1d99ceae79a8d36c46ad7dfbd1d6c4ce99ec54c16b5dbb60/certora-cli-alpha-roy-CERT-1955-assertHits-20230507.18.42.247566.tar.gz
+[2023-05-08 14:20:51] INFO root fetch - processPackages [wavebreaking]: Downloading https://files.pythonhosted.org/packages/94/fe/7eb29d6f9ce9d9e11458c51b305a2be7cee72f6fb3dd4e7ca2bd6c64a164/wavebreaking-0.3.0.tar.gz
+[2023-05-08 14:20:51] INFO root fetch - processPackages [troubadix]: Downloading https://files.pythonhosted.org/packages/19/30/2eb25b1f9377b12764b295bc2cd23ee3fb5f4561b0725d96c1111fb06ef1/troubadix-23.5.0.tar.gz
+[2023-05-08 14:20:51] INFO root fetch - processPackages [geti-sdk]: Downloading https://files.pythonhosted.org/packages/8c/39/274ca9c7029f99ac152e5ba5d09d81a6f30cc3a93c231c9ca8b4dba792d1/geti-sdk-1.5.1.tar.gz
+[2023-05-08 14:20:51] INFO root fetch - processPackages [notebook-environments]: Downloading https://files.pythonhosted.org/packages/79/41/e3247c57f50c0b148fbdcd5ff59b3acbe311e5dfdd5635617bb9695560b9/notebook-environments-0.8.8.tar.gz
+[2023-05-08 14:20:51] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/fb/79/6889f2bcfe14ad3c2ad911188cae87c47eed38640d4ded20760568fafd48/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz
+[2023-05-08 14:20:51] WARNING root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-assertHits]: Skipping package: exceeds size limit 38474597>=10485760
+[2023-05-08 14:20:51] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-roy-CERT-1955-assertHits] error
+[2023-05-08 14:20:51] WARNING root fetch - processPackages [wavebreaking]: Skipping package: exceeds size limit 11108136>=10485760
+[2023-05-08 14:20:51] INFO root fetch - main [MainThread]: End processing [wavebreaking] error
+[2023-05-08 14:20:51] INFO root fetch - processPackages [MDbrew]: Downloading https://files.pythonhosted.org/packages/08/14/428fe87c3d5e8f3bf7c8eee08b7bd503f61f5f5400886d91f135fdca372a/MDbrew-2.3.2.tar.gz
+[2023-05-08 14:20:51] INFO root fetch - processPackages [monty]: executing diffoscope
+[2023-05-08 14:20:51] INFO root fetch - processPackages [monty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monty-4.0.1.tar.gz tmp/monty-4.0.2.tar.gz --markdown 20230508/m/monty/4.0.1-4.0.2/diff.md --exclude *.pyd
+[2023-05-08 14:20:51] INFO root fetch - processPackages [MDbrew]: executing diffoscope
+[2023-05-08 14:20:51] INFO root fetch - processPackages [MDbrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MDbrew-2.3.1.tar.gz tmp/MDbrew-2.3.2.tar.gz --markdown 20230508/M/MDbrew/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-05-08 14:20:51] INFO root fetch - processPackages [geti-sdk]: Downloading https://files.pythonhosted.org/packages/2e/85/f4a2fe2db1abacff2b53b1f35f3ca5f7cf3982cc9677bc859b0351471a27/geti-sdk-1.5.2.tar.gz
+[2023-05-08 14:20:51] INFO root fetch - processPackages [troubadix]: Downloading https://files.pythonhosted.org/packages/50/63/2e3264d47140d959df7c9b6c569ab8e8cf43e134b58e4b1610e1e946f876/troubadix-23.5.1.tar.gz
+[2023-05-08 14:20:51] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/9b/28/15454316ba7c03762eb5f4132acad608b8e4002ca06c5309244457a24d67/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz
+[2023-05-08 14:20:51] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: executing diffoscope
+[2023-05-08 14:20:51] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz --markdown 20230508/p/pepperize.cdk-ssm-parameters-cross-region/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-08 14:20:51] INFO root fetch - processPackages [geti-sdk]: executing diffoscope
+[2023-05-08 14:20:51] INFO root fetch - processPackages [geti-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geti-sdk-1.5.1.tar.gz tmp/geti-sdk-1.5.2.tar.gz --markdown 20230508/g/geti-sdk/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-05-08 14:20:52] INFO root fetch - processPackages [troubadix]: executing diffoscope
+[2023-05-08 14:20:52] INFO root fetch - processPackages [troubadix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/troubadix-23.5.0.tar.gz tmp/troubadix-23.5.1.tar.gz --markdown 20230508/t/troubadix/23.5.0-23.5.1/diff.md --exclude *.pyd
+[2023-05-08 14:20:52] INFO root fetch - processPackages [notebook-environments]: Downloading https://files.pythonhosted.org/packages/e9/21/ac9e877523b02f31b86cadbcea72395e817e4e20ddcbae0fb1c63f995456/notebook-environments-0.8.9.tar.gz
+[2023-05-08 14:20:52] INFO root fetch - processPackages [notebook-environments]: executing diffoscope
+[2023-05-08 14:20:52] INFO root fetch - processPackages [notebook-environments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notebook-environments-0.8.8.tar.gz tmp/notebook-environments-0.8.9.tar.gz --markdown 20230508/n/notebook-environments/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-05-08 14:20:52] INFO root fetch - main [MainThread]: End processing [code-loader]: success
+[2023-05-08 14:20:53] INFO root fetch - main [MainThread]: End processing [MDbrew]: success
+[2023-05-08 14:20:53] INFO root fetch - main [MainThread]: End processing [monty]: success
+[2023-05-08 14:20:53] INFO root fetch - main [MainThread]: End processing [notebook-environments]: success
+[2023-05-08 14:20:53] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ssm-parameters-cross-region]: success
+[2023-05-08 14:20:54] INFO root fetch - main [MainThread]: End processing [geti-sdk]: success
+[2023-05-08 14:20:54] INFO root fetch - main [MainThread]: End processing [troubadix]: success
+[2023-05-08 14:20:54] INFO root fetch - main [MainThread]: Store serial: [18016501]
