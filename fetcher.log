@@ -6367,3 +6367,14 @@
 [2023-05-08 08:40:38] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-05-08 08:41:01] INFO root fetch - main [MainThread]: End processing [madai]: success
 [2023-05-08 08:41:01] INFO root fetch - main [MainThread]: Store serial: [18013508]
+[2023-05-08 08:46:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18013508]
+[2023-05-08 08:46:09] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-05-08 08:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jupyter-reorder-python-imports
+[2023-05-08 08:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streetscope
+[2023-05-08 08:46:09] WARNING root fetch - processPackages [jupyter-reorder-python-imports]: Skipping, unable to determine old version
+[2023-05-08 08:46:09] INFO root fetch - main [MainThread]: End processing [jupyter-reorder-python-imports] error
+[2023-05-08 08:46:09] INFO root fetch - processPackages [streetscope]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-05-08 08:46:10] INFO root fetch - processPackages [streetscope]: executing diffoscope
+[2023-05-08 08:46:10] INFO root fetch - processPackages [streetscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streetscope-0.3.6.tar.gz tmp/streetscope-0.3.7.tar.gz --markdown 20230508/s/streetscope/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-05-08 08:46:11] INFO root fetch - main [MainThread]: End processing [streetscope]: success
+[2023-05-08 08:46:11] INFO root fetch - main [MainThread]: Store serial: [18013517]
