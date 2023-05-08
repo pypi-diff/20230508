@@ -6668,3 +6668,69 @@
 [2023-05-08 09:04:51] INFO root fetch - main [MainThread]: End processing [CheckmarxPythonSDK]: success
 [2023-05-08 09:04:59] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
 [2023-05-08 09:04:59] INFO root fetch - main [MainThread]: Store serial: [18013785]
+[2023-05-08 09:10:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18013785]
+[2023-05-08 09:10:09] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-08 09:10:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openhexa.sdk
+[2023-05-08 09:10:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: visual-compare
+[2023-05-08 09:10:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: weatherly
+[2023-05-08 09:10:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reddit-user-to-sqlite
+[2023-05-08 09:10:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oebuild
+[2023-05-08 09:10:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: llama-index
+[2023-05-08 09:10:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: superbig
+[2023-05-08 09:10:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gpt-index
+[2023-05-08 09:10:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cybro.usergroup.shift
+[2023-05-08 09:10:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: twnet-parser
+[2023-05-08 09:10:09] WARNING root fetch - processPackages [superbig]: Skipping, unable to determine old version
+[2023-05-08 09:10:09] INFO root fetch - processPackages [superbig]: Start processing: aidev
+[2023-05-08 09:10:09] INFO root fetch - main [MainThread]: End processing [superbig] error
+[2023-05-08 09:10:09] INFO root fetch - processPackages [oebuild]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 09:10:09] INFO root fetch - processPackages [weatherly]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-08 09:10:09] WARNING root fetch - processPackages [cybro.usergroup.shift]: Skipping, unable to determine old version
+[2023-05-08 09:10:09] INFO root fetch - main [MainThread]: End processing [cybro.usergroup.shift] error
+[2023-05-08 09:10:09] INFO root fetch - processPackages [reddit-user-to-sqlite]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-08 09:10:09] INFO root fetch - processPackages [openhexa.sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 09:10:09] INFO root fetch - processPackages [aidev]: New version: [0.4] Old Version: [0.3]
+[2023-05-08 09:10:09] INFO root fetch - processPackages [twnet-parser]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-08 09:10:09] INFO root fetch - processPackages [llama-index]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-05-08 09:10:09] INFO root fetch - processPackages [gpt-index]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-05-08 09:10:09] WARNING root fetch - processPackages [visual-compare]: Skipping, unable to determine old version
+[2023-05-08 09:10:09] INFO root fetch - main [MainThread]: End processing [visual-compare] error
+[2023-05-08 09:10:09] INFO root fetch - processPackages [reddit-user-to-sqlite]: Downloading https://files.pythonhosted.org/packages/da/a7/32439abe3fa0498b9b8952fe52c43c1fbf00b881da3bd88b0346a4d7cc8b/reddit-user-to-sqlite-0.1.0.tar.gz
+[2023-05-08 09:10:09] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/b6/a8/327093aa6443468db02de2f650c6e5de4b04617e7a5401a2befad35a73e8/gpt_index-0.6.1.tar.gz
+[2023-05-08 09:10:09] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/55/ca/2eebf607d73f9d5ddfe1ac1917124b1530184d81817bc12f60da3e840441/llama_index-0.6.1.tar.gz
+[2023-05-08 09:10:09] INFO root fetch - processPackages [openhexa.sdk]: Downloading https://files.pythonhosted.org/packages/2d/63/6cf8c3d8c690624bf5da3eccae426000fc384f6f2b1e46094f46a261b21e/openhexa.sdk-0.1.8.tar.gz
+[2023-05-08 09:10:09] INFO root fetch - processPackages [oebuild]: Downloading https://files.pythonhosted.org/packages/00/38/6ff4040fd2fa67770e5f35996109b1d55f669121a678cf84fcacc6e0e83b/oebuild-0.0.8-py3-none-any.whl
+[2023-05-08 09:10:09] INFO root fetch - processPackages [aidev]: Downloading https://files.pythonhosted.org/packages/3f/b6/252be53e6e61202c186fd02e8322467d5c18e0c1b2658d7838faa10ffeaa/aidev-0.3.tar.gz
+[2023-05-08 09:10:09] INFO root fetch - processPackages [twnet-parser]: Downloading https://files.pythonhosted.org/packages/5b/b9/677966fdf7d69b76cdc818254bb5ef3771bffa1d8be479e05caa2c513b15/twnet_parser-0.5.0.tar.gz
+[2023-05-08 09:10:09] INFO root fetch - processPackages [weatherly]: executing diffoscope
+[2023-05-08 09:10:09] INFO root fetch - processPackages [weatherly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weatherly-0.8.0.tar.gz tmp/weatherly-0.9.0.tar.gz --markdown 20230508/w/weatherly/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-08 09:10:09] INFO root fetch - processPackages [reddit-user-to-sqlite]: Downloading https://files.pythonhosted.org/packages/12/4f/05ee9ec14ee939273371ae080822841295b4d91ad31b0bc087af2c5d2244/reddit-user-to-sqlite-0.2.0.tar.gz
+[2023-05-08 09:10:09] INFO root fetch - processPackages [openhexa.sdk]: Downloading https://files.pythonhosted.org/packages/01/47/9a54270a3486c1a1712ca7717008e6748264c1125692b213adfd2f68b21c/openhexa.sdk-0.1.9.tar.gz
+[2023-05-08 09:10:09] INFO root fetch - processPackages [twnet-parser]: Downloading https://files.pythonhosted.org/packages/20/e0/8fa7c9bdf4338573878487f272a2ba1a1b6383a354ae73d0a12a4cc1b2fd/twnet_parser-0.5.1.tar.gz
+[2023-05-08 09:10:09] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/27/de/b365de97d4f3bf936d75826dcf7b943ace21c27823893e8b3e96cda1151b/llama_index-0.6.2.tar.gz
+[2023-05-08 09:10:09] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/dc/b1/30d4a963027b7112ac5755bdcff4f1befd2a980c3356b0f620036adf437a/gpt_index-0.6.2.tar.gz
+[2023-05-08 09:10:09] INFO root fetch - processPackages [aidev]: Downloading https://files.pythonhosted.org/packages/06/0b/3c206c76600dde0041e405e70fb935f439fe8058e385c7bff2e8ac8be875/aidev-0.4.tar.gz
+[2023-05-08 09:10:09] INFO root fetch - processPackages [reddit-user-to-sqlite]: executing diffoscope
+[2023-05-08 09:10:09] INFO root fetch - processPackages [reddit-user-to-sqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reddit-user-to-sqlite-0.1.0.tar.gz tmp/reddit-user-to-sqlite-0.2.0.tar.gz --markdown 20230508/r/reddit-user-to-sqlite/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-08 09:10:09] INFO root fetch - processPackages [openhexa.sdk]: executing diffoscope
+[2023-05-08 09:10:09] INFO root fetch - processPackages [openhexa.sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openhexa.sdk-0.1.8.tar.gz tmp/openhexa.sdk-0.1.9.tar.gz --markdown 20230508/o/openhexa.sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 09:10:09] INFO root fetch - processPackages [llama-index]: executing diffoscope
+[2023-05-08 09:10:09] INFO root fetch - processPackages [llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index-0.6.1.tar.gz tmp/llama_index-0.6.2.tar.gz --markdown 20230508/l/llama-index/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-05-08 09:10:09] INFO root fetch - processPackages [gpt-index]: executing diffoscope
+[2023-05-08 09:10:09] INFO root fetch - processPackages [gpt-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_index-0.6.1.tar.gz tmp/gpt_index-0.6.2.tar.gz --markdown 20230508/g/gpt-index/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-05-08 09:10:10] INFO root fetch - processPackages [twnet-parser]: executing diffoscope
+[2023-05-08 09:10:10] INFO root fetch - processPackages [twnet-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twnet_parser-0.5.0.tar.gz tmp/twnet_parser-0.5.1.tar.gz --markdown 20230508/t/twnet-parser/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-08 09:10:10] INFO root fetch - processPackages [aidev]: executing diffoscope
+[2023-05-08 09:10:10] INFO root fetch - processPackages [aidev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aidev-0.3.tar.gz tmp/aidev-0.4.tar.gz --markdown 20230508/a/aidev/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-08 09:10:10] INFO root fetch - processPackages [oebuild]: Downloading https://files.pythonhosted.org/packages/75/82/8f5aaba41319b25523fe1c8b9679c66d3a7f0d17bb02ab0ef6ea4ceb1871/oebuild-0.0.9-py3-none-any.whl
+[2023-05-08 09:10:10] INFO root fetch - processPackages [oebuild]: executing diffoscope
+[2023-05-08 09:10:10] INFO root fetch - processPackages [oebuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oebuild-0.0.8-py3-none-any.whl.zip tmp/oebuild-0.0.9-py3-none-any.whl.zip --markdown 20230508/o/oebuild/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 09:10:11] INFO root fetch - main [MainThread]: End processing [weatherly]: success
+[2023-05-08 09:10:11] INFO root fetch - main [MainThread]: End processing [reddit-user-to-sqlite]: success
+[2023-05-08 09:10:11] INFO root fetch - main [MainThread]: End processing [openhexa.sdk]: success
+[2023-05-08 09:10:11] INFO root fetch - main [MainThread]: End processing [aidev]: success
+[2023-05-08 09:10:13] INFO root fetch - main [MainThread]: End processing [llama-index]: success
+[2023-05-08 09:10:13] INFO root fetch - main [MainThread]: End processing [twnet-parser]: success
+[2023-05-08 09:10:17] INFO root fetch - main [MainThread]: End processing [gpt-index]: success
+[2023-05-08 09:10:41] INFO root fetch - main [MainThread]: End processing [oebuild]: success
+[2023-05-08 09:10:41] INFO root fetch - main [MainThread]: Store serial: [18013819]
