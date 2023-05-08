@@ -5393,3 +5393,28 @@
 [2023-05-08 06:46:51] INFO root fetch - main [MainThread]: End processing [annofabcli]: success
 [2023-05-08 06:46:51] INFO root fetch - main [MainThread]: End processing [hikari-yuyo]: success
 [2023-05-08 06:46:51] INFO root fetch - main [MainThread]: Store serial: [18012966]
+[2023-05-08 06:51:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18012966]
+[2023-05-08 06:52:01] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-08 06:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prettyqt
+[2023-05-08 06:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: json-urley
+[2023-05-08 06:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sidetrek
+[2023-05-08 06:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: feiticeiro-tec
+[2023-05-08 06:52:01] INFO root fetch - processPackages [sidetrek]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 06:52:01] INFO root fetch - processPackages [json-urley]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-08 06:52:01] INFO root fetch - processPackages [prettyqt]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-05-08 06:52:01] INFO root fetch - processPackages [feiticeiro-tec]: New version: [1.7.2] Old Version: [1.2.7]
+[2023-05-08 06:52:01] INFO root fetch - processPackages [sidetrek]: executing diffoscope
+[2023-05-08 06:52:01] INFO root fetch - processPackages [sidetrek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sidetrek-0.0.8.tar.gz tmp/sidetrek-0.0.9.tar.gz --markdown 20230508/s/sidetrek/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 06:52:01] INFO root fetch - processPackages [prettyqt]: executing diffoscope
+[2023-05-08 06:52:01] INFO root fetch - processPackages [prettyqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prettyqt-1.9.1.tar.gz tmp/prettyqt-1.9.2.tar.gz --markdown 20230508/p/prettyqt/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-05-08 06:52:01] INFO root fetch - processPackages [json-urley]: Downloading https://files.pythonhosted.org/packages/3d/aa/d4fcf1a50dcb8083d6e23037efc130ace6a7ec5695f2f65e6bd9d7ce36e0/json-urley-1.0.0.tar.gz
+[2023-05-08 06:52:01] INFO root fetch - processPackages [feiticeiro-tec]: Downloading https://files.pythonhosted.org/packages/a9/2d/e0cc0a3bc64c27ca350d4a48cb2a0fc1587117366d4d3dc9f788ab49ee81/feiticeiro_tec-1.2.7.tar.gz
+[2023-05-08 06:52:01] WARNING root fetch - processPackages [feiticeiro-tec]: Skipping package: exceeds size limit 42352590>=10485760
+[2023-05-08 06:52:01] INFO root fetch - main [MainThread]: End processing [feiticeiro-tec] error
+[2023-05-08 06:52:01] INFO root fetch - processPackages [json-urley]: Downloading https://files.pythonhosted.org/packages/41/86/ecc87a0e940cd0f0d139f6b1db076858281b1cb47a50218aed74212290ed/json-urley-1.0.1.tar.gz
+[2023-05-08 06:52:01] INFO root fetch - processPackages [json-urley]: executing diffoscope
+[2023-05-08 06:52:01] INFO root fetch - processPackages [json-urley]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json-urley-1.0.0.tar.gz tmp/json-urley-1.0.1.tar.gz --markdown 20230508/j/json-urley/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-08 06:52:02] INFO root fetch - main [MainThread]: End processing [sidetrek]: success
+[2023-05-08 06:52:02] INFO root fetch - main [MainThread]: End processing [json-urley]: success
+[2023-05-08 06:52:08] INFO root fetch - main [MainThread]: End processing [prettyqt]: success
+[2023-05-08 06:52:08] INFO root fetch - main [MainThread]: Store serial: [18012982]
