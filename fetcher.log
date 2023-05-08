@@ -6021,3 +6021,63 @@
 [2023-05-08 08:03:07] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-cqsat]: success
 [2023-05-08 08:03:28] INFO root fetch - main [MainThread]: End processing [peaksjs-widget]: success
 [2023-05-08 08:03:28] INFO root fetch - main [MainThread]: Store serial: [18013325]
+[2023-05-08 08:08:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18013325]
+[2023-05-08 08:08:37] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-08 08:08:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: async-websocket-client
+[2023-05-08 08:08:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vcorelib
+[2023-05-08 08:08:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adata
+[2023-05-08 08:08:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyhubble-vector
+[2023-05-08 08:08:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dapla-statbank-client
+[2023-05-08 08:08:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: p3lib
+[2023-05-08 08:08:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyg-nightly
+[2023-05-08 08:08:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: leap-model-parser
+[2023-05-08 08:08:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bareasgi-rest
+[2023-05-08 08:08:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bpy-building-blocks
+[2023-05-08 08:08:37] INFO root fetch - processPackages [adata]: New version: [0.0.9b0] Old Version: [0.0.8b0]
+[2023-05-08 08:08:37] INFO root fetch - processPackages [dapla-statbank-client]: New version: [1.0.4] Old Version: [1.0.2]
+[2023-05-08 08:08:37] WARNING root fetch - processPackages [pyhubble-vector]: Skipping, unable to determine old version
+[2023-05-08 08:08:37] WARNING root fetch - processPackages [async-websocket-client]: Skipping, unable to determine old version
+[2023-05-08 08:08:37] INFO root fetch - main [MainThread]: End processing [pyhubble-vector] error
+[2023-05-08 08:08:37] INFO root fetch - main [MainThread]: End processing [async-websocket-client] error
+[2023-05-08 08:08:37] INFO root fetch - processPackages [p3lib]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-08 08:08:37] INFO root fetch - processPackages [vcorelib]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-05-08 08:08:37] INFO root fetch - processPackages [leap-model-parser]: New version: [0.1.93.dev3] Old Version: [0.1.93.dev2]
+[2023-05-08 08:08:37] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230507] Old Version: [2.4.0.dev20230506]
+[2023-05-08 08:08:37] INFO root fetch - processPackages [leap-model-parser]: executing diffoscope
+[2023-05-08 08:08:37] INFO root fetch - processPackages [leap-model-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leap_model_parser-0.1.93.dev2.tar.gz tmp/leap_model_parser-0.1.93.dev3.tar.gz --markdown 20230508/l/leap-model-parser/0.1.93.dev2-0.1.93.dev3/diff.md --exclude *.pyd
+[2023-05-08 08:08:37] INFO root fetch - processPackages [bareasgi-rest]: New version: [4.0.1] Old Version: [4.0.0a1]
+[2023-05-08 08:08:37] INFO root fetch - processPackages [bpy-building-blocks]: New version: [0.0.24] Old Version: [0.0.23]
+[2023-05-08 08:08:37] INFO root fetch - processPackages [dapla-statbank-client]: Downloading https://files.pythonhosted.org/packages/f3/c5/1f6d6d090ab48b6b00ce9ce6a52931d54b3ad3df07d6787abc907ef1f0d8/dapla_statbank_client-1.0.2.tar.gz
+[2023-05-08 08:08:38] INFO root fetch - processPackages [p3lib]: Downloading https://files.pythonhosted.org/packages/55/b4/4268f55ec92e6edf58f002fc8dc370db4195e6139f3032d8c7b5863921cb/p3lib-1.1.8.tar.gz
+[2023-05-08 08:08:38] INFO root fetch - processPackages [vcorelib]: Downloading https://files.pythonhosted.org/packages/b7/0c/df1ea7a00aeb7a271ad0ddd9532c0f7a20bfe6c2eda38237dec7fd083093/vcorelib-1.6.1.tar.gz
+[2023-05-08 08:08:38] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/7a/f9/62e3a3b3e2ac9c6bd0665f37b96ada89b09c4f7aeae2ca10b09fb149d03b/pyg-nightly-2.4.0.dev20230507.tar.gz
+[2023-05-08 08:08:38] INFO root fetch - processPackages [bareasgi-rest]: Downloading https://files.pythonhosted.org/packages/f2/7e/5aef7d0cf707097e7a6bc9840f78432c1f7722918a05d696ade376b77b9c/bareASGI-rest-4.0.0a1.tar.gz
+[2023-05-08 08:08:38] INFO root fetch - processPackages [bpy-building-blocks]: Downloading https://files.pythonhosted.org/packages/d5/33/3b284185d3b5c0356a33062cddfe329e3dbd8e8013162ec1811c44d6d59e/bpy_building_blocks-0.0.23.tar.gz
+[2023-05-08 08:08:38] INFO root fetch - processPackages [adata]: executing diffoscope
+[2023-05-08 08:08:38] INFO root fetch - processPackages [adata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adata-0.0.8b0.tar.gz tmp/adata-0.0.9b0.tar.gz --markdown 20230508/a/adata/0.0.8b0-0.0.9b0/diff.md --exclude *.pyd
+[2023-05-08 08:08:38] INFO root fetch - processPackages [vcorelib]: Downloading https://files.pythonhosted.org/packages/45/97/c6154f134959d630f21171fcc8d05fd4b0cef22175934aa9f44afe808024/vcorelib-1.6.2.tar.gz
+[2023-05-08 08:08:38] INFO root fetch - processPackages [vcorelib]: executing diffoscope
+[2023-05-08 08:08:38] INFO root fetch - processPackages [vcorelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcorelib-1.6.1.tar.gz tmp/vcorelib-1.6.2.tar.gz --markdown 20230508/v/vcorelib/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2023-05-08 08:08:38] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-05-08 08:08:38] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg-nightly-2.4.0.dev20230506.tar.gz tmp/pyg-nightly-2.4.0.dev20230507.tar.gz --markdown 20230508/p/pyg-nightly/2.4.0.dev20230506-2.4.0.dev20230507/diff.md --exclude *.pyd
+[2023-05-08 08:08:38] INFO root fetch - processPackages [dapla-statbank-client]: Downloading https://files.pythonhosted.org/packages/6f/2c/e9e431837a8ced8d0195833d67715cdf4ed7804462b01ac7326d4b9064de/dapla_statbank_client-1.0.4.tar.gz
+[2023-05-08 08:08:38] INFO root fetch - processPackages [dapla-statbank-client]: executing diffoscope
+[2023-05-08 08:08:38] INFO root fetch - processPackages [dapla-statbank-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapla_statbank_client-1.0.2.tar.gz tmp/dapla_statbank_client-1.0.4.tar.gz --markdown 20230508/d/dapla-statbank-client/1.0.2-1.0.4/diff.md --exclude *.pyd
+[2023-05-08 08:08:38] INFO root fetch - processPackages [p3lib]: Downloading https://files.pythonhosted.org/packages/a9/c3/0d9fa73590a7b32debaaf0a21580a8af5a4b1780adbc93e9ec56ed1a1faa/p3lib-1.1.9.tar.gz
+[2023-05-08 08:08:38] INFO root fetch - processPackages [bareasgi-rest]: Downloading https://files.pythonhosted.org/packages/35/17/6a5e0ae4cd774c9ce21cb3013f029a55d4b6240b8e208c86fe7875e214a4/bareASGI-rest-4.0.1.tar.gz
+[2023-05-08 08:08:38] INFO root fetch - processPackages [bpy-building-blocks]: Downloading https://files.pythonhosted.org/packages/2a/ab/85607c0943cc5696c207eb349b2c9ab0449a900aa0d918a80c00f0927ee1/bpy_building_blocks-0.0.24.tar.gz
+[2023-05-08 08:08:38] INFO root fetch - processPackages [p3lib]: executing diffoscope
+[2023-05-08 08:08:38] INFO root fetch - processPackages [p3lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p3lib-1.1.8.tar.gz tmp/p3lib-1.1.9.tar.gz --markdown 20230508/p/p3lib/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-08 08:08:38] INFO root fetch - processPackages [bpy-building-blocks]: executing diffoscope
+[2023-05-08 08:08:38] INFO root fetch - processPackages [bpy-building-blocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpy_building_blocks-0.0.23.tar.gz tmp/bpy_building_blocks-0.0.24.tar.gz --markdown 20230508/b/bpy-building-blocks/0.0.23-0.0.24/diff.md --exclude *.pyd
+[2023-05-08 08:08:38] INFO root fetch - processPackages [bareasgi-rest]: executing diffoscope
+[2023-05-08 08:08:38] INFO root fetch - processPackages [bareasgi-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bareASGI-rest-4.0.0a1.tar.gz tmp/bareASGI-rest-4.0.1.tar.gz --markdown 20230508/b/bareasgi-rest/4.0.0a1-4.0.1/diff.md --exclude *.pyd
+[2023-05-08 08:08:39] INFO root fetch - main [MainThread]: End processing [dapla-statbank-client]: success
+[2023-05-08 08:08:39] INFO root fetch - main [MainThread]: End processing [p3lib]: success
+[2023-05-08 08:08:39] INFO root fetch - main [MainThread]: End processing [vcorelib]: success
+[2023-05-08 08:08:39] INFO root fetch - main [MainThread]: End processing [adata]: success
+[2023-05-08 08:08:40] INFO root fetch - main [MainThread]: End processing [bpy-building-blocks]: success
+[2023-05-08 08:08:40] INFO root fetch - main [MainThread]: End processing [bareasgi-rest]: success
+[2023-05-08 08:08:40] INFO root fetch - main [MainThread]: End processing [leap-model-parser]: success
+[2023-05-08 08:08:42] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-05-08 08:08:42] INFO root fetch - main [MainThread]: Store serial: [18013361]
