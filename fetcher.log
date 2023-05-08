@@ -13246,3 +13246,127 @@ EOFError: EOF read where object expected
 [2023-05-08 15:33:14] INFO root fetch - main [MainThread]: End processing [monai]: success
 [2023-05-08 15:33:17] INFO root fetch - main [MainThread]: End processing [capellambse]: success
 [2023-05-08 15:33:17] INFO root fetch - main [MainThread]: Store serial: [18017201]
+[2023-05-08 15:38:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18017201]
+[2023-05-08 15:38:27] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-08 15:38:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alphabetize
+[2023-05-08 15:38:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alphabetize
+[2023-05-08 15:38:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alphabetize
+[2023-05-08 15:38:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alphabetize
+[2023-05-08 15:38:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alphabetize
+[2023-05-08 15:38:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: issue-db-api
+[2023-05-08 15:38:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyrqlite
+[2023-05-08 15:38:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: twitch-archiver
+[2023-05-08 15:38:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cybrid-api-organization-python
+[2023-05-08 15:38:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cybrid-api-id-python
+[2023-05-08 15:38:27] INFO root fetch - processPackages [alphabetize]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-08 15:38:27] INFO root fetch - processPackages [alphabetize]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-08 15:38:27] INFO root fetch - processPackages [alphabetize]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-08 15:38:27] INFO root fetch - processPackages [alphabetize]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-08 15:38:27] INFO root fetch - processPackages [twitch-archiver]: New version: [3.0.3] Old Version: [3.0.2]
+[2023-05-08 15:38:27] INFO root fetch - processPackages [pyrqlite]: New version: [2.2.0] Old Version: [2.1.1]
+[2023-05-08 15:38:27] INFO root fetch - processPackages [issue-db-api]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-05-08 15:38:27] INFO root fetch - processPackages [alphabetize]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-08 15:38:27] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-08 15:38:27] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-08 15:38:27] INFO root fetch - processPackages [alphabetize]: Downloading https://files.pythonhosted.org/packages/af/7d/36467399ec4cb06040c24b9139f83fde6cd21a03c5a1dcc4e599ff2d3ec1/alphabetize-0.0.4.tar.gz
+[2023-05-08 15:38:27] INFO root fetch - processPackages [alphabetize]: Downloading https://files.pythonhosted.org/packages/af/7d/36467399ec4cb06040c24b9139f83fde6cd21a03c5a1dcc4e599ff2d3ec1/alphabetize-0.0.4.tar.gz
+[2023-05-08 15:38:27] INFO root fetch - processPackages [alphabetize]: Downloading https://files.pythonhosted.org/packages/af/7d/36467399ec4cb06040c24b9139f83fde6cd21a03c5a1dcc4e599ff2d3ec1/alphabetize-0.0.4.tar.gz
+[2023-05-08 15:38:27] INFO root fetch - processPackages [alphabetize]: Downloading https://files.pythonhosted.org/packages/af/7d/36467399ec4cb06040c24b9139f83fde6cd21a03c5a1dcc4e599ff2d3ec1/alphabetize-0.0.4.tar.gz
+[2023-05-08 15:38:27] INFO root fetch - processPackages [alphabetize]: Downloading https://files.pythonhosted.org/packages/af/7d/36467399ec4cb06040c24b9139f83fde6cd21a03c5a1dcc4e599ff2d3ec1/alphabetize-0.0.4.tar.gz
+[2023-05-08 15:38:27] INFO root fetch - processPackages [issue-db-api]: Downloading https://files.pythonhosted.org/packages/1e/7b/df4b4ebc443135210d484ba7485bc6e361688aa9d51ef999383535f37084/issue_db_api-0.7.1.tar.gz
+[2023-05-08 15:38:27] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/50/b7/b977148f4fc829a75a0b07e5a1a330568bf4060c71cf5e0e0a6449ffed87/cybrid-api-id-python-0.9.8.tar.gz
+[2023-05-08 15:38:27] INFO root fetch - processPackages [pyrqlite]: Downloading https://files.pythonhosted.org/packages/67/c3/d2844ae8ee277aaff2ef0c53a62e31278f862022869cc475b69eae0d5a5b/pyrqlite-2.1.1.tar.gz
+[2023-05-08 15:38:27] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/8c/f9/11b3397de980d7217c6b56728b693a302080844e78e135a12319c23d1e09/cybrid-api-organization-python-0.9.8.tar.gz
+[2023-05-08 15:38:27] INFO root fetch - processPackages [twitch-archiver]: Downloading https://files.pythonhosted.org/packages/5d/d3/f36df583683bc401f9434e1a6f3f43def531e673683faf4fb4960243277f/twitch-archiver-3.0.3.tar.gz
+[2023-05-08 15:38:27] INFO root fetch - processPackages [alphabetize]: Downloading https://files.pythonhosted.org/packages/61/1c/0552446dd94c715d86c69663f6ba5beec6002a8b41f00a3544a7aeb93500/alphabetize-0.0.5.tar.gz
+[2023-05-08 15:38:27] INFO root fetch - processPackages [alphabetize]: Downloading https://files.pythonhosted.org/packages/61/1c/0552446dd94c715d86c69663f6ba5beec6002a8b41f00a3544a7aeb93500/alphabetize-0.0.5.tar.gz
+[2023-05-08 15:38:27] INFO root fetch - processPackages [alphabetize]: Downloading https://files.pythonhosted.org/packages/61/1c/0552446dd94c715d86c69663f6ba5beec6002a8b41f00a3544a7aeb93500/alphabetize-0.0.5.tar.gz
+[2023-05-08 15:38:27] INFO root fetch - processPackages [alphabetize]: Downloading https://files.pythonhosted.org/packages/61/1c/0552446dd94c715d86c69663f6ba5beec6002a8b41f00a3544a7aeb93500/alphabetize-0.0.5.tar.gz
+[2023-05-08 15:38:27] INFO root fetch - processPackages [alphabetize]: Downloading https://files.pythonhosted.org/packages/61/1c/0552446dd94c715d86c69663f6ba5beec6002a8b41f00a3544a7aeb93500/alphabetize-0.0.5.tar.gz
+[2023-05-08 15:38:27] INFO root fetch - processPackages [twitch-archiver]: executing diffoscope
+[2023-05-08 15:38:27] INFO root fetch - processPackages [twitch-archiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twitch-archiver-3.0.2.tar.gz tmp/twitch-archiver-3.0.3.tar.gz --markdown 20230508/t/twitch-archiver/3.0.2-3.0.3/diff.md --exclude *.pyd
+[2023-05-08 15:38:27] INFO root fetch - processPackages [issue-db-api]: Downloading https://files.pythonhosted.org/packages/35/59/44083929b63fb51b9634fca3373e7d7f57bcc9327d002d5571bfe36ca278/issue_db_api-0.7.2.tar.gz
+[2023-05-08 15:38:27] INFO root fetch - processPackages [alphabetize]: executing diffoscope
+[2023-05-08 15:38:27] INFO root fetch - processPackages [alphabetize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphabetize-0.0.4.tar.gz tmp/alphabetize-0.0.5.tar.gz --markdown 20230508/a/alphabetize/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-08 15:38:27] INFO root fetch - processPackages [alphabetize]: executing diffoscope
+[2023-05-08 15:38:27] INFO root fetch - processPackages [alphabetize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphabetize-0.0.4.tar.gz tmp/alphabetize-0.0.5.tar.gz --markdown 20230508/a/alphabetize/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-08 15:38:27] INFO root fetch - processPackages [alphabetize]: executing diffoscope
+[2023-05-08 15:38:27] INFO root fetch - processPackages [alphabetize]: executing diffoscope
+[2023-05-08 15:38:27] INFO root fetch - processPackages [alphabetize]: executing diffoscope
+[2023-05-08 15:38:27] INFO root fetch - processPackages [alphabetize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphabetize-0.0.4.tar.gz tmp/alphabetize-0.0.5.tar.gz --markdown 20230508/a/alphabetize/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-08 15:38:27] INFO root fetch - processPackages [alphabetize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphabetize-0.0.4.tar.gz tmp/alphabetize-0.0.5.tar.gz --markdown 20230508/a/alphabetize/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-08 15:38:27] INFO root fetch - processPackages [alphabetize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphabetize-0.0.4.tar.gz tmp/alphabetize-0.0.5.tar.gz --markdown 20230508/a/alphabetize/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-08 15:38:27] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/df/0b/f41ef37cacb50f16ff72d759b9fe9a5fd7fe8bde214833a5c722ba07e136/cybrid-api-id-python-0.9.9.tar.gz
+[2023-05-08 15:38:27] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/6e/9a/cba8516138af9b31af978d1cb5ac08501052b56ac24c59f876cc7432e4cd/cybrid-api-organization-python-0.9.9.tar.gz
+[2023-05-08 15:38:27] INFO root fetch - processPackages [pyrqlite]: Downloading https://files.pythonhosted.org/packages/cb/39/0bb5bc1bac2e56d4be3e0659b3cc5c5f13fcc3526dadfc3d0dc575cad4ca/pyrqlite-2.2.0.tar.gz
+[2023-05-08 15:38:27] INFO root fetch - processPackages [issue-db-api]: executing diffoscope
+[2023-05-08 15:38:27] INFO root fetch - processPackages [issue-db-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/issue_db_api-0.7.1.tar.gz tmp/issue_db_api-0.7.2.tar.gz --markdown 20230508/i/issue-db-api/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-05-08 15:38:27] INFO root fetch - processPackages [pyrqlite]: executing diffoscope
+[2023-05-08 15:38:27] INFO root fetch - processPackages [pyrqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrqlite-2.1.1.tar.gz tmp/pyrqlite-2.2.0.tar.gz --markdown 20230508/p/pyrqlite/2.1.1-2.2.0/diff.md --exclude *.pyd
+[2023-05-08 15:38:27] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-05-08 15:38:27] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230508/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-08 15:38:27] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-05-08 15:38:27] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230508/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-08 15:38:29] INFO root fetch - processPackages [alphabetize]: Start processing: cybrid-api-bank-python
+[2023-05-08 15:38:29] INFO root fetch - main [MainThread]: End processing [alphabetize]: success
+[2023-05-08 15:38:29] INFO root fetch - processPackages [issue-db-api]: Start processing: pyfem
+[2023-05-08 15:38:29] INFO root fetch - main [MainThread]: End processing [issue-db-api]: success
+[2023-05-08 15:38:29] INFO root fetch - processPackages [pyfem]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-08 15:38:29] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-08 15:38:29] INFO root fetch - processPackages [alphabetize]: Start processing: finetune-eval-harness
+[2023-05-08 15:38:29] INFO root fetch - main [MainThread]: End processing [alphabetize]: success
+[2023-05-08 15:38:29] INFO root fetch - processPackages [finetune-eval-harness]: New version: [0.4.0.dev0] Old Version: [0.3.0.dev0]
+[2023-05-08 15:38:29] INFO root fetch - processPackages [alphabetize]: Start processing: kalm
+[2023-05-08 15:38:29] INFO root fetch - main [MainThread]: End processing [alphabetize]: success
+[2023-05-08 15:38:29] INFO root fetch - processPackages [kalm]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-05-08 15:38:29] INFO root fetch - processPackages [pyfem]: Downloading https://files.pythonhosted.org/packages/d2/a2/e54b9338e16fed13f00695d72de87ab427ca32b7f16f9a25ae2365ef74bb/pyfem-0.0.4.tar.gz
+[2023-05-08 15:38:29] INFO root fetch - processPackages [finetune-eval-harness]: Downloading https://files.pythonhosted.org/packages/6d/8e/ffe75d105c33a7cc6e3e020f60bb0a8dbae526b1d8d5508ba4a52ed8bb4d/finetune_eval_harness-0.3.0.dev0.tar.gz
+[2023-05-08 15:38:29] INFO root fetch - processPackages [alphabetize]: Start processing: serdesera
+[2023-05-08 15:38:29] INFO root fetch - main [MainThread]: End processing [alphabetize]: success
+[2023-05-08 15:38:29] INFO root fetch - processPackages [twitch-archiver]: Start processing: BlockFrame
+[2023-05-08 15:38:29] INFO root fetch - main [MainThread]: End processing [twitch-archiver]: success
+[2023-05-08 15:38:29] INFO root fetch - processPackages [alphabetize]: Start processing: gpt-convo-reader
+[2023-05-08 15:38:29] INFO root fetch - main [MainThread]: End processing [alphabetize]: success
+[2023-05-08 15:38:29] WARNING root fetch - processPackages [serdesera]: Skipping, unable to determine old version
+[2023-05-08 15:38:29] INFO root fetch - processPackages [serdesera]: Start processing: isimip-qc
+[2023-05-08 15:38:29] INFO root fetch - main [MainThread]: End processing [serdesera] error
+[2023-05-08 15:38:29] INFO root fetch - processPackages [BlockFrame]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-08 15:38:29] WARNING root fetch - processPackages [gpt-convo-reader]: Skipping, unable to determine old version
+[2023-05-08 15:38:29] INFO root fetch - processPackages [gpt-convo-reader]: Start processing: ai-executor
+[2023-05-08 15:38:29] INFO root fetch - main [MainThread]: End processing [gpt-convo-reader] error
+[2023-05-08 15:38:29] INFO root fetch - processPackages [isimip-qc]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-05-08 15:38:29] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/20/58/83595c25956605935aa08227f1f01b1c02743825aca19e267bc95d1b4928/cybrid-api-bank-python-0.9.8.tar.gz
+[2023-05-08 15:38:29] INFO root fetch - processPackages [ai-executor]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-08 15:38:29] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/61/da/8239a6b59f4bfa9a07862e3a4260f743cf4fbf31ba2948aec97c7e66fc2c/kalm-0.4.4.tar.gz
+[2023-05-08 15:38:29] INFO root fetch - main [MainThread]: End processing [pyrqlite]: success
+[2023-05-08 15:38:29] INFO root fetch - processPackages [BlockFrame]: Downloading https://files.pythonhosted.org/packages/ef/ad/6750634b56599b0c78b1a5ff7560314fc997c3df83466de6bccf136d356f/BlockFrame-1.0.3.tar.gz
+[2023-05-08 15:38:29] INFO root fetch - processPackages [finetune-eval-harness]: Downloading https://files.pythonhosted.org/packages/ae/64/16b8f5d5de5e1733ec4a9a94eabe80ea3104395c812da1d3a3d6327a8176/finetune_eval_harness-0.4.0.dev0.tar.gz
+[2023-05-08 15:38:30] INFO root fetch - processPackages [pyfem]: Downloading https://files.pythonhosted.org/packages/0b/28/7b1d2f7a8074b6502c8c5a6e8001a4e9b493d7761ab7bf84ae805e322e77/pyfem-0.0.5.tar.gz
+[2023-05-08 15:38:30] INFO root fetch - processPackages [isimip-qc]: Downloading https://files.pythonhosted.org/packages/e8/0b/9862821640749236efc0bdc462096bb16c3defa5565aeff44698e221de79/isimip-qc-3.0.1.tar.gz
+[2023-05-08 15:38:30] INFO root fetch - processPackages [ai-executor]: Downloading https://files.pythonhosted.org/packages/85/1c/0f972856f5dfc855910ebd4040b5eeb698be2e01fcb632e23c793918b7fa/ai-executor-0.2.6.tar.gz
+[2023-05-08 15:38:30] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-05-08 15:38:30] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.4.3.tar.gz tmp/kalm-0.4.4.tar.gz --markdown 20230508/k/kalm/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-05-08 15:38:30] INFO root fetch - processPackages [BlockFrame]: executing diffoscope
+[2023-05-08 15:38:30] INFO root fetch - processPackages [BlockFrame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BlockFrame-1.0.2.tar.gz tmp/BlockFrame-1.0.3.tar.gz --markdown 20230508/B/BlockFrame/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-08 15:38:30] INFO root fetch - processPackages [pyfem]: executing diffoscope
+[2023-05-08 15:38:30] INFO root fetch - processPackages [pyfem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfem-0.0.4.tar.gz tmp/pyfem-0.0.5.tar.gz --markdown 20230508/p/pyfem/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-08 15:38:30] INFO root fetch - processPackages [finetune-eval-harness]: executing diffoscope
+[2023-05-08 15:38:30] INFO root fetch - processPackages [finetune-eval-harness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finetune_eval_harness-0.3.0.dev0.tar.gz tmp/finetune_eval_harness-0.4.0.dev0.tar.gz --markdown 20230508/f/finetune-eval-harness/0.3.0.dev0-0.4.0.dev0/diff.md --exclude *.pyd
+[2023-05-08 15:38:30] INFO root fetch - processPackages [ai-executor]: executing diffoscope
+[2023-05-08 15:38:30] INFO root fetch - processPackages [ai-executor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai-executor-0.2.5.tar.gz tmp/ai-executor-0.2.6.tar.gz --markdown 20230508/a/ai-executor/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-08 15:38:30] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/89/0b/5831e52f1895b5ffe4c5b8862788216f9cf6c8554dfffa92e8805799baaf/cybrid-api-bank-python-0.9.9.tar.gz
+[2023-05-08 15:38:30] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-05-08 15:38:30] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230508/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-08 15:38:30] INFO root fetch - processPackages [isimip-qc]: Downloading https://files.pythonhosted.org/packages/48/b2/c768823ec9915605936369b1e6206ce08611a2e43db4c2e837bbac250081/isimip-qc-3.0.2.tar.gz
+[2023-05-08 15:38:30] INFO root fetch - processPackages [isimip-qc]: executing diffoscope
+[2023-05-08 15:38:30] INFO root fetch - processPackages [isimip-qc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isimip-qc-3.0.1.tar.gz tmp/isimip-qc-3.0.2.tar.gz --markdown 20230508/i/isimip-qc/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-05-08 15:38:31] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-05-08 15:38:31] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-05-08 15:38:31] INFO root fetch - main [MainThread]: End processing [ai-executor]: success
+[2023-05-08 15:38:31] INFO root fetch - main [MainThread]: End processing [BlockFrame]: success
+[2023-05-08 15:38:31] INFO root fetch - main [MainThread]: End processing [pyfem]: success
+[2023-05-08 15:38:31] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-05-08 15:38:32] INFO root fetch - main [MainThread]: End processing [finetune-eval-harness]: success
+[2023-05-08 15:38:32] INFO root fetch - main [MainThread]: End processing [isimip-qc]: success
+[2023-05-08 15:38:33] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-05-08 15:38:33] INFO root fetch - main [MainThread]: Store serial: [18017274]
