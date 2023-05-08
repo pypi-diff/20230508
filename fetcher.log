@@ -7080,3 +7080,61 @@
 [2023-05-08 09:24:13] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
 [2023-05-08 09:24:14] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
 [2023-05-08 09:24:14] INFO root fetch - main [MainThread]: Store serial: [18014026]
+[2023-05-08 09:29:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18014026]
+[2023-05-08 09:29:23] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-08 09:29:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bioplotz
+[2023-05-08 09:29:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: verbit-streaming-sdk
+[2023-05-08 09:29:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llmpool
+[2023-05-08 09:29:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pocketrockit
+[2023-05-08 09:29:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-accounts-api
+[2023-05-08 09:29:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-05-08 09:29:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yubiconvert
+[2023-05-08 09:29:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cads-sdk
+[2023-05-08 09:29:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: robotframework-reportportal-updated
+[2023-05-08 09:29:23] INFO root fetch - processPackages [llmpool]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-08 09:29:23] INFO root fetch - processPackages [bioplotz]: New version: [0.1.0.dev5] Old Version: [0.1.0.dev4]
+[2023-05-08 09:29:23] INFO root fetch - processPackages [verbit-streaming-sdk]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-08 09:29:23] INFO root fetch - processPackages [cads-sdk]: New version: [0.0.17rc1] Old Version: [0.0.17rc0]
+[2023-05-08 09:29:23] INFO root fetch - processPackages [yubiconvert]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-08 09:29:23] INFO root fetch - processPackages [django-accounts-api]: New version: [0.2.1a0] Old Version: [0.2.1]
+[2023-05-08 09:29:23] INFO root fetch - processPackages [pocketrockit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 09:29:23] INFO root fetch - processPackages [robotframework-reportportal-updated]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-08 09:29:23] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-05-08 09:29:23] INFO root fetch - processPackages [pocketrockit]: executing diffoscope
+[2023-05-08 09:29:23] INFO root fetch - processPackages [pocketrockit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pocketrockit-0.0.8.tar.gz tmp/pocketrockit-0.0.9.tar.gz --markdown 20230508/p/pocketrockit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 09:29:23] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-05-08 09:29:23] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230508/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-05-08 09:29:23] INFO root fetch - processPackages [bioplotz]: Downloading https://files.pythonhosted.org/packages/a2/be/06027c69d85d3df7fbd35088982b6ee94e9630124215e44f442241fc9199/bioplotz-0.1.0.dev4.tar.gz
+[2023-05-08 09:29:23] INFO root fetch - processPackages [llmpool]: Downloading https://files.pythonhosted.org/packages/99/1b/bb4e57eee6585dd69cd4b8af7a0d347d65edbc1c748bdbe400ed8b1f71ec/llmpool-0.0.4-py3-none-any.whl
+[2023-05-08 09:29:23] INFO root fetch - processPackages [verbit-streaming-sdk]: Downloading https://files.pythonhosted.org/packages/7c/77/61d8ff6d3dfac36060c01529aad9cf27043479e28f121a7ae535ecee9306/verbit-streaming-sdk-0.8.1.tar.gz
+[2023-05-08 09:29:23] INFO root fetch - processPackages [yubiconvert]: Downloading https://files.pythonhosted.org/packages/bd/9d/e7cd1735e7c4e7c015961f2dcfa5bcc1bd45bedfb7d51521698c7d0377d0/yubiconvert-1.0.4.tar.gz
+[2023-05-08 09:29:23] INFO root fetch - processPackages [robotframework-reportportal-updated]: Downloading https://files.pythonhosted.org/packages/71/7e/1369577de3fcd8287e2b086fa392420f2e3cc587d9abd8febbfb88063e4e/robotframework-reportportal_updated-1.0.3.tar.gz
+[2023-05-08 09:29:23] INFO root fetch - processPackages [django-accounts-api]: Downloading https://files.pythonhosted.org/packages/3d/b6/783ce8b1c8296a34143a7134d07bca124c91c137c40b9ac163fbe7828a1d/django_accounts_api-0.2.1.tar.gz
+[2023-05-08 09:29:23] INFO root fetch - processPackages [llmpool]: executing diffoscope
+[2023-05-08 09:29:23] INFO root fetch - processPackages [llmpool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmpool-0.0.3-py3-none-any.whl.zip tmp/llmpool-0.0.4-py3-none-any.whl.zip --markdown 20230508/l/llmpool/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-08 09:29:23] INFO root fetch - processPackages [yubiconvert]: executing diffoscope
+[2023-05-08 09:29:23] INFO root fetch - processPackages [yubiconvert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yubiconvert-1.0.3.tar.gz tmp/yubiconvert-1.0.4.tar.gz --markdown 20230508/y/yubiconvert/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-08 09:29:24] INFO root fetch - processPackages [robotframework-reportportal-updated]: executing diffoscope
+[2023-05-08 09:29:24] INFO root fetch - processPackages [robotframework-reportportal-updated]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-reportportal_updated-1.0.2.tar.gz tmp/robotframework-reportportal_updated-1.0.3.tar.gz --markdown 20230508/r/robotframework-reportportal-updated/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-08 09:29:24] INFO root fetch - processPackages [cads-sdk]: Downloading https://files.pythonhosted.org/packages/07/3b/a82369a088ccb793f59bdc90d63cd9171e817bf28d1531452d40247262db/cads_sdk-0.0.17rc1-py3-none-any.whl
+[2023-05-08 09:29:24] INFO root fetch - processPackages [bioplotz]: Downloading https://files.pythonhosted.org/packages/27/50/8491004d836b90c3d8b82c7c7bf882c01b51404eeafe7c8575f3fd0f3067/bioplotz-0.1.0.dev5.tar.gz
+[2023-05-08 09:29:24] INFO root fetch - processPackages [django-accounts-api]: Downloading https://files.pythonhosted.org/packages/94/ee/ee47a313b1ce3cda9d9034eaeaaaa716ce5cd6fd74e0d0456e6f1f71c43b/django_accounts_api-0.2.1a0.tar.gz
+[2023-05-08 09:29:24] INFO root fetch - processPackages [verbit-streaming-sdk]: Downloading https://files.pythonhosted.org/packages/8b/dc/e4893d02841087c8f4089dfcdffc62b0ef0f8423f4c2b740ce0dbcd05789/verbit-streaming-sdk-0.9.0.tar.gz
+[2023-05-08 09:29:24] INFO root fetch - processPackages [bioplotz]: executing diffoscope
+[2023-05-08 09:29:24] INFO root fetch - processPackages [bioplotz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioplotz-0.1.0.dev4.tar.gz tmp/bioplotz-0.1.0.dev5.tar.gz --markdown 20230508/b/bioplotz/0.1.0.dev4-0.1.0.dev5/diff.md --exclude *.pyd
+[2023-05-08 09:29:24] INFO root fetch - processPackages [django-accounts-api]: executing diffoscope
+[2023-05-08 09:29:24] INFO root fetch - processPackages [django-accounts-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_accounts_api-0.2.1.tar.gz tmp/django_accounts_api-0.2.1a0.tar.gz --markdown 20230508/d/django-accounts-api/0.2.1-0.2.1a0/diff.md --exclude *.pyd
+[2023-05-08 09:29:24] INFO root fetch - processPackages [cads-sdk]: executing diffoscope
+[2023-05-08 09:29:24] INFO root fetch - processPackages [cads-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cads_sdk-0.0.17rc0-py3-none-any.whl.zip tmp/cads_sdk-0.0.17rc1-py3-none-any.whl.zip --markdown 20230508/c/cads-sdk/0.0.17rc0-0.0.17rc1/diff.md --exclude *.pyd
+[2023-05-08 09:29:24] INFO root fetch - processPackages [verbit-streaming-sdk]: executing diffoscope
+[2023-05-08 09:29:24] INFO root fetch - processPackages [verbit-streaming-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/verbit-streaming-sdk-0.8.1.tar.gz tmp/verbit-streaming-sdk-0.9.0.tar.gz --markdown 20230508/v/verbit-streaming-sdk/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-08 09:29:25] INFO root fetch - main [MainThread]: End processing [pocketrockit]: success
+[2023-05-08 09:29:25] INFO root fetch - main [MainThread]: End processing [llmpool]: success
+[2023-05-08 09:29:25] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-05-08 09:29:25] INFO root fetch - main [MainThread]: End processing [yubiconvert]: success
+[2023-05-08 09:29:25] INFO root fetch - main [MainThread]: End processing [robotframework-reportportal-updated]: success
+[2023-05-08 09:29:26] INFO root fetch - main [MainThread]: End processing [cads-sdk]: success
+[2023-05-08 09:29:26] INFO root fetch - main [MainThread]: End processing [django-accounts-api]: success
+[2023-05-08 09:29:26] INFO root fetch - main [MainThread]: End processing [verbit-streaming-sdk]: success
+[2023-05-08 09:29:26] INFO root fetch - main [MainThread]: End processing [bioplotz]: success
+[2023-05-08 09:29:26] INFO root fetch - main [MainThread]: Store serial: [18014050]
