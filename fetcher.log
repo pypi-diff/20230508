@@ -11794,3 +11794,72 @@
 [2023-05-08 14:20:54] INFO root fetch - main [MainThread]: End processing [geti-sdk]: success
 [2023-05-08 14:20:54] INFO root fetch - main [MainThread]: End processing [troubadix]: success
 [2023-05-08 14:20:54] INFO root fetch - main [MainThread]: Store serial: [18016501]
+[2023-05-08 14:25:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18016501]
+[2023-05-08 14:26:03] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-08 14:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Package-Name-Example
+[2023-05-08 14:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autosrt
+[2023-05-08 14:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pybeans
+[2023-05-08 14:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: checkov
+[2023-05-08 14:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: finetune-eval-harness
+[2023-05-08 14:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sentry-sdk
+[2023-05-08 14:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-ssm-parameters-cross-region
+[2023-05-08 14:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ipywidgets-bokeh
+[2023-05-08 14:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: geoluminate
+[2023-05-08 14:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: igra
+[2023-05-08 14:26:03] INFO root fetch - processPackages [pybeans]: New version: [1.7.5] Old Version: [1.7.4]
+[2023-05-08 14:26:03] WARNING root fetch - processPackages [Package-Name-Example]: Skipping, unable to determine old version
+[2023-05-08 14:26:03] INFO root fetch - processPackages [Package-Name-Example]: Start processing: cloudsmith-cli
+[2023-05-08 14:26:03] INFO root fetch - main [MainThread]: End processing [Package-Name-Example] error
+[2023-05-08 14:26:03] INFO root fetch - processPackages [autosrt]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-08 14:26:03] INFO root fetch - processPackages [ipywidgets-bokeh]: New version: [1.4.0.dev3] Old Version: [1.4.0.dev2]
+[2023-05-08 14:26:03] WARNING root fetch - processPackages [finetune-eval-harness]: Skipping, unable to determine old version
+[2023-05-08 14:26:03] INFO root fetch - processPackages [finetune-eval-harness]: Start processing: CreateAI
+[2023-05-08 14:26:03] INFO root fetch - main [MainThread]: End processing [finetune-eval-harness] error
+[2023-05-08 14:26:03] WARNING root fetch - processPackages [geoluminate]: Skipping, unable to determine old version
+[2023-05-08 14:26:03] INFO root fetch - main [MainThread]: End processing [geoluminate] error
+[2023-05-08 14:26:03] INFO root fetch - processPackages [sentry-sdk]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-08 14:26:03] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-08 14:26:03] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-08 14:26:03] INFO root fetch - processPackages [cloudsmith-cli]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-05-08 14:26:03] INFO root fetch - processPackages [igra]: New version: [23.5] Old Version: [19.12]
+[2023-05-08 14:26:03] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: executing diffoscope
+[2023-05-08 14:26:03] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz --markdown 20230508/p/pepperize.cdk-ssm-parameters-cross-region/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-08 14:26:03] INFO root fetch - processPackages [ipywidgets-bokeh]: Downloading https://files.pythonhosted.org/packages/46/6c/bdf77c07336d98dff5a4579c8a2a07fd8f54a502261e580cf5bfb0078611/ipywidgets_bokeh-1.4.0.dev2.tar.gz
+[2023-05-08 14:26:03] INFO root fetch - processPackages [CreateAI]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-05-08 14:26:03] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-05-08 14:26:03] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230508/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-08 14:26:03] INFO root fetch - processPackages [sentry-sdk]: Downloading https://files.pythonhosted.org/packages/61/00/dd7e41da95c59f4ccf86be60fcbb5889dc7b215ca5e71c8108cb7892c0b8/sentry-sdk-1.9.8.tar.gz
+[2023-05-08 14:26:03] INFO root fetch - processPackages [autosrt]: Downloading https://files.pythonhosted.org/packages/1c/ec/a4be6b54ee16e18afd8ed5299686f47cae0c1fae79e65710a53d94496b19/autosrt-1.2.8.tar.gz
+[2023-05-08 14:26:03] INFO root fetch - processPackages [pybeans]: Downloading https://files.pythonhosted.org/packages/c9/33/e56b166bde9c5b873aed2b685c713982f66b51abf8976dc485f446f31178/pybeans-1.7.5.tar.gz
+[2023-05-08 14:26:03] INFO root fetch - processPackages [igra]: Downloading https://files.pythonhosted.org/packages/16/90/a42eca14444b728a45c805f59de67910d441183be97c3a8e244965ff992e/igra-19.12v1-py3-none-any.whl
+[2023-05-08 14:26:03] INFO root fetch - processPackages [cloudsmith-cli]: Downloading https://files.pythonhosted.org/packages/f1/1b/1ba0864a317481c297acce9dbd8233a4053a1e7498784d881b4a46bce87b/cloudsmith_cli-0.8.2-py2.py3-none-any.whl
+[2023-05-08 14:26:03] INFO root fetch - processPackages [pybeans]: executing diffoscope
+[2023-05-08 14:26:03] INFO root fetch - processPackages [pybeans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybeans-1.7.4.tar.gz tmp/pybeans-1.7.5.tar.gz --markdown 20230508/p/pybeans/1.7.4-1.7.5/diff.md --exclude *.pyd
+[2023-05-08 14:26:04] INFO root fetch - processPackages [igra]: Downloading https://files.pythonhosted.org/packages/03/97/f2bc9cacd0ea9f5841dfdf8d8c530fb2941eb21a985a0a0bbcb8dd0083f4/igra-23.5.tar.gz
+[2023-05-08 14:26:04] INFO root fetch - processPackages [autosrt]: Downloading https://files.pythonhosted.org/packages/c9/7a/e660dc6f4c3124dce558f07b54c0d522ab31efb02de0273b5e15838c2063/autosrt-1.2.9.tar.gz
+[2023-05-08 14:26:04] INFO root fetch - processPackages [sentry-sdk]: Downloading https://files.pythonhosted.org/packages/b5/bf/680dccdef2576e85b3773de1acde3d263d2c3f105187562a6653cc550a8b/sentry-sdk-1.9.9.tar.gz
+[2023-05-08 14:26:04] INFO root fetch - processPackages [cloudsmith-cli]: Downloading https://files.pythonhosted.org/packages/d0/82/d0dc32141208a12e5ff4b32033a8ddbae05e7b970b51d519450582b183e5/cloudsmith_cli-0.9.0-py2.py3-none-any.whl
+[2023-05-08 14:26:04] INFO root fetch - processPackages [CreateAI]: Downloading https://files.pythonhosted.org/packages/1d/8d/7d2cd53e017107457755767b0f720cc293bd8915bc61f677820dcc8d27b5/CreateAI-0.8.2-py3-none-any.whl
+[2023-05-08 14:26:04] INFO root fetch - processPackages [ipywidgets-bokeh]: Downloading https://files.pythonhosted.org/packages/32/4a/acdf5bf996d8839f5f1188f0335941c965f9f09c5ce5ef8231a3e29b66c7/ipywidgets_bokeh-1.4.0.dev3.tar.gz
+[2023-05-08 14:26:04] INFO root fetch - processPackages [igra]: executing diffoscope
+[2023-05-08 14:26:04] INFO root fetch - processPackages [igra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/igra-19.12v1-py3-none-any.whl.zip tmp/igra-23.5.tar.gz --markdown 20230508/i/igra/19.12-23.5/diff.md --exclude *.pyd
+[2023-05-08 14:26:04] INFO root fetch - processPackages [autosrt]: executing diffoscope
+[2023-05-08 14:26:04] INFO root fetch - processPackages [autosrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autosrt-1.2.8.tar.gz tmp/autosrt-1.2.9.tar.gz --markdown 20230508/a/autosrt/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-08 14:26:04] INFO root fetch - processPackages [sentry-sdk]: executing diffoscope
+[2023-05-08 14:26:04] INFO root fetch - processPackages [sentry-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-sdk-1.9.8.tar.gz tmp/sentry-sdk-1.9.9.tar.gz --markdown 20230508/s/sentry-sdk/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-08 14:26:04] INFO root fetch - processPackages [cloudsmith-cli]: executing diffoscope
+[2023-05-08 14:26:04] INFO root fetch - processPackages [cloudsmith-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudsmith_cli-0.8.2-py2.py3-none-any.whl.zip tmp/cloudsmith_cli-0.9.0-py2.py3-none-any.whl.zip --markdown 20230508/c/cloudsmith-cli/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-08 14:26:04] INFO root fetch - processPackages [CreateAI]: executing diffoscope
+[2023-05-08 14:26:04] INFO root fetch - processPackages [CreateAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CreateAI-0.8.1.tar.gz tmp/CreateAI-0.8.2-py3-none-any.whl.zip --markdown 20230508/C/CreateAI/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-05-08 14:26:04] INFO root fetch - processPackages [ipywidgets-bokeh]: executing diffoscope
+[2023-05-08 14:26:04] INFO root fetch - processPackages [ipywidgets-bokeh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipywidgets_bokeh-1.4.0.dev2.tar.gz tmp/ipywidgets_bokeh-1.4.0.dev3.tar.gz --markdown 20230508/i/ipywidgets-bokeh/1.4.0.dev2-1.4.0.dev3/diff.md --exclude *.pyd
+[2023-05-08 14:26:05] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ssm-parameters-cross-region]: success
+[2023-05-08 14:26:05] INFO root fetch - main [MainThread]: End processing [pybeans]: success
+[2023-05-08 14:26:05] INFO root fetch - main [MainThread]: End processing [igra]: success
+[2023-05-08 14:26:05] INFO root fetch - main [MainThread]: End processing [autosrt]: success
+[2023-05-08 14:26:05] INFO root fetch - main [MainThread]: End processing [CreateAI]: success
+[2023-05-08 14:26:06] INFO root fetch - main [MainThread]: End processing [cloudsmith-cli]: success
+[2023-05-08 14:26:06] INFO root fetch - main [MainThread]: End processing [sentry-sdk]: success
+[2023-05-08 14:26:27] INFO root fetch - main [MainThread]: End processing [ipywidgets-bokeh]: success
+[2023-05-08 14:26:50] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-05-08 14:26:50] INFO root fetch - main [MainThread]: Store serial: [18016537]
