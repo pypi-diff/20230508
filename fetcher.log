@@ -19738,3 +19738,120 @@ EOFError: EOF read where object expected
 [2023-05-08 21:06:22] INFO root fetch - main [MainThread]: End processing [myNeuropsydia] error
 [2023-05-08 21:06:45] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-05-08 21:06:45] INFO root fetch - main [MainThread]: Store serial: [18021025]
+[2023-05-08 21:11:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18021025]
+[2023-05-08 21:11:54] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-08 21:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: atproto
+[2023-05-08 21:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scgpt
+[2023-05-08 21:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oqtant
+[2023-05-08 21:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: element-optogenetics
+[2023-05-08 21:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: elfebot
+[2023-05-08 21:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: larkspur
+[2023-05-08 21:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: splight-lib
+[2023-05-08 21:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyutplugins
+[2023-05-08 21:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: board-game-recommender
+[2023-05-08 21:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aind-ng-link
+[2023-05-08 21:11:54] INFO root fetch - processPackages [oqtant]: New version: [0.14.2] Old Version: [0.14.1]
+[2023-05-08 21:11:54] INFO root fetch - processPackages [scgpt]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-08 21:11:54] INFO root fetch - processPackages [larkspur]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-08 21:11:54] INFO root fetch - processPackages [aind-ng-link]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-08 21:11:54] WARNING root fetch - processPackages [element-optogenetics]: Skipping, unable to determine old version
+[2023-05-08 21:11:54] INFO root fetch - processPackages [element-optogenetics]: Start processing: gpt-review
+[2023-05-08 21:11:54] INFO root fetch - main [MainThread]: End processing [element-optogenetics] error
+[2023-05-08 21:11:54] INFO root fetch - processPackages [atproto]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-08 21:11:54] INFO root fetch - processPackages [board-game-recommender]: New version: [3.4.0] Old Version: [3.3.0]
+[2023-05-08 21:11:54] INFO root fetch - processPackages [pyutplugins]: New version: [0.8.70] Old Version: [0.8.60]
+[2023-05-08 21:11:54] INFO root fetch - processPackages [elfebot]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-08 21:11:54] INFO root fetch - processPackages [splight-lib]: New version: [2.3.9.dev3] Old Version: [2.3.9]
+[2023-05-08 21:11:54] INFO root fetch - processPackages [gpt-review]: New version: [0.7.2rc483.post1] Old Version: [0.7.1rc481.post1]
+[2023-05-08 21:11:54] INFO root fetch - processPackages [pyutplugins]: Downloading https://files.pythonhosted.org/packages/1e/50/cbd950f0132f3f62a2ef0d8bc6878e38292acf2a1148bc850e097f2eccbf/pyutplugins-0.8.60.tar.gz
+[2023-05-08 21:11:54] INFO root fetch - processPackages [aind-ng-link]: Downloading https://files.pythonhosted.org/packages/23/27/77b5ebf8d2fc3bfa77d9a5e232d1c7bf753d5c453f3ea43b3a33d3398070/aind-ng-link-1.0.5.tar.gz
+[2023-05-08 21:11:54] INFO root fetch - processPackages [splight-lib]: executing diffoscope
+[2023-05-08 21:11:54] INFO root fetch - processPackages [splight-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight-lib-2.3.9.tar.gz tmp/splight-lib-2.3.9.dev3.tar.gz --markdown 20230508/s/splight-lib/2.3.9-2.3.9.dev3/diff.md --exclude *.pyd
+[2023-05-08 21:11:54] INFO root fetch - processPackages [oqtant]: Downloading https://files.pythonhosted.org/packages/aa/b6/aec651dabc29f418672bf9417593267872805fba7d69712e96d348e3e673/oqtant-0.14.1.tar.gz
+[2023-05-08 21:11:54] INFO root fetch - processPackages [larkspur]: Downloading https://files.pythonhosted.org/packages/2f/64/267ecc7aa6a0254889f3caf9c76168e7a45866334b5c8b6b5ba8483267b5/larkspur-0.2.3.tar.gz
+[2023-05-08 21:11:54] INFO root fetch - processPackages [elfebot]: Downloading https://files.pythonhosted.org/packages/f0/23/03e04b828ae11604a45ecb6c3042c4dfe616a889f56a98effaf6aa84b165/elfebot-0.0.2-py3-none-any.whl
+[2023-05-08 21:11:55] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/bc/ea/983034d0c00d0fc4800a1b9a1dcb23e7602593eadd0eede8ab3071b10b9b/gpt-review-0.7.2rc483.post1.tar.gz
+[2023-05-08 21:11:55] INFO root fetch - processPackages [scgpt]: Downloading https://files.pythonhosted.org/packages/38/ed/ae4d3a21b470847bc41bfacbfc2c731255d68c94cc312904dd35de38e07a/scGPT-0.1.2.tar.gz
+[2023-05-08 21:11:55] INFO root fetch - processPackages [board-game-recommender]: Downloading https://files.pythonhosted.org/packages/cd/34/1ee26479745d3ca861e81a31b801785c5ce478f555c5814791f4e0c6e4f1/board-game-recommender-3.4.0.tar.gz
+[2023-05-08 21:11:55] INFO root fetch - processPackages [scgpt]: executing diffoscope
+[2023-05-08 21:11:55] INFO root fetch - processPackages [scgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scGPT-0.1.1.tar.gz tmp/scGPT-0.1.2.tar.gz --markdown 20230508/s/scgpt/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-08 21:11:55] INFO root fetch - processPackages [atproto]: Downloading https://files.pythonhosted.org/packages/ac/6c/9df4e69e0c4b41ea1088e0be06209df8839dd51fe4127cf6de45beeb7459/atproto-0.0.3.tar.gz
+[2023-05-08 21:11:55] INFO root fetch - processPackages [pyutplugins]: Downloading https://files.pythonhosted.org/packages/71/ae/ad6f759667ee33109fc5a899d07b70b3973614ae06b58002b65f1b1092be/pyutplugins-0.8.70.tar.gz
+[2023-05-08 21:11:55] INFO root fetch - processPackages [aind-ng-link]: Downloading https://files.pythonhosted.org/packages/ec/c4/4c35f7b7dc86aaf111dc6e2f82150979d359c1f0fc0525e1b7a028c90272/aind-ng-link-1.0.6.tar.gz
+[2023-05-08 21:11:55] INFO root fetch - processPackages [board-game-recommender]: executing diffoscope
+[2023-05-08 21:11:55] INFO root fetch - processPackages [board-game-recommender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/board-game-recommender-3.3.0.tar.gz tmp/board-game-recommender-3.4.0.tar.gz --markdown 20230508/b/board-game-recommender/3.3.0-3.4.0/diff.md --exclude *.pyd
+[2023-05-08 21:11:55] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-08 21:11:55] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.7.1rc481.post1.tar.gz tmp/gpt-review-0.7.2rc483.post1.tar.gz --markdown 20230508/g/gpt-review/0.7.1rc481.post1-0.7.2rc483.post1/diff.md --exclude *.pyd
+[2023-05-08 21:11:55] INFO root fetch - processPackages [atproto]: executing diffoscope
+[2023-05-08 21:11:55] INFO root fetch - processPackages [atproto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atproto-0.0.2.tar.gz tmp/atproto-0.0.3.tar.gz --markdown 20230508/a/atproto/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-08 21:11:55] INFO root fetch - processPackages [pyutplugins]: executing diffoscope
+[2023-05-08 21:11:55] INFO root fetch - processPackages [pyutplugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyutplugins-0.8.60.tar.gz tmp/pyutplugins-0.8.70.tar.gz --markdown 20230508/p/pyutplugins/0.8.60-0.8.70/diff.md --exclude *.pyd
+[2023-05-08 21:11:55] INFO root fetch - processPackages [aind-ng-link]: executing diffoscope
+[2023-05-08 21:11:55] INFO root fetch - processPackages [aind-ng-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-ng-link-1.0.5.tar.gz tmp/aind-ng-link-1.0.6.tar.gz --markdown 20230508/a/aind-ng-link/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-08 21:11:55] INFO root fetch - processPackages [elfebot]: Downloading https://files.pythonhosted.org/packages/11/d1/f591808b247a80dafd09eb50502c8113428c2821eae93326f503ed289d67/elfebot-0.0.3-py3-none-any.whl
+[2023-05-08 21:11:55] INFO root fetch - processPackages [oqtant]: Downloading https://files.pythonhosted.org/packages/74/38/c0c5900bfd6ed8367af2ae72ce90c2dc4df9921bceac768ce51ce65be7f0/oqtant-0.14.2.tar.gz
+[2023-05-08 21:11:55] INFO root fetch - processPackages [larkspur]: Downloading https://files.pythonhosted.org/packages/34/eb/3d6b52240442f68c7dbceb147bcf4b4687d3903833016f8362c45f1faf12/larkspur-0.2.4.tar.gz
+[2023-05-08 21:11:55] INFO root fetch - processPackages [elfebot]: executing diffoscope
+[2023-05-08 21:11:55] INFO root fetch - processPackages [elfebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elfebot-0.0.2-py3-none-any.whl.zip tmp/elfebot-0.0.3-py3-none-any.whl.zip --markdown 20230508/e/elfebot/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-08 21:11:55] INFO root fetch - processPackages [oqtant]: executing diffoscope
+[2023-05-08 21:11:55] INFO root fetch - processPackages [oqtant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oqtant-0.14.1.tar.gz tmp/oqtant-0.14.2.tar.gz --markdown 20230508/o/oqtant/0.14.1-0.14.2/diff.md --exclude *.pyd
+[2023-05-08 21:11:55] INFO root fetch - processPackages [larkspur]: executing diffoscope
+[2023-05-08 21:11:55] INFO root fetch - processPackages [larkspur]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/larkspur-0.2.3.tar.gz tmp/larkspur-0.2.4.tar.gz --markdown 20230508/l/larkspur/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-08 21:11:56] INFO root fetch - processPackages [board-game-recommender]: Start processing: pyjourney
+[2023-05-08 21:11:56] INFO root fetch - main [MainThread]: End processing [board-game-recommender]: success
+[2023-05-08 21:11:56] WARNING root fetch - processPackages [pyjourney]: Skipping, unable to determine old version
+[2023-05-08 21:11:56] INFO root fetch - processPackages [pyjourney]: Start processing: wtt02
+[2023-05-08 21:11:56] INFO root fetch - main [MainThread]: End processing [pyjourney] error
+[2023-05-08 21:11:56] INFO root fetch - processPackages [gpt-review]: Start processing: lamineml
+[2023-05-08 21:11:56] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-08 21:11:56] INFO root fetch - processPackages [wtt02]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-05-08 21:11:56] INFO root fetch - processPackages [lamineml]: New version: [0.8] Old Version: [0.7]
+[2023-05-08 21:11:56] INFO root fetch - processPackages [larkspur]: Start processing: unique-char-counter-cli-kir-boh
+[2023-05-08 21:11:56] INFO root fetch - main [MainThread]: End processing [larkspur]: success
+[2023-05-08 21:11:57] INFO root fetch - processPackages [lamineml]: executing diffoscope
+[2023-05-08 21:11:57] INFO root fetch - processPackages [lamineml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamineml-0.7.tar.gz tmp/lamineml-0.8.tar.gz --markdown 20230508/l/lamineml/0.7-0.8/diff.md --exclude *.pyd
+[2023-05-08 21:11:57] INFO root fetch - processPackages [elfebot]: Start processing: uplc
+[2023-05-08 21:11:57] INFO root fetch - main [MainThread]: End processing [elfebot]: success
+[2023-05-08 21:11:57] INFO root fetch - processPackages [unique-char-counter-cli-kir-boh]: New version: [2] Old Version: [1.5.8]
+[2023-05-08 21:11:57] INFO root fetch - processPackages [wtt02]: Downloading https://files.pythonhosted.org/packages/aa/e4/0dd6358cc5c42da77d32d3a35d4669867844343ab381109a23ab5df9a409/wtt02-0.3.4.tar.gz
+[2023-05-08 21:11:57] INFO root fetch - processPackages [splight-lib]: Start processing: exciton
+[2023-05-08 21:11:57] INFO root fetch - main [MainThread]: End processing [splight-lib]: success
+[2023-05-08 21:11:57] INFO root fetch - processPackages [exciton]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-08 21:11:57] INFO root fetch - processPackages [uplc]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-05-08 21:11:57] INFO root fetch - processPackages [oqtant]: Start processing: energiapy
+[2023-05-08 21:11:57] INFO root fetch - main [MainThread]: End processing [oqtant]: success
+[2023-05-08 21:11:57] INFO root fetch - processPackages [unique-char-counter-cli-kir-boh]: executing diffoscope
+[2023-05-08 21:11:57] INFO root fetch - processPackages [unique-char-counter-cli-kir-boh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unique_char_counter_cli_kir_boh-1.5.8.tar.gz tmp/unique_char_counter_cli_kir_boh-2.tar.gz --markdown 20230508/u/unique-char-counter-cli-kir-boh/1.5.8-2/diff.md --exclude *.pyd
+[2023-05-08 21:11:57] INFO root fetch - processPackages [wtt02]: Downloading https://files.pythonhosted.org/packages/3e/ae/eae8ca10b1b964ddd4c8f36aa42f45b188b8b68d637bd587c7e4ed140021/wtt02-0.3.5.tar.gz
+[2023-05-08 21:11:57] INFO root fetch - processPackages [energiapy]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-08 21:11:57] INFO root fetch - processPackages [uplc]: Downloading https://files.pythonhosted.org/packages/c8/0f/77b317200587c1c749b914e6bb19036cca8ac21228bc216526f025a43bc0/uplc-0.6.5.tar.gz
+[2023-05-08 21:11:57] INFO root fetch - processPackages [exciton]: Downloading https://files.pythonhosted.org/packages/37/6d/6f7f3b21b44813b2948b6a784bbf18d6a6626ad5f30c2ae1c71b4145d919/exciton-1.9.1-py3-none-any.whl
+[2023-05-08 21:11:57] INFO root fetch - processPackages [wtt02]: executing diffoscope
+[2023-05-08 21:11:57] INFO root fetch - processPackages [wtt02]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wtt02-0.3.4.tar.gz tmp/wtt02-0.3.5.tar.gz --markdown 20230508/w/wtt02/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-05-08 21:11:57] INFO root fetch - processPackages [aind-ng-link]: Start processing: comet-ml
+[2023-05-08 21:11:57] INFO root fetch - main [MainThread]: End processing [aind-ng-link]: success
+[2023-05-08 21:11:57] INFO root fetch - processPackages [uplc]: Downloading https://files.pythonhosted.org/packages/ab/41/9d10612a161fdc5f7b7fc1dd2fb345d2ee1519ba476839fe5760f2eb95a9/uplc-0.6.6.tar.gz
+[2023-05-08 21:11:57] INFO root fetch - processPackages [energiapy]: Downloading https://files.pythonhosted.org/packages/0f/e1/464ca4780337dcfd141ac16d84b55d965a721f9733045e74a9906fea54aa/energiapy-1.0.6-py3-none-any.whl
+[2023-05-08 21:11:57] INFO root fetch - main [MainThread]: End processing [pyutplugins]: success
+[2023-05-08 21:11:57] INFO root fetch - processPackages [uplc]: executing diffoscope
+[2023-05-08 21:11:57] INFO root fetch - processPackages [uplc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uplc-0.6.5.tar.gz tmp/uplc-0.6.6.tar.gz --markdown 20230508/u/uplc/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-05-08 21:11:57] INFO root fetch - processPackages [exciton]: executing diffoscope
+[2023-05-08 21:11:57] INFO root fetch - processPackages [exciton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exciton-1.9.0-py3-none-any.whl.zip tmp/exciton-1.9.1-py3-none-any.whl.zip --markdown 20230508/e/exciton/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-08 21:11:57] INFO root fetch - processPackages [energiapy]: Downloading https://files.pythonhosted.org/packages/34/57/5ace04aa327f2dc6342696495a4f536812b79a58696bd89acea9128b2b17/energiapy-1.0.7-py3-none-any.whl
+[2023-05-08 21:11:57] INFO root fetch - processPackages [comet-ml]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-05-08 21:11:57] INFO root fetch - main [MainThread]: End processing [atproto]: success
+[2023-05-08 21:11:57] INFO root fetch - processPackages [comet-ml]: Downloading https://files.pythonhosted.org/packages/fb/d1/5b364541fde741bc08ab30b76b39bd9dceaf41e597c7878d897b2397d984/comet_ml-3.9.0.tar.gz
+[2023-05-08 21:11:58] INFO root fetch - processPackages [energiapy]: executing diffoscope
+[2023-05-08 21:11:58] INFO root fetch - processPackages [energiapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/energiapy-1.0.6-py3-none-any.whl.zip tmp/energiapy-1.0.7-py3-none-any.whl.zip --markdown 20230508/e/energiapy/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-08 21:11:58] INFO root fetch - processPackages [comet-ml]: Downloading https://files.pythonhosted.org/packages/17/97/9f1e153f6b4df253f5eea38e51f9be34256bc8bf0d363d01a1ffc2d2d668/comet_ml-3.9.1.tar.gz
+[2023-05-08 21:11:58] INFO root fetch - main [MainThread]: End processing [unique-char-counter-cli-kir-boh]: success
+[2023-05-08 21:11:58] INFO root fetch - main [MainThread]: End processing [lamineml]: success
+[2023-05-08 21:11:58] INFO root fetch - main [MainThread]: End processing [wtt02]: success
+[2023-05-08 21:11:58] INFO root fetch - processPackages [comet-ml]: executing diffoscope
+[2023-05-08 21:11:58] INFO root fetch - processPackages [comet-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comet_ml-3.9.0.tar.gz tmp/comet_ml-3.9.1.tar.gz --markdown 20230508/c/comet-ml/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-05-08 21:11:59] INFO root fetch - main [MainThread]: End processing [exciton]: success
+[2023-05-08 21:11:59] INFO root fetch - main [MainThread]: End processing [energiapy]: success
+[2023-05-08 21:11:59] INFO root fetch - main [MainThread]: End processing [uplc]: success
+[2023-05-08 21:11:59] INFO root fetch - main [MainThread]: End processing [scgpt]: success
+[2023-05-08 21:12:32] INFO root fetch - main [MainThread]: End processing [comet-ml]: success
+[2023-05-08 21:12:32] INFO root fetch - main [MainThread]: Store serial: [18021091]
