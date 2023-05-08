@@ -11383,3 +11383,99 @@
 [2023-05-08 13:54:11] INFO root fetch - main [MainThread]: End processing [jupyterlab-code-formatter]: success
 [2023-05-08 13:54:19] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-05-08 13:54:19] INFO root fetch - main [MainThread]: Store serial: [18016297]
+[2023-05-08 13:59:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18016297]
+[2023-05-08 13:59:28] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-08 13:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-socio-grpc
+[2023-05-08 13:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jtep
+[2023-05-08 13:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kalm
+[2023-05-08 13:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scrippy-snmp
+[2023-05-08 13:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quart-schema
+[2023-05-08 13:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: magic-duckdb
+[2023-05-08 13:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: shaarpec
+[2023-05-08 13:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jupyter-matlab-proxy
+[2023-05-08 13:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cli-command-parser
+[2023-05-08 13:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ProcessingImg1
+[2023-05-08 13:59:28] WARNING root fetch - processPackages [scrippy-snmp]: Skipping, unable to determine old version
+[2023-05-08 13:59:28] INFO root fetch - processPackages [scrippy-snmp]: Start processing: pyoptas
+[2023-05-08 13:59:28] INFO root fetch - main [MainThread]: End processing [scrippy-snmp] error
+[2023-05-08 13:59:28] INFO root fetch - processPackages [ProcessingImg1]: New version: [0.3] Old Version: [0.2]
+[2023-05-08 13:59:28] WARNING root fetch - processPackages [jtep]: Skipping, unable to determine old version
+[2023-05-08 13:59:28] INFO root fetch - processPackages [jupyter-matlab-proxy]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-05-08 13:59:28] INFO root fetch - processPackages [jtep]: Start processing: pybaqus
+[2023-05-08 13:59:28] INFO root fetch - main [MainThread]: End processing [jtep] error
+[2023-05-08 13:59:28] INFO root fetch - processPackages [kalm]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-08 13:59:28] INFO root fetch - processPackages [quart-schema]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-08 13:59:28] INFO root fetch - processPackages [shaarpec]: New version: [2.3.3] Old Version: [2.3.2]
+[2023-05-08 13:59:28] INFO root fetch - processPackages [magic-duckdb]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 13:59:28] INFO root fetch - processPackages [django-socio-grpc]: New version: [0.9.0] Old Version: [0.8.9]
+[2023-05-08 13:59:28] INFO root fetch - processPackages [cli-command-parser]: New version: [2023.5.8] Old Version: [2023.5.2]
+[2023-05-08 13:59:28] INFO root fetch - processPackages [pybaqus]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-08 13:59:28] INFO root fetch - processPackages [pyoptas]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-08 13:59:28] INFO root fetch - processPackages [pybaqus]: executing diffoscope
+[2023-05-08 13:59:28] INFO root fetch - processPackages [pybaqus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybaqus-0.2.8.tar.gz tmp/pybaqus-0.2.9.tar.gz --markdown 20230508/p/pybaqus/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-08 13:59:28] INFO root fetch - processPackages [shaarpec]: Downloading https://files.pythonhosted.org/packages/f6/73/87d72714cdf81cbfbbbbb6ce4737b6912c18b6bb93a3f545b918bd444b85/shaarpec-2.3.2.tar.gz
+[2023-05-08 13:59:28] INFO root fetch - processPackages [ProcessingImg1]: Downloading https://files.pythonhosted.org/packages/b9/a1/c1c03a17d22aba3d984d7ae294f023c7d8049ca0e2d51a2a60922c683aaf/ProcessingImg1-0.3.tar.gz
+[2023-05-08 13:59:28] INFO root fetch - processPackages [quart-schema]: Downloading https://files.pythonhosted.org/packages/f8/dc/e82bd200e8a164282bf9825f80740cc229f7124f57ba2e3997bcecd830b1/quart-schema-0.8.0.tar.gz
+[2023-05-08 13:59:28] INFO root fetch - processPackages [magic-duckdb]: Downloading https://files.pythonhosted.org/packages/d7/a6/fae3b9ab3e1aa365235d68ea0588d664699dd72e59124b766c77ea251530/magic_duckdb-0.1.8-py3-none-any.whl
+[2023-05-08 13:59:28] INFO root fetch - processPackages [jupyter-matlab-proxy]: Downloading https://files.pythonhosted.org/packages/0d/12/9a3238913ba53560e951278cdf48ee7c7dac2f6af8850279afe526b19e75/jupyter_matlab_proxy-0.5.2-py3-none-any.whl
+[2023-05-08 13:59:28] INFO root fetch - processPackages [cli-command-parser]: Downloading https://files.pythonhosted.org/packages/d1/47/a116a349180e6edd870329e2e195638747985d61354ca1409e6cba7c79e5/cli_command_parser-2023.5.2.tar.gz
+[2023-05-08 13:59:28] INFO root fetch - processPackages [django-socio-grpc]: Downloading https://files.pythonhosted.org/packages/7e/d6/0213129823e862591828fc556e6b339d32cd58621898f0696900155db751/django-socio-grpc-0.8.9.tar.gz
+[2023-05-08 13:59:28] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/e0/f3/ba62778ae39175361909a991acd57f34fddbc2546fbfa2a3690e4cad3211/kalm-0.2.1.tar.gz
+[2023-05-08 13:59:28] INFO root fetch - processPackages [pyoptas]: Downloading https://files.pythonhosted.org/packages/d7/bf/3efd18cd3e7891f658e02607ab09ec3348937b70ef09c889afc2f2f13cd5/pyoptas-1.0.1.tar.gz
+[2023-05-08 13:59:28] INFO root fetch - processPackages [ProcessingImg1]: executing diffoscope
+[2023-05-08 13:59:28] INFO root fetch - processPackages [ProcessingImg1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ProcessingImg1-0.2.tar.gz tmp/ProcessingImg1-0.3.tar.gz --markdown 20230508/P/ProcessingImg1/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-08 13:59:29] INFO root fetch - processPackages [shaarpec]: Downloading https://files.pythonhosted.org/packages/2f/b4/f647135a434215e7fe4f9b2c3b94cb50ea3d34e1a46120ece28911ccb852/shaarpec-2.3.3.tar.gz
+[2023-05-08 13:59:29] INFO root fetch - processPackages [cli-command-parser]: Downloading https://files.pythonhosted.org/packages/10/48/2b27aa422b6f0dbb99734a5f88529d39c4c21e3f4d10632cabaa8bec532f/cli_command_parser-2023.5.8.tar.gz
+[2023-05-08 13:59:29] INFO root fetch - processPackages [jupyter-matlab-proxy]: Downloading https://files.pythonhosted.org/packages/9f/ce/388bd74e8cb025741646d1c38c07525ec6f6a2007cadb9193e60d0880574/jupyter_matlab_proxy-0.5.3-py3-none-any.whl
+[2023-05-08 13:59:29] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/6d/19/366563b4d19aba8b5821db0c8ba815b5825247ab26b4a81eb18b4ac5ec3b/kalm-0.2.2.tar.gz
+[2023-05-08 13:59:29] INFO root fetch - processPackages [pyoptas]: Downloading https://files.pythonhosted.org/packages/7f/19/8a6a18959394d9184a784c2b6957f27116528e7791ecbe82329cbe054a28/pyoptas-1.0.2.tar.gz
+[2023-05-08 13:59:29] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-05-08 13:59:29] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.2.1.tar.gz tmp/kalm-0.2.2.tar.gz --markdown 20230508/k/kalm/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-08 13:59:29] INFO root fetch - processPackages [cli-command-parser]: executing diffoscope
+[2023-05-08 13:59:29] INFO root fetch - processPackages [jupyter-matlab-proxy]: executing diffoscope
+[2023-05-08 13:59:29] INFO root fetch - processPackages [cli-command-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cli_command_parser-2023.5.2.tar.gz tmp/cli_command_parser-2023.5.8.tar.gz --markdown 20230508/c/cli-command-parser/2023.5.2-2023.5.8/diff.md --exclude *.pyd
+[2023-05-08 13:59:29] INFO root fetch - processPackages [jupyter-matlab-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_matlab_proxy-0.5.2-py3-none-any.whl.zip tmp/jupyter_matlab_proxy-0.5.3-py3-none-any.whl.zip --markdown 20230508/j/jupyter-matlab-proxy/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-05-08 13:59:29] INFO root fetch - processPackages [shaarpec]: executing diffoscope
+[2023-05-08 13:59:29] INFO root fetch - processPackages [shaarpec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shaarpec-2.3.2.tar.gz tmp/shaarpec-2.3.3.tar.gz --markdown 20230508/s/shaarpec/2.3.2-2.3.3/diff.md --exclude *.pyd
+[2023-05-08 13:59:29] INFO root fetch - processPackages [magic-duckdb]: Downloading https://files.pythonhosted.org/packages/c9/e1/c74dedc15194d0a2455339f5ade57dee369c007bcaa618930294819ef285/magic_duckdb-0.1.9-py3-none-any.whl
+[2023-05-08 13:59:29] INFO root fetch - processPackages [django-socio-grpc]: Downloading https://files.pythonhosted.org/packages/7a/b0/8b962693ba3765edd0e0291489b777069cfb9989fddf435614a684afb60d/django-socio-grpc-0.9.0.tar.gz
+[2023-05-08 13:59:29] INFO root fetch - processPackages [quart-schema]: Downloading https://files.pythonhosted.org/packages/f8/da/98af61babbbe22b46e305a6b1292111cb1f7349795730d023481fc5c3fb2/quart-schema-0.9.0.tar.gz
+[2023-05-08 13:59:29] INFO root fetch - processPackages [pyoptas]: executing diffoscope
+[2023-05-08 13:59:29] INFO root fetch - processPackages [pyoptas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyoptas-1.0.1.tar.gz tmp/pyoptas-1.0.2.tar.gz --markdown 20230508/p/pyoptas/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-08 13:59:29] INFO root fetch - processPackages [magic-duckdb]: executing diffoscope
+[2023-05-08 13:59:29] INFO root fetch - processPackages [magic-duckdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magic_duckdb-0.1.8-py3-none-any.whl.zip tmp/magic_duckdb-0.1.9-py3-none-any.whl.zip --markdown 20230508/m/magic-duckdb/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 13:59:29] INFO root fetch - processPackages [quart-schema]: executing diffoscope
+[2023-05-08 13:59:29] INFO root fetch - processPackages [quart-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quart-schema-0.8.0.tar.gz tmp/quart-schema-0.9.0.tar.gz --markdown 20230508/q/quart-schema/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-08 13:59:29] INFO root fetch - processPackages [django-socio-grpc]: executing diffoscope
+[2023-05-08 13:59:29] INFO root fetch - processPackages [django-socio-grpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-socio-grpc-0.8.9.tar.gz tmp/django-socio-grpc-0.9.0.tar.gz --markdown 20230508/d/django-socio-grpc/0.8.9-0.9.0/diff.md --exclude *.pyd
+[2023-05-08 13:59:30] INFO root fetch - processPackages [ProcessingImg1]: Start processing: modelon-impact-client
+[2023-05-08 13:59:30] INFO root fetch - main [MainThread]: End processing [ProcessingImg1]: success
+[2023-05-08 13:59:30] INFO root fetch - processPackages [modelon-impact-client]: New version: [3.0.0.dev9] Old Version: [3.0.0.dev8]
+[2023-05-08 13:59:30] INFO root fetch - processPackages [modelon-impact-client]: Downloading https://files.pythonhosted.org/packages/36/b4/452920b23dc5fce52f2d517cc942c5d5772022ddd6efdd2f337fe1b61977/modelon_impact_client-3.0.0.dev8.tar.gz
+[2023-05-08 13:59:30] INFO root fetch - processPackages [kalm]: Start processing: yeref
+[2023-05-08 13:59:30] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-05-08 13:59:30] INFO root fetch - processPackages [yeref]: New version: [0.1.58] Old Version: [0.1.57]
+[2023-05-08 13:59:30] INFO root fetch - processPackages [shaarpec]: Start processing: pssapi
+[2023-05-08 13:59:30] INFO root fetch - main [MainThread]: End processing [shaarpec]: success
+[2023-05-08 13:59:30] INFO root fetch - processPackages [pssapi]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-08 13:59:30] INFO root fetch - main [MainThread]: End processing [magic-duckdb]: success
+[2023-05-08 13:59:31] INFO root fetch - processPackages [modelon-impact-client]: Downloading https://files.pythonhosted.org/packages/4a/46/39f10d958eb7e1d3b6b332803f3e61b95fe2d424c01272f00a98cf4ec411/modelon_impact_client-3.0.0.dev9.tar.gz
+[2023-05-08 13:59:31] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/c7/dd/0cebfd7ad83b19723eadf9e55e667dfac1ccf78c4d64b58876143e02af96/yeref-0.1.58.tar.gz
+[2023-05-08 13:59:31] INFO root fetch - processPackages [pssapi]: Downloading https://files.pythonhosted.org/packages/3d/a8/5f1995ce14a8df19fb3f268a6f92b6213f652f547506e924dea7aa4d0eff/pssapi-0.1.0.tar.gz
+[2023-05-08 13:59:31] INFO root fetch - processPackages [modelon-impact-client]: executing diffoscope
+[2023-05-08 13:59:31] INFO root fetch - processPackages [modelon-impact-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelon_impact_client-3.0.0.dev8.tar.gz tmp/modelon_impact_client-3.0.0.dev9.tar.gz --markdown 20230508/m/modelon-impact-client/3.0.0.dev8-3.0.0.dev9/diff.md --exclude *.pyd
+[2023-05-08 13:59:31] INFO root fetch - main [MainThread]: End processing [quart-schema]: success
+[2023-05-08 13:59:31] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-05-08 13:59:31] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.1.57.tar.gz tmp/yeref-0.1.58.tar.gz --markdown 20230508/y/yeref/0.1.57-0.1.58/diff.md --exclude *.pyd
+[2023-05-08 13:59:31] INFO root fetch - processPackages [pssapi]: Downloading https://files.pythonhosted.org/packages/5a/e4/f4090452ecf30623063ac778d7a65d5664fa7e9a398775d5a85448bb7f47/pssapi-0.1.1.tar.gz
+[2023-05-08 13:59:31] INFO root fetch - main [MainThread]: End processing [cli-command-parser]: success
+[2023-05-08 13:59:31] INFO root fetch - processPackages [pssapi]: executing diffoscope
+[2023-05-08 13:59:31] INFO root fetch - processPackages [pssapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pssapi-0.1.0.tar.gz tmp/pssapi-0.1.1.tar.gz --markdown 20230508/p/pssapi/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-08 13:59:31] INFO root fetch - main [MainThread]: End processing [jupyter-matlab-proxy]: success
+[2023-05-08 13:59:31] INFO root fetch - main [MainThread]: End processing [pyoptas]: success
+[2023-05-08 13:59:32] INFO root fetch - main [MainThread]: End processing [django-socio-grpc]: success
+[2023-05-08 13:59:32] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-05-08 13:59:32] INFO root fetch - main [MainThread]: End processing [modelon-impact-client]: success
+[2023-05-08 13:59:33] INFO root fetch - main [MainThread]: End processing [pybaqus]: success
+[2023-05-08 13:59:35] INFO root fetch - main [MainThread]: End processing [pssapi]: success
+[2023-05-08 13:59:35] INFO root fetch - main [MainThread]: Store serial: [18016347]
