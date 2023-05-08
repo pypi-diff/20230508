@@ -10348,3 +10348,121 @@
 [2023-05-08 12:50:09] INFO root fetch - main [MainThread]: End processing [PyStorCLI2]: success
 [2023-05-08 12:50:57] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-05-08 12:50:57] INFO root fetch - main [MainThread]: Store serial: [18015747]
+[2023-05-08 12:56:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18015747]
+[2023-05-08 12:56:06] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-08 12:56:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyUAMMD
+[2023-05-08 12:56:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: embeddings-util
+[2023-05-08 12:56:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: muffin-admin
+[2023-05-08 12:56:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: visual-graph-datasets
+[2023-05-08 12:56:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: videogestalt
+[2023-05-08 12:56:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: inverse
+[2023-05-08 12:56:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-gereon-cert-2041-convert-to-lists
+[2023-05-08 12:56:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: HDRezka
+[2023-05-08 12:56:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdktf-cdktf-provider-newrelic
+[2023-05-08 12:56:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: goatl
+[2023-05-08 12:56:06] WARNING root fetch - processPackages [embeddings-util]: Skipping, unable to determine old version
+[2023-05-08 12:56:06] INFO root fetch - processPackages [embeddings-util]: Start processing: facefinder
+[2023-05-08 12:56:06] INFO root fetch - main [MainThread]: End processing [embeddings-util] error
+[2023-05-08 12:56:06] INFO root fetch - processPackages [HDRezka]: New version: [3.0.0] Old Version: [2.0.1]
+[2023-05-08 12:56:06] INFO root fetch - processPackages [certora-cli-alpha-gereon-cert-2041-convert-to-lists]: New version: [20230508.9.58.38987] Old Version: [20230508.9.39.715318]
+[2023-05-08 12:56:06] WARNING root fetch - processPackages [videogestalt]: Skipping, unable to determine old version
+[2023-05-08 12:56:06] INFO root fetch - processPackages [videogestalt]: Start processing: questdb-connect
+[2023-05-08 12:56:06] INFO root fetch - processPackages [inverse]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 12:56:06] INFO root fetch - main [MainThread]: End processing [videogestalt] error
+[2023-05-08 12:56:06] INFO root fetch - processPackages [pyUAMMD]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-08 12:56:06] INFO root fetch - processPackages [visual-graph-datasets]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-08 12:56:06] INFO root fetch - processPackages [goatl]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-05-08 12:56:06] INFO root fetch - processPackages [muffin-admin]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-05-08 12:56:06] INFO root fetch - processPackages [facefinder]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-08 12:56:06] INFO root fetch - processPackages [questdb-connect]: New version: [0.0.40] Old Version: [0.0.39]
+[2023-05-08 12:56:06] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: New version: [7.0.2] Old Version: [7.0.1]
+[2023-05-08 12:56:06] INFO root fetch - processPackages [certora-cli-alpha-gereon-cert-2041-convert-to-lists]: Downloading https://files.pythonhosted.org/packages/d4/27/0dba7d6700ea4537bd7341893c1b87f44c88fb039def47e276f253b85e71/certora-cli-alpha-gereon-cert-2041-convert-to-lists-20230508.9.39.715318.tar.gz
+[2023-05-08 12:56:06] INFO root fetch - processPackages [inverse]: executing diffoscope
+[2023-05-08 12:56:06] INFO root fetch - processPackages [inverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inverse-0.0.8-py3-none-any.whl.zip tmp/inverse-0.0.9-py3-none-any.whl.zip --markdown 20230508/i/inverse/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 12:56:06] WARNING root fetch - processPackages [certora-cli-alpha-gereon-cert-2041-convert-to-lists]: Skipping package: exceeds size limit 38481962>=10485760
+[2023-05-08 12:56:06] INFO root fetch - processPackages [certora-cli-alpha-gereon-cert-2041-convert-to-lists]: Start processing: odoo-addon-ddmrp
+[2023-05-08 12:56:06] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-gereon-cert-2041-convert-to-lists] error
+[2023-05-08 12:56:06] INFO root fetch - processPackages [odoo-addon-ddmrp]: New version: [15.0.1.5.0] Old Version: [15.0.1.4.1]
+[2023-05-08 12:56:06] INFO root fetch - processPackages [HDRezka]: Downloading https://files.pythonhosted.org/packages/ce/9b/ed66b684038f5ecf3ce1fd5d7f941bc661dedb17b3d48ff5b758409ac1e5/HDRezka-2.0.1.tar.gz
+[2023-05-08 12:56:06] INFO root fetch - processPackages [facefinder]: Downloading https://files.pythonhosted.org/packages/3f/3e/a30d9835ce5a63ff6fecf7853a3307fa36a8f3e2458d4eb48a15d154533a/facefinder-0.1.4.tar.gz
+[2023-05-08 12:56:06] INFO root fetch - processPackages [visual-graph-datasets]: Downloading https://files.pythonhosted.org/packages/8b/aa/c11553474bc6abcbf2c78890f6579b242ab68a2c302c40a668fd39cef3c9/visual_graph_datasets-0.8.0.tar.gz
+[2023-05-08 12:56:06] INFO root fetch - processPackages [goatl]: Downloading https://files.pythonhosted.org/packages/d5/72/549d69b1625b5bc4d00972d7f136cfe03c1f28820c172038d8f06e1704b6/goatl-0.6.4.tar.gz
+[2023-05-08 12:56:06] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: Downloading https://files.pythonhosted.org/packages/ff/2f/d0228ebe629fec7d06f0dc9788afca017490bdd7bcec2cdc7bd9055051b2/cdktf-cdktf-provider-newrelic-7.0.1.tar.gz
+[2023-05-08 12:56:06] INFO root fetch - processPackages [questdb-connect]: Downloading https://files.pythonhosted.org/packages/1f/ee/9c840f24d60693101fc98908445898956508f4d119c4dff4139ab46665a1/questdb-connect-0.0.40.tar.gz
+[2023-05-08 12:56:06] INFO root fetch - processPackages [odoo-addon-ddmrp]: executing diffoscope
+[2023-05-08 12:56:06] INFO root fetch - processPackages [odoo-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp-15.0.1.4.1-py3-none-any.whl.zip tmp/odoo_addon_ddmrp-15.0.1.5.0-py3-none-any.whl.zip --markdown 20230508/o/odoo-addon-ddmrp/15.0.1.4.1-15.0.1.5.0/diff.md --exclude *.pyd
+[2023-05-08 12:56:06] INFO root fetch - processPackages [goatl]: executing diffoscope
+[2023-05-08 12:56:06] INFO root fetch - processPackages [goatl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goatl-0.6.3.tar.gz tmp/goatl-0.6.4.tar.gz --markdown 20230508/g/goatl/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-05-08 12:56:06] INFO root fetch - processPackages [questdb-connect]: executing diffoscope
+[2023-05-08 12:56:06] INFO root fetch - processPackages [questdb-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/questdb-connect-0.0.39.tar.gz tmp/questdb-connect-0.0.40.tar.gz --markdown 20230508/q/questdb-connect/0.0.39-0.0.40/diff.md --exclude *.pyd
+[2023-05-08 12:56:06] INFO root fetch - processPackages [pyUAMMD]: Downloading https://files.pythonhosted.org/packages/e0/03/36f15248d79a9a92ba99f8705797f3c8024578ed558a583ea2bb8b9fa121/pyUAMMD-1.0.8.tar.gz
+[2023-05-08 12:56:07] INFO root fetch - processPackages [HDRezka]: Downloading https://files.pythonhosted.org/packages/b8/e8/0164e8758155ad25abb8f01066b59871bef83fb504dcf1d6e5d6b964815c/HDRezka-3.0.0.tar.gz
+[2023-05-08 12:56:07] INFO root fetch - processPackages [muffin-admin]: executing diffoscope
+[2023-05-08 12:56:07] INFO root fetch - processPackages [muffin-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muffin-admin-1.8.1.tar.gz tmp/muffin-admin-1.9.0.tar.gz --markdown 20230508/m/muffin-admin/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-05-08 12:56:07] INFO root fetch - processPackages [facefinder]: Downloading https://files.pythonhosted.org/packages/11/f4/812cad5adaeb09579f5d83abc6f8793b93a8e7c65b31f712be91b649dcd9/facefinder-0.1.5.tar.gz
+[2023-05-08 12:56:07] INFO root fetch - processPackages [pyUAMMD]: executing diffoscope
+[2023-05-08 12:56:07] INFO root fetch - processPackages [pyUAMMD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyUAMMD-1.0.7.tar.gz tmp/pyUAMMD-1.0.8.tar.gz --markdown 20230508/p/pyUAMMD/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-08 12:56:07] INFO root fetch - processPackages [HDRezka]: executing diffoscope
+[2023-05-08 12:56:07] INFO root fetch - processPackages [HDRezka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HDRezka-2.0.1.tar.gz tmp/HDRezka-3.0.0.tar.gz --markdown 20230508/H/HDRezka/2.0.1-3.0.0/diff.md --exclude *.pyd
+[2023-05-08 12:56:07] INFO root fetch - processPackages [facefinder]: executing diffoscope
+[2023-05-08 12:56:07] INFO root fetch - processPackages [facefinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/facefinder-0.1.4.tar.gz tmp/facefinder-0.1.5.tar.gz --markdown 20230508/f/facefinder/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-08 12:56:07] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: Downloading https://files.pythonhosted.org/packages/49/e7/e152eff1bd9619b30f1f8870b2f1a2448952f3a581a705e47a129ad9e836/cdktf-cdktf-provider-newrelic-7.0.2.tar.gz
+[2023-05-08 12:56:07] INFO root fetch - processPackages [visual-graph-datasets]: Downloading https://files.pythonhosted.org/packages/f7/24/21b8065eddaf1f2aebcb3c1ab99a567eafabd40743647beb7ef80955b8a8/visual_graph_datasets-0.9.0.tar.gz
+[2023-05-08 12:56:07] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: executing diffoscope
+[2023-05-08 12:56:07] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-newrelic-7.0.1.tar.gz tmp/cdktf-cdktf-provider-newrelic-7.0.2.tar.gz --markdown 20230508/c/cdktf-cdktf-provider-newrelic/7.0.1-7.0.2/diff.md --exclude *.pyd
+[2023-05-08 12:56:07] INFO root fetch - processPackages [visual-graph-datasets]: executing diffoscope
+[2023-05-08 12:56:07] INFO root fetch - processPackages [visual-graph-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visual_graph_datasets-0.8.0.tar.gz tmp/visual_graph_datasets-0.9.0.tar.gz --markdown 20230508/v/visual-graph-datasets/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-08 12:56:09] INFO root fetch - processPackages [goatl]: Start processing: edwh
+[2023-05-08 12:56:09] INFO root fetch - main [MainThread]: End processing [goatl]: success
+[2023-05-08 12:56:09] INFO root fetch - processPackages [edwh]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-08 12:56:09] INFO root fetch - processPackages [facefinder]: Start processing: pybiolib
+[2023-05-08 12:56:09] INFO root fetch - main [MainThread]: End processing [facefinder]: success
+[2023-05-08 12:56:09] INFO root fetch - processPackages [edwh]: Downloading https://files.pythonhosted.org/packages/a1/b2/ffc583af9d774bfd7b622dbed69ea2357b3a1f9096658cf1202307626113/edwh-0.9.1.tar.gz
+[2023-05-08 12:56:09] INFO root fetch - processPackages [HDRezka]: Start processing: kolibri-explore-plugin
+[2023-05-08 12:56:09] INFO root fetch - main [MainThread]: End processing [HDRezka]: success
+[2023-05-08 12:56:09] INFO root fetch - processPackages [pybiolib]: New version: [1.1.94] Old Version: [1.1.91]
+[2023-05-08 12:56:09] WARNING root fetch - processPackages [edwh]: Skipping package: exceeds size limit 32547749>=10485760
+[2023-05-08 12:56:09] INFO root fetch - processPackages [edwh]: Start processing: tinybird-cli
+[2023-05-08 12:56:09] INFO root fetch - main [MainThread]: End processing [edwh] error
+[2023-05-08 12:56:09] INFO root fetch - processPackages [tinybird-cli]: New version: [1.0.0b99] Old Version: [1.0.0b98]
+[2023-05-08 12:56:09] INFO root fetch - processPackages [kolibri-explore-plugin]: New version: [5.9.0] Old Version: [5.8.0]
+[2023-05-08 12:56:09] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2023-05-08 12:56:09] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.91.tar.gz tmp/pybiolib-1.1.94.tar.gz --markdown 20230508/p/pybiolib/1.1.91-1.1.94/diff.md --exclude *.pyd
+[2023-05-08 12:56:09] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2023-05-08 12:56:09] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-1.0.0b98.tar.gz tmp/tinybird-cli-1.0.0b99.tar.gz --markdown 20230508/t/tinybird-cli/1.0.0b98-1.0.0b99/diff.md --exclude *.pyd
+[2023-05-08 12:56:09] INFO root fetch - processPackages [kolibri-explore-plugin]: Downloading https://files.pythonhosted.org/packages/0c/7a/c73dde3624d86c7539942b345c199c1b99ced64421ccfe50eea5b3591969/kolibri_explore_plugin-5.8.0-py2.py3-none-any.whl
+[2023-05-08 12:56:09] INFO root fetch - processPackages [questdb-connect]: Start processing: pyUAMMD
+[2023-05-08 12:56:09] INFO root fetch - main [MainThread]: End processing [questdb-connect]: success
+[2023-05-08 12:56:09] INFO root fetch - processPackages [pyUAMMD]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-08 12:56:09] INFO root fetch - processPackages [inverse]: Start processing: rpcclient
+[2023-05-08 12:56:09] INFO root fetch - main [MainThread]: End processing [inverse]: success
+[2023-05-08 12:56:09] INFO root fetch - processPackages [pyUAMMD]: Downloading https://files.pythonhosted.org/packages/06/9c/bdd47d059b89ad033ee9fdd53dc0ca7530bda219f66fc3a43f117a02150c/pyUAMMD-1.0.9.tar.gz
+[2023-05-08 12:56:09] INFO root fetch - processPackages [rpcclient]: New version: [3.15.5] Old Version: [3.15.4]
+[2023-05-08 12:56:10] INFO root fetch - processPackages [visual-graph-datasets]: Start processing: Scrapy
+[2023-05-08 12:56:10] INFO root fetch - main [MainThread]: End processing [visual-graph-datasets]: success
+[2023-05-08 12:56:10] INFO root fetch - processPackages [Scrapy]: New version: [2.8.0] Old Version: [2.7.1]
+[2023-05-08 12:56:10] INFO root fetch - processPackages [pyUAMMD]: executing diffoscope
+[2023-05-08 12:56:10] INFO root fetch - processPackages [pyUAMMD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyUAMMD-1.0.8.tar.gz tmp/pyUAMMD-1.0.9.tar.gz --markdown 20230508/p/pyUAMMD/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-08 12:56:10] WARNING root fetch - processPackages [kolibri-explore-plugin]: Skipping package: exceeds size limit 16264518>=10485760
+[2023-05-08 12:56:10] INFO root fetch - processPackages [kolibri-explore-plugin]: Start processing: byozdemir-messager
+[2023-05-08 12:56:10] INFO root fetch - main [MainThread]: End processing [kolibri-explore-plugin] error
+[2023-05-08 12:56:10] INFO root fetch - processPackages [rpcclient]: Downloading https://files.pythonhosted.org/packages/b7/2d/20d417ac73a805eaf6f986e947b8d672018f8f95d1b1cf72509a81e34ad2/rpcclient-3.15.4.tar.gz
+[2023-05-08 12:56:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp]: success
+[2023-05-08 12:56:10] INFO root fetch - processPackages [Scrapy]: Downloading https://files.pythonhosted.org/packages/ad/c5/07f224b30c334daaea600c268c9fff855f110d72de4f47eb6204ef7d1008/Scrapy-2.7.1.tar.gz
+[2023-05-08 12:56:10] WARNING root fetch - processPackages [byozdemir-messager]: Skipping, unable to determine old version
+[2023-05-08 12:56:10] INFO root fetch - main [MainThread]: End processing [byozdemir-messager] error
+[2023-05-08 12:56:10] INFO root fetch - processPackages [rpcclient]: Downloading https://files.pythonhosted.org/packages/d1/3d/0e65f519e2e7bdfa1f50d454f312c0d3874a730f287682e837b4a919b32a/rpcclient-3.15.5.tar.gz
+[2023-05-08 12:56:10] INFO root fetch - processPackages [rpcclient]: executing diffoscope
+[2023-05-08 12:56:10] INFO root fetch - processPackages [rpcclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpcclient-3.15.4.tar.gz tmp/rpcclient-3.15.5.tar.gz --markdown 20230508/r/rpcclient/3.15.4-3.15.5/diff.md --exclude *.pyd
+[2023-05-08 12:56:10] INFO root fetch - processPackages [Scrapy]: Downloading https://files.pythonhosted.org/packages/a2/e0/b003accc4146ceae36d400486434890db3c453505de5b8298ac2af529232/Scrapy-2.8.0.tar.gz
+[2023-05-08 12:56:10] INFO root fetch - processPackages [Scrapy]: executing diffoscope
+[2023-05-08 12:56:10] INFO root fetch - processPackages [Scrapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Scrapy-2.7.1.tar.gz tmp/Scrapy-2.8.0.tar.gz --markdown 20230508/S/Scrapy/2.7.1-2.8.0/diff.md --exclude *.pyd
+[2023-05-08 12:56:11] INFO root fetch - main [MainThread]: End processing [pyUAMMD]: success
+[2023-05-08 12:56:12] INFO root fetch - main [MainThread]: End processing [rpcclient]: success
+[2023-05-08 12:56:12] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2023-05-08 12:56:13] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2023-05-08 12:56:13] INFO root fetch - main [MainThread]: End processing [pyUAMMD]: success
+[2023-05-08 12:56:14] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-newrelic]: success
+[2023-05-08 12:56:20] INFO root fetch - main [MainThread]: End processing [Scrapy]: success
+[2023-05-08 12:56:30] INFO root fetch - main [MainThread]: End processing [muffin-admin]: success
+[2023-05-08 12:56:30] INFO root fetch - main [MainThread]: Store serial: [18015815]
