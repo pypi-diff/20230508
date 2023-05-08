@@ -19495,3 +19495,86 @@ EOFError: EOF read where object expected
 [2023-05-08 20:49:55] INFO root fetch - main [MainThread]: End processing [tsdat]: success
 [2023-05-08 20:50:26] INFO root fetch - main [MainThread]: End processing [open-space-toolkit-physics]: success
 [2023-05-08 20:50:26] INFO root fetch - main [MainThread]: Store serial: [18020906]
+[2023-05-08 20:55:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18020906]
+[2023-05-08 20:55:39] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-08 20:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gravitypy
+[2023-05-08 20:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: blint
+[2023-05-08 20:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: goblet-gcp-client
+[2023-05-08 20:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: open-space-toolkit-astrodynamics
+[2023-05-08 20:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alphabetize
+[2023-05-08 20:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ZephyrusChatbot
+[2023-05-08 20:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: FreeMobileConso
+[2023-05-08 20:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oking
+[2023-05-08 20:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dicom-numpy
+[2023-05-08 20:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: FreeMobileConso
+[2023-05-08 20:55:39] INFO root fetch - processPackages [gravitypy]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-08 20:55:39] INFO root fetch - processPackages [blint]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-08 20:55:39] INFO root fetch - processPackages [goblet-gcp-client]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-08 20:55:39] INFO root fetch - processPackages [open-space-toolkit-astrodynamics]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-08 20:55:39] WARNING root fetch - processPackages [ZephyrusChatbot]: Skipping, unable to determine old version
+[2023-05-08 20:55:39] INFO root fetch - processPackages [ZephyrusChatbot]: Start processing: png2svglinlin
+[2023-05-08 20:55:39] INFO root fetch - processPackages [alphabetize]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-08 20:55:39] INFO root fetch - processPackages [FreeMobileConso]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-08 20:55:39] INFO root fetch - main [MainThread]: End processing [ZephyrusChatbot] error
+[2023-05-08 20:55:39] INFO root fetch - processPackages [FreeMobileConso]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-08 20:55:39] INFO root fetch - processPackages [dicom-numpy]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-05-08 20:55:39] INFO root fetch - processPackages [oking]: New version: [4.1.99] Old Version: [4.1.98]
+[2023-05-08 20:55:39] WARNING root fetch - processPackages [png2svglinlin]: Skipping, unable to determine old version
+[2023-05-08 20:55:39] INFO root fetch - processPackages [png2svglinlin]: Start processing: black-mirror-poc
+[2023-05-08 20:55:39] INFO root fetch - main [MainThread]: End processing [png2svglinlin] error
+[2023-05-08 20:55:39] INFO root fetch - processPackages [gravitypy]: Downloading https://files.pythonhosted.org/packages/c1/75/a440ccbfa59f84f8081f9bb962692e133186720319580c08e693c33f7303/gravitypy-1.1.1.tar.gz
+[2023-05-08 20:55:39] WARNING root fetch - processPackages [black-mirror-poc]: Skipping, unable to determine old version
+[2023-05-08 20:55:39] INFO root fetch - processPackages [black-mirror-poc]: Start processing: images-upload-cli
+[2023-05-08 20:55:39] INFO root fetch - processPackages [blint]: Downloading https://files.pythonhosted.org/packages/e6/b0/d5ddf36678d6c1c40e060406a45bedd8d3eac80e1204239b6b3099f84d76/blint-1.0.8.tar.gz
+[2023-05-08 20:55:39] INFO root fetch - main [MainThread]: End processing [black-mirror-poc] error
+[2023-05-08 20:55:39] INFO root fetch - processPackages [goblet-gcp-client]: Downloading https://files.pythonhosted.org/packages/a3/83/b53ef5e8d911d206face7f8ca9b12d17a6240be53059ac6501d912df3d68/goblet_gcp_client-0.1.3.tar.gz
+[2023-05-08 20:55:39] INFO root fetch - processPackages [FreeMobileConso]: Downloading https://files.pythonhosted.org/packages/26/fe/3618ac906ee5a8a240bb49dada57d08c8e2f033824f6787a8085ea2c6856/FreeMobileConso-0.0.2.tar.gz
+[2023-05-08 20:55:39] INFO root fetch - processPackages [FreeMobileConso]: Downloading https://files.pythonhosted.org/packages/26/fe/3618ac906ee5a8a240bb49dada57d08c8e2f033824f6787a8085ea2c6856/FreeMobileConso-0.0.2.tar.gz
+[2023-05-08 20:55:39] INFO root fetch - processPackages [alphabetize]: Downloading https://files.pythonhosted.org/packages/e0/ef/739f5aac77fcb4c55b3734fe96ab213dcbef170c0127c1da34220d95be63/alphabetize-0.0.7.tar.gz
+[2023-05-08 20:55:39] INFO root fetch - processPackages [oking]: Downloading https://files.pythonhosted.org/packages/10/e0/bc03eb0f51c985363e25571936de0258a0f3e5e43f8525986b708e4f2e81/oking-4.1.98.tar.gz
+[2023-05-08 20:55:39] INFO root fetch - processPackages [images-upload-cli]: New version: [1.1.3a0] Old Version: [1.1.2]
+[2023-05-08 20:55:39] INFO root fetch - processPackages [dicom-numpy]: Downloading https://files.pythonhosted.org/packages/9d/b9/4724d6738aa59e7fed50057ae655b2c042f9731bb4e7661c01fa861fbbfa/dicom_numpy-0.6.3.tar.gz
+[2023-05-08 20:55:39] INFO root fetch - processPackages [open-space-toolkit-astrodynamics]: Downloading https://files.pythonhosted.org/packages/2a/af/041e7de843de50f43ec1925e9bd89996a9c37d8c145b75aca771caccde2b/open_space_toolkit_astrodynamics-0.9.2-py39-none-any.whl
+[2023-05-08 20:55:39] WARNING root fetch - processPackages [oking]: Skipping package: exceeds size limit 82479280>=10485760
+[2023-05-08 20:55:39] INFO root fetch - processPackages [oking]: Start processing: dxsp
+[2023-05-08 20:55:39] INFO root fetch - main [MainThread]: End processing [oking] error
+[2023-05-08 20:55:39] INFO root fetch - processPackages [dxsp]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-08 20:55:39] INFO root fetch - processPackages [images-upload-cli]: executing diffoscope
+[2023-05-08 20:55:39] INFO root fetch - processPackages [images-upload-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/images_upload_cli-1.1.2.tar.gz tmp/images_upload_cli-1.1.3a0.tar.gz --markdown 20230508/i/images-upload-cli/1.1.2-1.1.3a0/diff.md --exclude *.pyd
+[2023-05-08 20:55:39] INFO root fetch - processPackages [gravitypy]: Downloading https://files.pythonhosted.org/packages/ff/d4/866b8846c9ea1586ebd0614a5c6c7cb19d2f6c31a9abc900988d990f03d0/gravitypy-1.1.2.tar.gz
+[2023-05-08 20:55:39] INFO root fetch - processPackages [goblet-gcp-client]: Downloading https://files.pythonhosted.org/packages/62/5c/01480beb23e826f564658c376590ecca0e604f6c49ecdeb0397b1fe5b622/goblet_gcp_client-0.1.4.tar.gz
+[2023-05-08 20:55:39] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-05-08 20:55:39] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-2.0.8.tar.gz tmp/dxsp-2.0.9.tar.gz --markdown 20230508/d/dxsp/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-08 20:55:39] INFO root fetch - processPackages [alphabetize]: Downloading https://files.pythonhosted.org/packages/b0/ef/97931b6b46f54f358afdfbde1d39c86595829dbb2e7cf1e6abf64b806637/alphabetize-0.0.8.tar.gz
+[2023-05-08 20:55:39] INFO root fetch - processPackages [dicom-numpy]: Downloading https://files.pythonhosted.org/packages/38/d8/2405c31a14521a2143d304787b277c4bbc37ccd392f926dc8aa0ec00c67a/dicom_numpy-0.6.4.tar.gz
+[2023-05-08 20:55:40] INFO root fetch - processPackages [FreeMobileConso]: Downloading https://files.pythonhosted.org/packages/48/60/370e78d376d80afc050c4f888cf0082d83ce0e8ff6014962a79386b5d230/FreeMobileConso-0.0.3.tar.gz
+[2023-05-08 20:55:40] INFO root fetch - processPackages [FreeMobileConso]: Downloading https://files.pythonhosted.org/packages/48/60/370e78d376d80afc050c4f888cf0082d83ce0e8ff6014962a79386b5d230/FreeMobileConso-0.0.3.tar.gz
+[2023-05-08 20:55:40] INFO root fetch - processPackages [blint]: Downloading https://files.pythonhosted.org/packages/ef/1d/0d52caf776f421b2974c0acb7dc1b6c2eff608597c6d6f5bceff17b2df85/blint-1.0.9.tar.gz
+[2023-05-08 20:55:40] INFO root fetch - processPackages [gravitypy]: executing diffoscope
+[2023-05-08 20:55:40] INFO root fetch - processPackages [gravitypy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gravitypy-1.1.1.tar.gz tmp/gravitypy-1.1.2.tar.gz --markdown 20230508/g/gravitypy/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-08 20:55:40] INFO root fetch - processPackages [dicom-numpy]: executing diffoscope
+[2023-05-08 20:55:40] INFO root fetch - processPackages [dicom-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicom_numpy-0.6.3.tar.gz tmp/dicom_numpy-0.6.4.tar.gz --markdown 20230508/d/dicom-numpy/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-05-08 20:55:40] INFO root fetch - processPackages [FreeMobileConso]: executing diffoscope
+[2023-05-08 20:55:40] INFO root fetch - processPackages [FreeMobileConso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FreeMobileConso-0.0.2.tar.gz tmp/FreeMobileConso-0.0.3.tar.gz --markdown 20230508/F/FreeMobileConso/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-08 20:55:40] INFO root fetch - processPackages [FreeMobileConso]: executing diffoscope
+[2023-05-08 20:55:40] INFO root fetch - processPackages [FreeMobileConso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FreeMobileConso-0.0.2.tar.gz tmp/FreeMobileConso-0.0.3.tar.gz --markdown 20230508/F/FreeMobileConso/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-08 20:55:40] INFO root fetch - processPackages [goblet-gcp-client]: executing diffoscope
+[2023-05-08 20:55:40] INFO root fetch - processPackages [goblet-gcp-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goblet_gcp_client-0.1.3.tar.gz tmp/goblet_gcp_client-0.1.4.tar.gz --markdown 20230508/g/goblet-gcp-client/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-08 20:55:40] INFO root fetch - processPackages [blint]: executing diffoscope
+[2023-05-08 20:55:40] INFO root fetch - processPackages [blint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blint-1.0.8.tar.gz tmp/blint-1.0.9.tar.gz --markdown 20230508/b/blint/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-08 20:55:40] INFO root fetch - processPackages [alphabetize]: executing diffoscope
+[2023-05-08 20:55:40] INFO root fetch - processPackages [alphabetize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphabetize-0.0.7.tar.gz tmp/alphabetize-0.0.8.tar.gz --markdown 20230508/a/alphabetize/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-08 20:55:40] INFO root fetch - processPackages [open-space-toolkit-astrodynamics]: Downloading https://files.pythonhosted.org/packages/c7/ff/670fe3cfb09ff46cfcd2aa0e6a5ee5bcebbd6d3b88d33fc50e4f8c38b2a5/open_space_toolkit_astrodynamics-0.9.3-py39-none-any.whl
+[2023-05-08 20:55:41] INFO root fetch - main [MainThread]: End processing [images-upload-cli]: success
+[2023-05-08 20:55:41] INFO root fetch - processPackages [open-space-toolkit-astrodynamics]: executing diffoscope
+[2023-05-08 20:55:41] INFO root fetch - processPackages [open-space-toolkit-astrodynamics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_space_toolkit_astrodynamics-0.9.2-py39-none-any.whl.zip tmp/open_space_toolkit_astrodynamics-0.9.3-py39-none-any.whl.zip --markdown 20230508/o/open-space-toolkit-astrodynamics/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-08 20:55:41] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-05-08 20:55:41] INFO root fetch - main [MainThread]: End processing [gravitypy]: success
+[2023-05-08 20:55:41] INFO root fetch - main [MainThread]: End processing [FreeMobileConso]: success
+[2023-05-08 20:55:41] INFO root fetch - main [MainThread]: End processing [dicom-numpy]: success
+[2023-05-08 20:55:41] INFO root fetch - main [MainThread]: End processing [FreeMobileConso]: success
+[2023-05-08 20:55:41] INFO root fetch - main [MainThread]: End processing [alphabetize]: success
+[2023-05-08 20:55:41] INFO root fetch - main [MainThread]: End processing [goblet-gcp-client]: success
+[2023-05-08 20:55:42] INFO root fetch - main [MainThread]: End processing [blint]: success
+[2023-05-08 20:55:50] INFO root fetch - main [MainThread]: End processing [open-space-toolkit-astrodynamics]: success
+[2023-05-08 20:55:50] INFO root fetch - main [MainThread]: Store serial: [18020947]
