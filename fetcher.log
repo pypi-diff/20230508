@@ -7446,3 +7446,47 @@
 [2023-05-08 09:50:23] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2023-05-08 09:50:29] INFO root fetch - main [MainThread]: End processing [muffin-admin]: success
 [2023-05-08 09:50:29] INFO root fetch - main [MainThread]: Store serial: [18014220]
+[2023-05-08 09:55:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18014220]
+[2023-05-08 09:55:39] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-08 09:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: syncer
+[2023-05-08 09:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zillionare-backtest
+[2023-05-08 09:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-nightly-cpu
+[2023-05-08 09:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: twnet-parser
+[2023-05-08 09:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: inverse
+[2023-05-08 09:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: robotframework-reportportal-updated
+[2023-05-08 09:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tinybird-cli
+[2023-05-08 09:55:39] INFO root fetch - processPackages [syncer]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-05-08 09:55:39] INFO root fetch - processPackages [twnet-parser]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-08 09:55:39] INFO root fetch - processPackages [zillionare-backtest]: New version: [0.4.19] Old Version: [0.4.18]
+[2023-05-08 09:55:39] INFO root fetch - processPackages [robotframework-reportportal-updated]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-08 09:55:39] INFO root fetch - processPackages [inverse]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 09:55:39] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230508] Old Version: [2.14.0.dev20230507]
+[2023-05-08 09:55:39] INFO root fetch - processPackages [tinybird-cli]: New version: [1.0.0b99] Old Version: [1.0.0b98]
+[2023-05-08 09:55:39] INFO root fetch - processPackages [zillionare-backtest]: Downloading https://files.pythonhosted.org/packages/e2/05/50d09e10fba87d5c3af0c7ac333217ce0420e26e1c47d3740e3873c82475/zillionare_backtest-0.4.18.tar.gz
+[2023-05-08 09:55:39] INFO root fetch - processPackages [robotframework-reportportal-updated]: executing diffoscope
+[2023-05-08 09:55:39] INFO root fetch - processPackages [robotframework-reportportal-updated]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-reportportal_updated-1.0.2.tar.gz tmp/robotframework-reportportal_updated-1.0.3.tar.gz --markdown 20230508/r/robotframework-reportportal-updated/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-08 09:55:39] INFO root fetch - processPackages [inverse]: executing diffoscope
+[2023-05-08 09:55:39] INFO root fetch - processPackages [inverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inverse-0.0.8-py3-none-any.whl.zip tmp/inverse-0.0.9-py3-none-any.whl.zip --markdown 20230508/i/inverse/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 09:55:39] INFO root fetch - processPackages [twnet-parser]: executing diffoscope
+[2023-05-08 09:55:39] INFO root fetch - processPackages [twnet-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twnet_parser-0.5.0.tar.gz tmp/twnet_parser-0.5.1.tar.gz --markdown 20230508/t/twnet-parser/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-08 09:55:39] INFO root fetch - processPackages [syncer]: Downloading https://files.pythonhosted.org/packages/8d/dd/d4dd75843692690d81f0a4b929212a1614b25d4896aa7c72f4c3546c7e3d/syncer-2.0.3.tar.gz
+[2023-05-08 09:55:39] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/cf/bc/f6fe2aa48ad97fc6f03b105a263497f0cc5d7173fa89703bbc609c18f13a/tinybird-cli-1.0.0b98.tar.gz
+[2023-05-08 09:55:40] INFO root fetch - processPackages [syncer]: executing diffoscope
+[2023-05-08 09:55:40] INFO root fetch - processPackages [syncer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncer-2.0.2.tar.gz tmp/syncer-2.0.3.tar.gz --markdown 20230508/s/syncer/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-05-08 09:55:40] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/86/35/9431a39878e1942b88ce43f8172b64474c2fbee2ac5b2d670e8fd247809e/tf_nightly_cpu-2.14.0.dev20230508-cp39-cp39-win_amd64.whl
+[2023-05-08 09:55:40] INFO root fetch - processPackages [zillionare-backtest]: Downloading https://files.pythonhosted.org/packages/85/1e/e1f1766e07971114f93bb79e04895f7f17ae4c1eabe9feeeea099f0c24b9/zillionare_backtest-0.4.19.tar.gz
+[2023-05-08 09:55:40] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/6a/27/a5d411f1a02b44b9f386c7d18397784dcaa5fe1129d9a77e87a5e048edc5/tinybird-cli-1.0.0b99.tar.gz
+[2023-05-08 09:55:40] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-05-08 09:55:40] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230507-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230508-cp39-cp39-win_amd64.whl.zip --markdown 20230508/t/tf-nightly-cpu/2.14.0.dev20230507-2.14.0.dev20230508/diff.md --exclude *.pyd
+[2023-05-08 09:55:40] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2023-05-08 09:55:40] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-1.0.0b98.tar.gz tmp/tinybird-cli-1.0.0b99.tar.gz --markdown 20230508/t/tinybird-cli/1.0.0b98-1.0.0b99/diff.md --exclude *.pyd
+[2023-05-08 09:55:40] INFO root fetch - processPackages [zillionare-backtest]: executing diffoscope
+[2023-05-08 09:55:40] INFO root fetch - processPackages [zillionare-backtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zillionare_backtest-0.4.18.tar.gz tmp/zillionare_backtest-0.4.19.tar.gz --markdown 20230508/z/zillionare-backtest/0.4.18-0.4.19/diff.md --exclude *.pyd
+[2023-05-08 09:55:41] INFO root fetch - main [MainThread]: End processing [robotframework-reportportal-updated]: success
+[2023-05-08 09:55:41] INFO root fetch - main [MainThread]: End processing [syncer]: success
+[2023-05-08 09:55:41] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-05-08 09:55:41] INFO root fetch - main [MainThread]: End processing [inverse]: success
+[2023-05-08 09:55:41] INFO root fetch - main [MainThread]: End processing [twnet-parser]: success
+[2023-05-08 09:55:41] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2023-05-08 09:55:42] INFO root fetch - main [MainThread]: End processing [zillionare-backtest]: success
+[2023-05-08 09:55:42] INFO root fetch - main [MainThread]: Store serial: [18014242]
