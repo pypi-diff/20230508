@@ -22696,3 +22696,85 @@ EOFError: EOF read where object expected
 [2023-05-08 23:36:12] INFO root fetch - main [MainThread]: End processing [kittycad]: success
 [2023-05-08 23:36:12] INFO root fetch - main [MainThread]: End processing [coiled]: success
 [2023-05-08 23:36:12] INFO root fetch - main [MainThread]: Store serial: [18022840]
+[2023-05-08 23:41:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18022840]
+[2023-05-08 23:41:21] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-08 23:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ramodels
+[2023-05-08 23:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lightning-toolbox
+[2023-05-08 23:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: finetune-eval-harness
+[2023-05-08 23:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: virtru-sdk
+[2023-05-08 23:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: astro-elk
+[2023-05-08 23:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: exciton
+[2023-05-08 23:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyZeta
+[2023-05-08 23:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: acstools
+[2023-05-08 23:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: windmill-api
+[2023-05-08 23:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wmill
+[2023-05-08 23:41:21] INFO root fetch - processPackages [finetune-eval-harness]: New version: [0.6.0.dev0] Old Version: [0.5.0.dev0]
+[2023-05-08 23:41:21] INFO root fetch - processPackages [astro-elk]: New version: [0.1] Old Version: [0.0]
+[2023-05-08 23:41:21] INFO root fetch - processPackages [lightning-toolbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 23:41:22] INFO root fetch - processPackages [exciton]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-05-08 23:41:22] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-05-08 23:41:22] INFO root fetch - processPackages [wmill]: New version: [1.96.1] Old Version: [1.96.0]
+[2023-05-08 23:41:22] INFO root fetch - processPackages [windmill-api]: New version: [1.96.1] Old Version: [1.96.0]
+[2023-05-08 23:41:22] INFO root fetch - processPackages [virtru-sdk]: New version: [2.7.0a1323] Old Version: [2.7.0a1321]
+[2023-05-08 23:41:22] INFO root fetch - processPackages [acstools]: New version: [3.6.0] Old Version: [3.5.0]
+[2023-05-08 23:41:22] WARNING root fetch - processPackages [PyZeta]: Skipping, unable to determine old version
+[2023-05-08 23:41:22] INFO root fetch - processPackages [PyZeta]: Start processing: FicImage
+[2023-05-08 23:41:22] INFO root fetch - main [MainThread]: End processing [PyZeta] error
+[2023-05-08 23:41:22] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-05-08 23:41:22] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230508/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-05-08 23:41:22] INFO root fetch - processPackages [FicImage]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-08 23:41:22] INFO root fetch - processPackages [finetune-eval-harness]: Downloading https://files.pythonhosted.org/packages/ff/93/f44bb93451d06ba4c22993cf6aa23e5dba8d2f73c269e76b7e12c98044be/finetune_eval_harness-0.5.0.dev0.tar.gz
+[2023-05-08 23:41:22] INFO root fetch - processPackages [lightning-toolbox]: Downloading https://files.pythonhosted.org/packages/0e/a2/e33a2f505b9b8fa696b16975fe34a55c42dc96902865f16c6627044aa9b8/lightning_toolbox-0.0.8.tar.gz
+[2023-05-08 23:41:22] INFO root fetch - processPackages [exciton]: Downloading https://files.pythonhosted.org/packages/c4/7f/546648c6e5c4c662b7d83eacbcb5ff2d900d2824a2933bd3ab09280a8d0c/exciton-2.0.1-py3-none-any.whl
+[2023-05-08 23:41:22] INFO root fetch - processPackages [virtru-sdk]: Downloading https://files.pythonhosted.org/packages/5e/f6/a6cfbe7db84aeabb0e44ec7555ddad6446143fda79bd9a57b7181034fe3f/virtru_sdk-2.7.0a1323-cp39-cp39-win_amd64.whl
+[2023-05-08 23:41:22] INFO root fetch - processPackages [astro-elk]: Downloading https://files.pythonhosted.org/packages/49/b4/e2f71169a788ac818d3c0aca36fac69c35ca0de054935de0fc554b3f8cee/astro-elk-0.0.tar.gz
+[2023-05-08 23:41:22] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/a3/49/2e031e632b030199d746aa8edaaf4ffeacf5aeae89a5d003eeb9ce67492f/windmill_api-1.96.1.tar.gz
+[2023-05-08 23:41:22] INFO root fetch - processPackages [FicImage]: executing diffoscope
+[2023-05-08 23:41:22] INFO root fetch - processPackages [FicImage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FicImage-1.0.0.tar.gz tmp/FicImage-1.0.1.tar.gz --markdown 20230508/F/FicImage/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-08 23:41:22] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/62/ad/e157b12c93d0c3d6b2ec08f3f0afa5dbc129e71ebf61dce1ae0e0d80fc8a/wmill-1.96.1.tar.gz
+[2023-05-08 23:41:22] INFO root fetch - processPackages [acstools]: Downloading https://files.pythonhosted.org/packages/fb/a5/0fbee65af7cd40ecf03c6e42e26997128380dc2c3c5ccce5cb6dba29d53a/acstools-3.5.0.tar.gz
+[2023-05-08 23:41:22] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2023-05-08 23:41:22] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.96.0.tar.gz tmp/wmill-1.96.1.tar.gz --markdown 20230508/w/wmill/1.96.0-1.96.1/diff.md --exclude *.pyd
+[2023-05-08 23:41:22] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2023-05-08 23:41:22] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.96.0.tar.gz tmp/windmill_api-1.96.1.tar.gz --markdown 20230508/w/windmill-api/1.96.0-1.96.1/diff.md --exclude *.pyd
+[2023-05-08 23:41:22] INFO root fetch - processPackages [virtru-sdk]: executing diffoscope
+[2023-05-08 23:41:22] INFO root fetch - processPackages [virtru-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/virtru_sdk-2.7.0a1321-cp39-cp39-win_amd64.whl.zip tmp/virtru_sdk-2.7.0a1323-cp39-cp39-win_amd64.whl.zip --markdown 20230508/v/virtru-sdk/2.7.0a1321-2.7.0a1323/diff.md --exclude *.pyd
+[2023-05-08 23:41:22] INFO root fetch - processPackages [finetune-eval-harness]: Downloading https://files.pythonhosted.org/packages/1f/78/5606610e4b474cb8552a4fdfbae46a90ff087c632452a9a95c331260097f/finetune_eval_harness-0.6.0.dev0.tar.gz
+[2023-05-08 23:41:22] INFO root fetch - processPackages [exciton]: Downloading https://files.pythonhosted.org/packages/10/d3/4ce4c9570eda4d3023c2cf297d7732a175297c5b8dd4b2c00d7daa1dfb61/exciton-2.0.2-py3-none-any.whl
+[2023-05-08 23:41:22] INFO root fetch - processPackages [astro-elk]: Downloading https://files.pythonhosted.org/packages/6f/19/bbe48253c01700123f5bf9a62cad3fd05073ba80f273c0e935714cfb3b05/astro-elk-0.1.tar.gz
+[2023-05-08 23:41:22] INFO root fetch - processPackages [lightning-toolbox]: Downloading https://files.pythonhosted.org/packages/c9/f1/39547b268254026a2f0a4856694ac92d2cb143183580588cfd3696575465/lightning_toolbox-0.0.9.tar.gz
+[2023-05-08 23:41:22] INFO root fetch - processPackages [finetune-eval-harness]: executing diffoscope
+[2023-05-08 23:41:22] INFO root fetch - processPackages [finetune-eval-harness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finetune_eval_harness-0.5.0.dev0.tar.gz tmp/finetune_eval_harness-0.6.0.dev0.tar.gz --markdown 20230508/f/finetune-eval-harness/0.5.0.dev0-0.6.0.dev0/diff.md --exclude *.pyd
+[2023-05-08 23:41:22] INFO root fetch - processPackages [exciton]: executing diffoscope
+[2023-05-08 23:41:22] INFO root fetch - processPackages [exciton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exciton-2.0.1-py3-none-any.whl.zip tmp/exciton-2.0.2-py3-none-any.whl.zip --markdown 20230508/e/exciton/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-05-08 23:41:22] INFO root fetch - processPackages [lightning-toolbox]: executing diffoscope
+[2023-05-08 23:41:22] INFO root fetch - processPackages [lightning-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning_toolbox-0.0.8.tar.gz tmp/lightning_toolbox-0.0.9.tar.gz --markdown 20230508/l/lightning-toolbox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 23:41:22] INFO root fetch - processPackages [astro-elk]: executing diffoscope
+[2023-05-08 23:41:22] INFO root fetch - processPackages [astro-elk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro-elk-0.0.tar.gz tmp/astro-elk-0.1.tar.gz --markdown 20230508/a/astro-elk/0.0-0.1/diff.md --exclude *.pyd
+[2023-05-08 23:41:22] INFO root fetch - processPackages [acstools]: Downloading https://files.pythonhosted.org/packages/1d/3e/d48e919f72605f6ff153e2d2e74ba5a5cfb6bf5ff8070118eb166d088918/acstools-3.6.0.tar.gz
+[2023-05-08 23:41:22] INFO root fetch - processPackages [acstools]: executing diffoscope
+[2023-05-08 23:41:22] INFO root fetch - processPackages [acstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acstools-3.5.0.tar.gz tmp/acstools-3.6.0.tar.gz --markdown 20230508/a/acstools/3.5.0-3.6.0/diff.md --exclude *.pyd
+[2023-05-08 23:41:23] INFO root fetch - processPackages [wmill]: Start processing: wmill-pg
+[2023-05-08 23:41:23] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2023-05-08 23:41:23] INFO root fetch - processPackages [wmill-pg]: New version: [1.96.1] Old Version: [1.96.0]
+[2023-05-08 23:41:23] INFO root fetch - processPackages [FicImage]: Start processing: pysnc
+[2023-05-08 23:41:23] INFO root fetch - main [MainThread]: End processing [FicImage]: success
+[2023-05-08 23:41:23] INFO root fetch - main [MainThread]: End processing [virtru-sdk]: success
+[2023-05-08 23:41:23] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/de/ef/09ed10ce1362005bd0bc9ba9753ac246fd3a1e94d05169b4c806edd4dbe2/wmill_pg-1.96.1.tar.gz
+[2023-05-08 23:41:24] INFO root fetch - processPackages [pysnc]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-05-08 23:41:24] INFO root fetch - main [MainThread]: End processing [lightning-toolbox]: success
+[2023-05-08 23:41:24] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2023-05-08 23:41:24] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.96.0.tar.gz tmp/wmill_pg-1.96.1.tar.gz --markdown 20230508/w/wmill-pg/1.96.0-1.96.1/diff.md --exclude *.pyd
+[2023-05-08 23:41:24] INFO root fetch - main [MainThread]: End processing [astro-elk]: success
+[2023-05-08 23:41:24] INFO root fetch - processPackages [pysnc]: Downloading https://files.pythonhosted.org/packages/02/75/d3bf337bea307262a21e3edcfb8627805382698581f4db9bbd7f5679cb85/pysnc-1.1.3.tar.gz
+[2023-05-08 23:41:24] INFO root fetch - main [MainThread]: End processing [finetune-eval-harness]: success
+[2023-05-08 23:41:24] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-05-08 23:41:24] INFO root fetch - main [MainThread]: End processing [exciton]: success
+[2023-05-08 23:41:24] INFO root fetch - processPackages [pysnc]: Downloading https://files.pythonhosted.org/packages/1b/12/9c9907366d6c16f400dbdf86f6cfdc0c57596a00e9ca806d0c19af80a84e/pysnc-1.1.4.tar.gz
+[2023-05-08 23:41:24] INFO root fetch - processPackages [pysnc]: executing diffoscope
+[2023-05-08 23:41:24] INFO root fetch - processPackages [pysnc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysnc-1.1.3.tar.gz tmp/pysnc-1.1.4.tar.gz --markdown 20230508/p/pysnc/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-05-08 23:41:25] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2023-05-08 23:41:25] INFO root fetch - main [MainThread]: End processing [pysnc]: success
+[2023-05-08 23:41:41] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2023-05-08 23:41:55] INFO root fetch - main [MainThread]: End processing [acstools]: success
+[2023-05-08 23:41:55] INFO root fetch - main [MainThread]: Store serial: [18022898]
