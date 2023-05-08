@@ -9892,3 +9892,40 @@
 [2023-05-08 12:18:13] INFO root fetch - main [MainThread]: End processing [domainlab]: success
 [2023-05-08 12:18:21] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-05-08 12:18:21] INFO root fetch - main [MainThread]: Store serial: [18015549]
+[2023-05-08 12:23:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18015549]
+[2023-05-08 12:23:30] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-08 12:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: regis
+[2023-05-08 12:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opensesame-extension-osweb
+[2023-05-08 12:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.projen-awscdk-app-ts
+[2023-05-08 12:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xyznetwork-lib
+[2023-05-08 12:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.projen-awscdk-app-ts
+[2023-05-08 12:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: muffin-admin
+[2023-05-08 12:23:30] INFO root fetch - processPackages [muffin-admin]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-05-08 12:23:30] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-08 12:23:30] WARNING root fetch - processPackages [xyznetwork-lib]: Skipping, unable to determine old version
+[2023-05-08 12:23:30] INFO root fetch - main [MainThread]: End processing [xyznetwork-lib] error
+[2023-05-08 12:23:30] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-08 12:23:30] INFO root fetch - processPackages [regis]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 12:23:30] INFO root fetch - processPackages [opensesame-extension-osweb]: New version: [2.0.0.0a8] Old Version: [2.0.0.0a7]
+[2023-05-08 12:23:30] INFO root fetch - processPackages [muffin-admin]: executing diffoscope
+[2023-05-08 12:23:30] INFO root fetch - processPackages [muffin-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muffin-admin-1.8.1.tar.gz tmp/muffin-admin-1.9.0.tar.gz --markdown 20230508/m/muffin-admin/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-05-08 12:23:30] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/28/fc/54f1f63eb379b5c5560d5fe273751ff4c753fea4870c4ba1a754b481df0c/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz
+[2023-05-08 12:23:30] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/28/fc/54f1f63eb379b5c5560d5fe273751ff4c753fea4870c4ba1a754b481df0c/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz
+[2023-05-08 12:23:30] INFO root fetch - processPackages [opensesame-extension-osweb]: Downloading https://files.pythonhosted.org/packages/2c/ab/aa15ddb5c5f2d8de63578570bbe2554adc1df58ce6d85dcb194f32bc4e45/opensesame_extension_osweb-2.0.0.0a7.tar.gz
+[2023-05-08 12:23:30] INFO root fetch - processPackages [regis]: executing diffoscope
+[2023-05-08 12:23:30] INFO root fetch - processPackages [regis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regis-0.1.8.tar.gz tmp/regis-0.1.9.tar.gz --markdown 20230508/r/regis/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 12:23:31] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/44/cb/73b41b7503716cd836989732ed965709837bacf1b66b147f95689ad44458/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz
+[2023-05-08 12:23:31] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/44/cb/73b41b7503716cd836989732ed965709837bacf1b66b147f95689ad44458/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz
+[2023-05-08 12:23:31] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: executing diffoscope
+[2023-05-08 12:23:31] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz --markdown 20230508/p/pepperize.projen-awscdk-app-ts/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-08 12:23:31] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: executing diffoscope
+[2023-05-08 12:23:31] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz --markdown 20230508/p/pepperize.projen-awscdk-app-ts/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-08 12:23:31] INFO root fetch - processPackages [opensesame-extension-osweb]: Downloading https://files.pythonhosted.org/packages/e2/46/ee470f21782300a5123157400f6bdbca9c0563d6d55aa391586b704a810e/opensesame_extension_osweb-2.0.0.0a8.tar.gz
+[2023-05-08 12:23:31] INFO root fetch - processPackages [opensesame-extension-osweb]: executing diffoscope
+[2023-05-08 12:23:31] INFO root fetch - processPackages [opensesame-extension-osweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensesame_extension_osweb-2.0.0.0a7.tar.gz tmp/opensesame_extension_osweb-2.0.0.0a8.tar.gz --markdown 20230508/o/opensesame-extension-osweb/2.0.0.0a7-2.0.0.0a8/diff.md --exclude *.pyd
+[2023-05-08 12:23:32] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-app-ts]: success
+[2023-05-08 12:23:32] INFO root fetch - main [MainThread]: End processing [regis]: success
+[2023-05-08 12:23:32] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-app-ts]: success
+[2023-05-08 12:23:33] INFO root fetch - main [MainThread]: End processing [opensesame-extension-osweb]: success
+[2023-05-08 12:23:50] INFO root fetch - main [MainThread]: End processing [muffin-admin]: success
+[2023-05-08 12:23:50] INFO root fetch - main [MainThread]: Store serial: [18015568]
