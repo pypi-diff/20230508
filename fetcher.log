@@ -21891,3 +21891,78 @@ EOFError: EOF read where object expected
 [2023-05-08 22:39:09] INFO root fetch - main [MainThread]: End processing [diffcord]: success
 [2023-05-08 22:39:09] INFO root fetch - main [MainThread]: End processing [dreamai]: success
 [2023-05-08 22:39:09] INFO root fetch - main [MainThread]: Store serial: [18022328]
+[2023-05-08 22:44:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18022328]
+[2023-05-08 22:44:18] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-08 22:44:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: me-setups
+[2023-05-08 22:44:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FuncsForSPO
+[2023-05-08 22:44:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yohsin3d
+[2023-05-08 22:44:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pynecone
+[2023-05-08 22:44:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: splight-lib
+[2023-05-08 22:44:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: linear-garage-door
+[2023-05-08 22:44:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mathexternal
+[2023-05-08 22:44:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tecton
+[2023-05-08 22:44:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: joinboost
+[2023-05-08 22:44:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pycloaker
+[2023-05-08 22:44:18] INFO root fetch - processPackages [yohsin3d]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-08 22:44:18] INFO root fetch - processPackages [me-setups]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-05-08 22:44:19] WARNING root fetch - processPackages [mathexternal]: Skipping, unable to determine old version
+[2023-05-08 22:44:19] INFO root fetch - processPackages [mathexternal]: Start processing: REMLA23-team12-lib
+[2023-05-08 22:44:19] INFO root fetch - main [MainThread]: End processing [mathexternal] error
+[2023-05-08 22:44:19] INFO root fetch - processPackages [FuncsForSPO]: New version: [4.41.3] Old Version: [4.41.2]
+[2023-05-08 22:44:19] INFO root fetch - processPackages [splight-lib]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-08 22:44:19] INFO root fetch - processPackages [pynecone]: New version: [0.1.29a0] Old Version: [0.1.28a2]
+[2023-05-08 22:44:19] WARNING root fetch - processPackages [pycloaker]: Skipping, unable to determine old version
+[2023-05-08 22:44:19] INFO root fetch - processPackages [pycloaker]: Start processing: shub-workflow
+[2023-05-08 22:44:19] INFO root fetch - main [MainThread]: End processing [pycloaker] error
+[2023-05-08 22:44:19] INFO root fetch - processPackages [linear-garage-door]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-08 22:44:19] INFO root fetch - processPackages [joinboost]: New version: [0.0.1522] Old Version: [0.0.1521]
+[2023-05-08 22:44:19] INFO root fetch - processPackages [splight-lib]: executing diffoscope
+[2023-05-08 22:44:19] INFO root fetch - processPackages [splight-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight-lib-2.3.8.tar.gz tmp/splight-lib-2.3.9.tar.gz --markdown 20230508/s/splight-lib/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-08 22:44:19] WARNING root fetch - processPackages [REMLA23-team12-lib]: Skipping, unable to determine old version
+[2023-05-08 22:44:19] INFO root fetch - processPackages [REMLA23-team12-lib]: Start processing: tfp-causalimpact
+[2023-05-08 22:44:19] INFO root fetch - main [MainThread]: End processing [REMLA23-team12-lib] error
+[2023-05-08 22:44:19] INFO root fetch - processPackages [me-setups]: executing diffoscope
+[2023-05-08 22:44:19] INFO root fetch - processPackages [me-setups]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/me_setups-1.6.8.tar.gz tmp/me_setups-1.6.9.tar.gz --markdown 20230508/m/me-setups/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-05-08 22:44:19] INFO root fetch - processPackages [shub-workflow]: New version: [1.9.7.4] Old Version: [1.9.7.3]
+[2023-05-08 22:44:19] INFO root fetch - processPackages [yohsin3d]: Downloading https://files.pythonhosted.org/packages/4d/91/9ceabe3b2742bc263c78e47feb6c2a2ab9f7681321ff1a2e94d68bb39c7f/yohsin3d-0.4.0.tar.gz
+[2023-05-08 22:44:19] INFO root fetch - processPackages [tecton]: New version: [0.7.0b9] Old Version: [0.7.0b8]
+[2023-05-08 22:44:19] INFO root fetch - processPackages [FuncsForSPO]: Downloading https://files.pythonhosted.org/packages/af/32/20b6e533db77b7f001551ce6660eba1d0e7e9c5cbcc0ddd930382135161e/FuncsForSPO-4.41.3.tar.gz
+[2023-05-08 22:44:19] INFO root fetch - processPackages [pynecone]: Downloading https://files.pythonhosted.org/packages/b1/8b/c02eb792b1c848e53f26d0e2ad6102bcbcbf53786524e82b9bb87bc134e5/pynecone-0.1.28a2.tar.gz
+[2023-05-08 22:44:19] INFO root fetch - processPackages [shub-workflow]: executing diffoscope
+[2023-05-08 22:44:19] INFO root fetch - processPackages [shub-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shub-workflow-1.9.7.3.tar.gz tmp/shub-workflow-1.9.7.4.tar.gz --markdown 20230508/s/shub-workflow/1.9.7.3-1.9.7.4/diff.md --exclude *.pyd
+[2023-05-08 22:44:19] INFO root fetch - processPackages [linear-garage-door]: Downloading https://files.pythonhosted.org/packages/9b/0d/ffed866ee3c6659a013b0852ef944197f9298855624ada9dfe1fc0fa505b/linear_garage_door-0.2.5.tar.gz
+[2023-05-08 22:44:19] INFO root fetch - processPackages [joinboost]: Downloading https://files.pythonhosted.org/packages/7b/37/e9b77d4368c51ca772a6647993f0cff611682a52df00ae86b84dca4877c9/joinboost-0.0.1521.tar.gz
+[2023-05-08 22:44:19] INFO root fetch - processPackages [tfp-causalimpact]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-08 22:44:19] INFO root fetch - processPackages [tecton]: Downloading https://files.pythonhosted.org/packages/ab/15/50fe8be1bdfae399aa601c6c83095d3815c92941e31e67f6dd894dc1d5e6/tecton-0.7.0b8.tar.gz
+[2023-05-08 22:44:19] INFO root fetch - processPackages [tfp-causalimpact]: Downloading https://files.pythonhosted.org/packages/ad/ae/4204104d215e3a7d6fe6cb5962f103a5288cb512fcc544df3b294cd53617/tfp_causalimpact-0.1.0-py3-none-any.whl
+[2023-05-08 22:44:19] INFO root fetch - processPackages [FuncsForSPO]: executing diffoscope
+[2023-05-08 22:44:19] INFO root fetch - processPackages [FuncsForSPO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FuncsForSPO-4.41.2.tar.gz tmp/FuncsForSPO-4.41.3.tar.gz --markdown 20230508/F/FuncsForSPO/4.41.2-4.41.3/diff.md --exclude *.pyd
+[2023-05-08 22:44:19] INFO root fetch - processPackages [yohsin3d]: Downloading https://files.pythonhosted.org/packages/56/bf/ff330241582986db993f2a08347ce62f8eddce43ad1cf74dbce2a3105c71/yohsin3d-0.4.1.tar.gz
+[2023-05-08 22:44:19] INFO root fetch - processPackages [linear-garage-door]: Downloading https://files.pythonhosted.org/packages/39/f1/08866aac2d63095a2ba0fb865f3ce39f05c84bcbee8bed7dfbd3ca21ed06/linear_garage_door-0.2.6.tar.gz
+[2023-05-08 22:44:19] INFO root fetch - processPackages [pynecone]: Downloading https://files.pythonhosted.org/packages/48/7d/5318856a33cd5ddf943c8fa334dacf3a5e5c215ec7d156929ba9c8999f1a/pynecone-0.1.29a0.tar.gz
+[2023-05-08 22:44:19] INFO root fetch - processPackages [yohsin3d]: executing diffoscope
+[2023-05-08 22:44:19] INFO root fetch - processPackages [yohsin3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yohsin3d-0.4.0.tar.gz tmp/yohsin3d-0.4.1.tar.gz --markdown 20230508/y/yohsin3d/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-08 22:44:19] INFO root fetch - processPackages [linear-garage-door]: executing diffoscope
+[2023-05-08 22:44:19] INFO root fetch - processPackages [linear-garage-door]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linear_garage_door-0.2.5.tar.gz tmp/linear_garage_door-0.2.6.tar.gz --markdown 20230508/l/linear-garage-door/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-08 22:44:19] INFO root fetch - processPackages [joinboost]: Downloading https://files.pythonhosted.org/packages/07/1d/240b7304c3ebddba141677128775a1c455eaf8d84a0bf7d82139cc6b2abf/joinboost-0.0.1522.tar.gz
+[2023-05-08 22:44:19] INFO root fetch - processPackages [pynecone]: executing diffoscope
+[2023-05-08 22:44:19] INFO root fetch - processPackages [pynecone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynecone-0.1.28a2.tar.gz tmp/pynecone-0.1.29a0.tar.gz --markdown 20230508/p/pynecone/0.1.28a2-0.1.29a0/diff.md --exclude *.pyd
+[2023-05-08 22:44:19] INFO root fetch - processPackages [tfp-causalimpact]: Downloading https://files.pythonhosted.org/packages/25/81/808cedbd2e8846745927841edc8681b48abc4d38f7a68905efe5d7836073/tfp-causalimpact-0.2.0.tar.gz
+[2023-05-08 22:44:20] INFO root fetch - processPackages [joinboost]: executing diffoscope
+[2023-05-08 22:44:20] INFO root fetch - processPackages [joinboost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/joinboost-0.0.1521.tar.gz tmp/joinboost-0.0.1522.tar.gz --markdown 20230508/j/joinboost/0.0.1521-0.0.1522/diff.md --exclude *.pyd
+[2023-05-08 22:44:20] INFO root fetch - processPackages [tfp-causalimpact]: executing diffoscope
+[2023-05-08 22:44:20] INFO root fetch - processPackages [tfp-causalimpact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_causalimpact-0.1.0-py3-none-any.whl.zip tmp/tfp-causalimpact-0.2.0.tar.gz --markdown 20230508/t/tfp-causalimpact/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-08 22:44:20] INFO root fetch - main [MainThread]: End processing [me-setups]: success
+[2023-05-08 22:44:20] INFO root fetch - main [MainThread]: End processing [shub-workflow]: success
+[2023-05-08 22:44:20] INFO root fetch - main [MainThread]: End processing [splight-lib]: success
+[2023-05-08 22:44:20] INFO root fetch - processPackages [tecton]: Downloading https://files.pythonhosted.org/packages/69/ce/1a0b9ac92ad90f7624d38a3450d2ad3914be1fa55edb89778b3f2e58f43c/tecton-0.7.0b9.tar.gz
+[2023-05-08 22:44:21] INFO root fetch - main [MainThread]: End processing [yohsin3d]: success
+[2023-05-08 22:44:21] INFO root fetch - main [MainThread]: End processing [linear-garage-door]: success
+[2023-05-08 22:44:21] INFO root fetch - processPackages [tecton]: executing diffoscope
+[2023-05-08 22:44:21] INFO root fetch - processPackages [tecton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tecton-0.7.0b8.tar.gz tmp/tecton-0.7.0b9.tar.gz --markdown 20230508/t/tecton/0.7.0b8-0.7.0b9/diff.md --exclude *.pyd
+[2023-05-08 22:44:22] INFO root fetch - main [MainThread]: End processing [joinboost]: success
+[2023-05-08 22:44:22] INFO root fetch - main [MainThread]: End processing [FuncsForSPO]: success
+[2023-05-08 22:44:24] INFO root fetch - main [MainThread]: End processing [pynecone]: success
+[2023-05-08 22:44:26] INFO root fetch - main [MainThread]: End processing [tecton]: success
+[2023-05-08 22:44:51] INFO root fetch - main [MainThread]: End processing [tfp-causalimpact]: success
+[2023-05-08 22:44:51] INFO root fetch - main [MainThread]: Store serial: [18022369]
