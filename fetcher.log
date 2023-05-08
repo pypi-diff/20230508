@@ -6314,3 +6314,19 @@
 [2023-05-08 08:30:10] INFO root fetch - main [MainThread]: End processing [tilelog]: success
 [2023-05-08 08:30:11] INFO root fetch - main [MainThread]: End processing [dsdl]: success
 [2023-05-08 08:30:11] INFO root fetch - main [MainThread]: Store serial: [18013483]
+[2023-05-08 08:35:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18013483]
+[2023-05-08 08:35:20] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-05-08 08:35:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: userfs
+[2023-05-08 08:35:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zahner-analysis
+[2023-05-08 08:35:20] INFO root fetch - processPackages [userfs]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-05-08 08:35:20] INFO root fetch - processPackages [zahner-analysis]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-08 08:35:20] INFO root fetch - processPackages [zahner-analysis]: Downloading https://files.pythonhosted.org/packages/74/e4/380e2980e91f45f4ac35a052d50eca31967796c4a7104ce56bd4421e8c9d/zahner_analysis-1.0.5.tar.gz
+[2023-05-08 08:35:20] INFO root fetch - processPackages [userfs]: Downloading https://files.pythonhosted.org/packages/9a/78/d5e89eef0290465f59c41a1c33308c8ad350e715ccde40a46fbd1cc59ac3/userfs-1.1.0.tar.gz
+[2023-05-08 08:35:20] INFO root fetch - processPackages [userfs]: executing diffoscope
+[2023-05-08 08:35:20] INFO root fetch - processPackages [userfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/userfs-1.0.2.tar.gz tmp/userfs-1.1.0.tar.gz --markdown 20230508/u/userfs/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-05-08 08:35:21] INFO root fetch - processPackages [zahner-analysis]: Downloading https://files.pythonhosted.org/packages/63/5d/6ce9fb2607a6c440b69876aa576307af8ab34c428eccaddfd6be9e679114/zahner_analysis-1.0.6.tar.gz
+[2023-05-08 08:35:21] INFO root fetch - processPackages [zahner-analysis]: executing diffoscope
+[2023-05-08 08:35:21] INFO root fetch - processPackages [zahner-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zahner_analysis-1.0.5.tar.gz tmp/zahner_analysis-1.0.6.tar.gz --markdown 20230508/z/zahner-analysis/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-08 08:35:21] INFO root fetch - main [MainThread]: End processing [userfs]: success
+[2023-05-08 08:35:23] INFO root fetch - main [MainThread]: End processing [zahner-analysis]: success
+[2023-05-08 08:35:23] INFO root fetch - main [MainThread]: Store serial: [18013489]
