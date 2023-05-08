@@ -8600,3 +8600,127 @@
 [2023-05-08 10:59:42] INFO root fetch - main [MainThread]: End processing [funasr]: success
 [2023-05-08 11:00:05] INFO root fetch - main [MainThread]: End processing [hestia-earth-distribution]: success
 [2023-05-08 11:00:05] INFO root fetch - main [MainThread]: Store serial: [18014843]
+[2023-05-08 11:05:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18014843]
+[2023-05-08 11:05:14] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-08 11:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zillionare-omicron
+[2023-05-08 11:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openstef
+[2023-05-08 11:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: atprototools
+[2023-05-08 11:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-ddmrp
+[2023-05-08 11:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wcfhttp
+[2023-05-08 11:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bicleaner-hardrules
+[2023-05-08 11:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pwl-chat-python
+[2023-05-08 11:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-naftali-CERT-1936-multiple-envfree-errors
+[2023-05-08 11:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: moped
+[2023-05-08 11:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autogluon.common
+[2023-05-08 11:05:14] INFO root fetch - processPackages [wcfhttp]: New version: [37.1.25.2] Old Version: [37.1.25.1]
+[2023-05-08 11:05:14] INFO root fetch - processPackages [bicleaner-hardrules]: New version: [2.8.1] Old Version: [2.8.0]
+[2023-05-08 11:05:14] INFO root fetch - processPackages [moped]: New version: [1rc1] Old Version: [1.9.9]
+[2023-05-08 11:05:14] INFO root fetch - processPackages [certora-cli-alpha-naftali-CERT-1936-multiple-envfree-errors]: New version: [20230508.9.3.168843] Old Version: [20230504.9.47.447849]
+[2023-05-08 11:05:14] INFO root fetch - processPackages [atprototools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 11:05:14] INFO root fetch - processPackages [odoo-addon-ddmrp]: New version: [15.0.1.5.0] Old Version: [15.0.1.4.1]
+[2023-05-08 11:05:14] INFO root fetch - processPackages [pwl-chat-python]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-05-08 11:05:14] INFO root fetch - processPackages [zillionare-omicron]: New version: [2.0.0a68] Old Version: [2.0.0a67]
+[2023-05-08 11:05:14] INFO root fetch - processPackages [openstef]: New version: [3.2.9] Old Version: [3.2.8]
+[2023-05-08 11:05:14] INFO root fetch - processPackages [autogluon.common]: New version: [0.7.1b20230508] Old Version: [0.7.1b20230507]
+[2023-05-08 11:05:14] INFO root fetch - processPackages [certora-cli-alpha-naftali-CERT-1936-multiple-envfree-errors]: Downloading https://files.pythonhosted.org/packages/d6/96/5dedec321f255554ae4d1f74c9d4136c0c427961b1d6dde7dbfcddd9b12c/certora-cli-alpha-naftali-CERT-1936_multiple_envfree_errors-20230504.9.47.447849.tar.gz
+[2023-05-08 11:05:14] INFO root fetch - processPackages [wcfhttp]: Downloading https://files.pythonhosted.org/packages/62/eb/f26f90ecc393cdef490344c0de4b783c71b72147290e7542065cc1cc67ae/wcfhttp-37.1.25.2.tar.gz
+[2023-05-08 11:05:14] INFO root fetch - processPackages [moped]: Downloading https://files.pythonhosted.org/packages/fa/e5/eae730d18630be4dc4e22bf10412607b7b68e8adba0ea08af0f1a74ce2ba/moped-1.9.9.tar.gz
+[2023-05-08 11:05:14] INFO root fetch - processPackages [atprototools]: Downloading https://files.pythonhosted.org/packages/6d/b5/ed5660a3a0f73b1be9707b60caae652e12ee7c5d92f2f19f9e5b843ae620/atprototools-0.0.8.tar.gz
+[2023-05-08 11:05:14] INFO root fetch - processPackages [bicleaner-hardrules]: Downloading https://files.pythonhosted.org/packages/bc/18/3b988a4e92f205ec69b269fca94037578ae4173fd2b74a2953d58389efaa/bicleaner-hardrules-2.8.0.tar.gz
+[2023-05-08 11:05:14] WARNING root fetch - processPackages [certora-cli-alpha-naftali-CERT-1936-multiple-envfree-errors]: Skipping package: exceeds size limit 38410124>=10485760
+[2023-05-08 11:05:14] INFO root fetch - processPackages [certora-cli-alpha-naftali-CERT-1936-multiple-envfree-errors]: Start processing: MCTThermalFace
+[2023-05-08 11:05:15] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-naftali-CERT-1936-multiple-envfree-errors] error
+[2023-05-08 11:05:15] INFO root fetch - processPackages [odoo-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/0b/95/73edb6002b976c098dbcfaae4de04c8023e738f0060bb170514ae8c88249/odoo_addon_ddmrp-15.0.1.4.1-py3-none-any.whl
+[2023-05-08 11:05:15] INFO root fetch - processPackages [MCTThermalFace]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-08 11:05:15] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/99/7e/041ded35aec485b411c22cd93c8dac3af404716bfeed4f6b77ed96d51b66/autogluon.common-0.7.1b20230508.tar.gz
+[2023-05-08 11:05:15] INFO root fetch - processPackages [pwl-chat-python]: Downloading https://files.pythonhosted.org/packages/1d/f8/a72ed43da3e7ab7a71003a8a780f2c290ec837879021e909fbe4efd50551/pwl-chat-python-1.3.2.tar.gz
+[2023-05-08 11:05:15] INFO root fetch - processPackages [wcfhttp]: executing diffoscope
+[2023-05-08 11:05:15] INFO root fetch - processPackages [wcfhttp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wcfhttp-37.1.25.1.tar.gz tmp/wcfhttp-37.1.25.2.tar.gz --markdown 20230508/w/wcfhttp/37.1.25.1-37.1.25.2/diff.md --exclude *.pyd
+[2023-05-08 11:05:15] INFO root fetch - processPackages [zillionare-omicron]: Downloading https://files.pythonhosted.org/packages/82/4b/5926f2e60188b889cd65c2520284892b2bda7bfea70f9965e1a75d72e6b2/zillionare_omicron-2.0.0a68.tar.gz
+[2023-05-08 11:05:15] INFO root fetch - processPackages [openstef]: executing diffoscope
+[2023-05-08 11:05:15] INFO root fetch - processPackages [openstef]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openstef-3.2.8.tar.gz tmp/openstef-3.2.9.tar.gz --markdown 20230508/o/openstef/3.2.8-3.2.9/diff.md --exclude *.pyd
+[2023-05-08 11:05:15] INFO root fetch - processPackages [pwl-chat-python]: executing diffoscope
+[2023-05-08 11:05:15] INFO root fetch - processPackages [pwl-chat-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pwl-chat-python-1.3.1.tar.gz tmp/pwl-chat-python-1.3.2.tar.gz --markdown 20230508/p/pwl-chat-python/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-05-08 11:05:15] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2023-05-08 11:05:15] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-0.7.1b20230507.tar.gz tmp/autogluon.common-0.7.1b20230508.tar.gz --markdown 20230508/a/autogluon.common/0.7.1b20230507-0.7.1b20230508/diff.md --exclude *.pyd
+[2023-05-08 11:05:15] INFO root fetch - processPackages [MCTThermalFace]: Downloading https://files.pythonhosted.org/packages/4c/d7/d47a5e9eed57aa4da17dffd30ac04754fab0fc53f8745c25d5f6e10e17cc/MCTThermalFace-0.1.2.tar.gz
+[2023-05-08 11:05:15] INFO root fetch - processPackages [atprototools]: Downloading https://files.pythonhosted.org/packages/e3/c3/a4bee9d656b423f0567baf5ae97634de18133924dc6c284b9b9eb1df7b68/atprototools-0.0.9.tar.gz
+[2023-05-08 11:05:15] INFO root fetch - processPackages [odoo-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/72/8d/70c411069c07b4b5312d5655468ede9de48347d49cc705b86587811c5136/odoo_addon_ddmrp-15.0.1.5.0-py3-none-any.whl
+[2023-05-08 11:05:15] INFO root fetch - processPackages [moped]: Downloading https://files.pythonhosted.org/packages/73/71/391f981ecc1118b3a2d5699507b8d46eba5a3f8290bcf8184f6e741fef40/moped-1rc1.tar.gz
+[2023-05-08 11:05:15] INFO root fetch - processPackages [zillionare-omicron]: executing diffoscope
+[2023-05-08 11:05:15] INFO root fetch - processPackages [zillionare-omicron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zillionare_omicron-2.0.0a67.tar.gz tmp/zillionare_omicron-2.0.0a68.tar.gz --markdown 20230508/z/zillionare-omicron/2.0.0a67-2.0.0a68/diff.md --exclude *.pyd
+[2023-05-08 11:05:15] INFO root fetch - processPackages [atprototools]: executing diffoscope
+[2023-05-08 11:05:15] INFO root fetch - processPackages [atprototools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atprototools-0.0.8.tar.gz tmp/atprototools-0.0.9.tar.gz --markdown 20230508/a/atprototools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 11:05:15] INFO root fetch - processPackages [odoo-addon-ddmrp]: executing diffoscope
+[2023-05-08 11:05:15] INFO root fetch - processPackages [odoo-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp-15.0.1.4.1-py3-none-any.whl.zip tmp/odoo_addon_ddmrp-15.0.1.5.0-py3-none-any.whl.zip --markdown 20230508/o/odoo-addon-ddmrp/15.0.1.4.1-15.0.1.5.0/diff.md --exclude *.pyd
+[2023-05-08 11:05:15] INFO root fetch - processPackages [MCTThermalFace]: executing diffoscope
+[2023-05-08 11:05:15] INFO root fetch - processPackages [MCTThermalFace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MCTThermalFace-0.1.1.tar.gz tmp/MCTThermalFace-0.1.2.tar.gz --markdown 20230508/M/MCTThermalFace/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-08 11:05:15] INFO root fetch - processPackages [moped]: executing diffoscope
+[2023-05-08 11:05:15] INFO root fetch - processPackages [moped]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moped-1.9.9.tar.gz tmp/moped-1rc1.tar.gz --markdown 20230508/m/moped/1.9.9-1rc1/diff.md --exclude *.pyd
+[2023-05-08 11:05:15] INFO root fetch - processPackages [bicleaner-hardrules]: Downloading https://files.pythonhosted.org/packages/4c/5a/7dcbf22fa8bfbdd171459636c49332dcb99650d405a9ae5b14c1fc7ab4ab/bicleaner-hardrules-2.8.1.tar.gz
+[2023-05-08 11:05:15] INFO root fetch - processPackages [bicleaner-hardrules]: executing diffoscope
+[2023-05-08 11:05:15] INFO root fetch - processPackages [bicleaner-hardrules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bicleaner-hardrules-2.8.0.tar.gz tmp/bicleaner-hardrules-2.8.1.tar.gz --markdown 20230508/b/bicleaner-hardrules/2.8.0-2.8.1/diff.md --exclude *.pyd
+[2023-05-08 11:05:18] INFO root fetch - processPackages [wcfhttp]: Start processing: autogluon.core
+[2023-05-08 11:05:18] INFO root fetch - main [MainThread]: End processing [wcfhttp]: success
+[2023-05-08 11:05:18] INFO root fetch - processPackages [autogluon.core]: New version: [0.7.1b20230508] Old Version: [0.7.1b20230507]
+[2023-05-08 11:05:18] INFO root fetch - processPackages [MCTThermalFace]: Start processing: autogluon.features
+[2023-05-08 11:05:18] INFO root fetch - main [MainThread]: End processing [MCTThermalFace]: success
+[2023-05-08 11:05:18] INFO root fetch - processPackages [autogluon.features]: New version: [0.7.1b20230508] Old Version: [0.7.1b20230507]
+[2023-05-08 11:05:18] INFO root fetch - processPackages [atprototools]: Start processing: autogluon.tabular
+[2023-05-08 11:05:18] INFO root fetch - main [MainThread]: End processing [atprototools]: success
+[2023-05-08 11:05:18] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/04/bd/27890cf26009d8d3435bb8b0218f04220fca5a4870c04e7f0fcc92518e84/autogluon.core-0.7.1b20230508.tar.gz
+[2023-05-08 11:05:18] INFO root fetch - processPackages [autogluon.tabular]: New version: [0.7.1b20230507] Old Version: [0.7.1b20230506]
+[2023-05-08 11:05:18] INFO root fetch - processPackages [pwl-chat-python]: Start processing: autogluon.multimodal
+[2023-05-08 11:05:18] INFO root fetch - main [MainThread]: End processing [pwl-chat-python]: success
+[2023-05-08 11:05:18] INFO root fetch - processPackages [autogluon.multimodal]: New version: [0.7.1b20230507] Old Version: [0.7.1b20230506]
+[2023-05-08 11:05:18] INFO root fetch - processPackages [autogluon.tabular]: executing diffoscope
+[2023-05-08 11:05:18] INFO root fetch - processPackages [autogluon.tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.tabular-0.7.1b20230506.tar.gz tmp/autogluon.tabular-0.7.1b20230507.tar.gz --markdown 20230508/a/autogluon.tabular/0.7.1b20230506-0.7.1b20230507/diff.md --exclude *.pyd
+[2023-05-08 11:05:18] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/cf/b5/b4b3900809fbe1fdaa03e932d8f91326498c612aae81f185056fa4f975bc/autogluon.features-0.7.1b20230508.tar.gz
+[2023-05-08 11:05:18] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2023-05-08 11:05:18] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-0.7.1b20230507.tar.gz tmp/autogluon.core-0.7.1b20230508.tar.gz --markdown 20230508/a/autogluon.core/0.7.1b20230507-0.7.1b20230508/diff.md --exclude *.pyd
+[2023-05-08 11:05:18] INFO root fetch - processPackages [autogluon.multimodal]: executing diffoscope
+[2023-05-08 11:05:18] INFO root fetch - processPackages [autogluon.multimodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.multimodal-0.7.1b20230506.tar.gz tmp/autogluon.multimodal-0.7.1b20230507.tar.gz --markdown 20230508/a/autogluon.multimodal/0.7.1b20230506-0.7.1b20230507/diff.md --exclude *.pyd
+[2023-05-08 11:05:18] INFO root fetch - processPackages [autogluon.features]: executing diffoscope
+[2023-05-08 11:05:18] INFO root fetch - processPackages [autogluon.features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.features-0.7.1b20230507.tar.gz tmp/autogluon.features-0.7.1b20230508.tar.gz --markdown 20230508/a/autogluon.features/0.7.1b20230507-0.7.1b20230508/diff.md --exclude *.pyd
+[2023-05-08 11:05:19] INFO root fetch - processPackages [autogluon.common]: Start processing: edwh
+[2023-05-08 11:05:19] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2023-05-08 11:05:19] INFO root fetch - processPackages [moped]: Start processing: autogluon.timeseries
+[2023-05-08 11:05:19] INFO root fetch - main [MainThread]: End processing [moped]: success
+[2023-05-08 11:05:19] INFO root fetch - processPackages [edwh]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-08 11:05:19] INFO root fetch - processPackages [autogluon.timeseries]: New version: [0.7.1b20230507] Old Version: [0.7.1b20230506]
+[2023-05-08 11:05:19] INFO root fetch - processPackages [edwh]: Downloading https://files.pythonhosted.org/packages/a1/b2/ffc583af9d774bfd7b622dbed69ea2357b3a1f9096658cf1202307626113/edwh-0.9.1.tar.gz
+[2023-05-08 11:05:19] INFO root fetch - processPackages [autogluon.timeseries]: executing diffoscope
+[2023-05-08 11:05:19] INFO root fetch - processPackages [autogluon.timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.timeseries-0.7.1b20230506.tar.gz tmp/autogluon.timeseries-0.7.1b20230507.tar.gz --markdown 20230508/a/autogluon.timeseries/0.7.1b20230506-0.7.1b20230507/diff.md --exclude *.pyd
+[2023-05-08 11:05:19] WARNING root fetch - processPackages [edwh]: Skipping package: exceeds size limit 32547749>=10485760
+[2023-05-08 11:05:19] INFO root fetch - processPackages [edwh]: Start processing: calcutils
+[2023-05-08 11:05:19] INFO root fetch - main [MainThread]: End processing [edwh] error
+[2023-05-08 11:05:19] WARNING root fetch - processPackages [calcutils]: Skipping, unable to determine old version
+[2023-05-08 11:05:19] INFO root fetch - processPackages [calcutils]: Start processing: autogluon
+[2023-05-08 11:05:19] INFO root fetch - main [MainThread]: End processing [calcutils] error
+[2023-05-08 11:05:19] INFO root fetch - processPackages [autogluon]: New version: [0.7.1b20230507] Old Version: [0.7.1b20230506]
+[2023-05-08 11:05:19] INFO root fetch - processPackages [autogluon]: executing diffoscope
+[2023-05-08 11:05:19] INFO root fetch - processPackages [autogluon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon-0.7.1b20230506.tar.gz tmp/autogluon-0.7.1b20230507.tar.gz --markdown 20230508/a/autogluon/0.7.1b20230506-0.7.1b20230507/diff.md --exclude *.pyd
+[2023-05-08 11:05:20] INFO root fetch - processPackages [odoo-addon-ddmrp]: Start processing: segment-anything-utils
+[2023-05-08 11:05:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp]: success
+[2023-05-08 11:05:20] INFO root fetch - processPackages [openstef]: Start processing: autogluon.cloud
+[2023-05-08 11:05:20] INFO root fetch - main [MainThread]: End processing [openstef]: success
+[2023-05-08 11:05:20] INFO root fetch - processPackages [autogluon.cloud]: New version: [0.2.1b20230507] Old Version: [0.2.1b20230506]
+[2023-05-08 11:05:20] WARNING root fetch - processPackages [segment-anything-utils]: Skipping, unable to determine old version
+[2023-05-08 11:05:20] INFO root fetch - processPackages [segment-anything-utils]: Start processing: autogluon.eda
+[2023-05-08 11:05:20] INFO root fetch - main [MainThread]: End processing [segment-anything-utils] error
+[2023-05-08 11:05:20] INFO root fetch - processPackages [autogluon.eda]: New version: [0.7.1b20230507] Old Version: [0.7.1b20230506]
+[2023-05-08 11:05:20] INFO root fetch - processPackages [autogluon.cloud]: executing diffoscope
+[2023-05-08 11:05:20] INFO root fetch - processPackages [autogluon.cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.cloud-0.2.1b20230506.tar.gz tmp/autogluon.cloud-0.2.1b20230507.tar.gz --markdown 20230508/a/autogluon.cloud/0.2.1b20230506-0.2.1b20230507/diff.md --exclude *.pyd
+[2023-05-08 11:05:20] INFO root fetch - processPackages [autogluon.eda]: executing diffoscope
+[2023-05-08 11:05:20] INFO root fetch - processPackages [autogluon.eda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.eda-0.7.1b20230506.tar.gz tmp/autogluon.eda-0.7.1b20230507.tar.gz --markdown 20230508/a/autogluon.eda/0.7.1b20230506-0.7.1b20230507/diff.md --exclude *.pyd
+[2023-05-08 11:05:21] INFO root fetch - main [MainThread]: End processing [autogluon]: success
+[2023-05-08 11:05:21] INFO root fetch - main [MainThread]: End processing [autogluon.features]: success
+[2023-05-08 11:05:22] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2023-05-08 11:05:22] INFO root fetch - main [MainThread]: End processing [autogluon.timeseries]: success
+[2023-05-08 11:05:22] INFO root fetch - main [MainThread]: End processing [zillionare-omicron]: success
+[2023-05-08 11:05:22] INFO root fetch - main [MainThread]: End processing [autogluon.cloud]: success
+[2023-05-08 11:05:23] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
+[2023-05-08 11:05:23] INFO root fetch - main [MainThread]: End processing [autogluon.multimodal]: success
+[2023-05-08 11:05:23] INFO root fetch - main [MainThread]: End processing [autogluon.eda]: success
+[2023-05-08 11:05:24] INFO root fetch - main [MainThread]: End processing [bicleaner-hardrules]: success
+[2023-05-08 11:05:24] INFO root fetch - main [MainThread]: Store serial: [18014915]
