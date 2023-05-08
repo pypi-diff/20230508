@@ -11303,3 +11303,83 @@
 [2023-05-08 13:48:47] INFO root fetch - main [MainThread]: End processing [libsa4py]: success
 [2023-05-08 13:48:57] INFO root fetch - main [MainThread]: End processing [matlab-proxy]: success
 [2023-05-08 13:48:57] INFO root fetch - main [MainThread]: Store serial: [18016247]
+[2023-05-08 13:54:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18016247]
+[2023-05-08 13:54:06] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-08 13:54:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyvium
+[2023-05-08 13:54:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: amqp-helper
+[2023-05-08 13:54:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pybaqus
+[2023-05-08 13:54:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: asociita
+[2023-05-08 13:54:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: phc-ingestion
+[2023-05-08 13:54:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: inverse
+[2023-05-08 13:54:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: finetune-evaluation-harness
+[2023-05-08 13:54:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chromedriver-autoupdate
+[2023-05-08 13:54:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyntcli
+[2023-05-08 13:54:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jupyterlab-code-formatter
+[2023-05-08 13:54:06] WARNING root fetch - processPackages [asociita]: Skipping, unable to determine old version
+[2023-05-08 13:54:06] INFO root fetch - processPackages [inverse]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 13:54:06] INFO root fetch - processPackages [finetune-evaluation-harness]: New version: [0.2.0.dev0] Old Version: [0.1.0.dev0]
+[2023-05-08 13:54:06] INFO root fetch - processPackages [pyntcli]: New version: [0.1.43] Old Version: [0.1.42]
+[2023-05-08 13:54:06] INFO root fetch - processPackages [asociita]: Start processing: semisup-segmentation
+[2023-05-08 13:54:06] INFO root fetch - main [MainThread]: End processing [asociita] error
+[2023-05-08 13:54:06] INFO root fetch - processPackages [amqp-helper]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 13:54:06] INFO root fetch - processPackages [pybaqus]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-08 13:54:06] INFO root fetch - processPackages [pyvium]: New version: [0.1.9b0] Old Version: [0.1.8b0]
+[2023-05-08 13:54:06] INFO root fetch - processPackages [chromedriver-autoupdate]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-08 13:54:06] INFO root fetch - processPackages [jupyterlab-code-formatter]: New version: [2.0.0rc1] Old Version: [1.6.1]
+[2023-05-08 13:54:06] INFO root fetch - processPackages [phc-ingestion]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-08 13:54:06] INFO root fetch - processPackages [semisup-segmentation]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 13:54:06] INFO root fetch - processPackages [pyvium]: executing diffoscope
+[2023-05-08 13:54:06] INFO root fetch - processPackages [pyvium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvium-0.1.8b0.tar.gz tmp/pyvium-0.1.9b0.tar.gz --markdown 20230508/p/pyvium/0.1.8b0-0.1.9b0/diff.md --exclude *.pyd
+[2023-05-08 13:54:06] INFO root fetch - processPackages [semisup-segmentation]: executing diffoscope
+[2023-05-08 13:54:06] INFO root fetch - processPackages [semisup-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semisup-segmentation-0.0.8.tar.gz tmp/semisup-segmentation-0.0.9.tar.gz --markdown 20230508/s/semisup-segmentation/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 13:54:06] INFO root fetch - processPackages [inverse]: executing diffoscope
+[2023-05-08 13:54:06] INFO root fetch - processPackages [inverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inverse-0.0.8-py3-none-any.whl.zip tmp/inverse-0.0.9-py3-none-any.whl.zip --markdown 20230508/i/inverse/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 13:54:06] INFO root fetch - processPackages [finetune-evaluation-harness]: Downloading https://files.pythonhosted.org/packages/61/5c/2e2104ae81db2c1223fb8a76902de42b872828484aec1f644a7d5c9a965f/finetune-evaluation-harness-0.1.0.dev0.tar.gz
+[2023-05-08 13:54:06] INFO root fetch - processPackages [chromedriver-autoupdate]: Downloading https://files.pythonhosted.org/packages/bd/56/92a3def985e71a08051e11036df622993871fc00dfac59252557cd478aee/chromedriver_autoupdate-1.1.1.tar.gz
+[2023-05-08 13:54:06] INFO root fetch - processPackages [pyntcli]: Downloading https://files.pythonhosted.org/packages/45/ad/adfd91091eb77ebec3f54a339cf16258c8bd6cfac5aab446784932e98b59/pyntcli-0.1.42-py3-none-any.whl
+[2023-05-08 13:54:06] INFO root fetch - processPackages [jupyterlab-code-formatter]: Downloading https://files.pythonhosted.org/packages/81/c7/f8548e26bdf659309630e27eaff9fe87eb99319a4c809c81c90e5cad72f9/jupyterlab_code_formatter-1.6.1.tar.gz
+[2023-05-08 13:54:06] INFO root fetch - processPackages [amqp-helper]: Downloading https://files.pythonhosted.org/packages/38/32/e07911f56669ed3ff973cb2d2a604fab20fb24765bd0c1446333f4c2bf29/amqp_helper-0.0.8.tar.gz
+[2023-05-08 13:54:06] INFO root fetch - processPackages [phc-ingestion]: Downloading https://files.pythonhosted.org/packages/7c/50/dddee5ed9f37b0a223816dbcded72773737dfa9dda1c606fdb575b27a1f8/phc-ingestion-0.3.8.tar.gz
+[2023-05-08 13:54:06] INFO root fetch - processPackages [pybaqus]: Downloading https://files.pythonhosted.org/packages/fb/16/7fe045771c54fa7f46d5d17c31ba116a10c59fb14d9d0e7de851faa20078/pybaqus-0.2.8.tar.gz
+[2023-05-08 13:54:06] WARNING root fetch - processPackages [phc-ingestion]: Skipping package: exceeds size limit 55817200>=10485760
+[2023-05-08 13:54:06] INFO root fetch - processPackages [phc-ingestion]: Start processing: cg
+[2023-05-08 13:54:06] INFO root fetch - main [MainThread]: End processing [phc-ingestion] error
+[2023-05-08 13:54:06] INFO root fetch - processPackages [cg]: New version: [29.8.0] Old Version: [29.7.1]
+[2023-05-08 13:54:06] INFO root fetch - processPackages [jupyterlab-code-formatter]: Downloading https://files.pythonhosted.org/packages/ef/06/b707f751c86501fc88cb62c5dbcb0c4ed0ca1dcc57c5b7031c96335fd253/jupyterlab_code_formatter-2.0.0rc1.tar.gz
+[2023-05-08 13:54:06] INFO root fetch - processPackages [pyntcli]: Downloading https://files.pythonhosted.org/packages/c4/af/50388de690f51d324fc5cac60b25870d25dcf658fa837c927f71248b4d5b/pyntcli-0.1.43-py3-none-any.whl
+[2023-05-08 13:54:06] INFO root fetch - processPackages [pyntcli]: executing diffoscope
+[2023-05-08 13:54:06] INFO root fetch - processPackages [pyntcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyntcli-0.1.42-py3-none-any.whl.zip tmp/pyntcli-0.1.43-py3-none-any.whl.zip --markdown 20230508/p/pyntcli/0.1.42-0.1.43/diff.md --exclude *.pyd
+[2023-05-08 13:54:06] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-05-08 13:54:06] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-29.7.1.tar.gz tmp/cg-29.8.0.tar.gz --markdown 20230508/c/cg/29.7.1-29.8.0/diff.md --exclude *.pyd
+[2023-05-08 13:54:07] INFO root fetch - processPackages [chromedriver-autoupdate]: Downloading https://files.pythonhosted.org/packages/3a/6c/fb7b534a1d55947e1dd2d2c365cf17b61798bb95611224673839b8ec036d/chromedriver_autoupdate-1.1.2.tar.gz
+[2023-05-08 13:54:07] INFO root fetch - processPackages [chromedriver-autoupdate]: executing diffoscope
+[2023-05-08 13:54:07] INFO root fetch - processPackages [chromedriver-autoupdate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver_autoupdate-1.1.1.tar.gz tmp/chromedriver_autoupdate-1.1.2.tar.gz --markdown 20230508/c/chromedriver-autoupdate/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-08 13:54:07] INFO root fetch - processPackages [finetune-evaluation-harness]: Downloading https://files.pythonhosted.org/packages/b8/a9/bbdba39932c0c6f788cbdd0c856acb31f86df786119ceb2eebe5f5af11b8/finetune-evaluation-harness-0.2.0.dev0.tar.gz
+[2023-05-08 13:54:07] INFO root fetch - processPackages [amqp-helper]: Downloading https://files.pythonhosted.org/packages/31/38/59ac8e6d9e713f1c8dcb9395759729ab27f5be965f56f9d972cd1bb81a5d/amqp_helper-0.0.9.tar.gz
+[2023-05-08 13:54:07] INFO root fetch - processPackages [pybaqus]: Downloading https://files.pythonhosted.org/packages/3e/e2/0568a8d8ece81cd395af88259c8238c77ab10e0222665ac92b067c323f72/pybaqus-0.2.9.tar.gz
+[2023-05-08 13:54:07] INFO root fetch - processPackages [finetune-evaluation-harness]: executing diffoscope
+[2023-05-08 13:54:07] INFO root fetch - processPackages [finetune-evaluation-harness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finetune-evaluation-harness-0.1.0.dev0.tar.gz tmp/finetune-evaluation-harness-0.2.0.dev0.tar.gz --markdown 20230508/f/finetune-evaluation-harness/0.1.0.dev0-0.2.0.dev0/diff.md --exclude *.pyd
+[2023-05-08 13:54:07] INFO root fetch - processPackages [amqp-helper]: executing diffoscope
+[2023-05-08 13:54:07] INFO root fetch - processPackages [amqp-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amqp_helper-0.0.8.tar.gz tmp/amqp_helper-0.0.9.tar.gz --markdown 20230508/a/amqp-helper/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 13:54:07] INFO root fetch - processPackages [pybaqus]: executing diffoscope
+[2023-05-08 13:54:07] INFO root fetch - processPackages [pybaqus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybaqus-0.2.8.tar.gz tmp/pybaqus-0.2.9.tar.gz --markdown 20230508/p/pybaqus/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-08 13:54:07] INFO root fetch - processPackages [jupyterlab-code-formatter]: executing diffoscope
+[2023-05-08 13:54:07] INFO root fetch - processPackages [jupyterlab-code-formatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_code_formatter-1.6.1.tar.gz tmp/jupyterlab_code_formatter-2.0.0rc1.tar.gz --markdown 20230508/j/jupyterlab-code-formatter/1.6.1-2.0.0rc1/diff.md --exclude *.pyd
+[2023-05-08 13:54:08] INFO root fetch - processPackages [semisup-segmentation]: Start processing: bech32m
+[2023-05-08 13:54:08] INFO root fetch - main [MainThread]: End processing [semisup-segmentation]: success
+[2023-05-08 13:54:08] INFO root fetch - processPackages [bech32m]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-05-08 13:54:08] INFO root fetch - processPackages [bech32m]: Downloading https://files.pythonhosted.org/packages/7d/86/03e08b8440489d13d238e7ea70ca2f1f0c01474c3e5a8bfe38c835d21b2d/bech32m-0.0.1.tar.gz
+[2023-05-08 13:54:08] INFO root fetch - processPackages [bech32m]: Downloading https://files.pythonhosted.org/packages/11/a3/572a30c273cfa17452b023e9731b40c448de36817743acd767f57141426f/bech32m-0.1.0.tar.gz
+[2023-05-08 13:54:08] INFO root fetch - main [MainThread]: End processing [chromedriver-autoupdate]: success
+[2023-05-08 13:54:08] INFO root fetch - processPackages [bech32m]: executing diffoscope
+[2023-05-08 13:54:08] INFO root fetch - processPackages [bech32m]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bech32m-0.0.1.tar.gz tmp/bech32m-0.1.0.tar.gz --markdown 20230508/b/bech32m/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-05-08 13:54:08] INFO root fetch - main [MainThread]: End processing [amqp-helper]: success
+[2023-05-08 13:54:08] INFO root fetch - main [MainThread]: End processing [inverse]: success
+[2023-05-08 13:54:08] INFO root fetch - main [MainThread]: End processing [finetune-evaluation-harness]: success
+[2023-05-08 13:54:09] INFO root fetch - main [MainThread]: End processing [bech32m]: success
+[2023-05-08 13:54:10] INFO root fetch - main [MainThread]: End processing [pyntcli]: success
+[2023-05-08 13:54:11] INFO root fetch - main [MainThread]: End processing [pyvium]: success
+[2023-05-08 13:54:11] INFO root fetch - main [MainThread]: End processing [pybaqus]: success
+[2023-05-08 13:54:11] INFO root fetch - main [MainThread]: End processing [jupyterlab-code-formatter]: success
+[2023-05-08 13:54:19] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-05-08 13:54:19] INFO root fetch - main [MainThread]: Store serial: [18016297]
