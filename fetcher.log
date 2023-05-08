@@ -2276,3 +2276,34 @@
 [2023-05-08 03:48:22] INFO root fetch - main [MainThread]: End processing [openai-api-call]: success
 [2023-05-08 03:48:23] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
 [2023-05-08 03:48:23] INFO root fetch - main [MainThread]: Store serial: [18011364]
+[2023-05-08 03:53:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18011364]
+[2023-05-08 03:53:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-08 03:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: webconsole
+[2023-05-08 03:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mongogettersetter
+[2023-05-08 03:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: circuitpython-ArrowLine
+[2023-05-08 03:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: getfilenuitkapython
+[2023-05-08 03:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: adsms
+[2023-05-08 03:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: easy-sql-easy-sql
+[2023-05-08 03:53:31] INFO root fetch - processPackages [mongogettersetter]: New version: [1.3.8] Old Version: [1.3.7]
+[2023-05-08 03:53:31] WARNING root fetch - processPackages [webconsole]: Skipping, unable to determine old version
+[2023-05-08 03:53:31] INFO root fetch - main [MainThread]: End processing [webconsole] error
+[2023-05-08 03:53:31] INFO root fetch - processPackages [circuitpython-ArrowLine]: New version: [1.0.1] Old Version: [0.9.3]
+[2023-05-08 03:53:31] WARNING root fetch - processPackages [getfilenuitkapython]: Skipping, unable to determine old version
+[2023-05-08 03:53:31] INFO root fetch - main [MainThread]: End processing [getfilenuitkapython] error
+[2023-05-08 03:53:31] INFO root fetch - processPackages [easy-sql-easy-sql]: New version: [1.0.0] Old Version: [0.5.1]
+[2023-05-08 03:53:31] WARNING root fetch - processPackages [adsms]: Skipping, unable to determine old version
+[2023-05-08 03:53:31] INFO root fetch - main [MainThread]: End processing [adsms] error
+[2023-05-08 03:53:31] INFO root fetch - processPackages [mongogettersetter]: executing diffoscope
+[2023-05-08 03:53:31] INFO root fetch - processPackages [mongogettersetter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongogettersetter-1.3.7.tar.gz tmp/mongogettersetter-1.3.8.tar.gz --markdown 20230508/m/mongogettersetter/1.3.7-1.3.8/diff.md --exclude *.pyd
+[2023-05-08 03:53:31] INFO root fetch - processPackages [circuitpython-ArrowLine]: Downloading https://files.pythonhosted.org/packages/7c/a6/556508f5a317db10c5377253d7a4cbc1c6587358f30342cd66677a4c4379/circuitpython-ArrowLine-0.9.3.tar.gz
+[2023-05-08 03:53:32] INFO root fetch - processPackages [easy-sql-easy-sql]: Downloading https://files.pythonhosted.org/packages/d9/e7/473f2221e5aadf93c43ca3518fca4cead83968e9192ae51b1da4b9937bf8/easy_sql-easy_sql-0.5.1.tar.gz
+[2023-05-08 03:53:32] INFO root fetch - processPackages [circuitpython-ArrowLine]: Downloading https://files.pythonhosted.org/packages/3d/d5/ec6a939aa39d962fd4be01b6212d71f6ee0b20e50bd1ecc295eb2dcc0084/circuitpython-ArrowLine-1.0.1.tar.gz
+[2023-05-08 03:53:32] INFO root fetch - processPackages [circuitpython-ArrowLine]: executing diffoscope
+[2023-05-08 03:53:32] INFO root fetch - processPackages [circuitpython-ArrowLine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circuitpython-ArrowLine-0.9.3.tar.gz tmp/circuitpython-ArrowLine-1.0.1.tar.gz --markdown 20230508/c/circuitpython-ArrowLine/0.9.3-1.0.1/diff.md --exclude *.pyd
+[2023-05-08 03:53:32] INFO root fetch - processPackages [easy-sql-easy-sql]: Downloading https://files.pythonhosted.org/packages/80/65/d1929c94c4e6d306b3f6db71f1cca6db0fab7db523828372f2be1f9e742f/easy_sql_easy_sql-1.0.0.tar.gz
+[2023-05-08 03:53:32] INFO root fetch - processPackages [easy-sql-easy-sql]: executing diffoscope
+[2023-05-08 03:53:32] INFO root fetch - processPackages [easy-sql-easy-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_sql-easy_sql-0.5.1.tar.gz tmp/easy_sql_easy_sql-1.0.0.tar.gz --markdown 20230508/e/easy-sql-easy-sql/0.5.1-1.0.0/diff.md --exclude *.pyd
+[2023-05-08 03:53:32] INFO root fetch - main [MainThread]: End processing [mongogettersetter]: success
+[2023-05-08 03:53:33] INFO root fetch - main [MainThread]: End processing [circuitpython-ArrowLine]: success
+[2023-05-08 03:53:34] INFO root fetch - main [MainThread]: End processing [easy-sql-easy-sql]: success
+[2023-05-08 03:53:34] INFO root fetch - main [MainThread]: Store serial: [18011387]
