@@ -10882,3 +10882,92 @@
 [2023-05-08 13:25:14] INFO root fetch - main [MainThread]: End processing [blueapps]: success
 [2023-05-08 13:25:18] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
 [2023-05-08 13:25:18] INFO root fetch - main [MainThread]: Store serial: [18016036]
+[2023-05-08 13:30:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18016036]
+[2023-05-08 13:30:27] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-08 13:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: durin
+[2023-05-08 13:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gns3-gui
+[2023-05-08 13:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Macos-Cleaner-free
+[2023-05-08 13:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edwh
+[2023-05-08 13:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wavebreaking
+[2023-05-08 13:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torchx-nightly
+[2023-05-08 13:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: napatrackmater
+[2023-05-08 13:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gns3-server
+[2023-05-08 13:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torchserve-nightly
+[2023-05-08 13:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: torch-model-archiver-nightly
+[2023-05-08 13:30:27] WARNING root fetch - processPackages [wavebreaking]: Skipping, unable to determine old version
+[2023-05-08 13:30:27] INFO root fetch - processPackages [edwh]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-08 13:30:27] INFO root fetch - processPackages [wavebreaking]: Start processing: torch-workflow-archiver-nightly
+[2023-05-08 13:30:27] INFO root fetch - main [MainThread]: End processing [wavebreaking] error
+[2023-05-08 13:30:27] WARNING root fetch - processPackages [Macos-Cleaner-free]: Skipping, unable to determine old version
+[2023-05-08 13:30:27] INFO root fetch - processPackages [Macos-Cleaner-free]: Start processing: torchrec-nightly
+[2023-05-08 13:30:27] INFO root fetch - main [MainThread]: End processing [Macos-Cleaner-free] error
+[2023-05-08 13:30:27] INFO root fetch - processPackages [durin]: New version: [0.0.77] Old Version: [0.0.76]
+[2023-05-08 13:30:27] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.5.7] Old Version: [2023.5.6]
+[2023-05-08 13:30:27] INFO root fetch - processPackages [napatrackmater]: New version: [3.5.5] Old Version: [3.5.4]
+[2023-05-08 13:30:27] INFO root fetch - processPackages [gns3-server]: New version: [3.0.0a3] Old Version: [3.0.0a2]
+[2023-05-08 13:30:27] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.5.7] Old Version: [2023.5.6]
+[2023-05-08 13:30:27] INFO root fetch - processPackages [torchx-nightly]: New version: [2023.5.7] Old Version: [2023.5.6]
+[2023-05-08 13:30:27] INFO root fetch - processPackages [gns3-gui]: New version: [3.0.0a3] Old Version: [3.0.0a2]
+[2023-05-08 13:30:27] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.5.7] Old Version: [2023.5.6]
+[2023-05-08 13:30:27] INFO root fetch - processPackages [torchrec-nightly]: New version: [2023.5.7] Old Version: [2023.5.6]
+[2023-05-08 13:30:27] INFO root fetch - processPackages [edwh]: Downloading https://files.pythonhosted.org/packages/a1/b2/ffc583af9d774bfd7b622dbed69ea2357b3a1f9096658cf1202307626113/edwh-0.9.1.tar.gz
+[2023-05-08 13:30:28] INFO root fetch - processPackages [torchx-nightly]: executing diffoscope
+[2023-05-08 13:30:28] INFO root fetch - processPackages [torchx-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchx_nightly-2023.5.6-py3-none-any.whl.zip tmp/torchx_nightly-2023.5.7-py3-none-any.whl.zip --markdown 20230508/t/torchx-nightly/2023.5.6-2023.5.7/diff.md --exclude *.pyd
+[2023-05-08 13:30:28] WARNING root fetch - processPackages [edwh]: Skipping package: exceeds size limit 32547749>=10485760
+[2023-05-08 13:30:28] INFO root fetch - processPackages [edwh]: Start processing: kcweb
+[2023-05-08 13:30:28] INFO root fetch - main [MainThread]: End processing [edwh] error
+[2023-05-08 13:30:28] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/14/91/848e4bd2bf71766c7a51f45a2c9ad8cff42f9349b27024ec4f37e476df42/napatrackmater-3.5.4.tar.gz
+[2023-05-08 13:30:28] INFO root fetch - processPackages [torchrec-nightly]: executing diffoscope
+[2023-05-08 13:30:28] INFO root fetch - processPackages [torchrec-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrec_nightly-2023.5.6-py39-none-any.whl.zip tmp/torchrec_nightly-2023.5.7-py39-none-any.whl.zip --markdown 20230508/t/torchrec-nightly/2023.5.6-2023.5.7/diff.md --exclude *.pyd
+[2023-05-08 13:30:28] INFO root fetch - processPackages [durin]: Downloading https://files.pythonhosted.org/packages/cb/58/bca01d7b10d1fa573026b30b3236c10540bc75139ecf2022cf1709cc998b/durin-0.0.76.tar.gz
+[2023-05-08 13:30:28] INFO root fetch - processPackages [kcweb]: New version: [4.13.9] Old Version: [4.13.8]
+[2023-05-08 13:30:28] INFO root fetch - processPackages [gns3-server]: Downloading https://files.pythonhosted.org/packages/76/9f/37cd34b9d2adaa1f623deb3512df6985042e29a59f172df45233f2978436/gns3-server-3.0.0a2.tar.gz
+[2023-05-08 13:30:28] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/24/ba/39e315fe2de8758e915808ac568b811b46a7a9cabc4c18c58c1d8c1a8b10/torchserve_nightly-2023.5.6-py3-none-any.whl
+[2023-05-08 13:30:28] INFO root fetch - processPackages [gns3-gui]: Downloading https://files.pythonhosted.org/packages/62/9a/1387c4b06e150035dae2743434539e28292f0deaed11e4731f5cac8ff208/gns3-gui-3.0.0a2.tar.gz
+[2023-05-08 13:30:28] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/63/95/97e2cd4d1be77b54fb4d379e6b4ef00200a4a82ada73b31b4f374653bee1/torch_workflow_archiver_nightly-2023.5.7-py3-none-any.whl
+[2023-05-08 13:30:28] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23716847>=10485760
+[2023-05-08 13:30:28] INFO root fetch - processPackages [torchserve-nightly]: Start processing: cognite-neat
+[2023-05-08 13:30:28] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-05-08 13:30:28] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/49/e4/35ddc1ec78c8c325c19a0a7dd7dd8769b8b48b1b5270f4397db9452fd9e5/torch_model_archiver_nightly-2023.5.7-py3-none-any.whl
+[2023-05-08 13:30:28] INFO root fetch - processPackages [kcweb]: executing diffoscope
+[2023-05-08 13:30:28] INFO root fetch - processPackages [kcweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcweb-4.13.8.tar.gz tmp/kcweb-4.13.9.tar.gz --markdown 20230508/k/kcweb/4.13.8-4.13.9/diff.md --exclude *.pyd
+[2023-05-08 13:30:28] INFO root fetch - processPackages [cognite-neat]: New version: [0.11.0] Old Version: [0.10.4]
+[2023-05-08 13:30:28] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-05-08 13:30:28] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.5.6-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.5.7-py3-none-any.whl.zip --markdown 20230508/t/torch-workflow-archiver-nightly/2023.5.6-2023.5.7/diff.md --exclude *.pyd
+[2023-05-08 13:30:28] WARNING root fetch - processPackages [gns3-server]: Skipping package: exceeds size limit 11101961>=10485760
+[2023-05-08 13:30:28] INFO root fetch - processPackages [gns3-server]: Start processing: arclet-alconna
+[2023-05-08 13:30:28] INFO root fetch - main [MainThread]: End processing [gns3-server] error
+[2023-05-08 13:30:28] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-05-08 13:30:28] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.5.6-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.5.7-py3-none-any.whl.zip --markdown 20230508/t/torch-model-archiver-nightly/2023.5.6-2023.5.7/diff.md --exclude *.pyd
+[2023-05-08 13:30:28] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/5e/71/f4cb22db65b0b0089333b35f56d071b712c4d3031a26fa2617a330b07dce/napatrackmater-3.5.5.tar.gz
+[2023-05-08 13:30:28] INFO root fetch - processPackages [cognite-neat]: executing diffoscope
+[2023-05-08 13:30:28] INFO root fetch - processPackages [cognite-neat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_neat-0.10.4.tar.gz tmp/cognite_neat-0.11.0.tar.gz --markdown 20230508/c/cognite-neat/0.10.4-0.11.0/diff.md --exclude *.pyd
+[2023-05-08 13:30:28] INFO root fetch - processPackages [durin]: Downloading https://files.pythonhosted.org/packages/d8/88/1c6dfc226d2a9be504f7a12c2e4aa902d7a6d6b1b9a1d620d96ff080b09b/durin-0.0.77.tar.gz
+[2023-05-08 13:30:28] INFO root fetch - processPackages [napatrackmater]: executing diffoscope
+[2023-05-08 13:30:28] INFO root fetch - processPackages [napatrackmater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napatrackmater-3.5.4.tar.gz tmp/napatrackmater-3.5.5.tar.gz --markdown 20230508/n/napatrackmater/3.5.4-3.5.5/diff.md --exclude *.pyd
+[2023-05-08 13:30:28] INFO root fetch - processPackages [arclet-alconna]: New version: [1.7.0rc5] Old Version: [1.7.0rc4]
+[2023-05-08 13:30:28] INFO root fetch - processPackages [durin]: executing diffoscope
+[2023-05-08 13:30:28] INFO root fetch - processPackages [durin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/durin-0.0.76.tar.gz tmp/durin-0.0.77.tar.gz --markdown 20230508/d/durin/0.0.76-0.0.77/diff.md --exclude *.pyd
+[2023-05-08 13:30:28] INFO root fetch - processPackages [arclet-alconna]: Downloading https://files.pythonhosted.org/packages/b5/60/2aff57b425bb90472e1cd037eeeb94242d947eba1c315497bdc72c60fd17/arclet-alconna-1.7.0rc4.tar.gz
+[2023-05-08 13:30:28] INFO root fetch - processPackages [arclet-alconna]: Downloading https://files.pythonhosted.org/packages/9e/5c/3abd0a7e5c1225ed82ba3eaabc212fe0692932620e52461d145054d293b8/arclet-alconna-1.7.0rc5.tar.gz
+[2023-05-08 13:30:29] INFO root fetch - processPackages [arclet-alconna]: executing diffoscope
+[2023-05-08 13:30:29] INFO root fetch - processPackages [arclet-alconna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arclet-alconna-1.7.0rc4.tar.gz tmp/arclet-alconna-1.7.0rc5.tar.gz --markdown 20230508/a/arclet-alconna/1.7.0rc4-1.7.0rc5/diff.md --exclude *.pyd
+[2023-05-08 13:30:29] INFO root fetch - processPackages [gns3-gui]: Downloading https://files.pythonhosted.org/packages/e2/82/1ee7996124e6120bdddc377acb2e41de242ae5f11e58252f94e00be797e0/gns3-gui-3.0.0a3.tar.gz
+[2023-05-08 13:30:29] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Start processing: edwh
+[2023-05-08 13:30:29] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-05-08 13:30:29] INFO root fetch - processPackages [edwh]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-08 13:30:29] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-05-08 13:30:29] INFO root fetch - processPackages [edwh]: Downloading https://files.pythonhosted.org/packages/a1/b2/ffc583af9d774bfd7b622dbed69ea2357b3a1f9096658cf1202307626113/edwh-0.9.1.tar.gz
+[2023-05-08 13:30:30] WARNING root fetch - processPackages [edwh]: Skipping package: exceeds size limit 32547749>=10485760
+[2023-05-08 13:30:30] INFO root fetch - main [MainThread]: End processing [edwh] error
+[2023-05-08 13:30:30] INFO root fetch - main [MainThread]: End processing [napatrackmater]: success
+[2023-05-08 13:30:30] INFO root fetch - main [MainThread]: End processing [durin]: success
+[2023-05-08 13:30:30] INFO root fetch - main [MainThread]: End processing [kcweb]: success
+[2023-05-08 13:30:30] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
+[2023-05-08 13:30:30] INFO root fetch - processPackages [gns3-gui]: executing diffoscope
+[2023-05-08 13:30:30] INFO root fetch - processPackages [gns3-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gns3-gui-3.0.0a2.tar.gz tmp/gns3-gui-3.0.0a3.tar.gz --markdown 20230508/g/gns3-gui/3.0.0a2-3.0.0a3/diff.md --exclude *.pyd
+[2023-05-08 13:30:30] INFO root fetch - main [MainThread]: End processing [torchrec-nightly]: success
+[2023-05-08 13:30:31] INFO root fetch - main [MainThread]: End processing [arclet-alconna]: success
+[2023-05-08 13:30:41] INFO root fetch - main [MainThread]: End processing [gns3-gui]: success
+[2023-05-08 13:32:28] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
+[2023-05-08 13:32:28] INFO root fetch - main [MainThread]: Store serial: [18016084]
