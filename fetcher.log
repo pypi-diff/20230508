@@ -19203,3 +19203,99 @@ EOFError: EOF read where object expected
 [2023-05-08 20:33:58] INFO root fetch - main [MainThread]: End processing [starrail-toolkit]: success
 [2023-05-08 20:33:58] INFO root fetch - main [MainThread]: End processing [onvif-gui]: success
 [2023-05-08 20:33:58] INFO root fetch - main [MainThread]: Store serial: [18020750]
+[2023-05-08 20:39:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18020750]
+[2023-05-08 20:39:07] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-08 20:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dxsp
+[2023-05-08 20:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pluthon
+[2023-05-08 20:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyneoncli
+[2023-05-08 20:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openedx-events
+[2023-05-08 20:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aiokeydb
+[2023-05-08 20:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aind-codeocean-api
+[2023-05-08 20:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: images-upload-cli
+[2023-05-08 20:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cidc-api-modules
+[2023-05-08 20:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: eswrap
+[2023-05-08 20:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: YOMAPI
+[2023-05-08 20:39:08] WARNING root fetch - processPackages [pyneoncli]: Skipping, unable to determine old version
+[2023-05-08 20:39:08] INFO root fetch - processPackages [pyneoncli]: Start processing: cpggen
+[2023-05-08 20:39:08] INFO root fetch - main [MainThread]: End processing [pyneoncli] error
+[2023-05-08 20:39:08] INFO root fetch - processPackages [dxsp]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-08 20:39:08] INFO root fetch - processPackages [aind-codeocean-api]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-08 20:39:08] INFO root fetch - processPackages [eswrap]: New version: [0.3] Old Version: [0.1]
+[2023-05-08 20:39:08] INFO root fetch - processPackages [YOMAPI]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-08 20:39:08] INFO root fetch - processPackages [openedx-events]: New version: [7.2.0] Old Version: [7.1.0]
+[2023-05-08 20:39:08] INFO root fetch - processPackages [pluthon]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-05-08 20:39:08] INFO root fetch - processPackages [images-upload-cli]: New version: [1.1.3a0] Old Version: [1.1.2]
+[2023-05-08 20:39:08] INFO root fetch - processPackages [aiokeydb]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 20:39:08] INFO root fetch - processPackages [cpggen]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-08 20:39:08] INFO root fetch - processPackages [cidc-api-modules]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-08 20:39:08] INFO root fetch - processPackages [aind-codeocean-api]: Downloading https://files.pythonhosted.org/packages/45/0d/52bcf9cdc8e20bcdf6c68dafcc085e6f3f86dd52dddc40ac8830710f06de/aind_codeocean_api-0.2.1.tar.gz
+[2023-05-08 20:39:08] INFO root fetch - processPackages [YOMAPI]: Downloading https://files.pythonhosted.org/packages/b0/90/1ce88afa394765c71ceb84935ee45481597659634ae09cbe796adb0e6bd5/YOMAPI-0.1.6.tar.gz
+[2023-05-08 20:39:08] INFO root fetch - processPackages [pluthon]: Downloading https://files.pythonhosted.org/packages/7f/48/0e1708c3fc0bd47bbc61a82cb127e5016304e9d24909add08b3ef9e31570/pluthon-0.3.6.tar.gz
+[2023-05-08 20:39:08] INFO root fetch - processPackages [openedx-events]: Downloading https://files.pythonhosted.org/packages/6c/80/4b7369bcffc4b6dcb0c13bab7442333ce54a24558a7108f72abd8d5dae78/openedx-events-7.1.0.tar.gz
+[2023-05-08 20:39:08] INFO root fetch - processPackages [cpggen]: Downloading https://files.pythonhosted.org/packages/15/b7/3c1647a4829970515e457c7b2d38ffc28cf1a5b7d8f9f85c991530507370/cpggen-1.0.3.tar.gz
+[2023-05-08 20:39:08] INFO root fetch - processPackages [eswrap]: Downloading https://files.pythonhosted.org/packages/54/98/e13480e64ca65e760ae36bd98d500e5e5447eac967a462c83f1ea627eacf/eswrap-0.1-py3-none-any.whl
+[2023-05-08 20:39:08] INFO root fetch - processPackages [cidc-api-modules]: Downloading https://files.pythonhosted.org/packages/79/07/22424cba35a0e3b28dbe23eecd58b3ca4a2ae1137ff0afb126ec8fbf16b7/cidc_api_modules-0.9.4.tar.gz
+[2023-05-08 20:39:08] INFO root fetch - processPackages [aiokeydb]: Downloading https://files.pythonhosted.org/packages/20/25/21f8103754ee16f18d37a261f6c78ebd5f5ce07634c0270159d5287b3e3e/aiokeydb-0.1.8.tar.gz
+[2023-05-08 20:39:08] INFO root fetch - processPackages [images-upload-cli]: Downloading https://files.pythonhosted.org/packages/75/b6/aaa94cf73b4cc4599b90b31102ed116aa92e5f74eaf15f69609bec4de40e/images_upload_cli-1.1.3a0.tar.gz
+[2023-05-08 20:39:08] INFO root fetch - processPackages [pluthon]: Downloading https://files.pythonhosted.org/packages/4a/93/dd2a0ff77b895169db801a5359d8476991d5cc045e0938e1042d5f507c1e/pluthon-0.3.7.tar.gz
+[2023-05-08 20:39:08] INFO root fetch - processPackages [YOMAPI]: Downloading https://files.pythonhosted.org/packages/57/45/9f8e6ca836b52e72571e4d4a3e6a30281b4d3142fdaea9083cce3e4c9da1/YOMAPI-0.1.7.tar.gz
+[2023-05-08 20:39:08] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-05-08 20:39:08] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-2.0.8.tar.gz tmp/dxsp-2.0.9.tar.gz --markdown 20230508/d/dxsp/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-08 20:39:08] INFO root fetch - processPackages [openedx-events]: Downloading https://files.pythonhosted.org/packages/27/83/39c0c44471b4aef6b52e8ae31e8c40a10cb01f66e7347bf6c8a161acba9d/openedx-events-7.2.0.tar.gz
+[2023-05-08 20:39:08] INFO root fetch - processPackages [aind-codeocean-api]: Downloading https://files.pythonhosted.org/packages/df/d2/9890cd53a6adf8aa5f09588e4f0ab204abf9ab424880a904e8299d25b9b7/aind_codeocean_api-0.2.2.tar.gz
+[2023-05-08 20:39:08] INFO root fetch - processPackages [pluthon]: executing diffoscope
+[2023-05-08 20:39:08] INFO root fetch - processPackages [pluthon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pluthon-0.3.6.tar.gz tmp/pluthon-0.3.7.tar.gz --markdown 20230508/p/pluthon/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-05-08 20:39:08] INFO root fetch - processPackages [images-upload-cli]: executing diffoscope
+[2023-05-08 20:39:08] INFO root fetch - processPackages [images-upload-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/images_upload_cli-1.1.2.tar.gz tmp/images_upload_cli-1.1.3a0.tar.gz --markdown 20230508/i/images-upload-cli/1.1.2-1.1.3a0/diff.md --exclude *.pyd
+[2023-05-08 20:39:08] INFO root fetch - processPackages [YOMAPI]: executing diffoscope
+[2023-05-08 20:39:08] INFO root fetch - processPackages [YOMAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YOMAPI-0.1.6.tar.gz tmp/YOMAPI-0.1.7.tar.gz --markdown 20230508/Y/YOMAPI/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-08 20:39:08] INFO root fetch - processPackages [aiokeydb]: Downloading https://files.pythonhosted.org/packages/6a/d0/d5b49c43fc0ac44c201063793737833fa0cc1228a7de48a1fa0a08cc708c/aiokeydb-0.1.9.tar.gz
+[2023-05-08 20:39:08] INFO root fetch - processPackages [cpggen]: Downloading https://files.pythonhosted.org/packages/a1/d6/4309fe5ace2be37dad13f2667d90a1463f9f2c778beb3fba49c71d9fb46f/cpggen-1.0.4.tar.gz
+[2023-05-08 20:39:08] INFO root fetch - processPackages [openedx-events]: executing diffoscope
+[2023-05-08 20:39:08] INFO root fetch - processPackages [openedx-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openedx-events-7.1.0.tar.gz tmp/openedx-events-7.2.0.tar.gz --markdown 20230508/o/openedx-events/7.1.0-7.2.0/diff.md --exclude *.pyd
+[2023-05-08 20:39:08] INFO root fetch - processPackages [eswrap]: Downloading https://files.pythonhosted.org/packages/41/58/3c4d42e54fdd4e78000647c274a09ccee1a7833a66d670cfca848c31816c/eswrap-0.3.tar.gz
+[2023-05-08 20:39:08] INFO root fetch - processPackages [cidc-api-modules]: Downloading https://files.pythonhosted.org/packages/c9/34/b62315a1e0edf5a647d6e601467f4c0c4a039f8877c021f1643b04d153e8/cidc_api_modules-0.9.5.tar.gz
+[2023-05-08 20:39:08] INFO root fetch - processPackages [aind-codeocean-api]: executing diffoscope
+[2023-05-08 20:39:08] INFO root fetch - processPackages [aind-codeocean-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_codeocean_api-0.2.1.tar.gz tmp/aind_codeocean_api-0.2.2.tar.gz --markdown 20230508/a/aind-codeocean-api/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-08 20:39:08] INFO root fetch - processPackages [aiokeydb]: executing diffoscope
+[2023-05-08 20:39:08] INFO root fetch - processPackages [aiokeydb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiokeydb-0.1.8.tar.gz tmp/aiokeydb-0.1.9.tar.gz --markdown 20230508/a/aiokeydb/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 20:39:08] INFO root fetch - processPackages [cidc-api-modules]: executing diffoscope
+[2023-05-08 20:39:08] INFO root fetch - processPackages [cidc-api-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cidc_api_modules-0.9.4.tar.gz tmp/cidc_api_modules-0.9.5.tar.gz --markdown 20230508/c/cidc-api-modules/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-08 20:39:08] INFO root fetch - processPackages [cpggen]: executing diffoscope
+[2023-05-08 20:39:08] INFO root fetch - processPackages [cpggen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpggen-1.0.3.tar.gz tmp/cpggen-1.0.4.tar.gz --markdown 20230508/c/cpggen/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-08 20:39:08] INFO root fetch - processPackages [eswrap]: executing diffoscope
+[2023-05-08 20:39:08] INFO root fetch - processPackages [eswrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eswrap-0.1-py3-none-any.whl.zip tmp/eswrap-0.3.tar.gz --markdown 20230508/e/eswrap/0.1-0.3/diff.md --exclude *.pyd
+[2023-05-08 20:39:10] INFO root fetch - processPackages [YOMAPI]: Start processing: security-scanner
+[2023-05-08 20:39:10] INFO root fetch - main [MainThread]: End processing [YOMAPI]: success
+[2023-05-08 20:39:10] INFO root fetch - processPackages [security-scanner]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-08 20:39:10] INFO root fetch - processPackages [dxsp]: Start processing: aikoai
+[2023-05-08 20:39:10] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-05-08 20:39:10] INFO root fetch - processPackages [pluthon]: Start processing: slurm-parallel
+[2023-05-08 20:39:10] INFO root fetch - main [MainThread]: End processing [pluthon]: success
+[2023-05-08 20:39:10] INFO root fetch - processPackages [aikoai]: New version: [3.4] Old Version: [3.2]
+[2023-05-08 20:39:10] INFO root fetch - processPackages [eswrap]: Start processing: gravitypy
+[2023-05-08 20:39:10] INFO root fetch - main [MainThread]: End processing [eswrap]: success
+[2023-05-08 20:39:10] INFO root fetch - processPackages [gravitypy]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-08 20:39:10] INFO root fetch - processPackages [slurm-parallel]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-08 20:39:10] INFO root fetch - processPackages [aikoai]: executing diffoscope
+[2023-05-08 20:39:10] INFO root fetch - processPackages [aikoai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aikoai-3.2.tar.gz tmp/aikoai-3.4.tar.gz --markdown 20230508/a/aikoai/3.2-3.4/diff.md --exclude *.pyd
+[2023-05-08 20:39:10] INFO root fetch - main [MainThread]: End processing [cidc-api-modules]: success
+[2023-05-08 20:39:10] INFO root fetch - main [MainThread]: End processing [images-upload-cli]: success
+[2023-05-08 20:39:10] INFO root fetch - processPackages [security-scanner]: Downloading https://files.pythonhosted.org/packages/67/7e/4fa7ad79c7cad135ce642f5f89d9f6fb841654d3949f6d63bcbdf0e2d4bb/security_scanner-0.1.2.tar.gz
+[2023-05-08 20:39:10] INFO root fetch - processPackages [slurm-parallel]: Downloading https://files.pythonhosted.org/packages/89/a6/25183c6639496582580b413500b465b24556174056b353288fecd0e9edb2/slurm-parallel-0.1.0.tar.gz
+[2023-05-08 20:39:10] INFO root fetch - processPackages [security-scanner]: executing diffoscope
+[2023-05-08 20:39:10] INFO root fetch - processPackages [security-scanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/security_scanner-0.1.1.tar.gz tmp/security_scanner-0.1.2.tar.gz --markdown 20230508/s/security-scanner/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-08 20:39:10] INFO root fetch - main [MainThread]: End processing [cpggen]: success
+[2023-05-08 20:39:10] INFO root fetch - processPackages [gravitypy]: executing diffoscope
+[2023-05-08 20:39:10] INFO root fetch - processPackages [gravitypy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gravitypy-1.0.8.tar.gz tmp/gravitypy-1.0.9.tar.gz --markdown 20230508/g/gravitypy/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-08 20:39:10] INFO root fetch - processPackages [slurm-parallel]: Downloading https://files.pythonhosted.org/packages/b1/d1/27df22149b08af22b5bcc45c9d9e55f295f92fe18f1fce806d3ef6ed3fd9/slurm-parallel-0.1.1.tar.gz
+[2023-05-08 20:39:11] INFO root fetch - main [MainThread]: End processing [aiokeydb]: success
+[2023-05-08 20:39:11] INFO root fetch - processPackages [slurm-parallel]: executing diffoscope
+[2023-05-08 20:39:11] INFO root fetch - processPackages [slurm-parallel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slurm-parallel-0.1.0.tar.gz tmp/slurm-parallel-0.1.1.tar.gz --markdown 20230508/s/slurm-parallel/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-08 20:39:11] INFO root fetch - main [MainThread]: End processing [openedx-events]: success
+[2023-05-08 20:39:11] INFO root fetch - main [MainThread]: End processing [aind-codeocean-api]: success
+[2023-05-08 20:39:11] INFO root fetch - main [MainThread]: End processing [aikoai]: success
+[2023-05-08 20:39:11] INFO root fetch - main [MainThread]: End processing [security-scanner]: success
+[2023-05-08 20:39:11] INFO root fetch - main [MainThread]: End processing [gravitypy]: success
+[2023-05-08 20:39:12] INFO root fetch - main [MainThread]: End processing [slurm-parallel]: success
+[2023-05-08 20:39:12] INFO root fetch - main [MainThread]: Store serial: [18020794]
