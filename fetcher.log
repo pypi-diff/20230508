@@ -17749,3 +17749,99 @@ EOFError: EOF read where object expected
 [2023-05-08 19:08:26] INFO root fetch - main [MainThread]: End processing [sarpy]: success
 [2023-05-08 19:08:44] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-05-08 19:08:44] INFO root fetch - main [MainThread]: Store serial: [18019859]
+[2023-05-08 19:13:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18019859]
+[2023-05-08 19:13:59] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-08 19:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mathexternal
+[2023-05-08 19:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-uri-generate-link-json
+[2023-05-08 19:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hindilemmatizer
+[2023-05-08 19:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-kit-annotation
+[2023-05-08 19:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cashews
+[2023-05-08 19:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: knic-jupyter
+[2023-05-08 19:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: data-cliff
+[2023-05-08 19:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: adsms
+[2023-05-08 19:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: varbox
+[2023-05-08 19:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyshortcuts
+[2023-05-08 19:13:59] INFO root fetch - processPackages [certora-cli-alpha-kit-annotation]: New version: [20230508.14.25.418992] Old Version: [20230508.13.7.481888]
+[2023-05-08 19:13:59] INFO root fetch - processPackages [certora-cli-alpha-uri-generate-link-json]: New version: [20230508.14.24.748618] Old Version: [20230507.15.1.789625]
+[2023-05-08 19:13:59] INFO root fetch - processPackages [hindilemmatizer]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-08 19:13:59] INFO root fetch - processPackages [varbox]: New version: [2.0] Old Version: [1.2]
+[2023-05-08 19:13:59] INFO root fetch - processPackages [adsms]: New version: [0.1] Old Version: [0.0]
+[2023-05-08 19:13:59] INFO root fetch - processPackages [certora-cli-alpha-uri-generate-link-json]: Downloading https://files.pythonhosted.org/packages/a7/ae/0a78dab381859b1e7540e9e87d95a0b24fda3a7f2ec788dda32e83354964/certora-cli-alpha-uri-generate_link_json-20230507.15.1.789625.tar.gz
+[2023-05-08 19:13:59] WARNING root fetch - processPackages [mathexternal]: Skipping, unable to determine old version
+[2023-05-08 19:13:59] INFO root fetch - processPackages [mathexternal]: Start processing: certora-cli-alpha-jtoman-gmx-init
+[2023-05-08 19:13:59] INFO root fetch - main [MainThread]: End processing [mathexternal] error
+[2023-05-08 19:13:59] INFO root fetch - processPackages [hindilemmatizer]: executing diffoscope
+[2023-05-08 19:13:59] INFO root fetch - processPackages [hindilemmatizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hindilemmatizer-0.2.0.tar.gz tmp/hindilemmatizer-0.3.0-py3-none-any.whl.zip --markdown 20230508/h/hindilemmatizer/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-08 19:13:59] INFO root fetch - processPackages [varbox]: executing diffoscope
+[2023-05-08 19:13:59] INFO root fetch - processPackages [varbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/varbox-1.2.tar.gz tmp/varbox-2.0.tar.gz --markdown 20230508/v/varbox/1.2-2.0/diff.md --exclude *.pyd
+[2023-05-08 19:13:59] WARNING root fetch - processPackages [certora-cli-alpha-uri-generate-link-json]: Skipping package: exceeds size limit 38475296>=10485760
+[2023-05-08 19:13:59] INFO root fetch - processPackages [certora-cli-alpha-uri-generate-link-json]: Start processing: aars
+[2023-05-08 19:13:59] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-uri-generate-link-json] error
+[2023-05-08 19:13:59] INFO root fetch - processPackages [data-cliff]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-08 19:13:59] INFO root fetch - processPackages [pyshortcuts]: New version: [1.9.0] Old Version: [1.8.3]
+[2023-05-08 19:13:59] INFO root fetch - processPackages [adsms]: executing diffoscope
+[2023-05-08 19:13:59] INFO root fetch - processPackages [adsms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adsms-0.0.tar.gz tmp/adsms-0.1.tar.gz --markdown 20230508/a/adsms/0.0-0.1/diff.md --exclude *.pyd
+[2023-05-08 19:13:59] INFO root fetch - processPackages [cashews]: New version: [6.1.0] Old Version: [6.0.2]
+[2023-05-08 19:13:59] INFO root fetch - processPackages [aars]: New version: [0.6.0] Old Version: [0.5.8]
+[2023-05-08 19:13:59] INFO root fetch - processPackages [certora-cli-alpha-kit-annotation]: Downloading https://files.pythonhosted.org/packages/fe/33/156e5b51cb66b5341193c00b090e4405de120d176ebe778dd79aefffa53c/certora-cli-alpha-kit-annotation-20230508.13.7.481888.tar.gz
+[2023-05-08 19:13:59] INFO root fetch - processPackages [certora-cli-alpha-jtoman-gmx-init]: New version: [20230508.17.11.702876] Old Version: [20230505.3.50.559004]
+[2023-05-08 19:13:59] INFO root fetch - processPackages [aars]: executing diffoscope
+[2023-05-08 19:13:59] INFO root fetch - processPackages [aars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aars-0.5.8.tar.gz tmp/aars-0.6.0.tar.gz --markdown 20230508/a/aars/0.5.8-0.6.0/diff.md --exclude *.pyd
+[2023-05-08 19:13:59] INFO root fetch - processPackages [pyshortcuts]: Downloading https://files.pythonhosted.org/packages/c5/b9/0d10ee60eb945f097f6eda42af38c516b7a41c4ed1afe0864a422dd75b6d/pyshortcuts-1.8.3.tar.gz
+[2023-05-08 19:13:59] WARNING root fetch - processPackages [certora-cli-alpha-kit-annotation]: Skipping package: exceeds size limit 38481733>=10485760
+[2023-05-08 19:13:59] INFO root fetch - processPackages [certora-cli-alpha-kit-annotation]: Start processing: discordgpt
+[2023-05-08 19:13:59] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-kit-annotation] error
+[2023-05-08 19:13:59] INFO root fetch - processPackages [knic-jupyter]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-08 19:13:59] INFO root fetch - processPackages [data-cliff]: Downloading https://files.pythonhosted.org/packages/88/b3/5ff28b78f89f7e3d28d3bfc81a1fd3f1723be3447604eb57152c8f9394d9/data_cliff-0.1.2.tar.gz
+[2023-05-08 19:13:59] INFO root fetch - processPackages [cashews]: Downloading https://files.pythonhosted.org/packages/77/48/c5a155762a27f8e9eec3e95bc63d38cf377ee09752e064a1d75dc371103d/cashews-6.0.2.tar.gz
+[2023-05-08 19:13:59] WARNING root fetch - processPackages [discordgpt]: Skipping, unable to determine old version
+[2023-05-08 19:13:59] INFO root fetch - processPackages [discordgpt]: Start processing: vollseg
+[2023-05-08 19:13:59] INFO root fetch - main [MainThread]: End processing [discordgpt] error
+[2023-05-08 19:13:59] INFO root fetch - processPackages [certora-cli-alpha-jtoman-gmx-init]: Downloading https://files.pythonhosted.org/packages/73/ea/8c57b60bb994c90934a241b00b471b60b6f91009102b019f9c779d9f7967/certora-cli-alpha-jtoman-gmx-init-20230505.3.50.559004.tar.gz
+[2023-05-08 19:13:59] WARNING root fetch - processPackages [certora-cli-alpha-jtoman-gmx-init]: Skipping package: exceeds size limit 38471797>=10485760
+[2023-05-08 19:13:59] INFO root fetch - processPackages [certora-cli-alpha-jtoman-gmx-init]: Start processing: python-framework
+[2023-05-08 19:13:59] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-jtoman-gmx-init] error
+[2023-05-08 19:13:59] INFO root fetch - processPackages [knic-jupyter]: Downloading https://files.pythonhosted.org/packages/42/dd/99300efbc949fe4fa90c493a3859413a97e67492ad755b8b99f4c3da233c/knic_jupyter-0.1.0.tar.gz
+[2023-05-08 19:13:59] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-05-08 19:13:59] INFO root fetch - processPackages [data-cliff]: Downloading https://files.pythonhosted.org/packages/8f/39/d4a112f8b175a55b149ff2c2e886a45883c72cb2d31e57ec5ebd66cb552b/data_cliff-0.1.3.tar.gz
+[2023-05-08 19:13:59] INFO root fetch - processPackages [python-framework]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-08 19:13:59] INFO root fetch - processPackages [cashews]: Downloading https://files.pythonhosted.org/packages/e1/0e/e4f81e91a46b2a72a010d0942e3a0fe126d079214da9d1c37218b290b110/cashews-6.1.0.tar.gz
+[2023-05-08 19:13:59] INFO root fetch - processPackages [pyshortcuts]: Downloading https://files.pythonhosted.org/packages/a4/bb/a8845d9137d5daf0fac675556e26beeca98294c89c33cdbc71e82f2b0936/pyshortcuts-1.9.0.tar.gz
+[2023-05-08 19:14:00] INFO root fetch - processPackages [data-cliff]: executing diffoscope
+[2023-05-08 19:14:00] INFO root fetch - processPackages [data-cliff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_cliff-0.1.2.tar.gz tmp/data_cliff-0.1.3.tar.gz --markdown 20230508/d/data-cliff/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-08 19:14:00] INFO root fetch - processPackages [cashews]: executing diffoscope
+[2023-05-08 19:14:00] INFO root fetch - processPackages [cashews]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cashews-6.0.2.tar.gz tmp/cashews-6.1.0.tar.gz --markdown 20230508/c/cashews/6.0.2-6.1.0/diff.md --exclude *.pyd
+[2023-05-08 19:14:00] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-05-08 19:14:00] INFO root fetch - processPackages [knic-jupyter]: Downloading https://files.pythonhosted.org/packages/5f/22/8fe12400a795bcb3f56eed01be62a3521dfe4e056c421e0a3c0f28abfa47/knic_jupyter-0.1.1.tar.gz
+[2023-05-08 19:14:00] INFO root fetch - processPackages [pyshortcuts]: executing diffoscope
+[2023-05-08 19:14:00] INFO root fetch - processPackages [pyshortcuts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyshortcuts-1.8.3.tar.gz tmp/pyshortcuts-1.9.0.tar.gz --markdown 20230508/p/pyshortcuts/1.8.3-1.9.0/diff.md --exclude *.pyd
+[2023-05-08 19:14:00] INFO root fetch - processPackages [python-framework]: Downloading https://files.pythonhosted.org/packages/14/44/8f8eacdd1b7d452438c95672018760dcb9cbe3d25ee65ddb5fe9fa73874e/python_framework-0.4.8.tar.gz
+[2023-05-08 19:14:00] INFO root fetch - processPackages [knic-jupyter]: executing diffoscope
+[2023-05-08 19:14:00] INFO root fetch - processPackages [knic-jupyter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knic_jupyter-0.1.0.tar.gz tmp/knic_jupyter-0.1.1.tar.gz --markdown 20230508/k/knic-jupyter/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-08 19:14:00] INFO root fetch - processPackages [python-framework]: Downloading https://files.pythonhosted.org/packages/98/b4/a20e78ab1ebc4fb7c08417765170b767a1181107a5e8f6be0de308519b9f/python_framework-0.4.9.tar.gz
+[2023-05-08 19:14:00] INFO root fetch - processPackages [hindilemmatizer]: Start processing: alas-ce0-client
+[2023-05-08 19:14:00] INFO root fetch - main [MainThread]: End processing [hindilemmatizer]: success
+[2023-05-08 19:14:00] INFO root fetch - processPackages [python-framework]: executing diffoscope
+[2023-05-08 19:14:00] INFO root fetch - processPackages [python-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_framework-0.4.8.tar.gz tmp/python_framework-0.4.9.tar.gz --markdown 20230508/p/python-framework/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-08 19:14:00] INFO root fetch - processPackages [adsms]: Start processing: docassemble
+[2023-05-08 19:14:00] INFO root fetch - main [MainThread]: End processing [adsms]: success
+[2023-05-08 19:14:00] INFO root fetch - processPackages [docassemble]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-08 19:14:00] INFO root fetch - processPackages [alas-ce0-client]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-05-08 19:14:00] INFO root fetch - processPackages [docassemble]: executing diffoscope
+[2023-05-08 19:14:00] INFO root fetch - processPackages [docassemble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docassemble-1.4.8.tar.gz tmp/docassemble-1.4.9.tar.gz --markdown 20230508/d/docassemble/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-05-08 19:14:00] INFO root fetch - main [MainThread]: End processing [varbox]: success
+[2023-05-08 19:14:00] INFO root fetch - processPackages [alas-ce0-client]: Downloading https://files.pythonhosted.org/packages/5a/b5/ee7164d9eb6a020f5cb6e7bcfa9d38ddd03dae1f61c851fd9df0fa1a2a37/alas-ce0-client-4.0.8.tar.gz
+[2023-05-08 19:14:00] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-05-08 19:14:00] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-05-08 19:14:01] INFO root fetch - main [MainThread]: End processing [aars]: success
+[2023-05-08 19:14:01] INFO root fetch - processPackages [alas-ce0-client]: Downloading https://files.pythonhosted.org/packages/a0/15/77351f4f5e9646f6cf6c8190140b46c7cbdc3282b903dd85a4da03e46df1/alas-ce0-client-4.0.9.tar.gz
+[2023-05-08 19:14:01] INFO root fetch - processPackages [alas-ce0-client]: executing diffoscope
+[2023-05-08 19:14:01] INFO root fetch - processPackages [alas-ce0-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alas-ce0-client-4.0.8.tar.gz tmp/alas-ce0-client-4.0.9.tar.gz --markdown 20230508/a/alas-ce0-client/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-05-08 19:14:01] INFO root fetch - main [MainThread]: End processing [data-cliff]: success
+[2023-05-08 19:14:01] INFO root fetch - main [MainThread]: End processing [pyshortcuts]: success
+[2023-05-08 19:14:01] INFO root fetch - main [MainThread]: End processing [docassemble]: success
+[2023-05-08 19:14:02] INFO root fetch - main [MainThread]: End processing [python-framework]: success
+[2023-05-08 19:14:02] INFO root fetch - main [MainThread]: End processing [alas-ce0-client]: success
+[2023-05-08 19:14:03] INFO root fetch - main [MainThread]: End processing [cashews]: success
+[2023-05-08 19:14:05] INFO root fetch - main [MainThread]: End processing [knic-jupyter]: success
+[2023-05-08 19:14:05] INFO root fetch - main [MainThread]: Store serial: [18019918]
