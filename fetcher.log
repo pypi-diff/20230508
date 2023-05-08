@@ -18165,3 +18165,76 @@ EOFError: EOF read where object expected
 [2023-05-08 19:35:06] INFO root fetch - main [MainThread]: End processing [pulumi-confluentcloud]: success
 [2023-05-08 19:35:23] INFO root fetch - main [MainThread]: End processing [prefect]: success
 [2023-05-08 19:35:23] INFO root fetch - main [MainThread]: Store serial: [18020123]
+[2023-05-08 19:40:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18020123]
+[2023-05-08 19:40:33] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-08 19:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: varbox
+[2023-05-08 19:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FreeMobileConso
+[2023-05-08 19:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unidata-blocks
+[2023-05-08 19:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ProjZ.py
+[2023-05-08 19:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flet-material
+[2023-05-08 19:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-uri-eradicate-certora-dir
+[2023-05-08 19:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Pyvish
+[2023-05-08 19:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: coiled
+[2023-05-08 19:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mkdocs-ultralytics-plugin
+[2023-05-08 19:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xyz-school
+[2023-05-08 19:40:33] INFO root fetch - processPackages [varbox]: New version: [3.0] Old Version: [2.3]
+[2023-05-08 19:40:33] INFO root fetch - processPackages [ProjZ.py]: New version: [2.4.5] Old Version: [2.4.4]
+[2023-05-08 19:40:33] INFO root fetch - processPackages [certora-cli-alpha-uri-eradicate-certora-dir]: New version: [20230508.16.5.3617] Old Version: [20230508.15.18.995254]
+[2023-05-08 19:40:33] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-08 19:40:33] INFO root fetch - processPackages [coiled]: New version: [0.6.3.dev9] Old Version: [0.6.3.dev8]
+[2023-05-08 19:40:33] INFO root fetch - processPackages [flet-material]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-08 19:40:33] WARNING root fetch - processPackages [FreeMobileConso]: Skipping, unable to determine old version
+[2023-05-08 19:40:33] INFO root fetch - processPackages [FreeMobileConso]: Start processing: kfp
+[2023-05-08 19:40:33] INFO root fetch - processPackages [certora-cli-alpha-uri-eradicate-certora-dir]: Downloading https://files.pythonhosted.org/packages/3c/db/53ba7af17855505f3c91dc5f9a313f6e56a4198f3f0b45720e97e01284f3/certora-cli-alpha-uri-eradicate_certora_dir-20230508.15.18.995254.tar.gz
+[2023-05-08 19:40:33] INFO root fetch - main [MainThread]: End processing [FreeMobileConso] error
+[2023-05-08 19:40:33] WARNING root fetch - processPackages [unidata-blocks]: Skipping, unable to determine old version
+[2023-05-08 19:40:33] INFO root fetch - processPackages [unidata-blocks]: Start processing: klym-telemetry
+[2023-05-08 19:40:33] INFO root fetch - main [MainThread]: End processing [unidata-blocks] error
+[2023-05-08 19:40:33] WARNING root fetch - processPackages [Pyvish]: Skipping, unable to determine old version
+[2023-05-08 19:40:33] INFO root fetch - processPackages [Pyvish]: Start processing: certora-cli-alpha-yuvalbd-rule-events-error-checking-part-two
+[2023-05-08 19:40:33] INFO root fetch - main [MainThread]: End processing [Pyvish] error
+[2023-05-08 19:40:33] INFO root fetch - processPackages [xyz-school]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 19:40:33] INFO root fetch - processPackages [ProjZ.py]: executing diffoscope
+[2023-05-08 19:40:33] INFO root fetch - processPackages [ProjZ.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ProjZ.py-2.4.4.tar.gz tmp/ProjZ.py-2.4.5.tar.gz --markdown 20230508/P/ProjZ.py/2.4.4-2.4.5/diff.md --exclude *.pyd
+[2023-05-08 19:40:33] WARNING root fetch - processPackages [certora-cli-alpha-uri-eradicate-certora-dir]: Skipping package: exceeds size limit 38474162>=10485760
+[2023-05-08 19:40:33] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-uri-eradicate-certora-dir] error
+[2023-05-08 19:40:33] INFO root fetch - processPackages [klym-telemetry]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-08 19:40:33] INFO root fetch - processPackages [certora-cli-alpha-yuvalbd-rule-events-error-checking-part-two]: New version: [20230508.7.43.27573] Old Version: [20230508.7.12.93347]
+[2023-05-08 19:40:33] INFO root fetch - processPackages [varbox]: Downloading https://files.pythonhosted.org/packages/41/f3/acd6c5160b8b0341957167bd62a899ef3e1c5b6945897441adb6ec145b09/varbox-2.3.tar.gz
+[2023-05-08 19:40:33] INFO root fetch - processPackages [certora-cli-alpha-yuvalbd-rule-events-error-checking-part-two]: Downloading https://files.pythonhosted.org/packages/8c/6a/e54959507f9a03300127a7a13e298b090ea5d8a802d99857d877e4706976/certora-cli-alpha-yuvalbd-rule_events_error_checking_part_two-20230508.7.12.93347.tar.gz
+[2023-05-08 19:40:33] INFO root fetch - processPackages [kfp]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2023-05-08 19:40:33] WARNING root fetch - processPackages [certora-cli-alpha-yuvalbd-rule-events-error-checking-part-two]: Skipping package: exceeds size limit 38474506>=10485760
+[2023-05-08 19:40:33] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-yuvalbd-rule-events-error-checking-part-two] error
+[2023-05-08 19:40:33] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: Downloading https://files.pythonhosted.org/packages/26/98/286bc465c65a0b6940a11056b7fff016f12b6d8273710ed748c40f9acf08/mkdocs-ultralytics-plugin-0.0.6.tar.gz
+[2023-05-08 19:40:33] INFO root fetch - processPackages [flet-material]: Downloading https://files.pythonhosted.org/packages/08/e7/8e1815b8af1fb6dc4be0c6225cf3ca2ea027aab24b7943e74636011b9625/flet-material-0.2.0.tar.gz
+[2023-05-08 19:40:33] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/9c/fc/b0e758a9c3ed37c225c660ac85b53fa3ed42f8a394817f450a25e94e9119/coiled-0.6.3.dev9.tar.gz
+[2023-05-08 19:40:33] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: executing diffoscope
+[2023-05-08 19:40:33] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-ultralytics-plugin-0.0.5.tar.gz tmp/mkdocs-ultralytics-plugin-0.0.6.tar.gz --markdown 20230508/m/mkdocs-ultralytics-plugin/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-08 19:40:33] INFO root fetch - processPackages [xyz-school]: Downloading https://files.pythonhosted.org/packages/57/d5/66c3c967ada85f2b043f93cdaed3451dae5ee66629d1d528798a4fd56b72/xyz_school-0.1.8-py3-none-any.whl
+[2023-05-08 19:40:33] INFO root fetch - processPackages [kfp]: Downloading https://files.pythonhosted.org/packages/56/d8/203caad7f2516cf1ee20f08968f30b383d5deccc6144595c882351615e53/kfp-2.0.0b8.tar.gz
+[2023-05-08 19:40:33] INFO root fetch - processPackages [varbox]: Downloading https://files.pythonhosted.org/packages/ef/bd/7b41e2466aa3fc0c1b57d94dacdc160aa34f7701761f2a36492cd7618aad/varbox-3.0.tar.gz
+[2023-05-08 19:40:33] INFO root fetch - processPackages [klym-telemetry]: Downloading https://files.pythonhosted.org/packages/3b/2e/785f7be1f1a6d8b3f37d945385e8fc30eef073534e68532cd4daf9aa9036/klym-telemetry-0.1.8.tar.gz
+[2023-05-08 19:40:34] INFO root fetch - processPackages [klym-telemetry]: executing diffoscope
+[2023-05-08 19:40:34] INFO root fetch - processPackages [klym-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klym-telemetry-0.1.7.tar.gz tmp/klym-telemetry-0.1.8.tar.gz --markdown 20230508/k/klym-telemetry/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-08 19:40:34] INFO root fetch - processPackages [flet-material]: Downloading https://files.pythonhosted.org/packages/1a/a7/95b07dbf009096b06966186311ffb9011540c615d9257bdb2b408d04cfe5/flet-material-0.3.0.tar.gz
+[2023-05-08 19:40:34] INFO root fetch - processPackages [varbox]: executing diffoscope
+[2023-05-08 19:40:34] INFO root fetch - processPackages [varbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/varbox-2.3.tar.gz tmp/varbox-3.0.tar.gz --markdown 20230508/v/varbox/2.3-3.0/diff.md --exclude *.pyd
+[2023-05-08 19:40:34] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-08 19:40:34] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.3.dev8.tar.gz tmp/coiled-0.6.3.dev9.tar.gz --markdown 20230508/c/coiled/0.6.3.dev8-0.6.3.dev9/diff.md --exclude *.pyd
+[2023-05-08 19:40:34] INFO root fetch - processPackages [xyz-school]: Downloading https://files.pythonhosted.org/packages/5e/fd/06566d37dca626ff1abd028f47e22196df8f85361ab9fb34512977db215c/xyz_school-0.1.9-py3-none-any.whl
+[2023-05-08 19:40:34] INFO root fetch - processPackages [xyz-school]: executing diffoscope
+[2023-05-08 19:40:34] INFO root fetch - processPackages [xyz-school]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xyz_school-0.1.8-py3-none-any.whl.zip tmp/xyz_school-0.1.9-py3-none-any.whl.zip --markdown 20230508/x/xyz-school/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 19:40:34] INFO root fetch - processPackages [kfp]: Downloading https://files.pythonhosted.org/packages/27/c3/fd76537a4f8875938e43ed6a0c6d3262abd5391171cfad182766e0577eb0/kfp-2.0.0b9.tar.gz
+[2023-05-08 19:40:34] INFO root fetch - processPackages [flet-material]: executing diffoscope
+[2023-05-08 19:40:34] INFO root fetch - processPackages [flet-material]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet-material-0.2.0.tar.gz tmp/flet-material-0.3.0.tar.gz --markdown 20230508/f/flet-material/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-08 19:40:34] INFO root fetch - processPackages [kfp]: executing diffoscope
+[2023-05-08 19:40:34] INFO root fetch - processPackages [kfp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfp-2.0.0b8.tar.gz tmp/kfp-2.0.0b9.tar.gz --markdown 20230508/k/kfp/2.0.0b8-2.0.0b9/diff.md --exclude *.pyd
+[2023-05-08 19:40:35] INFO root fetch - main [MainThread]: End processing [mkdocs-ultralytics-plugin]: success
+[2023-05-08 19:40:35] INFO root fetch - main [MainThread]: End processing [ProjZ.py]: success
+[2023-05-08 19:40:35] INFO root fetch - main [MainThread]: End processing [xyz-school]: success
+[2023-05-08 19:40:35] INFO root fetch - main [MainThread]: End processing [varbox]: success
+[2023-05-08 19:40:35] INFO root fetch - main [MainThread]: End processing [klym-telemetry]: success
+[2023-05-08 19:40:36] INFO root fetch - main [MainThread]: End processing [flet-material]: success
+[2023-05-08 19:40:36] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-08 19:40:37] INFO root fetch - main [MainThread]: End processing [kfp]: success
+[2023-05-08 19:40:37] INFO root fetch - main [MainThread]: Store serial: [18020166]
