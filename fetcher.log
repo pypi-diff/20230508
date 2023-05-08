@@ -12825,3 +12825,172 @@
 [2023-05-08 15:17:25] INFO root fetch - main [MainThread]: End processing [capellambse]: success
 [2023-05-08 15:17:27] INFO root fetch - main [MainThread]: End processing [demisto-sdk]: success
 [2023-05-08 15:17:27] INFO root fetch - main [MainThread]: Store serial: [18017028]
+[2023-05-08 15:22:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18017028]
+[2023-05-08 15:22:37] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-08 15:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nlpashto
+[2023-05-08 15:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-django
+[2023-05-08 15:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edwh-pipcompile-plugin
+[2023-05-08 15:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DocScanLib
+[2023-05-08 15:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.cdk-route53-health-check
+[2023-05-08 15:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-auth-micro
+[2023-05-08 15:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: netbox-metatype-importer
+[2023-05-08 15:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mango-cli
+[2023-05-08 15:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-pglock
+[2023-05-08 15:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sismic
+[2023-05-08 15:22:37] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-08 15:22:37] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-08 15:22:37] INFO root fetch - processPackages [DocScanLib]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-08 15:22:37] INFO root fetch - processPackages [nlpashto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 15:22:37] INFO root fetch - processPackages [py-auth-micro]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 15:22:37] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-05-08 15:22:37] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230508/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-08 15:22:37] INFO root fetch - processPackages [netbox-metatype-importer]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-05-08 15:22:37] INFO root fetch - processPackages [edwh-pipcompile-plugin]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-05-08 15:22:37] INFO root fetch - processPackages [django-pglock]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-08 15:22:37] INFO root fetch - processPackages [mango-cli]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-08 15:22:37] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: executing diffoscope
+[2023-05-08 15:22:37] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz --markdown 20230508/p/pepperize.cdk-route53-health-check/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-08 15:22:37] INFO root fetch - processPackages [py-auth-micro]: Downloading https://files.pythonhosted.org/packages/d4/9d/214d5637484dfceccb3dba8fa941ef30d6de8a3fc3eeb8faf747d36546be/py_auth_micro-0.0.8.tar.gz
+[2023-05-08 15:22:37] INFO root fetch - processPackages [mango-cli]: Downloading https://files.pythonhosted.org/packages/7a/91/8ad718b7a97faf3aee3f5fe57dafd9f63dcf6e45026a1a735a448e205ba5/mango-cli-0.3.8.tar.gz
+[2023-05-08 15:22:37] INFO root fetch - processPackages [DocScanLib]: Downloading https://files.pythonhosted.org/packages/05/1c/30ccc4be0a81e4db52f1c0b9e84335d869fcdfd9563a6255337f30be8128/DocScanLib-1.0.2.tar.gz
+[2023-05-08 15:22:37] INFO root fetch - processPackages [sismic]: New version: [1.6.5] Old Version: [1.6.4]
+[2023-05-08 15:22:37] INFO root fetch - processPackages [django-pglock]: Downloading https://files.pythonhosted.org/packages/7f/f1/e4086389d8a952520f1e8ce23287d15a777d7fa0c866a478034672c6c6b4/django-pglock-1.1.0.tar.gz
+[2023-05-08 15:22:37] INFO root fetch - processPackages [edwh-pipcompile-plugin]: Downloading https://files.pythonhosted.org/packages/e7/43/8f04b8e0f71091f3668f341ce7ada760cced1d9e2dc7f190b0e286a08b31/edwh_pipcompile_plugin-0.1.9.tar.gz
+[2023-05-08 15:22:37] INFO root fetch - processPackages [netbox-metatype-importer]: Downloading https://files.pythonhosted.org/packages/98/e8/5390753e1cee5ac1971826fb042938be88bb8ef03e50cf580769aeea7d7b/netbox-metatype-importer-0.0.4.tar.gz
+[2023-05-08 15:22:37] INFO root fetch - processPackages [nlpashto]: executing diffoscope
+[2023-05-08 15:22:37] INFO root fetch - processPackages [nlpashto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlpashto-0.0.8.tar.gz tmp/nlpashto-0.0.9.tar.gz --markdown 20230508/n/nlpashto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 15:22:37] INFO root fetch - processPackages [mango-cli]: Downloading https://files.pythonhosted.org/packages/45/b6/b42f0b90aa13b9d20a0073370182e75fcd52ffe1913ea2b75308c8c862ef/mango-cli-0.3.9.tar.gz
+[2023-05-08 15:22:37] INFO root fetch - processPackages [edwh-pipcompile-plugin]: Downloading https://files.pythonhosted.org/packages/77/7a/c17c4bdede52fe894da0d636e3db2915c497702ca2db78c3eeb87bc95faa/edwh_pipcompile_plugin-0.2.0.tar.gz
+[2023-05-08 15:22:37] INFO root fetch - processPackages [sismic]: Downloading https://files.pythonhosted.org/packages/03/26/1a4bbb7ab523200ff6c0468fb97df238b479922931cb5a5d4c230ae1e593/sismic-1.6.4.tar.gz
+[2023-05-08 15:22:37] INFO root fetch - processPackages [DocScanLib]: executing diffoscope
+[2023-05-08 15:22:37] INFO root fetch - processPackages [DocScanLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DocScanLib-1.0.1.tar.gz tmp/DocScanLib-1.0.2.tar.gz --markdown 20230508/D/DocScanLib/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-08 15:22:37] INFO root fetch - processPackages [py-auth-micro]: Downloading https://files.pythonhosted.org/packages/84/0c/d61526237a57c59cf25da73be6173216667fde4116f59d134ff63dc774fe/py_auth_micro-0.0.9.tar.gz
+[2023-05-08 15:22:37] INFO root fetch - processPackages [django-pglock]: Downloading https://files.pythonhosted.org/packages/ea/49/c06783e8e77af618eb5faf806661c7731becd4123d2701aeac938fa34432/django_pglock-1.2.0.tar.gz
+[2023-05-08 15:22:37] INFO root fetch - processPackages [netbox-metatype-importer]: Downloading https://files.pythonhosted.org/packages/21/85/6df09da40b681262bde362e0791b2ba4d79242fdb6798f0ef8b160822797/netbox-metatype-importer-0.1.0.tar.gz
+[2023-05-08 15:22:37] INFO root fetch - processPackages [edwh-pipcompile-plugin]: executing diffoscope
+[2023-05-08 15:22:37] INFO root fetch - processPackages [edwh-pipcompile-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edwh_pipcompile_plugin-0.1.9.tar.gz tmp/edwh_pipcompile_plugin-0.2.0.tar.gz --markdown 20230508/e/edwh-pipcompile-plugin/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-05-08 15:22:38] INFO root fetch - processPackages [py-auth-micro]: executing diffoscope
+[2023-05-08 15:22:38] INFO root fetch - processPackages [py-auth-micro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_auth_micro-0.0.8.tar.gz tmp/py_auth_micro-0.0.9.tar.gz --markdown 20230508/p/py-auth-micro/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 15:22:38] INFO root fetch - processPackages [django-pglock]: executing diffoscope
+[2023-05-08 15:22:38] INFO root fetch - processPackages [django-pglock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pglock-1.1.0.tar.gz tmp/django_pglock-1.2.0.tar.gz --markdown 20230508/d/django-pglock/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-08 15:22:38] INFO root fetch - processPackages [netbox-metatype-importer]: executing diffoscope
+[2023-05-08 15:22:38] INFO root fetch - processPackages [netbox-metatype-importer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-metatype-importer-0.0.4.tar.gz tmp/netbox-metatype-importer-0.1.0.tar.gz --markdown 20230508/n/netbox-metatype-importer/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-05-08 15:22:38] INFO root fetch - processPackages [mango-cli]: executing diffoscope
+[2023-05-08 15:22:38] INFO root fetch - processPackages [mango-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mango-cli-0.3.8.tar.gz tmp/mango-cli-0.3.9.tar.gz --markdown 20230508/m/mango-cli/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-08 15:22:38] INFO root fetch - processPackages [sismic]: Downloading https://files.pythonhosted.org/packages/aa/8b/d7ce465ca2f8b8a7dc2d9f0e96d8ed6ef88343f3aa13d1430aafde2f2208/sismic-1.6.5.tar.gz
+[2023-05-08 15:22:38] INFO root fetch - processPackages [sismic]: executing diffoscope
+[2023-05-08 15:22:38] INFO root fetch - processPackages [sismic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sismic-1.6.4.tar.gz tmp/sismic-1.6.5.tar.gz --markdown 20230508/s/sismic/1.6.4-1.6.5/diff.md --exclude *.pyd
+[2023-05-08 15:22:39] INFO root fetch - processPackages [nlpashto]: Start processing: cbcbeat
+[2023-05-08 15:22:39] INFO root fetch - main [MainThread]: End processing [nlpashto]: success
+[2023-05-08 15:22:39] INFO root fetch - processPackages [cbcbeat]: New version: [2023.1.0] Old Version: [2023.0.0]
+[2023-05-08 15:22:39] INFO root fetch - processPackages [edwh-pipcompile-plugin]: Start processing: nbdev-apl
+[2023-05-08 15:22:39] INFO root fetch - main [MainThread]: End processing [edwh-pipcompile-plugin]: success
+[2023-05-08 15:22:39] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.761] Old Version: [0.0.760]
+[2023-05-08 15:22:39] INFO root fetch - processPackages [cbcbeat]: Downloading https://files.pythonhosted.org/packages/0e/93/a7f02352b2a40961faef9832ce04b97dd8d31e2294ea4c07d75d235e9f0e/cbcbeat-2023.0.0.tar.gz
+[2023-05-08 15:22:39] INFO root fetch - processPackages [mango-cli]: Start processing: arcaflow-plugin-kill-pod
+[2023-05-08 15:22:39] INFO root fetch - main [MainThread]: End processing [mango-cli]: success
+[2023-05-08 15:22:39] WARNING root fetch - processPackages [arcaflow-plugin-kill-pod]: Skipping, unable to determine old version
+[2023-05-08 15:22:39] INFO root fetch - processPackages [arcaflow-plugin-kill-pod]: Start processing: arcaflow-plugin-kill-pod-test
+[2023-05-08 15:22:39] INFO root fetch - main [MainThread]: End processing [arcaflow-plugin-kill-pod] error
+[2023-05-08 15:22:39] WARNING root fetch - processPackages [arcaflow-plugin-kill-pod-test]: Skipping, unable to determine old version
+[2023-05-08 15:22:39] INFO root fetch - processPackages [arcaflow-plugin-kill-pod-test]: Start processing: kalm
+[2023-05-08 15:22:39] INFO root fetch - main [MainThread]: End processing [arcaflow-plugin-kill-pod-test] error
+[2023-05-08 15:22:39] INFO root fetch - processPackages [kalm]: New version: [0.4.0] Old Version: [0.2.3]
+[2023-05-08 15:22:39] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/8b/4e/8b1f3f454cacbc0c461d76ee937e44097e888fe56453638d01b7a62f3f47/nbdev-apl-0.0.761.tar.gz
+[2023-05-08 15:22:39] INFO root fetch - processPackages [netbox-metatype-importer]: Start processing: PyQt5-Frameless-Window
+[2023-05-08 15:22:39] INFO root fetch - main [MainThread]: End processing [netbox-metatype-importer]: success
+[2023-05-08 15:22:39] INFO root fetch - processPackages [django-pglock]: Start processing: lftools
+[2023-05-08 15:22:39] INFO root fetch - main [MainThread]: End processing [django-pglock]: success
+[2023-05-08 15:22:39] INFO root fetch - processPackages [PyQt5-Frameless-Window]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-05-08 15:22:39] INFO root fetch - processPackages [lftools]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-08 15:22:39] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-05-08 15:22:39] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.760.tar.gz tmp/nbdev-apl-0.0.761.tar.gz --markdown 20230508/n/nbdev-apl/0.0.760-0.0.761/diff.md --exclude *.pyd
+[2023-05-08 15:22:39] INFO root fetch - processPackages [cbcbeat]: Downloading https://files.pythonhosted.org/packages/37/1f/8799532bbb82d4deba7cc541eed197c34bd06611332f87704d668a171a70/cbcbeat-2023.1.0.tar.gz
+[2023-05-08 15:22:39] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/83/f8/e369e1f8e1bb6d9ad6d9c1fe913ad3670ad6d45094add24e6d91b38221c7/kalm-0.2.3.tar.gz
+[2023-05-08 15:22:39] INFO root fetch - processPackages [cbcbeat]: executing diffoscope
+[2023-05-08 15:22:39] INFO root fetch - processPackages [cbcbeat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbcbeat-2023.0.0.tar.gz tmp/cbcbeat-2023.1.0.tar.gz --markdown 20230508/c/cbcbeat/2023.0.0-2023.1.0/diff.md --exclude *.pyd
+[2023-05-08 15:22:39] INFO root fetch - processPackages [PyQt5-Frameless-Window]: Downloading https://files.pythonhosted.org/packages/0f/67/03c526daf34b75df8e6df87fe691d59c384277bc5990416e3cf8a1430cd8/PyQt5-Frameless-Window-0.2.6.tar.gz
+[2023-05-08 15:22:39] INFO root fetch - processPackages [lftools]: Downloading https://files.pythonhosted.org/packages/2e/5c/00600514e263231e6642b26faf2b67cb60fdc77e76767c68368f2bc06f9f/lftools-0.9.0.tar.gz
+[2023-05-08 15:22:39] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/5f/46/ce0a984f7f33c8597563c2053125b65c638379697a15e342a638bf6ae40e/kalm-0.4.0.tar.gz
+[2023-05-08 15:22:40] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-05-08 15:22:40] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.2.3.tar.gz tmp/kalm-0.4.0.tar.gz --markdown 20230508/k/kalm/0.2.3-0.4.0/diff.md --exclude *.pyd
+[2023-05-08 15:22:40] INFO root fetch - processPackages [PyQt5-Frameless-Window]: Downloading https://files.pythonhosted.org/packages/6f/b6/c4f00e7ccc516c0b3ab2e4b9a590dcd93e78af5d0de03851123d3b5cb589/PyQt5-Frameless-Window-0.2.7.tar.gz
+[2023-05-08 15:22:40] INFO root fetch - processPackages [PyQt5-Frameless-Window]: executing diffoscope
+[2023-05-08 15:22:40] INFO root fetch - processPackages [PyQt5-Frameless-Window]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt5-Frameless-Window-0.2.6.tar.gz tmp/PyQt5-Frameless-Window-0.2.7.tar.gz --markdown 20230508/P/PyQt5-Frameless-Window/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-05-08 15:22:40] INFO root fetch - processPackages [lftools]: Downloading https://files.pythonhosted.org/packages/f1/36/316e07418f07156a3129aac70ad38bbe19aaeed4d334b15e771f53055a04/lftools-0.9.1.tar.gz
+[2023-05-08 15:22:40] INFO root fetch - processPackages [lftools]: executing diffoscope
+[2023-05-08 15:22:40] INFO root fetch - processPackages [lftools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lftools-0.9.0.tar.gz tmp/lftools-0.9.1.tar.gz --markdown 20230508/l/lftools/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-08 15:22:40] INFO root fetch - processPackages [py-auth-micro]: Start processing: sneaksmc
+[2023-05-08 15:22:40] INFO root fetch - main [MainThread]: End processing [py-auth-micro]: success
+[2023-05-08 15:22:40] INFO root fetch - processPackages [sneaksmc]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-08 15:22:40] INFO root fetch - processPackages [nbdev-django]: Start processing: fbgemm-gpu-nightly
+[2023-05-08 15:22:40] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-05-08 15:22:40] INFO root fetch - processPackages [fbgemm-gpu-nightly]: New version: [2023.5.7] Old Version: [2023.5.6]
+[2023-05-08 15:22:40] INFO root fetch - processPackages [sneaksmc]: Downloading https://files.pythonhosted.org/packages/b4/1f/3dda86f72ee608a1dcba9022e61509e47c4d976650637c85f7e72f240aa8/sneaksmc-0.0.7.tar.gz
+[2023-05-08 15:22:40] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Downloading https://files.pythonhosted.org/packages/4d/b6/795d3cfa9577e25023c6c7684cfd916a150ec4794b5f8e8b239aa6ae23cd/fbgemm_gpu_nightly-2023.5.6-cp39-cp39-manylinux1_x86_64.whl
+[2023-05-08 15:22:40] INFO root fetch - processPackages [sismic]: Start processing: gps-building-blocks
+[2023-05-08 15:22:40] INFO root fetch - main [MainThread]: End processing [sismic]: success
+[2023-05-08 15:22:40] INFO root fetch - processPackages [gps-building-blocks]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-05-08 15:22:40] INFO root fetch - processPackages [sneaksmc]: Downloading https://files.pythonhosted.org/packages/2b/df/ae7368de3131bdbf99632bb21822131409674c1b61839e552220b6531377/sneaksmc-0.0.8.tar.gz
+[2023-05-08 15:22:40] WARNING root fetch - processPackages [fbgemm-gpu-nightly]: Skipping package: exceeds size limit 267851288>=10485760
+[2023-05-08 15:22:40] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly] error
+[2023-05-08 15:22:41] INFO root fetch - processPackages [sneaksmc]: executing diffoscope
+[2023-05-08 15:22:41] INFO root fetch - processPackages [sneaksmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sneaksmc-0.0.7.tar.gz tmp/sneaksmc-0.0.8.tar.gz --markdown 20230508/s/sneaksmc/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-08 15:22:41] INFO root fetch - processPackages [gps-building-blocks]: Downloading https://files.pythonhosted.org/packages/71/de/29b8d5afef1de629736885761de3eeeed53a58c7f5dc93ea834fa2edae65/gps_building_blocks-1.98.0-py3-none-any.whl
+[2023-05-08 15:22:41] INFO root fetch - main [MainThread]: End processing [DocScanLib]: success
+[2023-05-08 15:22:41] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-05-08 15:22:41] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-05-08 15:22:41] INFO root fetch - processPackages [gps-building-blocks]: Downloading https://files.pythonhosted.org/packages/79/b4/9d18eee49dfd6521e304862a4c835a7fe5cf477f45d83a4f98f885c76c29/gps_building_blocks-1.99.0-py3-none-any.whl
+[2023-05-08 15:22:41] INFO root fetch - main [MainThread]: End processing [lftools]: success
+[2023-05-08 15:22:41] INFO root fetch - processPackages [gps-building-blocks]: executing diffoscope
+[2023-05-08 15:22:41] INFO root fetch - processPackages [gps-building-blocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gps_building_blocks-1.98.0-py3-none-any.whl.zip tmp/gps_building_blocks-1.99.0-py3-none-any.whl.zip --markdown 20230508/g/gps-building-blocks/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-05-08 15:22:41] INFO root fetch - main [MainThread]: End processing [PyQt5-Frameless-Window]: success
+[2023-05-08 15:22:42] INFO root fetch - main [MainThread]: End processing [cbcbeat]: success
+[2023-05-08 15:22:42] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
+[2023-05-08 15:22:42] INFO root fetch - main [MainThread]: End processing [sneaksmc]: success
+[2023-05-08 15:22:43] ERROR root fetch - processPackages [gps-building-blocks]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+EOFError: EOF read where object expected
+
+[2023-05-08 15:22:43] INFO root fetch - main [MainThread]: End processing [gps-building-blocks] error
+[2023-05-08 15:22:43] INFO root fetch - main [MainThread]: Store serial: [18017089]
