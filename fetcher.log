@@ -2406,3 +2406,59 @@
 [2023-05-08 04:03:55] INFO root fetch - main [MainThread]: End processing [parallel-bilby]: success
 [2023-05-08 04:03:55] INFO root fetch - main [MainThread]: End processing [statsu]: success
 [2023-05-08 04:03:55] INFO root fetch - main [MainThread]: Store serial: [18011455]
+[2023-05-08 04:08:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18011455]
+[2023-05-08 04:09:03] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-08 04:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-csgo-case-simulator
+[2023-05-08 04:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: common-test
+[2023-05-08 04:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edman
+[2023-05-08 04:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cagraph
+[2023-05-08 04:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: easy-gpt-utils
+[2023-05-08 04:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: interlo
+[2023-05-08 04:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: csv-to-dynamodb
+[2023-05-08 04:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: phanterpwa
+[2023-05-08 04:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-events-notify
+[2023-05-08 04:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-events-notify
+[2023-05-08 04:09:03] INFO root fetch - processPackages [nonebot-plugin-csgo-case-simulator]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-08 04:09:03] INFO root fetch - processPackages [common-test]: New version: [29.9.31] Old Version: [29.9.25]
+[2023-05-08 04:09:03] INFO root fetch - processPackages [edman]: New version: [2023.5.8] Old Version: [2023.4.5]
+[2023-05-08 04:09:03] WARNING root fetch - processPackages [easy-gpt-utils]: Skipping, unable to determine old version
+[2023-05-08 04:09:04] INFO root fetch - processPackages [cagraph]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-08 04:09:04] INFO root fetch - main [MainThread]: End processing [easy-gpt-utils] error
+[2023-05-08 04:09:04] WARNING root fetch - processPackages [interlo]: Skipping, unable to determine old version
+[2023-05-08 04:09:04] WARNING root fetch - processPackages [csv-to-dynamodb]: Skipping, unable to determine old version
+[2023-05-08 04:09:04] INFO root fetch - main [MainThread]: End processing [interlo] error
+[2023-05-08 04:09:04] INFO root fetch - main [MainThread]: End processing [csv-to-dynamodb] error
+[2023-05-08 04:09:04] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-08 04:09:04] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-08 04:09:04] INFO root fetch - processPackages [phanterpwa]: New version: [13.13.1] Old Version: [13.13.0]
+[2023-05-08 04:09:04] INFO root fetch - processPackages [common-test]: Downloading https://files.pythonhosted.org/packages/19/33/e210cac235b899141dfc37a852c718b0b7e1677419b15d58a73041ce057c/common-test-29.9.25.tar.gz
+[2023-05-08 04:09:04] INFO root fetch - processPackages [nonebot-plugin-csgo-case-simulator]: Downloading https://files.pythonhosted.org/packages/ba/1b/e9de9799fb2b901d5e35014df1c258b61d466f353cfba6d6378c6286d922/nonebot-plugin-csgo-case-simulator-0.1.8.tar.gz
+[2023-05-08 04:09:04] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2023-05-08 04:09:04] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.0.98.tar.gz tmp/cdk-events-notify-2.0.99.tar.gz --markdown 20230508/c/cdk-events-notify/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-08 04:09:04] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2023-05-08 04:09:04] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.0.98.tar.gz tmp/cdk-events-notify-2.0.99.tar.gz --markdown 20230508/c/cdk-events-notify/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-08 04:09:04] INFO root fetch - processPackages [edman]: Downloading https://files.pythonhosted.org/packages/4f/97/8fd82cb4ea908cc99d36629128d51264eb29898438d3e36f59c77f20e19d/edman-2023.4.5.tar.gz
+[2023-05-08 04:09:04] INFO root fetch - processPackages [cagraph]: Downloading https://files.pythonhosted.org/packages/8c/bf/746e8150b3edd6b718f8e380c5105454c7cd00aa35217ec476372ff87adf/cagraph-0.0.1-py3-none-any.whl
+[2023-05-08 04:09:04] INFO root fetch - processPackages [phanterpwa]: Downloading https://files.pythonhosted.org/packages/ae/b8/59fe1a1ba06a504f6d4b57811355146daffc47e885a9a8dd32ea82c7544c/phanterpwa-13.13.0.tar.gz
+[2023-05-08 04:09:04] INFO root fetch - processPackages [nonebot-plugin-csgo-case-simulator]: executing diffoscope
+[2023-05-08 04:09:04] INFO root fetch - processPackages [nonebot-plugin-csgo-case-simulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-csgo-case-simulator-0.1.7.tar.gz tmp/nonebot-plugin-csgo-case-simulator-0.1.8.tar.gz --markdown 20230508/n/nonebot-plugin-csgo-case-simulator/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-08 04:09:04] INFO root fetch - processPackages [common-test]: Downloading https://files.pythonhosted.org/packages/2a/d3/33d7e9e3a93268b13f0d99d762b098bd820492de20e5f428467b5dc98573/common-test-29.9.31.tar.gz
+[2023-05-08 04:09:04] INFO root fetch - processPackages [edman]: Downloading https://files.pythonhosted.org/packages/fe/9d/f5d4a0e84bf32c5d43603830b85aff308ae0f695236274c9846c6959a9e1/edman-2023.5.8.tar.gz
+[2023-05-08 04:09:04] INFO root fetch - processPackages [cagraph]: Downloading https://files.pythonhosted.org/packages/ea/14/4654a9e4f94913e404589fc091675290ccbc7f03dec460033f0fa80ee6a9/cagraph-0.0.2-py3-none-any.whl
+[2023-05-08 04:09:04] INFO root fetch - processPackages [common-test]: executing diffoscope
+[2023-05-08 04:09:04] INFO root fetch - processPackages [common-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/common-test-29.9.25.tar.gz tmp/common-test-29.9.31.tar.gz --markdown 20230508/c/common-test/29.9.25-29.9.31/diff.md --exclude *.pyd
+[2023-05-08 04:09:04] INFO root fetch - processPackages [cagraph]: executing diffoscope
+[2023-05-08 04:09:04] INFO root fetch - processPackages [cagraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cagraph-0.0.1-py3-none-any.whl.zip tmp/cagraph-0.0.2-py3-none-any.whl.zip --markdown 20230508/c/cagraph/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-08 04:09:04] INFO root fetch - processPackages [edman]: executing diffoscope
+[2023-05-08 04:09:04] INFO root fetch - processPackages [edman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edman-2023.4.5.tar.gz tmp/edman-2023.5.8.tar.gz --markdown 20230508/e/edman/2023.4.5-2023.5.8/diff.md --exclude *.pyd
+[2023-05-08 04:09:04] INFO root fetch - processPackages [phanterpwa]: Downloading https://files.pythonhosted.org/packages/d6/5a/de05933c94de5ba938d9e8f9c7e2ad0a0b690e44736485a7ac37630e1d52/phanterpwa-13.13.1.tar.gz
+[2023-05-08 04:09:05] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2023-05-08 04:09:05] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2023-05-08 04:09:05] INFO root fetch - processPackages [phanterpwa]: executing diffoscope
+[2023-05-08 04:09:05] INFO root fetch - processPackages [phanterpwa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phanterpwa-13.13.0.tar.gz tmp/phanterpwa-13.13.1.tar.gz --markdown 20230508/p/phanterpwa/13.13.0-13.13.1/diff.md --exclude *.pyd
+[2023-05-08 04:09:05] INFO root fetch - main [MainThread]: End processing [cagraph]: success
+[2023-05-08 04:09:05] INFO root fetch - main [MainThread]: End processing [edman]: success
+[2023-05-08 04:09:06] INFO root fetch - main [MainThread]: End processing [common-test]: success
+[2023-05-08 04:09:07] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-csgo-case-simulator]: success
+[2023-05-08 04:09:09] INFO root fetch - main [MainThread]: End processing [phanterpwa]: success
+[2023-05-08 04:09:09] INFO root fetch - main [MainThread]: Store serial: [18011490]
