@@ -22662,3 +22662,37 @@ EOFError: EOF read where object expected
 [2023-05-08 23:30:58] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
 [2023-05-08 23:30:59] INFO root fetch - main [MainThread]: End processing [not1mm]: success
 [2023-05-08 23:30:59] INFO root fetch - main [MainThread]: Store serial: [18022826]
+[2023-05-08 23:36:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18022826]
+[2023-05-08 23:36:09] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-08 23:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coiled
+[2023-05-08 23:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: animo-trainer
+[2023-05-08 23:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: granular-engine
+[2023-05-08 23:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kittycad
+[2023-05-08 23:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: csoundengine
+[2023-05-08 23:36:09] INFO root fetch - processPackages [granular-engine]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-08 23:36:09] INFO root fetch - processPackages [animo-trainer]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 23:36:09] INFO root fetch - processPackages [kittycad]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-08 23:36:09] INFO root fetch - processPackages [csoundengine]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-08 23:36:09] INFO root fetch - processPackages [coiled]: New version: [0.6.3.dev9] Old Version: [0.6.3.dev8]
+[2023-05-08 23:36:09] INFO root fetch - processPackages [granular-engine]: Downloading https://files.pythonhosted.org/packages/39/52/38c753cc7b32bf1c2a921fc67436b1cae11f98fe424313a107a091085226/granular_engine-0.2.9.tar.gz
+[2023-05-08 23:36:09] INFO root fetch - processPackages [kittycad]: Downloading https://files.pythonhosted.org/packages/e4/34/a927c5bd4a6d8dbeef5cfb2f19877b17049efefbc3f9c8003ab7515a8f1c/kittycad-0.4.1.tar.gz
+[2023-05-08 23:36:09] INFO root fetch - processPackages [animo-trainer]: Downloading https://files.pythonhosted.org/packages/b8/3e/a80559f3dd845852c1f2cc55ff258a77d0ca88bc8a457ea3b7690b518f2e/animo_trainer-0.1.8.tar.gz
+[2023-05-08 23:36:09] INFO root fetch - processPackages [csoundengine]: Downloading https://files.pythonhosted.org/packages/7e/65/7ced7dbe4e22e46686d21b1c1f4f9ccdae973749309778d5040775d47b64/csoundengine-1.9.0.tar.gz
+[2023-05-08 23:36:09] INFO root fetch - processPackages [granular-engine]: executing diffoscope
+[2023-05-08 23:36:09] INFO root fetch - processPackages [granular-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/granular_engine-0.2.8.tar.gz tmp/granular_engine-0.2.9.tar.gz --markdown 20230508/g/granular-engine/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-08 23:36:09] INFO root fetch - processPackages [kittycad]: executing diffoscope
+[2023-05-08 23:36:09] INFO root fetch - processPackages [kittycad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kittycad-0.4.0.tar.gz tmp/kittycad-0.4.1.tar.gz --markdown 20230508/k/kittycad/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-08 23:36:10] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-08 23:36:10] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.3.dev8.tar.gz tmp/coiled-0.6.3.dev9.tar.gz --markdown 20230508/c/coiled/0.6.3.dev8-0.6.3.dev9/diff.md --exclude *.pyd
+[2023-05-08 23:36:10] INFO root fetch - processPackages [animo-trainer]: Downloading https://files.pythonhosted.org/packages/68/c6/91aa2599a7a5a0a4f2de8aa02299ae970d77f07adf24975d5df59dd425ca/animo_trainer-0.1.9.tar.gz
+[2023-05-08 23:36:10] INFO root fetch - processPackages [csoundengine]: Downloading https://files.pythonhosted.org/packages/4a/14/227b8a91163ff83cd5f33dd91852165fa3635f9750a26d2738e5de432cf7/csoundengine-1.9.1.tar.gz
+[2023-05-08 23:36:10] INFO root fetch - processPackages [animo-trainer]: executing diffoscope
+[2023-05-08 23:36:10] INFO root fetch - processPackages [animo-trainer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/animo_trainer-0.1.8.tar.gz tmp/animo_trainer-0.1.9.tar.gz --markdown 20230508/a/animo-trainer/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 23:36:10] INFO root fetch - processPackages [csoundengine]: executing diffoscope
+[2023-05-08 23:36:10] INFO root fetch - processPackages [csoundengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csoundengine-1.9.0.tar.gz tmp/csoundengine-1.9.1.tar.gz --markdown 20230508/c/csoundengine/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-08 23:36:11] INFO root fetch - main [MainThread]: End processing [granular-engine]: success
+[2023-05-08 23:36:11] INFO root fetch - main [MainThread]: End processing [csoundengine]: success
+[2023-05-08 23:36:12] INFO root fetch - main [MainThread]: End processing [animo-trainer]: success
+[2023-05-08 23:36:12] INFO root fetch - main [MainThread]: End processing [kittycad]: success
+[2023-05-08 23:36:12] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-08 23:36:12] INFO root fetch - main [MainThread]: Store serial: [18022840]
