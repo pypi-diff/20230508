@@ -6454,3 +6454,91 @@
 [2023-05-08 08:51:23] INFO root fetch - main [MainThread]: End processing [toolstr]: success
 [2023-05-08 08:51:24] INFO root fetch - main [MainThread]: End processing [common-test]: success
 [2023-05-08 08:51:24] INFO root fetch - main [MainThread]: Store serial: [18013610]
+[2023-05-08 08:56:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18013610]
+[2023-05-08 08:56:32] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-08 08:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: common-test
+[2023-05-08 08:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: common-test
+[2023-05-08 08:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ai-executor
+[2023-05-08 08:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fpx
+[2023-05-08 08:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vl-datasets
+[2023-05-08 08:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: perspective-python
+[2023-05-08 08:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chainlib
+[2023-05-08 08:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addons-oca-sale-workflow
+[2023-05-08 08:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gcscore
+[2023-05-08 08:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: servicefoundry
+[2023-05-08 08:56:32] INFO root fetch - processPackages [common-test]: New version: [29.9.35] Old Version: [29.9.33.2]
+[2023-05-08 08:56:32] INFO root fetch - processPackages [fpx]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-05-08 08:56:32] INFO root fetch - processPackages [common-test]: New version: [29.9.35] Old Version: [29.9.33.2]
+[2023-05-08 08:56:32] WARNING root fetch - processPackages [vl-datasets]: Skipping, unable to determine old version
+[2023-05-08 08:56:32] INFO root fetch - processPackages [vl-datasets]: Start processing: exalusAPI
+[2023-05-08 08:56:32] INFO root fetch - processPackages [ai-executor]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-08 08:56:32] INFO root fetch - main [MainThread]: End processing [vl-datasets] error
+[2023-05-08 08:56:32] INFO root fetch - processPackages [gcscore]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-08 08:56:32] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: New version: [16.0.20230506.0] Old Version: [16.0.20230503.0]
+[2023-05-08 08:56:32] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/6e/f2/8182f647761fdf429e3bbc5c2943a0f052da63e86d1b3fdfb98ff11280c1/odoo_addons_oca_sale_workflow-16.0.20230503.0-py3-none-any.whl
+[2023-05-08 08:56:32] INFO root fetch - processPackages [chainlib]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-08 08:56:32] INFO root fetch - processPackages [perspective-python]: New version: [2.1.1] Old Version: [2.0.1]
+[2023-05-08 08:56:32] INFO root fetch - processPackages [exalusAPI]: New version: [0.6.1] Old Version: [0.5.2]
+[2023-05-08 08:56:32] INFO root fetch - processPackages [servicefoundry]: New version: [0.8.7] Old Version: [0.8.6]
+[2023-05-08 08:56:32] INFO root fetch - processPackages [ai-executor]: Downloading https://files.pythonhosted.org/packages/4b/76/37558d83575f849c2060b260ffcef06282380b835f2efc8dca97905d3c8a/ai-executor-0.2.3.tar.gz
+[2023-05-08 08:56:32] INFO root fetch - processPackages [gcscore]: Downloading https://files.pythonhosted.org/packages/9e/52/f96e68f8e7a7a65ff4bba7a445842826cfe61c48d80f4b2b1ab4cf7f0915/gcscore-0.0.7.tar.gz
+[2023-05-08 08:56:32] INFO root fetch - processPackages [fpx]: Downloading https://files.pythonhosted.org/packages/cd/44/9f9e50d5a80ce71d6f17de1dd4d153f95f6aedc31046949040d7f97f9d7c/fpx-0.4.7.tar.gz
+[2023-05-08 08:56:32] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: executing diffoscope
+[2023-05-08 08:56:32] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_sale_workflow-16.0.20230503.0-py3-none-any.whl.zip tmp/odoo_addons_oca_sale_workflow-16.0.20230506.0-py3-none-any.whl.zip --markdown 20230508/o/odoo-addons-oca-sale-workflow/16.0.20230503.0-16.0.20230506.0/diff.md --exclude *.pyd
+[2023-05-08 08:56:33] INFO root fetch - processPackages [common-test]: Downloading https://files.pythonhosted.org/packages/ba/d3/8636892c45c35859a4fed954d49f68cde51bd5cdb657b632869285c5c72a/common-test-29.9.35.tar.gz
+[2023-05-08 08:56:33] INFO root fetch - processPackages [common-test]: Downloading https://files.pythonhosted.org/packages/ba/d3/8636892c45c35859a4fed954d49f68cde51bd5cdb657b632869285c5c72a/common-test-29.9.35.tar.gz
+[2023-05-08 08:56:33] INFO root fetch - processPackages [gcscore]: executing diffoscope
+[2023-05-08 08:56:33] INFO root fetch - processPackages [gcscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcscore-0.0.6.tar.gz tmp/gcscore-0.0.7.tar.gz --markdown 20230508/g/gcscore/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-08 08:56:33] INFO root fetch - processPackages [ai-executor]: executing diffoscope
+[2023-05-08 08:56:33] INFO root fetch - processPackages [ai-executor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai-executor-0.2.2.tar.gz tmp/ai-executor-0.2.3.tar.gz --markdown 20230508/a/ai-executor/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-08 08:56:33] INFO root fetch - processPackages [chainlib]: Downloading https://files.pythonhosted.org/packages/74/a9/8530d0f7af85256a2e33c3b11a0ab81fed9d20b22b01037336f1efbf26d1/chainlib-0.4.8.tar.gz
+[2023-05-08 08:56:33] INFO root fetch - processPackages [exalusAPI]: Downloading https://files.pythonhosted.org/packages/b5/37/3be8a71758210e406733c9de86b7b509b4940b278d3e23bccc5f44eb3294/exalusAPI-0.5.2.tar.gz
+[2023-05-08 08:56:33] INFO root fetch - processPackages [servicefoundry]: Downloading https://files.pythonhosted.org/packages/ff/e5/21a7dbca65d15e7e3489f1364caee428192839d26fa4058a423d82729928/servicefoundry-0.8.6.tar.gz
+[2023-05-08 08:56:33] INFO root fetch - processPackages [perspective-python]: Downloading https://files.pythonhosted.org/packages/08/c1/ea69d50036ca9f81d158508c507a05a05a6cb9e1ab82532ea627f7e11339/perspective-python-2.0.1.tar.gz
+[2023-05-08 08:56:33] INFO root fetch - processPackages [common-test]: executing diffoscope
+[2023-05-08 08:56:33] INFO root fetch - processPackages [common-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/common-test-29.9.33.2.tar.gz tmp/common-test-29.9.35.tar.gz --markdown 20230508/c/common-test/29.9.33.2-29.9.35/diff.md --exclude *.pyd
+[2023-05-08 08:56:33] INFO root fetch - processPackages [common-test]: executing diffoscope
+[2023-05-08 08:56:33] INFO root fetch - processPackages [common-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/common-test-29.9.33.2.tar.gz tmp/common-test-29.9.35.tar.gz --markdown 20230508/c/common-test/29.9.33.2-29.9.35/diff.md --exclude *.pyd
+[2023-05-08 08:56:33] INFO root fetch - processPackages [fpx]: Downloading https://files.pythonhosted.org/packages/00/ca/0330b5f99906cfcf934edbeef7210c9af3615407ca33bdc256bc280a896b/fpx-0.4.8.tar.gz
+[2023-05-08 08:56:33] INFO root fetch - processPackages [exalusAPI]: Downloading https://files.pythonhosted.org/packages/6b/be/d92ff7f25c8182db4fce7c04ac2f7479b58f19ee2e2a35eda1bf214d0f57/exalusAPI-0.6.1.tar.gz
+[2023-05-08 08:56:33] INFO root fetch - processPackages [servicefoundry]: Downloading https://files.pythonhosted.org/packages/56/5c/3bb5355595981749cae33b536bb935cb02808632aba558bbe9ae01745936/servicefoundry-0.8.7.tar.gz
+[2023-05-08 08:56:33] INFO root fetch - processPackages [chainlib]: Downloading https://files.pythonhosted.org/packages/d2/c1/c82620206cd2e44148a47b1009b67b854f7c6bb870d44537182fdbd02dd8/chainlib-0.4.9.tar.gz
+[2023-05-08 08:56:33] INFO root fetch - processPackages [fpx]: executing diffoscope
+[2023-05-08 08:56:33] INFO root fetch - processPackages [fpx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fpx-0.4.7.tar.gz tmp/fpx-0.4.8.tar.gz --markdown 20230508/f/fpx/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-05-08 08:56:33] INFO root fetch - processPackages [servicefoundry]: executing diffoscope
+[2023-05-08 08:56:33] INFO root fetch - processPackages [servicefoundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicefoundry-0.8.6.tar.gz tmp/servicefoundry-0.8.7.tar.gz --markdown 20230508/s/servicefoundry/0.8.6-0.8.7/diff.md --exclude *.pyd
+[2023-05-08 08:56:33] INFO root fetch - processPackages [chainlib]: executing diffoscope
+[2023-05-08 08:56:33] INFO root fetch - processPackages [chainlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainlib-0.4.8.tar.gz tmp/chainlib-0.4.9.tar.gz --markdown 20230508/c/chainlib/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-08 08:56:33] INFO root fetch - processPackages [exalusAPI]: executing diffoscope
+[2023-05-08 08:56:33] INFO root fetch - processPackages [exalusAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exalusAPI-0.5.2.tar.gz tmp/exalusAPI-0.6.1.tar.gz --markdown 20230508/e/exalusAPI/0.5.2-0.6.1/diff.md --exclude *.pyd
+[2023-05-08 08:56:33] INFO root fetch - processPackages [perspective-python]: Downloading https://files.pythonhosted.org/packages/80/6b/9c465d20055dfd832eb704f1b0e9857cbea49574ba19c98231a771da8d06/perspective-python-2.1.1.tar.gz
+[2023-05-08 08:56:34] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Start processing: gbd-tools
+[2023-05-08 08:56:34] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-sale-workflow]: success
+[2023-05-08 08:56:34] INFO root fetch - processPackages [gbd-tools]: New version: [4.5.4] Old Version: [4.5.3]
+[2023-05-08 08:56:34] INFO root fetch - processPackages [ai-executor]: Start processing: robotframework-reportportal-updated
+[2023-05-08 08:56:34] INFO root fetch - main [MainThread]: End processing [ai-executor]: success
+[2023-05-08 08:56:34] WARNING root fetch - processPackages [robotframework-reportportal-updated]: Skipping, unable to determine old version
+[2023-05-08 08:56:34] INFO root fetch - processPackages [robotframework-reportportal-updated]: Start processing: gcscore
+[2023-05-08 08:56:34] INFO root fetch - main [MainThread]: End processing [robotframework-reportportal-updated] error
+[2023-05-08 08:56:34] INFO root fetch - processPackages [gcscore]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 08:56:34] INFO root fetch - main [MainThread]: End processing [gcscore]: success
+[2023-05-08 08:56:34] INFO root fetch - main [MainThread]: End processing [common-test]: success
+[2023-05-08 08:56:34] INFO root fetch - processPackages [gcscore]: Downloading https://files.pythonhosted.org/packages/09/26/f7fdb9d01a9700e58fa1d21cdbfb27e91521bb6c24c08229e540ec9be312/gcscore-0.0.8.tar.gz
+[2023-05-08 08:56:34] INFO root fetch - processPackages [gbd-tools]: Downloading https://files.pythonhosted.org/packages/4b/aa/ab0c516206f2370a92074446a3af5b105eb3e0e9c1e3317ec1ff45510c07/gbd_tools-4.5.4.tar.gz
+[2023-05-08 08:56:34] INFO root fetch - main [MainThread]: End processing [exalusAPI]: success
+[2023-05-08 08:56:34] INFO root fetch - processPackages [gcscore]: Downloading https://files.pythonhosted.org/packages/96/ed/70847d48197a93aee7dce7db954877f5f672709b835c70dd6474f9deff8b/gcscore-0.0.9.tar.gz
+[2023-05-08 08:56:34] INFO root fetch - main [MainThread]: End processing [chainlib]: success
+[2023-05-08 08:56:35] INFO root fetch - processPackages [perspective-python]: executing diffoscope
+[2023-05-08 08:56:35] INFO root fetch - processPackages [perspective-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perspective-python-2.0.1.tar.gz tmp/perspective-python-2.1.1.tar.gz --markdown 20230508/p/perspective-python/2.0.1-2.1.1/diff.md --exclude *.pyd
+[2023-05-08 08:56:35] INFO root fetch - main [MainThread]: End processing [fpx]: success
+[2023-05-08 08:56:35] INFO root fetch - processPackages [gbd-tools]: executing diffoscope
+[2023-05-08 08:56:35] INFO root fetch - processPackages [gbd-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gbd_tools-4.5.3.tar.gz tmp/gbd_tools-4.5.4.tar.gz --markdown 20230508/g/gbd-tools/4.5.3-4.5.4/diff.md --exclude *.pyd
+[2023-05-08 08:56:35] INFO root fetch - processPackages [gcscore]: executing diffoscope
+[2023-05-08 08:56:35] INFO root fetch - processPackages [gcscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcscore-0.0.8.tar.gz tmp/gcscore-0.0.9.tar.gz --markdown 20230508/g/gcscore/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 08:56:35] INFO root fetch - main [MainThread]: End processing [servicefoundry]: success
+[2023-05-08 08:56:36] INFO root fetch - main [MainThread]: End processing [common-test]: success
+[2023-05-08 08:56:36] INFO root fetch - main [MainThread]: End processing [gcscore]: success
+[2023-05-08 08:56:36] INFO root fetch - main [MainThread]: End processing [gbd-tools]: success
+[2023-05-08 08:59:35] ERROR root fetch - processPackages [perspective-python]: Timeout during execution of pkgdiff
+[2023-05-08 08:59:35] INFO root fetch - main [MainThread]: End processing [perspective-python] error
+[2023-05-08 08:59:35] INFO root fetch - main [MainThread]: Store serial: [18013718]
