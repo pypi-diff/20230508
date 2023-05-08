@@ -19997,3 +19997,143 @@ EOFError: EOF read where object expected
 [2023-05-08 21:18:06] INFO root fetch - main [MainThread]: End processing [botocore]: success
 [2023-05-08 21:18:57] INFO root fetch - main [MainThread]: End processing [nvfuser]: success
 [2023-05-08 21:18:57] INFO root fetch - main [MainThread]: Store serial: [18021176]
+[2023-05-08 21:24:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18021176]
+[2023-05-08 21:24:07] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-08 21:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: benchmark-runner
+[2023-05-08 21:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alphabetize
+[2023-05-08 21:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bgdiscovery
+[2023-05-08 21:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: csaf
+[2023-05-08 21:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cim-graph
+[2023-05-08 21:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sparkverse
+[2023-05-08 21:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: semsim
+[2023-05-08 21:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ezcord
+[2023-05-08 21:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: guify
+[2023-05-08 21:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: leuci-map
+[2023-05-08 21:24:07] INFO root fetch - processPackages [bgdiscovery]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-08 21:24:07] INFO root fetch - processPackages [csaf]: New version: [2023.5.8] Old Version: [2023.5.6]
+[2023-05-08 21:24:07] INFO root fetch - processPackages [alphabetize]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 21:24:07] INFO root fetch - processPackages [benchmark-runner]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-05-08 21:24:07] INFO root fetch - processPackages [leuci-map]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 21:24:07] INFO root fetch - processPackages [semsim]: New version: [1.1.0] Old Version: [0.0.0]
+[2023-05-08 21:24:07] INFO root fetch - processPackages [cim-graph]: New version: [0.1.20230508191837a0] Old Version: [0.1.20230420002327a0]
+[2023-05-08 21:24:07] INFO root fetch - processPackages [ezcord]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-08 21:24:07] INFO root fetch - processPackages [guify]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-08 21:24:07] INFO root fetch - processPackages [sparkverse]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-08 21:24:07] INFO root fetch - processPackages [bgdiscovery]: Downloading https://files.pythonhosted.org/packages/83/ba/a2aa596f7005038bd33b089d854b7311aac2940c5afdf582d3cf8a7d25c8/bgdiscovery-0.9.8.tar.gz
+[2023-05-08 21:24:07] INFO root fetch - processPackages [leuci-map]: executing diffoscope
+[2023-05-08 21:24:07] INFO root fetch - processPackages [leuci-map]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leuci-map-0.1.8.tar.gz tmp/leuci-map-0.1.9.tar.gz --markdown 20230508/l/leuci-map/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 21:24:07] INFO root fetch - processPackages [semsim]: executing diffoscope
+[2023-05-08 21:24:07] INFO root fetch - processPackages [semsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semsim-0.0.0.tar.gz tmp/semsim-1.1.0.tar.gz --markdown 20230508/s/semsim/0.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-08 21:24:07] INFO root fetch - processPackages [guify]: Downloading https://files.pythonhosted.org/packages/7c/4c/13620db0bcd91ab3480714bf5bc330712068fa8bc44ff08dc03b4689171d/guify-0.2.8.tar.gz
+[2023-05-08 21:24:07] INFO root fetch - processPackages [ezcord]: Downloading https://files.pythonhosted.org/packages/be/14/149039fedf42b1af0a68fb8d2706b2971e889e4b54faf563196a32da7830/ezcord-0.1.4.tar.gz
+[2023-05-08 21:24:07] INFO root fetch - processPackages [cim-graph]: Downloading https://files.pythonhosted.org/packages/db/2c/882866e58c62db6848d45f0e5b272ff090eb1250772d6d2cb91fe705e8a2/cim_graph-0.1.20230420002327a0.tar.gz
+[2023-05-08 21:24:07] INFO root fetch - processPackages [alphabetize]: executing diffoscope
+[2023-05-08 21:24:07] INFO root fetch - processPackages [alphabetize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphabetize-0.0.8.tar.gz tmp/alphabetize-0.0.9.tar.gz --markdown 20230508/a/alphabetize/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 21:24:07] INFO root fetch - processPackages [csaf]: Downloading https://files.pythonhosted.org/packages/e8/7d/554d5e49fb2ac16d8a4973c69a7ca59e9ff5025d88a6551f6fc057fda351/csaf-2023.5.8.tar.gz
+[2023-05-08 21:24:07] INFO root fetch - processPackages [sparkverse]: Downloading https://files.pythonhosted.org/packages/3c/fa/94fcc36b643dd7869ba44c5ede3285d91c2b961dfc8718ff1a7c761ce8af/sparkverse-0.0.1.tar.gz
+[2023-05-08 21:24:07] INFO root fetch - processPackages [benchmark-runner]: executing diffoscope
+[2023-05-08 21:24:07] INFO root fetch - processPackages [benchmark-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchmark-runner-1.0.98.tar.gz tmp/benchmark-runner-1.0.99.tar.gz --markdown 20230508/b/benchmark-runner/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-05-08 21:24:07] INFO root fetch - processPackages [bgdiscovery]: Downloading https://files.pythonhosted.org/packages/41/78/fa89c0a168bc826309f4fb39b935ca1f0aedbe1b8ad244ef7fc6de738a0c/bgdiscovery-0.9.9.tar.gz
+[2023-05-08 21:24:07] INFO root fetch - processPackages [csaf]: executing diffoscope
+[2023-05-08 21:24:07] INFO root fetch - processPackages [csaf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csaf-2023.5.6.tar.gz tmp/csaf-2023.5.8.tar.gz --markdown 20230508/c/csaf/2023.5.6-2023.5.8/diff.md --exclude *.pyd
+[2023-05-08 21:24:07] INFO root fetch - processPackages [ezcord]: Downloading https://files.pythonhosted.org/packages/df/6e/3cf6d55d36f08e3fde01ee4cfdd5da2e7449e7ae896f3776bfe060512e14/ezcord-0.1.5.tar.gz
+[2023-05-08 21:24:07] INFO root fetch - processPackages [bgdiscovery]: executing diffoscope
+[2023-05-08 21:24:07] INFO root fetch - processPackages [bgdiscovery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bgdiscovery-0.9.8.tar.gz tmp/bgdiscovery-0.9.9.tar.gz --markdown 20230508/b/bgdiscovery/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-08 21:24:07] INFO root fetch - processPackages [cim-graph]: Downloading https://files.pythonhosted.org/packages/1a/61/502b65453a5bcebd01ec4b7ae742f5a08d626bedeec7c1914fdb9f11c09e/cim_graph-0.1.20230508191837a0.tar.gz
+[2023-05-08 21:24:08] INFO root fetch - processPackages [sparkverse]: Downloading https://files.pythonhosted.org/packages/4e/16/4b85214caee47e669e63b9c047a34bb0abbbd5190c022265a29beb431743/sparkverse-0.0.2.tar.gz
+[2023-05-08 21:24:08] INFO root fetch - processPackages [ezcord]: executing diffoscope
+[2023-05-08 21:24:08] INFO root fetch - processPackages [ezcord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezcord-0.1.4.tar.gz tmp/ezcord-0.1.5.tar.gz --markdown 20230508/e/ezcord/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-08 21:24:08] INFO root fetch - processPackages [guify]: Downloading https://files.pythonhosted.org/packages/b1/9c/10706a21e75844465af6ac2e4dd6f9d0a1f364134a48a6700811521ca152/guify-0.2.9.tar.gz
+[2023-05-08 21:24:08] INFO root fetch - processPackages [sparkverse]: executing diffoscope
+[2023-05-08 21:24:08] INFO root fetch - processPackages [sparkverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparkverse-0.0.1.tar.gz tmp/sparkverse-0.0.2.tar.gz --markdown 20230508/s/sparkverse/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-08 21:24:08] INFO root fetch - processPackages [guify]: executing diffoscope
+[2023-05-08 21:24:08] INFO root fetch - processPackages [guify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guify-0.2.8.tar.gz tmp/guify-0.2.9.tar.gz --markdown 20230508/g/guify/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-08 21:24:08] INFO root fetch - processPackages [cim-graph]: executing diffoscope
+[2023-05-08 21:24:08] INFO root fetch - processPackages [cim-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cim_graph-0.1.20230420002327a0.tar.gz tmp/cim_graph-0.1.20230508191837a0.tar.gz --markdown 20230508/c/cim-graph/0.1.20230420002327a0-0.1.20230508191837a0/diff.md --exclude *.pyd
+[2023-05-08 21:24:09] INFO root fetch - processPackages [alphabetize]: Start processing: splight-lib
+[2023-05-08 21:24:09] INFO root fetch - main [MainThread]: End processing [alphabetize]: success
+[2023-05-08 21:24:09] INFO root fetch - processPackages [splight-lib]: New version: [2.3.9.dev3] Old Version: [2.3.9]
+[2023-05-08 21:24:09] INFO root fetch - processPackages [splight-lib]: executing diffoscope
+[2023-05-08 21:24:09] INFO root fetch - processPackages [splight-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight-lib-2.3.9.tar.gz tmp/splight-lib-2.3.9.dev3.tar.gz --markdown 20230508/s/splight-lib/2.3.9-2.3.9.dev3/diff.md --exclude *.pyd
+[2023-05-08 21:24:09] INFO root fetch - processPackages [bgdiscovery]: Start processing: x-transformers
+[2023-05-08 21:24:09] INFO root fetch - main [MainThread]: End processing [bgdiscovery]: success
+[2023-05-08 21:24:09] INFO root fetch - processPackages [x-transformers]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-05-08 21:24:09] INFO root fetch - processPackages [x-transformers]: executing diffoscope
+[2023-05-08 21:24:09] INFO root fetch - processPackages [x-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/x-transformers-1.9.1.tar.gz tmp/x-transformers-1.9.2.tar.gz --markdown 20230508/x/x-transformers/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-05-08 21:24:09] INFO root fetch - processPackages [csaf]: Start processing: volttron-actuator
+[2023-05-08 21:24:09] INFO root fetch - main [MainThread]: End processing [csaf]: success
+[2023-05-08 21:24:09] INFO root fetch - processPackages [leuci-map]: Start processing: windmill-api
+[2023-05-08 21:24:09] INFO root fetch - main [MainThread]: End processing [leuci-map]: success
+[2023-05-08 21:24:09] INFO root fetch - processPackages [volttron-actuator]: New version: [0.1.1a2] Old Version: [0.1.1a1]
+[2023-05-08 21:24:09] INFO root fetch - processPackages [ezcord]: Start processing: wmill
+[2023-05-08 21:24:09] INFO root fetch - main [MainThread]: End processing [ezcord]: success
+[2023-05-08 21:24:09] INFO root fetch - processPackages [windmill-api]: New version: [1.96.0] Old Version: [1.95.1]
+[2023-05-08 21:24:09] INFO root fetch - processPackages [wmill]: New version: [1.96.0] Old Version: [1.95.1]
+[2023-05-08 21:24:09] INFO root fetch - processPackages [sparkverse]: Start processing: wmill-pg
+[2023-05-08 21:24:09] INFO root fetch - main [MainThread]: End processing [sparkverse]: success
+[2023-05-08 21:24:09] INFO root fetch - processPackages [semsim]: Start processing: robocorp-browser
+[2023-05-08 21:24:09] INFO root fetch - main [MainThread]: End processing [semsim]: success
+[2023-05-08 21:24:09] INFO root fetch - processPackages [wmill-pg]: New version: [1.96.0] Old Version: [1.95.1]
+[2023-05-08 21:24:09] INFO root fetch - processPackages [volttron-actuator]: executing diffoscope
+[2023-05-08 21:24:09] INFO root fetch - processPackages [volttron-actuator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volttron_actuator-0.1.1a1.tar.gz tmp/volttron_actuator-0.1.1a2.tar.gz --markdown 20230508/v/volttron-actuator/0.1.1a1-0.1.1a2/diff.md --exclude *.pyd
+[2023-05-08 21:24:09] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2023-05-08 21:24:09] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.95.1.tar.gz tmp/windmill_api-1.96.0.tar.gz --markdown 20230508/w/windmill-api/1.95.1-1.96.0/diff.md --exclude *.pyd
+[2023-05-08 21:24:09] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2023-05-08 21:24:09] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.95.1.tar.gz tmp/wmill-1.96.0.tar.gz --markdown 20230508/w/wmill/1.95.1-1.96.0/diff.md --exclude *.pyd
+[2023-05-08 21:24:09] INFO root fetch - processPackages [robocorp-browser]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-08 21:24:09] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2023-05-08 21:24:09] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.95.1.tar.gz tmp/wmill_pg-1.96.0.tar.gz --markdown 20230508/w/wmill-pg/1.95.1-1.96.0/diff.md --exclude *.pyd
+[2023-05-08 21:24:09] INFO root fetch - processPackages [robocorp-browser]: Downloading https://files.pythonhosted.org/packages/60/4c/28da7d4950c5381b766f85e224e9b7df4b1cefc9cf66e6a1378e148151e1/robocorp_browser-0.2.0.tar.gz
+[2023-05-08 21:24:10] INFO root fetch - processPackages [benchmark-runner]: Start processing: captcha6
+[2023-05-08 21:24:10] INFO root fetch - main [MainThread]: End processing [benchmark-runner]: success
+[2023-05-08 21:24:10] INFO root fetch - processPackages [captcha6]: New version: [0.4] Old Version: [0.3]
+[2023-05-08 21:24:10] INFO root fetch - processPackages [robocorp-browser]: Downloading https://files.pythonhosted.org/packages/3d/af/b87bd4e7d084e7fecbf83b00e10c38fcf3a42002ed38ecd07bf474e3c800/robocorp_browser-0.3.0.tar.gz
+[2023-05-08 21:24:10] INFO root fetch - processPackages [captcha6]: Downloading https://files.pythonhosted.org/packages/93/50/e99124d0cc4585ac365a42e817701636fe519c803c1b1935673d89b5afab/captcha6-0.4.tar.gz
+[2023-05-08 21:24:10] INFO root fetch - processPackages [robocorp-browser]: executing diffoscope
+[2023-05-08 21:24:10] INFO root fetch - processPackages [robocorp-browser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robocorp_browser-0.2.0.tar.gz tmp/robocorp_browser-0.3.0.tar.gz --markdown 20230508/r/robocorp-browser/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-08 21:24:10] INFO root fetch - processPackages [captcha6]: executing diffoscope
+[2023-05-08 21:24:10] INFO root fetch - processPackages [captcha6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/captcha6-0.3.tar.gz tmp/captcha6-0.4.tar.gz --markdown 20230508/c/captcha6/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-08 21:24:10] INFO root fetch - processPackages [volttron-actuator]: Start processing: espwrap
+[2023-05-08 21:24:10] INFO root fetch - main [MainThread]: End processing [volttron-actuator]: success
+[2023-05-08 21:24:10] INFO root fetch - processPackages [espwrap]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-08 21:24:11] INFO root fetch - processPackages [wmill]: Start processing: zcmds-win32
+[2023-05-08 21:24:11] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2023-05-08 21:24:11] INFO root fetch - processPackages [splight-lib]: Start processing: splight-lib
+[2023-05-08 21:24:11] INFO root fetch - main [MainThread]: End processing [splight-lib]: success
+[2023-05-08 21:24:11] INFO root fetch - processPackages [splight-lib]: New version: [2.3.9.dev3] Old Version: [2.3.9]
+[2023-05-08 21:24:11] INFO root fetch - processPackages [x-transformers]: Start processing: webint-live
+[2023-05-08 21:24:11] INFO root fetch - main [MainThread]: End processing [x-transformers]: success
+[2023-05-08 21:24:11] INFO root fetch - processPackages [wmill-pg]: Start processing: beaker-gantry
+[2023-05-08 21:24:11] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2023-05-08 21:24:11] INFO root fetch - processPackages [zcmds-win32]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-08 21:24:11] INFO root fetch - processPackages [espwrap]: Downloading https://files.pythonhosted.org/packages/c3/b5/738a7e759d4fb148cfdf8cbe5b18bbcd574eb984ad543cb69965766bc37f/espwrap-2.0.8.tar.gz
+[2023-05-08 21:24:11] INFO root fetch - processPackages [splight-lib]: executing diffoscope
+[2023-05-08 21:24:11] INFO root fetch - processPackages [splight-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight-lib-2.3.9.tar.gz tmp/splight-lib-2.3.9.dev3.tar.gz --markdown 20230508/s/splight-lib/2.3.9-2.3.9.dev3/diff.md --exclude *.pyd
+[2023-05-08 21:24:11] INFO root fetch - processPackages [beaker-gantry]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-08 21:24:11] INFO root fetch - processPackages [webint-live]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 21:24:11] INFO root fetch - processPackages [zcmds-win32]: Downloading https://files.pythonhosted.org/packages/e7/c3/056ff31f9087d244afd34baa04f492e2882c22f6d2ceb65ad0ca9a5f26a3/zcmds_win32-1.0.8.tar.gz
+[2023-05-08 21:24:11] INFO root fetch - processPackages [beaker-gantry]: Downloading https://files.pythonhosted.org/packages/2c/2e/e4a69215b05a72bda79c6c66250cacbe2e4b10c5e7f917671acea4b1c38a/beaker-gantry-0.9.3.tar.gz
+[2023-05-08 21:24:11] INFO root fetch - processPackages [webint-live]: Downloading https://files.pythonhosted.org/packages/0b/19/d5a77707596aff5f4baf92dbf56f233f02c3773923a99384e56e2d736cd0/webint_live-0.0.8.tar.gz
+[2023-05-08 21:24:11] INFO root fetch - processPackages [espwrap]: Downloading https://files.pythonhosted.org/packages/e4/45/2ac2dc3358dbea97ab0f735182e1d37f6e749d58bc2d56a4cdbdda0258cf/espwrap-2.0.9.tar.gz
+[2023-05-08 21:24:11] INFO root fetch - main [MainThread]: End processing [robocorp-browser]: success
+[2023-05-08 21:24:11] INFO root fetch - processPackages [espwrap]: executing diffoscope
+[2023-05-08 21:24:11] INFO root fetch - processPackages [espwrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/espwrap-2.0.8.tar.gz tmp/espwrap-2.0.9.tar.gz --markdown 20230508/e/espwrap/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-08 21:24:11] INFO root fetch - main [MainThread]: End processing [captcha6]: success
+[2023-05-08 21:24:11] INFO root fetch - processPackages [beaker-gantry]: Downloading https://files.pythonhosted.org/packages/98/d4/73220f62818889dca63f9eccf13dad524c84f95f34a1a50b4198270a0cdc/beaker-gantry-0.9.4.tar.gz
+[2023-05-08 21:24:11] INFO root fetch - processPackages [zcmds-win32]: Downloading https://files.pythonhosted.org/packages/13/a8/53f3bf1f6fc781702a2f1a9cff453ba0c0a307559487e3d7a33ade94ebfd/zcmds_win32-1.0.9.tar.gz
+[2023-05-08 21:24:11] INFO root fetch - processPackages [beaker-gantry]: executing diffoscope
+[2023-05-08 21:24:11] INFO root fetch - processPackages [beaker-gantry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beaker-gantry-0.9.3.tar.gz tmp/beaker-gantry-0.9.4.tar.gz --markdown 20230508/b/beaker-gantry/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-08 21:24:11] INFO root fetch - processPackages [zcmds-win32]: executing diffoscope
+[2023-05-08 21:24:11] INFO root fetch - processPackages [zcmds-win32]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcmds_win32-1.0.8.tar.gz tmp/zcmds_win32-1.0.9.tar.gz --markdown 20230508/z/zcmds-win32/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-08 21:24:12] INFO root fetch - processPackages [webint-live]: Downloading https://files.pythonhosted.org/packages/20/9a/f65def255dae7b73a23ef5acd66eb77b88d274db4ad514bc29195693bb72/webint_live-0.0.9.tar.gz
+[2023-05-08 21:24:12] INFO root fetch - processPackages [webint-live]: executing diffoscope
+[2023-05-08 21:24:12] INFO root fetch - processPackages [webint-live]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webint_live-0.0.8.tar.gz tmp/webint_live-0.0.9.tar.gz --markdown 20230508/w/webint-live/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 21:24:12] INFO root fetch - main [MainThread]: End processing [espwrap]: success
+[2023-05-08 21:24:12] INFO root fetch - main [MainThread]: End processing [splight-lib]: success
+[2023-05-08 21:24:13] INFO root fetch - main [MainThread]: End processing [beaker-gantry]: success
+[2023-05-08 21:24:13] INFO root fetch - main [MainThread]: End processing [webint-live]: success
+[2023-05-08 21:24:13] INFO root fetch - main [MainThread]: End processing [cim-graph]: success
+[2023-05-08 21:24:13] INFO root fetch - main [MainThread]: End processing [zcmds-win32]: success
+[2023-05-08 21:24:18] INFO root fetch - main [MainThread]: End processing [guify]: success
+[2023-05-08 21:24:25] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2023-05-08 21:24:25] INFO root fetch - main [MainThread]: Store serial: [18021245]
