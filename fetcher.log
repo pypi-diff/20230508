@@ -21794,3 +21794,100 @@ EOFError: EOF read where object expected
 [2023-05-08 22:33:56] INFO root fetch - main [MainThread]: End processing [tailbone-corepos]: success
 [2023-05-08 22:33:56] INFO root fetch - main [MainThread]: End processing [ovos-translate-plugin-deepl]: success
 [2023-05-08 22:33:56] INFO root fetch - main [MainThread]: Store serial: [18022273]
+[2023-05-08 22:39:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18022273]
+[2023-05-08 22:39:06] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-08 22:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bnlearn
+[2023-05-08 22:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: weasel-classifier
+[2023-05-08 22:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-kit-annotation
+[2023-05-08 22:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rattail-nationbuilder
+[2023-05-08 22:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flatnet
+[2023-05-08 22:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: exciton
+[2023-05-08 22:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: exondb
+[2023-05-08 22:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: struct-gpt
+[2023-05-08 22:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: splight-lib
+[2023-05-08 22:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ultralytics
+[2023-05-08 22:39:06] INFO root fetch - processPackages [weasel-classifier]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-08 22:39:06] INFO root fetch - processPackages [flatnet]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-05-08 22:39:06] WARNING root fetch - processPackages [rattail-nationbuilder]: Skipping, unable to determine old version
+[2023-05-08 22:39:06] INFO root fetch - processPackages [rattail-nationbuilder]: Start processing: pyvelop
+[2023-05-08 22:39:06] INFO root fetch - processPackages [certora-cli-alpha-kit-annotation]: New version: [20230508.20.34.862914] Old Version: [20230508.17.9.423575]
+[2023-05-08 22:39:06] INFO root fetch - processPackages [exciton]: New version: [2.0.0] Old Version: [1.9.1]
+[2023-05-08 22:39:06] INFO root fetch - main [MainThread]: End processing [rattail-nationbuilder] error
+[2023-05-08 22:39:06] INFO root fetch - processPackages [struct-gpt]: New version: [2.2.0] Old Version: [2.1.1]
+[2023-05-08 22:39:06] INFO root fetch - processPackages [exondb]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-05-08 22:39:06] INFO root fetch - processPackages [splight-lib]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-08 22:39:06] INFO root fetch - processPackages [bnlearn]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-05-08 22:39:06] INFO root fetch - processPackages [ultralytics]: New version: [8.0.94] Old Version: [8.0.93]
+[2023-05-08 22:39:06] INFO root fetch - processPackages [exciton]: executing diffoscope
+[2023-05-08 22:39:06] INFO root fetch - processPackages [exciton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exciton-1.9.1-py3-none-any.whl.zip tmp/exciton-2.0.0-py3-none-any.whl.zip --markdown 20230508/e/exciton/1.9.1-2.0.0/diff.md --exclude *.pyd
+[2023-05-08 22:39:06] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/14/2f/d359870f7930d1b91ff6f957cb8059a3909d38aa9f41afc57e169ea4d2d2/ultralytics-8.0.93.tar.gz
+[2023-05-08 22:39:06] INFO root fetch - processPackages [splight-lib]: executing diffoscope
+[2023-05-08 22:39:06] INFO root fetch - processPackages [splight-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight-lib-2.3.8.tar.gz tmp/splight-lib-2.3.9.tar.gz --markdown 20230508/s/splight-lib/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-08 22:39:06] INFO root fetch - processPackages [exondb]: executing diffoscope
+[2023-05-08 22:39:06] INFO root fetch - processPackages [exondb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exondb-0.3.7.tar.gz tmp/exondb-0.3.8.tar.gz --markdown 20230508/e/exondb/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-05-08 22:39:06] INFO root fetch - processPackages [pyvelop]: New version: [2023.5.1] Old Version: [2023.3.1]
+[2023-05-08 22:39:06] INFO root fetch - processPackages [flatnet]: Downloading https://files.pythonhosted.org/packages/9f/6c/b8dc0fec315b148136671fd10b47ccff52e1b634ad5cc4ea4fdbab17890f/flatnet-0.1.4.tar.gz
+[2023-05-08 22:39:06] INFO root fetch - processPackages [weasel-classifier]: Downloading https://files.pythonhosted.org/packages/32/15/7dc9e7d9671c65c3885a1ef4a6590c9fd23c59cbad63d092a88ce4292038/weasel-classifier-0.1.4.tar.gz
+[2023-05-08 22:39:06] INFO root fetch - processPackages [certora-cli-alpha-kit-annotation]: Downloading https://files.pythonhosted.org/packages/16/9e/7d45cf2324d5db54784642b0a02ae26ee3634a8ac4b44294c66d8b279490/certora-cli-alpha-kit-annotation-20230508.17.9.423575.tar.gz
+[2023-05-08 22:39:06] INFO root fetch - processPackages [bnlearn]: Downloading https://files.pythonhosted.org/packages/2f/46/b55df776d5e6ca0febda3e8d1793fb058ef0e129e186405bc3f41fdede1a/bnlearn-0.7.8.tar.gz
+[2023-05-08 22:39:06] WARNING root fetch - processPackages [certora-cli-alpha-kit-annotation]: Skipping package: exceeds size limit 38482130>=10485760
+[2023-05-08 22:39:06] INFO root fetch - processPackages [certora-cli-alpha-kit-annotation]: Start processing: wtt02
+[2023-05-08 22:39:06] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-kit-annotation] error
+[2023-05-08 22:39:06] INFO root fetch - processPackages [struct-gpt]: Downloading https://files.pythonhosted.org/packages/2a/7b/be0b9901976e7a457dcb91cdad3cdad9122c4220bb8f99d41f383a738134/struct_gpt-2.2.0.tar.gz
+[2023-05-08 22:39:06] INFO root fetch - processPackages [wtt02]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-05-08 22:39:06] INFO root fetch - processPackages [ultralytics]: executing diffoscope
+[2023-05-08 22:39:06] INFO root fetch - processPackages [ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics-8.0.93.tar.gz tmp/ultralytics-8.0.94.tar.gz --markdown 20230508/u/ultralytics/8.0.93-8.0.94/diff.md --exclude *.pyd
+[2023-05-08 22:39:06] INFO root fetch - processPackages [pyvelop]: Downloading https://files.pythonhosted.org/packages/6d/ee/5c06c1f87d425c65eb836ead5db6289341d98a507674ca462c818e49bfa5/pyvelop-2023.3.1.tar.gz
+[2023-05-08 22:39:06] INFO root fetch - processPackages [struct-gpt]: executing diffoscope
+[2023-05-08 22:39:06] INFO root fetch - processPackages [struct-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/struct_gpt-2.1.1.tar.gz tmp/struct_gpt-2.2.0.tar.gz --markdown 20230508/s/struct-gpt/2.1.1-2.2.0/diff.md --exclude *.pyd
+[2023-05-08 22:39:06] INFO root fetch - processPackages [wtt02]: executing diffoscope
+[2023-05-08 22:39:06] INFO root fetch - processPackages [wtt02]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wtt02-0.3.4.tar.gz tmp/wtt02-0.3.5.tar.gz --markdown 20230508/w/wtt02/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-05-08 22:39:06] INFO root fetch - processPackages [flatnet]: Downloading https://files.pythonhosted.org/packages/d4/1e/ee2fa8e5d17cad221881d450f5d312ed4ddebb01d1caab0ebe2f18ce3c1f/flatnet-0.2.0.tar.gz
+[2023-05-08 22:39:06] INFO root fetch - processPackages [flatnet]: executing diffoscope
+[2023-05-08 22:39:06] INFO root fetch - processPackages [flatnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatnet-0.1.4.tar.gz tmp/flatnet-0.2.0.tar.gz --markdown 20230508/f/flatnet/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-05-08 22:39:06] INFO root fetch - processPackages [weasel-classifier]: Downloading https://files.pythonhosted.org/packages/da/00/5530012b9351dcacf5cfdd020c216813f8098892ad8083adbd6edf4407b1/weasel-classifier-0.1.5.tar.gz
+[2023-05-08 22:39:06] INFO root fetch - processPackages [bnlearn]: Downloading https://files.pythonhosted.org/packages/58/cc/6baf6efbfaa2464d389999b28cc4e9e66f989cc3ed42811bc84d658a0016/bnlearn-0.7.9.tar.gz
+[2023-05-08 22:39:06] INFO root fetch - processPackages [weasel-classifier]: executing diffoscope
+[2023-05-08 22:39:06] INFO root fetch - processPackages [weasel-classifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weasel-classifier-0.1.4.tar.gz tmp/weasel-classifier-0.1.5.tar.gz --markdown 20230508/w/weasel-classifier/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-08 22:39:06] INFO root fetch - processPackages [bnlearn]: executing diffoscope
+[2023-05-08 22:39:06] INFO root fetch - processPackages [bnlearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bnlearn-0.7.8.tar.gz tmp/bnlearn-0.7.9.tar.gz --markdown 20230508/b/bnlearn/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-05-08 22:39:06] INFO root fetch - processPackages [pyvelop]: Downloading https://files.pythonhosted.org/packages/3d/a0/1f4c4c0ba0611e7fb2d3cf35078f4046d811d6cd5ff6cb37275314843f14/pyvelop-2023.5.1.tar.gz
+[2023-05-08 22:39:07] INFO root fetch - processPackages [pyvelop]: executing diffoscope
+[2023-05-08 22:39:07] INFO root fetch - processPackages [pyvelop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvelop-2023.3.1.tar.gz tmp/pyvelop-2023.5.1.tar.gz --markdown 20230508/p/pyvelop/2023.3.1-2023.5.1/diff.md --exclude *.pyd
+[2023-05-08 22:39:07] INFO root fetch - processPackages [exondb]: Start processing: Corporal
+[2023-05-08 22:39:07] INFO root fetch - main [MainThread]: End processing [exondb]: success
+[2023-05-08 22:39:07] INFO root fetch - processPackages [Corporal]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-08 22:39:08] INFO root fetch - processPackages [wtt02]: Start processing: watchmaker
+[2023-05-08 22:39:08] INFO root fetch - main [MainThread]: End processing [wtt02]: success
+[2023-05-08 22:39:08] INFO root fetch - processPackages [Corporal]: Downloading https://files.pythonhosted.org/packages/a7/20/790930872cf9107877c4cf729695a194b39d952fe9665a66325e0af1fb00/Corporal-0.1.8.tar.gz
+[2023-05-08 22:39:08] INFO root fetch - processPackages [exciton]: Start processing: dreamai
+[2023-05-08 22:39:08] INFO root fetch - main [MainThread]: End processing [exciton]: success
+[2023-05-08 22:39:08] INFO root fetch - processPackages [flatnet]: Start processing: diffcord
+[2023-05-08 22:39:08] INFO root fetch - main [MainThread]: End processing [flatnet]: success
+[2023-05-08 22:39:08] INFO root fetch - processPackages [watchmaker]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-08 22:39:08] INFO root fetch - main [MainThread]: End processing [struct-gpt]: success
+[2023-05-08 22:39:08] INFO root fetch - processPackages [dreamai]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-08 22:39:08] INFO root fetch - processPackages [diffcord]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-08 22:39:08] INFO root fetch - processPackages [Corporal]: Downloading https://files.pythonhosted.org/packages/b9/fa/9775531117c313e9c4f8da268d0f31de93a8b1b7fb9db42445e085a5751a/Corporal-0.1.9.tar.gz
+[2023-05-08 22:39:08] INFO root fetch - main [MainThread]: End processing [pyvelop]: success
+[2023-05-08 22:39:08] INFO root fetch - processPackages [watchmaker]: Downloading https://files.pythonhosted.org/packages/2f/69/dac9ecdc4f97c01a478b04b88d5dbb05a2411b709d4d67fdbd7b26a2dc6d/watchmaker-0.9.5.tar.gz
+[2023-05-08 22:39:08] INFO root fetch - processPackages [dreamai]: Downloading https://files.pythonhosted.org/packages/d1/67/8e3da3eb8a07d4d5ba8d63853c37e5c1967995d3d9b9632ae28ca971779f/dreamai-0.8.0.tar.gz
+[2023-05-08 22:39:08] INFO root fetch - processPackages [Corporal]: executing diffoscope
+[2023-05-08 22:39:08] INFO root fetch - processPackages [Corporal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Corporal-0.1.8.tar.gz tmp/Corporal-0.1.9.tar.gz --markdown 20230508/C/Corporal/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-08 22:39:08] INFO root fetch - main [MainThread]: End processing [bnlearn]: success
+[2023-05-08 22:39:08] INFO root fetch - main [MainThread]: End processing [weasel-classifier]: success
+[2023-05-08 22:39:08] INFO root fetch - processPackages [diffcord]: Downloading https://files.pythonhosted.org/packages/00/b1/994ab17e9e8476a170e19ab08fd440b667e8da6aea186cbcc46b3727db3c/diffcord-0.0.7.tar.gz
+[2023-05-08 22:39:08] INFO root fetch - processPackages [dreamai]: Downloading https://files.pythonhosted.org/packages/45/40/1d2450889d8ae23bbc2b3d0708f7c25bc9188d844249e8d88635125d98cc/dreamai-0.9.0.tar.gz
+[2023-05-08 22:39:08] INFO root fetch - processPackages [diffcord]: Downloading https://files.pythonhosted.org/packages/0e/a0/268834d1f8aa27e2907c5114b48cfd8011c2da0ed405583aca2e1b3c0289/diffcord-0.0.8.tar.gz
+[2023-05-08 22:39:08] INFO root fetch - processPackages [dreamai]: executing diffoscope
+[2023-05-08 22:39:08] INFO root fetch - processPackages [dreamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dreamai-0.8.0.tar.gz tmp/dreamai-0.9.0.tar.gz --markdown 20230508/d/dreamai/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-08 22:39:08] INFO root fetch - processPackages [diffcord]: executing diffoscope
+[2023-05-08 22:39:08] INFO root fetch - processPackages [diffcord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffcord-0.0.7.tar.gz tmp/diffcord-0.0.8.tar.gz --markdown 20230508/d/diffcord/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-08 22:39:08] WARNING root fetch - processPackages [watchmaker]: Skipping package: exceeds size limit 38270187>=10485760
+[2023-05-08 22:39:08] INFO root fetch - main [MainThread]: End processing [watchmaker] error
+[2023-05-08 22:39:09] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
+[2023-05-08 22:39:09] INFO root fetch - main [MainThread]: End processing [splight-lib]: success
+[2023-05-08 22:39:09] INFO root fetch - main [MainThread]: End processing [Corporal]: success
+[2023-05-08 22:39:09] INFO root fetch - main [MainThread]: End processing [diffcord]: success
+[2023-05-08 22:39:09] INFO root fetch - main [MainThread]: End processing [dreamai]: success
+[2023-05-08 22:39:09] INFO root fetch - main [MainThread]: Store serial: [18022328]
