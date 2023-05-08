@@ -11863,3 +11863,117 @@
 [2023-05-08 14:26:27] INFO root fetch - main [MainThread]: End processing [ipywidgets-bokeh]: success
 [2023-05-08 14:26:50] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-05-08 14:26:50] INFO root fetch - main [MainThread]: Store serial: [18016537]
+[2023-05-08 14:31:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18016537]
+[2023-05-08 14:31:59] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-08 14:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CreateAI
+[2023-05-08 14:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: redshift-tools
+[2023-05-08 14:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: me-setups
+[2023-05-08 14:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PwnModules
+[2023-05-08 14:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: troncos
+[2023-05-08 14:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kfsd
+[2023-05-08 14:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yetl-framework
+[2023-05-08 14:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-yuvalbd-rule-events-error-checking-part-two
+[2023-05-08 14:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chitose
+[2023-05-08 14:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: unified-planning
+[2023-05-08 14:32:00] INFO root fetch - processPackages [CreateAI]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-05-08 14:32:00] INFO root fetch - processPackages [redshift-tools]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-08 14:32:00] INFO root fetch - processPackages [PwnModules]: New version: [1.2] Old Version: [1.1]
+[2023-05-08 14:32:00] INFO root fetch - processPackages [me-setups]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-05-08 14:32:00] INFO root fetch - processPackages [troncos]: New version: [3.2.1] Old Version: [3.2.0]
+[2023-05-08 14:32:00] INFO root fetch - processPackages [kfsd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 14:32:00] INFO root fetch - processPackages [certora-cli-alpha-yuvalbd-rule-events-error-checking-part-two]: New version: [20230508.7.43.27573] Old Version: [20230508.7.12.93347]
+[2023-05-08 14:32:00] INFO root fetch - processPackages [yetl-framework]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-05-08 14:32:00] INFO root fetch - processPackages [unified-planning]: New version: [0.6.0.9.dev1] Old Version: [0.6.0.2.dev1]
+[2023-05-08 14:32:00] INFO root fetch - processPackages [chitose]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-08 14:32:00] INFO root fetch - processPackages [kfsd]: executing diffoscope
+[2023-05-08 14:32:00] INFO root fetch - processPackages [kfsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfsd-0.0.8.tar.gz tmp/kfsd-0.0.9.tar.gz --markdown 20230508/k/kfsd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 14:32:00] INFO root fetch - processPackages [redshift-tools]: Downloading https://files.pythonhosted.org/packages/5c/89/084a482e1bcb50cd20239f271c03f64ab489373c979a5dd6919d91b8d238/redshift_tools-0.1.0.tar.gz
+[2023-05-08 14:32:00] INFO root fetch - processPackages [me-setups]: Downloading https://files.pythonhosted.org/packages/5c/c0/5c85c6090e4c862c2ce6065bcd0afdd4b2153cfe57fa9c0992a59853f3f0/me_setups-1.6.8.tar.gz
+[2023-05-08 14:32:00] INFO root fetch - processPackages [PwnModules]: Downloading https://files.pythonhosted.org/packages/7f/e1/4a8aab0fbdb607670482f4fa9b94677ca44f00678f37d84ed04dfe0ab466/PwnModules-1.1.tar.gz
+[2023-05-08 14:32:00] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/19/fe/b522fd49a3f49ca013dd70507f57ef755b44dff291bd245ffb1c653f2f44/yetl-framework-1.2.4.tar.gz
+[2023-05-08 14:32:00] INFO root fetch - processPackages [certora-cli-alpha-yuvalbd-rule-events-error-checking-part-two]: Downloading https://files.pythonhosted.org/packages/8c/6a/e54959507f9a03300127a7a13e298b090ea5d8a802d99857d877e4706976/certora-cli-alpha-yuvalbd-rule_events_error_checking_part_two-20230508.7.12.93347.tar.gz
+[2023-05-08 14:32:00] INFO root fetch - processPackages [troncos]: Downloading https://files.pythonhosted.org/packages/de/96/c1ebf6975bd2349937dadc06e04c52d16c0b806dd2a2d14c35f3b85e2ccf/troncos-3.2.0.tar.gz
+[2023-05-08 14:32:00] WARNING root fetch - processPackages [certora-cli-alpha-yuvalbd-rule-events-error-checking-part-two]: Skipping package: exceeds size limit 38474506>=10485760
+[2023-05-08 14:32:00] INFO root fetch - processPackages [certora-cli-alpha-yuvalbd-rule-events-error-checking-part-two]: Start processing: scalecodec
+[2023-05-08 14:32:00] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-yuvalbd-rule-events-error-checking-part-two] error
+[2023-05-08 14:32:00] INFO root fetch - processPackages [chitose]: Downloading https://files.pythonhosted.org/packages/fc/67/bcc500e06bbee19daccf2f7610cb8a40ff57b2acef59ddca83110aae5b67/chitose-0.0.2.tar.gz
+[2023-05-08 14:32:00] INFO root fetch - processPackages [scalecodec]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-05-08 14:32:00] INFO root fetch - processPackages [CreateAI]: Downloading https://files.pythonhosted.org/packages/03/d5/be373e04ad45ced6268f9baeab8aad77c30c1652c0831cba43ccc9fa35b5/CreateAI-0.8.2.tar.gz
+[2023-05-08 14:32:00] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/ab/2f/db1cea8b4d3ac0691b14263447c14329950cd64956d3f609d862d58439bb/unified_planning-0.6.0.2.dev1.tar.gz
+[2023-05-08 14:32:00] INFO root fetch - processPackages [redshift-tools]: Downloading https://files.pythonhosted.org/packages/7b/93/f8fc3c3b43ad57022d664339ad7bf9a376f21ce6e43e18e8e3d17ed3f096/redshift_tools-0.2.0.tar.gz
+[2023-05-08 14:32:00] INFO root fetch - processPackages [CreateAI]: executing diffoscope
+[2023-05-08 14:32:00] INFO root fetch - processPackages [CreateAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CreateAI-0.8.1.tar.gz tmp/CreateAI-0.8.2.tar.gz --markdown 20230508/C/CreateAI/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-05-08 14:32:00] INFO root fetch - processPackages [PwnModules]: Downloading https://files.pythonhosted.org/packages/66/0c/5ab02b657df111b9d24002f46004120e2af7abfab0d61364769a4512c4aa/PwnModules-1.2.tar.gz
+[2023-05-08 14:32:00] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/ad/a6/385e25c5ff30a922eb691ed854e0730e5ffd2912df577bdb270164468af4/yetl-framework-1.2.5.tar.gz
+[2023-05-08 14:32:00] INFO root fetch - processPackages [troncos]: Downloading https://files.pythonhosted.org/packages/e7/e9/2f0e659135b8b693a31414f88794a07254a464019df4d1152bda551810b4/troncos-3.2.1.tar.gz
+[2023-05-08 14:32:00] INFO root fetch - processPackages [redshift-tools]: executing diffoscope
+[2023-05-08 14:32:00] INFO root fetch - processPackages [redshift-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redshift_tools-0.1.0.tar.gz tmp/redshift_tools-0.2.0.tar.gz --markdown 20230508/r/redshift-tools/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-08 14:32:00] INFO root fetch - processPackages [scalecodec]: Downloading https://files.pythonhosted.org/packages/a3/41/810f40372caae4cfbd7083061bdce14ec88e3654680bcd7b680c2de94b93/scalecodec-1.2.1.tar.gz
+[2023-05-08 14:32:00] INFO root fetch - processPackages [chitose]: Downloading https://files.pythonhosted.org/packages/95/8a/cebbe544e437b9f4cf8a6509b10780ea0a9bf34ae222e54beac2b1818a01/chitose-0.0.3.tar.gz
+[2023-05-08 14:32:00] INFO root fetch - processPackages [PwnModules]: executing diffoscope
+[2023-05-08 14:32:00] INFO root fetch - processPackages [PwnModules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PwnModules-1.1.tar.gz tmp/PwnModules-1.2.tar.gz --markdown 20230508/P/PwnModules/1.1-1.2/diff.md --exclude *.pyd
+[2023-05-08 14:32:00] INFO root fetch - processPackages [me-setups]: Downloading https://files.pythonhosted.org/packages/2e/bc/f369469b4df8f0fc2c11f5fa143594a8fb4187c5e3a944e2253162c7b71c/me_setups-1.6.9.tar.gz
+[2023-05-08 14:32:00] INFO root fetch - processPackages [yetl-framework]: executing diffoscope
+[2023-05-08 14:32:00] INFO root fetch - processPackages [yetl-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yetl-framework-1.2.4.tar.gz tmp/yetl-framework-1.2.5.tar.gz --markdown 20230508/y/yetl-framework/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-05-08 14:32:00] INFO root fetch - processPackages [troncos]: executing diffoscope
+[2023-05-08 14:32:00] INFO root fetch - processPackages [troncos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/troncos-3.2.0.tar.gz tmp/troncos-3.2.1.tar.gz --markdown 20230508/t/troncos/3.2.0-3.2.1/diff.md --exclude *.pyd
+[2023-05-08 14:32:00] INFO root fetch - processPackages [chitose]: executing diffoscope
+[2023-05-08 14:32:00] INFO root fetch - processPackages [chitose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chitose-0.0.2.tar.gz tmp/chitose-0.0.3.tar.gz --markdown 20230508/c/chitose/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-08 14:32:00] INFO root fetch - processPackages [me-setups]: executing diffoscope
+[2023-05-08 14:32:00] INFO root fetch - processPackages [me-setups]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/me_setups-1.6.8.tar.gz tmp/me_setups-1.6.9.tar.gz --markdown 20230508/m/me-setups/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-05-08 14:32:00] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/7b/cd/ac15f362b634f8dfca374107a12b11d18cda8da3341e1e1de92d45e36fc9/unified_planning-0.6.0.9.dev1.tar.gz
+[2023-05-08 14:32:00] INFO root fetch - processPackages [unified-planning]: executing diffoscope
+[2023-05-08 14:32:00] INFO root fetch - processPackages [unified-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unified_planning-0.6.0.2.dev1.tar.gz tmp/unified_planning-0.6.0.9.dev1.tar.gz --markdown 20230508/u/unified-planning/0.6.0.2.dev1-0.6.0.9.dev1/diff.md --exclude *.pyd
+[2023-05-08 14:32:01] INFO root fetch - processPackages [scalecodec]: Downloading https://files.pythonhosted.org/packages/bf/85/db7d7c472d25b7d170e0e15249366afdd57fd7d15377930f6b1c771fe8f8/scalecodec-1.2.2.tar.gz
+[2023-05-08 14:32:01] INFO root fetch - processPackages [scalecodec]: executing diffoscope
+[2023-05-08 14:32:01] INFO root fetch - processPackages [scalecodec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalecodec-1.2.1.tar.gz tmp/scalecodec-1.2.2.tar.gz --markdown 20230508/s/scalecodec/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-05-08 14:32:01] INFO root fetch - processPackages [CreateAI]: Start processing: pamai
+[2023-05-08 14:32:01] INFO root fetch - main [MainThread]: End processing [CreateAI]: success
+[2023-05-08 14:32:01] INFO root fetch - processPackages [pamai]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-08 14:32:02] INFO root fetch - processPackages [pamai]: Downloading https://files.pythonhosted.org/packages/79/c5/0336f020b87e8d723196241502cf26195f315fec351ffd180c9f3d8aaed3/pamai-1.0.1.tar.gz
+[2023-05-08 14:32:02] INFO root fetch - processPackages [PwnModules]: Start processing: pamai
+[2023-05-08 14:32:02] INFO root fetch - main [MainThread]: End processing [PwnModules]: success
+[2023-05-08 14:32:02] INFO root fetch - processPackages [pamai]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-08 14:32:02] INFO root fetch - processPackages [yetl-framework]: Start processing: pamai
+[2023-05-08 14:32:02] INFO root fetch - main [MainThread]: End processing [yetl-framework]: success
+[2023-05-08 14:32:02] INFO root fetch - processPackages [pamai]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-08 14:32:02] INFO root fetch - processPackages [pamai]: Downloading https://files.pythonhosted.org/packages/79/c5/0336f020b87e8d723196241502cf26195f315fec351ffd180c9f3d8aaed3/pamai-1.0.1.tar.gz
+[2023-05-08 14:32:02] INFO root fetch - processPackages [pamai]: Downloading https://files.pythonhosted.org/packages/79/c5/0336f020b87e8d723196241502cf26195f315fec351ffd180c9f3d8aaed3/pamai-1.0.1.tar.gz
+[2023-05-08 14:32:02] INFO root fetch - processPackages [kfsd]: Start processing: auto-ts
+[2023-05-08 14:32:02] INFO root fetch - main [MainThread]: End processing [kfsd]: success
+[2023-05-08 14:32:02] INFO root fetch - processPackages [redshift-tools]: Start processing: kalm
+[2023-05-08 14:32:02] INFO root fetch - main [MainThread]: End processing [redshift-tools]: success
+[2023-05-08 14:32:02] INFO root fetch - processPackages [kalm]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-08 14:32:02] INFO root fetch - processPackages [auto-ts]: New version: [0.0.70] Old Version: [0.0.69]
+[2023-05-08 14:32:02] INFO root fetch - processPackages [troncos]: Start processing: qtest-reporter
+[2023-05-08 14:32:02] INFO root fetch - main [MainThread]: End processing [troncos]: success
+[2023-05-08 14:32:02] INFO root fetch - processPackages [pamai]: Downloading https://files.pythonhosted.org/packages/38/eb/f1c0777022b9e946d2e5b158c34abe8e7dd6a9c6237e90be43cdd9af317e/pamai-1.0.2.tar.gz
+[2023-05-08 14:32:02] INFO root fetch - processPackages [pamai]: Downloading https://files.pythonhosted.org/packages/38/eb/f1c0777022b9e946d2e5b158c34abe8e7dd6a9c6237e90be43cdd9af317e/pamai-1.0.2.tar.gz
+[2023-05-08 14:32:02] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-05-08 14:32:02] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.2.1.tar.gz tmp/kalm-0.2.2.tar.gz --markdown 20230508/k/kalm/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-08 14:32:02] INFO root fetch - processPackages [pamai]: Downloading https://files.pythonhosted.org/packages/38/eb/f1c0777022b9e946d2e5b158c34abe8e7dd6a9c6237e90be43cdd9af317e/pamai-1.0.2.tar.gz
+[2023-05-08 14:32:02] INFO root fetch - processPackages [qtest-reporter]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-08 14:32:02] INFO root fetch - main [MainThread]: End processing [me-setups]: success
+[2023-05-08 14:32:02] INFO root fetch - processPackages [pamai]: executing diffoscope
+[2023-05-08 14:32:02] INFO root fetch - processPackages [pamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pamai-1.0.1.tar.gz tmp/pamai-1.0.2.tar.gz --markdown 20230508/p/pamai/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-08 14:32:02] INFO root fetch - processPackages [pamai]: executing diffoscope
+[2023-05-08 14:32:02] INFO root fetch - processPackages [pamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pamai-1.0.1.tar.gz tmp/pamai-1.0.2.tar.gz --markdown 20230508/p/pamai/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-08 14:32:02] INFO root fetch - processPackages [pamai]: executing diffoscope
+[2023-05-08 14:32:02] INFO root fetch - processPackages [pamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pamai-1.0.1.tar.gz tmp/pamai-1.0.2.tar.gz --markdown 20230508/p/pamai/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-08 14:32:02] INFO root fetch - processPackages [auto-ts]: Downloading https://files.pythonhosted.org/packages/9b/c6/d77c6e914c13870ab282c1d1991f497c0562920cc04a05682ebc07c1497f/auto_ts-0.0.69.tar.gz
+[2023-05-08 14:32:02] INFO root fetch - processPackages [qtest-reporter]: Downloading https://files.pythonhosted.org/packages/de/d4/c917e1c1db615f88e243d9057a486eae9fe696104a7a8c105afb1e965076/qtest_reporter-0.0.3.tar.gz
+[2023-05-08 14:32:02] INFO root fetch - processPackages [auto-ts]: Downloading https://files.pythonhosted.org/packages/26/05/93284c1b2fe581bc9541a3bebea524712c10957e77afcca8b9258577b79f/auto_ts-0.0.70.tar.gz
+[2023-05-08 14:32:02] INFO root fetch - processPackages [qtest-reporter]: executing diffoscope
+[2023-05-08 14:32:02] INFO root fetch - processPackages [qtest-reporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtest_reporter-0.0.2.tar.gz tmp/qtest_reporter-0.0.3.tar.gz --markdown 20230508/q/qtest-reporter/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-08 14:32:03] INFO root fetch - processPackages [auto-ts]: executing diffoscope
+[2023-05-08 14:32:03] INFO root fetch - processPackages [auto-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_ts-0.0.69.tar.gz tmp/auto_ts-0.0.70.tar.gz --markdown 20230508/a/auto-ts/0.0.69-0.0.70/diff.md --exclude *.pyd
+[2023-05-08 14:32:03] INFO root fetch - main [MainThread]: End processing [chitose]: success
+[2023-05-08 14:32:03] INFO root fetch - main [MainThread]: End processing [pamai]: success
+[2023-05-08 14:32:03] INFO root fetch - main [MainThread]: End processing [pamai]: success
+[2023-05-08 14:32:03] INFO root fetch - main [MainThread]: End processing [pamai]: success
+[2023-05-08 14:32:03] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-05-08 14:32:04] INFO root fetch - main [MainThread]: End processing [qtest-reporter]: success
+[2023-05-08 14:32:04] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
+[2023-05-08 14:32:04] INFO root fetch - main [MainThread]: End processing [scalecodec]: success
+[2023-05-08 14:32:05] INFO root fetch - main [MainThread]: End processing [auto-ts]: success
+[2023-05-08 14:32:05] INFO root fetch - main [MainThread]: Store serial: [18016591]
