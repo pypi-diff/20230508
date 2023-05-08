@@ -15247,3 +15247,175 @@ EOFError: EOF read where object expected
 [2023-05-08 17:03:50] INFO root fetch - main [MainThread]: End processing [freva-deployment]: success
 [2023-05-08 17:03:52] INFO root fetch - main [MainThread]: End processing [platformio]: success
 [2023-05-08 17:03:52] INFO root fetch - main [MainThread]: Store serial: [18018441]
+[2023-05-08 17:08:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18018441]
+[2023-05-08 17:09:01] INFO root fetch - main [MainThread]: Found 29 changed packages
+[2023-05-08 17:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sesg
+[2023-05-08 17:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: webscrapbook
+[2023-05-08 17:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: renovosolutions.aws-cdk-control-tower-lifecycle-events
+[2023-05-08 17:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cluster-experiments
+[2023-05-08 17:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langchain-serve
+[2023-05-08 17:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: periodic-element-properties
+[2023-05-08 17:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: catwalk-client
+[2023-05-08 17:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spotON_sdk
+[2023-05-08 17:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: HumanCursor
+[2023-05-08 17:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bmw-lobster-core
+[2023-05-08 17:09:02] INFO root fetch - processPackages [cluster-experiments]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-05-08 17:09:02] INFO root fetch - processPackages [sesg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 17:09:02] INFO root fetch - processPackages [catwalk-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-08 17:09:02] INFO root fetch - processPackages [spotON_sdk]: New version: [0.0.2.1] Old Version: [0.0.2.0]
+[2023-05-08 17:09:02] INFO root fetch - processPackages [periodic-element-properties]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-08 17:09:02] INFO root fetch - processPackages [HumanCursor]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-08 17:09:02] INFO root fetch - processPackages [bmw-lobster-core]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-08 17:09:02] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-05-08 17:09:02] INFO root fetch - processPackages [webscrapbook]: New version: [1.9.0] Old Version: [1.8.3]
+[2023-05-08 17:09:02] INFO root fetch - processPackages [renovosolutions.aws-cdk-control-tower-lifecycle-events]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-08 17:09:02] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-05-08 17:09:02] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230508/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-05-08 17:09:02] INFO root fetch - processPackages [renovosolutions.aws-cdk-control-tower-lifecycle-events]: executing diffoscope
+[2023-05-08 17:09:02] INFO root fetch - processPackages [renovosolutions.aws-cdk-control-tower-lifecycle-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-control-tower-lifecycle-events-0.1.98.tar.gz tmp/renovosolutions.aws-cdk-control-tower-lifecycle-events-0.1.99.tar.gz --markdown 20230508/r/renovosolutions.aws-cdk-control-tower-lifecycle-events/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-08 17:09:02] INFO root fetch - processPackages [cluster-experiments]: Downloading https://files.pythonhosted.org/packages/3a/eb/efa58df558f9b5dad643e386c5bf7f712efc8602478424dd9641c6c98bc4/cluster_experiments-0.6.3.tar.gz
+[2023-05-08 17:09:02] INFO root fetch - processPackages [catwalk-client]: Downloading https://files.pythonhosted.org/packages/be/e1/2689c69cf1c4d9edbcb19ba0ce8e06eb89600c26ee4b9b13c0f92d1b98ba/catwalk_client-0.0.8.tar.gz
+[2023-05-08 17:09:02] INFO root fetch - processPackages [HumanCursor]: Downloading https://files.pythonhosted.org/packages/bf/83/f8d2a358fe32f4532f23347e81cee64b313f731dac3df518697751452a73/HumanCursor-0.0.7.tar.gz
+[2023-05-08 17:09:02] INFO root fetch - processPackages [spotON_sdk]: Downloading https://files.pythonhosted.org/packages/3d/26/1b2527eb4b84dbe5df9549844f7cd60b47bad2c8b2a05ff0bc0307e0918d/spotON_sdk-0.0.2.1.tar.gz
+[2023-05-08 17:09:02] INFO root fetch - processPackages [sesg]: Downloading https://files.pythonhosted.org/packages/32/a5/c948ce4c33581a843a2c081120906c27c689f26208e8d99c3228f95c9c33/sesg-0.0.8.tar.gz
+[2023-05-08 17:09:02] INFO root fetch - processPackages [periodic-element-properties]: Downloading https://files.pythonhosted.org/packages/b3/26/6cbe8bd68759e7a6811a7f4be39165f40707a2cd2e51188cbb69b63ecee1/periodic_element_properties-0.1.4.tar.gz
+[2023-05-08 17:09:02] INFO root fetch - processPackages [bmw-lobster-core]: Downloading https://files.pythonhosted.org/packages/90/46/e2d5516d784a6dce26bd5b10e715455187b4431541b4328ea86ec18df12c/bmw-lobster-core-0.9.1.tar.gz
+[2023-05-08 17:09:02] INFO root fetch - processPackages [webscrapbook]: Downloading https://files.pythonhosted.org/packages/6d/b8/c6bece5fb59a25e4d30eb65b74d6505d3cd315452e1a818b75591961d3ae/webscrapbook-1.8.3.tar.gz
+[2023-05-08 17:09:02] INFO root fetch - processPackages [spotON_sdk]: executing diffoscope
+[2023-05-08 17:09:02] INFO root fetch - processPackages [spotON_sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotON_sdk-0.0.2.0.tar.gz tmp/spotON_sdk-0.0.2.1.tar.gz --markdown 20230508/s/spotON_sdk/0.0.2.0-0.0.2.1/diff.md --exclude *.pyd
+[2023-05-08 17:09:02] INFO root fetch - processPackages [HumanCursor]: executing diffoscope
+[2023-05-08 17:09:02] INFO root fetch - processPackages [HumanCursor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HumanCursor-0.0.6.tar.gz tmp/HumanCursor-0.0.7.tar.gz --markdown 20230508/H/HumanCursor/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-08 17:09:02] INFO root fetch - processPackages [periodic-element-properties]: executing diffoscope
+[2023-05-08 17:09:02] INFO root fetch - processPackages [periodic-element-properties]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/periodic_element_properties-0.1.3.tar.gz tmp/periodic_element_properties-0.1.4.tar.gz --markdown 20230508/p/periodic-element-properties/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-08 17:09:02] INFO root fetch - processPackages [cluster-experiments]: Downloading https://files.pythonhosted.org/packages/6a/2a/4bed403fb3857e10600da8968571f4807dedc66c23ba90224f1eb9133e32/cluster_experiments-0.6.4.tar.gz
+[2023-05-08 17:09:02] INFO root fetch - processPackages [bmw-lobster-core]: Downloading https://files.pythonhosted.org/packages/0b/32/11e2dc1fdc939d0c2541ca0ddd360a24b1890efd91a4e42b5fc414e23d42/bmw-lobster-core-0.9.2.tar.gz
+[2023-05-08 17:09:02] INFO root fetch - processPackages [catwalk-client]: Downloading https://files.pythonhosted.org/packages/58/a0/df0b77518706d2271a999e906a65b9c5e019007055ed27147a03013ebe69/catwalk_client-0.0.9.tar.gz
+[2023-05-08 17:09:02] INFO root fetch - processPackages [cluster-experiments]: executing diffoscope
+[2023-05-08 17:09:02] INFO root fetch - processPackages [cluster-experiments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cluster_experiments-0.6.3.tar.gz tmp/cluster_experiments-0.6.4.tar.gz --markdown 20230508/c/cluster-experiments/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-05-08 17:09:02] INFO root fetch - processPackages [bmw-lobster-core]: executing diffoscope
+[2023-05-08 17:09:02] INFO root fetch - processPackages [bmw-lobster-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmw-lobster-core-0.9.1.tar.gz tmp/bmw-lobster-core-0.9.2.tar.gz --markdown 20230508/b/bmw-lobster-core/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-08 17:09:02] INFO root fetch - processPackages [webscrapbook]: Downloading https://files.pythonhosted.org/packages/2a/d1/521c8d93b8efe2c485da1fe9428113bf92df0b9a3683f5c0b6ae0c24d099/webscrapbook-1.9.0.tar.gz
+[2023-05-08 17:09:02] INFO root fetch - processPackages [catwalk-client]: executing diffoscope
+[2023-05-08 17:09:02] INFO root fetch - processPackages [sesg]: Downloading https://files.pythonhosted.org/packages/b0/99/29404871db61302e769d5573a523b07920080eb0de82ce589685af7d2da5/sesg-0.0.9.tar.gz
+[2023-05-08 17:09:02] INFO root fetch - processPackages [catwalk-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catwalk_client-0.0.8.tar.gz tmp/catwalk_client-0.0.9.tar.gz --markdown 20230508/c/catwalk-client/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 17:09:02] INFO root fetch - processPackages [webscrapbook]: executing diffoscope
+[2023-05-08 17:09:02] INFO root fetch - processPackages [webscrapbook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webscrapbook-1.8.3.tar.gz tmp/webscrapbook-1.9.0.tar.gz --markdown 20230508/w/webscrapbook/1.8.3-1.9.0/diff.md --exclude *.pyd
+[2023-05-08 17:09:02] INFO root fetch - processPackages [sesg]: executing diffoscope
+[2023-05-08 17:09:02] INFO root fetch - processPackages [sesg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sesg-0.0.8.tar.gz tmp/sesg-0.0.9.tar.gz --markdown 20230508/s/sesg/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-08 17:09:03] INFO root fetch - processPackages [spotON_sdk]: Start processing: bmw-lobster
+[2023-05-08 17:09:03] INFO root fetch - main [MainThread]: End processing [spotON_sdk]: success
+[2023-05-08 17:09:03] INFO root fetch - processPackages [bmw-lobster]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-08 17:09:03] INFO root fetch - processPackages [HumanCursor]: Start processing: bmw-lobster-tool-codebeamer
+[2023-05-08 17:09:03] INFO root fetch - main [MainThread]: End processing [HumanCursor]: success
+[2023-05-08 17:09:03] INFO root fetch - processPackages [bmw-lobster-tool-codebeamer]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-08 17:09:03] INFO root fetch - processPackages [bmw-lobster]: Downloading https://files.pythonhosted.org/packages/1e/3a/5556335ef1c062e3e0b64e52cfc9276a65183ae7a1ed9c189e323605abc9/bmw-lobster-0.9.1.tar.gz
+[2023-05-08 17:09:04] INFO root fetch - processPackages [periodic-element-properties]: Start processing: bmw-lobster-tool-cpp
+[2023-05-08 17:09:04] INFO root fetch - main [MainThread]: End processing [periodic-element-properties]: success
+[2023-05-08 17:09:04] INFO root fetch - processPackages [bmw-lobster-tool-cpp]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-08 17:09:04] INFO root fetch - processPackages [bmw-lobster-tool-codebeamer]: Downloading https://files.pythonhosted.org/packages/b1/44/8c1f207b109d4423fca0d9c98466f036805c94c984da8ce3b9373f4e766b/bmw-lobster-tool-codebeamer-0.9.1.tar.gz
+[2023-05-08 17:09:04] INFO root fetch - processPackages [renovosolutions.aws-cdk-control-tower-lifecycle-events]: Start processing: bmw-lobster-tool-gtest
+[2023-05-08 17:09:04] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-control-tower-lifecycle-events]: success
+[2023-05-08 17:09:04] INFO root fetch - processPackages [bmw-lobster-tool-gtest]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-08 17:09:04] INFO root fetch - processPackages [catwalk-client]: Start processing: bmw-lobster-tool-json
+[2023-05-08 17:09:04] INFO root fetch - main [MainThread]: End processing [catwalk-client]: success
+[2023-05-08 17:09:04] WARNING root fetch - processPackages [bmw-lobster-tool-json]: Skipping, unable to determine old version
+[2023-05-08 17:09:04] INFO root fetch - processPackages [bmw-lobster-tool-json]: Start processing: bmw-lobster-tool-python
+[2023-05-08 17:09:04] INFO root fetch - main [MainThread]: End processing [bmw-lobster-tool-json] error
+[2023-05-08 17:09:04] INFO root fetch - processPackages [bmw-lobster-tool-python]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-08 17:09:04] INFO root fetch - processPackages [bmw-lobster]: Downloading https://files.pythonhosted.org/packages/81/eb/8f78161d98e70aeceebeeedc66272c10b4cba3b6b46eeadddaebd61e9663/bmw-lobster-0.9.2.tar.gz
+[2023-05-08 17:09:04] INFO root fetch - processPackages [cluster-experiments]: Start processing: bmw-lobster-tool-trlc
+[2023-05-08 17:09:04] INFO root fetch - main [MainThread]: End processing [cluster-experiments]: success
+[2023-05-08 17:09:04] INFO root fetch - processPackages [bmw-lobster-tool-cpp]: Downloading https://files.pythonhosted.org/packages/c2/5b/07f464d898ffb898bf940c3888f518992ca249a23b13509a0a4fcf5be42e/bmw-lobster-tool-cpp-0.9.1.tar.gz
+[2023-05-08 17:09:04] WARNING root fetch - processPackages [bmw-lobster-tool-trlc]: Skipping, unable to determine old version
+[2023-05-08 17:09:04] INFO root fetch - processPackages [bmw-lobster-tool-trlc]: Start processing: langchain-serve
+[2023-05-08 17:09:04] INFO root fetch - main [MainThread]: End processing [bmw-lobster-tool-trlc] error
+[2023-05-08 17:09:04] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-05-08 17:09:04] INFO root fetch - processPackages [bmw-lobster-tool-codebeamer]: Downloading https://files.pythonhosted.org/packages/a8/71/1bd596d176031d8f7a4c46aa6bbf871267925770215388650be9116765f3/bmw-lobster-tool-codebeamer-0.9.2.tar.gz
+[2023-05-08 17:09:04] INFO root fetch - processPackages [bmw-lobster]: executing diffoscope
+[2023-05-08 17:09:04] INFO root fetch - processPackages [bmw-lobster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmw-lobster-0.9.1.tar.gz tmp/bmw-lobster-0.9.2.tar.gz --markdown 20230508/b/bmw-lobster/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-08 17:09:04] INFO root fetch - processPackages [bmw-lobster-tool-gtest]: Downloading https://files.pythonhosted.org/packages/d0/21/3f479b348e55db4fe8c305be5f069aeee8203283ece08ce574ee918ae8b1/bmw-lobster-tool-gtest-0.9.1.tar.gz
+[2023-05-08 17:09:04] INFO root fetch - processPackages [bmw-lobster-tool-codebeamer]: executing diffoscope
+[2023-05-08 17:09:04] INFO root fetch - processPackages [bmw-lobster-tool-codebeamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmw-lobster-tool-codebeamer-0.9.1.tar.gz tmp/bmw-lobster-tool-codebeamer-0.9.2.tar.gz --markdown 20230508/b/bmw-lobster-tool-codebeamer/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-08 17:09:04] INFO root fetch - processPackages [bmw-lobster-tool-python]: Downloading https://files.pythonhosted.org/packages/c0/5a/057fa494f2a97ca31220185fc20b89fd6162bbeacb4807fe01d4e914abdd/bmw-lobster-tool-python-0.9.1.tar.gz
+[2023-05-08 17:09:04] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-05-08 17:09:04] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230508/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-05-08 17:09:04] INFO root fetch - processPackages [sesg]: Start processing: automation-common-test
+[2023-05-08 17:09:04] INFO root fetch - main [MainThread]: End processing [sesg]: success
+[2023-05-08 17:09:04] INFO root fetch - processPackages [automation-common-test]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-05-08 17:09:04] INFO root fetch - processPackages [bmw-lobster-tool-cpp]: Downloading https://files.pythonhosted.org/packages/03/f6/6dd10a9e164954c097c3895a8b76f86515ecb4fa1986275d505eaf560851/bmw-lobster-tool-cpp-0.9.2.tar.gz
+[2023-05-08 17:09:04] INFO root fetch - processPackages [bmw-lobster-tool-cpp]: executing diffoscope
+[2023-05-08 17:09:04] INFO root fetch - processPackages [bmw-lobster-tool-cpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmw-lobster-tool-cpp-0.9.1.tar.gz tmp/bmw-lobster-tool-cpp-0.9.2.tar.gz --markdown 20230508/b/bmw-lobster-tool-cpp/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-08 17:09:04] INFO root fetch - processPackages [bmw-lobster-tool-gtest]: Downloading https://files.pythonhosted.org/packages/c8/31/f9a0c7642b3d729897d944cd7cca571307f15186a189c120dab1b9a63dde/bmw-lobster-tool-gtest-0.9.2.tar.gz
+[2023-05-08 17:09:04] INFO root fetch - processPackages [bmw-lobster-core]: Start processing: hg38genome
+[2023-05-08 17:09:04] INFO root fetch - main [MainThread]: End processing [bmw-lobster-core]: success
+[2023-05-08 17:09:04] WARNING root fetch - processPackages [hg38genome]: Skipping, unable to determine old version
+[2023-05-08 17:09:04] INFO root fetch - processPackages [hg38genome]: Start processing: coiled
+[2023-05-08 17:09:04] INFO root fetch - main [MainThread]: End processing [hg38genome] error
+[2023-05-08 17:09:04] INFO root fetch - processPackages [bmw-lobster-tool-python]: Downloading https://files.pythonhosted.org/packages/7c/c1/9b1248ce72cda9b7f74d702c8dc9c936a0316354b2ee9c9f31471333473a/bmw-lobster-tool-python-0.9.2.tar.gz
+[2023-05-08 17:09:04] INFO root fetch - processPackages [coiled]: New version: [0.6.3.dev3] Old Version: [0.6.3.dev2]
+[2023-05-08 17:09:04] INFO root fetch - processPackages [automation-common-test]: Downloading https://files.pythonhosted.org/packages/93/53/f36f79a38b917c8598474432e5cccab2339043bd2185e1275276ac08c986/automation-common-test-1.6.0.tar.gz
+[2023-05-08 17:09:04] INFO root fetch - processPackages [bmw-lobster-tool-gtest]: executing diffoscope
+[2023-05-08 17:09:04] INFO root fetch - processPackages [bmw-lobster-tool-gtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmw-lobster-tool-gtest-0.9.1.tar.gz tmp/bmw-lobster-tool-gtest-0.9.2.tar.gz --markdown 20230508/b/bmw-lobster-tool-gtest/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-08 17:09:04] INFO root fetch - processPackages [bmw-lobster-tool-python]: executing diffoscope
+[2023-05-08 17:09:04] INFO root fetch - processPackages [bmw-lobster-tool-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmw-lobster-tool-python-0.9.1.tar.gz tmp/bmw-lobster-tool-python-0.9.2.tar.gz --markdown 20230508/b/bmw-lobster-tool-python/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-08 17:09:04] INFO root fetch - processPackages [automation-common-test]: executing diffoscope
+[2023-05-08 17:09:04] INFO root fetch - processPackages [automation-common-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation-common-test-1.5.0.tar.gz tmp/automation-common-test-1.6.0.tar.gz --markdown 20230508/a/automation-common-test/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-05-08 17:09:05] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/6b/f0/dba79c6cc2b10d40217f455a0e02abcec03c78066aafa05696f3d2313e8e/coiled-0.6.3.dev3.tar.gz
+[2023-05-08 17:09:05] INFO root fetch - processPackages [langchain-serve]: Start processing: jupyterlab-code-formatter
+[2023-05-08 17:09:05] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-05-08 17:09:05] INFO root fetch - processPackages [jupyterlab-code-formatter]: New version: [2.1.0rc0] Old Version: [2.0.0rc2]
+[2023-05-08 17:09:05] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-08 17:09:05] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.3.dev2.tar.gz tmp/coiled-0.6.3.dev3.tar.gz --markdown 20230508/c/coiled/0.6.3.dev2-0.6.3.dev3/diff.md --exclude *.pyd
+[2023-05-08 17:09:05] INFO root fetch - processPackages [webscrapbook]: Start processing: aiolimiter
+[2023-05-08 17:09:05] INFO root fetch - main [MainThread]: End processing [webscrapbook]: success
+[2023-05-08 17:09:05] INFO root fetch - processPackages [aiolimiter]: New version: [1.1.0] Old Version: [1.0.0b1]
+[2023-05-08 17:09:05] INFO root fetch - processPackages [jupyterlab-code-formatter]: Downloading https://files.pythonhosted.org/packages/95/7d/ca26bd01df6c03c65c5496377183a76c6aa2522dceab2e5b1414926f608e/jupyterlab_code_formatter-2.1.0rc0.tar.gz
+[2023-05-08 17:09:05] INFO root fetch - processPackages [aiolimiter]: Downloading https://files.pythonhosted.org/packages/c3/85/18544617ee3ad8df142d7e818dece8fc018c6093780d6224d82e26c7c978/aiolimiter-1.0.0b1.tar.gz
+[2023-05-08 17:09:05] INFO root fetch - processPackages [jupyterlab-code-formatter]: executing diffoscope
+[2023-05-08 17:09:05] INFO root fetch - processPackages [jupyterlab-code-formatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_code_formatter-2.0.0rc2.tar.gz tmp/jupyterlab_code_formatter-2.1.0rc0.tar.gz --markdown 20230508/j/jupyterlab-code-formatter/2.0.0rc2-2.1.0rc0/diff.md --exclude *.pyd
+[2023-05-08 17:09:05] INFO root fetch - processPackages [bmw-lobster]: Start processing: renovosolutions.aws-cdk-renovo-instance-service
+[2023-05-08 17:09:05] INFO root fetch - main [MainThread]: End processing [bmw-lobster]: success
+[2023-05-08 17:09:05] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-instance-service]: New version: [2.9.99] Old Version: [2.9.98]
+[2023-05-08 17:09:05] INFO root fetch - processPackages [bmw-lobster-tool-cpp]: Start processing: yetl-framework
+[2023-05-08 17:09:05] INFO root fetch - main [MainThread]: End processing [bmw-lobster-tool-cpp]: success
+[2023-05-08 17:09:05] INFO root fetch - processPackages [aiolimiter]: Downloading https://files.pythonhosted.org/packages/df/62/6de944a6839a68f7d69e552e26d12234d9c556472e4c277a3a563013640a/aiolimiter-1.1.0.tar.gz
+[2023-05-08 17:09:05] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-instance-service]: executing diffoscope
+[2023-05-08 17:09:05] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-instance-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-renovo-instance-service-2.9.98.tar.gz tmp/renovosolutions.aws-cdk-renovo-instance-service-2.9.99.tar.gz --markdown 20230508/r/renovosolutions.aws-cdk-renovo-instance-service/2.9.98-2.9.99/diff.md --exclude *.pyd
+[2023-05-08 17:09:05] INFO root fetch - processPackages [yetl-framework]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-08 17:09:05] INFO root fetch - processPackages [bmw-lobster-tool-codebeamer]: Start processing: licensekeygentest
+[2023-05-08 17:09:05] INFO root fetch - main [MainThread]: End processing [bmw-lobster-tool-codebeamer]: success
+[2023-05-08 17:09:05] INFO root fetch - processPackages [aiolimiter]: executing diffoscope
+[2023-05-08 17:09:05] INFO root fetch - processPackages [aiolimiter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiolimiter-1.0.0b1.tar.gz tmp/aiolimiter-1.1.0.tar.gz --markdown 20230508/a/aiolimiter/1.0.0b1-1.1.0/diff.md --exclude *.pyd
+[2023-05-08 17:09:06] INFO root fetch - processPackages [yetl-framework]: executing diffoscope
+[2023-05-08 17:09:06] INFO root fetch - processPackages [yetl-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yetl-framework-1.2.8.tar.gz tmp/yetl-framework-1.2.9.tar.gz --markdown 20230508/y/yetl-framework/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-08 17:09:06] WARNING root fetch - processPackages [licensekeygentest]: Skipping, unable to determine old version
+[2023-05-08 17:09:06] INFO root fetch - processPackages [licensekeygentest]: Start processing: JBPhD
+[2023-05-08 17:09:06] INFO root fetch - main [MainThread]: End processing [licensekeygentest] error
+[2023-05-08 17:09:06] INFO root fetch - processPackages [bmw-lobster-tool-python]: Start processing: gptw
+[2023-05-08 17:09:06] INFO root fetch - main [MainThread]: End processing [bmw-lobster-tool-python]: success
+[2023-05-08 17:09:06] INFO root fetch - processPackages [JBPhD]: New version: [1.1] Old Version: [1.0.0]
+[2023-05-08 17:09:06] INFO root fetch - processPackages [JBPhD]: Downloading https://files.pythonhosted.org/packages/cd/cc/4c3631665d0d98c52dcf5b0936514f5550638f3279f095101e3d5613f6b6/jbphd-1.0-py3-none-any.whl
+[2023-05-08 17:09:06] INFO root fetch - processPackages [bmw-lobster-tool-gtest]: Start processing: EnergyCapSdk
+[2023-05-08 17:09:06] INFO root fetch - main [MainThread]: End processing [bmw-lobster-tool-gtest]: success
+[2023-05-08 17:09:06] INFO root fetch - main [MainThread]: End processing [automation-common-test]: success
+[2023-05-08 17:09:06] WARNING root fetch - processPackages [JBPhD]: Skipping package: exceeds size limit 13199869>=10485760
+[2023-05-08 17:09:06] INFO root fetch - main [MainThread]: End processing [JBPhD] error
+[2023-05-08 17:09:06] INFO root fetch - processPackages [gptw]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-08 17:09:06] INFO root fetch - processPackages [gptw]: Downloading https://files.pythonhosted.org/packages/b1/b3/4340cf970180f3059fff86244804ae66ab2605d557dd6df6f165b975de69/gptw-0.1.1.tar.gz
+[2023-05-08 17:09:06] INFO root fetch - processPackages [EnergyCapSdk]: New version: [8.2302.4532] Old Version: [8.2302.4520]
+[2023-05-08 17:09:06] INFO root fetch - processPackages [gptw]: Downloading https://files.pythonhosted.org/packages/ca/3c/a79dcc5d4efddd35d3b22a8a7bc29b6aa7c085cadc0a0f8c3876ebfdcfd6/gptw-0.1.2.tar.gz
+[2023-05-08 17:09:06] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-05-08 17:09:06] INFO root fetch - processPackages [EnergyCapSdk]: Downloading https://files.pythonhosted.org/packages/56/7e/39c6ced7bf1d02124c2271f8fe48c6b0ba41ff67e5e7ca51b0b20ad419c7/EnergyCapSdk-8.2302.4520.tar.gz
+[2023-05-08 17:09:06] INFO root fetch - processPackages [gptw]: executing diffoscope
+[2023-05-08 17:09:06] INFO root fetch - processPackages [gptw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptw-0.1.1.tar.gz tmp/gptw-0.1.2.tar.gz --markdown 20230508/g/gptw/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-08 17:09:06] INFO root fetch - processPackages [EnergyCapSdk]: Downloading https://files.pythonhosted.org/packages/39/95/8e0eb0cd9fb46b20d99c275a3a1f1fc95ad515b87cd0a76f6449c66efb4a/EnergyCapSdk-8.2302.4532.tar.gz
+[2023-05-08 17:09:07] INFO root fetch - main [MainThread]: End processing [aiolimiter]: success
+[2023-05-08 17:09:07] INFO root fetch - main [MainThread]: End processing [yetl-framework]: success
+[2023-05-08 17:09:07] INFO root fetch - processPackages [EnergyCapSdk]: executing diffoscope
+[2023-05-08 17:09:07] INFO root fetch - processPackages [EnergyCapSdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EnergyCapSdk-8.2302.4520.tar.gz tmp/EnergyCapSdk-8.2302.4532.tar.gz --markdown 20230508/E/EnergyCapSdk/8.2302.4520-8.2302.4532/diff.md --exclude *.pyd
+[2023-05-08 17:09:07] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-renovo-instance-service]: success
+[2023-05-08 17:09:07] INFO root fetch - main [MainThread]: End processing [gptw]: success
+[2023-05-08 17:09:09] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-08 17:09:11] INFO root fetch - main [MainThread]: End processing [jupyterlab-code-formatter]: success
+[2023-05-08 17:09:39] INFO root fetch - main [MainThread]: End processing [EnergyCapSdk]: success
+[2023-05-08 17:09:39] INFO root fetch - main [MainThread]: Store serial: [18018534]
