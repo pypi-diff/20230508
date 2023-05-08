@@ -2462,3 +2462,42 @@
 [2023-05-08 04:09:07] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-csgo-case-simulator]: success
 [2023-05-08 04:09:09] INFO root fetch - main [MainThread]: End processing [phanterpwa]: success
 [2023-05-08 04:09:09] INFO root fetch - main [MainThread]: Store serial: [18011490]
+[2023-05-08 04:14:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18011490]
+[2023-05-08 04:14:19] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-08 04:14:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-cr-constructs
+[2023-05-08 04:14:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: souJpg-comm
+[2023-05-08 04:14:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-certbot-dns-route53
+[2023-05-08 04:14:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ipinfooo
+[2023-05-08 04:14:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-certbot-dns-route53
+[2023-05-08 04:14:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: souJpg-comm
+[2023-05-08 04:14:19] WARNING root fetch - processPackages [ipinfooo]: Skipping, unable to determine old version
+[2023-05-08 04:14:19] INFO root fetch - main [MainThread]: End processing [ipinfooo] error
+[2023-05-08 04:14:19] INFO root fetch - processPackages [souJpg-comm]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-08 04:14:19] INFO root fetch - processPackages [souJpg-comm]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-08 04:14:19] INFO root fetch - processPackages [cdk-cr-constructs]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-05-08 04:14:19] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-05-08 04:14:19] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-05-08 04:14:19] INFO root fetch - processPackages [souJpg-comm]: Downloading https://files.pythonhosted.org/packages/c2/49/7022801d3f88e10bd270184aef408fec4325458f6bef42fd1e0643ba5b0c/souJpg_comm-1.0.6-py3-none-any.whl
+[2023-05-08 04:14:19] INFO root fetch - processPackages [souJpg-comm]: Downloading https://files.pythonhosted.org/packages/c2/49/7022801d3f88e10bd270184aef408fec4325458f6bef42fd1e0643ba5b0c/souJpg_comm-1.0.6-py3-none-any.whl
+[2023-05-08 04:14:19] INFO root fetch - processPackages [cdk-cr-constructs]: Downloading https://files.pythonhosted.org/packages/fe/58/3e435ab85ca79a785db1238624c29b48fc60946bcbae9b2813fd45cb0a41/cdk-cr-constructs-2.1.98.tar.gz
+[2023-05-08 04:14:19] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/3a/17/b6246ecdc02e08f5a2a265eb410094bc1978a1c23a9ff1ef9625deee1c7c/cdk-certbot-dns-route53-2.1.98.tar.gz
+[2023-05-08 04:14:19] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/3a/17/b6246ecdc02e08f5a2a265eb410094bc1978a1c23a9ff1ef9625deee1c7c/cdk-certbot-dns-route53-2.1.98.tar.gz
+[2023-05-08 04:14:19] WARNING root fetch - processPackages [cdk-cr-constructs]: Skipping package: exceeds size limit 12826336>=10485760
+[2023-05-08 04:14:19] INFO root fetch - main [MainThread]: End processing [cdk-cr-constructs] error
+[2023-05-08 04:14:19] INFO root fetch - processPackages [souJpg-comm]: Downloading https://files.pythonhosted.org/packages/9a/5f/f4ae988b66b06c580d9c657e0940df2ab73bb922572f61b1e3ecf1dfd63a/souJpg_comm-1.0.7-py3-none-any.whl
+[2023-05-08 04:14:19] INFO root fetch - processPackages [souJpg-comm]: Downloading https://files.pythonhosted.org/packages/9a/5f/f4ae988b66b06c580d9c657e0940df2ab73bb922572f61b1e3ecf1dfd63a/souJpg_comm-1.0.7-py3-none-any.whl
+[2023-05-08 04:14:19] INFO root fetch - processPackages [souJpg-comm]: executing diffoscope
+[2023-05-08 04:14:19] INFO root fetch - processPackages [souJpg-comm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/souJpg_comm-1.0.6-py3-none-any.whl.zip tmp/souJpg_comm-1.0.7-py3-none-any.whl.zip --markdown 20230508/s/souJpg-comm/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-08 04:14:19] INFO root fetch - processPackages [souJpg-comm]: executing diffoscope
+[2023-05-08 04:14:19] INFO root fetch - processPackages [souJpg-comm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/souJpg_comm-1.0.6-py3-none-any.whl.zip tmp/souJpg_comm-1.0.7-py3-none-any.whl.zip --markdown 20230508/s/souJpg-comm/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-08 04:14:20] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/cc/b6/654c84ec7d8620b5f17a064219a77d716eea46f886b19741e6e9cf3eff24/cdk-certbot-dns-route53-2.1.99.tar.gz
+[2023-05-08 04:14:20] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/cc/b6/654c84ec7d8620b5f17a064219a77d716eea46f886b19741e6e9cf3eff24/cdk-certbot-dns-route53-2.1.99.tar.gz
+[2023-05-08 04:14:20] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2023-05-08 04:14:20] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2023-05-08 04:14:20] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.1.98.tar.gz tmp/cdk-certbot-dns-route53-2.1.99.tar.gz --markdown 20230508/c/cdk-certbot-dns-route53/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-05-08 04:14:20] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230508:/home/abi/fetcher/20230508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.1.98.tar.gz tmp/cdk-certbot-dns-route53-2.1.99.tar.gz --markdown 20230508/c/cdk-certbot-dns-route53/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-05-08 04:14:21] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2023-05-08 04:14:21] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2023-05-08 04:14:21] INFO root fetch - main [MainThread]: End processing [souJpg-comm]: success
+[2023-05-08 04:14:21] INFO root fetch - main [MainThread]: End processing [souJpg-comm]: success
+[2023-05-08 04:14:21] INFO root fetch - main [MainThread]: Store serial: [18011512]
